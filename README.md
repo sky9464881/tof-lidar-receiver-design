@@ -1,6 +1,10 @@
 
 # Pulsed ToF LiDAR Receiver Front-End Design
 
+
+<img width="1212" height="438" alt="image" src="https://github.com/user-attachments/assets/ea7ebd1e-37db-4588-ab70-8dd0fc9bc7e8" />
+
+
 ## Overview
 This project focuses on the design and validation of a receiver front-end for a Pulsed Time-of-Flight (ToF) LiDAR system.  
 The main objective was to reduce walk error caused by variations in received signal amplitude while maintaining wide dynamic range under practical hardware and budget constraints.
@@ -36,6 +40,9 @@ The receiver was designed with the following signal chain:
 The receiver design started from system-level requirements such as rise time, bandwidth, SNR, and dynamic range rather than only schematic-level implementation.
 
 ### 2. High-Speed Analog Front-End Design
+<img width="568" height="497" alt="image" src="https://github.com/user-attachments/assets/60044875-55da-41ad-8a6d-c11272e79e83" /><img width="554" height="550" alt="image" src="https://github.com/user-attachments/assets/4e9c9022-57b2-4a2d-8ae6-060af7fb7ba0" />
+
+
 Special attention was given to:
 - minimizing parasitic capacitance between APD and TIA
 - bias stability
@@ -43,6 +50,10 @@ Special attention was given to:
 - ringing reduction at the post-amplifier stage
 
 ### 3. Practical Hardware Validation
+
+<img width="916" height="528" alt="image" src="https://github.com/user-attachments/assets/868d0997-1a4c-4631-a758-67a4a81ea094" />
+
+
 The design was not limited to simulation.  
 The front-end was implemented on a real PCB and validated through:
 - oscilloscope measurements
@@ -50,6 +61,11 @@ The front-end was implemented on a real PCB and validated through:
 - CSV export and MATLAB-based waveform averaging
 
 ### 4. Tuning and Debugging
+
+<img width="714" height="186" alt="image" src="https://github.com/user-attachments/assets/7a50f561-7174-407a-98db-5c5616257a0d" />
+<img width="645" height="312" alt="image" src="https://github.com/user-attachments/assets/3faefea6-cf70-40e3-a4c6-d57cfc7b56a5" />
+
+
 During validation, several practical issues were identified and improved:
 - APD / laser alignment mismatch
 - OPA855 stability issues
@@ -57,6 +73,8 @@ During validation, several practical issues were identified and improved:
 - ringing at the OPA695 output stage
 
 ## Results
+<img width="799" height="268" alt="image" src="https://github.com/user-attachments/assets/ef53c742-668f-43b7-ac47-5ecc76aa8437" />
+
 The final implementation achieved a wider dynamic range and longer detectable distance than the initial target range.  
 However, walk error performance did not meet the original resolution target, mainly due to ringing and threshold-setting limitations in the measured waveform.
 
