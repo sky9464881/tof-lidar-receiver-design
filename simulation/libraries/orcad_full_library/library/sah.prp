@@ -1,0 +1,125 @@
+("awbha2420"
+	(Creator "Device property file created by analog_uprev on Tue Feb 27 17:32:17 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "HA2420" )
+		( MODEL_TYPE 708 )
+		( PORT_ORDER 
+ 			("OFFSETADJ1")
+ 			("IN+")
+ 			("S/H_CTRL")
+ 			("V+")
+ 			("IN-")
+ 			("OFFSETADJ2")
+ 			("HLDCAP")
+ 			("GND")
+ 			("V-")
+ 			("OUT") )
+	)
+	("model_params"
+	("level_0"
+		( "IB"
+			( "val" "4.0e-8" )
+			( "postol" "IB_PTOL" )
+			( "negtol" "IB_NTOL" )
+			( "distrib" "IB_DIST" )
+		)
+		( "IBOS"
+			( "val" "1.0e-8" )
+			( "postol" "IBOS_PTOL" )
+			( "negtol" "IBOS_NTOL" )
+			( "distrib" "IBOS_DIST" )
+		)
+		( "VOS"
+			( "val" "2.0e-3" )
+			( "postol" "0" )
+			( "negtol" "0" )
+		)
+		( "AVOL"
+			( "val" "80" )
+			( "postol" "0" )
+			( "negtol" "0" )
+		)
+		( "SR"
+			( "val" "5.0" )
+			( "postol" "SR_PTOL" )
+			( "negtol" "SR_NTOL" )
+			( "distrib" "SR_DIST" )
+		)
+		( "IDR"
+			( "val" ".6e-12" )
+			( "postol" "0" )
+			( "negtol" "0" )
+		)
+		( "KDR"
+			( "val" "7e-2" )
+			( "postol" "0" )
+			( "negtol" "0" )
+		)
+	)
+	("symbol"
+			( "AVOL" )
+			( "IB" )
+			( "IBOS" )
+			( "IDR" )
+			( "KDR" )
+			( "SR" )
+			( "VOS" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbha5320"
+	(Creator "Device property file created by analog_uprev on Tue Feb 27 17:32:17 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "HA5320" )
+		( MODEL_TYPE 710 )
+		( PORT_ORDER 
+ 			("CEXT")
+ 			("IN-")
+ 			("IN+")
+ 			("S/H_CTRL")
+ 			("SIG_GND")
+ 			("INTBW")
+ 			("GND")
+ 			("V-")
+ 			("OUT")
+ 			("V+") )
+	)
+	("device_max_ops"
+	)
+)
+("awblf398h"
+	(Creator "Device property file created by analog_uprev on Tue Feb 27 17:32:17 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "LF398" )
+		( MODEL_TYPE 707 )
+		( PORT_ORDER 
+ 			("IN")
+ 			("LOGIC")
+ 			("LOGIC_REF")
+ 			("V-")
+ 			("CH")
+ 			("OUT")
+ 			("V+") )
+	)
+	("device_max_ops"
+	)
+)
+("awblf398j"
+	(Creator "Device property file created by analog_uprev on Tue Feb 27 17:32:17 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "LF398" )
+		( MODEL_TYPE 707 )
+		( PORT_ORDER 
+ 			("IN")
+ 			("LOGIC")
+ 			("LOGIC_REF")
+ 			("V-")
+ 			("CH")
+ 			("OUT")
+ 			("V+") )
+	)
+	("device_max_ops"
+	)
+)

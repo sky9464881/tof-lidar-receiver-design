@@ -1,0 +1,105 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : tesr123123.brd                                )
+(    Software Version : 24.1S003                                      )
+(    Date/Time        : Wed Apr  2 15:31:47 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         '.'
+Design Directory:            'C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/tesr123123/allegro'
+Old design name:             'C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/tesr123123/allegro/tesr123123.brd'
+New design name:             'C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/tesr123123/allegro/tesr123123.brd'
+
+CmdLine: netrev -y 1 -q netrev_constraint_report.xml C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/tesr123123/allegro/#Taaaaau12428.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read ./pstchip.dat 
+   Finished reading ./pstchip.dat (00:00:00.04)
+Starting to read ./pstxprt.dat 
+   Finished reading ./pstxprt.dat (00:00:00.00)
+Starting to read ./pstxnet.dat 
+   Finished reading ./pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'CAPC1005X70N' used by RefDes C11(0.7PF) for device 'GRM1555C1HR70WA01D_CAPC1005X70N_GRM1555C1HR70WA01D' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or u
+
+------ Library Paths ------
+MODULEPATH =  . 
+           c:/cadence/orcadx_24.1/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/OrCADX_24.1/share/orApps/OrCaptureApp/../../../share/local/pcb/symbols 
+           C:/Cadence/OrCADX_24.1/share/orApps/OrCaptureApp/../../../share/pcb/pcb_lib/symbols 
+           C:/Cadence/OrCADX_24.1/share/orApps/OrCaptureApp/../../../share/pcb/allegrolib/symbols 
+           C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/OrCAD_Capture/24.1.0/downloaded_parts/allegropcb 
+           C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/libraries/footprints 
+           C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/libraries/footprints/downloads 
+           C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/OrCADX_24.1/share/orApps/OrCaptureApp/../../../share/local/pcb/padstacks 
+           C:/Cadence/OrCADX_24.1/share/orApps/OrCaptureApp/../../../share/pcb/pcb_lib/symbols 
+           C:/Cadence/OrCADX_24.1/share/orApps/OrCaptureApp/../../../share/pcb/allegrolib/symbols 
+           C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/OrCAD_Capture/24.1.0/downloaded_parts/allegropcb 
+           C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/libraries/footprints 
+           C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/libraries/footprints/downloads 
+           C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Apr 2 15:31:47 2025
+   DESIGN NAME : 'TESR123123'
+   PACKAGING ON Mar  6 2025 10:16:32
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+  1 warnings detected
+
+cpu time      0:00:47
+elapsed time  0:00:01
+

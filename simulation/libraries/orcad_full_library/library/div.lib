@@ -1,0 +1,989 @@
+*$ model description: "awb1n5139"
+*b Device model created by analog_uprev for 1n5139 on Tue Feb  6 16:11:54 IST 2001
+.subckt awb1n5139 AN CAT
++ params:
++ IC=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=10E-15
++ RS=0.5
++ N=1
++ TT=1E-9
++ CJO=14.42E-12
++ VJ=1
++ M=0.464
++ EG=1.11
++ XTI=3.0
++ KF=0.0
++ AF=1.0
++ FC=0.5
++ BV=70
++ IBV=10E-6
+D1n5139_0 AN CAT model22 {area} 
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1n5139
+*$ end model description: "awb1n5139"
+*
+*
+*$ model description: "awb1n5139a"
+*b Device model created by analog_uprev for 1n5139a on Tue Feb  6 16:11:54 IST 2001
+.subckt awb1n5139a AN CAT
++ params:
++ IC=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=10E-15
++ RS=0.5
++ N=1
++ TT=1E-9
++ CJO=14.42E-12
++ VJ=1
++ M=0.464
++ EG=1.11
++ XTI=3.0
++ KF=0.0
++ AF=1.0
++ FC=0.5
++ BV=70
++ IBV=10E-6
+D1n5139a_0 AN CAT model22 {area} 
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1n5139a
+*$ end model description: "awb1n5139a"
+*
+*
+*$ model description: "awb1n5140"
+*b Device model created by analog_uprev for 1n5140 on Tue Feb  6 16:11:54 IST 2001
+.subckt awb1n5140 AN CAT
++ params:
++ IC=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=10E-15
++ RS=0.5
++ N=1
++ TT=1E-9
++ CJO=21.10E-12
++ VJ=1
++ M=0.464
++ EG=1.11
++ XTI=3.0
++ KF=0.0
++ AF=1.0
++ FC=0.5
++ BV=70
++ IBV=10E-6
+D1n5140_0 AN CAT model22 {area} 
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1n5140
+*$ end model description: "awb1n5140"
+*
+*
+*$ model description: "awb1n5140a"
+*b Device model created by analog_uprev for 1n5140a on Tue Feb  6 16:11:54 IST 2001
+.subckt awb1n5140a AN CAT
++ params:
++ IC=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=10E-15
++ RS=0.5
++ N=1
++ TT=1E-9
++ CJO=21.10E-12
++ VJ=1
++ M=0.464
++ EG=1.11
++ XTI=3.0
++ KF=0.0
++ AF=1.0
++ FC=0.5
++ BV=70
++ IBV=10E-6
+D1n5140a_0 AN CAT model22 {area} 
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1n5140a
+*$ end model description: "awb1n5140a"
+*
+*
+*$ model description: "awb1n5141"
+*b Device model created by analog_uprev for 1n5141 on Tue Feb  6 16:11:54 IST 2001
+.subckt awb1n5141 AN CAT
++ params:
++ IC=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=10E-15
++ RS=0.5
++ N=1
++ TT=1E-9
++ CJO=25.32E-12
++ VJ=1
++ M=0.464
++ EG=1.11
++ XTI=3.0
++ KF=0.0
++ AF=1.0
++ FC=0.5
++ BV=70
++ IBV=10E-6
+D1n5141_0 AN CAT model22 {area} 
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1n5141
+*$ end model description: "awb1n5141"
+*
+*
+*$ model description: "awb1n5141a"
+*b Device model created by analog_uprev for 1n5141a on Tue Feb  6 16:11:54 IST 2001
+.subckt awb1n5141a AN CAT
++ params:
++ IC=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=10E-15
++ RS=0.5
++ N=1
++ TT=1E-9
++ CJO=25.32E-12
++ VJ=1
++ M=0.464
++ EG=1.11
++ XTI=3.0
++ KF=0.0
++ AF=1.0
++ FC=0.5
++ BV=70
++ IBV=10E-6
+D1n5141a_0 AN CAT model22 {area} 
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1n5141a
+*$ end model description: "awb1n5141a"
+*
+*
+*$ model description: "awb1n5142"
+*b Device model created by analog_uprev for 1n5142 on Tue Feb  6 16:11:54 IST 2001
+.subckt awb1n5142 AN CAT
++ params:
++ IC=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=10E-15
++ RS=0.5
++ N=1
++ TT=1E-9
++ CJO=31.65E-12
++ VJ=1
++ M=0.464
++ EG=1.11
++ XTI=3.0
++ KF=0.0
++ AF=1.0
++ FC=0.5
++ BV=70
++ IBV=10E-6
+D1n5142_0 AN CAT model22 {area} 
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1n5142
+*$ end model description: "awb1n5142"
+*
+*
+*$ model description: "awb1n5142a"
+*b Device model created by analog_uprev for 1n5142a on Tue Feb  6 16:11:54 IST 2001
+.subckt awb1n5142a AN CAT
++ params:
++ IC=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=10E-15
++ RS=0.5
++ N=1
++ TT=1E-9
++ CJO=31.65E-12
++ VJ=1
++ M=0.464
++ EG=1.11
++ XTI=3.0
++ KF=0.0
++ AF=1.0
++ FC=0.5
++ BV=70
++ IBV=10E-6
+D1n5142a_0 AN CAT model22 {area} 
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1n5142a
+*$ end model description: "awb1n5142a"
+*
+*
+*$ model description: "awb1n5143"
+*b Device model created by analog_uprev for 1n5143 on Tue Feb  6 16:11:54 IST 2001
+.subckt awb1n5143 AN CAT
++ params:
++ IC=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=10E-15
++ RS=0.5
++ N=1
++ TT=1E-9
++ CJO=37.98E-12
++ VJ=1
++ M=0.464
++ EG=1.11
++ XTI=3.0
++ KF=0.0
++ AF=1.0
++ FC=0.5
++ BV=70
++ IBV=10E-6
+D1n5143_0 AN CAT model22 {area} 
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1n5143
+*$ end model description: "awb1n5143"
+*
+*
+*$ model description: "awb1n5143a"
+*b Device model created by analog_uprev for 1n5143a on Tue Feb  6 16:11:54 IST 2001
+.subckt awb1n5143a AN CAT
++ params:
++ IC=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=10E-15
++ RS=0.5
++ N=1
++ TT=1E-9
++ CJO=37.98E-12
++ VJ=1
++ M=0.464
++ EG=1.11
++ XTI=3.0
++ KF=0.0
++ AF=1.0
++ FC=0.5
++ BV=70
++ IBV=10E-6
+D1n5143a_0 AN CAT model22 {area} 
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1n5143a
+*$ end model description: "awb1n5143a"
+*
+*
+*$ model description: "awb1n5144"
+*b Device model created by analog_uprev for 1n5144 on Tue Feb  6 16:11:54 IST 2001
+.subckt awb1n5144 AN CAT
++ params:
++ IC=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=10E-15
++ RS=0.5
++ N=1
++ TT=1E-9
++ CJO=48E-12
++ VJ=1
++ M=0.5075
++ EG=1.11
++ XTI=3.0
++ KF=0.0
++ AF=1.0
++ FC=0.5
++ BV=70
++ IBV=10E-6
+D1n5144_0 AN CAT model22 {area} 
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1n5144
+*$ end model description: "awb1n5144"
+*
+*
+*$ model description: "awb1n5144a"
+*b Device model created by analog_uprev for 1n5144a on Tue Feb  6 16:11:54 IST 2001
+.subckt awb1n5144a AN CAT
++ params:
++ IC=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=10E-15
++ RS=0.5
++ N=1
++ TT=1E-9
++ CJO=48E-12
++ VJ=1
++ M=0.5075
++ EG=1.11
++ XTI=3.0
++ KF=0.0
++ AF=1.0
++ FC=0.5
++ BV=70
++ IBV=10E-6
+D1n5144a_0 AN CAT model22 {area} 
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1n5144a
+*$ end model description: "awb1n5144a"
+*
+*
+*$ model description: "awb1n5145"
+*b Device model created by analog_uprev for 1n5145 on Tue Feb  6 16:11:54 IST 2001
+.subckt awb1n5145 AN CAT
++ params:
++ IC=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=10E-15
++ RS=0.5
++ N=1
++ TT=1E-9
++ CJO=61.11E-12
++ VJ=1
++ M=0.5075
++ EG=1.11
++ XTI=3.0
++ KF=0.0
++ AF=1.0
++ FC=0.5
++ BV=70
++ IBV=10E-6
+D1n5145_0 AN CAT model22 {area} 
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1n5145
+*$ end model description: "awb1n5145"
+*
+*
+*$ model description: "awb1n5145a"
+*b Device model created by analog_uprev for 1n5145a on Tue Feb  6 16:11:54 IST 2001
+.subckt awb1n5145a AN CAT
++ params:
++ IC=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=10E-15
++ RS=0.5
++ N=1
++ TT=1E-9
++ CJO=61.11E-12
++ VJ=1
++ M=0.5075
++ EG=1.11
++ XTI=3.0
++ KF=0.0
++ AF=1.0
++ FC=0.5
++ BV=70
++ IBV=10E-6
+D1n5145a_0 AN CAT model22 {area} 
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1n5145a
+*$ end model description: "awb1n5145a"
+*
+*
+*$ model description: "awb1n5146"
+*b Device model created by analog_uprev for 1n5146 on Tue Feb  6 16:11:54 IST 2001
+.subckt awb1n5146 AN CAT
++ params:
++ IC=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=10E-15
++ RS=0.5
++ N=1
++ TT=1E-9
++ CJO=86.87E-12
++ VJ=0.7
++ M=0.5083
++ EG=1.11
++ XTI=3.0
++ KF=0.0
++ AF=1.0
++ FC=0.5
++ BV=70
++ IBV=10E-6
+D1n5146_0 AN CAT model22 {area} 
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1n5146
+*$ end model description: "awb1n5146"
+*
+*
+*$ model description: "awb1n5146a"
+*b Device model created by analog_uprev for 1n5146a on Tue Feb  6 16:11:54 IST 2001
+.subckt awb1n5146a AN CAT
++ params:
++ IC=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=10E-15
++ RS=0.5
++ N=1
++ TT=1E-9
++ CJO=86.87E-12
++ VJ=0.7
++ M=0.5083
++ EG=1.11
++ XTI=3.0
++ KF=0.0
++ AF=1.0
++ FC=0.5
++ BV=70
++ IBV=10E-6
+D1n5146a_0 AN CAT model22 {area} 
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1n5146a
+*$ end model description: "awb1n5146a"
+*
+*
+*$ model description: "awb1n5147"
+*b Device model created by analog_uprev for 1n5147 on Tue Feb  6 16:11:54 IST 2001
+.subckt awb1n5147 AN CAT
++ params:
++ IC=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=10E-15
++ RS=0.5
++ N=1
++ TT=1E-9
++ CJO=102.67E-12
++ VJ=0.7
++ M=0.5083
++ EG=1.11
++ XTI=3.0
++ KF=0.0
++ AF=1.0
++ FC=0.5
++ BV=70
++ IBV=10E-6
+D1n5147_0 AN CAT model22 {area} 
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1n5147
+*$ end model description: "awb1n5147"
+*
+*
+*$ model description: "awb1n5147a"
+*b Device model created by analog_uprev for 1n5147a on Tue Feb  6 16:11:54 IST 2001
+.subckt awb1n5147a AN CAT
++ params:
++ IC=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=10E-15
++ RS=0.5
++ N=1
++ TT=1E-9
++ CJO=102.67E-12
++ VJ=0.7
++ M=0.5083
++ EG=1.11
++ XTI=3.0
++ KF=0.0
++ AF=1.0
++ FC=0.5
++ BV=70
++ IBV=10E-6
+D1n5147a_0 AN CAT model22 {area} 
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1n5147a
+*$ end model description: "awb1n5147a"
+*
+*
+*$ model description: "awb1n5148"
+*b Device model created by analog_uprev for 1n5148 on Tue Feb  6 16:11:54 IST 2001
+.subckt awb1n5148 AN CAT
++ params:
++ IC=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=10E-15
++ RS=0.5
++ N=1
++ TT=1E-9
++ CJO=125.0E-12
++ VJ=0.7
++ M=0.5083
++ EG=1.11
++ XTI=3.0
++ KF=0.0
++ AF=1.0
++ FC=0.5
++ BV=70
++ IBV=10E-6
+D1n5148_0 AN CAT model22 {area} 
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1n5148
+*$ end model description: "awb1n5148"
+*
+*
+*$ model description: "awb1n5148a"
+*b Device model created by analog_uprev for 1n5148a on Tue Feb  6 16:11:54 IST 2001
+.subckt awb1n5148a AN CAT
++ params:
++ IC=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=10E-15
++ RS=0.5
++ N=1
++ TT=1E-9
++ CJO=125.0E-12
++ VJ=0.7
++ M=0.5083
++ EG=1.11
++ XTI=3.0
++ KF=0.0
++ AF=1.0
++ FC=0.5
++ BV=70
++ IBV=10E-6
+D1n5148a_0 AN CAT model22 {area} 
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1n5148a
+*$ end model description: "awb1n5148a"
+*
+*
+*$ model description: "awbbb405b"
+*b Device model created by analog_uprev for bb405b on Tue Feb  6 16:11:54 IST 2001
+.subckt awbbb405b AN CAT
++ params:
++ IC=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=7.45803E-16
++ RS=0.3
++ N=1
++ TT=1.0E-6
++ CJO=2.389E-11
++ VJ=1.0518084
++ M=0.6048566
++ EG=1.11
++ XTI=3
++ KF=0.0
++ AF=1.0
++ FC=0.5
++ BV=36.211
++ IBV=1.0
+Dbb405b_0 AN CAT model22 {area} 
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbbb405b
+*$ end model description: "awbbb405b"
+*
+*
+*$ model description: "awbgc15013"
+*b Device model created by analog_uprev for gc15013 on Tue Feb  6 16:11:54 IST 2001
+.subckt awbgc15013 AN CAT
++ params:
++ IC=0
++ STATE=1
++ TEMP=0
++ STATE_FACTOR=0
++ IS=9.47633E-13
++ RS=0.1
++ N=1.29634
++ TT=1E-06
++ CJO=1.25732E-10
++ VJ=4.27867
++ M=1.43416
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=0.5
++ BV=44
++ IBV=1
+Dgc15013_0 AN CAT model22  
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbgc15013
+*$ end model description: "awbgc15013"
+*
+*
+*$ model description: "awbgc15015"
+*b Device model created by analog_uprev for gc15015 on Tue Feb  6 16:11:54 IST 2001
+.subckt awbgc15015 AN CAT
++ params:
++ IC=0
++ STATE=1
++ TEMP=0
++ STATE_FACTOR=0
++ IS=9.47633E-13
++ RS=0.1
++ N=1.29634
++ TT=1E-06
++ CJO=1.01393E-10
++ VJ=1.5
++ M=0.94052
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=0.5
++ BV=44
++ IBV=1
+Dgc15015_0 AN CAT model22  
+.model model22 D
++  is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbgc15015
+*$ end model description: "awbgc15015"
+*
+*

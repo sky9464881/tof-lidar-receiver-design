@@ -1,0 +1,1954 @@
+("awb2n6034"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( MODEL_TYPE 507 )
+		( SYMBOL_NAME "PNPDLG" )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( IB "1.000000e-01" )
+		( IC "4.000000e+00" )
+		( VCB "4.000000e+01" )
+		( VCE "4.000000e+01" )
+		( VEB "5.000000e+00" )
+		( TJ "1.500000e+02" )
+		( RJC "3.120000e+00" )
+		( RCA "8.330000e+01" )
+	)
+)
+("awb2n6035"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( MODEL_TYPE 507 )
+		( SYMBOL_NAME "PNPDLG" )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( IB "1.000000e-01" )
+		( IC "4.000000e+00" )
+		( VCB "6.000000e+01" )
+		( VCE "6.000000e+01" )
+		( VEB "5.000000e+00" )
+		( TJ "1.500000e+02" )
+		( RJC "3.120000e+00" )
+		( RCA "8.330000e+01" )
+	)
+)
+("awb2n6036"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( MODEL_TYPE 507 )
+		( SYMBOL_NAME "PNPDLG" )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( IB "1.000000e-01" )
+		( IC "4.000000e+00" )
+		( VCB "8.000000e+01" )
+		( VCE "8.000000e+01" )
+		( VEB "5.000000e+00" )
+		( TJ "1.500000e+02" )
+		( RJC "3.120000e+00" )
+		( RCA "8.330000e+01" )
+	)
+)
+("awb2n6040"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "PNPDLG" )
+		( MODEL_TYPE 7 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "1.011E-15" )
+		)
+		( "BF"
+			( "val" "35000" )
+		)
+		( "NF"
+			( "val" "1.5" )
+		)
+		( "VAF"
+			( "val" "80" )
+		)
+		( "IKF"
+			( "val" "0.5" )
+		)
+		( "ISE"
+			( "val" "9.810E-6" )
+		)
+		( "NE"
+			( "val" "15.9805" )
+		)
+		( "BR"
+			( "val" "0.1" )
+		)
+		( "NR"
+			( "val" "1.0" )
+		)
+		( "VAR"
+			( "val" "50" )
+		)
+		( "IKR"
+			( "val" "0.5" )
+		)
+		( "ISC"
+			( "val" "0" )
+		)
+		( "NC"
+			( "val" "2.0" )
+		)
+		( "RB"
+			( "val" "125" )
+		)
+		( "IRB"
+			( "val" "1E-3" )
+		)
+		( "RBM"
+			( "val" "25" )
+		)
+		( "RE"
+			( "val" "0.003" )
+		)
+		( "RC"
+			( "val" "0.123" )
+		)
+		( "CJE"
+			( "val" "102.8E-12" )
+		)
+		( "VJE"
+			( "val" "0.7" )
+		)
+		( "MJE"
+			( "val" "0.14" )
+		)
+		( "TF"
+			( "val" "1.5E-9" )
+		)
+		( "XTF"
+			( "val" "2.00" )
+		)
+		( "VTF"
+			( "val" "5" )
+		)
+		( "ITF"
+			( "val" "1" )
+		)
+		( "PTF"
+			( "val" "0" )
+		)
+		( "CJC"
+			( "val" "160.3E-12" )
+		)
+		( "VJC"
+			( "val" "0.7" )
+		)
+		( "MJC"
+			( "val" "0.2425" )
+		)
+		( "XCJC"
+			( "val" "0.5" )
+		)
+		( "TR"
+			( "val" "20E-9" )
+		)
+		( "CJS"
+			( "val" "0" )
+		)
+		( "VJS"
+			( "val" "0.7" )
+		)
+		( "MJS"
+			( "val" "0.5" )
+		)
+		( "XTB"
+			( "val" "2.28" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3.0" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( IC "8.0" )
+		( VCB "60" )
+		( VCE "60" )
+		( VEB "5" )
+		( PDM "2.2" )
+		( TJ "150" )
+		( RJC "1.67" )
+		( RCA "57" )
+	)
+)
+("awb2n6041"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "PNPDLG" )
+		( MODEL_TYPE 7 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "1.011E-15" )
+		)
+		( "BF"
+			( "val" "35000" )
+		)
+		( "NF"
+			( "val" "1.5" )
+		)
+		( "VAF"
+			( "val" "80" )
+		)
+		( "IKF"
+			( "val" "0.5" )
+		)
+		( "ISE"
+			( "val" "9.810E-6" )
+		)
+		( "NE"
+			( "val" "15.9805" )
+		)
+		( "BR"
+			( "val" "0.1" )
+		)
+		( "NR"
+			( "val" "1.0" )
+		)
+		( "VAR"
+			( "val" "50" )
+		)
+		( "IKR"
+			( "val" "0.5" )
+		)
+		( "ISC"
+			( "val" "0" )
+		)
+		( "NC"
+			( "val" "2.0" )
+		)
+		( "RB"
+			( "val" "125" )
+		)
+		( "IRB"
+			( "val" "1E-3" )
+		)
+		( "RBM"
+			( "val" "25" )
+		)
+		( "RE"
+			( "val" "0.003" )
+		)
+		( "RC"
+			( "val" "0.123" )
+		)
+		( "CJE"
+			( "val" "102.8E-12" )
+		)
+		( "VJE"
+			( "val" "0.7" )
+		)
+		( "MJE"
+			( "val" "0.14" )
+		)
+		( "TF"
+			( "val" "1.5E-9" )
+		)
+		( "XTF"
+			( "val" "2.00" )
+		)
+		( "VTF"
+			( "val" "5" )
+		)
+		( "ITF"
+			( "val" "1" )
+		)
+		( "PTF"
+			( "val" "0" )
+		)
+		( "CJC"
+			( "val" "160.3E-12" )
+		)
+		( "VJC"
+			( "val" "0.7" )
+		)
+		( "MJC"
+			( "val" "0.2425" )
+		)
+		( "XCJC"
+			( "val" "0.5" )
+		)
+		( "TR"
+			( "val" "20E-9" )
+		)
+		( "CJS"
+			( "val" "0" )
+		)
+		( "VJS"
+			( "val" "0.7" )
+		)
+		( "MJS"
+			( "val" "0.5" )
+		)
+		( "XTB"
+			( "val" "2.28" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3.0" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( IC "8.0" )
+		( VCB "80" )
+		( VCE "80" )
+		( VEB "5" )
+		( PDM "2.2" )
+		( TJ "150" )
+		( RJC "1.67" )
+		( RCA "57" )
+	)
+)
+("awb2n6042"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "PNPDLG" )
+		( MODEL_TYPE 7 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "1.011E-15" )
+		)
+		( "BF"
+			( "val" "35000" )
+		)
+		( "NF"
+			( "val" "1.5" )
+		)
+		( "VAF"
+			( "val" "80" )
+		)
+		( "IKF"
+			( "val" "0.5" )
+		)
+		( "ISE"
+			( "val" "9.810E-6" )
+		)
+		( "NE"
+			( "val" "15.9805" )
+		)
+		( "BR"
+			( "val" "0.1" )
+		)
+		( "NR"
+			( "val" "1.0" )
+		)
+		( "VAR"
+			( "val" "50" )
+		)
+		( "IKR"
+			( "val" "0.5" )
+		)
+		( "ISC"
+			( "val" "0" )
+		)
+		( "NC"
+			( "val" "2.0" )
+		)
+		( "RB"
+			( "val" "125" )
+		)
+		( "IRB"
+			( "val" "1E-3" )
+		)
+		( "RBM"
+			( "val" "25" )
+		)
+		( "RE"
+			( "val" "0.003" )
+		)
+		( "RC"
+			( "val" "0.123" )
+		)
+		( "CJE"
+			( "val" "102.8E-12" )
+		)
+		( "VJE"
+			( "val" "0.7" )
+		)
+		( "MJE"
+			( "val" "0.14" )
+		)
+		( "TF"
+			( "val" "1.5E-9" )
+		)
+		( "XTF"
+			( "val" "2.00" )
+		)
+		( "VTF"
+			( "val" "5" )
+		)
+		( "ITF"
+			( "val" "1" )
+		)
+		( "PTF"
+			( "val" "0" )
+		)
+		( "CJC"
+			( "val" "160.3E-12" )
+		)
+		( "VJC"
+			( "val" "0.7" )
+		)
+		( "MJC"
+			( "val" "0.2425" )
+		)
+		( "XCJC"
+			( "val" "0.5" )
+		)
+		( "TR"
+			( "val" "20E-9" )
+		)
+		( "CJS"
+			( "val" "0" )
+		)
+		( "VJS"
+			( "val" "0.7" )
+		)
+		( "MJS"
+			( "val" "0.5" )
+		)
+		( "XTB"
+			( "val" "2.28" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3.0" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( IC "8.0" )
+		( VCB "100" )
+		( VCE "100" )
+		( VEB "5" )
+		( PDM "2.2" )
+		( TJ "150" )
+		( RJC "1.67" )
+		( RCA "57" )
+	)
+)
+("awb2n6052"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( MODEL_TYPE 507 )
+		( SYMBOL_NAME "PNPDLG" )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( IB "2.000000e-01" )
+		( IC "2.000000e+01" )
+		( VCB "1.000000e+02" )
+		( VCE "1.000000e+02" )
+		( VEB "5.000000e+00" )
+		( PDM "1.500000e+02" )
+		( TJ "2.000000e+02" )
+		( RJC "1.170000e+00" )
+	)
+)
+("awb2n6287"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( MODEL_TYPE 7 )
+		( SYMBOL_NAME "PNPDLG" )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "14.39n" )
+		)
+		( "BF"
+			( "val" "16000" )
+		)
+		( "NF"
+			( "val" "2.92" )
+		)
+		( "VAF"
+			( "val" "200" )
+		)
+		( "IKF"
+			( "val" "20" )
+		)
+		( "ISE"
+			( "val" "55e-6" )
+		)
+		( "NE"
+			( "val" "60" )
+		)
+		( "BR"
+			( "val" "0.05" )
+		)
+		( "NR"
+			( "val" "2.92" )
+		)
+		( "VAR"
+			( "val" "500" )
+		)
+		( "ISC"
+			( "val" "0" )
+		)
+		( "NC"
+			( "val" "1" )
+		)
+		( "RB"
+			( "val" "10" )
+		)
+		( "RBM"
+			( "val" "10" )
+		)
+		( "RE"
+			( "val" "0.01" )
+		)
+		( "RC"
+			( "val" "0.09" )
+		)
+		( "CJE"
+			( "val" "500p" )
+		)
+		( "VJE"
+			( "val" "2.78" )
+		)
+		( "MJE"
+			( "val" "0.4" )
+		)
+		( "TF"
+			( "val" "1.592n" )
+		)
+		( "XTF"
+			( "val" "0" )
+		)
+		( "ITF"
+			( "val" "0" )
+		)
+		( "PTF"
+			( "val" "0" )
+		)
+		( "CJC"
+			( "val" "595p" )
+		)
+		( "VJC"
+			( "val" "2.78" )
+		)
+		( "MJC"
+			( "val" "0.39" )
+		)
+		( "XCJC"
+			( "val" "0.5" )
+		)
+		( "TR"
+			( "val" "103.2e-6" )
+		)
+		( "XTB"
+			( "val" "2.433" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "STATE" )
+	)
+	)
+	("device_max_ops"
+		( IC "20" )
+		( VCB "100" )
+		( VCE "100" )
+		( VEB "5" )
+		( PDM "160" )
+		( TJ "200" )
+		( RJC "1.09" )
+		( RCA "30" )
+	)
+)
+("awbbd646"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "PNPDLG" )
+		( MODEL_TYPE 7 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "7.716E-9" )
+		)
+		( "BF"
+			( "val" "12000" )
+		)
+		( "NF"
+			( "val" "2.818" )
+		)
+		( "VAF"
+			( "val" "200" )
+		)
+		( "IKF"
+			( "val" "7" )
+		)
+		( "ISE"
+			( "val" "30E-6" )
+		)
+		( "NE"
+			( "val" "30" )
+		)
+		( "BR"
+			( "val" "0.0092" )
+		)
+		( "NR"
+			( "val" "2.818" )
+		)
+		( "VAR"
+			( "val" "500" )
+		)
+		( "ISC"
+			( "val" "0" )
+		)
+		( "NC"
+			( "val" "1.0" )
+		)
+		( "RB"
+			( "val" "34.85" )
+		)
+		( "RBM"
+			( "val" "34.85" )
+		)
+		( "RE"
+			( "val" "0.01" )
+		)
+		( "RC"
+			( "val" "0.187" )
+		)
+		( "CJE"
+			( "val" "162.0E-12" )
+		)
+		( "VJE"
+			( "val" "0.235" )
+		)
+		( "MJE"
+			( "val" "0.28" )
+		)
+		( "TF"
+			( "val" "1.592E-9" )
+		)
+		( "XTF"
+			( "val" "0" )
+		)
+		( "ITF"
+			( "val" "0" )
+		)
+		( "PTF"
+			( "val" "0" )
+		)
+		( "CJC"
+			( "val" "242.17E-12" )
+		)
+		( "VJC"
+			( "val" "4.085" )
+		)
+		( "MJC"
+			( "val" "0.372" )
+		)
+		( "XCJC"
+			( "val" "0.5" )
+		)
+		( "TR"
+			( "val" "323.0E-6" )
+		)
+		( "CJS"
+			( "val" "0" )
+		)
+		( "VJS"
+			( "val" "0.7" )
+		)
+		( "MJS"
+			( "val" "0.5" )
+		)
+		( "XTB"
+			( "val" "2.314" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3.0" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( IC "8" )
+		( VCB "60" )
+		( VCE "60" )
+		( VEB "5" )
+		( PDM "62.0" )
+		( TJ "150" )
+		( RJC "1.92" )
+		( RCA "60.6" )
+	)
+)
+("awbbd648"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "PNPDLG" )
+		( MODEL_TYPE 7 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "7.716E-9" )
+		)
+		( "BF"
+			( "val" "12000" )
+		)
+		( "NF"
+			( "val" "2.818" )
+		)
+		( "VAF"
+			( "val" "200" )
+		)
+		( "IKF"
+			( "val" "7" )
+		)
+		( "ISE"
+			( "val" "30E-6" )
+		)
+		( "NE"
+			( "val" "30" )
+		)
+		( "BR"
+			( "val" "0.0092" )
+		)
+		( "NR"
+			( "val" "2.818" )
+		)
+		( "VAR"
+			( "val" "500" )
+		)
+		( "ISC"
+			( "val" "0" )
+		)
+		( "NC"
+			( "val" "1.0" )
+		)
+		( "RB"
+			( "val" "34.85" )
+		)
+		( "RBM"
+			( "val" "34.85" )
+		)
+		( "RE"
+			( "val" "0.01" )
+		)
+		( "RC"
+			( "val" "0.187" )
+		)
+		( "CJE"
+			( "val" "162.0E-12" )
+		)
+		( "VJE"
+			( "val" "0.235" )
+		)
+		( "MJE"
+			( "val" "0.28" )
+		)
+		( "TF"
+			( "val" "1.592E-9" )
+		)
+		( "XTF"
+			( "val" "0" )
+		)
+		( "ITF"
+			( "val" "0" )
+		)
+		( "PTF"
+			( "val" "0" )
+		)
+		( "CJC"
+			( "val" "242.17E-12" )
+		)
+		( "VJC"
+			( "val" "4.085" )
+		)
+		( "MJC"
+			( "val" "0.372" )
+		)
+		( "XCJC"
+			( "val" "0.5" )
+		)
+		( "TR"
+			( "val" "323.0E-6" )
+		)
+		( "CJS"
+			( "val" "0" )
+		)
+		( "VJS"
+			( "val" "0.7" )
+		)
+		( "MJS"
+			( "val" "0.5" )
+		)
+		( "XTB"
+			( "val" "2.314" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3.0" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( IC "8" )
+		( VCB "80" )
+		( VCE "80" )
+		( VEB "5" )
+		( PDM "62.0" )
+		( TJ "150" )
+		( RJC "1.92" )
+		( RCA "60.6" )
+	)
+)
+("awbbd650"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "PNPDLG" )
+		( MODEL_TYPE 7 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "7.716E-9" )
+		)
+		( "BF"
+			( "val" "12000" )
+		)
+		( "NF"
+			( "val" "2.818" )
+		)
+		( "VAF"
+			( "val" "200" )
+		)
+		( "IKF"
+			( "val" "7" )
+		)
+		( "ISE"
+			( "val" "30E-6" )
+		)
+		( "NE"
+			( "val" "30" )
+		)
+		( "BR"
+			( "val" "0.0092" )
+		)
+		( "NR"
+			( "val" "2.818" )
+		)
+		( "VAR"
+			( "val" "500" )
+		)
+		( "ISC"
+			( "val" "0" )
+		)
+		( "NC"
+			( "val" "1.0" )
+		)
+		( "RB"
+			( "val" "34.85" )
+		)
+		( "RBM"
+			( "val" "34.85" )
+		)
+		( "RE"
+			( "val" "0.01" )
+		)
+		( "RC"
+			( "val" "0.187" )
+		)
+		( "CJE"
+			( "val" "162.0E-12" )
+		)
+		( "VJE"
+			( "val" "0.235" )
+		)
+		( "MJE"
+			( "val" "0.28" )
+		)
+		( "TF"
+			( "val" "1.592E-9" )
+		)
+		( "XTF"
+			( "val" "0" )
+		)
+		( "ITF"
+			( "val" "0" )
+		)
+		( "PTF"
+			( "val" "0" )
+		)
+		( "CJC"
+			( "val" "242.17E-12" )
+		)
+		( "VJC"
+			( "val" "4.085" )
+		)
+		( "MJC"
+			( "val" "0.372" )
+		)
+		( "XCJC"
+			( "val" "0.5" )
+		)
+		( "TR"
+			( "val" "323.0E-6" )
+		)
+		( "CJS"
+			( "val" "0" )
+		)
+		( "VJS"
+			( "val" "0.7" )
+		)
+		( "MJS"
+			( "val" "0.5" )
+		)
+		( "XTB"
+			( "val" "2.314" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3.0" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( IC "8" )
+		( VCB "100" )
+		( VCE "100" )
+		( VEB "5" )
+		( PDM "62.0" )
+		( TJ "150" )
+		( RJC "1.92" )
+		( RCA "60.6" )
+	)
+)
+("awbbd652"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "PNPDLG" )
+		( MODEL_TYPE 7 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "7.716E-9" )
+		)
+		( "BF"
+			( "val" "12000" )
+		)
+		( "NF"
+			( "val" "2.818" )
+		)
+		( "VAF"
+			( "val" "200" )
+		)
+		( "IKF"
+			( "val" "7" )
+		)
+		( "ISE"
+			( "val" "30E-6" )
+		)
+		( "NE"
+			( "val" "30" )
+		)
+		( "BR"
+			( "val" "0.0092" )
+		)
+		( "NR"
+			( "val" "2.818" )
+		)
+		( "VAR"
+			( "val" "500" )
+		)
+		( "ISC"
+			( "val" "0" )
+		)
+		( "NC"
+			( "val" "1.0" )
+		)
+		( "RB"
+			( "val" "34.85" )
+		)
+		( "RBM"
+			( "val" "34.85" )
+		)
+		( "RE"
+			( "val" "0.01" )
+		)
+		( "RC"
+			( "val" "0.187" )
+		)
+		( "CJE"
+			( "val" "162.0E-12" )
+		)
+		( "VJE"
+			( "val" "0.235" )
+		)
+		( "MJE"
+			( "val" "0.28" )
+		)
+		( "TF"
+			( "val" "1.592E-9" )
+		)
+		( "XTF"
+			( "val" "0" )
+		)
+		( "ITF"
+			( "val" "0" )
+		)
+		( "PTF"
+			( "val" "0" )
+		)
+		( "CJC"
+			( "val" "242.17E-12" )
+		)
+		( "VJC"
+			( "val" "4.085" )
+		)
+		( "MJC"
+			( "val" "0.372" )
+		)
+		( "XCJC"
+			( "val" "0.5" )
+		)
+		( "TR"
+			( "val" "323.0E-6" )
+		)
+		( "CJS"
+			( "val" "0" )
+		)
+		( "VJS"
+			( "val" "0.7" )
+		)
+		( "MJS"
+			( "val" "0.5" )
+		)
+		( "XTB"
+			( "val" "2.314" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3.0" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( IC "8" )
+		( VCB "120" )
+		( VCE "120" )
+		( VEB "5" )
+		( PDM "62.0" )
+		( TJ "150" )
+		( RJC "1.92" )
+		( RCA "60.6" )
+	)
+)
+("awbbdx54c"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( MODEL_TYPE 507 )
+		( SYMBOL_NAME "PNPDLG" )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( IB "2.000000e-01" )
+		( IC "8.000000e+00" )
+		( VCB "1.000000e+02" )
+		( VCE "1.000000e+02" )
+		( VEB "5.000000e+00" )
+		( PDM "6.000000e+01" )
+		( TJ "1.500000e+02" )
+		( RJC "2.080000e+00" )
+		( RCA "6.792000e+01" )
+	)
+)
+("awbbdx64b"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( MODEL_TYPE 507 )
+		( SYMBOL_NAME "PNPDLG" )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( IB "2.000000e-01" )
+		( IC "2.000000e+01" )
+		( VCB "1.000000e+02" )
+		( VCE "1.000000e+02" )
+		( VEB "5.000000e+00" )
+		( PDM "1.500000e+02" )
+		( TJ "2.000000e+02" )
+		( RJC "1.170000e+00" )
+	)
+)
+("awbbdx66b"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( MODEL_TYPE 7 )
+		( SYMBOL_NAME "PNP3" )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "14.39n" )
+		)
+		( "BF"
+			( "val" "16000" )
+		)
+		( "NF"
+			( "val" "2.92" )
+		)
+		( "VAF"
+			( "val" "200" )
+		)
+		( "IKF"
+			( "val" "20" )
+		)
+		( "ISE"
+			( "val" "55e-6" )
+		)
+		( "NE"
+			( "val" "60" )
+		)
+		( "BR"
+			( "val" "0.05" )
+		)
+		( "NR"
+			( "val" "2.92" )
+		)
+		( "VAR"
+			( "val" "500" )
+		)
+		( "ISC"
+			( "val" "0" )
+		)
+		( "NC"
+			( "val" "1" )
+		)
+		( "RB"
+			( "val" "10" )
+		)
+		( "RBM"
+			( "val" "10" )
+		)
+		( "RE"
+			( "val" "0.01" )
+		)
+		( "RC"
+			( "val" "0.09" )
+		)
+		( "CJE"
+			( "val" "500p" )
+		)
+		( "VJE"
+			( "val" "2.78" )
+		)
+		( "MJE"
+			( "val" "0.4" )
+		)
+		( "TF"
+			( "val" "1.592n" )
+		)
+		( "XTF"
+			( "val" "0" )
+		)
+		( "ITF"
+			( "val" "0" )
+		)
+		( "PTF"
+			( "val" "0" )
+		)
+		( "CJC"
+			( "val" "595p" )
+		)
+		( "VJC"
+			( "val" "2.78" )
+		)
+		( "MJC"
+			( "val" "0.39" )
+		)
+		( "XCJC"
+			( "val" "0.5" )
+		)
+		( "TR"
+			( "val" "103.2e-6" )
+		)
+		( "XTB"
+			( "val" "2.433" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "STATE" )
+	)
+	)
+	("device_max_ops"
+		( IC "20" )
+		( VCB "100" )
+		( VCE "100" )
+		( VEB "5" )
+		( PDM "160" )
+		( TJ "200" )
+		( RJC "1.09" )
+		( RCA "30" )
+	)
+)
+("awbmj11015"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "PNPDLG" )
+		( MODEL_TYPE 507 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( IC "30" )
+		( VCB "120" )
+		( VCE "120" )
+		( VEB "5.0" )
+		( PDM "200" )
+		( TJ "200" )
+		( RJC ".87" )
+		( RCA "30" )
+	)
+)
+("awbmj11017"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( MODEL_TYPE 507 )
+		( SYMBOL_NAME "PNPDLG" )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+	)
+)
+("awbmje6040"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "PNPDLG" )
+		( MODEL_TYPE 7 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "1.011E-15" )
+		)
+		( "BF"
+			( "val" "35000" )
+		)
+		( "NF"
+			( "val" "1.5" )
+		)
+		( "VAF"
+			( "val" "80" )
+		)
+		( "IKF"
+			( "val" "0.5" )
+		)
+		( "ISE"
+			( "val" "9.810E-6" )
+		)
+		( "NE"
+			( "val" "15.9805" )
+		)
+		( "BR"
+			( "val" "0.1" )
+		)
+		( "NR"
+			( "val" "1.0" )
+		)
+		( "VAR"
+			( "val" "50" )
+		)
+		( "IKR"
+			( "val" "0.5" )
+		)
+		( "ISC"
+			( "val" "0" )
+		)
+		( "NC"
+			( "val" "2.0" )
+		)
+		( "RB"
+			( "val" "125" )
+		)
+		( "IRB"
+			( "val" "1E-3" )
+		)
+		( "RBM"
+			( "val" "25" )
+		)
+		( "RE"
+			( "val" "0.003" )
+		)
+		( "RC"
+			( "val" "0.123" )
+		)
+		( "CJE"
+			( "val" "102.8E-12" )
+		)
+		( "VJE"
+			( "val" "0.7" )
+		)
+		( "MJE"
+			( "val" "0.14" )
+		)
+		( "TF"
+			( "val" "1.5E-9" )
+		)
+		( "XTF"
+			( "val" "2.00" )
+		)
+		( "VTF"
+			( "val" "5" )
+		)
+		( "ITF"
+			( "val" "1" )
+		)
+		( "PTF"
+			( "val" "0" )
+		)
+		( "CJC"
+			( "val" "160.3E-12" )
+		)
+		( "VJC"
+			( "val" "0.7" )
+		)
+		( "MJC"
+			( "val" "0.2425" )
+		)
+		( "XCJC"
+			( "val" "0.5" )
+		)
+		( "TR"
+			( "val" "20E-9" )
+		)
+		( "CJS"
+			( "val" "0" )
+		)
+		( "VJS"
+			( "val" "0.7" )
+		)
+		( "MJS"
+			( "val" "0.5" )
+		)
+		( "XTB"
+			( "val" "2.28" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3.0" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( IC "8.0" )
+		( VCB "60" )
+		( VCE "60" )
+		( VEB "5" )
+		( PDM "2.2" )
+		( TJ "150" )
+		( RJC "1.67" )
+		( RCA "57" )
+	)
+)
+("awbmje6041"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "PNPDLG" )
+		( MODEL_TYPE 7 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "1.011E-15" )
+		)
+		( "BF"
+			( "val" "35000" )
+		)
+		( "NF"
+			( "val" "1.5" )
+		)
+		( "VAF"
+			( "val" "80" )
+		)
+		( "IKF"
+			( "val" "0.5" )
+		)
+		( "ISE"
+			( "val" "9.810E-6" )
+		)
+		( "NE"
+			( "val" "15.9805" )
+		)
+		( "BR"
+			( "val" "0.1" )
+		)
+		( "NR"
+			( "val" "1.0" )
+		)
+		( "VAR"
+			( "val" "50" )
+		)
+		( "IKR"
+			( "val" "0.5" )
+		)
+		( "ISC"
+			( "val" "0" )
+		)
+		( "NC"
+			( "val" "2.0" )
+		)
+		( "RB"
+			( "val" "125" )
+		)
+		( "IRB"
+			( "val" "1E-3" )
+		)
+		( "RBM"
+			( "val" "25" )
+		)
+		( "RE"
+			( "val" "0.003" )
+		)
+		( "RC"
+			( "val" "0.123" )
+		)
+		( "CJE"
+			( "val" "102.8E-12" )
+		)
+		( "VJE"
+			( "val" "0.7" )
+		)
+		( "MJE"
+			( "val" "0.14" )
+		)
+		( "TF"
+			( "val" "1.5E-9" )
+		)
+		( "XTF"
+			( "val" "2.00" )
+		)
+		( "VTF"
+			( "val" "5" )
+		)
+		( "ITF"
+			( "val" "1" )
+		)
+		( "PTF"
+			( "val" "0" )
+		)
+		( "CJC"
+			( "val" "160.3E-12" )
+		)
+		( "VJC"
+			( "val" "0.7" )
+		)
+		( "MJC"
+			( "val" "0.2425" )
+		)
+		( "XCJC"
+			( "val" "0.5" )
+		)
+		( "TR"
+			( "val" "20E-9" )
+		)
+		( "CJS"
+			( "val" "0" )
+		)
+		( "VJS"
+			( "val" "0.7" )
+		)
+		( "MJS"
+			( "val" "0.5" )
+		)
+		( "XTB"
+			( "val" "2.28" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3.0" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( IC "8.0" )
+		( VCB "80" )
+		( VCE "80" )
+		( VEB "5" )
+		( PDM "2.2" )
+		( TJ "150" )
+		( RJC "1.67" )
+		( RCA "57" )
+	)
+)
+("awbmje6042"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "PNPDLG" )
+		( MODEL_TYPE 7 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "1.011E-15" )
+		)
+		( "BF"
+			( "val" "35000" )
+		)
+		( "NF"
+			( "val" "1.5" )
+		)
+		( "VAF"
+			( "val" "80" )
+		)
+		( "IKF"
+			( "val" "0.5" )
+		)
+		( "ISE"
+			( "val" "9.810E-6" )
+		)
+		( "NE"
+			( "val" "15.9805" )
+		)
+		( "BR"
+			( "val" "0.1" )
+		)
+		( "NR"
+			( "val" "1.0" )
+		)
+		( "VAR"
+			( "val" "50" )
+		)
+		( "IKR"
+			( "val" "0.5" )
+		)
+		( "ISC"
+			( "val" "0" )
+		)
+		( "NC"
+			( "val" "2.0" )
+		)
+		( "RB"
+			( "val" "125" )
+		)
+		( "IRB"
+			( "val" "1E-3" )
+		)
+		( "RBM"
+			( "val" "25" )
+		)
+		( "RE"
+			( "val" "0.003" )
+		)
+		( "RC"
+			( "val" "0.123" )
+		)
+		( "CJE"
+			( "val" "102.8E-12" )
+		)
+		( "VJE"
+			( "val" "0.7" )
+		)
+		( "MJE"
+			( "val" "0.14" )
+		)
+		( "TF"
+			( "val" "1.5E-9" )
+		)
+		( "XTF"
+			( "val" "2.00" )
+		)
+		( "VTF"
+			( "val" "5" )
+		)
+		( "ITF"
+			( "val" "1" )
+		)
+		( "PTF"
+			( "val" "0" )
+		)
+		( "CJC"
+			( "val" "160.3E-12" )
+		)
+		( "VJC"
+			( "val" "0.7" )
+		)
+		( "MJC"
+			( "val" "0.2425" )
+		)
+		( "XCJC"
+			( "val" "0.5" )
+		)
+		( "TR"
+			( "val" "20E-9" )
+		)
+		( "CJS"
+			( "val" "0" )
+		)
+		( "VJS"
+			( "val" "0.7" )
+		)
+		( "MJS"
+			( "val" "0.5" )
+		)
+		( "XTB"
+			( "val" "2.28" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3.0" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( IC "8.0" )
+		( VCB "100" )
+		( VCE "100" )
+		( VEB "5" )
+		( PDM "2.2" )
+		( TJ "150" )
+		( RJC "1.67" )
+		( RCA "57" )
+	)
+)
+("awbtip105"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( MODEL_TYPE 507 )
+		( SYMBOL_NAME "PNPDLG" )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( IB "1" )
+		( IC "8" )
+		( VCB "6.000000e+01" )
+		( VCE "6.000000e+01" )
+		( VEB "5.000000e+00" )
+		( TJ "1.500000e+02" )
+		( RJC "1.560000e+00" )
+		( RCA "6.250000e+01" )
+	)
+)
+("awbtip106"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( MODEL_TYPE 507 )
+		( SYMBOL_NAME "PNPDLG" )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( IB "1" )
+		( IC "8" )
+		( VCB "80" )
+		( VCE "80" )
+		( VEB "5.000000e+00" )
+		( TJ "1.500000e+02" )
+		( RJC "1.560000e+00" )
+		( RCA "6.250000e+01" )
+	)
+)
+("awbtip107"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( MODEL_TYPE 507 )
+		( SYMBOL_NAME "PNPDLG" )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( IB "1" )
+		( IC "8" )
+		( VCB "100" )
+		( VCE "100" )
+		( VEB "5.000000e+00" )
+		( TJ "1.500000e+02" )
+		( RJC "1.560000e+00" )
+		( RCA "6.250000e+01" )
+	)
+)
+("awbtip127"
+	(Creator "Device property file created by analog_uprev on Mon Feb  5 06:08:04 IST 2001")
+	("device_info"
+		( MODEL_TYPE 507 )
+		( SYMBOL_NAME "PNPDLG" )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( IB "1.200000e-01" )
+		( IC "8.000000e+00" )
+		( VCB "1.000000e+02" )
+		( VCE "1.000000e+02" )
+		( VEB "5.000000e+00" )
+		( PDM "6.500000e+01" )
+		( TJ "1.500000e+02" )
+		( RJC "1.920000e+00" )
+		( RCA "6.058000e+01" )
+	)
+)

@@ -1,0 +1,23 @@
+\t (00:00:00) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Mon Dec 02 09:53:40 2024
+\t (00:00:00)         Host=DESKTOP-H90EQRS User=MSDL3 Pid=5444 CPUs=24
+\t (00:00:00) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\MSDL3\Desktop\OrCAD File\80dB_LiDAR\footprint\QFN50P300X300X100-17N-D_2.dra
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:00) Opening existing design...
+\d (00:00:00) Design opened: C:/Users/MSDL3/Desktop/OrCAD File/80dB_LiDAR/footprint/QFN50P300X300X100-17N-D_2.dra
+\i (00:00:00) trapsize 220
+\i (00:00:00) trapsize 226
+\i (00:00:00) trapsize 225
+\i (00:00:00) etchedit 
+\i (00:00:03) prepopup -0.7035 1.2350
+\i (00:00:05) pop dyn_option_select @:@Delete 
+\i (00:00:05) delete 
+\i (00:00:05) etchedit 
+\i (00:00:14) create detail 
+   (00:00:14) Loading cmds.cxt 
+\i (00:00:23) prepopup -0.7847 1.8033
+\i (00:00:25) exit 
+\e (00:00:25) Do you want to save the changes you made to QFN50P300X300X100-17N-D_2.dra?
+\i (00:00:26) fillin no 
+\t (00:00:26)     Journal end - Mon Dec 02 09:54:07 2024

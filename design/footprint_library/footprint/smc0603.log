@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : smc0603.dra                                   )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Thu Jun 15 10:51:37 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/project/pulsed_Lidar/design/version1/footprint
+    Name      = smc0603.psm
+    User      = hans
+    Machine   = DESKTOP-I7FV0E6
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

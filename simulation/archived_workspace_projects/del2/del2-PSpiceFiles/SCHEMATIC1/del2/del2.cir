@@ -1,0 +1,24 @@
+** Profile: "SCHEMATIC1-del2"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\del2\del2-pspicefiles\schematic1\del2.sim ] 
+
+** Creating circuit file "del2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa695_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa856_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\tlv3604.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPAx277.LIB" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa855_a.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 3u 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

@@ -1,0 +1,110 @@
+****************************************************************************
+* Copyright Cadence Design Systems 2012, Inc.  All Rights Reserved.
+* This model is subject to change without notice. A number of simplifications
+* were made to speed up the model. Cadence Design Systems, Inc 
+* is not responsible for any deviation between actual device behavior and 
+* results obtained from simulation.
+****************************************************************************
+
+
+*$
+.subckt BYW51_200 1 2 3 
+d1 1 3 d_temp
+d2 2 3 d_temp
+.model d_temp  D(IS=9.264e-08 RS=0.00734317 N=1.78042 EG=1.06725
++XTI=4 BV=200 IBV=1e-05 CJO=4.02499e-10
++VJ=0.890032 M=0.447601 FC=0.5 TT=35.10524e-09
++KF=0 AF=1
+)
+.ends
+*$
+.subckt MURH860CT 1 2 3
+d1 1 3 d_temp
+d2 2 3 d_temp
+.model d_temp	D(IS=0.000363027 RS=0.251167 N=6 EG=1.3
++XTI=5 BV=600 IBV=0.0001 CJO=1.09175e-10
++VJ=0.4 M=0.412268 FC=0.5 TT=35e-09
++KF=0 AF=1
+)
+.ends
+*$
+.subckt MURF1660CT 1 2 3
+d1 1 3 d_temp
+d2 2 3 d_temp
+.model d_temp	D(IS=0.00019279 RS=0.018691 N=4.09308 EG=1.53096
++XTI=5e-06 BV=600 IBV=1e-05 CJO=2.38893e-11
++VJ=1.30306 M=0.2 FC=0.5 TT=54.06444e-09
++KF=0 AF=1
+)
+.ends
+*$
+.subckt MURF1620CT 1 2 3
+d1 1 3 d_temp
+d2 2 3 d_temp
+.model d_temp	D(IS=2.47043e-09 RS=0.01 N=1.41657 EG=1.05727
++XTI=3.00431 BV=200 IBV=5e-06 CJO=2.45871e-10
++VJ=1.5 M=0.47005 FC=0.5 TT=3.64918e-08
++KF=0 AF=1
+)
+.ends
+*$
+.subckt MURD620CT 1 2 3
+d1 1 3 d_temp
+d2 2 3 d_temp
+.model d_temp	D(IS=5.581e-13 RS=0.0281814 N=1.13917 EG=1.14462
++XTI=4 BV=200 IBV=0.00005 CJO=7.17731e-11
++VJ=0.4 M=0.576322 FC=0.5 TT=3.43935e-08
++KF=0 AF=1
+)
+.ends
+*$
+.subckt MURB1660CT 1 2 3
+d1 1 3 d_temp
+d2 2 3 d_temp
+.model d_temp	D(
++IS=9.33466e-08 RS=0.0416347 N=2 EG=1.3
++XTI=4 BV=600 IBV=2e-06 CJO=4.05185e-10
++VJ=0.651907 M=0.416711 FC=0.5 TT=6.10884e-08
++KF=0 AF=1
+)
+.ends
+*$
+.subckt MUR620CT 1 2 3
+d1 1 3 d_temp
+d2 2 3 d_temp
+.model d_temp	D(IS=2.6804e-08 RS=0.024781 N=1.78682 EG=1.06429
++XTI=4 BV=200 IBV=2.5e-08 CJO=1.44051e-10
++VJ=1.05321 M=0.2 FC=0.5 TT=3.2476e-08
++KF=0 AF=1
+)
+.ends
+*$
+.subckt MUR3060PT 1 2 3
+d1 1 3 d_temp
+d2 2 3 d_temp
+.model d_temp	D(IS=2.96006e-05 RS=0.0226824 N=2.92783 EG=1.3
++XTI=5 BV=600 IBV=0.0001 CJO=6.19837e-10
++VJ=0.4 M=0.4168 FC=0.5 TT=6e-08
++KF=0 AF=1
+)
+.ends
+*$
+.subckt MSRD620CT 1 2 3
+d1 1 3 d_temp
+d2 2 3 d_temp
+.model d_temp	D(IS=1.21713e-07 RS=0.035979 N=2 EG=1.24491
++XTI=0.5 BV=200 IBV=5e-06 CJO=5.27102e-11
++VJ=0.4 M=0.297002 FC=0.5 TT=3.84191e-08
++KF=0 AF=1
+)
+.ends
+*$
+.subckt MURH840CT 1 2 3
+d1 1 3 d_temp
+d2 2 3 d_temp
+.model d_temp	D(IS=6.61911e-09 RS=0.092122 N=1.94467 EG=1.72948
++XTI=5e-14 BV=400 IBV=1e-05 CJO=1.5023e-10
++VJ=0.4 M=0.450927 FC=0.5 TT=3.36591e-08
++KF=0 AF=1)
+.ends
+*$

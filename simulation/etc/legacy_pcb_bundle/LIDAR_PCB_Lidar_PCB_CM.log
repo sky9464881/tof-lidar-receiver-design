@@ -1,0 +1,25 @@
+--------------------------------------------------------------------------------
+                               ORCAD CM MIGRATION
+--------------------------------------------------------------------------------
+C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\WORKSPACE\PROJECTS\LIDAR_PCB\LIDAR_PCB.DSN
+2025-04-06 at 17:43:58                                                          
+--------------------------------------------------------------------------------
+	Number of DiffPair Migrated                                : 0
+	Number of XNET Migrated                                    : 8
+	Number of Pin Constraints Migrated                         : 0
+	Number of Net Constraints Migrated                         : 0
+	Number of Physical Class Added                             : 0
+	Number of Spacing Class Added                              : 0
+	Number of Electrical CSET Added                            : 0
+	Number of Warning Encountered                              : 0
+--------------------------------------------------------------------------------
+.XNET: 
+	APD_BIAS                                APD_BIAS,N1153851,N1154915
+	N1154609                                N1154609,N1154653,N1155021,N1155357
+	N1154779                                N1154779,N1154807,N1155309
+	N1154887                                N1154875,N1154887,N1155145
+	N1155153                                N1154521,N1155153,N1155161,N1155221,N1156075
+	N1155211                                N1155211,N1155907,N1155935
+	N1156369                                N1156369,N1156413,N1156663,N1156799
+	N1156549                                N1156549,N1156577,N1156751
+--------------------------------------------------------------------------------

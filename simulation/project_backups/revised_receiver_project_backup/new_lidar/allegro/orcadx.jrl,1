@@ -1,0 +1,199 @@
+\t (00:00:13) orcadx 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:13)     Journal start - Wed Apr  2 21:29:56 2025
+\t (00:00:13)         Host=BOOK-QTRCVV9COM User=user Pid=19632 CPUs=12
+\t (00:00:13) CmdLine= C:\Cadence\OrCADX_24.1\tools\bin\unison.exe -layout -orcadx -mpssession user -proj C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\new_lidar\new_lidar\new_lidar.opj C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/new_lidar/new_lidar/allegro/new_lidar.brd
+\t (00:00:13) 
+\d (00:00:13) Design opened: C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/new_lidar/new_lidar/allegro/new_lidar.brd
+\i (00:00:13) trapsize 6836
+\i (00:00:15) trapsize 9005
+\t (00:00:20) Loading consmgr.cxt 
+\t (00:00:20) Loading acns_formula.cxt 
+\i (00:00:20) trapsize 8990
+\i (00:00:20) trapsize 9186
+\t (00:00:22) nayunwoo159@kw.ac.kr user logged in.
+
+\i (00:00:22) trapsize 9659
+\i (00:00:22) updateport VisibilityPane
+\i (00:00:22) updateport PropPane
+\i (00:00:22) ucpedit 
+\i (00:00:22) updateport VisibilityPane
+\i (00:00:26) design sync eco 
+\t (00:00:26) > Requesting Capture to open design
+\t (00:00:26) > Response received OpenDesign is done by remote tool
+\t (00:00:26) Design opened successfully
+\t (00:00:26) > Requesting Capture to generate logical netlist
+\t (00:00:26) > Requesting Capture to open design
+\t (00:00:26) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:00:26) Logical netlist generated successfully at C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\new_lidar\new_lidar\allegro
+\t (00:00:26) > Requesting Capture to generate logical netlist
+\t (00:00:26) > Response received OpenDesign is done by remote tool
+\t (00:00:26) Design opened successfully
+\t (00:00:26) > Generating Physical Netlist
+\t (00:00:26) Starting genfeedformat...
+\t (00:00:27) > Generating Physical Netlist successful
+\t (00:00:27) > Generating Differences
+\t (00:00:27) > Generating Differences successful
+\t (00:00:27) > Displaying differences output
+\t (00:00:27) > Displaying differences output successful
+\t (00:00:27) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:00:27) Logical netlist generated successfully at C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\new_lidar\new_lidar\allegro
+\i (00:00:27) updateport ReportsPane
+\i (00:00:27) updateport SearchPane
+\i (00:00:27) updateport PropPane
+\i (00:00:28) QtSignal DesignSyncDialog sync_button clicked
+\t (00:00:28) > Sending response DoneOpenBoard
+\t (00:00:28) Starting Cadence Logic Import...
+\w (00:00:28) WARNING(SPMHGE-795): netrev had warnings.
+\t (00:00:28) Opening existing design...
+\i (00:00:29) trapsize 9659
+\w (00:00:29) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:30) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:00:30) Placed 14 of 80 symbols.
+\i (00:00:30) QtSignal DesignSyncDialog sch_comboBox EditingFinished "C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/new_lidar/new_lidar/new_lidar.opj"
+\i (00:00:30) QtSignal MainCanvas DesignSyncDialog closed
+\i (00:00:30) updateport ReportsPane
+\i (00:00:30) updateport SearchPane
+\i (00:00:30) updateport VisibilityPane
+\i (00:00:30) updateport PropPane
+\i (00:00:30) ucpedit 
+\i (00:00:30) updateport VisibilityPane
+\i (00:00:35) setwindow text
+\i (00:00:35) close
+\i (00:00:37) setwindow pcb
+\i (00:00:37) prepopup 6606.82 14063.63
+\i (00:00:37) pick grid 16343.18 12247.73
+\t (00:00:37) last pick:  16343.18 12247.73
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 16150.00 12421.59
+\i (00:00:39) trapsize 4830
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 15281.82 12421.59
+\i (00:00:39) trapsize 2415
+\i (00:00:40) drag_start grid 14349.72 12271.88
+\i (00:00:41) drag_stop 17141.19 12078.70
+\i (00:00:41) roam start
+\i (00:00:41) roam x 1
+\i (00:00:41) roam x 1
+\i (00:00:41) roam x 2
+\i (00:00:41) roam y -1
+\i (00:00:41) roam x 1
+\i (00:00:41) roam y -2
+\i (00:00:41) roam x 4
+\i (00:00:41) roam x 2
+\i (00:00:41) roam y -1
+\i (00:00:41) roam x 11
+\i (00:00:41) roam y -4
+\i (00:00:41) roam x 8
+\i (00:00:41) roam y -1
+\i (00:00:41) roam x 31
+\i (00:00:41) roam y -6
+\i (00:00:41) roam x 21
+\i (00:00:41) roam y -9
+\i (00:00:41) roam x 15
+\i (00:00:41) roam y -1
+\i (00:00:41) roam x 17
+\i (00:00:41) roam y -1
+\i (00:00:41) roam x 11
+\i (00:00:41) roam y -3
+\i (00:00:41) roam x 10
+\i (00:00:41) roam y -1
+\i (00:00:41) roam x 5
+\i (00:00:41) roam x 4
+\i (00:00:41) roam x 2
+\i (00:00:41) roam x 3
+\i (00:00:41) roam x 1
+\i (00:00:41) roam y -1
+\i (00:00:41) roam x 1
+\i (00:00:41) roam x -6
+\i (00:00:41) roam x -10
+\i (00:00:41) roam y 1
+\i (00:00:41) roam x -29
+\i (00:00:41) roam x -72
+\i (00:00:41) roam x -42
+\i (00:00:41) roam x -45
+\i (00:00:41) roam y 1
+\i (00:00:41) roam x -146
+\i (00:00:41) roam y 4
+\i (00:00:41) roam x -55
+\i (00:00:41) roam x -51
+\i (00:00:41) roam x -31
+\i (00:00:41) roam x -28
+\i (00:00:41) roam x -20
+\i (00:00:41) roam x -30
+\i (00:00:42) roam x -51
+\i (00:00:42) roam x -54
+\i (00:00:42) roam x -21
+\i (00:00:42) roam x -39
+\i (00:00:42) roam y -1
+\i (00:00:42) roam x -6
+\i (00:00:42) roam end
+\i (00:00:42) roam start
+\i (00:00:42) roam y -1
+\i (00:00:42) roam x -3
+\i (00:00:42) roam y -1
+\i (00:00:42) roam x -16
+\i (00:00:42) roam y -10
+\i (00:00:42) roam x -24
+\i (00:00:42) roam y -13
+\i (00:00:42) roam x -56
+\i (00:00:42) roam y -16
+\i (00:00:42) roam x -69
+\i (00:00:42) roam y -21
+\i (00:00:42) roam x -105
+\i (00:00:42) roam y -29
+\i (00:00:42) roam x -66
+\i (00:00:42) roam y -15
+\i (00:00:42) roam x -53
+\i (00:00:42) roam y -16
+\i (00:00:42) roam x -12
+\i (00:00:42) roam y -4
+\i (00:00:42) roam x -10
+\i (00:00:42) roam y -4
+\i (00:00:42) roam x -6
+\i (00:00:42) roam y -2
+\i (00:00:42) roam end
+\i (00:00:43) roam start
+\i (00:00:43) roam x -2
+\i (00:00:43) roam y 2
+\i (00:00:43) roam x -1
+\i (00:00:43) roam x -6
+\i (00:00:43) roam y 1
+\i (00:00:43) roam x -36
+\i (00:00:43) roam y 7
+\i (00:00:43) roam x -35
+\i (00:00:43) roam y 3
+\i (00:00:43) roam x -22
+\i (00:00:43) roam y 1
+\i (00:00:43) roam x -18
+\i (00:00:43) roam x -5
+\i (00:00:43) roam x -4
+\i (00:00:43) roam end
+\i (00:00:44) pick grid 9750.85 12431.25
+\t (00:00:44) last pick:  9750.85 12431.25
+\i (00:00:44) pick grid 9446.59 12904.55
+\t (00:00:44) last pick:  9446.59 12904.55
+\i (00:00:44) pick grid 10794.04 13556.54
+\t (00:00:44) last pick:  10794.04 13556.54
+\i (00:00:45) pick grid 10774.72 13097.73
+\t (00:00:45) last pick:  10774.72 13097.73
+\i (00:00:45) pick grid 10755.40 13426.14
+\t (00:00:45) last pick:  10755.40 13426.14
+\i (00:00:46) pick grid 11455.68 12798.30
+\t (00:00:46) last pick:  11455.68 12798.30
+\i (00:00:46) pick grid 11190.06 12759.66
+\t (00:00:46) last pick:  11190.06 12759.66
+\i (00:00:47) zoom in 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom in 10576.71 12537.50
+\i (00:00:47) trapsize 1207
+\i (00:00:47) zoom out 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom out 10576.72 12537.51
+\i (00:00:47) trapsize 2415
+\e (00:00:51) Do you want to save the changes you made to C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/new_lidar/new_lidar/allegro/new_lidar.brd?
+\i (00:00:53) fillin no 
+\i (00:00:54) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:00:54) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\t (00:01:00)     Journal end - Wed Apr  2 21:30:43 2025

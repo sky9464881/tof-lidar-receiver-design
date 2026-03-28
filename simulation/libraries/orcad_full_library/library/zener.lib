@@ -1,0 +1,390 @@
+****************************************************************************
+* Copyright Cadence Design Systems 2012, Inc. All Rights Reserved.
+* This model is subject to change without notice. Cadence Design Systems, Inc 
+* is not responsible for any deviation between actual device behavior and 
+* results obtained from simulation.
+****************************************************************************
+* PSpice Model Editor - Version 16.5.0
+*$
+.subckt MMBZ4623 AN CAT 
++ params:
++ VZT=4.3
++ IZT=0.25m
++ ZZT=1600
++ IR=4u
++ VR=2
++ ISF=3.0289n
++ NF=2.1283
++ RSF=1m
++ TMAX=150
++ VJF=.68774
++ MF=0.1
++ CJOF=200
+XinstMMBZ4623 AN CAT  model434
++ params: 
++ vzt={VZT}
++ izt={IZT}
++ zzt={ZZT}
++ ir={IR}
++ vr={VR}
++ isf={ISF}
++ nf={NF}
++ rsf={RSF}
++ tmax={TMAX}
++ vjf={VJF}
++ mf={MF}
++ cjof={CJOF}
+.ends MMBZ4623
+*
+*
+*$
+*b Device model created by analog_uprev for 1n2804a on Tue Feb  6 17:33:04 IST 2001
+* updated using Model Editor release 16.5.0 on 10/13/11 at 12:03
+.subckt 1n6352us AN CAT 
++ params:
++ VZT=150
++ IZT=0.85m
++ ZZT=1000
++ IR=0.05u
++ VR=114
++ ISF=2.789n
++ NF=1.766
++ RSF=0.1331
++ TMAX=175
++ VJF=0.75
++ CJOF=65
++ MF=0.5
++ TCBV=165
+Xinst1n6352us AN CAT  model434
++ params: 
++ vzt={VZT}
++ izt={IZT}
++ zzt={ZZT}
++ ir={IR}
++ vr={VR}
++ isf={ISF}
++ nf={NF}
++ rsf={RSF}
++ tmax={TMAX}
++ vjf={VJF}
++ cjof={CJOF}
++ mf={MF}
++ tcbv={TCBV}
+.ends 1n6352us
+*
+*
+*$
+*b Device model created by analog_uprev for 1n2804a on Tue Feb  6 17:33:04 IST 2001
+* updated using Model Editor release 16.5.0 on 09/20/11 at 12:14
+.subckt 1n6330us AN CAT 
++ params:
++ VZT=18
++ IZT=7m
++ ZZT=14
++ IR=0.05u
++ VR=14
++ ISF=2.789n
++ NF=1.766
++ RSF=0.1331
++ TMAX=175
++ VJF=0.75
++ CJOF=300
++ MF=0.5
++ TCBV=15.3
+Xinst1n6330us AN CAT  model434
++ params: 
++ vzt={VZT}
++ izt={IZT}
++ zzt={ZZT}
++ ir={IR}
++ vr={VR}
++ isf={ISF}
++ nf={NF}
++ rsf={RSF}
++ tmax={TMAX}
++ vjf={VJF}
++ cjof={CJOF}
++ mf={MF}
++ tcbv={TCBV}
+.ends 1n6330us
+*
+*
+*$
+*b Device model created by analog_uprev for 1n2804a on Tue Feb  6 17:33:04 IST 2001
+* created using Model Editor release 16.5.0 on 09/20/11 at 12:10
+.subckt 1n6321us AN CAT 
++ params:
++ VZT=7.5
++ IZT=20m
++ ZZT=4
++ IR=2u
++ VR=5
++ ISF=2.789n
++ NF=1.766
++ RSF=0.1331
++ TMAX=175
++ VJF=0.75
++ CJOF=900
++ MF=0.5
++ TCBV=5.1
+Xinst1n6321us AN CAT  model434
++ params: 
++ vzt={VZT}
++ izt={IZT}
++ zzt={ZZT}
++ ir={IR}
++ vr={VR}
++ isf={ISF}
++ nf={NF}
++ rsf={RSF}
++ tmax={TMAX}
++ vjf={VJF}
++ cjof={CJOF}
++ mf={MF}
++ tcbv={TCBV}
+.ends 1n6321us
+*
+*
+*$
+*b Device model created by analog_uprev for 1n2804a on Tue Feb  6 17:33:04 IST 2001
+* updated using Model Editor release 16.5.0 on 10/14/11 at 10:36
+.subckt 1n6314us AN CAT 
++ params:
++ VZT=3.9
++ IZT=20m
++ ZZT=20
++ IR=2u
++ VR=1
++ ISF=2.789n
++ NF=1.766
++ RSF=0.1331
++ TMAX=175
++ VJF=0.75
++ CJOF=1400
++ MF=0.5
++ TCBV=-1.68
+Xinst1n6314us AN CAT  model434
++ params: 
++ vzt={VZT}
++ izt={IZT}
++ zzt={ZZT}
++ ir={IR}
++ vr={VR}
++ isf={ISF}
++ nf={NF}
++ rsf={RSF}
++ tmax={TMAX}
++ vjf={VJF}
++ cjof={CJOF}
++ mf={MF}
++ tcbv={TCBV}
+.ends 1n6314us
+*
+*
+*$
+*b Device model created by analog_uprev for 1n2804a on Tue Feb  6 17:33:04 IST 2001
+* updated using Model Editor release 16.5.0 on 09/20/11 at 14:09
+.subckt MMBZ4625 AN CAT 
++ params:
++ VZT=5.1
++ IZT=0.25m
++ ZZT=1500
++ IR=10u
++ VR=3
++ ISF=3.0289n
++ NF=2.1283
++ RSF=1m
++ TMAX=150
++ VJF=.68774
++ MF=0.1
++ CJOF=200
+XinstMMBZ4625 AN CAT  model434
++ params: 
++ vzt={VZT}
++ izt={IZT}
++ zzt={ZZT}
++ ir={IR}
++ vr={VR}
++ isf={ISF}
++ nf={NF}
++ rsf={RSF}
++ tmax={TMAX}
++ vjf={VJF}
++ mf={MF}
++ cjof={CJOF}
+.ends MMBZ4625
+*
+*
+*$
+*b Device model created by analog_uprev for 1n2804a on Tue Feb  6 17:33:04 IST 2001
+* updated using Model Editor release 16.5.0 on 09/20/11 at 14:09
+.subckt MMBZ4620 AN CAT 
++ params:
++ VZT=3.3
++ IZT=0.25m
++ ZZT=1650
++ IR=7.5u
++ VR=1.5
++ ISF=3.0289n
++ NF=2.1283
++ RSF=1m
++ TMAX=150
++ VJF=.68774
++ MF=0.1
++ CJOF=200
+XinstMMBZ4620 AN CAT  model434
++ params: 
++ vzt={VZT}
++ izt={IZT}
++ zzt={ZZT}
++ ir={IR}
++ vr={VR}
++ isf={ISF}
++ nf={NF}
++ rsf={RSF}
++ tmax={TMAX}
++ vjf={VJF}
++ mf={MF}
++ cjof={CJOF}
+.ends MMBZ4620
+*
+*
+*$
+*b Device model created by analog_uprev for 1n2804a on Tue Feb  6 17:33:04 IST 2001
+* updated using Model Editor release 16.5.0 on 09/20/11 at 14:09
+.subckt MMBZ4626 AN CAT 
++ params:
++ VZT=5.6
++ IZT=250u
++ ZZT=1400
++ IR=10u
++ VR=4
++ ISF=3.0289n
++ NF=2.1283
++ RSF=1.0000E-3
++ TMAX=150
++ VJF=.68774
++ MF=0.1
++ CJOF=200p
+XinstMMBZ4626 AN CAT  model434
++ params: 
++ vzt={VZT}
++ izt={IZT}
++ zzt={ZZT}
++ ir={IR}
++ vr={VR}
++ isf={ISF}
++ nf={NF}
++ rsf={RSF}
++ tmax={TMAX}
++ vjf={VJF}
++ mf={MF}
++ cjof={CJOF}
+.ends MMBZ4626
+*
+*
+*$
+*b Device model created by analog_uprev for 1n2804a on Tue Feb  6 17:33:04 IST 2001
+* updated using Model Editor release 16.5.0 on 09/20/11 at 14:08
+.subckt MMBZ4627 AN CAT 
++ params:
++ VZT=6.2
++ IZT=250u
++ ZZT=1200
++ IR=10u
++ VR=5
++ ISF=3.0289e-09
++ NF=2.1283
++ RSF=1m
++ TMAX=150
++ VJF=0.68774
++ MF=0.1
++ CJOF=200p
+XinstMMBZ4627 AN CAT  model434
++ params: 
++ vzt={VZT}
++ izt={IZT}
++ zzt={ZZT}
++ ir={IR}
++ vr={VR}
++ isf={ISF}
++ nf={NF}
++ rsf={RSF}
++ tmax={TMAX}
++ vjf={VJF}
++ mf={MF}
++ cjof={CJOF}
+.ends MMBZ4627
+*
+*
+*$
+*b Device model created by analog_uprev for 1n2804a on Tue Feb  6 17:33:04 IST 2001
+* updated using Model Editor release 16.5.0 on 10/24/11 at 11:30
+.subckt 1n6312us AN CAT 
++ params:
++ VZT=3.3
++ IZT=20m
++ ZZT=24
++ IR=5u
++ VR=1
++ ISF=2.789n
++ NF=1.766
++ RSF=0.1331
++ TMAX=175
++ VJF=0.75
++ CJOF=1650
++ MF=0.5
++ TCBV=-2.145
+Xinst1n6312us AN CAT  model434
++ params: 
++ vzt={VZT}
++ izt={IZT}
++ zzt={ZZT}
++ ir={IR}
++ vr={VR}
++ isf={ISF}
++ nf={NF}
++ rsf={RSF}
++ tmax={TMAX}
++ vjf={VJF}
++ cjof={CJOF}
++ mf={MF}
++ tcbv={TCBV}
+.ends 1n6312us
+*
+*
+*$
+*b Device model created by analog_uprev for 1n2804a on Tue Feb  6 17:33:04 IST 2001
+* updated using Model Editor release 16.5.0 on 09/20/11 at 14:09
+.subckt MMBZ4622 AN CAT 
++ params:
++ VZT=3.9
++ IZT=0.25m
++ ZZT=1650
++ IR=5u
++ VR=2
++ ISF=3.0289n
++ NF=2.1283
++ RSF=1m
++ TMAX=150
++ VJF=.68774
++ MF=0.1
++ CJOF=200
+XinstMMBZ4622 AN CAT  model434
++ params: 
++ vzt={VZT}
++ izt={IZT}
++ zzt={ZZT}
++ ir={IR}
++ vr={VR}
++ isf={ISF}
++ nf={NF}
++ rsf={RSF}
++ tmax={TMAX}
++ vjf={VJF}
++ mf={MF}
++ cjof={CJOF}
+.ends MMBZ4622
+*
+*
+*$

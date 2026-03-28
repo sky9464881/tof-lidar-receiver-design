@@ -1,0 +1,5 @@
+* source PTO
+X_R156         0 N1110197 N1110201 POT PARAMS: SET={potset} VALUE=1K
+V_V1         N1110201 0 5
+R_R157         0 N1110197  1k TC=0,0 
+.PARAM  potset=0.5

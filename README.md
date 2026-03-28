@@ -1,38 +1,88 @@
-# Project README Template
 
-여러 프로젝트에서 공통으로 사용할 수 있는 README 템플릿을 정리한 저장소입니다.  
-포트폴리오용 프로젝트, 팀 프로젝트, 개인 프로젝트를 GitHub에 일관된 형식으로 정리하기 위해 만들었습니다.
+# Pulsed ToF LiDAR Receiver Front-End Design
 
-## Purpose
-- 프로젝트별 README 형식을 통일하기 위한 템플릿 보관
-- 새로운 프로젝트를 시작할 때 빠르게 복사하여 사용
-- 프로젝트 유형별 예시와 작성 기준 정리
+## Overview
+This project focuses on the design and validation of a receiver front-end for a Pulsed Time-of-Flight (ToF) LiDAR system.  
+The main objective was to reduce walk error caused by variations in received signal amplitude while maintaining wide dynamic range under practical hardware and budget constraints.
 
-## Files
-- `README_TEMPLATE.md` : 공통 프로젝트 README 템플릿
-- `checklist.md` : 레포 공개 전 점검용 체크리스트
-- `examples/` : 프로젝트 유형별 예시 README
+## Project Goal
+- Design a Pulsed ToF LiDAR receiver front-end that minimizes walk error
+- Target dynamic range: 60 dB
+- Target detection range: 5.4 m to 117.9 m
+- Target resolution: 15 mm or less (100 ps walk)
 
-## Recommended Usage
-1. 새 프로젝트 레포지토리를 생성합니다.
-2. `README_TEMPLATE.md` 내용을 복사합니다.
-3. 프로젝트에 맞게 항목을 수정합니다.
-4. 필요하면 examples 폴더의 예시를 참고합니다.
+## Final Outcome
+- Reported dynamic range: 73 dB
+- Reported detection range: 3.03 m to 134.8 m
+- Reported walk error: 2.2 ns
+- Reported range resolution: 33 cm
 
-## Notes
-- 제목과 섹션명은 영어로 통일
-- 본문 설명은 한국어 중심으로 작성
-- 프로젝트마다 같은 목차를 유지해 일관성 확보
-- 팀 프로젝트는 반드시 역할과 기여도를 명시
+## System Architecture
+The receiver was designed with the following signal chain:
 
-## Template Structure
-- Overview
-- Project Info
-- Tech Stack
-- My Role
-- Key Tasks
-- Process
-- Results
-- Repository Structure
-- How to Run
-- Lessons Learned
+`APD → OPA855 (TIA) → OPA695 (Post Amplifier) → TLV3604 (Comparator / Time Discriminator)`
+
+## Key Work
+- Derived system requirements based on bandwidth, SNR, dynamic range, and detection range
+- Designed APD-based receiver front-end for current-to-voltage conversion
+- Implemented TIA and post-amplifier stages for weak pulse amplification
+- Built comparator stage with adjustable threshold for timing extraction
+- Modeled APD behavior in PSpice based on datasheet parameters
+- Designed and fabricated a 4-layer PCB considering high-speed analog layout constraints
+- Performed oscilloscope-based validation using OD filters and waveform averaging
+
+## Technical Highlights
+### 1. Requirement-Driven Design
+The receiver design started from system-level requirements such as rise time, bandwidth, SNR, and dynamic range rather than only schematic-level implementation.
+
+### 2. High-Speed Analog Front-End Design
+Special attention was given to:
+- minimizing parasitic capacitance between APD and TIA
+- bias stability
+- output swing limits
+- ringing reduction at the post-amplifier stage
+
+### 3. Practical Hardware Validation
+The design was not limited to simulation.  
+The front-end was implemented on a real PCB and validated through:
+- oscilloscope measurements
+- OD filter-based attenuation tests
+- CSV export and MATLAB-based waveform averaging
+
+### 4. Tuning and Debugging
+During validation, several practical issues were identified and improved:
+- APD / laser alignment mismatch
+- OPA855 stability issues
+- RISO-related noise behavior
+- ringing at the OPA695 output stage
+
+## Results
+The final implementation achieved a wider dynamic range and longer detectable distance than the initial target range.  
+However, walk error performance did not meet the original resolution target, mainly due to ringing and threshold-setting limitations in the measured waveform.
+
+## Limitations
+- Walk error remained larger than the original target
+- Ringing at the later analog stage limited threshold reduction
+- Mechanical alignment issues affected repeatability
+- Some simulation constraints and model inconsistencies reduced early-stage verification efficiency
+
+## What I Learned
+This project strengthened my understanding of how system requirements, analog front-end design, PCB layout, and measurement conditions interact in real hardware development.  
+It also showed that signal integrity, impedance behavior, and practical tuning are critical in converting a theoretical design into a working measurement system.
+
+## Tech Stack
+- PSpice / OrCAD Capture
+- Allegro PCB Designer
+- MATLAB
+- Oscilloscope
+- Function Generator
+- DC Power Supply
+
+## Repository Structure
+```text
+.
+├─ design/
+├─ docs/
+├─ results/
+├─ simulation/
+└─ README.md

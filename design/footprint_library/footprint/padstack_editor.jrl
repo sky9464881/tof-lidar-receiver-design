@@ -1,0 +1,13 @@
+\t (00:00:00) padstack_editor 17.2 P019 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Mon Dec 02 09:52:46 2024
+\t (00:00:00)         Host=DESKTOP-H90EQRS User=MSDL3 Pid=14264 CPUs=24
+\t (00:00:00) CmdLine= c:\cadence\spb_17.2\tools\bin\padstack_editor.exe C:\Users\MSDL3\Desktop\OrCAD File\80dB_LiDAR\footprint\d85_30_2.pad
+\t (00:00:00) 
+\d (00:00:03) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:08) QtSignal GuidedTabsParent GuidedTabs currentChanged Start
+\d (00:00:10) QtSignal GuidedTabsParent NewPads currentRowChanged 2
+\d (00:00:10) QtSignal GuidedTabsParent NewPads itemSelectionChanged Oblong
+\d (00:00:10) QtSignal GuidedTabsParent NewPads itemClicked Oblong
+\d (00:00:11) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:18) QtSignal MainWindow Save triggered
+\t (00:00:20)     Journal end - Mon Dec 02 09:53:06 2024

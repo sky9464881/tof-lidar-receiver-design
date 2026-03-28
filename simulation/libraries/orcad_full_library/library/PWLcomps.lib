@@ -1,0 +1,926 @@
+**************************************************************
+** lib version 2.0 *******************************************
+** April 18. 2016 ***************************************
+** 1. Switching to automatic insertion of A2D and D2A ********
+** 2. Switching from model to instance for *******************
+**    A2D/D2A parameters VOH, VOL, RIN, ROUT, HYST, VT *******
+** May 20. 2016 ***************************************
+** 1. Fixed handling of global power nets ********
+** June 10. 2016 **************************************
+** 1. Fixed STIM error in TFF_PWL *********
+** 2. Updated dll name from orPSpicePWL to orPSpicePWL64 *****
+** 3. Added missing IC param in DFF **********
+**************************************************************
+
+
+**************************************************************
+**** PWL I/O Models ******************************************
+**************************************************************
+
+.subckt DtoA_PWL  D A  DPWR DGND params: CAPACITANCE=0 DRVL=0 DRVH=0 ROUT=10 RIN=1G VOH=5 VOL=0
+
+ROUT A V1 {ROUT}
+F1 DPWR DGND VPROBE -1
+EOUT V1 VDUMMY VALUE={IF(K(D) > 0.5, VOH, VOL)}
+VPROBE VDUMMY DGND 0
+
+.ends DtoA_PWL
+
+**************************************************************
+
+.subckt AtoD_PWL a d dpwr dgnd params: 
++ RIN=1e6 TH=2.5 HYSTWD=.1 CAPACITANCE=0 
+
+.model DOUTPUT_PWL doutput (
++	s0name="0"	s0vlo=0	s0vhi=3
++	s1name="1"	s1vlo=2	s1vhi=5
++       rload=1e6
++	)
+
+O0  A DGND DOUTPUT_PWL DGTLNET=D IO_PWL RIN={RIN} TH={TH} HYSTWD={HYSTWD}
+
+.ends AtoD_PWL
+
+**************************************************************
+
+.subckt DIGPWR_PWL AGND 
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS: VOLTAGE=5.0v REFERENCE=0v
+*
+VDPWR DPWR AGND {VOLTAGE}
+RPWR1 DPWR AGND 1MEG
+
+.ends DIGPWR_PWL
+
+
+**************************************************************
+
+.model IO_PWL uio (
++       drvh=96.4       		drvl=104
++       AtoD1="AtoD_PWL"        AtoD2="AtoD_PWL"
++       AtoD3="AtoD_PWL"        AtoD4="AtoD_PWL"
++       DtoA1="DtoA_PWL"        DtoA2="DtoA_PWL"
++       DtoA3="DtoA_PWL"        DtoA4="DtoA_PWL"
++       tswhl1=0ns          	tswlh1=0ns
++       tswhl2=0ns          	tswlh2=0ns
++       tswhl3=0ns          	tswlh3=0ns
++       tswhl4=0ns          	tswlh4=0ns
++       DIGPOWER="DIGPWR_PWL" 
++       ROUT=10  VOL=0  VOH=5  RIN=10000000  TH=2.5  HYSTWD=1 
++       )
+
+**************************************************************
+
+****************************MD_ORM**************************************************
+
+.subckt  MD_ORM  DGND1  nref  out  out_bar  in1  in2  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000  TH=2.5  HYSTWD=1 
++ NUM_INVERTED_INPUTS=0 OUT_DELAY=0n  LOGIC=1 IC=0  
+
+
+.MODEL T_OR_PWL UGATE
++ TPLHMN={OUT_DELAY} TPLHTY={OUT_DELAY} TPLHMX={OUT_DELAY} 
++ TPHLMN={OUT_DELAY} TPHLTY={OUT_DELAY} TPHLMX={OUT_DELAY}
++ )
+
+U1 OR(2) DPWR nref in1 in2 out T_OR_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC} NUM_INVERTED_INPUTS={NUM_INVERTED_INPUTS}
+
+U2 INV DPWR nref out out_bar T_OR_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
+
+.ends
+
+
+*************************** MD_ORM_INV1**************************************************
+
+.subckt  MD_ORM_INV1  DGND1  nref  out  out_bar  in1  in2  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000  TH=2.5 
++ HYSTWD=1 NUM_INVERTED_INPUTS=1  OUT_DELAY=0n  LOGIC=1    IC=0
+
+
+.MODEL T_OR_PWL UGATE 
++ TPLHMN={OUT_DELAY} TPLHTY={OUT_DELAY} TPLHMX={OUT_DELAY} 
++ TPHLMN={OUT_DELAY} TPHLTY={OUT_DELAY} TPHLMX={OUT_DELAY}
++ )
+
+
+U3 INV DPWR nref in2 IN2_BAR T_OR_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
+
+U1 OR(2) DPWR nref in1 IN2_BAR out T_OR_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
+
+U2 INV DPWR nref out out_bar T_OR_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
+
+.ends
+
+*************************** MD_ORM3**************************************************
+
+.subckt  MD_ORM3  DGND1  nref  out  out_bar  in1  in2  in3  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000  TH=2.5 
++ HYSTWD=1 NUM_INVERTED_INPUTS=0  OUT_DELAY=0n  LOGIC=1   IC=0 
+
+.MODEL T_OR_PWL UGATE
++ TPLHMN={OUT_DELAY} TPLHTY={OUT_DELAY} TPLHMX={OUT_DELAY} 
++ TPHLMN={OUT_DELAY} TPHLTY={OUT_DELAY} TPHLMX={OUT_DELAY}
++ )
+
+U1 OR(3) DPWR nref in1 in2 in3 out T_OR_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC} NUM_INVERTED_INPUTS={NUM_INVERTED_INPUTS}
+
+U2 INV DPWR nref out out_bar T_OR_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
+
+.ends
+
+
+*************************** MD_ORM3_INV1**************************************************
+.subckt  MD_ORM3_INV1  DGND1  nref  out  out_bar  in1  in2  in3  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000 
++ TH=2.5 HYSTWD=1  NUM_INVERTED_INPUTS=1  OUT_DELAY=0n  LOGIC=1    IC=0
+
+
+.MODEL T_OR_PWL UGATE 
++ TPLHMN={OUT_DELAY} TPLHTY={OUT_DELAY} TPLHMX={OUT_DELAY} 
++ TPHLMN={OUT_DELAY} TPHLTY={OUT_DELAY} TPHLMX={OUT_DELAY}
++ )
+
+
+U3 INV DPWR nref in3 IN3_BAR T_OR_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
+
+U1 OR(3) DPWR nref in1 in2 in3_BAR out T_OR_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
+
+U2 INV DPWR nref out out_bar T_OR_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
+
+.ends
+
+*************************** MD_ORM4**************************************************
+
+.subckt  MD_ORM4  DGND1  nref  out  out_bar  in1  in2  in3  in4  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000 
++ TH=2.5 HYSTWD=1  NUM_INVERTED_INPUTS=0  OUT_DELAY=0n  LOGIC=1    IC=0
+
+.MODEL T_OR_PWL UGATE ; TRI-AND2 Timing Model
++ TPLHMN={OUT_DELAY} TPLHTY={OUT_DELAY} TPLHMX={OUT_DELAY} 
++ TPHLMN={OUT_DELAY} TPHLTY={OUT_DELAY} TPHLMX={OUT_DELAY}
++ )
+
+U1 OR(4) DPWR nref in1 in2 in3 in4 out T_OR_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC} NUM_INVERTED_INPUTS={NUM_INVERTED_INPUTS}
+
+U2 INV DPWR nref out out_bar T_OR_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
+
+.ends
+
+*************************** MD_ORM7**************************************************
+
+.subckt  MD_ORM7  DGND1  nref  out  out_bar  in1  in2  in3  in4  in5  in6  in7  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0 
++ VOH=5 RIN=10000000  TH=2.5  HYSTWD=1  NUM_INVERTED_INPUTS=0  OUT_DELAY=0n  LOGIC=1    IC=0
+
+.MODEL T_OR_PWL UGATE ; TRI-AND2 Timing Model
++ TPLHMN={OUT_DELAY} TPLHTY={OUT_DELAY} TPLHMX={OUT_DELAY} 
++ TPHLMN={OUT_DELAY} TPHLTY={OUT_DELAY} TPHLMX={OUT_DELAY}
++ )
+
+U1 OR(7) DPWR nref in1 in2 in3 in4 in5 in6 in7 out T_OR_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC} NUM_INVERTED_INPUTS={NUM_INVERTED_INPUTS}
+
+U2 INV DPWR nref out out_bar T_OR_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
+
+.ends
+
+*************************** PSP_MORM**************************************************
+.subckt  PSP_MORM  out  nref  in1  in2  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000  TH=2.5  HYSTWD=1 
++ NUM_INVERTED_INPUTS=0 DELAY=0n  LOGIC=1    IC=0
+
+X_1  0  nref  OUT  OUT_BAR  IN1  IN2  MD_ORM    PARAMS:  ROUT={ROUT}  VOL={VOL}  VOH={VOH}  RIN={RIN}  TH={TH} 
++ HYSTWD={HYSTWD} NUM_INVERTED_INPUTS=0  OUT_DELAY={DELAY} LOGIC={LOGIC} IC={IC} NUM_INVERTED_INPUTS={NUM_INVERTED_INPUTS}
+
+.ends PSP_MORM
+
+**************************PSP_MORM3************************************************
+
+.subckt  PSP_MORM3  nref  out  in1  in2  in3  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000  TH=2.5 
++ HYSTWD=1 NUM_INVERTED_INPUTS=0  DELAY=0n  LOGIC=1    IC=0
+
+.MODEL T_OR_PWL UGATE ; TRI-AND2 Timing Model
++ TPLHMN={DELAY} TPLHTY={DELAY} TPLHMX={DELAY} 
++ TPHLMN={DELAY} TPHLTY={DELAY} TPHLMX={DELAY}
++ )
+
+U1 OR(3) DPWR nref in1 in2 in3 out T_OR_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC} NUM_INVERTED_INPUTS={NUM_INVERTED_INPUTS}
+
+.ends PSP_MORM3
+
+
+**************************PSP_MXOR************************************************
+
+.subckt  PSP_MXOR  nref  out  in1  in2
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000  TH=2.5 
++ HYSTWD=1 NUM_INVERTED_INPUTS=0  DELAY=0n  LOGIC=1    IC=0
+
+.MODEL T_XOR_PWL UGATE
++ TPLHMN={DELAY} TPLHTY={DELAY} TPLHMX={DELAY} 
++ TPHLMN={DELAY} TPHLTY={DELAY} TPHLMX={DELAY}
++ )
+
+U1 XOR DPWR nref in1 in2 out T_XOR_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
++ NUM_INVERTED_INPUTS={NUM_INVERTED_INPUTS} LOGIC={LOGIC}
+
+.ends PSP_MXOR
+
+
+**************************PSP_MNXOR************************************************
+
+.subckt  PSP_MNXOR  nref  out  in1  in2
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000  TH=2.5 
++ HYSTWD=1 NUM_INVERTED_INPUTS=0  DELAY=0n  LOGIC=1    IC=0
+
+.MODEL T_XOR_PWL UGATE
++ TPLHMN={DELAY} TPLHTY={DELAY} TPLHMX={DELAY} 
++ TPHLMN={DELAY} TPHLTY={DELAY} TPHLMX={DELAY}
++ )
+
+U1 NXOR DPWR nref in1 in2 out1 T_XOR_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
++ NUM_INVERTED_INPUTS={NUM_INVERTED_INPUTS} LOGIC={LOGIC}
+
+*U2 INV DPWR nref out1 out T_XOR_PWL IO_PWL
+*+ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
+
+.ends PSP_MNXOR
+
+
+**************************PSP_XOR************************************************
+
+.subckt  PSP_XOR  nref  out out_bar in1  in2
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000  TH=2.5 
++ HYSTWD=1 NUM_INVERTED_INPUTS=0  DELAY=0n  LOGIC=1    IC=0
+
+.MODEL T_XOR_PWL UGATE
++ TPLHMN={DELAY} TPLHTY={DELAY} TPLHMX={DELAY} 
++ TPHLMN={DELAY} TPHLTY={DELAY} TPHLMX={DELAY}
++ )
+
+U1 XOR DPWR nref in1 in2 out T_XOR_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
++ NUM_INVERTED_INPUTS={NUM_INVERTED_INPUTS} LOGIC={LOGIC}
+
+U2 NXOR DPWR nref in1 in2 out_bar T_XOR_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
++ LOGIC={LOGIC}
+
+.ends PSP_XOR
+
+
+**************************** MD_BUFM **************************************************
+.subckt  MD_BUFM  DGND1  nref  out  out_bar  in  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000  TH=2.5  HYSTWD=1 
++ NUM_INVERTED_INPUTS=0 OUT_DELAY=0n   IC=0 
+
+.MODEL T_BUF_PWL UGATE 
++ TPLHMN={OUT_DELAY} TPLHTY={OUT_DELAY} TPLHMX={OUT_DELAY} 
++ TPHLMN={OUT_DELAY} TPHLTY={OUT_DELAY} TPHLMX={OUT_DELAY}
++ )
+
+U1 BUF DPWR nref in out T_BUF_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
+
+U2 INV DPWR nref out out_bar T_BUF_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
+
+.ends
+
+
+**************************** BUF_INV **************************************************
+.subckt  BUF_INV  DGND1  nref  out  out_bar  in  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000  TH=2.5  HYSTWD=1 
++ NUM_INVERTED_INPUTS=0  DELAY=0n   IC=0 
+
+.MODEL T_BUF_PWL UGATE 
++ TPLHMN={DELAY} TPLHTY={DELAY} TPLHMX={DELAY} 
++ TPHLMN={DELAY} TPHLTY={DELAY} TPHLMX={DELAY}
++ )
+
+U1 BUF DPWR nref in out T_BUF_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
+
+U2 INV DPWR nref in out_bar T_BUF_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
+
+.ends
+
+
+****************************DFF**************************************************
+
+.subckt  MD_DFFM  out  out_  nref D  CLK  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000 
++ TH=2.5 HYSTWD=1  MIN_CLK=1e-011  TRIG_COND=0  DELAY=2e-011 
++ SETUP_TIME=1e-011  HOLD_TIME=1e-012  IC=0
+
+
+.MODEL DFF_T_PWL UEFF ( tpclkqlhty={DELAY} tpclkqhlty={DELAY}
++ TSUDCLKMN={SETUP_TIME} TSUDCLKTY={SETUP_TIME} TSUDCLKMX={SETUP_TIME}
++ THDCLKMN={HOLD_TIME} THDCLKTY={HOLD_TIME} THDCLKMX={HOLD_TIME}
++ )
+
+U_DSTM STIM(2,11) DPWR nref PREBAR CLRBAR IO_STM 
++ 0 11
+
+*E1 VX 0 VALUE { if(TRIG_COND == 1, VOH , VOL) }
+*E2 VX2 0 VALUE { if(SET_RESET_LEVEL == 0, VOH , VOL) }
+
+*U1 LOGICEXP( 5, 3 ) DPWR nref
+*U1 LOGICEXP( 2, 1 ) DPWR nref
+*+ VX CLK CLK_OUT
+*+ VX CLK VX2 PREBAR CLRBAR CLK_OUT PREBAR_OUT CLRBAR_OUT
+*+ D0_GATE IO_PWL
+*+ LOGIC:
+*+ PREBAR_OUT = { (VX2 ^ PREBAR) }
+*+ CLRBAR_OUT = { (VX2 ^ CLRBAR) }
+*+ CLK_OUT = { (VX ^ CLK) }
+
+U2 DFF(1) DPWR nref PREBAR CLRBAR CLK D out out_  DFF_T_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} 
++ IC={IC} TRIG_COND={TRIG_COND}
+
+.ends
+
+
+****************************DFF_SR**************************************************
+
+.subckt  MD_DFFM_SR  out  out_  nref D  CLK  PRE  CLR  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000 
++ TH=2.5 HYSTWD=1  MIN_CLK=1e-011  TRIG_COND=0  
++ DELAY=2e-011  SETUP_TIME=1e-011  HOLD_TIME=1e-012 
++ SET_RESET_DELAY=5e-012 SET_RESET_TYPE=0  SET_RESET_LEVEL=1  IC=0
+
+
+.MODEL DFF_T_PWL UEFF ( tppcqlhty={SET_RESET_DELAY} 
++ tppcqhlty={SET_RESET_DELAY} tpclkqlhty={DELAY} tpclkqhlty={DELAY}
++ TSUDCLKMN={SETUP_TIME} TSUDCLKTY={SETUP_TIME} TSUDCLKMX={SETUP_TIME}
++ THDCLKMN={HOLD_TIME} THDCLKTY={HOLD_TIME} THDCLKMX={HOLD_TIME}
++ )
+
+.MODEL T_AND_PWL UGATE (
++ TPLHMN={DELAY} TPLHTY={DELAY} TPLHMX={DELAY} 
++ TPHLMN={DELAY} TPHLTY={DELAY} TPHLMX={DELAY}
+) 
+
+*E1 VX 0 VALUE { if(TRIG_COND == 1, VOH , VOL) }
+*E2 VX2 0 VALUE { if(SET_RESET_LEVEL == 0, VOL , VOH) }
+
+*U1 LOGICEXP( 5, 3 ) DPWR nref
+*+ VX CLK VX2 PRE CLR CLK_OUT PRE_OUT CLR_OUT
+*+ D0_GATE IO_PWL
+*+ LOGIC:
+*+ PRE_OUT = { (VX2 ^ PRE) }
+*+ CLR_OUT = { (VX2 ^ CLR) }
+*+ CLK_OUT = { (VX ^ CLK) }
+
+*U1 XOR DPWR nref VX CLK CLK_OUT T_AND_PWL IO_PWL
+
+*U2 INVA(2) DPWR nref PRE CLR D_PREBAR D_CLRBAR T_AND_PWL IO_PWL
+*+ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
+
+U3 DFF(1) DPWR nref PRE CLR CLK D out out_  DFF_T_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} 
++ IC={IC} SET_RESET_LEVEL={SET_RESET_LEVEL} TRIG_COND={TRIG_COND}
++ SET_RESET_TYPE={SET_RESET_TYPE}
+
+.ends MD_DFFM_SR
+
+
+****************************JKFF_SR**************************************************
+
+.subckt  PSP_MJKFF_SR  OUT  OUT_  nref  J  K CLK PRE CLR
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000  TH=2.5  HYSTWD=1 
++ IC=0 SET_RESET_TYPE=0  SET_RESET_LEVEL=1
++ TRIG_COND=0  DELAY=2e-011  SETUP_TIME=1e-011  HOLD_TIME=1e-012
++ SET_RESET_DELAY=5e-012
+
+.MODEL JKFF_T_PWL UEFF ( 
++       tppcqlhty={SET_RESET_DELAY} 
++       tppcqhlty={SET_RESET_DELAY} 
++       tpclkqlhty={DELAY} 
++       tpclkqhlty={DELAY}
++ TSUDCLKMN={SETUP_TIME} TSUDCLKTY={SETUP_TIME} TSUDCLKMX={SETUP_TIME}
++ THDCLKMN={HOLD_TIME} THDCLKTY={HOLD_TIME} THDCLKMX={HOLD_TIME}
++ )
+
+.MODEL T_AND_PWL UGATE (
++ TPLHMN={DELAY} TPLHTY={DELAY} TPLHMX={DELAY} 
++ TPHLMN={DELAY} TPHLTY={DELAY} TPHLMX={DELAY}
+)
+
+*E1 VX 0 VALUE { if(TRIG_COND == 1, VOL , VOH) }
+*E2 VX2 0 VALUE { if(SET_RESET_LEVEL == 0, VOL , VOH) }
+
+*U1 LOGICEXP( 5, 3 ) DPWR nref
+*+ VX CLK VX2 PRE CLR CLK_OUT PRE_OUT CLR_OUT
+*+ D0_GATE IO_PWL
+*+ LOGIC:
+*+ PRE_OUT = { (VX2 ^ PRE) }
+*+ CLR_OUT = { (VX2 ^ CLR) }
+*+ CLK_OUT = { (VX ^ CLK) }
+
+*U1 XOR DPWR nref VX CLK CLK_OUT T_AND_PWL IO_PWL
+
+*U2 INVA(2) DPWR nref D_PRE D_CLR D_PREBAR D_CLRBAR T_AND_PWL IO_PWL
+*+ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
+
+U2 JKFF(1) DPWR nref PRE CLR CLK J K OUT OUT_  JKFF_T_PWL IO_PWL 
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
++ SET_RESET_LEVEL={SET_RESET_LEVEL} TRIG_COND={TRIG_COND} SET_RESET_TYPE={SET_RESET_TYPE}
+
+.ends PSP_MJKFF_SR
+
+
+****************************JKFF**************************************************
+******Primitive JKFF is negative edge triggered***********
+
+.subckt  PSP_MJKFF  OUT  OUT_  nref  J  K CLK  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000  TH=2.5  HYSTWD=1 
++ IC=0 TRIG_COND=0  DELAY=2e-011  SETUP_TIME=1e-011  HOLD_TIME=1e-012
+
+.MODEL JKFF_T_PWL UEFF ( 
++       tpclkqlhty={DELAY} 
++       tpclkqhlty={DELAY}
++ TSUDCLKMN={SETUP_TIME} TSUDCLKTY={SETUP_TIME} TSUDCLKMX={SETUP_TIME}
++ THDCLKMN={HOLD_TIME} THDCLKTY={HOLD_TIME} THDCLKMX={HOLD_TIME}
++ )
+
+.MODEL T_AND_PWL UGATE (
++ TPLHMN={DELAY} TPLHTY={DELAY} TPLHMX={DELAY} 
++ TPHLMN={DELAY} TPHLTY={DELAY} TPHLMX={DELAY}
+)
+
+U_DSTM STIM(2,11) DPWR nref D_PREBAR D_CLRBAR IO_STM 
++ 0 11
+
+*U2 INV DPWR nref CLK CLKBAR T_AND_PWL IO_PWL
+*+ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
+
+*E1 VX 0 VALUE { if(TRIG_COND == 1, VOL , VOH) }
+
+*U1 XOR DPWR nref VX CLK CLK_OUT T_AND_PWL IO_PWL
+
+U2 JKFF(1) DPWR nref D_PREBAR D_CLRBAR CLK J K OUT OUT_  JKFF_T_PWL IO_PWL 
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
++ TRIG_COND={TRIG_COND}
+
+.ends PSP_MJKFF
+
+
+****************************SRFF**************************************************
+
+.subckt  PSP_MSRFF  OUT  OUT_  nref  S  R  CLK
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000  TH=2.5  HYSTWD=1 
++ IC=0 TRIG_COND=0  DELAY=2e-011  SETUP_TIME=1e-011  HOLD_TIME=1e-012
+
+.MODEL SRFF_T_PWL UEFF (
++       tpclkqlhty={DELAY} 
++       tpclkqhlty={DELAY}
++ TSUDCLKMN={SETUP_TIME} TSUDCLKTY={SETUP_TIME} TSUDCLKMX={SETUP_TIME}
++ THDCLKMN={HOLD_TIME} THDCLKTY={HOLD_TIME} THDCLKMX={HOLD_TIME}
++ )
+
+.MODEL T_AND_PWL UGATE (
++ TPLHMN={DELAY} TPLHTY={DELAY} TPLHMX={DELAY} 
++ TPHLMN={DELAY} TPHLTY={DELAY} TPHLMX={DELAY}
+)
+
+U_DSTM STIM(2,11) DPWR nref D_PREBAR D_CLRBAR IO_STM 
++ 0 11
+
+*U_DSTM STIM(3,111) DPWR nref D_PREBAR D_CLRBAR D_GATEBAR IO_STM 
+*+ 0 111 
+
+*U2 SRFF(1) DPWR nref D_PREBAR D_CLRBAR D_GATEBAR S R OUT OUT_  SRFF_T_PWL IO_PWL 
+*+ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
+
+*E1 VX 0 VALUE { if(TRIG_COND == 1, VOL , VOH) }
+
+*U1 XOR DPWR nref VX CLK CLK_OUT T_AND_PWL IO_PWL
+
+U2 JKFF(1) DPWR nref D_PREBAR D_CLRBAR CLK S R OUT OUT_  SRFF_T_PWL IO_PWL 
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
++ TRIG_COND={TRIG_COND}
+
+.ends PSP_MSRFF
+
+
+****************************SRFF_SR**************************************************
+.subckt  PSP_MSRFF_SR  OUT  OUT_  nref  S  R CLK PRE CLR
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000  TH=2.5  HYSTWD=1 
++ DELAY=0n  LOGIC=1  IC=0  TRIG_COND=0  SETUP_TIME=1e-011  HOLD_TIME=1e-012
++ SET_RESET_DELAY=5e-012 SET_RESET_TYPE=0  SET_RESET_LEVEL=1
+
+.MODEL SRFF_T_PWL UEFF ( 
++       tppcqlhty={SET_RESET_DELAY} 
++       tppcqhlty={SET_RESET_DELAY} 
++       tpclkqlhty={DELAY} 
++       tpclkqhlty={DELAY}
++ TSUDCLKMN={SETUP_TIME} TSUDCLKTY={SETUP_TIME} TSUDCLKMX={SETUP_TIME}
++ THDCLKMN={HOLD_TIME} THDCLKTY={HOLD_TIME} THDCLKMX={HOLD_TIME}
++ )
+
+.MODEL T_AND_PWL UGATE (
++ TPLHMN={DELAY} TPLHTY={DELAY} TPLHMX={DELAY} 
++ TPHLMN={DELAY} TPHLTY={DELAY} TPHLMX={DELAY}
+)
+
+*E1 VX 0 VALUE { if(TRIG_COND == 1, VOL , VOH) }
+*E2 VX2 0 VALUE { if(SET_RESET_LEVEL == 0, VOL , VOH) }
+
+*U1 LOGICEXP( 5, 3 ) DPWR nref
+*+ VX CLK VX2 PRE CLR CLK_OUT PRE_OUT CLR_OUT
+*+ D0_GATE IO_PWL
+*+ LOGIC:
+*+ PRE_OUT = { (VX2 ^ PRE) }
+*+ CLR_OUT = { (VX2 ^ CLR) }
+*+ CLK_OUT = { (VX ^ CLK) }
+
+*U1 XOR DPWR nref VX CLK CLK_OUT T_AND_PWL IO_PWL
+
+*U2 INVA(2) DPWR nref D_PRE D_CLR D_PREBAR D_CLRBAR T_AND_PWL IO_PWL
+*+ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
+
+U2 JKFF(1) DPWR nref PRE CLR CLK S R OUT OUT_  SRFF_T_PWL IO_PWL 
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
++ SET_RESET_LEVEL={SET_RESET_LEVEL} TRIG_COND={TRIG_COND} SET_RESET_TYPE={SET_RESET_TYPE}
+
+.ends PSP_MSRFF_SR
+
+
+****************************PSP_M1M**************************************************
+
+.subckt  PSP_M1M  OUT  OUT_  nref  CLK  IN  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  RIN=10MEG  ROUT=50  LOGIC=1  TRIG_COND=1  TH=2.5  HYSTWD=0.001 VOL=0 VOH=5  DELAY=0   IC=0
+
+X1  out  out_ nref  CLK  IN  TFF_PWL    
++ PARAMS:  RIN={RIN}  ROUT={ROUT}  LOGIC=1  TRIG_COND={TRIG_COND}  TH={TH} 
++ HYSTWD={HYSTWD} VOL={VOL}  VOH={VOH}  IC={IC}
+
+.ends
+
+**************************TFF_PWL************************************************
+
+.SUBCKT  TFF_PWL  out  out_  nref CLK T
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000 
++ TH=2.5 HYSTWD=1  MIN_CLK=1e-011  DELAY=2e-011  
++ TRIG_COND=0  SETUP_TIME=1e-011  HOLD_TIME=1e-012 IC=0
+
+
+.MODEL T_AND_PWL UGATE (
++ TPLHMN={DELAY} TPLHTY={DELAY} TPLHMX={DELAY} 
++ TPHLMN={DELAY} TPHLTY={DELAY} TPHLMX={DELAY}
+)
+
+.MODEL DFF_T_PWL UEFF (  
++       tpclkqlhty={DELAY} 
++       tpclkqhlty={DELAY}
++ TSUDCLKMN={SETUP_TIME} TSUDCLKTY={SETUP_TIME} TSUDCLKMX={SETUP_TIME}
++ THDCLKMN={HOLD_TIME} THDCLKTY={HOLD_TIME} THDCLKMX={HOLD_TIME}
++ )
+
+U_DSTM STIM(2,11) $G_DPWR nref PREBAR CLRBAR IO_STM 
++ 0 11
+
+*E1 VX 0 VALUE { if(TRIG_COND == 1, VOL , VOH) }
+
+*U1 XOR DPWR nref VX CLK CLK_OUT T_AND_PWL IO_PWL
+
+*U2 INV DPWR nref CLK CLK_INV T_AND_PWL IO_PWL
+*+ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
+
+U2 JKFF(1)  DPWR nref  PREBAR CLRBAR CLK  T  T  OUT OUT_  DFF_T_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
++ TRIG_COND={TRIG_COND}
+
+.ENDS
+
+
+****************************TFF_PWL_SR**************************************************
+
+.subckt  TFF_PWL_SR out  out_ nref CLK T PRE  CLR  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000 
++ TH=2.5 HYSTWD=1  MIN_CLK=1e-011  TRIG_COND=0  DELAY=2e-011  
++ SETUP_TIME=1e-011  HOLD_TIME=1e-012 
++ SET_RESET_DELAY=5e-012 SET_RESET_TYPE=0  SET_RESET_LEVEL=1  IC=0
+
+
+.MODEL DFF_T_PWL UEFF ( tppcqlhty={SET_RESET_DELAY} 
++ tppcqhlty={SET_RESET_DELAY} tpclkqlhty={DELAY} tpclkqhlty={DELAY}
++ TSUDCLKMN={SETUP_TIME} TSUDCLKTY={SETUP_TIME} TSUDCLKMX={SETUP_TIME}
++ THDCLKMN={HOLD_TIME} THDCLKTY={HOLD_TIME} THDCLKMX={HOLD_TIME}
++ )
+
+.MODEL T_AND_PWL UGATE (
++ TPLHMN={DELAY} TPLHTY={DELAY} TPLHMX={DELAY} 
++ TPHLMN={DELAY} TPHLTY={DELAY} TPHLMX={DELAY}
+)
+
+*U_DSTM STIM(2,11) DPWR nref PREBAR CLRBAR IO_STM 
+*+ 0 11 
+
+*E1 VX 0 VALUE { if(TRIG_COND == 1, VOL , VOH) }
+*E2 VX2 0 VALUE { if(SET_RESET_LEVEL == 0, VOL , VOH) }
+
+*U1 LOGICEXP( 5, 3 ) DPWR nref
+*+ VX CLK VX2 PRE CLR CLK_OUT PRE_OUT CLR_OUT
+*+ D0_GATE IO_PWL
+*+ LOGIC:
+*+ PRE_OUT = { (VX2 ^ PRE) }
+*+ CLR_OUT = { (VX2 ^ CLR) }
+*+ CLK_OUT = { (VX ^ CLK) }
+
+*U1 XOR DPWR nref VX CLK CLK_OUT T_AND_PWL IO_PWL
+
+*U2 INVA(2) DPWR nref D_PRE D_CLR D_PREBAR D_CLRBAR T_AND_PWL IO_PWL
+*+ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC}
+
+U3 JKFF(1) DPWR nref PRE CLR CLK T T out out_  DFF_T_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} 
++ IC={IC} SET_RESET_LEVEL={SET_RESET_LEVEL} TRIG_COND={TRIG_COND}
++ SET_RESET_TYPE={SET_RESET_TYPE}
+
+.ends TFF_PWL_SR
+
+
+************************* PSP_M2M *******************************************************
+* X_DCOMP 2000 RTN IN1 102 PSP_MCOMP 
+* X_DCOMP_R 1021 RTN R 1001 PSP_M2M 
+* both map to same device
+
+.subckt PSP_M2M OUT REF INP INN 
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS: ROUT=10 VOL=0 VOH=5 RIN=10000000 HYSTWD=0.1 DELAY=0 IC=0
+
+X_MCOMP OUT REF INP INN PSP_MCOMP  PARAMS: 
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN}  HYSTWD={HYSTWD}  IC={IC}
+
+.ends
+
+
+************************* PSP_MCOMP *******************************************************
+
+.subckt PSP_MCOMP out nref inp inn
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS: ROUT=10 VOL=0 VOH=5 RIN=10000000 HYSTWD=0.1 DELAY=0 IC=0
+
+
+.MODEL DFF_T_PWL UEFF ( tppcqlhty={DELAY}  tppcqhlty={DELAY} tpclkqlhty={DELAY} tpclkqhlty={DELAY} )
+.IC V(out,nref)=0
+
+Y1  OUT INP INN CMI orPSpicePWL64.dll COMP2 PARAMS:
++ RIN={RIN} Rout={ROUT} VOL={VOL} VOH={VOH} HYSTWD={HYSTWD} 
+
+.model COMP2 CMI COMP
+
+*U1 dlyline DPWR nref 	DEL0_OUT  out 	DLYMODEL IO_PWL 
+*.model DLYMODEL udly (DLYMN={DELAY} DLYTY={DELAY} 	DLYMX={DELAY} 	)
+
+.ends PSP_MCOMP
+
+
+************************* psp_switch *******************************************************
+
+.subckt psp_switch N1 N2 CN1 CN2 PARAMS: ROFF=1G RON=0.002 TH=2 HYSTWD=0.1 LOGIC=1 
+
+Y1  N1 N2 CN1 CN2 CMI orPSpicePWL64.dll SW1 PARAMS: Ron={RON} Roff={ROFF} TH={TH} HYSTWD={HYSTWD}
+.model sw1 CMI sw 
+
+.ends psp_switch
+
+
+************************* psp_qswitch *******************************************************
+
+.subckt psp_qswitch N1 N2 CN1 CN2 PARAMS: ROFF=1G RON=0.002 TH=2 HYSTWD=0.1 LOGIC=1 VSAT=0 RSAT=10
+
+Y1  N1 N2 CN1 CN2 CMI orPSpicePWL64.dll QSW1 PARAMS: Ron={RON} Roff={ROFF} TH={TH} HYSTWD={HYSTWD} RSAT={RSAT} VSAT={VSAT}
+.model qsw1 CMI qsw 
+
+.ends psp_qswitch
+
+************************* PSP_MANDM *******************************************************
+
+* nref is analog gnd
+* digital pwr and gnd are not connected - so instantiate them manually
+.subckt  PSP_MANDM  out  nref  in1  in2  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000  TH=2.5  HYSTWD=1 
++ NUM_INVERTED_INPUTS=0 LOGIC=1  DELAY=0  IC=0 
+
+
+.MODEL T_AND_PWL UGATE  TPLHMN={DELAY} TPLHTY={DELAY} TPLHMX={DELAY}  TPHLMN={DELAY} TPHLTY={DELAY} TPHLMX={DELAY} )
+
+U1 AND(2) DPWR nref in1 in2 out T_AND_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD}  IC={IC}
++ NUM_INVERTED_INPUTS={NUM_INVERTED_INPUTS}
+
+.ends PSP_MANDM
+
+************************* MD_ANDM *******************************************************
+
+.subckt  MD_ANDM  DGND1  nref  out  out_bar  in1  in2  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  
++ ROUT=10  VOL=0  VOH=5  RIN=10000000  TH=2.5  HYSTWD=1 IC=0
++ NUM_INVERTED_INPUTS=0 OUT_DELAY=0   
+
+
+.MODEL T_AND_PWL UGATE ; TRI-AND2 Timing Model
++ TPLHMN={OUT_DELAY} TPLHTY={OUT_DELAY} TPLHMX={OUT_DELAY} 
++ TPHLMN={OUT_DELAY} TPHLTY={OUT_DELAY} TPHLMX={OUT_DELAY}
++ ) 
+
+
+U1 AND(2) DPWR nref in1 in2 out T_AND_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC} NUM_INVERTED_INPUTS={NUM_INVERTED_INPUTS}
+
+U2 INV DPWR nref out out_bar T_AND_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD} IC={IC} 
+
+.ends
+
+************************* MD_ANDM_INV1 *******************************************************
+
+.subckt  MD_ANDM_INV1  DGND1  nref  out  out_bar  in1  in2  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000  TH=2.5 IC=0
++ HYSTWD=1 NUM_INVERTED_INPUTS=1  OUT_DELAY=0   
+
+.MODEL T_AND_PWL UGATE ; TRI-AND2 Timing Model
++ TPLHMN={OUT_DELAY} TPLHTY={OUT_DELAY} TPLHMX={OUT_DELAY} 
++ TPHLMN={OUT_DELAY} TPHLTY={OUT_DELAY} TPHLMX={OUT_DELAY}
++ )
+
+U3 INV DPWR nref in2 in2_BAR T_AND_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD}  IC={IC}
+
+U1 AND(2) DPWR nref in1 in2_BAR out T_AND_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD}  IC={IC}
+
+U2 INV DPWR nref out out_bar T_AND_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD}  IC={IC}
+
+.ends
+
+************************* MD_ANDM4 *******************************************************
+
+.subckt  MD_ANDM4  DGND1  nref  out  out_bar  in1  in2  in3  in4  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  RIN=10000000 IC=0
++ TH=2.5 HYSTWD=1  NUM_INVERTED_INPUTS=0  OUT_DELAY=0   
+
+.MODEL T_AND_PWL UGATE ; TRI-AND2 Timing Model
++ TPLHMN={OUT_DELAY} TPLHTY={OUT_DELAY} TPLHMX={OUT_DELAY} 
++ TPHLMN={OUT_DELAY} TPHLTY={OUT_DELAY} TPHLMX={OUT_DELAY}
++ ) 
+
+
+U1 AND(4) DPWR nref in1 in2 in3 in4 out T_AND_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD}  IC={IC} NUM_INVERTED_INPUTS={NUM_INVERTED_INPUTS}
+
+U2 INV DPWR nref out out_bar T_AND_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD}  IC={IC}
+
+.ends
+
+************************* MD_ANDM4_INV1 *******************************************************
+
+.subckt  MD_ANDM4_INV1  DGND1  nref  out  out_bar  in1  in2  in3  in4  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5 IC=0
++ RIN=10000000 TH=2.5  HYSTWD=1  NUM_INVERTED_INPUTS=1  OUT_DELAY=0   
+
+
+.MODEL T_AND_PWL UGATE ; TRI-AND2 Timing Model
++ TPLHMN={OUT_DELAY} TPLHTY={OUT_DELAY} TPLHMX={OUT_DELAY} 
++ TPHLMN={OUT_DELAY} TPHLTY={OUT_DELAY} TPHLMX={OUT_DELAY}
++ )
+
+
+U3 INV DPWR nref in4 in4_BAR T_AND_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD}  IC={IC}
+
+U1 AND(4) DPWR nref in1 in2 in3 in4_BAR out T_AND_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD}  IC={IC}
+
+U2 INV DPWR nref out out_bar T_AND_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD}  IC={IC}
+
+.ends
+
+************************* MD_ANDM4_INV2 *******************************************************
+
+.subckt  MD_ANDM4_INV2  DGND1  nref  out  out_bar  in1  in2  in3  in4  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5  IC=0
++ RIN=10000000 TH=2.5  HYSTWD=1  NUM_INVERTED_INPUTS=2  OUT_DELAY=0   
+
+
+.MODEL T_AND_PWL UGATE ; TRI-AND2 Timing Model
++ TPLHMN={OUT_DELAY} TPLHTY={OUT_DELAY} TPLHMX={OUT_DELAY} 
++ TPHLMN={OUT_DELAY} TPHLTY={OUT_DELAY} TPHLMX={OUT_DELAY}
++ )
+
+
+U3 INV DPWR nref in4 in4_BAR T_AND_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD}  IC={IC}
+
+U4 INV DPWR nref in3 in3_BAR T_AND_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD}  IC={IC}
+
+U1 AND(4) DPWR nref in1 in2 in3_BAR D4_BAR out T_AND_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD}  IC={IC}
+
+U2 INV DPWR nref out out_bar T_AND_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD}  IC={IC}
+
+.ends
+
+************************* MD_ANDM3 *******************************************************
+.subckt  MD_ANDM3  DGND1  nref  out  out_bar  in1  in2  in3  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS: ROUT=10  VOL=0  VOH=5  RIN=10000000  TH=2.5 IC=0
++ HYSTWD=1 NUM_INVERTED_INPUTS=0  OUT_DELAY=0   
+
+.MODEL T_AND_PWL UGATE ; TRI-AND2 Timing Model
++ TPLHMN={OUT_DELAY} TPLHTY={OUT_DELAY} TPLHMX={OUT_DELAY} 
++ TPHLMN={OUT_DELAY} TPHLTY={OUT_DELAY} TPHLMX={OUT_DELAY}
++ )
+
+
+U1 AND(3) DPWR nref in1 in2 in3 out T_AND_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD}  IC={IC} NUM_INVERTED_INPUTS={NUM_INVERTED_INPUTS}
+
+U2 INV DPWR nref out out_bar T_AND_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD}  IC={IC}
+
+.ends
+
+************************* MD_ANDM3_INV1 *******************************************************
+
+.subckt  MD_ANDM3_INV1  DGND1  nref  out  out_bar  in1  in2  in3  
++ OPTIONAL: DPWR=$G_DPWR
++ PARAMS:  ROUT=10  VOL=0  VOH=5 
++ RIN=10000000 TH=2.5  HYSTWD=1  NUM_INVERTED_INPUTS=1  OUT_DELAY=0    IC=0
+
+
+.MODEL T_AND_PWL UGATE ; TRI-AND2 Timing Model
++ TPLHMN={OUT_DELAY} TPLHTY={OUT_DELAY} TPLHMX={OUT_DELAY} 
++ TPHLMN={OUT_DELAY} TPHLTY={OUT_DELAY} TPHLMX={OUT_DELAY}
++ )
+
+
+U3 INV DPWR nref in3 in3_BAR T_AND_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD}  IC={IC}
+
+U1 AND(3) DPWR nref in1 in2 in3_BAR out T_AND_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD}  IC={IC}
+
+U2 INV DPWR nref out out_bar T_AND_PWL IO_PWL
++ ROUT={ROUT} VOL={VOL} VOH={VOH} RIN={RIN} TH={TH} HYSTWD={HYSTWD}  IC={IC}
+
+.ends
+
+
+** SET_RESET_TYPE=1 => ASYNC 
+** TRIG_COND=1 => 0_TO_1
+

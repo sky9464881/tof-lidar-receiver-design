@@ -1,0 +1,64 @@
+
+**** 03/27/25 02:25:03 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test32243"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\tia(opa855)\tia(opa855)-psp
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "test32243.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa695_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa856_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\tlv3604.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPAx277.LIB" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa855_a.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN PARAM i -5 5 1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TIA(OPA855)
+R_R149         -5 N1062756  10k TC=0,0 
+X_U1         N1062756 N1062736 5 -5 N1062746 OPAX277
+C_C250         0 N1062756  0.1uF  TC=0,0 
+C_C251         0 N1062756  6.8uF  TC=0,0 
+R_R146         N1062746 N1062920  130 TC=0,0 
+C_C252         0 -5  0.1uF  TC=0,0 
+C_C253         0 5  0.1uF  TC=0,0 
+R_R147         N1062756 5  10k TC=0,0 
+R_R148         N1062736 N1062746  200 TC=0,0 
+C_C254         0 N1062920  1nF  TC=0,0 
+X_U46         N1062920 N1063532 5 0 N1063437 OPA855
+R_R151         N1063441 N1063437  500 TC=0,0 
+C_C256         N1063437 N1063441  0.7pF  TC=0,0 
+R_R152         N1063532 N1063441  10 TC=0,0 
+C_C259         0 5  1nF  TC=0,0 
+C_C260         0 5  0.1uF  TC=0,0 
+V_V1         5 0 5
+V_V2         0 -5 5
+I_APD         N1063441 0 DC 0Adc AC 0Aac
++PULSE 0 3m 0 0.6n 0.6n 0.6n 1n
+
+**** RESUMING test32243.cir ****
+.END
+
+ERROR(ORPSIM-15167): Undefined parameter: i.
+

@@ -1,0 +1,57 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 24.1.0 d001Apr-01-2025 at 23:27:36}
+primitive 'R_AXRC05_200';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='AXRC05';
+    VALUE='200';
+  end_body;
+end_primitive;
+primitive 'R_AXRC05_1.4K';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='AXRC05';
+    VALUE='1.4k';
+  end_body;
+end_primitive;
+primitive 'OPA855_TEST1_OPA855';
+  pin
+    '-':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+    '+':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(*)';
+    'VO':
+      PIN_NUMBER='(6)';
+      INPUT_LOAD='(*)';
+    'VS+':
+      PIN_NUMBER='(7)';
+      PINUSE='POWER';
+    'VS-':
+      PIN_NUMBER='(5)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    PART_NAME='OPA855';
+    JEDEC_TYPE='TEST1';
+    VALUE='OPA855';
+  end_body;
+end_primitive;
+END.

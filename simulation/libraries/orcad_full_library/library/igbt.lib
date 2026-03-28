@@ -1,0 +1,3187 @@
+* Library of  Insulated Gate Bipolar Transistor (IGBT) Models
+
+*  Copyright Cadence Design Systems, Inc. 2002 All Rights Reserved.
+*
+*
+* $Revision:   1.8  $
+* $Author:   HIRASUNA  $
+* $Date:   18 Aug 2001 13:26:32  $
+*
+* ---------------------------------------------------------------------------
+* The parameters in this model library were derived from the data sheets for
+* each part.  Each part was characterized using the Parts program and Optimizer program.
+* ---------------------------------------------------------------------------
+
+*$
+
+* Created using Parts release 6.3 on 12/14/95 at 17:24
+.MODEL APT25GF100BN NIGBT
++ TAU=447.41E-9
++ KP=2.1704
++ AREA=12.500E-6
++ BVF=2
++ AGD=4.8000E-6
++ WB=117.00E-6
++ VT=3.4974
++ KF=.5005
++ CGS=18.572E-9
++ COXD=43.300E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/18/95 at 17:56
+.MODEL APT30G100BN NIGBT
++ TAU=415.50E-9
++ KP=2.0764
++ AREA=15.000E-6
++ BVF=2
++ AGD=6.0000E-6
++ WB=117.00E-6
++ VT=3.6994
++ KF=.58505
++ CGS=10.575E-9
++ COXD=41.470E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/19/95 at 10:02
+.MODEL APT30GF60BN NIGBT
++ TAU=250.30E-9
++ KP=1.5868
++ AREA=15.000E-6
++ AGD=4.2000E-6
++ VT=3.5260
++ KF=1.7366
++ CGS=10.514E-9
++ COXD=52.000E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 13:46
+.MODEL APT30GL100BN NIGBT
++ TAU=466.15E-9
++ KP=1.6746
++ AREA=15.000E-6
++ BVF=2
++ AGD=3.5000E-6
++ WB=117.00E-6
++ VT=3.5600
++ KF=1.8590
++ CGS=11.161E-9
++ COXD=76.121E-9
++ VTD=-3.3630
+
+*$
+
+* Created using Parts release 6.3 on 09/20/95 at 15:36
+.MODEL APT35G50BN NIGBT
++ TAU=301.76E-9
++ KP=1.8329
++ AREA=17.500E-6
++ VT=3.7833
++ KF=.78171
++ CGS=13.190E-9
++ COXD=40.000E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 13:47
+.MODEL APT35G60BN NIGBT
++ TAU=301.76E-9
++ KP=1.8329
++ AREA=17.500E-6
++ AGD=4.0000E-6
++ VT=3.7833
++ KF=.75258
++ CGS=8.5502E-9
++ COXD=65.110E-9
++ VTD=-5.2140
+
+*$
+
+* Created using Parts release 6.3 on 09/20/95 at 15:47
+.MODEL APT35GL60BN NIGBT
++ TAU=316.09E-9
++ KP=2.5184
++ AREA=17.500E-6
++ AGD=5.5000E-6
++ VT=3.9697
++ KF=1.0902
++ CGS=13.130E-9
++ COXD=32.460E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 13:47
+.MODEL APT40GF100BN NIGBT
++ TAU=437.04E-9
++ KP=3.1483
++ AREA=20.000E-6
++ AGD=6.0000E-6
++ BVF=2
++ WB=117.00E-6
++ VT=3.8519
++ KF=.41043
++ CGS=13.417E-9
++ COXD=59.557E-9
++ VTD=-6.4030
+
+*$
+
+* Created using Parts release 6.3 on 09/20/95 at 16:51
+.MODEL APT45G100BN NIGBT
++ TAU=435.82E-9
++ KP=2.7564
++ AREA=22.500E-6
++ BVF=2
++ AGD=4.5000E-6
++ WB=117.00E-6
++ VT=3.5792
++ KF=.65663
++ CGS=9.0000E-9
++ COXD=90.840E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/14/95 at 22:24
+.MODEL APT45GF60BN NIGBT
++ TAU=208.93E-9
++ KP=3.7812
++ AREA=22.500E-6
++ AGD=7.0000E-6
++ VT=4.1363
++ KF=1.3103
++ CGS=11.071E-9
++ COXD=49.680E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/20/95 at 17:08
+.MODEL APT45GL100BN NIGBT
++ TAU=460.91E-9
++ KP=4.2283
++ AREA=22.500E-6
++ BVF=2
++ AGD=3.5000E-6
++ WB=117.00E-6
++ VT=4.1917
++ KF=1.4912
++ CGS=10.000E-9
++ COXD=100.00E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/14/95 at 22:39
+.MODEL APT50G50BN NIGBT
++ TAU=338.50E-9
++ KP=3.3182
++ AREA=25.000E-6
++ AGD=5.6000E-6
++ VT=3.6512
++ KF=.59846
++ CGS=8.0000E-9
++ COXD=75.000E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/14/95 at 22:45
+.MODEL APT50G60BN NIGBT
++ TAU=317.08E-9
++ KP=3.9093
++ AREA=25.000E-6
++ AGD=5.6000E-6
++ VT=3.9838
++ KF=.55147
++ CGS=8.0000E-9
++ COXD=75.000E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 13:48
+.MODEL APT50GF100BN NIGBT
++ TAU=349.22E-9
++ KP=7.5320
++ AREA=25.000E-6
++ BVF=2
++ AGD=4.3000E-6
++ WB=117.00E-6
++ VT=4.2495
++ KF=.5005
++ CGS=13.009E-9
++ COXD=147.00E-9
++ VTD=-7.2450
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 13:49
+.MODEL APT50GL60BN NIGBT
++ TAU=386.28E-9
++ KP=4.4241
++ AREA=25.000E-6
++ AGD=4.0000E-6
++ VT=4.0601
++ KF=.73398
++ CGS=6.0000E-9
++ COXD=96.780E-9
++ VTD=-6.0770
+
+*$
+
+* Created using Parts release 6.3 on 12/14/95 at 23:28
+.MODEL APT55GF60BN NIGBT
++ TAU=275.34E-9
++ KP=5.8619
++ AREA=27.500E-6
++ VT=3.9796
++ KF=.7681
++ CGS=12.000E-9
++ COXD=120.00E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 11:31
+.MODEL APT65GL100BN NIGBT
++ TAU=453.54E-9
++ KP=5.1817
++ AREA=32.500E-6
++ BVF=2
++ AGD=6.0000E-6
++ WB=117.00E-6
++ VT=3.8514
++ KF=1.3355
++ CGS=10.000E-9
++ COXD=100.00E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 14:59
+.MODEL APT75GL60BN NIGBT
++ TAU=312.10E-9
++ KP=6.9038
++ AREA=37.500E-6
++ AGD=6.0000E-6
++ VT=3.9235
++ KF=1.8496
++ CGS=10.000E-9
++ COXD=160.50E-9
++ VTD=1
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 11:20
+.MODEL APT90GF100JN NIGBT
++ TAU=441.62E-9
++ KP=12.931
++ AREA=45.000E-6
++ BVF=2
++ AGD=16.000E-6
++ WB=117.00E-6
++ VT=4.1653
++ KF=.5005
++ CGS=22.000E-9
++ COXD=100.20E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 17:02
+.MODEL BSM100GB100D NIGBT
++ TAU=488.31E-9
++ KP=11.132
++ AREA=67.500E-6
++ BVF=2
++ AGD=25.750E-6
++ WB=117.00E-6
++ VT=5.4278
++ KF=.88459
++ CGS=50.360E-9
++ COXD=130.70E-9
++ VTD=-7
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 17:06
+.MODEL BSM150GB100D NIGBT
++ TAU=489.48E-9
++ KP=18.614
++ AREA=100.00E-6
++ BVF=2
++ AGD=50.000E-6
++ WB=117.00E-6
++ VT=6.0692
++ KF=.85846
++ CGS=46.975E-9
++ COXD=81.967E-9
++ VTD=-7
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 17:07
+.MODEL BSM200GA120D NIGBT
++ TAU=484.88E-9
++ KP=23.199
++ AREA=137.50E-6
++ BVF=2
++ AGD=68.750E-6
++ WB=117.00E-6
++ VT=5.4597
++ KF=1.0969
++ CGS=74.309E-9
++ COXD=77.015E-9
++ VTD=-7
+
+*$
+
+* Created using Parts release 6.3 on 12/15/95 at 00:10
+.MODEL BSM25GB100D NIGBT
++ TAU=415.10E-9
++ KP=3.1335
++ AREA=17.500E-6
++ BVF=2
++ AGD=4.5000E-6
++ WB=117.00E-6
++ VT=5.4695
++ KF=1.6690
++ CGS=40.000E-9
++ COXD=180.70E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/15/95 at 00:15
+.MODEL BSM50GB100D NIGBT
++ TAU=415.10E-9
++ KP=5.7432
++ AREA=35.000E-6
++ BVF=2
++ AGD=15.000E-6
++ WB=117.00E-6
++ VT=5.5114
++ KF=2.2105
++ CGS=51.630E-9
++ COXD=140.30E-9
++ VTD=-3
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 17:44
+.MODEL BSM75GB100D NIGBT
++ TAU=489.48E-9
++ KP=9.3068
++ AREA=50.000E-6
++ BVF=2
++ AGD=25.000E-6
++ WB=117.00E-6
++ VT=6.0692
++ KF=.97525
++ CGS=43.441E-9
++ COXD=103.79E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/15/95 at 00:34
+.MODEL BUK854-500IS NIGBT
++ TAU=5.6137E-6
++ KP=1.7102
++ AREA=7.5000E-6
++ AGD=3.0000E-6
++ VT=4.4544
++ KF=.66532
++ CGS=8.0800E-9
++ COXD=21.530E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 18:11
+.MODEL BUK856-400IZ NIGBT
++ TAU=8.6343E-6
++ KP=16.819
++ AGD=3.0000E-6
++ VT=1.8156
++ KF=.3879
++ CGS=15.000E-9
++ COXD=37.850E-9
++ VTD=-4
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 18:15
+.MODEL BUK856-450IX NIGBT
++ TAU=8.9607E-6
++ KP=3.5569
++ AREA=7.5000E-6
++ AGD=2.8000E-6
++ VT=4.4511
++ KF=.86667
++ CGS=17.000E-9
++ COXD=41.610E-9
++ VTD=-4
+
+*$
+
+* Created using Parts release 6.3 on 12/15/95 at 18:19
+.MODEL CM1000HA-24H NIGBT
++ TAU=345.24E-9
++ KP=100
++ AREA=1.0000E-3
++ BVF=2
++ AGD=250.00E-6
++ WB=117.00E-6
++ VT=6.8046
++ KF=13.491
++ CGS=19.496E-9
++ COXD=35.810E-9
++ VTD=-11.800
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 09:30
+.MODEL CM100DY-12E NIGBT
++ TAU=271.94E-9
++ KP=11.649
++ AREA=100.00E-6
++ AGD=25.000E-6
++ VT=3.8603
++ KF=.68955
++ CGS=15.247E-9
++ COXD=53.500E-9
++ VTD=-9.0840
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 13:50
+.MODEL CM100DY-12H NIGBT
++ TAU=241.49E-9
++ KP=9.1038
++ AREA=100.00E-6
++ AGD=25.000E-6
++ VT=6.6124
++ KF=6.2369
++ CGS=9.1237E-9
++ COXD=31.202E-9
++ VTD=-5.6150
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 16:41
+.MODEL CM100DY-24E NIGBT
++ TAU=329.53E-9
++ KP=24.316
++ AREA=100.00E-6
++ BVF=2
++ AGD=25.000E-6
++ WB=117.00E-6
++ VT=5.8100
++ KF=.82329
++ CGS=28.295E-9
++ COXD=152.00E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 16:44
+.MODEL CM100DY-24H NIGBT
++ TAU=297.06E-9
++ KP=11.656
++ AREA=150.00E-6
++ BVF=2
++ AGD=25.000E-6
++ WB=117.00E-6
++ VT=6.7288
++ KF=29.195
++ CGS=12.039E-9
++ COXD=37.490E-9
++ VTD=-10.350
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 16:47
+.MODEL CM100E3Y-12E NIGBT
++ TAU=271.94E-9
++ KP=11.713
++ AREA=100.00E-6
++ AGD=25.000E-6
++ VT=3.8634
++ KF=.73864
++ CGS=14.306E-9
++ COXD=52.810E-9
++ VTD=-10.010
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 16:47
+.MODEL CM100E3Y-24E NIGBT
++ TAU=393.42E-9
++ KP=12.680
++ AREA=100.00E-6
++ BVF=2
++ AGD=25.000E-6
++ WB=117.00E-6
++ VT=3.9472
++ KF=1.3809
++ CGS=15.339E-9
++ COXD=58.110E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 16:49
+.MODEL CM150DY-12E NIGBT
++ TAU=271.94E-9
++ KP=16.368
++ AREA=150.00E-6
++ AGD=37.500E-6
++ VT=3.8041
++ KF=.75911
++ CGS=13.244E-9
++ COXD=50.790E-9
++ VTD=-11.500
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 13:51
+.MODEL CM150DY-12H NIGBT
++ TAU=241.49E-9
++ KP=12.933
++ AREA=150.00E-6
++ AGD=37.500E-6
++ VT=6.5262
++ KF=5.7186
++ CGS=9.1085E-9
++ COXD=32.003E-9
++ VTD=-5.3440
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 16:52
+.MODEL CM150DY-24E NIGBT
++ TAU=329.53E-9
++ KP=34.684
++ AREA=150.00E-6
++ BVF=2
++ AGD=37.500E-6
++ WB=117.00E-6
++ VT=5.7151
++ KF=1.0723
++ CGS=30.101E-9
++ COXD=128.90E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 16:54
+.MODEL CM150DY-24H NIGBT
++ TAU=338.37E-9
++ KP=18.417
++ AREA=175.00E-6
++ BVF=2
++ AGD=37.500E-6
++ WB=117.00E-6
++ VT=6.7529
++ KF=6.2395
++ CGS=15.117E-9
++ COXD=42.430E-9
++ VTD=-8.9170
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 16:55
+.MODEL CM150E3Y-12E NIGBT
++ TAU=271.94E-9
++ KP=16.870
++ AREA=150.00E-6
++ AGD=37.500E-6
++ VT=3.7876
++ KF=.71797
++ CGS=14.007E-9
++ COXD=51.580E-9
++ VTD=-10.600
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 16:56
+.MODEL CM150E3Y-24E NIGBT
++ TAU=284.65E-9
++ KP=34.761
++ AREA=150.00E-6
++ BVF=2
++ AGD=37.500E-6
++ WB=117.00E-6
++ VT=5.7391
++ KF=2.6586
++ CGS=29.878E-9
++ COXD=150.60E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 16:57
+.MODEL CM200DY-12E NIGBT
++ TAU=271.94E-9
++ KP=20.614
++ AREA=200.00E-6
++ AGD=50.000E-6
++ VT=3.6550
++ KF=.81081
++ CGS=17.632E-9
++ COXD=48.080E-9
++ VTD=-10
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 16:58
+.MODEL CM200DY-12H NIGBT
++ TAU=241.49E-9
++ KP=18.962
++ AREA=200.00E-6
++ AGD=50.000E-6
++ VT=6.6407
++ KF=4.8879
++ CGS=8.5110E-9
++ COXD=28.010E-9
++ VTD=-9.9990
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 16:59
+.MODEL CM200DY-24E NIGBT
++ TAU=329.53E-9
++ KP=45.343
++ AREA=200.00E-6
++ BVF=2
++ AGD=50.000E-6
++ WB=117.00E-6
++ VT=5.7414
++ KF=1.2096
++ CGS=29.086E-9
++ COXD=125.90E-9
++ VTD=-7.8630
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:00
+.MODEL CM200DY-24H NIGBT
++ TAU=333.02E-9
++ KP=20.859
++ AREA=250.00E-6
++ BVF=2
++ AGD=50.000E-6
++ WB=117.00E-6
++ VT=6.6361
++ KF=6.1726
++ CGS=14.966E-9
++ COXD=40.320E-9
++ VTD=-8.3390
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:03
+.MODEL CM200DY-28H NIGBT
++ TAU=337.65E-9
++ KP=18.451
++ AREA=200.00E-6
++ BVF=2
++ AGD=50.000E-6
++ WB=117.00E-6
++ VT=6.7542
++ KF=1.8490
++ CGS=16.405E-9
++ COXD=41.950E-9
++ VTD=-11.640
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 13:51
+.MODEL CM200E3Y-12E NIGBT
++ TAU=271.94E-9
++ KP=27.221
++ AREA=200.00E-6
++ AGD=50.000E-6
++ VT=4.0751
++ KF=.63188
++ CGS=16.262E-9
++ COXD=43.425E-9
++ VTD=-12.820
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:04
+.MODEL CM200E3Y-24E NIGBT
++ TAU=329.53E-9
++ KP=27.894
++ AREA=200.00E-6
++ BVF=2
++ AGD=50.000E-6
++ WB=117.00E-6
++ VT=4.0403
++ KF=4.5809
++ CGS=16.269E-9
++ COXD=51.060E-9
++ VTD=-7.3910
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:06
+.MODEL CM200HA-24E NIGBT
++ TAU=329.53E-9
++ KP=46.066
++ AREA=200.00E-6
++ BVF=2
++ AGD=50.000E-6
++ WB=117.00E-6
++ VT=5.7514
++ KF=1.1972
++ CGS=30.780E-9
++ COXD=111.70E-9
++ VTD=-9.2210
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:11
+.MODEL CM200HA-24H NIGBT
++ TAU=333.02E-9
++ KP=20.890
++ AREA=250.00E-6
++ BVF=2
++ AGD=50.000E-6
++ WB=117.00E-6
++ VT=6.6118
++ KF=6.4905
++ CGS=15.006E-9
++ COXD=36.580E-9
++ VTD=-10.970
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:12
+.MODEL CM300DY-12E NIGBT
++ TAU=271.94E-9
++ KP=33.731
++ AREA=300.00E-6
++ AGD=75.000E-6
++ VT=3.8944
++ KF=1.3680
++ CGS=13.795E-9
++ COXD=49.810E-9
++ VTD=-11
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:14
+.MODEL CM300DY-12H NIGBT
++ TAU=271.94E-9
++ KP=26.335
++ AREA=300.00E-6
++ AGD=75.000E-6
++ VT=6.5500
++ KF=2.8969
++ CGS=8.7327E-9
++ COXD=27.340E-9
++ VTD=-9.7380
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:15
+.MODEL CM300DY-24E NIGBT
++ TAU=329.53E-9
++ KP=66.286
++ AREA=300.00E-6
++ BVF=2
++ AGD=75.000E-6
++ WB=117.00E-6
++ VT=5.6993
++ KF=1.1217
++ CGS=29.406E-9
++ COXD=118.80E-9
++ VTD=-8.9400
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:16
+.MODEL CM300DY-24H NIGBT
++ TAU=338.37E-9
++ KP=38.281
++ AREA=350.00E-6
++ BVF=2
++ AGD=75.000E-6
++ WB=117.00E-6
++ VT=6.8569
++ KF=5.6723
++ CGS=17.622E-9
++ COXD=30.330E-9
++ VTD=-14.570
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:17
+.MODEL CM300DY-28H NIGBT
++ TAU=337.65E-9
++ KP=31.943
++ AREA=300.00E-6
++ BVF=2
++ AGD=75.000E-6
++ WB=117.00E-6
++ VT=7.0560
++ KF=1.6403
++ CGS=17.397E-9
++ COXD=58.750E-9
++ VTD=-6.0940
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:17
+.MODEL CM300E3Y-12E NIGBT
++ TAU=271.94E-9
++ KP=39.870
++ AREA=300.00E-6
++ AGD=75.000E-6
++ VT=4.0365
++ KF=.62492
++ CGS=14.035E-9
++ COXD=52.270E-9
++ VTD=-9.3250
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:20
+.MODEL CM300HA-12E NIGBT
++ TAU=271.94E-9
++ KP=33.731
++ AREA=300.00E-6
++ AGD=75.000E-6
++ VT=3.8944
++ KF=.79633
++ CGS=13.795E-9
++ COXD=49.980E-9
++ VTD=-11.100
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:21
+.MODEL CM300HA-12H NIGBT
++ TAU=263.27E-9
++ KP=25.744
++ AREA=350.00E-6
++ AGD=75.000E-6
++ VT=6.5303
++ KF=3.1758
++ CGS=7.1215E-9
++ COXD=28.790E-9
++ VTD=-8.3390
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:22
+.MODEL CM300HA-24E NIGBT
++ TAU=329.53E-9
++ KP=64.862
++ AREA=300.00E-6
++ BVF=2
++ AGD=75.000E-6
++ WB=117.00E-6
++ VT=5.6679
++ KF=1.1192
++ CGS=28.871E-9
++ COXD=137.30E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 13:52
+.MODEL CM300HA-24H NIGBT
++ TAU=338.37E-9
++ KP=41.124
++ AREA=350.00E-6
++ BVF=2
++ AGD=75.000E-6
++ WB=117.00E-6
++ VT=6.9464
++ KF=6.5406
++ CGS=14.716E-9
++ COXD=40.137E-9
++ VTD=-10.670
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:24
+.MODEL CM400DY-12H NIGBT
++ TAU=241.49E-9
++ KP=42.611
++ AREA=400.00E-6
++ AGD=100.00E-6
++ VT=6.7851
++ KF=5.0898
++ CGS=8.8929E-9
++ COXD=26.790E-9
++ VTD=-9.9730
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:25
+.MODEL CM400HA-12E NIGBT
++ TAU=271.94E-9
++ KP=50.305
++ AREA=400.00E-6
++ AGD=100.00E-6
++ VT=3.9684
++ KF=.69115
++ CGS=15.753E-9
++ COXD=53.960E-9
++ VTD=-12.390
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:25
+.MODEL CM400HA-12H NIGBT
++ TAU=241.49E-9
++ KP=41.077
++ AREA=400.00E-6
++ AGD=100.00E-6
++ VT=6.6945
++ KF=5.5555
++ CGS=8.9167E-9
++ COXD=33.660E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 13:53
+.MODEL CM400HA-24H NIGBT
++ TAU=341.86E-9
++ KP=45.363
++ AREA=450.00E-6
++ BVF=2
++ AGD=100.00E-6
++ WB=117.00E-6
++ VT=6.7442
++ KF=6.3455
++ CGS=14.314E-9
++ COXD=32.977E-9
++ VTD=-19.690
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:28
+.MODEL CM400HA-28H NIGBT
++ TAU=337.65E-9
++ KP=42.610
++ AREA=400.00E-6
++ BVF=2
++ AGD=100.00E-6
++ WB=117.00E-6
++ VT=6.8415
++ KF=1.5938
++ CGS=16.350E-9
++ COXD=49.250E-9
++ VTD=-8.0730
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:29
+.MODEL CM400HA-34H NIGBT
++ TAU=510.40E-9
++ KP=75.437
++ AREA=400.00E-6
++ BVF=2
++ AGD=100.00E-6
++ WB=117.00E-6
++ VT=7.1515
++ KF=.64194
++ CGS=17.720E-9
++ COXD=66.260E-9
++ VTD=-11.370
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:29
+.MODEL CM50DY-12E NIGBT
++ TAU=271.94E-9
++ KP=6.1369
++ AREA=50.000E-6
++ AGD=12.500E-6
++ VT=3.9422
++ KF=.70805
++ CGS=16.394E-9
++ COXD=43.110E-9
++ VTD=-12.970
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:30
+.MODEL CM50DY-12H NIGBT
++ TAU=241.49E-9
++ KP=5.1783
++ AREA=50.000E-6
++ AGD=12.500E-6
++ VT=6.7817
++ KF=4.3985
++ CGS=9.8369E-9
++ COXD=28.870E-9
++ VTD=-6.8290
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:31
+.MODEL CM50DY-24E NIGBT
++ TAU=329.53E-9
++ KP=9.1492
++ AREA=50.000E-6
++ BVF=2
++ AGD=12.500E-6
++ WB=117.00E-6
++ VT=5.5187
++ KF=1.4764
++ CGS=29.762E-9
++ COXD=113.50E-9
++ VTD=-9.9760
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 07:19
+.MODEL CM50DY-24H NIGBT
++ TAU=336.01E-9
++ KP=5.4957
++ AREA=60.000E-6
++ BVF=2
++ AGD=12.500E-6
++ WB=117.00E-6
++ VT=6.6975
++ KF=8.1942
++ CGS=14.750E-9
++ COXD=37.770E-9
++ VTD=-12.050
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:33
+.MODEL CM50DY-28H NIGBT
++ TAU=337.65E-9
++ KP=5.3143
++ AREA=50.000E-6
++ BVF=2
++ AGD=12.500E-6
++ WB=117.00E-6
++ VT=6.9004
++ KF=1.5921
++ CGS=19.500E-9
++ COXD=33.520E-9
++ VTD=-8.8780
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:34
+.MODEL CM50E3Y-12E NIGBT
++ TAU=271.94E-9
++ KP=5.7710
++ AREA=50.000E-6
++ AGD=12.500E-6
++ VT=3.8289
++ KF=.76747
++ CGS=16.429E-9
++ COXD=44.720E-9
++ VTD=-12.220
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:35
+.MODEL CM50E3Y-24E NIGBT
++ TAU=310.00E-9
++ KP=11.710
++ BVF=2
++ AREA=50.000E-6
++ AGD=12.500E-6
++ WB=117.00E-6
++ VT=5.7543
++ KF=1.5980
++ CGS=29.949E-9
++ COXD=113.90E-9
++ VTD=-9.3800
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:36
+.MODEL CM600HA-12H NIGBT
++ TAU=264.05E-9
++ KP=48.796
++ AREA=600.00E-6
++ AGD=150.00E-6
++ VT=6.5093
++ KF=4.3087
++ CGS=9.2524E-9
++ COXD=29.060E-9
++ VTD=-6.6860
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:37
+.MODEL CM600HA-24E NIGBT
++ TAU=329.53E-9
++ KP=128.31
++ AREA=600.00E-6
++ BVF=2
++ AGD=150.00E-6
++ WB=117.00E-6
++ VT=5.6394
++ KF=1.0550
++ CGS=30.596E-9
++ COXD=97.500E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:38
+.MODEL CM600HA-24H NIGBT
++ TAU=338.37E-9
++ KP=77.504
++ AREA=700.00E-6
++ BVF=2
++ AGD=150.00E-6
++ WB=117.00E-6
++ VT=6.8805
++ KF=6.3537
++ CGS=14.678E-9
++ COXD=44.520E-9
++ VTD=-8.1640
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:39
+.MODEL CM600HA-28H NIGBT
++ TAU=337.65E-9
++ KP=45.051
++ AREA=600.00E-6
++ BVF=2
++ AGD=150.00E-6
++ WB=117.00E-6
++ VT=6.7581
++ KF=2.3306
++ CGS=16.857E-9
++ COXD=60.920E-9
++ VTD=-6.2640
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:40
+.MODEL CM75DY-12E NIGBT
++ TAU=271.94E-9
++ KP=8.7105
++ AREA=75.000E-6
++ AGD=18.750E-6
++ VT=3.8762
++ KF=.71348
++ CGS=13.935E-9
++ COXD=47.640E-9
++ VTD=-12.270
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:40
+.MODEL CM75DY-12H NIGBT
++ TAU=271.94E-9
++ KP=6.7214
++ AREA=75.000E-6
++ AGD=18.750E-6
++ VT=6.5651
++ KF=2.9684
++ CGS=7.8777E-9
++ COXD=25.760E-9
++ VTD=-13.670
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:43
+.MODEL CM75DY-24E NIGBT
++ TAU=329.53E-9
++ KP=22.251
++ AREA=75.000E-6
++ BVF=2
++ AGD=18.750E-6
++ WB=117.00E-6
++ VT=5.6919
++ KF=1.9565
++ CGS=41.666E-9
++ COXD=151.90E-9
++ VTD=-8.5280
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:42
+.MODEL CM75DY-24H NIGBT
++ TAU=329.13E-9
++ KP=8.9704
++ AREA=100.00E-6
++ BVF=2
++ AGD=18.750E-6
++ WB=117.00E-6
++ VT=6.7347
++ KF=5.6810
++ CGS=12.441E-9
++ COXD=46.620E-9
++ VTD=-7.1250
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:43
+.MODEL CM75E3Y-12E NIGBT
++ TAU=271.94E-9
++ KP=8.5635
++ AREA=75.000E-6
++ AGD=18.750E-6
++ VT=3.8312
++ KF=.70418
++ CGS=15.240E-9
++ COXD=47.830E-9
++ VTD=-11.050
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 17:44
+.MODEL CM75E3Y-24E NIGBT
++ TAU=329.53E-9
++ KP=21.627
++ AREA=75.000E-6
++ BVF=2
++ AGD=18.750E-6
++ WB=117.00E-6
++ VT=5.7450
++ KF=1.3404
++ CGS=43.515E-9
++ COXD=183.80E-9
++ VTD=-5
+
+*$
+
+.SUBCKT CPU165MF 1 2 4 5 6 7 9 10 11 12
+R1 1 2 1U
+R2 5 6 1U
+R3 6 7 1U
+R4 10 11 1U
+R5 11 12 1U
+Z1 1 4 6 CPU165MF
+Z2 6 9 11 CPU165MF
+.MODEL CPU165MF NIGBT
++ TAU=288.03E-9
++ KP=6.8460
++ AREA=21.000E-6
++ AGD=10.379E-6
++ VT=5.1032
++ KF=4.8384
++ CGS=21.485E-9
++ COXD=32.833E-9
++ VTD=-5
+.ENDS
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 13:00
+.SUBCKT CPV362MF 1 3 4 6 7
+Z1 1 3 4 CPV362MF
+Z2 4 6 7 CPV362MF
+.MODEL CPV362MF NIGBT
++ TAU=444.07E-9
++ KP=1.0555
++ AREA=4.4000E-6
++ AGD=1.1710E-6
++ VT=5.9575
++ KF=2
++ CGS=7.6163E-9
++ COXD=42.293E-9
++ VTD=-4.9970
+.ENDS
+
+*$
+
+* Created using Parts release 6.3 on 12/08/95 at 13:01
+.SUBCKT CPV363MF 1 3 4 6 7
+Z1 1 3 4 CPV363MF
+Z2 4 6 7 CPV363MF
+.MODEL CPV363MF NIGBT
++ TAU=419.12E-9
++ KP=1.7035
++ AREA=4.3500E-6
++ AGD=1.9172E-6
++ VT=4.7416
++ KF=3.0737
++ CGS=21.465E-9
++ COXD=39.337E-9
++ VTD=-4.9960
+.ENDS
+
+*$
+
+* created using Parts release 7.1p on 09/05/96 at 17:01
+.MODEL GT10G101 NIGBT
++ TAU=1.1726E-6
++ KP=1.8037
++ AREA=18.000E-6
++ AGD=7.2000E-6
++ WB=50.000E-6
++ VT=4.6344
++ NB=500.00E12
++ KF=1.2100
++ CGS=8.7104E-9
++ COXD=18.877E-9
++ VTD=-2.7053E-6
+
+*$
+
+* created using Parts release 7.1p on 09/05/96 at 17:06
+.MODEL GT10G102 NIGBT
++ TAU=1.1726E-6
++ KP=3.0573
++ AREA=18.000E-6
++ AGD=7.2000E-6
++ WB=50.000E-6
++ VT=2.8132
++ NB=500.00E12
++ KF=.6877
++ CGS=6.2916E-9
++ COXD=19.016E-9
++ VTD=-27.053E-12
+
+*$
+
+* created using Parts release 7.1p on 09/05/96 at 17:12
+.MODEL GT15G101 NIGBT
++ TAU=1.1773E-6
++ KP=3.4145
++ AREA=22.000E-6
++ AGD=8.8000E-6
++ WB=50.000E-6
++ VT=5.9739
++ NB=500.00E12
++ KF=.79348
++ CGS=12.763E-9
++ COXD=18.154E-9
++ VTD=-27.053E-12
+
+*$
+
+* created using Parts release 7.1p on 09/05/96 at 17:23
+.MODEL GT15J101 NIGBT
++ TAU=79.808E-9
++ KP=.62916
++ AREA=7.5000E-6
++ AGD=3.0000E-6
++ WB=60.000E-6
++ VT=4.9194
++ KF=10.557
++ CGS=35.730E-9
++ COXD=81.291E-9
++ VTD=-2.7000E-9
+
+*$
+
+* created using Parts release 7.1p on 09/05/96 at 17:34
+.MODEL GT15J102 NIGBT
++ TAU=79.808E-9
++ KP=.56168
++ AREA=7.5000E-6
++ AGD=3.0000E-6
++ WB=60.000E-6
++ VT=4.7338
++ KF=11.864
++ CGS=35.414E-9
++ COXD=82.044E-9
++ VTD=-2.7000E-9
+
+*$
+
+* created using Parts release 7.1p on 09/05/96 at 17:40
+.MODEL GT15J103SM NIGBT
++ TAU=79.808E-9
++ KP=.56168
++ AREA=7.5000E-6
++ AGD=3.0000E-6
++ WB=60.000E-6
++ VT=4.7338
++ KF=11.864
++ CGS=35.414E-9
++ COXD=82.044E-9
++ VTD=-2.7000E-9
+
+*$
+
+* created using Parts release 7.1p on 09/05/96 at 17:52
+.MODEL GT15N101 NIGBT
++ TAU=103.11E-9
++ KP=1.6728
++ AREA=7.5000E-6
++ AGD=3.0000E-6
++ WB=62.000E-6
++ VT=3.5495
++ NB=90.000E12
++ KF=.8153
++ CGS=40.651E-9
++ COXD=206.41E-9
++ VTD=34.698E-6
+
+*$
+
+* created using Parts release 7.1p on 09/05/96 at 17:59
+.MODEL GT15Q101 NIGBT
++ TAU=89.194E-9
++ KP=2.2597
++ AREA=7.5000E-6
++ AGD=3.0000E-6
++ WB=57.000E-6
++ VT=5.3452
++ NB=50.000E12
++ KF=1.5610
++ CGS=54.556E-9
++ COXD=177.80E-9
++ VTD=34.698E-6
+
+*$
+
+* created using Parts release 7.1p on 09/05/96 at 11:56
+.MODEL GT50J101 NIGBT
++ TAU=283.08E-9
++ KP=1.8177
++ AREA=25.000E-6
++ AGD=10.000E-6
++ VT=5.1986
++ KF=2.1474
++ CGS=18.213E-9
++ COXD=52.381E-9
++ VTD=-5
+
+*$
+
+* created using Parts release 7.1p on 08/13/96 at 16:19
+.MODEL GT50J102 NIGBT
++ TAU=262.10E-9
++ KP=9.8987
++ AREA=25.000E-6
++ AGD=10.000E-6
++ VT=8.6976
++ KF=2.6349
++ CGS=20.982E-9
++ COXD=48.455E-9
++ VTD=-5
+
+*$
+
+* created using Parts release 7.1p on 08/13/96 at 17:24
+.MODEL GT50J301 NIGBT
++ TAU=262.10E-9
++ KP=9.1008
++ AREA=25.000E-6
++ AGD=10.000E-6
++ VT=8.6411
++ KF=2.8637
++ CGS=20.888E-9
++ COXD=44.273E-9
++ VTD=-5
+
+*$
+
+* created using Parts release 7.1p on 08/15/96 at 17:31
+.MODEL GT50M101 NIGBT
++ TAU=336.33E-9
++ KP=5.78898
++ AREA=25.000E-6
++ AGD=1.157012E-5
++ WB=117.00E-6
++ VT=3.38138
++ KF=1.4610
++ CGS=3.694818E-8
++ COXD=1.111522E-7
++ VTD=-5.00952
+
+*$
+
+* created using Parts release 7.1p on 08/08/96 at 14:33
+.MODEL GT5G101 NIGBT
++ TAU=120.00E-6
++ KP=6.75782
++ AREA=22.500E-6
++ AGD=5.9250E-6
++ VT=3.43564
++ KF=.250123
++ CGS=3.1705E-9
++ COXD=10.994E-9
++ VTD=-4.9691
+
+*$
+
+* created using Parts release 7.1p on 08/15/96 at 13:15
+.MODEL GT60J101 NIGBT
++ TAU=291.70E-9
++ KP=3.8060
++ AREA=30.000E-6
++ AGD=12.000E-6
++ VT=4.2669
++ KF=1.8841
++ CGS=18.862E-9
++ COXD=64.769E-9
++ VTD=-4
+
+*$
+
+* created using Parts release 7.1p on 08/30/96 at 16:43
+.MODEL GT60M102 NIGBT
++ TAU=361.62E-9
++ KP=11.572
++ AREA=30.000E-6
++ AGD=12.000E-6
++ WB=117.00E-6
++ VT=4.8892
++ NB=220.00E12
++ KF=8.4743
++ CGS=21.965E-9
++ COXD=79.102E-9
++ VTD=-5
+
+*$
+
+* created using Parts release 7.1p on 09/03/96 at 12:39
+.MODEL GT60M103 NIGBT
++ TAU=450.37E-9
++ KP=11.380
++ AREA=30.000E-6
++ AGD=1.131553E-5
++ WB=117.00E-6
++ VT=4.8924
++ KF=1.1722
++ CGS=2.670175E-8
++ COXD=8.307276E-8
++ VTD=-5.03141
+
+*$
+
+* created using Parts release 7.1p on 08/14/96 at 15:39
+.MODEL GT80J101 NIGBT
++ TAU=309.77E-9
++ KP=10.183
++ AREA=40.000E-6
++ AGD=16.000E-6
++ VT=4.5776
++ KF=3.1072
++ CGS=16.140E-9
++ COXD=52.289E-9
++ VTD=-12
+
+*$
+
+* created using Parts release 7.1p on 07/16/96 at 10:07
+.MODEL GT8J101 NIGBT
++ TAU=192.10E-9
++ KP=0.370938
++ AREA=3.8000E-6
++ AGD=1.496398E-6
++ VT=3.87846
++ KF=204.287
++ CGS=3.354430E-8
++ COXD=6.440967E-8
++ VTD=-2.97956
+
+*$
+
+* created using Parts release 7.1p on 07/16/96 at 11:57
+.MODEL GT8J102SM NIGBT
++ TAU=262.10E-9
++ KP=.41665
++ AREA=4.0000E-6
++ AGD=1.6000E-6
++ VT=4.2442
++ KF=2.1934
++ CGS=36.729E-9
++ COXD=41.081E-9
++ VTD=-5
+
+*$
+
+* created using Parts release 7.1p on 07/05/96 at 13:58
+.MODEL GT8Q101 NIGBT
++ TAU=295.59E-9
++ KP=.87093
++ AREA=4.0000E-6
++ AGD=1.6000E-6
++ WB=117.00E-6
++ VT=5.2457
++ BVN=5
++ KF=50.469
++ CGS=72.349E-9
++ COXD=117.45E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/04/95 at 10:22
+.MODEL HGTD10N40F1 NIGBT
++ TAU=798.40E-9
++ KP=1.3926
++ AREA=6.0000E-6
++ AGD=3.0000E-6
++ VT=3.2545
++ KF=.51589
++ CGS=12.748E-9
++ COXD=8.9339E-9
++ VTD=-19.050
+
+*$
+
+* Created using Parts release 6.3 on 12/04/95 at 10:43
+.MODEL HGTD10N50F1 NIGBT
++ TAU=798.40E-9
++ KP=1.3926
++ AREA=6.0000E-6
++ AGD=3.0000E-6
++ VT=3.2545
++ KF=.51589
++ CGS=12.823E-9
++ COXD=8.7416E-9
++ VTD=-18.520
+
+*$
+
+* Created using Parts release 6.3 on 12/01/95 at 14:35
+.MODEL HGTD6N40E1 NIGBT
++ TAU=610.55E-9
++ KP=.37076
++ AREA=3.7500E-6
++ AGD=1.8750E-6
++ VT=3.7294
++ KF=1.6309
++ CGS=13.051E-9
++ COXD=17.173E-9
++ VTD=-98.320E-3
+
+*$
+
+* Created using Parts release 6.3 on 12/01/95 at 15:32
+.MODEL HGTD6N50E1 NIGBT
++ TAU=610.55E-9
++ KP=.56564
++ AREA=3.7500E-6
++ AGD=1.8750E-6
++ VT=3.9739
++ KF=.63334
++ CGS=14.209E-9
++ COXD=11.894E-9
++ VTD=-99.450E-3
+
+*$
+
+* Created using Parts release 6.3 on 12/04/95 at 12:28
+.MODEL HGTG12N60D1D NIGBT
++ TAU=313.60E-9
++ KP=2.8702
++ AREA=10.500E-6
++ AGD=5.2500E-6
++ VT=4.8812
++ KF=1.0155
++ CGS=17.328E-9
++ COXD=5.5738E-9
++ VTD=1.7010
+
+*$
+
+* Created using Parts release 6.3 on 12/01/95 at 16:07
+.MODEL HGTG24N60D1D NIGBT
++ TAU=335.87E-9
++ KP=10.076
++ AREA=20.000E-6
++ AGD=10.000E-6
++ VT=4.6400
++ KF=.71526
++ CGS=25.698E-9
++ COXD=43.051E-9
++ VTD=.3091
+
+*$
+
+* Created using Parts release 6.3 on 12/11/95 at 16:13
+.MODEL HGTG32N60E2 NIGBT
++ TAU=320.06E-9
++ KP=11.743
++ AREA=25.000E-6
++ AGD=12.500E-6
++ VT=4.9325
++ KF=.5005
++ CGS=41.394E-9
++ COXD=47.901E-9
++ VTD=.2391
+
+*$
+
+* Created using Parts release 6.3 on 12/01/95 at 17:48
+.MODEL HGTH12N40C1 NIGBT
++ TAU=315.00E-9
++ KP=1.7838
++ AREA=6.0000E-6
++ AGD=3.0000E-6
++ VT=2.8824
++ KF=15
++ CGS=29.783E-9
++ COXD=15.880E-6
++ VTD=-27.880E-6
+
+*$
+
+* Created using Parts release 6.3 on 11/30/95 at 10:31
+.MODEL HGTH12N50C1 NIGBT
++ TAU=315.00E-9
++ KP=1.7838
++ AREA=6.0000E-6
++ AGD=3.0000E-6
++ VT=2.8824
++ KF=15
++ CGS=30.076E-9
++ COXD=18.042E-9
++ VTD=1.013
+
+*$
+
+* Created using Parts release 6.3 on 12/01/95 at 16:41
+.MODEL HGTP10N40C1 NIGBT
++ TAU=386.00E-9
++ KP=1.7515
++ AREA=5.0000E-6
++ AGD=2.5000E-6
++ VT=2.8878
++ KF=1.6030
++ CGS=35.848E-9
++ COXD=22.129E-9
++ VTD=16.510E-3
+
+*$
+
+* Created using Parts release 6.3 on 12/01/95 at 18:00
+.MODEL HGTP10N50C1 NIGBT
++ TAU=321.00E-9
++ KP=1.7851
++ AREA=5.0000E-6
++ AGD=2.5000E-6
++ VT=2.8838
++ KF=15
++ CGS=36.065E-9
++ COXD=13.480E-9
++ VTD=-402.30E-6
+
+*$
+
+* Created using Parts release 6.3 on 12/01/95 at 18:23
+.MODEL HGTP12N60D1 NIGBT
++ TAU=220.00E-9
++ KP=3.5847
++ AREA=10.500E-6
++ AGD=5.2500E-6
++ VT=5.1153
++ KF=15
++ CGS=23.320E-9
++ COXD=37.026E-9
++ VTD=-50.000E-9
+
+*$
+
+* Created using Parts release 6.3 on 12/04/95 at 08:07
+.MODEL HGTP6N40E1D NIGBT
++ TAU=610.55E-9
++ KP=.56978
++ AREA=3.7500E-6
++ AGD=1.8750E-6
++ VT=3.9776
++ KF=.51737
++ CGS=13.762E-9
++ COXD=17.795E-9
++ VTD=-783.50E-6
+
+*$
+
+* Created using Parts release 6.3 on 12/04/95 at 08:21
+.MODEL HGTP6N50E1D NIGBT
++ TAU=610.55E-9
++ KP=.56978
++ AREA=3.7500E-6
++ AGD=1.8750E-6
++ VT=3.9776
++ KF=.51737
++ CGS=13.836E-9
++ COXD=15.694E-9
++ VTD=-.4224
+
+*$
+*IRG4BC20S from International Rectifier  *23/03/2001 
+*Modeled at PSpice-ITeam Nikkel
+.MODEL IRG4BC20S NIGBT
++ TAU=300.60E-9
++ KP=2.4889
++ AREA=9.5000E-6
++ AGD=3.8000E-6
++ VT=5.2804
++ KF=12.536
++ CGS=10.56931E-9
++ COXD=14.79185E-9
++ VTD=-4.99738
+
+*$
+*IRG4BC30S from International Rectifier  *23/03/2001 
+*Modeled at PSpice-ITeam Nikkel
+.MODEL irg4bc30s NIGBT
++ TAU=295.72E-9
++ KP=4.5
++ AREA=17.000E-6
++ AGD=6.8000E-6
++ VT=5.2485
++ KF=46.456
++ CGS=9.62042E-9
++ COXD=33.11902E-9
++ VTD=4.26957
+*$
+*IRG4BC40S from International Rectifier  *23/03/2001 
+*Modeled at PSpice-ITeam Nikkel
+.MODEL IRG4BC40S NIGBT
++ TAU=273.93E-9
++ KP=11.5200
++ AREA=30.000E-6
++ AGD=12.000E-6
++ VT=5.1990
++ KF=14.8400
++ CGS=9.484117E-9
++ COXD=31.73889E-9
++ VTD=4.69561
+*$
+*IRG4PC30S from Internatiponal Rectifier  *26/03/2001
+*Modeled at PSpice-ITeam Nikkel
+.MODEL IRG4PC30S NIGBT
++ TAU=295.72E-9
++ KP=4.5
++ AREA=17.000E-6
++ AGD=6.8000E-6
++ VT=5.2485
++ KF=42.0341
++ CGS=9.62042E-9
++ COXD=33.11902E-9
++ VTD=4.26957
+*$
+*IRG4PC50S from International Rectifier  *23/03/2001
+*Modeled at PSpice-ITeam Nikkel
+.MODEL IRG4PC50S NIGBT
++ TAU=273.93E-9
++ KP=13.5200
++ AREA=35.000E-6
++ AGD=14.000E-6
++ VT=5.1990
++ KF=7.8400
++ CGS=1.866713e-008
++ COXD=5.149102e-008
++ VTD=1.67403
+*$
+*IRG4PH50S from International Rectifier  *27/03/2001
+*Modeled at PSpice-ITeam Nikkel
+.MODEL IRG4PH50S NIGBT
++ TAU=331.09E-9
++ KP=13.635
++ KF=30.3
++ AREA=28.500E-6
++ AGD=11.400E-6
++ WB=117.00E-6
++ VT=5.2925
++ CGS=22.25587E-9
++ COXD=61.05842E-9
++ VTD=1.7579
++ BVF=1.7
+*$
+*IRGBC20M from International Rectifier   *20/03/2001
+*Modeled at PSpice-ITeam Nikkel
+.MODEL IRGBC20M NIGBT
++ TAU=201.84E-9
++ KP=.48067
++ AREA=6.5000E-6
++ AGD=2.6000E-6
++ VT=4
++ KF=7.7058
++ CGS=10.19555e-009
++ COXD=3.281049e-009
++ VTD=-58.6569
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 13:55
+.MODEL IRGBC20F NIGBT
++ TAU=263.96E-9
++ KP=.82992
++ AREA=32.000E-6
++ AGD=4.0000E-6
++ VT=5.6227
++ KF=1.8345
++ CGS=1.2212E-9
++ COXD=5.4740E-9
++ VTD=-6.4920
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 13:55
+.MODEL IRGBC20S NIGBT
++ TAU=447.39E-9
++ KP=.89751
++ AREA=38.000E-6
++ AGD=4.7500E-6
++ VT=4.6178
++ KF=1.4321
++ CGS=809.54E-12
++ COXD=4.4885E-9
++ VTD=-8.1590
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 13:56
+.MODEL IRGBC30F NIGBT
++ TAU=264.07E-9
++ KP=1.6985
++ AREA=60.000E-6
++ AGD=7.7500E-6
++ VT=4.7055
++ KF=1.9385
++ CGS=990.49E-12
++ COXD=3.7832E-9
++ VTD=-7.2340
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 13:56
+.MODEL IRGBC30S NIGBT
++ TAU=449.43E-9
++ KP=2.2986
++ AREA=67.500E-6
++ AGD=8.5000E-6
++ VT=4.5893
++ KF=1.0868
++ CGS=977.68E-12
++ COXD=3.0226E-9
++ VTD=-8.6780
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 13:57
+.MODEL IRGBC40F NIGBT
++ TAU=230.29E-9
++ KP=2.1928
++ AREA=100.00E-6
++ AGD=12.250E-6
++ VT=5.3409
++ KF=4.4904
++ CGS=1.0358E-9
++ COXD=8.2170E-9
++ VTD=-4.9770
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 13:58
+.MODEL IRGBC40S NIGBT
++ TAU=444.73E-9
++ KP=4.1570
++ AREA=120.00E-6
++ AGD=12.500E-6
++ VT=4.5653
++ KF=1.1580
++ CGS=1.0852E-9
++ COXD=7.3393E-9
++ VTD=-6.3210
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 13:58
+.MODEL IRGPC40F NIGBT
++ TAU=242.73E-9
++ KP=2.1754
++ AREA=100.00E-6
++ AGD=12.250E-6
++ VT=5.3408
++ KF=3.8999
++ CGS=1.1683E-9
++ COXD=8.2640E-9
++ VTD=-6.4620
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 13:59
+.MODEL IRGPC40S NIGBT
++ TAU=444.73E-9
++ KP=4.7553
++ AREA=120.00E-6
++ AGD=15.000E-6
++ VT=4.5937
++ KF=1.0079
++ CGS=1.1315E-9
++ COXD=5.2578E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 13:59
+.MODEL IRGPC50F NIGBT
++ TAU=203.99E-9
++ KP=6.2118
++ AREA=140.00E-6
++ AGD=17.000E-6
++ VT=4.8547
++ KF=6.6311
++ CGS=1.9879E-9
++ COXD=16.910E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 14:00
+.MODEL IRGPC50S NIGBT
++ TAU=346.16E-9
++ KP=7.5150
++ AREA=160.00E-6
++ AGD=17.500E-6
++ VT=4.5112
++ KF=1.3967
++ CGS=1.5967E-9
++ COXD=16.732E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 13:47
+.MODEL IXGH10N100 NIGBT
++ TAU=588.38E-9
++ BVF=2
++ KP=1.8125
++ WB=117.00E-6
++ VT=5.0635
++ KF=.3639
++ CGS=34.220E-9
++ COXD=15.865E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/08/95 at 13:47
+.MODEL IXGH10N100A NIGBT
++ TAU=411.72E-9
++ BVF=2
++ KP=1.8526
++ WB=117.00E-6
++ VT=5.0418
++ KF=.33802
++ CGS=33.845E-9
++ COXD=16.732E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 08:46
+.MODEL IXGH10N60 NIGBT
++ TAU=232.60E-9
++ KP=2.9457
++ VT=4.7786
++ KF=.60148
++ CGS=30.360E-9
++ COXD=17.190E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 09:00
+.MODEL IXGH10N60A NIGBT
++ TAU=232.60E-9
++ KP=3.1260
++ VT=4.8573
++ KF=.63456
++ CGS=30.246E-9
++ COXD=17.444E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 15:11
+.MODEL IXGH17N100 NIGBT
++ TAU=543.10E-9
++ BVF=2
++ KP=3.1534
++ AREA=17.000E-6
++ AGD=8.5000E-6
++ WB=117.00E-6
++ VT=4.6062
++ KF=.23
++ CGS=29.350E-9
++ COXD=23.827E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/08/95 at 13:57
+.MODEL IXGH17N100A NIGBT
++ TAU=373.15E-9
++ BVF=2
++ KP=3.2174
++ AREA=17.000E-6
++ AGD=8.5000E-6
++ WB=117.00E-6
++ VT=4.5798
++ KF=.28005
++ CGS=28.991E-9
++ COXD=24.741E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 10:12
+.MODEL IXGH20N60 NIGBT
++ TAU=198.49E-9
++ KP=7.9327
++ AREA=20.000E-6
++ AGD=10.000E-6
++ VT=4.4567
++ KF=.44403
++ CGS=28.080E-9
++ COXD=15.517E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 11:05
+.MODEL IXGH20N60A NIGBT
++ TAU=164.18E-9
++ KP=8.0604
++ AREA=20.000E-6
++ AGD=10.000E-6
++ VT=4.4561
++ KF=.97447
++ CGS=27.920E-9
++ COXD=14.723E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/08/95 at 13:18
+.MODEL IXGH24N60A NIGBT
++ TAU=215.04E-9
++ KP=2.2491
++ AREA=24.000E-6
++ AGD=12.000E-6
++ VT=3.3730
++ KF=.86496
++ CGS=21.272E-9
++ COXD=13.698E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 12:40
+.MODEL IXGH25N100 NIGBT
++ TAU=158.39E-9
++ BVF=2
++ KP=22.019
++ AREA=25.000E-6
++ AGD=12.500E-6
++ VT=4.9905
++ KF=.5005
++ CGS=34.401E-9
++ COXD=24.819E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 13:17
+.MODEL IXGH25N100A NIGBT
++ TAU=283.23E-9
++ BVF=2
++ KP=22.029
++ AREA=25.000E-6
++ AGD=12.500E-6
++ WB=117.00E-6
++ VT=4.9910
++ KF=.5005
++ CGS=32.809E-9
++ COXD=31.596E-9
++ VTD=2.621
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 14:41
+.MODEL IXGH30N60 NIGBT
++ TAU=171.19E-9
++ KP=4.1698
++ AREA=25.000E-6
++ AGD=12.500E-6
++ VT=4.4737
++ KF=3.1410
++ CGS=29.852E-9
++ COXD=50.672E-9
++ VTD=4.5460
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 14:44
+.MODEL IXGH30N60A NIGBT
++ TAU=171.19E-9
++ KP=4.1698
++ AREA=25.000E-6
++ AGD=12.500E-6
++ VT=4.4737
++ KF=3.1410
++ CGS=29.852E-9
++ COXD=35.633E-9
++ VTD=-.4271
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 15:33
+.MODEL IXGH32N60A NIGBT
++ TAU=158.30E-9
++ KP=6.0806
++ AREA=30.000E-6
++ AGD=15.000E-6
++ VT=5.4490
++ KF=3.6657
++ CGS=20.707E-9
++ COXD=33.861E-9
++ VTD=.2961
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 15:22
+.MODEL IXGH38N60A NIGBT
++ TAU=126.08E-9
++ KP=5.7499
++ AREA=38.000E-6
++ AGD=19.000E-6
++ VT=5.2351
++ KF=1.2245
++ CGS=17.828E-9
++ COXD=20.070E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 16:20
+.MODEL IXGH40N60 NIGBT
++ TAU=287.56E-9
++ KP=50.034
++ AREA=37.500E-6
++ AGD=18.750E-6
++ VT=4.1822
++ KF=.36047
++ CGS=31.942E-9
++ COXD=53.188E-9
++ VTD=2.6570
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 15:33
+.MODEL IXGH40N60A NIGBT
++ TAU=168.42E-9
++ KP=14.463
++ AREA=37.500E-6
++ AGD=10.750E-6
++ VT=3.5128
++ KF=.59658
++ CGS=21.513E-9
++ COXD=56.680E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 15:37
+.MODEL IXGK50N60A NIGBT
++ TAU=240.90E-9
++ KP=15.726
++ AREA=37.500E-6
++ AGD=10.750E-6
++ VT=3.6638
++ KF=1.2712
++ CGS=20.081E-9
++ COXD=50.360E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/08/95 at 13:56
+.MODEL IXGM17N100 NIGBT
++ TAU=543.10E-9
++ BVF=2
++ KP=3.1534
++ AREA=17.000E-6
++ AGD=8.5000E-6
++ WB=117.00E-6
++ VT=4.6062
++ KF=.23
++ CGS=29.350E-9
++ COXD=23.827E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/08/95 at 13:57
+.MODEL IXGM17N100A NIGBT
++ TAU=373.15E-9
++ BVF=2
++ KP=3.2174
++ AREA=17.000E-6
++ AGD=8.5000E-6
++ WB=117.00E-6
++ VT=4.5798
++ KF=.28005
++ CGS=28.991E-9
++ COXD=24.741E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/19/95 at 08:03
+.MODEL IXGM20N60 NIGBT
++ TAU=164.18E-9
++ KP=2.3032
++ AREA=20.000E-6
++ AGD=10.000E-6
++ VT=3.5605
++ KF=7.7202
++ CGS=25.534E-9
++ COXD=20.792E-9
++ VTD=-.773
+
+*$
+
+* Created using Parts release 6.3 on 09/05/95 at 11:16
+.MODEL IXGM20N60A NIGBT
++ TAU=164.18E-9
++ KP=1.8581
++ AREA=20.000E-6
++ AGD=10.000E-6
++ VT=2.6854
++ KF=2.2970
++ CGS=27.662E-9
++ COXD=11.625E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/08/95 at 14:04
+.MODEL IXGM25N100 NIGBT
++ TAU=411.72E-9
++ KP=3.4039
++ AREA=25.000E-6
++ BVF=2
++ AGD=12.500E-6
++ WB=117.00E-6
++ VT=3.5914
++ KF=.65198
++ CGS=26.767E-9
++ COXD=33.058E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/08/95 at 14:06
+.MODEL IXGM25N100A NIGBT
++ TAU=360.80E-9
++ KP=3.4283
++ AREA=25.000E-6
++ BVF=2
++ AGD=12.500E-6
++ WB=117.00E-6
++ VT=3.5817
++ KF=.53139
++ CGS=26.614E-9
++ COXD=33.479E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 14:34
+.MODEL IXGM30N60 NIGBT
++ TAU=344.41E-9
++ KP=3.4592
++ AREA=25.000E-6
++ AGD=12.500E-6
++ VT=4.5642
++ KF=.97111
++ CGS=29.383E-9
++ COXD=30.941E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/18/95 at 14:38
+.MODEL IXGM30N60A NIGBT
++ TAU=171.19E-9
++ KP=3.6195
++ AREA=25.000E-6
++ AGD=12.500E-6
++ VT=4.5224
++ KF=4.3111
++ CGS=28.786E-9
++ COXD=33.796E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 16:25
+.MODEL IXGM40N60 NIGBT
++ TAU=359.25E-9
++ KP=13.745
++ AREA=37.500E-6
++ AGD=12.750E-6
++ VT=3.5391
++ KF=.23764
++ CGS=23.945E-9
++ COXD=41.420E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/05/95 at 12:49
+.MODEL IXGM40N60A NIGBT
++ TAU=168.42E-9
++ KP=13.832
++ AREA=37.500E-6
++ AGD=18.750E-6
++ VT=3.4417
++ KF=.50387
++ CGS=30.882E-9
++ COXD=43.420E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/12/95 at 16:41
+.MODEL MG100H1BS1 NIGBT
++ TAU=309.77E-9
++ KP=11.815
++ AREA=50.000E-6
++ AGD=25.000E-6
++ VT=4.2737
++ KF=.46591
++ CGS=32.425E-9
++ COXD=28.700E-9
++ VTD=-6.7450
+
+*$
+
+* Created using Parts release 6.3 on 12/13/95 at 08:21
+.MODEL MG15H1BS1 NIGBT
++ TAU=436.52E-9
++ KP=1.2097
++ AREA=7.5000E-6
++ AGD=3.7500E-6
++ VT=4.3542
++ KF=.53671
++ CGS=40.566E-9
++ COXD=30.935E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/12/95 at 14:25
+.MODEL MG15N1BS1 NIGBT
++ TAU=617.10E-9
++ KP=2.3669
++ AREA=7.5000E-6
++ BVF=2
++ AGD=3.7500E-6
++ WB=117.00E-6
++ VT=4.0576
++ KF=.42567
++ CGS=37.692E-9
++ COXD=88.394E-9
++ VTD=-4.1940
+
+*$
+
+* Created using Parts release 6.3 on 12/12/95 at 12:45
+.MODEL MG25H1BS1 NIGBT
++ TAU=386.00E-9
++ KP=1.5151
++ AREA=12.500E-6
++ AGD=6.2500E-6
++ VT=3.4907
++ KF=.89714
++ CGS=18.376E-9
++ COXD=12.170E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/14/95 at 11:51
+.MODEL MG25N1BS1 NIGBT
++ TAU=617.10E-9
++ KP=1.7257
++ AREA=12.500E-6
++ BVF=2
++ AGD=6.2500E-6
++ WB=117.00E-6
++ VT=3.1645
++ KF=.87147
++ CGS=64.149E-9
++ COXD=83.412E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/15/95 at 13:47
+.MODEL MG50H1BS1 NIGBT
++ TAU=386.00E-9
++ KP=4.7507
++ AREA=25.000E-6
++ AGD=12.500E-6
++ VT=4.8351
++ KF=1.0193
++ CGS=18.785E-9
++ COXD=49.353E-9
++ VTD=-6.3470
+
+*$
+
+* Created using Parts release 6.3 on 12/15/95 at 15:13
+.MODEL MG50N1BS1 NIGBT
++ TAU=617.10E-9
++ KP=9.1503
++ AREA=25.000E-6
++ BVF=2
++ AGD=12.500E-6
++ WB=117.00E-6
++ VT=4.3718
++ KF=.3464
++ CGS=68.282E-9
++ COXD=49.340E-9
++ VTD=-6.5270
+
+*$
+
+* Created using Parts release 6.3 on 08/29/95 at 14:59
+.MODEL MG50N2YS9 NIGBT
++ TAU=617.10E-9
++ KP=10.608
++ AREA=25.000E-6
++ BVF=2
++ AGD=12.500E-6
++ WB=117.00E-6
++ VT=4.4330
++ KF=.34644
++ CGS=95.992E-9
++ COXD=1.0000E-15
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 10:34
+.MODEL Z1MBI30L-060 NIGBT
++ TAU=234.76E-9
++ KP=4.8896
++ AREA=15.000E-6
++ AGD=7.5000E-6
++ VT=5.4026
++ KF=1.1582
++ CGS=54.871E-9
++ COXD=52.283E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 10:34
+.MODEL Z1MBI50L-060 NIGBT
++ TAU=234.76E-9
++ KP=5.7812
++ AREA=25.000E-6
++ AGD=12.500E-6
++ VT=4.5000
++ KF=1.8706
++ CGS=51.389E-9
++ COXD=30.469E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 10:39
+.MODEL Z1MBI75L-060 NIGBT
++ TAU=234.76E-9
++ KP=9.1741
++ AREA=37.500E-6
++ AGD=18.750E-6
++ VT=4.5712
++ KF=1.8078
++ CGS=34.577E-9
++ COXD=61.951E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 10:41
+.MODEL Z6MBI10F-060 NIGBT
++ TAU=926.93E-9
++ KP=1.1262
++ AREA=5.0000E-6
++ AGD=2.5000E-6
++ VT=4.8198
++ KF=.84231
++ CGS=51.404E-9
++ COXD=59.424E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/13/95 at 13:11
+.MODEL Z6MBI10L-060 NIGBT
++ TAU=234.76E-9
++ KP=1.2172
++ AREA=5.0000E-6
++ AGD=2.5000E-6
++ VT=4.3623
++ KF=1.6740
++ CGS=51.633E-9
++ COXD=46.618E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 12/13/95 at 14:01
+.MODEL Z6MBI15F-060 NIGBT
++ TAU=926.93E-9
++ KP=1.2649
++ AREA=7.5000E-6
++ AGD=3.7500E-6
++ VT=3.4557
++ KF=.98066
++ CGS=51.713E-9
++ COXD=33.795E-9
++ VTD=-13.450
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 11:09
+.MODEL Z6MBI15L-060 NIGBT
++ TAU=234.76E-9
++ KP=2.0608
++ AREA=7.5000E-6
++ AGD=3.0000E-6
++ VT=5.2083
++ KF=1.5313
++ CGS=40.814E-9
++ COXD=70.200E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 11:13
+.MODEL Z6MBI20F-060 NIGBT
++ TAU=926.93E-9
++ KP=2.3276
++ AREA=15.000E-6
++ AGD=7.5000E-6
++ VT=4.8782
++ KF=.71371
++ CGS=24.187E-9
++ COXD=50.350E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 11:16
+.MODEL Z6MBI20L-060 NIGBT
++ TAU=234.76E-9
++ KP=3.2932
++ VT=5.4101
++ KF=1.2877
++ CGS=37.010E-9
++ COXD=50.670E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 11:18
+.MODEL Z6MBI30F-060 NIGBT
++ TAU=926.93E-9
++ KP=4.0324
++ AREA=15.000E-6
++ AGD=7.5000E-6
++ VT=5.1162
++ KF=.4619
++ CGS=37.434E-9
++ COXD=64.136E-9
++ VTD=-5
+
+*$
+
+* Created using Parts release 6.3 on 09/21/95 at 11:19
+.MODEL Z6MBI30L-060 NIGBT
++ TAU=926.93E-9
++ KP=3.6174
++ AREA=15.000E-6
++ AGD=7.5000E-6
++ VT=4.8978
++ KF=.75719
++ CGS=37.249E-9
++ COXD=53.239E-9
++ VTD=-5
+*$
+
+
+*To simulate following models without non convergence use *ABSTOL=1e-9
+
+*$
+.SUBCKT FS150R12KT4_B11 G1 G2 G3 G4 G5 G6 N1 P1 T1 T2 U V W  
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dce593ed1fbf99d454
+ab44aa66a7b4a87cf118be5deaf976d735791ba90e160cbc22b50ce9892e958176aaffd27759e1ea67886084c05135eef4ef4df229f89eedfe496ad510e60c16
+40f3b440572f0f39fdfcbda72addac858d3eb47333eac1e778867cce06dbd4c3c1e9810d4a41fe2b8e16d925fa77516061609bfe201f81efe6adb70f097f47a2
+d4018c40325799d7fdfcbda72addac85b96076e03924ea8c78867cce06dbd4c3c1e9810d4a41fe2b8e16d925fa77516061609bfe201f81efe6adb70f097f47a2
+c778737e73fed596bf9947f789c14c3d898d28f4652563be8b465657d4b608dc641d46291b1a347ca878ecfac46a84a150a0a8153fc02b5c3b2b40e6e7cb8019
+59e902b81ad4b046ace2f35a28cd5df81f3aff65143d89773f94db139b21407b00d0dc87be4874b9900d35f777da8bce60192c5a6f2397eb243885d0a90b84a4
+1997cb86177352349ce0e91a6c4ba0ffdb21bd457e4d6b1722b50ce9892e958176aaffd27759e1ea67886084c05135eef4ef4df229f89eedfe496ad510e60c16
+8cf3ca94e06fc695fdfcbda72addac85f295f6c4da8f1af978867cce06dbd4c3c1e9810d4a41fe2b8e16d925fa77516061609bfe201f81efe6adb70f097f47a2
+4b40aa8e9f9c81fdef61244c06d608bfd7b88d08ed46c2be3f94db139b21407b00d0dc87be4874b9900d35f777da8bce60192c5a6f2397eb243885d0a90b84a4
+2a3fd364408caf24189aee9ce8d77d0ac0dbe3a8648cb86c78867cce06dbd4c3c1e9810d4a41fe2b8e16d925fa77516061609bfe201f81efe6adb70f097f47a2
+4e9ac5b43b1b288cf118be5deaf976d7898d28f4652563be8b465657d4b608dc641d46291b1a347ca878ecfac46a84a150a0a8153fc02b5c3b2b40e6e7cb8019
+5553460392cd8078ef61244c06d608bfbc5f9dc19f503fd73f94db139b21407b00d0dc87be4874b9900d35f777da8bce60192c5a6f2397eb243885d0a90b84a4
+08b6421bd26afc46bf9947f789c14c3d182c6f3b132d9b3122b50ce9892e958176aaffd27759e1ea67886084c05135eef4ef4df229f89eedfe496ad510e60c16
+afe317ae10e9815551ec52465fb21d0348dca7bfab1305b4a75b3673177634100a45c800667a412f733baf6fb00fd83fb388ea6e74665eef4487ab069909f104
+$CDNENCFINISH
+.ENDS FS150R12KT4_B11
+*$
+.SUBCKT IGBT_FS150 C G E 
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dce593ed1fbf99d454
+29c7aed2ccb01d692dc5e68815af33cbc1e9810d4a41fe2b8e16d925fa77516061609bfe201f81ef7e66d76d8a5e9ffbb5b8abd48e2528c829c6ad2b62d077ed
+78da4350ae722f2abde41ce8376bf8a91379f9f902e7e25167886084c05135eef4ef4df229f89eed5a1c6c2efebff972ef8549eb08c509d3fd2b6654280998bd
+af84a12e2467477e393b8ec1f91ae9ecc62863f00dac2fe3641d46291b1a347ca878ecfac46a84a150a0a8153fc02b5c05ab149841ca828e79cce9681a8f5add
+0b2be6b8e1948bc263285b2908224391fecae15b7974018593b4365b594831686c618e1f150facc404de99209a402eb6920cafc2e3ebdaaff63ab5bf200ad733
+bb60e19c349f123d36a8238a25b72279fecae15b7974018593b4365b594831686c618e1f150facc404de99209a402eb6920cafc2e3ebdaaff63ab5bf200ad733
+5f10e410d9db8f110fc51c08f805a71047c6b1555096167c9288364a4da97c2980a4c8741d1f5fdaa02dc274f495c61f5d74b81843c67f3a0f1bdcc3ae25fae8
+3e6b285bb045e1cbf9e4d9571fff8f29641d46291b1a347ca878ecfac46a84a150a0a8153fc02b5c05ab149841ca828ec54e3944391ea50a88baade650d52031
+8d368a57f3efdf0e0ce01e35d839a4d7733baf6fb00fd83fb388ea6e74665eef41d56c9268346ea6c9119a01503633339fb2df57cc427b30d11c0730b5f4ea11
+85aea1d68f22b6c747c6b1555096167c9288364a4da97c2980a4c8741d1f5fdaa02dc274f495c61f5d74b81843c67f3adc955a9a2f2bedb231d63b73583982f9
+740b36397dacc21ced483728f87a2ff55796855cbdbf2eba8dd3899acf9f161dfadbab14e6068836db8162028d7974654ed2796d1d7bf33c964578a58e28b1a9
+3dabdaf395ce809c47c6b1555096167c9288364a4da97c2980a4c8741d1f5fdaa02dc274f495c61f5d74b81843c67f3adc955a9a2f2bedb231d63b73583982f9
+9f255e0c983588b7457858783d1fa2dc47c6b1555096167c9288364a4da97c2980a4c8741d1f5fdaa02dc274f495c61f5d74b81843c67f3a0f1bdcc3ae25fae8
+011784134afd774cb3dcc9cb9c13e3fe47c6b1555096167c9288364a4da97c2980a4c8741d1f5fdaa02dc274f495c61f5d74b81843c67f3a0f1bdcc3ae25fae8
+1a34004266f7df3947c6b1555096167c9288364a4da97c2980a4c8741d1f5fdaa02dc274f495c61f5d74b81843c67f3adc955a9a2f2bedb231d63b73583982f9
+d5ab29eabbf34915ebf48c7593aae9ae733baf6fb00fd83fb388ea6e74665eef41d56c9268346ea6c9119a01503633339fb2df57cc427b30d11c0730b5f4ea11
+a61c8f68a77ebd2301c7a1de4a5779d65796855cbdbf2eba8dd3899acf9f161dfadbab14e6068836db8162028d7974654ed2796d1d7bf33c964578a58e28b1a9
+$CDNENCFINISH
+.ends IGBT_FS150
+*$
+.MODEL DIODE_FS150 D 
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dce593ed1fbf99d454
+5e3100a87243a85e5daeca54d1af0b84c1e9810d4a41fe2b8e16d925fa77516061609bfe201f81ef7e66d76d8a5e9ffbb5b8abd48e2528c829c6ad2b62d077ed
+7096da668050f2634919dea503b787c35796855cbdbf2eba8dd3899acf9f161dfadbab14e6068836db8162028d7974654ed2796d1d7bf33c964578a58e28b1a9
+865145cacf0e6caaa12002b4c62fbfdec1e9810d4a41fe2b8e16d925fa77516061609bfe201f81ef7e66d76d8a5e9ffbb5b8abd48e2528c829c6ad2b62d077ed
+6076ad775237da9fed696fe2e706f5ef900d35f777da8bce60192c5a6f2397eb4c8aeb1bcd9976e1a29340c3ec5872e0602776acf042f680e38f9717f073fa15
+152332c065eb1e859d43f04d7247920747c6b1555096167c9288364a4da97c2980a4c8741d1f5fdaa02dc274f495c61f5d74b81843c67f3a0f1bdcc3ae25fae8
+523c851eb178979d76617f42cd5d956bfecae15b7974018593b4365b594831686c618e1f150facc404de99209a402eb6920cafc2e3ebdaaff63ab5bf200ad733
+faefef613f59d32947c6b1555096167c9288364a4da97c2980a4c8741d1f5fdaa02dc274f495c61f5d74b81843c67f3adc955a9a2f2bedb231d63b73583982f9
+b9870a188feba0777307109653f62fc747c6b1555096167c9288364a4da97c2980a4c8741d1f5fdaa02dc274f495c61f5d74b81843c67f3a0f1bdcc3ae25fae8
+6b9426429d63b395e847dda77d5f9443fecae15b7974018593b4365b594831686c618e1f150facc404de99209a402eb6920cafc2e3ebdaaff63ab5bf200ad733
+7dea079cc1f0a746a359ef95c45e7ea7641d46291b1a347ca878ecfac46a84a150a0a8153fc02b5c05ab149841ca828ec54e3944391ea50a88baade650d52031
+7288db64713c0834d49d22480efcd87ac1e9810d4a41fe2b8e16d925fa77516061609bfe201f81ef7e66d76d8a5e9ffbb5b8abd48e2528c829c6ad2b62d077ed
+ $CDNENCFINISH
+ *$
+.SUBCKT thermistor_fs150  1 2 
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dce593ed1fbf99d454
+d674c3790d07122b2c15873cb3267486ce5ec34e6f8ad1ca47c6b1555096167c9288364a4da97c2980a4c8741d1f5fdaa02dc274f495c61f88782d9d54219ff6
+445b9e5f5c532d7d6976c207d82ee9011c08b099b549158eeb40c5e73b855a59d79967545f4a9a94f7f632874df34d1e431944f2f23a82003aebe69ff79c7365
+9ccbe6673641f91a641d46291b1a347ca878ecfac46a84a150a0a8153fc02b5c05ab149841ca828ec54e3944391ea50aa980f29363e0950489fd9b38ffa5a29e
+93d3808648446fd72c15873cb326748625e334b0e044fb7200d3e0b087c73744900d35f777da8bce60192c5a6f2397eb4c8aeb1bcd9976e188212777590dc5fc
+$CDNENCFINISH
+.ENDS thermistor_fs150
+*$	
+
+*$
+.SUBCKT FP75R12KT4_B11 B G1 G2 G3 G4 G5 G6 GB L1 L2 L3 N N1 P P1 T1 T2 U V W
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc31717c4c0ade6635
+d8f5a2ccd87b60eed88b84e9c7d39187c0dbe3a8648cb86ce6605d566c642905a62d743fd01c300408a8ffd10cdf806c28b34cf238fa748bccce9d4c6709eef7
+8cdbaebb3eef1d98cac6ecc3ce510cfc1db0c5676c18a15b29e60b74a28a1c86b7db2deaa436df6b644126c9831a96bd3b4ad14fb184fe800560adf72ca0472f
+0d5aef5328a6b0bc189aee9ce8d77d0ac0dbe3a8648cb86cb1d3113e1ab39154644126c9831a96bd3b4ad14fb184fe80b83db1a344bf70d367da601eec2d4bb9
+5553460392cd8078ef61244c06d608bfbc5f9dc19f503fd738bddb280801d2b156accfc02a545fbe4481f81f784158a55c6429c94a7b3821df91e21cef823cf7
+7b300a002f2d8dddfdfcbda72addac85b96076e03924ea8cb1d3113e1ab39154644126c9831a96bd3b4ad14fb184fe80b83db1a344bf70d367da601eec2d4bb9
+59e902b81ad4b046ace2f35a28cd5df81f3aff65143d897738bddb280801d2b156accfc02a545fbe4481f81f784158a55c6429c94a7b3821df91e21cef823cf7
+2a3fd364408caf24fdfcbda72addac858d3eb47333eac1e7b1d3113e1ab39154644126c9831a96bd3b4ad14fb184fe80b83db1a344bf70d367da601eec2d4bb9
+ab44aa66a7b4a87cf118be5deaf976d735791ba90e160cbc449f6be29fbaa3f62835387c88d355ade5249bf448dad1a6dd5c38da01ccc1081e812e8a8658ea3c
+08b6421bd26afc46bf9947f789c14c3d182c6f3b132d9b31449f6be29fbaa3f62835387c88d355ade5249bf448dad1a6dd5c38da01ccc1081e812e8a8658ea3c
+d4018c40325799d7fdfcbda72addac85f295f6c4da8f1af9b1d3113e1ab39154644126c9831a96bd3b4ad14fb184fe80b83db1a344bf70d367da601eec2d4bb9
+4b40aa8e9f9c81fdef61244c06d608bfd7b88d08ed46c2be38bddb280801d2b156accfc02a545fbe4481f81f784158a55c6429c94a7b3821df91e21cef823cf7
+340902c1590d224695cec3bf7e790cc2c0dbe3a8648cb86cb1d3113e1ab39154644126c9831a96bd3b4ad14fb184fe80b83db1a344bf70d367da601eec2d4bb9
+1997cb86177352349ce0e91a6c4ba0ffdb21bd457e4d6b17449f6be29fbaa3f62835387c88d355ade5249bf448dad1a6dd5c38da01ccc1081e812e8a8658ea3c
+40f3b440572f0f39536763dcf5df5810c0dbe3a8648cb86cb1d3113e1ab39154644126c9831a96bd3b4ad14fb184fe80b83db1a344bf70d367da601eec2d4bb9
+8cf3ca94e06fc6951e4b0dfeff0c92b4196642f62ecef570490ee2ae773ad8e162495f7ac985fc0fb95a17f00a9f0cc2890abc406df1696c327373d53d180cc5
+4e9ac5b43b1b288cbeeddcbe7287938773d0078f460300a9e6622ed3e7983427cdeaf80223965b9f08a8ffd10cdf806c28b34cf238fa748bccce9d4c6709eef7
+c778737e73fed5967915586b1e4a7e7c73d0078f460300a9e6622ed3e7983427cdeaf80223965b9f08a8ffd10cdf806c28b34cf238fa748bccce9d4c6709eef7
+55ae7537a7b55bd1b84c29387ba2c3f37fbeb6ff29dc9693e6622ed3e7983427cdeaf80223965b9f08a8ffd10cdf806c28b34cf238fa748bccce9d4c6709eef7
+96052d1403ece34cb84c29387ba2c3f361dfdca80dd44e15e6622ed3e7983427cdeaf80223965b9f08a8ffd10cdf806c28b34cf238fa748bccce9d4c6709eef7
+6154c6ee0be57755b84c29387ba2c3f3450f78b853a74988e6622ed3e7983427cdeaf80223965b9f08a8ffd10cdf806c28b34cf238fa748bccce9d4c6709eef7
+f0141b5f35912e4251ec52465fb21d0348dca7bfab1305b4939405c76205163d614321273f5a9675b95a17f00a9f0cc2890abc406df1696c327373d53d180cc5
+$CDNENCFINISH
+.ENDS FP75R12KT4_B11
+*$
+.model DIODE_FP75_RECT d 
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc31717c4c0ade6635
+0db00cb7f6ee6630384295252d452d5214de0799b424c4e44a0f352da15577a768b31c47e89c4c1bb6ea5ad6b71a2d33b71c00d1ce0a6ada7de09468ae282785
+7276aebc1fda0517cbf8e17197b045d6b95a17f00a9f0cc2890abc406df1696cc810d16965dd6b25dab79af3a06f3f59dd45d102fc89e17d2cbd27efcae861a3
+865145cacf0e6caadd66a270b3fc338914de0799b424c4e44a0f352da15577a768b31c47e89c4c1bb6ea5ad6b71a2d33b71c00d1ce0a6ada7de09468ae282785
+14aaebb3f96a91b670a35bdc24a643f48b7f01cd358cd91e367ab2fb3bb22c3cd48b965d25860410f9116e07fbd9c04458c109f5c7ae199f2bd38b466b83aa7f
+152332c065eb1e859d43f04d72479207e5249bf448dad1a6dd5c38da01ccc108e1aa275f8c38cf6d13f5ca20ba7e20af76ab7646ccb5a6e31e29332951c7574a
+523c851eb178979d76617f42cd5d956b3b4ad14fb184fe80b83db1a344bf70d3ba51cd66637aaf6f4823c1157e57f04ecc8140f7a50c716a7245df4a07c74efd
+faefef613f59d329e5249bf448dad1a6dd5c38da01ccc108e1aa275f8c38cf6d13f5ca20ba7e20af76ab7646ccb5a6e3e99458f6639c2ea5401b8e19070f9520
+b9870a188feba0777307109653f62fc7e5249bf448dad1a6dd5c38da01ccc108e1aa275f8c38cf6d13f5ca20ba7e20af76ab7646ccb5a6e31e29332951c7574a
+c6d33c2f369f4bce57c4af9864f4809644fcae63379a93439bb192efc5f2ad89d5e6751d58a94bf49e1aafab4084f51aff67dc5bcfab7fe53fdc1feeedc4e31f
+7dea079cc1f0a746a359ef95c45e7ea74481f81f784158a55c6429c94a7b3821951f2cfe91e86ca8a7c8b48f8443206b31ce56d0aa16de2e56099432c62a8d23
+7288db64713c0834d49d22480efcd87a14de0799b424c4e44a0f352da15577a768b31c47e89c4c1bb6ea5ad6b71a2d33b71c00d1ce0a6ada7de09468ae282785
+$CDNENCFINISH
+*$
+.SUBCKT IGBT_FP75_INV C G E 
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc31717c4c0ade6635
+29c7aed2ccb01d696897180ce7df26cc4481f81f784158a55c6429c94a7b3821951f2cfe91e86ca8a7c8b48f8443206b31ce56d0aa16de2e56099432c62a8d23
+78da4350ae722f2abde41ce8376bf8a91379f9f902e7e25144fcae63379a93439bb192efc5f2ad89d5e6751d58a94bf49e1aafab4084f51ac727a76ed44d7e86
+af84a12e2467477e393b8ec1f91ae9ecc62863f00dac2fe34481f81f784158a55c6429c94a7b3821951f2cfe91e86ca8a7c8b48f8443206b6afe4cbfac632395
+fa8401ebe9768cfd63285b29082243913b4ad14fb184fe80b83db1a344bf70d3ba51cd66637aaf6f4823c1157e57f04ecc8140f7a50c716a7245df4a07c74efd
+3eb6ba95a4da3c5ae5249bf448dad1a6dd5c38da01ccc108e1aa275f8c38cf6d13f5ca20ba7e20af76ab7646ccb5a6e3e99458f6639c2ea5401b8e19070f9520
+5f10e410d9db8f1120071b24534ec472e5249bf448dad1a6dd5c38da01ccc108e1aa275f8c38cf6d13f5ca20ba7e20af76ab7646ccb5a6e31e29332951c7574a
+3e6b285bb045e1cbf9e4d9571fff8f294481f81f784158a55c6429c94a7b3821951f2cfe91e86ca8a7c8b48f8443206b31ce56d0aa16de2e56099432c62a8d23
+4322172c84e9af450275c71600b2964444fcae63379a93439bb192efc5f2ad89d5e6751d58a94bf49e1aafab4084f51aff67dc5bcfab7fe53fdc1feeedc4e31f
+85aea1d68f22b6c7e5249bf448dad1a6dd5c38da01ccc108e1aa275f8c38cf6d13f5ca20ba7e20af76ab7646ccb5a6e3e99458f6639c2ea5401b8e19070f9520
+16d74a6e31f29120ed483728f87a2ff5b95a17f00a9f0cc2890abc406df1696cc810d16965dd6b25dab79af3a06f3f59dd45d102fc89e17d2cbd27efcae861a3
+ba4d5469ecb65bb9e5249bf448dad1a6dd5c38da01ccc108e1aa275f8c38cf6d13f5ca20ba7e20af76ab7646ccb5a6e3e99458f6639c2ea5401b8e19070f9520
+518855dc07146ef5deecc39311d2c7224481f81f784158a55c6429c94a7b3821951f2cfe91e86ca8a7c8b48f8443206b31ce56d0aa16de2e56099432c62a8d23
+a83c34507238560aaa7db0b33ded4c31e5249bf448dad1a6dd5c38da01ccc108e1aa275f8c38cf6d13f5ca20ba7e20af76ab7646ccb5a6e31e29332951c7574a
+1a34004266f7df39e5249bf448dad1a6dd5c38da01ccc108e1aa275f8c38cf6d13f5ca20ba7e20af76ab7646ccb5a6e3e99458f6639c2ea5401b8e19070f9520
+63d8469c6882409518480a009db3d47e8b7f01cd358cd91e367ab2fb3bb22c3cd48b965d25860410f9116e07fbd9c04458c109f5c7ae199f2bd38b466b83aa7f
+2e5247763a7b7bf136a8238a25b722793b4ad14fb184fe80b83db1a344bf70d3ba51cd66637aaf6f4823c1157e57f04ecc8140f7a50c716a7245df4a07c74efd
+$CDNENCFINISH
+.ends IGBT_FP75_INV
+*$
+.MODEL DIODE_FP75_INV D 
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc31717c4c0ade6635
+f9215b104a01071bdddbe2bf22461e4b14de0799b424c4e44a0f352da15577a768b31c47e89c4c1bb6ea5ad6b71a2d33b71c00d1ce0a6ada7de09468ae282785
+203496a21b3cbe05a6b5fbf4542e095ab95a17f00a9f0cc2890abc406df1696cc810d16965dd6b25dab79af3a06f3f59dd45d102fc89e17d2cbd27efcae861a3
+af4297748e32d361f19c76cab88961fc14de0799b424c4e44a0f352da15577a768b31c47e89c4c1bb6ea5ad6b71a2d33b71c00d1ce0a6ada7de09468ae282785
+6e6058dfd9645b466a644e9a1f48ea478b7f01cd358cd91e367ab2fb3bb22c3cd48b965d25860410f9116e07fbd9c04458c109f5c7ae199f2bd38b466b83aa7f
+152332c065eb1e859d43f04d72479207e5249bf448dad1a6dd5c38da01ccc108e1aa275f8c38cf6d13f5ca20ba7e20af76ab7646ccb5a6e31e29332951c7574a
+523c851eb178979d76617f42cd5d956b3b4ad14fb184fe80b83db1a344bf70d3ba51cd66637aaf6f4823c1157e57f04ecc8140f7a50c716a7245df4a07c74efd
+faefef613f59d329e5249bf448dad1a6dd5c38da01ccc108e1aa275f8c38cf6d13f5ca20ba7e20af76ab7646ccb5a6e3e99458f6639c2ea5401b8e19070f9520
+b9870a188feba0777307109653f62fc7e5249bf448dad1a6dd5c38da01ccc108e1aa275f8c38cf6d13f5ca20ba7e20af76ab7646ccb5a6e31e29332951c7574a
+1f1928f152c7d7da57c4af9864f4809644fcae63379a93439bb192efc5f2ad89d5e6751d58a94bf49e1aafab4084f51aff67dc5bcfab7fe53fdc1feeedc4e31f
+7dea079cc1f0a746a359ef95c45e7ea74481f81f784158a55c6429c94a7b3821951f2cfe91e86ca8a7c8b48f8443206b31ce56d0aa16de2e56099432c62a8d23
+7288db64713c0834d49d22480efcd87a14de0799b424c4e44a0f352da15577a768b31c47e89c4c1bb6ea5ad6b71a2d33b71c00d1ce0a6ada7de09468ae282785
+$CDNENCFINISH
+*$
+.SUBCKT IGBT_FP75_BRAKE C G E 
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc31717c4c0ade6635
+29c7aed2ccb01d6945ccb71de4abe82c14de0799b424c4e44a0f352da15577a768b31c47e89c4c1bb6ea5ad6b71a2d33b71c00d1ce0a6ada7de09468ae282785
+78da4350ae722f2abde41ce8376bf8a91379f9f902e7e25144fcae63379a93439bb192efc5f2ad89d5e6751d58a94bf49e1aafab4084f51ac727a76ed44d7e86
+af84a12e2467477e393b8ec1f91ae9ecc62863f00dac2fe34481f81f784158a55c6429c94a7b3821951f2cfe91e86ca8a7c8b48f8443206b6afe4cbfac632395
+c4adacab3cd2477e63285b29082243913b4ad14fb184fe80b83db1a344bf70d3ba51cd66637aaf6f4823c1157e57f04ecc8140f7a50c716a7245df4a07c74efd
+3eb6ba95a4da3c5ae5249bf448dad1a6dd5c38da01ccc108e1aa275f8c38cf6d13f5ca20ba7e20af76ab7646ccb5a6e3e99458f6639c2ea5401b8e19070f9520
+5f10e410d9db8f1120071b24534ec472e5249bf448dad1a6dd5c38da01ccc108e1aa275f8c38cf6d13f5ca20ba7e20af76ab7646ccb5a6e31e29332951c7574a
+3e6b285bb045e1cbf9e4d9571fff8f294481f81f784158a55c6429c94a7b3821951f2cfe91e86ca8a7c8b48f8443206b31ce56d0aa16de2e56099432c62a8d23
+e903d58e62f9e87d0275c71600b2964444fcae63379a93439bb192efc5f2ad89d5e6751d58a94bf49e1aafab4084f51aff67dc5bcfab7fe53fdc1feeedc4e31f
+85aea1d68f22b6c7e5249bf448dad1a6dd5c38da01ccc108e1aa275f8c38cf6d13f5ca20ba7e20af76ab7646ccb5a6e3e99458f6639c2ea5401b8e19070f9520
+7bf3aafd402a1b0ded483728f87a2ff5b95a17f00a9f0cc2890abc406df1696cc810d16965dd6b25dab79af3a06f3f59dd45d102fc89e17d2cbd27efcae861a3
+349da4a7688970fdaad0cae5ebf3019a3b4ad14fb184fe80b83db1a344bf70d3ba51cd66637aaf6f4823c1157e57f04ecc8140f7a50c716a7245df4a07c74efd
+518855dc07146ef5856c67421ff3c7834481f81f784158a55c6429c94a7b3821951f2cfe91e86ca8a7c8b48f8443206b31ce56d0aa16de2e56099432c62a8d23
+011784134afd774c4033a13f8afa8d87e5249bf448dad1a6dd5c38da01ccc108e1aa275f8c38cf6d13f5ca20ba7e20af76ab7646ccb5a6e31e29332951c7574a
+1a34004266f7df39e5249bf448dad1a6dd5c38da01ccc108e1aa275f8c38cf6d13f5ca20ba7e20af76ab7646ccb5a6e3e99458f6639c2ea5401b8e19070f9520
+3b14524b2dc13672ebf48c7593aae9ae08a8ffd10cdf806c28b34cf238fa748b68a9190702bb758338844eff9de97e17fa3b55407fc9c4f6809505610d8e275e
+2e5247763a7b7bf1614321273f5a9675b95a17f00a9f0cc2890abc406df1696cc810d16965dd6b25dab79af3a06f3f59dd45d102fc89e17d2cbd27efcae861a3
+$CDNENCFINISH
+.ends IGBT_FP75_BRAKE
+*$
+.MODEL DIODE_FP75_BRAKE D 
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc31717c4c0ade6635
+acc7c50e36ee04c16812fceca17088be14de0799b424c4e44a0f352da15577a768b31c47e89c4c1bb6ea5ad6b71a2d33b71c00d1ce0a6ada7de09468ae282785
+374a0aa1144d2c5dfac56348480e40feb95a17f00a9f0cc2890abc406df1696cc810d16965dd6b25dab79af3a06f3f59dd45d102fc89e17d2cbd27efcae861a3
+0af8d47426c72ae88e1b71cefcfe079214de0799b424c4e44a0f352da15577a768b31c47e89c4c1bb6ea5ad6b71a2d33b71c00d1ce0a6ada7de09468ae282785
+fae73e08376f69a4d74c0251672e1aaf8b7f01cd358cd91e367ab2fb3bb22c3cd48b965d25860410f9116e07fbd9c04458c109f5c7ae199f2bd38b466b83aa7f
+152332c065eb1e859d43f04d72479207e5249bf448dad1a6dd5c38da01ccc108e1aa275f8c38cf6d13f5ca20ba7e20af76ab7646ccb5a6e31e29332951c7574a
+523c851eb178979d76617f42cd5d956b3b4ad14fb184fe80b83db1a344bf70d3ba51cd66637aaf6f4823c1157e57f04ecc8140f7a50c716a7245df4a07c74efd
+faefef613f59d329e5249bf448dad1a6dd5c38da01ccc108e1aa275f8c38cf6d13f5ca20ba7e20af76ab7646ccb5a6e3e99458f6639c2ea5401b8e19070f9520
+b9870a188feba0777307109653f62fc7e5249bf448dad1a6dd5c38da01ccc108e1aa275f8c38cf6d13f5ca20ba7e20af76ab7646ccb5a6e31e29332951c7574a
+1f1928f152c7d7da57c4af9864f4809644fcae63379a93439bb192efc5f2ad89d5e6751d58a94bf49e1aafab4084f51aff67dc5bcfab7fe53fdc1feeedc4e31f
+7dea079cc1f0a746a359ef95c45e7ea74481f81f784158a55c6429c94a7b3821951f2cfe91e86ca8a7c8b48f8443206b31ce56d0aa16de2e56099432c62a8d23
+7288db64713c0834d49d22480efcd87a14de0799b424c4e44a0f352da15577a768b31c47e89c4c1bb6ea5ad6b71a2d33b71c00d1ce0a6ada7de09468ae282785
+$CDNENCFINISH
+*$
+.SUBCKT thermistor_fp75  1 2 
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc31717c4c0ade6635
+d674c3790d07122b2c15873cb3267486ce5ec34e6f8ad1cae5249bf448dad1a6dd5c38da01ccc108e1aa275f8c38cf6d13f5ca20ba7e20aff75b8241c276844c
+445b9e5f5c532d7d6976c207d82ee9011c08b099b549158eeb40c5e73b855a59d79967545f4a9a94f7f632874df34d1e431944f2f23a82003aebe69ff79c7365
+9ccbe6673641f91a4481f81f784158a55c6429c94a7b3821951f2cfe91e86ca8a7c8b48f8443206b31ce56d0aa16de2ea1a4f10b9c7b470dd84fff90ad58e111
+93d3808648446fd72c15873cb326748625e334b0e044fb7200d3e0b087c737448b7f01cd358cd91e367ab2fb3bb22c3cd48b965d258604107c2a44fe37944155
+$CDNENCFINISH
+.ENDS thermistor_fp75
+*$
+
+
+
+*$
+.SUBCKT thermistor_fp25  1 2 
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc8552f8005626d6e7
+d674c3790d07122b2c15873cb3267486ce5ec34e6f8ad1caf562e78474a3386051f8581b87c3a029b160b4a95d01c29ae97b78d33f6a5e93bc1ad1de8646f3b9
+445b9e5f5c532d7d6976c207d82ee9011c08b099b549158eeb40c5e73b855a59d79967545f4a9a94f7f632874df34d1e431944f2f23a82003aebe69ff79c7365
+9ccbe6673641f91a992fe313dabbda7223f4afe40eda21f69cc2a5f11c85487a6dbc288e0f86948840e99b8af7bf8828e63311aaa5026b4df97493d7b9394a85
+93d3808648446fd72c15873cb326748625e334b0e044fb7200d3e0b087c737441c83a58d626226cb324d63d7f97f878c5f95631ec36046564560f4f4673f1500
+$CDNENCFINISH
+.ENDS thermistor_fp25
+*$
+.SUBCKT FP25R12W2T4_B11 B EU EV EW G1 G2 G3 G4 G5 G6 GB L1 L2 L3 N NB P P1 U V W T1 T2
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc8552f8005626d6e7
+55ae7537a7b55bd1b84c29387ba2c3f37fbeb6ff29dc9693a81fbe481fbabbeb868d09b62669594399826a27253c85735060ef7aad1be34b0384476fac047265
+8eb5ee5e24aac10ebf9947f789c14c3db01c860eef4c6ba0e05dd16d1d0ee94f5cec6adc134a2a82a57ffdb388b1be544df41f2717e4ff935e0050dd3a0aad18
+7b300a002f2d8ddd8b22acc33acbac8cb96076e03924ea8cc781cc0518220b731c83a58d626226cb324d63d7f97f878c5f95631ec36046564560f4f4673f1500
+ce2f34f029e74bf2ace2f35a28cd5df80eeaaebef35ac95c50b9a8122316fe3fbf1ee911780421dd00eba7a98de9c78077eec2a00229ffbf01abeca16591f3db
+340902c1590d224695cec3bf7e790cc2c0dbe3a8648cb86cc781cc0518220b731c83a58d626226cb324d63d7f97f878c5f95631ec36046564560f4f4673f1500
+c11d835288fbca13ef61244c06d608bfd7b88d08ed46c2be50b9a8122316fe3fbf1ee911780421dd00eba7a98de9c78077eec2a00229ffbf01abeca16591f3db
+04aafd537b2769b9cac6ecc3ce510cfc9446efe6b20743346560a3b51937af2900d0dc87be4874b91c83a58d626226cb324d63d7f97f878c762cb6ec83c4b2d4
+c778737e73fed5967915586b1e4a7e7c73d0078f460300a9a81fbe481fbabbeb868d09b62669594399826a27253c85735060ef7aad1be34b0384476fac047265
+4e9ac5b43b1b288cbeeddcbe7287938773d0078f460300a9a81fbe481fbabbeb868d09b62669594399826a27253c85735060ef7aad1be34b0384476fac047265
+2a3fd364408caf2498279702e2f49c7b8d3eb47333eac1e7c781cc0518220b731c83a58d626226cb324d63d7f97f878c5f95631ec36046564560f4f4673f1500
+8cf3ca94e06fc6951e4b0dfeff0c92b4196642f62ecef57070741c41c09bb935baac8cf7c45dca8fb87986e9bad6d13169a3334a3f79138afa61a64e511de73d
+24182d1488fd8423f118be5deaf976d716ea6acd402045f9e05dd16d1d0ee94f5cec6adc134a2a82a57ffdb388b1be544df41f2717e4ff935e0050dd3a0aad18
+40f3b440572f0f39536763dcf5df5810c0dbe3a8648cb86cc781cc0518220b731c83a58d626226cb324d63d7f97f878c5f95631ec36046564560f4f4673f1500
+de9f714703a432a99ce0e91a6c4ba0ffdb21bd457e4d6b17e05dd16d1d0ee94f5cec6adc134a2a82a57ffdb388b1be544df41f2717e4ff935e0050dd3a0aad18
+d8f5a2ccd87b60eed88b84e9c7d39187c0dbe3a8648cb86c9dcb6087ca0f8dc7868d09b62669594399826a27253c85735060ef7aad1be34b0384476fac047265
+0d5aef5328a6b0bc189aee9ce8d77d0ac0dbe3a8648cb86cc781cc0518220b731c83a58d626226cb324d63d7f97f878c5f95631ec36046564560f4f4673f1500
+6154c6ee0be57755b84c29387ba2c3f3450f78b853a74988a81fbe481fbabbeb868d09b62669594399826a27253c85735060ef7aad1be34b0384476fac047265
+96052d1403ece34cb84c29387ba2c3f361dfdca80dd44e15a81fbe481fbabbeb868d09b62669594399826a27253c85735060ef7aad1be34b0384476fac047265
+d297e83e050e9e27ef61244c06d608bfbc5f9dc19f503fd750b9a8122316fe3fbf1ee911780421dd00eba7a98de9c78077eec2a00229ffbf01abeca16591f3db
+d4018c40325799d79911cd30694a6387f295f6c4da8f1af9c781cc0518220b731c83a58d626226cb324d63d7f97f878c5f95631ec36046564560f4f4673f1500
+f0141b5f35912e4251ec52465fb21d0348dca7bfab1305b4939405c76205163dbdb67d2c333b35ee00eba7a98de9c78077eec2a00229ffbf01abeca16591f3db
+$CDNENCFINISH
+.ENDS FP25R12W2T4_B11
+*$
+.model DIODE_RECT d 
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc8552f8005626d6e7
+f7a854a98d732f8b6295278a1f1b0378a57ffdb388b1be544df41f2717e4ff93041a0a47b682331189ae976629b9bdf049a4fb04f4e78553e0685104b0f75382
+c1e2e817cbd093b36710947d322eaeb7a57ffdb388b1be544df41f2717e4ff93041a0a47b682331189ae976629b9bdf049a4fb04f4e78553e0685104b0f75382
+0660a0f5c4a1d53682afbb5e30ea4ecf868d09b62669594399826a27253c85735060ef7aad1be34b91fcd24321834f145875578b42ce98f649dc3dede0a374af
+786e338538942fe6453ecbced459384f1c83a58d626226cb324d63d7f97f878c5f95631ec36046562ae8d30289a4cd8917f4a2324e0bd3f4119e375b133caeda
+a953893d7b588d35cd1da7aa8a8ba9341c83a58d626226cb324d63d7f97f878c5f95631ec36046562ae8d30289a4cd8917f4a2324e0bd3f4119e375b133caeda
+efdd9d723fbae3e4cec80ff1832ab93700eba7a98de9c78077eec2a00229ffbfd1b95bcdb2b8e33f5d9a8fb07058c18c266d7c2f40fd10d9df37dacb97226e05
+58002823f5e04d83aad0cae5ebf3019a23fb418ca7c68eed4b3c2d69b58ae7637701da435f3ae49694a4128f2fd61d3ee6229431ced139b61422417ccf7ec20b
+21956c33d023e11ec074e6177fec14cb1c83a58d626226cb324d63d7f97f878c5f95631ec36046562ae8d30289a4cd8917f4a2324e0bd3f4119e375b133caeda
+833a04bc7b6682abe847dda77d5f944323fb418ca7c68eed4b3c2d69b58ae7637701da435f3ae49694a4128f2fd61d3ee6229431ced139b61422417ccf7ec20b
+69b4c3fdabd3378fce2dcf38218f50e6a57ffdb388b1be544df41f2717e4ff93041a0a47b682331189ae976629b9bdf049a4fb04f4e78553e0685104b0f75382
+f808569e0ee143466fec69fc3023c26aa57ffdb388b1be544df41f2717e4ff93041a0a47b682331189ae976629b9bdf049a4fb04f4e78553e0685104b0f75382
+$CDNENCFINISH
+*$
+.MODEL IGBT_inv NIGBT 
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc8552f8005626d6e7
+25f9f36f473f3123d92b7ec01c3f5079992fe313dabbda7223f4afe40eda21f69cc2a5f11c85487a6dbc288e0f86948840e99b8af7bf8828264e38039a4d1a6f
+53cd56980427b9bac03988a60374242ca57ffdb388b1be544df41f2717e4ff93041a0a47b682331189ae976629b9bdf049a4fb04f4e78553e0685104b0f75382
+b3ec352e29e0b907d36a9277a5437cfff562e78474a3386051f8581b87c3a029b160b4a95d01c29ae97b78d33f6a5e9387e7d69d2558721d3c561be87aba447f
+169fb3ed8ff2482af9e4d9571fff8f29992fe313dabbda7223f4afe40eda21f69cc2a5f11c85487a6dbc288e0f86948840e99b8af7bf8828264e38039a4d1a6f
+b1ba25cc43303bb40275c71600b29644baac8cf7c45dca8fb87986e9bad6d13169a3334a3f79138adc10c7733f7963298a92a06d19a1fa872ca04305f131ae20
+85aea1d68f22b6c7f562e78474a3386051f8581b87c3a029b160b4a95d01c29ae97b78d33f6a5e9387e7d69d2558721d1a79a97679f0fe60bad4edba745dc76e
+3b6aeecc25e607eff562e78474a3386051f8581b87c3a029b160b4a95d01c29ae97b78d33f6a5e9387e7d69d2558721d1a79a97679f0fe60bad4edba745dc76e
+6c2981ad14b74f813a89b147ff7cefe2868d09b62669594399826a27253c85735060ef7aad1be34b91fcd24321834f145875578b42ce98f649dc3dede0a374af
+70c56810215292f582c33d2a39f07db4ef41eb54ccb1d94000eba7a98de9c78077eec2a00229ffbfd1b95bcdb2b8e33f5d9a8fb07058c18c070b717677e62b0e
+1a34004266f7df39f562e78474a3386051f8581b87c3a029b160b4a95d01c29ae97b78d33f6a5e9387e7d69d2558721d1a79a97679f0fe60bad4edba745dc76e
+e9cfefe91908f1c9ebf48c7593aae9aea57ffdb388b1be544df41f2717e4ff93041a0a47b682331189ae976629b9bdf049a4fb04f4e78553e0685104b0f75382
+a61c8f68a77ebd2384c2c9e7af7b766400eba7a98de9c78077eec2a00229ffbfd1b95bcdb2b8e33f5d9a8fb07058c18c266d7c2f40fd10d9df37dacb97226e05
+0290df753a1c093537d494f5b9387f84a57ffdb388b1be544df41f2717e4ff93041a0a47b682331189ae976629b9bdf049a4fb04f4e78553e0685104b0f75382
+32d76f6d362608e6f562e78474a3386051f8581b87c3a029b160b4a95d01c29ae97b78d33f6a5e9387e7d69d2558721d1a79a97679f0fe60bad4edba745dc76e
+$CDNENCFINISH
+*$
+.model DIODE_INV d 
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc8552f8005626d6e7
+41fbbb74b178dd75e05fb993dabfce26868d09b62669594399826a27253c85735060ef7aad1be34b91fcd24321834f145875578b42ce98f649dc3dede0a374af
+4ee1d1c7d254a672aad0cae5ebf3019a23fb418ca7c68eed4b3c2d69b58ae7637701da435f3ae49694a4128f2fd61d3ee6229431ced139b61422417ccf7ec20b
+0660a0f5c4a1d5363a148db3c28b2ac7baac8cf7c45dca8fb87986e9bad6d13169a3334a3f79138adc10c7733f7963298a92a06d19a1fa872ca04305f131ae20
+b482f9a026f65c28108e528828f8c67023fb418ca7c68eed4b3c2d69b58ae7637701da435f3ae49694a4128f2fd61d3ee6229431ced139b61422417ccf7ec20b
+a953893d7b588d35cd1da7aa8a8ba9341c83a58d626226cb324d63d7f97f878c5f95631ec36046562ae8d30289a4cd8917f4a2324e0bd3f4119e375b133caeda
+efdd9d723fbae3e4cec80ff1832ab93700eba7a98de9c78077eec2a00229ffbfd1b95bcdb2b8e33f5d9a8fb07058c18c266d7c2f40fd10d9df37dacb97226e05
+58002823f5e04d83aad0cae5ebf3019a23fb418ca7c68eed4b3c2d69b58ae7637701da435f3ae49694a4128f2fd61d3ee6229431ced139b61422417ccf7ec20b
+21956c33d023e11ec074e6177fec14cb1c83a58d626226cb324d63d7f97f878c5f95631ec36046562ae8d30289a4cd8917f4a2324e0bd3f4119e375b133caeda
+3a4179682d7da499e847dda77d5f944323fb418ca7c68eed4b3c2d69b58ae7637701da435f3ae49694a4128f2fd61d3ee6229431ced139b61422417ccf7ec20b
+69b4c3fdabd3378fa206f16987d62c751c83a58d626226cb324d63d7f97f878c5f95631ec36046562ae8d30289a4cd8917f4a2324e0bd3f4119e375b133caeda
+f808569e0ee143466fec69fc3023c26aa57ffdb388b1be544df41f2717e4ff93041a0a47b682331189ae976629b9bdf049a4fb04f4e78553e0685104b0f75382
+$CDNENCFINISH
+*$
+.MODEL IGBT_brake NIGBT 
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc8552f8005626d6e7
+25f9f36f473f3123d92b7ec01c3f5079992fe313dabbda7223f4afe40eda21f69cc2a5f11c85487a6dbc288e0f86948840e99b8af7bf8828264e38039a4d1a6f
+53cd56980427b9bac03988a60374242ca57ffdb388b1be544df41f2717e4ff93041a0a47b682331189ae976629b9bdf049a4fb04f4e78553e0685104b0f75382
+b3ec352e29e0b907d36a9277a5437cfff562e78474a3386051f8581b87c3a029b160b4a95d01c29ae97b78d33f6a5e9387e7d69d2558721d3c561be87aba447f
+169fb3ed8ff2482af9e4d9571fff8f29992fe313dabbda7223f4afe40eda21f69cc2a5f11c85487a6dbc288e0f86948840e99b8af7bf8828264e38039a4d1a6f
+b1ba25cc43303bb40275c71600b29644baac8cf7c45dca8fb87986e9bad6d13169a3334a3f79138adc10c7733f7963298a92a06d19a1fa872ca04305f131ae20
+85aea1d68f22b6c7f562e78474a3386051f8581b87c3a029b160b4a95d01c29ae97b78d33f6a5e9387e7d69d2558721d1a79a97679f0fe60bad4edba745dc76e
+3b6aeecc25e607eff562e78474a3386051f8581b87c3a029b160b4a95d01c29ae97b78d33f6a5e9387e7d69d2558721d1a79a97679f0fe60bad4edba745dc76e
+6c2981ad14b74f81f58d2f883481a195868d09b62669594399826a27253c85735060ef7aad1be34b91fcd24321834f145875578b42ce98f649dc3dede0a374af
+13ae200bcdaaf9cb3b768cc4b16bd6c1ef41eb54ccb1d94000eba7a98de9c78077eec2a00229ffbfd1b95bcdb2b8e33f5d9a8fb07058c18c070b717677e62b0e
+1a34004266f7df39f562e78474a3386051f8581b87c3a029b160b4a95d01c29ae97b78d33f6a5e9387e7d69d2558721d1a79a97679f0fe60bad4edba745dc76e
+e9cfefe91908f1c9ebf48c7593aae9aea57ffdb388b1be544df41f2717e4ff93041a0a47b682331189ae976629b9bdf049a4fb04f4e78553e0685104b0f75382
+a61c8f68a77ebd2384c2c9e7af7b766400eba7a98de9c78077eec2a00229ffbfd1b95bcdb2b8e33f5d9a8fb07058c18c266d7c2f40fd10d9df37dacb97226e05
+0290df753a1c093537d494f5b9387f84a57ffdb388b1be544df41f2717e4ff93041a0a47b682331189ae976629b9bdf049a4fb04f4e78553e0685104b0f75382
+32d76f6d362608e6f562e78474a3386051f8581b87c3a029b160b4a95d01c29ae97b78d33f6a5e9387e7d69d2558721d1a79a97679f0fe60bad4edba745dc76e
+$CDNENCFINISH
+*$
+.model DIODE_BRAKE d 
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc8552f8005626d6e7
+41fbbb74b178dd75fe61dced2175c5721c83a58d626226cb324d63d7f97f878c5f95631ec36046562ae8d30289a4cd8917f4a2324e0bd3f4119e375b133caeda
+4ee1d1c7d254a672aad0cae5ebf3019a23fb418ca7c68eed4b3c2d69b58ae7637701da435f3ae49694a4128f2fd61d3ee6229431ced139b61422417ccf7ec20b
+0660a0f5c4a1d536f90f4403454dd195baac8cf7c45dca8fb87986e9bad6d13169a3334a3f79138adc10c7733f7963298a92a06d19a1fa872ca04305f131ae20
+b482f9a026f65c28108e528828f8c67023fb418ca7c68eed4b3c2d69b58ae7637701da435f3ae49694a4128f2fd61d3ee6229431ced139b61422417ccf7ec20b
+a953893d7b588d35cd1da7aa8a8ba9341c83a58d626226cb324d63d7f97f878c5f95631ec36046562ae8d30289a4cd8917f4a2324e0bd3f4119e375b133caeda
+efdd9d723fbae3e4cec80ff1832ab93700eba7a98de9c78077eec2a00229ffbfd1b95bcdb2b8e33f5d9a8fb07058c18c266d7c2f40fd10d9df37dacb97226e05
+58002823f5e04d83aad0cae5ebf3019a23fb418ca7c68eed4b3c2d69b58ae7637701da435f3ae49694a4128f2fd61d3ee6229431ced139b61422417ccf7ec20b
+21956c33d023e11ec074e6177fec14cb1c83a58d626226cb324d63d7f97f878c5f95631ec36046562ae8d30289a4cd8917f4a2324e0bd3f4119e375b133caeda
+3a4179682d7da499e847dda77d5f944323fb418ca7c68eed4b3c2d69b58ae7637701da435f3ae49694a4128f2fd61d3ee6229431ced139b61422417ccf7ec20b
+69b4c3fdabd3378fa206f16987d62c751c83a58d626226cb324d63d7f97f878c5f95631ec36046562ae8d30289a4cd8917f4a2324e0bd3f4119e375b133caeda
+f808569e0ee143466fec69fc3023c26aa57ffdb388b1be544df41f2717e4ff93041a0a47b682331189ae976629b9bdf049a4fb04f4e78553e0685104b0f75382
+$CDNENCFINISH
+*$
+
+
+
+ *$
+.SUBCKT FF300R12ME4_B11 G1 G2 N1 P1 T1 T2 U 
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc9c70e24bca344cfc
+08b6421bd26afc46bf9947f789c14c3d182c6f3b132d9b31e32017aa367e3ab576aaffd27759e1ea62774a6d6d04cfe040c07427437fd0d9e0be23afeef7fe80
+f0141b5f35912e4251ec52465fb21d0348dca7bfab1305b4228cd45dd2e6089c4d2d6d835d857c4be62b32842ec73aef3ccda3727811ab627de01c989d2f1ff1
+40f3b440572f0f39536763dcf5df5810c0dbe3a8648cb86cfa30bcd7a42ba35650db8b8d83d7ec85ff3e41fd39bafc600025e31f14df446f1c01b0357b32e201
+1997cb86177352349ce0e91a6c4ba0ffdb21bd457e4d6b17e32017aa367e3ab576aaffd27759e1ea62774a6d6d04cfe040c07427437fd0d9e0be23afeef7fe80
+d4018c40325799d7fdfcbda72addac85f295f6c4da8f1af9fa30bcd7a42ba35650db8b8d83d7ec85ff3e41fd39bafc600025e31f14df446f1c01b0357b32e201
+$CDNENCFINISH
+.ENDS FF300R12ME4_B11
+ *$
+.SUBCKT IGBT_FF300 C G E 
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc9c70e24bca344cfc
+29c7aed2ccb01d6944d6361fa1ef25950024d804c4775bfdf270d5d4018e4da4345f9ab75e33b1b5c82bab10e340a63a9ea7e8b16a7fcdc1e5393ba523a6e488
+78da4350ae722f2abde41ce8376bf8a91379f9f902e7e25162774a6d6d04cfe040c07427437fd0d9cf31da3c77f7aa852c94e412abfd628a024ef913c2cf7387
+af84a12e2467477e393b8ec1f91ae9ecc62863f00dac2fe342234c486c8a8af3dca02e97cab9b50d873c3cc6585c21b6bc372d8c5d5baaa5a2f07bdc0077885e
+5497be4b7492999963285b2908224391428be2ae51680832f2ab04d00c214a51d7e873ceee62fd1333c42d28373e739d178c1612115faa7896be7b4e2f4253e8
+1c11a0230c518f9242234c486c8a8af3dca02e97cab9b50d873c3cc6585c21b6bc372d8c5d5baaa5190e4d7bd682b626a80ab1ba609aec7d52f4c6b8f88a4cf6
+5f10e410d9db8f1120071b24534ec4720024d804c4775bfdf270d5d4018e4da4345f9ab75e33b1b5c82bab10e340a63a9ea7e8b16a7fcdc1e5393ba523a6e488
+3e6b285bb045e1cbf9e4d9571fff8f2942234c486c8a8af3dca02e97cab9b50d873c3cc6585c21b6bc372d8c5d5baaa5190e4d7bd682b62646bb9e51812c8c42
+6c3eb00b6fa28ebb0ce01e35d839a4d7e62b32842ec73aef3ccda3727811ab629664abbbaea889dd2b9ea4a1dae12a35f9c587bfc6706f0797ef6ff372dbc26f
+85aea1d68f22b6c70024d804c4775bfdf270d5d4018e4da4345f9ab75e33b1b5c82bab10e340a63a9ea7e8b16a7fcdc1030c21a00922a512301fcdf71afa1730
+5184c76193f2571eed483728f87a2ff52e38a6e76a3b1f6ddd9181c4fa8acfb063629a8e8c9e6c150c562bda4c878056baf116a6f5c45c568bb67515197bec64
+113e1374266ae6ec0024d804c4775bfdf270d5d4018e4da4345f9ab75e33b1b5c82bab10e340a63a9ea7e8b16a7fcdc1030c21a00922a512301fcdf71afa1730
+5401dd716004d6acd4254b3f5f5204e40024d804c4775bfdf270d5d4018e4da4345f9ab75e33b1b5c82bab10e340a63a9ea7e8b16a7fcdc1e5393ba523a6e488
+011784134afd774c9901fccb200156700024d804c4775bfdf270d5d4018e4da4345f9ab75e33b1b5c82bab10e340a63a9ea7e8b16a7fcdc1e5393ba523a6e488
+1a34004266f7df390024d804c4775bfdf270d5d4018e4da4345f9ab75e33b1b5c82bab10e340a63a9ea7e8b16a7fcdc1030c21a00922a512301fcdf71afa1730
+16d13b15a7323145ebf48c7593aae9aee62b32842ec73aef3ccda3727811ab629664abbbaea889dd2b9ea4a1dae12a35f9c587bfc6706f0797ef6ff372dbc26f
+b67aae5f8a68ee47ae9793e0785737a32e38a6e76a3b1f6ddd9181c4fa8acfb063629a8e8c9e6c150c562bda4c878056baf116a6f5c45c568bb67515197bec64
+$CDNENCFINISH
+.ends IGBT_FF300
+*$
+ .MODEL DIODE_FF300 D 
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc9c70e24bca344cfc
+4aec695775ff0d8ac500c5ca628fea8150db8b8d83d7ec85ff3e41fd39bafc600025e31f14df446f47708306fff1432de9e0150b54fcce287cc64e0d81505294
+2990ff4f627ef091b7d840e9dfb0d8432e38a6e76a3b1f6ddd9181c4fa8acfb063629a8e8c9e6c150c562bda4c878056baf116a6f5c45c568bb67515197bec64
+258da0bc8c32b4d2552a8bfe8212d3bf50db8b8d83d7ec85ff3e41fd39bafc600025e31f14df446f47708306fff1432de9e0150b54fcce287cc64e0d81505294
+eb1cb04c81ffd5eab61bc4b20c76d179988c113a3f0ea727948374c62971d83a4889d0e9dc2ae3f3c77edd39f6b4f04a6e77d2917c110700ff4f14cdb57dae5d
+152332c065eb1e859d43f04d724792070024d804c4775bfdf270d5d4018e4da4345f9ab75e33b1b5c82bab10e340a63a9ea7e8b16a7fcdc1e5393ba523a6e488
+523c851eb178979d76617f42cd5d956b428be2ae51680832f2ab04d00c214a51d7e873ceee62fd1333c42d28373e739d178c1612115faa7896be7b4e2f4253e8
+faefef613f59d3290024d804c4775bfdf270d5d4018e4da4345f9ab75e33b1b5c82bab10e340a63a9ea7e8b16a7fcdc1030c21a00922a512301fcdf71afa1730
+b9870a188feba0777307109653f62fc70024d804c4775bfdf270d5d4018e4da4345f9ab75e33b1b5c82bab10e340a63a9ea7e8b16a7fcdc1e5393ba523a6e488
+6b9426429d63b395e847dda77d5f9443428be2ae51680832f2ab04d00c214a51d7e873ceee62fd1333c42d28373e739d178c1612115faa7896be7b4e2f4253e8
+7dea079cc1f0a746a359ef95c45e7ea742234c486c8a8af3dca02e97cab9b50d873c3cc6585c21b6bc372d8c5d5baaa5190e4d7bd682b62646bb9e51812c8c42
+7288db64713c0834d49d22480efcd87a50db8b8d83d7ec85ff3e41fd39bafc600025e31f14df446f47708306fff1432de9e0150b54fcce287cc64e0d81505294
+ $CDNENCFINISH
+  *$
+ .SUBCKT thermistor_ff300  1 2 
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc9c70e24bca344cfc
+d674c3790d07122b2c15873cb3267486ce5ec34e6f8ad1ca0024d804c4775bfdf270d5d4018e4da4345f9ab75e33b1b5c82bab10e340a63a6653762264a40b3b
+445b9e5f5c532d7d6976c207d82ee9011c08b099b549158eeb40c5e73b855a59d79967545f4a9a94f7f632874df34d1e431944f2f23a82003aebe69ff79c7365
+9ccbe6673641f91a42234c486c8a8af3dca02e97cab9b50d873c3cc6585c21b6bc372d8c5d5baaa5190e4d7bd682b626a80ab1ba609aec7d52f4c6b8f88a4cf6
+93d3808648446fd72c15873cb326748625e334b0e044fb7200d3e0b087c73744988c113a3f0ea727948374c62971d83a4889d0e9dc2ae3f379193a60da538598
+$CDNENCFINISH
+.ENDS thermistor_ff300
+*$
+*$
+.SUBCKT FD500R65KE3T_K G N1 N2 P1 P2 B1 B2  
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc1f7b709e3da313bd
+4b40aa8e9f9c81fdef61244c06d608bf72d114feb0b3ab43501ae52e2928889900d0dc87be4874b92aedbefc251eb47b92da7cbbe33d3b5ad12b5db274515576
+4e9ac5b43b1b288c1b335ff6669122152b0912529b3a88c3956380df798c4170c781cc0518220b732aedbefc251eb47b92da7cbbe33d3b5ad12b5db274515576
+59e902b81ad4b04651bc35632dcc2c4acdf1eca0a2d8b6e0501ae52e2928889900d0dc87be4874b92aedbefc251eb47b92da7cbbe33d3b5ad12b5db274515576
+c778737e73fed5964c2e42faf955d7d5825231c82ad55d4a956380df798c41709dcb6087ca0f8dc783c1dd19207b614bc97e800dc9d4d629d6b1bb4c4f78850d
+d4018c40325799d76564913e18e5778192dd0f40a88b203dfc826273fd6652a52311e75d99061cf7465b10ad1130bce8617ce4337d1d325358e0ec64ed8b25d1
+$CDNENCFINISH
+.ENDS FD500R65KE3T_K
+*$
+.SUBCKT IGBT_FD500 C G E 
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc1f7b709e3da313bd
+29c7aed2ccb01d691f744e008fbd9f922c4b5f36edab5d8572bafd18ae5ddb935666dafeaced591be94213c00a6c8be38863b4ab4fbb0451b436f170cc40fea2
+78da4350ae722f2abde41ce8376bf8a91379f9f902e7e251103608795b90d427661544c4791d488202fb3273aef07d827dc725e1d24f11a96c240dc1a106debc
+af84a12e2467477e393b8ec1f91ae9ecc62863f00dac2fe332e891a099b526fe25abd88b661a37e9fc38f4be07d08b3fc4307cc94be380209a59d1fb6159c699
+967145ddb39cc636e5d5c6a1b5a1b63a24499a403ec1b0add2cca8ad6010933a4573d89984bc2a9803cf88f34e419b07e02d11bc9782453de67f0ebbe4679df9
+9ee288b986e4300432e891a099b526fe25abd88b661a37e9fc38f4be07d08b3fc4307cc94be380206bdb36ba560a2ca82bcf0c6276b40c492efb44212ffd0b10
+5f10e410d9db8f114c74cc3527e8adde2c4b5f36edab5d8572bafd18ae5ddb935666dafeaced591be94213c00a6c8be38863b4ab4fbb0451b436f170cc40fea2
+3e6b285bb045e1cbf9e4d9571fff8f2932e891a099b526fe25abd88b661a37e9fc38f4be07d08b3fc4307cc94be380206bdb36ba560a2ca81ea7668bf96e1e9c
+9bc17a5372111e140275c71600b29644103608795b90d427661544c4791d488202fb3273aef07d827dc725e1d24f11a9a935853ae6f6d034534deaedd373596d
+cf57166ffeae139083c1dd19207b614bc97e800dc9d4d62967bc36661dbac259378ca3ce630432c2806b09a45f9599ce60ae5f7c206c69d02f197ea0b8db7e54
+782e8d60d9bb0f5ded483728f87a2ff524499a403ec1b0add2cca8ad6010933a4573d89984bc2a9803cf88f34e419b07e02d11bc9782453de67f0ebbe4679df9
+5544f342e958647639859341766fc92c433fe3d658a46b781e85ec7720df7cd3241fcd1000fb9f85bd89a4254e45c0c809863ac0cbad1b220691e564c58939ad
+518855dc07146ef5af27f1e8bb2e2b5c32e891a099b526fe25abd88b661a37e9fc38f4be07d08b3fc4307cc94be380206bdb36ba560a2ca81ea7668bf96e1e9c
+011784134afd774c5e33a49bdea3115f2c4b5f36edab5d8572bafd18ae5ddb935666dafeaced591be94213c00a6c8be38863b4ab4fbb0451b436f170cc40fea2
+1a34004266f7df392c4b5f36edab5d8572bafd18ae5ddb935666dafeaced591be94213c00a6c8be38863b4ab4fbb04514225be90f717f03ec59e9a9427c4026d
+0718b10ca564cf8580792c117f004b7924499a403ec1b0add2cca8ad6010933a4573d89984bc2a9803cf88f34e419b07e02d11bc9782453de67f0ebbe4679df9
+c317be51eb8544d31837349e5ad4a09724499a403ec1b0add2cca8ad6010933a4573d89984bc2a9803cf88f34e419b07e02d11bc9782453de67f0ebbe4679df9
+5db995d8f5969e4f2c4b5f36edab5d8572bafd18ae5ddb935666dafeaced591be94213c00a6c8be38863b4ab4fbb04514225be90f717f03ec59e9a9427c4026d
+$CDNENCFINISH
+.ends IGBT_FD500
+*$
+.MODEL DIODE_FD500_BRAKE D 
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc1f7b709e3da313bd
+4aec695775ff0d8aab5e37a410600abf83c1dd19207b614bc97e800dc9d4d62967bc36661dbac259378ca3ce630432c2806b09a45f9599ce30761f237939e896
+82b5c763dbe2996a103608795b90d427661544c4791d488202fb3273aef07d827dc725e1d24f11a9a935853ae6f6d034c2b2169f2221dd99544137c568c942ca
+ce8bd45a700a06fd73df3a8ab1afb30583c1dd19207b614bc97e800dc9d4d62967bc36661dbac259378ca3ce630432c2806b09a45f9599ce30761f237939e896
+fae73e08376f69a4301a5f484905862b2aedbefc251eb47b92da7cbbe33d3b5a4f8e112c3a26b05283411ddf58fe28a5978e31594b92befdfca1cb43ad36cc9b
+152332c065eb1e859d43f04d724792072c4b5f36edab5d8572bafd18ae5ddb935666dafeaced591be94213c00a6c8be38863b4ab4fbb0451b436f170cc40fea2
+523c851eb178979d76617f42cd5d956b433fe3d658a46b781e85ec7720df7cd3241fcd1000fb9f85bd89a4254e45c0c809863ac0cbad1b220691e564c58939ad
+faefef613f59d3292c4b5f36edab5d8572bafd18ae5ddb935666dafeaced591be94213c00a6c8be38863b4ab4fbb04514225be90f717f03ec59e9a9427c4026d
+b9870a188feba0777307109653f62fc72c4b5f36edab5d8572bafd18ae5ddb935666dafeaced591be94213c00a6c8be38863b4ab4fbb0451b436f170cc40fea2
+4eb9eadde80320dd57c4af9864f48096103608795b90d427661544c4791d488202fb3273aef07d827dc725e1d24f11a9a935853ae6f6d034534deaedd373596d
+7dea079cc1f0a746a359ef95c45e7ea732e891a099b526fe25abd88b661a37e9fc38f4be07d08b3fc4307cc94be380206bdb36ba560a2ca81ea7668bf96e1e9c
+7288db64713c0834d49d22480efcd87a83c1dd19207b614bc97e800dc9d4d62967bc36661dbac259378ca3ce630432c2806b09a45f9599ce30761f237939e896
+$CDNENCFINISH
+*$
+.MODEL DIODE_FD500_INV D 
+$CDNENCSTART
+eee8c5c7a2bc4b01f045f303678664e7916da0bae22e8cb0bba041dd67c69ce448ea70148a9ac1670c8926c1ac5057c8ccfcd77bf87ca9dc1f7b709e3da313bd
+7468c5f53ddd2ccb672aaa7f4cfeab3a83c1dd19207b614bc97e800dc9d4d62967bc36661dbac259378ca3ce630432c2806b09a45f9599ce30761f237939e896
+3071ed9fd6143a1380792c117f004b7924499a403ec1b0add2cca8ad6010933a4573d89984bc2a9803cf88f34e419b07e02d11bc9782453de67f0ebbe4679df9
+7ff8e74ca5e3ddf614e54ee98d3933ec83c1dd19207b614bc97e800dc9d4d62967bc36661dbac259378ca3ce630432c2806b09a45f9599ce30761f237939e896
+92081df9cb836172108e528828f8c670433fe3d658a46b781e85ec7720df7cd3241fcd1000fb9f85bd89a4254e45c0c809863ac0cbad1b220691e564c58939ad
+152332c065eb1e859d43f04d724792072c4b5f36edab5d8572bafd18ae5ddb935666dafeaced591be94213c00a6c8be38863b4ab4fbb0451b436f170cc40fea2
+523c851eb178979d76617f42cd5d956b433fe3d658a46b781e85ec7720df7cd3241fcd1000fb9f85bd89a4254e45c0c809863ac0cbad1b220691e564c58939ad
+faefef613f59d3292c4b5f36edab5d8572bafd18ae5ddb935666dafeaced591be94213c00a6c8be38863b4ab4fbb04514225be90f717f03ec59e9a9427c4026d
+b9870a188feba0777307109653f62fc72c4b5f36edab5d8572bafd18ae5ddb935666dafeaced591be94213c00a6c8be38863b4ab4fbb0451b436f170cc40fea2
+4eb9eadde80320dd57c4af9864f48096103608795b90d427661544c4791d488202fb3273aef07d827dc725e1d24f11a9a935853ae6f6d034534deaedd373596d
+7dea079cc1f0a746a359ef95c45e7ea732e891a099b526fe25abd88b661a37e9fc38f4be07d08b3fc4307cc94be380206bdb36ba560a2ca81ea7668bf96e1e9c
+7288db64713c0834d49d22480efcd87a83c1dd19207b614bc97e800dc9d4d62967bc36661dbac259378ca3ce630432c2806b09a45f9599ce30761f237939e896
+$CDNENCFINISH
+*$

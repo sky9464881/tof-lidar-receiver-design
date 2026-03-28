@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model OPA659IDBVT
+#/415597/1123016/2.50/5/3/Integrated Circuit
+DEF OPA659IDBVT IC 0 30 Y Y 1 F N
+F0 "IC" 2250 300 50 H V L CNN
+F1 "OPA659IDBVT" 2250 200 50 H V L CNN
+F2 "SOT95P280X145-5N" 2250 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/opa659" 2250 0 50 H I L CNN
+F4 "Texas Instruments OPA659IDBVT JFET Op Amp, 350MHz, 5-Pin SOT-23" 2250 -100 50 H I L CNN "Description"
+F5 "1.45" 2250 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 2250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "OPA659IDBVT" 2250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-OPA659IDBVT" 2250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA659IDBVT?qs=IDSsxkoac0yQx%2FRcNbdWsA%3D%3D" 2250 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "OPA659IDBVT" 2250 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/opa659idbvt/texas-instruments?region=nac" 2250 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X OUTPUT 1 0 0 200 R 50 50 0 0 P
+X -VS 2 0 -100 200 R 50 50 0 0 P
+X NONINVERTING_INPUT 3 0 -200 200 R 50 50 0 0 P
+X INVERTING_INPUT 4 2400 0 200 L 50 50 0 0 P
+X +VS 5 2400 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 2200 100 2200 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

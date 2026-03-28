@@ -1,0 +1,9196 @@
+("0402CS-10N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.48")
+		(LV "500")
+	)
+)
+("0402CS-11N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.64")
+		(LV "500")
+	)
+)
+("0402CS-12N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.64")
+		(LV "500")
+	)
+)
+("0402CS-13N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.44")
+		(LV "500")
+	)
+)
+("0402CS-15N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.56")
+		(LV "500")
+	)
+)
+("0402CS-16N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.56")
+		(LV "500")
+	)
+)
+("0402CS-18N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.42")
+		(LV "500")
+	)
+)
+("0402CS-19N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.48")
+		(LV "500")
+	)
+)
+("0402CS-1N0"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.36")
+		(LV "500")
+	)
+)
+("0402CS-1N9"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.04")
+		(LV "500")
+	)
+)
+("0402CS-20N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.42")
+		(LV "500")
+	)
+)
+("0402CS-22N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0402CS-23N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0402CS-24N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0402CS-27N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0402CS-2N0"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.04")
+		(LV "500")
+	)
+)
+("0402CS-2N2"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.96")
+		(LV "500")
+	)
+)
+("0402CS-2N4"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.79")
+		(LV "500")
+	)
+)
+("0402CS-2N7"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.64")
+		(LV "500")
+	)
+)
+("0402CS-30N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0402CS-33N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0402CS-36N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.32")
+		(LV "500")
+	)
+)
+("0402CS-39N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.2")
+		(LV "500")
+	)
+)
+("0402CS-3N3"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.84")
+		(LV "500")
+	)
+)
+("0402CS-3N6"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.84")
+		(LV "500")
+	)
+)
+("0402CS-3N9"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.84")
+		(LV "500")
+	)
+)
+("0402CS-40N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.32")
+		(LV "500")
+	)
+)
+("0402CS-43N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.1")
+		(LV "500")
+	)
+)
+("0402CS-47N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.15")
+		(LV "500")
+	)
+)
+("0402CS-4N3"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0402CS-4N7"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.64")
+		(LV "500")
+	)
+)
+("0402CS-51N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.1")
+		(LV "500")
+	)
+)
+("0402CS-56N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.1")
+		(LV "500")
+	)
+)
+("0402CS-5N1"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.8")
+		(LV "500")
+	)
+)
+("0402CS-5N6"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.76")
+		(LV "500")
+	)
+)
+("0402CS-68N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.1")
+		(LV "500")
+	)
+)
+("0402CS-6N2"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.76")
+		(LV "500")
+	)
+)
+("0402CS-6N8"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.68")
+		(LV "500")
+	)
+)
+("0402CS-7N5"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.68")
+		(LV "500")
+	)
+)
+("0402CS-8N2"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.68")
+		(LV "500")
+	)
+)
+("0402CS-8N7"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.48")
+		(LV "500")
+	)
+)
+("0402CS-9N0"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.68")
+		(LV "500")
+	)
+)
+("0402CS-9N5"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.48")
+		(LV "500")
+	)
+)
+("0402PA-0N8"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.86")
+		(LV "500")
+	)
+)
+("0402PA-1N9"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.7")
+		(LV "500")
+	)
+)
+("0402PA-3N4"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.5")
+		(LV "500")
+	)
+)
+("0402PA-3N5"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.4")
+		(LV "500")
+	)
+)
+("0402PA-5N8"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.3")
+		(LV "500")
+	)
+)
+("0402PA-6N2"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.15")
+		(LV "500")
+	)
+)
+("0402PA-8N2"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.1")
+		(LV "500")
+	)
+)
+("0403HQ-12N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.8")
+		(LV "500")
+	)
+)
+("0403HQ-15N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0403HQ-18N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0403HQ-1N9"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "2.2")
+		(LV "500")
+	)
+)
+("0403HQ-2N1"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.8")
+		(LV "500")
+	)
+)
+("0403HQ-3N4"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.9")
+		(LV "500")
+	)
+)
+("0403HQ-3N7"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.8")
+		(LV "500")
+	)
+)
+("0403HQ-5N5"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.5")
+		(LV "500")
+	)
+)
+("0403HQ-6N6"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.1")
+		(LV "500")
+	)
+)
+("0403HQ-8N2"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.2")
+		(LV "500")
+	)
+)
+("0403HQ-9N0"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("0603CS-10N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-11N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-12N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-15N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-16N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-18N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-1N6"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-1N8"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:56 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-22N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-23N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-24N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-27N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0603CS-2N2"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.1")
+		(LV "500")
+	)
+)
+("0603CS-30N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0603CS-33N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0603CS-36N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0603CS-39N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0603CS-3N3"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-3N6"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-3N9"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-43N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0603CS-47N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0603CS-4N3"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-4N7"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-51N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0603CS-56N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0603CS-5N1"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-5N6"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-68N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0603CS-6N8"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-72N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0603CS-7N5"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-82N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0603CS-8N2"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-8N7"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-9N5"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0603CS-R10"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0603CS-R11"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.3")
+		(LV "500")
+	)
+)
+("0603CS-R12"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.3")
+		(LV "500")
+	)
+)
+("0603CS-R15"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.28")
+		(LV "500")
+	)
+)
+("0603CS-R18"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.24")
+		(LV "500")
+	)
+)
+("0603CS-R20"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.2")
+		(LV "500")
+	)
+)
+("0603CS-R21"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.2")
+		(LV "500")
+	)
+)
+("0603CS-R22"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.2")
+		(LV "500")
+	)
+)
+("0603CS-R25"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.12")
+		(LV "500")
+	)
+)
+("0603CS-R27"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.17")
+		(LV "500")
+	)
+)
+("0603CS-R33"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.1")
+		(LV "500")
+	)
+)
+("0603CS-R39"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.1")
+		(LV "500")
+	)
+)
+("0603HC-10N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "2")
+		(LV "500")
+	)
+)
+("0603HC-12N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "2")
+		(LV "500")
+	)
+)
+("0603HC-15N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.9")
+		(LV "500")
+	)
+)
+("0603HC-18N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.9")
+		(LV "500")
+	)
+)
+("0603HC-1N6"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "2.4")
+		(LV "500")
+	)
+)
+("0603HC-22N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.8")
+		(LV "500")
+	)
+)
+("0603HC-24N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.8")
+		(LV "500")
+	)
+)
+("0603HC-3N6"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "2.3")
+		(LV "500")
+	)
+)
+("0603HC-3N9"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "2.2")
+		(LV "500")
+	)
+)
+("0603HC-6N8"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "2.1")
+		(LV "500")
+	)
+)
+("0603HC-7N5"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "2.1")
+		(LV "500")
+	)
+)
+("0603LS-101"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.4")
+		(LV "500")
+	)
+)
+("0603LS-102"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0603LS-121"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.4")
+		(LV "500")
+	)
+)
+("0603LS-122"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.37")
+		(LV "500")
+	)
+)
+("0603LS-151"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.3")
+		(LV "500")
+	)
+)
+("0603LS-152"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.35")
+		(LV "500")
+	)
+)
+("0603LS-181"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.3")
+		(LV "500")
+	)
+)
+("0603LS-182"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.35")
+		(LV "500")
+	)
+)
+("0603LS-222"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.32")
+		(LV "500")
+	)
+)
+("0603LS-241"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.95")
+		(LV "500")
+	)
+)
+("0603LS-271"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.71")
+		(LV "500")
+	)
+)
+("0603LS-272"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.28")
+		(LV "500")
+	)
+)
+("0603LS-331"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.56")
+		(LV "500")
+	)
+)
+("0603LS-332"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.28")
+		(LV "500")
+	)
+)
+("0603LS-391"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0603LS-392"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.28")
+		(LV "500")
+	)
+)
+("0603LS-471"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.42")
+		(LV "500")
+	)
+)
+("0603LS-472"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.26")
+		(LV "500")
+	)
+)
+("0603LS-47N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.4")
+		(LV "500")
+	)
+)
+("0603LS-561"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.55")
+		(LV "500")
+	)
+)
+("0603LS-562"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.24")
+		(LV "500")
+	)
+)
+("0603LS-681"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.47")
+		(LV "500")
+	)
+)
+("0603LS-72N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.4")
+		(LV "500")
+	)
+)
+("0603LS-781"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.39")
+		(LV "500")
+	)
+)
+("0603LS-782"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.2")
+		(LV "500")
+	)
+)
+("0603LS-821"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0603LS-822"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.19")
+		(LV "500")
+	)
+)
+("0604HQ-10N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.5")
+		(LV "500")
+	)
+)
+("0604HQ-1N1"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "3")
+		(LV "500")
+	)
+)
+("0604HQ-2N6"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "2")
+		(LV "500")
+	)
+)
+("0604HQ-4N5"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.8")
+		(LV "500")
+	)
+)
+("0604HQ-5N0"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.6")
+		(LV "500")
+	)
+)
+("0604HQ-6N8"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.8")
+		(LV "500")
+	)
+)
+("0604HQ-7N6"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.5")
+		(LV "500")
+	)
+)
+("0805CS-020"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.8")
+		(LV "500")
+	)
+)
+("0805CS-030"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0805CS-050"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0805CS-060"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0805CS-070"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0805CS-080"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0805CS-100"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0805CS-101"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0805CS-111"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0805CS-120"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0805CS-121"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0805CS-150"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0805CS-151"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0805CS-180"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0805CS-181"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0805CS-220"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0805CS-221"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0805CS-240"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0805CS-241"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.35")
+		(LV "500")
+	)
+)
+("0805CS-270"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0805CS-271"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.35")
+		(LV "500")
+	)
+)
+("0805CS-330"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0805CS-331"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.31")
+		(LV "500")
+	)
+)
+("0805CS-360"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0805CS-390"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0805CS-391"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.29")
+		(LV "500")
+	)
+)
+("0805CS-3N0"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.8")
+		(LV "500")
+	)
+)
+("0805CS-430"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0805CS-470"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0805CS-471"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.25")
+		(LV "500")
+	)
+)
+("0805CS-560"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0805CS-561"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.23")
+		(LV "500")
+	)
+)
+("0805CS-680"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0805CS-681"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.19")
+		(LV "500")
+	)
+)
+("0805CS-820"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0805CS-821"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.18")
+		(LV "500")
+	)
+)
+("0805CS-910"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0805HQ-12N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.6")
+		(LV "500")
+	)
+)
+("0805HQ-16N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.5")
+		(LV "500")
+	)
+)
+("0805HQ-18N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.4")
+		(LV "500")
+	)
+)
+("0805HQ-20N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.4")
+		(LV "500")
+	)
+)
+("0805HQ-27N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.3")
+		(LV "500")
+	)
+)
+("0805HQ-2N5"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.6")
+		(LV "500")
+	)
+)
+("0805HQ-30N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.2")
+		(LV "500")
+	)
+)
+("0805HQ-39N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.1")
+		(LV "500")
+	)
+)
+("0805HQ-48N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.2")
+		(LV "500")
+	)
+)
+("0805HQ-51N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("0805HQ-5N6"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.6")
+		(LV "500")
+	)
+)
+("0805HQ-6N2"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.6")
+		(LV "500")
+	)
+)
+("0805HS-030"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0805HS-060"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0805HS-080"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0805HS-101"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0805HS-120"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0805HS-121"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0805HS-150"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0805HS-151"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0805HS-180"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0805HS-181"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0805HS-220"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0805HS-221"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0805HS-270"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0805HS-330"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0805HS-390"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0805HS-470"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0805HS-560"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0805HS-680"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0805HS-820"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0805HT-10N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.8")
+		(LV "500")
+	)
+)
+("0805HT-12N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.8")
+		(LV "500")
+	)
+)
+("0805HT-15N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.8")
+		(LV "500")
+	)
+)
+("0805HT-18N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.8")
+		(LV "500")
+	)
+)
+("0805HT-1N8"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.8")
+		(LV "500")
+	)
+)
+("0805HT-22N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:57 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.8")
+		(LV "500")
+	)
+)
+("0805HT-27N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("0805HT-33N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0805HT-39N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0805HT-3N9"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.8")
+		(LV "500")
+	)
+)
+("0805HT-47N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("0805HT-4N7"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.8")
+		(LV "500")
+	)
+)
+("0805HT-56N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0805HT-68N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0805HT-6N8"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.8")
+		(LV "500")
+	)
+)
+("0805HT-82N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0805HT-8N2"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.8")
+		(LV "500")
+	)
+)
+("0805HT-R10"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("0805HT-R12"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.3")
+		(LV "500")
+	)
+)
+("0805HT-R15"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.3")
+		(LV "500")
+	)
+)
+("0805HT-R18"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.3")
+		(LV "500")
+	)
+)
+("0805HT-R22"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.2")
+		(LV "500")
+	)
+)
+("0805HT-R27"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.2")
+		(LV "500")
+	)
+)
+("0805HT-R33"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.2")
+		(LV "500")
+	)
+)
+("0805HT-R39"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.2")
+		(LV "500")
+	)
+)
+("0805HT-R47"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.2")
+		(LV "500")
+	)
+)
+("0805HT-R50"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.2")
+		(LV "500")
+	)
+)
+("0805LS-102"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("0805LS-103"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.2")
+		(LV "500")
+	)
+)
+("0805LS-111"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "2")
+		(LV "500")
+	)
+)
+("0805LS-152"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.49")
+		(LV "500")
+	)
+)
+("0805LS-153"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.18")
+		(LV "500")
+	)
+)
+("0805LS-182"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.41")
+		(LV "500")
+	)
+)
+("0805LS-222"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.365")
+		(LV "500")
+	)
+)
+("0805LS-223"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.15")
+		(LV "500")
+	)
+)
+("0805LS-272"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.35")
+		(LV "500")
+	)
+)
+("0805LS-273"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.12")
+		(LV "500")
+	)
+)
+("0805LS-332"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.33")
+		(LV "500")
+	)
+)
+("0805LS-392"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.3")
+		(LV "500")
+	)
+)
+("0805LS-471"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.72")
+		(LV "500")
+	)
+)
+("0805LS-472"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.28")
+		(LV "500")
+	)
+)
+("0805LS-681"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.59")
+		(LV "500")
+	)
+)
+("0805LS-682"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.26")
+		(LV "500")
+	)
+)
+("0805LS-78N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "2")
+		(LV "500")
+	)
+)
+("0805LS-822"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.25")
+		(LV "500")
+	)
+)
+("1008CS-100"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008CS-101"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.65")
+		(LV "500")
+	)
+)
+("1008CS-102"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.37")
+		(LV "500")
+	)
+)
+("1008CS-120"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008CS-121"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.65")
+		(LV "500")
+	)
+)
+("1008CS-122"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.31")
+		(LV "500")
+	)
+)
+("1008CS-150"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008CS-151"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.58")
+		(LV "500")
+	)
+)
+("1008CS-152"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.33")
+		(LV "500")
+	)
+)
+("1008CS-180"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008CS-181"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.62")
+		(LV "500")
+	)
+)
+("1008CS-182"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.3")
+		(LV "500")
+	)
+)
+("1008CS-220"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008CS-221"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("1008CS-222"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.28")
+		(LV "500")
+	)
+)
+("1008CS-270"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008CS-271"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("1008CS-272"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.29")
+		(LV "500")
+	)
+)
+("1008CS-330"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008CS-331"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.45")
+		(LV "500")
+	)
+)
+("1008CS-332"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.29")
+		(LV "500")
+	)
+)
+("1008CS-390"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008CS-391"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.47")
+		(LV "500")
+	)
+)
+("1008CS-392"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.26")
+		(LV "500")
+	)
+)
+("1008CS-470"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008CS-471"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.47")
+		(LV "500")
+	)
+)
+("1008CS-472"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.26")
+		(LV "500")
+	)
+)
+("1008CS-560"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008CS-561"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("1008CS-562"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.24")
+		(LV "500")
+	)
+)
+("1008CS-621"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.3")
+		(LV "500")
+	)
+)
+("1008CS-680"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008CS-681"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("1008CS-682"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.2")
+		(LV "500")
+	)
+)
+("1008CS-751"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.36")
+		(LV "500")
+	)
+)
+("1008CS-820"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008CS-821"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("1008CS-822"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.17")
+		(LV "500")
+	)
+)
+("1008CS-911"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.38")
+		(LV "500")
+	)
+)
+("1008CT-040"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("1008CT-080"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("1008CT-100"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("1008CT-101"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.48")
+		(LV "500")
+	)
+)
+("1008CT-150"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("1008CT-200"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("1008CT-300"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("1008CT-400"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("1008CT-500"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("1008CT-600"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("1008CT-700"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.51")
+		(LV "500")
+	)
+)
+("1008CT-800"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.51")
+		(LV "500")
+	)
+)
+("1008CT-900"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("1008HQ-10N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.6")
+		(LV "500")
+	)
+)
+("1008HQ-12N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.5")
+		(LV "500")
+	)
+)
+("1008HQ-18N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.4")
+		(LV "500")
+	)
+)
+("1008HQ-22N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.4")
+		(LV "500")
+	)
+)
+("1008HQ-33N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.3")
+		(LV "500")
+	)
+)
+("1008HQ-39N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.3")
+		(LV "500")
+	)
+)
+("1008HQ-3N0"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.6")
+		(LV "500")
+	)
+)
+("1008HQ-47N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.2")
+		(LV "500")
+	)
+)
+("1008HQ-4N1"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.6")
+		(LV "500")
+	)
+)
+("1008HQ-56N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.2")
+		(LV "500")
+	)
+)
+("1008HQ-68N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.1")
+		(LV "500")
+	)
+)
+("1008HQ-7N8"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.6")
+		(LV "500")
+	)
+)
+("1008HQ-82N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1.1")
+		(LV "500")
+	)
+)
+("1008HQ-R10"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008HS-100"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008HS-101"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.65")
+		(LV "500")
+	)
+)
+("1008HS-102"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.37")
+		(LV "500")
+	)
+)
+("1008HS-120"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008HS-121"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.65")
+		(LV "500")
+	)
+)
+("1008HS-150"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008HS-151"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.58")
+		(LV "500")
+	)
+)
+("1008HS-180"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008HS-181"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.62")
+		(LV "500")
+	)
+)
+("1008HS-220"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008HS-221"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("1008HS-270"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008HS-271"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("1008HS-330"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008HS-331"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.45")
+		(LV "500")
+	)
+)
+("1008HS-390"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008HS-391"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.47")
+		(LV "500")
+	)
+)
+("1008HS-470"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008HS-471"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.47")
+		(LV "500")
+	)
+)
+("1008HS-560"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008HS-561"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("1008HS-621"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.3")
+		(LV "500")
+	)
+)
+("1008HS-680"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008HS-681"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("1008HS-751"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.36")
+		(LV "500")
+	)
+)
+("1008HS-820"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008HS-821"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("1008HS-911"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.38")
+		(LV "500")
+	)
+)
+("1008HT-12N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008HT-15N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008HT-18N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008HT-22N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.95")
+		(LV "500")
+	)
+)
+("1008HT-27N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.85")
+		(LV "500")
+	)
+)
+("1008HT-33N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.76")
+		(LV "500")
+	)
+)
+("1008HT-39N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("1008HT-3N3"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008HT-47N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.66")
+		(LV "500")
+	)
+)
+("1008HT-56N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.62")
+		(LV "500")
+	)
+)
+("1008HT-68N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.55")
+		(LV "500")
+	)
+)
+("1008HT-6N8"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008HT-7N2"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1008HT-82N"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.5")
+		(LV "500")
+	)
+)
+("1008HT-R10"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.42")
+		(LV "500")
+	)
+)
+("1008HT-R12"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.35")
+		(LV "500")
+	)
+)
+("1008HT-R14"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.32")
+		(LV "500")
+	)
+)
+("1008HT-R15"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.3")
+		(LV "500")
+	)
+)
+("1008HT-R18"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.25")
+		(LV "500")
+	)
+)
+("1008HT-R22"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.25")
+		(LV "500")
+	)
+)
+("1008HT-R24"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.25")
+		(LV "500")
+	)
+)
+("1008HT-R27"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.25")
+		(LV "500")
+	)
+)
+("1008HT-R33"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.25")
+		(LV "500")
+	)
+)
+("1008HT-R39"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.25")
+		(LV "500")
+	)
+)
+("1008HT-R47"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.24")
+		(LV "500")
+	)
+)
+("1008HT-R56"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.24")
+		(LV "500")
+	)
+)
+("1008LS-103"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.3")
+		(LV "500")
+	)
+)
+("1008LS-122"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.65")
+		(LV "500")
+	)
+)
+("1008LS-152"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.63")
+		(LV "500")
+	)
+)
+("1008LS-182"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.6")
+		(LV "500")
+	)
+)
+("1008LS-222"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.52")
+		(LV "500")
+	)
+)
+("1008LS-272"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.49")
+		(LV "500")
+	)
+)
+("1008LS-332"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.45")
+		(LV "500")
+	)
+)
+("1008LS-392"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.42")
+		(LV "500")
+	)
+)
+("1008LS-472"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("1008LS-562"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.38")
+		(LV "500")
+	)
+)
+("1008LS-682"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.36")
+		(LV "500")
+	)
+)
+("1008LS-822"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.33")
+		(LV "500")
+	)
+)
+("1206CS-030"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1206CS-060"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1206CS-100"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1206CS-101"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.85")
+		(LV "500")
+	)
+)
+("1206CS-102"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.32")
+		(LV "500")
+	)
+)
+("1206CS-120"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1206CS-121"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.8")
+		(LV "500")
+	)
+)
+("1206CS-122"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.3")
+		(LV "500")
+	)
+)
+("1206CS-150"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1206CS-151"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.75")
+		(LV "500")
+	)
+)
+("1206CS-180"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1206CS-181"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.7")
+		(LV "500")
+	)
+)
+("1206CS-220"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1206CS-221"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.67")
+		(LV "500")
+	)
+)
+("1206CS-270"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1206CS-271"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.63")
+		(LV "500")
+	)
+)
+("1206CS-330"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1206CS-331"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.59")
+		(LV "500")
+	)
+)
+("1206CS-390"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1206CS-391"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.53")
+		(LV "500")
+	)
+)
+("1206CS-470"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1206CS-471"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.49")
+		(LV "500")
+	)
+)
+("1206CS-560"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "1")
+		(LV "500")
+	)
+)
+("1206CS-561"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.46")
+		(LV "500")
+	)
+)
+("1206CS-621"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.46")
+		(LV "500")
+	)
+)
+("1206CS-680"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.9")
+		(LV "500")
+	)
+)
+("1206CS-681"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.43")
+		(LV "500")
+	)
+)
+("1206CS-751"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.32")
+		(LV "500")
+	)
+)
+("1206CS-820"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.9")
+		(LV "500")
+	)
+)
+("1206CS-821"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.4")
+		(LV "500")
+	)
+)
+("1206CS-911"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.31")
+		(LV "500")
+	)
+)
+("1812CS-102"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.48")
+		(LV "500")
+	)
+)
+("1812CS-103"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.19")
+		(LV "500")
+	)
+)
+("1812CS-122"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.48")
+		(LV "500")
+	)
+)
+("1812CS-123"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.18")
+		(LV "500")
+	)
+)
+("1812CS-152"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.43")
+		(LV "500")
+	)
+)
+("1812CS-153"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.17")
+		(LV "500")
+	)
+)
+("1812CS-182"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.38")
+		(LV "500")
+	)
+)
+("1812CS-183"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.16")
+		(LV "500")
+	)
+)
+("1812CS-222"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.34")
+		(LV "500")
+	)
+)
+("1812CS-223"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.155")
+		(LV "500")
+	)
+)
+("1812CS-272"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.3")
+		(LV "500")
+	)
+)
+("1812CS-273"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.15")
+		(LV "500")
+	)
+)
+("1812CS-332"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.27")
+		(LV "500")
+	)
+)
+("1812CS-333"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.145")
+		(LV "500")
+	)
+)
+("1812CS-392"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.24")
+		(LV "500")
+	)
+)
+("1812CS-472"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.23")
+		(LV "500")
+	)
+)
+("1812CS-562"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.22")
+		(LV "500")
+	)
+)
+("1812CS-682"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.21")
+		(LV "500")
+	)
+)
+("1812CS-822"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.2")
+		(LV "500")
+	)
+)
+("1812FS-105"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.16")
+		(LV "500")
+	)
+)
+("1812FS-154"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.475")
+		(LV "500")
+	)
+)
+("1812FS-224"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.39")
+		(LV "500")
+	)
+)
+("1812FS-274"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.35")
+		(LV "500")
+	)
+)
+("1812FS-334"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.31")
+		(LV "500")
+	)
+)
+("1812FS-394"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.31")
+		(LV "500")
+	)
+)
+("1812FS-474"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.28")
+		(LV "500")
+	)
+)
+("1812FS-564"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.28")
+		(LV "500")
+	)
+)
+("1812FS-683"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.65")
+		(LV "500")
+	)
+)
+("1812FS-684"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.25")
+		(LV "500")
+	)
+)
+("1812FS-824"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.21")
+		(LV "500")
+	)
+)
+("1812LS-104"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.15")
+		(LV "500")
+	)
+)
+("1812LS-105"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.05")
+		(LV "500")
+	)
+)
+("1812LS-123"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.31")
+		(LV "500")
+	)
+)
+("1812LS-124"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.135")
+		(LV "500")
+	)
+)
+("1812LS-153"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.29")
+		(LV "500")
+	)
+)
+("1812LS-154"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.125")
+		(LV "500")
+	)
+)
+("1812LS-183"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.27")
+		(LV "500")
+	)
+)
+("1812LS-184"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.12")
+		(LV "500")
+	)
+)
+("1812LS-223"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.26")
+		(LV "500")
+	)
+)
+("1812LS-224"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.115")
+		(LV "500")
+	)
+)
+("1812LS-273"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.24")
+		(LV "500")
+	)
+)
+("1812LS-274"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.105")
+		(LV "500")
+	)
+)
+("1812LS-333"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.23")
+		(LV "500")
+	)
+)
+("1812LS-334"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.1")
+		(LV "500")
+	)
+)
+("1812LS-393"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.21")
+		(LV "500")
+	)
+)
+("1812LS-394"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.09")
+		(LV "500")
+	)
+)
+("1812LS-473"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.2")
+		(LV "500")
+	)
+)
+("1812LS-474"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.085")
+		(LV "500")
+	)
+)
+("1812LS-563"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.19")
+		(LV "500")
+	)
+)
+("1812LS-564"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.075")
+		(LV "500")
+	)
+)
+("1812LS-683"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.18")
+		(LV "500")
+	)
+)
+("1812LS-684"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.06")
+		(LV "500")
+	)
+)
+("1812LS-823"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.17")
+		(LV "500")
+	)
+)
+("1812LS-824"
+	(Creator "Device property file created by prp_generator on Thu Nov 17 09:43:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "INDUCTOR")
+		(MODEL_TYPE "2")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IA "1")
+		(NODE_VA "1")
+		(NODE_VB "2")
+		(DERATE_TYPE "IND")
+	)
+	("device_max_ops"
+		(LI "0.055")
+		(LV "500")
+	)
+)

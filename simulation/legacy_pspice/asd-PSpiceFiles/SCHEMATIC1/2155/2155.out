@@ -1,0 +1,239 @@
+
+**** 12/27/24 22:07:00 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-2155"  [ c:\users\msdl3\desktop\orcad file\80db_lidar\asd-PSpiceFiles\SCHEMATIC1\2155.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "2155.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\MSDL3\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "C:\Cadence\SPB_17.2\tools\capture\library\pspice\opa855_pspice\opa855_a.lib" 
+.lib "C:\Cadence\SPB_17.2\tools\capture\library\pspice\sboc036d\opa695_a.lib" 
+.lib "C:\Cadence\SPB_17.2\tools\capture\library\pspice\opa892\opa892.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 20ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source ASD
+R_R1         N00094 N00106  1000 TC=0,0 
+R_R2         N00694 0  200 TC=0,0 
+V_V2         N01696 0  
++PULSE 0mV 3mV 0.5ns 1ns 1ns 4ns 1us
+C_C1         N00106 N00694  10n  TC=0,0 
+X_U2         0 N00094 N01018 N01074 N00106 OPA855
+V_V3         N01074 0 -5Vdc
+V_V4         N01018 0 5Vdc
+R_R3         N01696 N00094  100 TC=0,0 
+
+**** RESUMING 2155.cir ****
+.END
+
+**** 12/27/24 22:07:00 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-2155"  [ c:\users\msdl3\desktop\orcad file\80db_lidar\asd-PSpiceFiles\SCHEMATIC1\2155.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.X_E_N.DVN  X_U2.X_I_NP1.DNVF               X_U2.X_U1.DNVF  
+          IS  100.000000E-18  100.000000E-18                  100.000000E-18 
+          KF  316.227800E-12  316.227800E-12                  316.227800E-12 
+
+
+**** 12/27/24 22:07:00 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-2155"  [ c:\users\msdl3\desktop\orcad file\80db_lidar\asd-PSpiceFiles\SCHEMATIC1\2155.sim ] 
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+**** 12/27/24 22:07:00 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-2155"  [ c:\users\msdl3\desktop\orcad file\80db_lidar\asd-PSpiceFiles\SCHEMATIC1\2155.sim ] 
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.X_ESD_OUT.ESD_SW           X_U2.X_S1._S1   X_U2.X_S2._S2   
+         RON   50                               1.000000E-03    1.000000E-03 
+        ROFF    1.000000E+12                   20.000000E+03   20.000000E+03 
+         VON     .5                              .8              .8          
+        VOFF     .45                            -.6             -.4          
+
+
+**** 12/27/24 22:07:00 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-2155"  [ c:\users\msdl3\desktop\orcad file\80db_lidar\asd-PSpiceFiles\SCHEMATIC1\2155.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00094)    1.0257 (N00106)   11.4990 (N00694)    0.0000 (N01018)    5.0000     
+
+(N01074)   -5.0000 (N01696)    0.0000 (X_U2.ZO)    5.0000                       
+
+(X_U2.MID)    3.2495                  (X_U2.CMRR)    3.2494                     
+
+(X_U2.ESDN)    1.0257                 (X_U2.ESDP) 1.946E-06                     
+
+(X_U2.CLAMP)    3.2494                (X_U2.PSRRN)    3.2488                    
+
+(X_U2.PSRRP)    3.2490                (X_U2.VCC_B)   -5.0000                    
+
+(X_U2.VEE_B)   11.4990                (X_U2.VIMON) -124.4700                    
+
+(X_U2.AOLNET)    3.7495               (X_U2.N06456) 1.946E-06                   
+
+(X_U2.N10561) 51.95E-06               (X_U2.N10570) 19.66E-06                   
+
+(X_U2.N11984) 19.66E-06               (X_U2.N11991)    1.0257                   
+
+(X_U2.N25816) 296.4E-06               (X_U2.N28602)   12.5990                   
+
+(X_U2.N30136)   -5.4000               (X_U2.N30913) 296.4E-06                   
+
+(X_U2.N31014) 296.4E-06               (X_U2.N35675)   -8.4000                   
+
+(X_U2.N35813)   -8.4000               (X_U2.N38050)   14.8990                   
+
+(X_U2.N38096)   14.8990               (X_U2.VOUT_S)    5.0000                   
+
+(X_U2.X_U1.3)    0.0000               (X_U2.X_U1.4)    0.0000                   
+
+(X_U2.X_U1.5)    0.0000               (X_U2.X_U1.6)    0.0000                   
+
+(X_U2.X_U1.7)     .8338               (X_U2.X_U1.8)     .8338                   
+
+(X_U2.N110431) -124.4700              (X_U2.N112292)    5.0000                  
+
+(X_U2.N317950)    3.2495              (X_U2.N406634)   -5.0000                  
+
+(X_U2.N406794)   11.4990              (X_U2.N749288)-398.1E-06                  
+
+(X_U2.VCC_CLP)   -8.4000              (X_U2.VEE_CLP)   14.8990                  
+
+(X_U2.X_E_N.3)    0.0000              (X_U2.X_E_N.4)    0.0000                  
+
+(X_U2.X_E_N.5)    0.0000              (X_U2.X_E_N.6)    0.0000                  
+
+(X_U2.X_E_N.7)     .8338              (X_U2.X_E_N.8)     .8338                  
+
+(X_U2.N1254860) -156.3000             (X_U2.N1446199)    3.2494                 
+
+(X_U2.N1446217)    3.2494             (X_U2.N1461236)    3.6296                 
+
+(X_U2.N1461246)    3.2495             (X_U2.N1461252)    3.2387                 
+
+(X_U2.N1481243)    9.1555             (X_U2.N1481253)    3.2499                 
+
+(X_U2.N1481259)    3.2480             (X_U2.N1483677)   -9.7669                 
+
+(X_U2.N1483687)    3.2488             (X_U2.N1483693)    3.2648                 
+
+(X_U2.N1483703)    3.2502             (X_U2.N1483713)    3.2341                 
+
+(X_U2.N1490067)    3.2490             (X_U2.N1492098)     .6237                 
+
+(X_U2.N1492108)    1.4990             (X_U2.N1492118)    1.4990                 
+
+(X_U2.N1492126)    1.4990             (X_U2.N1492376)    1.4990                 
+
+(X_U2.N1534615)  -41.4510             (X_U2.N1534625)    1.6837                 
+
+(X_U2.N1534635)    1.6837             (X_U2.N1534645)    1.6837                 
+
+(X_U2.N1534887)    1.6837             (X_U2.N1541593)  -36.7340                 
+
+(X_U2.N1541603)    1.8489             (X_U2.X_I_NP1.3)    0.0000                
+
+(X_U2.X_I_NP1.4)    0.0000            (X_U2.X_I_NP1.5)    0.0000                
+
+(X_U2.X_I_NP1.6)    0.0000            (X_U2.X_I_NP1.7)     .8338                
+
+(X_U2.X_I_NP1.8)     .8338            (X_U2.X_VOS_VS_VCM.1)-398.1E-06       
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2         1.026E-02
+    V_V3         1.873E-01
+    V_V4        -1.977E-01
+    X_U2.V_VCM_MAX   8.649E-09
+    X_U2.V_VCM_MIN  -9.349E-09
+    X_U2.X_H3.VH_H3   1.277E-01
+    X_U2.X_VOS_VS_VCM.V1   7.856E-19
+
+    TOTAL POWER DISSIPATION   1.93E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 12/27/24 22:07:00 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-2155"  [ c:\users\msdl3\desktop\orcad file\80db_lidar\asd-PSpiceFiles\SCHEMATIC1\2155.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .02
+

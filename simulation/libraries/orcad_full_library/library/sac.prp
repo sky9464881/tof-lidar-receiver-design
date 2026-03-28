@@ -1,0 +1,1897 @@
+("awb494_sac"
+	(Creator "Device property file created by analog_uprev: 494_sac on Mon Jun 25 19:11:46 IST 2007")
+	("device_info"
+		( SYMBOL_NAME "SG1524block" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C")
+ 			("D") )
+	)
+	("model_params"
+	("level_0"
+		( "SWITCHTIME"
+			( "val" ".5e-6" )
+			( "postol" "SWITCHTIME_PTOL" )
+			( "negtol" "SWITCHTIME_NTOL" )
+			( "distrib" "SWITCHTIME_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+		( "PERIOD"
+			( "val" "25e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "VC_MAX_DTY"
+			( "val" "0.7" )
+			( "postol" "VC_MAX_DTY_PTOL" )
+			( "negtol" "VC_MAX_DTY_NTOL" )
+			( "distrib" "VC_MAX_DTY_DIST" )
+		)
+		( "VC_MIN_DTY"
+			( "val" "3.5" )
+			( "postol" "VC_MIN_DTY_PTOL" )
+			( "negtol" "VC_MIN_DTY_NTOL" )
+			( "distrib" "VC_MIN_DTY_DIST" )
+		)
+	)
+	("symbol"
+			( "DEAD_TIME" )
+			( "PERIOD" )
+			( "SWITCHTIME" )
+			( "VC_MAX_DTY" )
+			( "VC_MIN_DTY" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+
+
+("awb1524_sac"
+	(Creator "Device property file created by analog_uprev: 1524_sac on Wed Aug  1 19:41:55 IST 2007")
+	("device_info"
+		( SYMBOL_NAME "SG1524block" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C")
+ 			("D") )
+	)
+	("model_params"
+	("level_0"
+		( "SWITCHTIME"
+			( "val" ".5E-6" )
+			( "postol" "SWITCHTIME_PTOL" )
+			( "negtol" "SWITCHTIME_NTOL" )
+			( "distrib" "SWITCHTIME_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1E-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+		( "PERIOD"
+			( "val" "20E-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "MAX_V"
+			( "val" "3.5" )
+			( "postol" "MAX_V_PTOL" )
+			( "negtol" "MAX_V_NTOL" )
+			( "distrib" "MAX_V_DIST" )
+		)
+		( "MIN_V"
+			( "val" "1" )
+			( "postol" "MIN_V_PTOL" )
+			( "negtol" "MIN_V_NTOL" )
+			( "distrib" "MIN_V_DIST" )
+		)
+		( "AVMAX"
+			( "val" "80" )
+			( "postol" "AVMAX_PTOL" )
+			( "negtol" "AVMAX_NTOL" )
+			( "distrib" "AVMAX_DIST" )
+		)
+		( "GM"
+			( "val" "2E-3" )
+			( "postol" "GM_PTOL" )
+			( "negtol" "GM_NTOL" )
+			( "distrib" "GM_DIST" )
+		)
+		( "GBW"
+			( "val" "3E6" )
+			( "postol" "GBW_PTOL" )
+			( "negtol" "GBW_NTOL" )
+			( "distrib" "GBW_DIST" )
+		)
+	)
+	("symbol"
+			( "AVMAX" )
+			( "DEAD_TIME" )
+			( "GBW" )
+			( "GM" )
+			( "MAX_V" )
+			( "MIN_V" )
+			( "PERIOD" )
+			( "SWITCHTIME" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+
+
+("awb1524a_sac"
+	(Creator "Device property file created by analog_uprev: 1524a_sac on Wed Aug  1 19:41:55 IST 2007")
+	("device_info"
+		( SYMBOL_NAME "1524A_SAC" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C")
+ 			("D")
+ 			("E")
+ 			("F")
+ 			("G")
+ 			("H") )
+	)
+	("model_params"
+	("level_0"
+		( "SWITCHTIME"
+			( "val" "0.1e-6" )
+			( "postol" "SWITCHTIME_PTOL" )
+			( "negtol" "SWITCHTIME_NTOL" )
+			( "distrib" "SWITCHTIME_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "0.5e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+		( "PERIOD"
+			( "val" "20e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "MAX_V"
+			( "val" "3.5" )
+			( "postol" "MAX_V_PTOL" )
+			( "negtol" "MAX_V_NTOL" )
+			( "distrib" "MAX_V_DIST" )
+		)
+		( "MIN_V"
+			( "val" "0.8" )
+			( "postol" "MIN_V_PTOL" )
+			( "negtol" "MIN_V_NTOL" )
+			( "distrib" "MIN_V_DIST" )
+		)
+		( "GM"
+			( "val" "2.3e-3" )
+			( "postol" "GM_PTOL" )
+			( "negtol" "GM_NTOL" )
+			( "distrib" "GM_DIST" )
+		)
+		( "AVMAX"
+			( "val" "80" )
+			( "postol" "AVMAX_PTOL" )
+			( "negtol" "AVMAX_NTOL" )
+			( "distrib" "AVMAX_DIST" )
+		)
+		( "GBW"
+			( "val" "3e+6" )
+			( "postol" "GBW_PTOL" )
+			( "negtol" "GBW_NTOL" )
+			( "distrib" "GBW_DIST" )
+		)
+		( "UVLO_ON_OFF"
+			( "val" "0" )
+			( "postol" "0" )
+			( "negtol" "0" )
+		)
+	)
+	("symbol"
+			( "AVMAX" )
+			( "DEAD_TIME" )
+			( "GBW" )
+			( "GM" )
+			( "MAX_V" )
+			( "MIN_V" )
+			( "PERIOD" )
+			( "SWITCHTIME" )
+			( "UVLO_ON_OFF" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+
+("awb1525a_sac"
+	(Creator "Device property file created by analog_uprev: 1525a_sac on Wed Aug  1 19:41:55 IST 2007")
+	("device_info"
+		( SYMBOL_NAME "SG1524block" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("D")
+ 			("C")
+ 			("B")
+ 			("A") )
+	)
+	("model_params"
+	("level_0"
+		( "SWITCHTIME"
+			( "val" "0.5e-6" )
+			( "postol" "SWITCHTIME_PTOL" )
+			( "negtol" "SWITCHTIME_NTOL" )
+			( "distrib" "SWITCHTIME_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+		( "PERIOD"
+			( "val" "50e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "MAX_V"
+			( "val" "3.3" )
+			( "postol" "MAX_V_PTOL" )
+			( "negtol" "MAX_V_NTOL" )
+			( "distrib" "MAX_V_DIST" )
+		)
+		( "MIN_V"
+			( "val" "0.9" )
+			( "postol" "MIN_V_PTOL" )
+			( "negtol" "MIN_V_NTOL" )
+			( "distrib" "MIN_V_DIST" )
+		)
+	)
+	("symbol"
+			( "DEAD_TIME" )
+			( "MAX_V" )
+			( "MIN_V" )
+			( "PERIOD" )
+			( "SWITCHTIME" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+
+
+("awb1526_sac"
+	(Creator "Device property file created by analog_uprev: 1526_sac on Wed Aug  1 19:41:55 IST 2007")
+	("device_info"
+		( SYMBOL_NAME "SG1524block" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C")
+ 			("D") )
+	)
+	("model_params"
+	("level_0"
+		( "SWITCHTIME"
+			( "val" "0.5e-6" )
+			( "postol" "SWITCHTIME_PTOL" )
+			( "negtol" "SWITCHTIME_NTOL" )
+			( "distrib" "SWITCHTIME_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "5e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+		( "PERIOD"
+			( "val" "50e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "MAX_V"
+			( "val" "3" )
+			( "postol" "MAX_V_PTOL" )
+			( "negtol" "MAX_V_NTOL" )
+			( "distrib" "MAX_V_DIST" )
+		)
+		( "MIN_V"
+			( "val" "1" )
+			( "postol" "MIN_V_PTOL" )
+			( "negtol" "MIN_V_NTOL" )
+			( "distrib" "MIN_V_DIST" )
+		)
+	)
+	("symbol"
+			( "DEAD_TIME" )
+			( "MAX_V" )
+			( "MIN_V" )
+			( "PERIOD" )
+			( "SWITCHTIME" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+
+("awb1527a_sac"
+	(Creator "Device property file created by analog_uprev: 1527a_sac on Wed Aug  1 19:41:55 IST 2007")
+	("device_info"
+		( SYMBOL_NAME "SG1524block" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C")
+ 			("D") )
+	)
+	("model_params"
+	("level_0"
+		( "SWITCHTIME"
+			( "val" "0.5e-6" )
+			( "postol" "SWITCHTIME_PTOL" )
+			( "negtol" "SWITCHTIME_NTOL" )
+			( "distrib" "SWITCHTIME_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+		( "PERIOD"
+			( "val" "50e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "MAX_V"
+			( "val" "3.3" )
+			( "postol" "MAX_V_PTOL" )
+			( "negtol" "MAX_V_NTOL" )
+			( "distrib" "MAX_V_DIST" )
+		)
+		( "MIN_V"
+			( "val" "0.9" )
+			( "postol" "MIN_V_PTOL" )
+			( "negtol" "MIN_V_NTOL" )
+			( "distrib" "MIN_V_DIST" )
+		)
+	)
+	("symbol"
+			( "DEAD_TIME" )
+			( "MAX_V" )
+			( "MIN_V" )
+			( "PERIOD" )
+			( "SWITCHTIME" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+("awb1577_sac"
+	(Creator "Device property file created by analog_uprev: 1577_sac on Wed Jun 27 16:21:16 IST 2007")
+	("device_info"
+		( MODEL_TYPE 591 )
+		( SYMBOL_NAME "SA_1577" )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C")
+ 			("D")
+			("E")
+			("F")
+			("G")
+			("H")
+			("I")
+			("J")
+			("K") )
+	)
+	("model_params"
+	("level_0"
+		( "STRG_TIME"
+			( "val" ".1e-6" )
+			( "postol" "STRG_TIME_PTOL" )
+			( "negtol" "STRG_TIME_NTOL" )
+			( "distrib" "STRG_TIME_DIST" )
+		)
+		( "INDUCTANCE"
+			( "val" "100e-6" )
+			( "postol" "INDUCTANCE_PTOL" )
+			( "negtol" "INDUCTANCE_NTOL" )
+			( "distrib" "INDUCTANCE_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-9" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+		( "IND_LEAK"
+			( "val" "1e-6" )
+			( "postol" "IND_LEAK_PTOL" )
+			( "negtol" "IND_LEAK_NTOL" )
+			( "distrib" "IND_LEAK_DIST" )
+		)
+		( "TRNS_RATIO"
+			( "val" "1" )
+			( "postol" "TRNS_RATIO_PTOL" )
+			( "negtol" "TRNS_RATIO_NTOL" )
+			( "distrib" "TRNS_RATIO_DIST" )
+		)
+		( "T_METER"
+			( "val" "0" )
+			( "postol" "T_METER_PTOL" )
+			( "negtol" "T_METER_NTOL" )
+			( "distrib" "T_METER_DIST" )
+		)
+		( "T_RJA"
+			( "val" "55" )
+			( "postol" "T_RJA_PTOL" )
+			( "negtol" "T_RJA_NTOL" )
+			( "distrib" "T_RJA_DIST" )
+		)
+		( "T_AMBNT"
+			( "val" "26" )
+			( "postol" "T_AMBNT_PTOL" )
+			( "negtol" "T_AMBNT_NTOL" )
+			( "distrib" "T_AMBNT_DIST" )
+		)
+		( "T_S_UF"
+			( "val" "1" )
+			( "postol" "T_S_UF_PTOL" )
+			( "negtol" "T_S_UF_NTOL" )
+			( "distrib" "T_S_UF_DIST" )
+		)
+		( "T_FBK_BST"
+			( "val" "1" )
+			( "postol" "T_FBK_BST_PTOL" )
+			( "negtol" "T_FBK_BST_NTOL" )
+			( "distrib" "T_FBK_BST_DIST" )
+		)
+	)
+	("symbol"
+			( "DEAD_TIME" )
+			( "INDUCTANCE" )
+			( "IND_LEAK" )
+			( "STRG_TIME" )
+			( "TRNS_RATIO" )
+			( "T_AMBNT" )
+			( "T_FBK_BST" )
+			( "T_METER" )
+			( "T_RJA" )
+			( "T_S_UF" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+
+
+("awb1825_sac"
+	(Creator "Device property file created by analog_uprev: 1825_sac on Thu Aug  2 09:49:19 IST 2007")
+	("device_info"
+		( MODEL_TYPE 591 )
+		( SYMBOL_NAME "UC1825_SAC" )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C")
+ 			("D")
+ 			("E")
+ 			("F")
+ 			("H")
+ 			("I")
+ 			("J")
+ 			("K")
+ 			("L")
+ 			("M")
+ 			("N")
+ 			("O")
+ 			("P") )
+	)
+	("model_params"
+	("level_0"
+		( "PERIOD"
+			( "val" "10e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+		( "T_STORAGE"
+			( "val" "0" )
+			( "postol" "T_STORAGE_PTOL
+T_STORAGE_PTOL" )
+			( "negtol" "T_STORAGE_NTOL
+T_STORAGE_NTOL" )
+			( "distrib" "T_STORAGE_DIST
+T_STORAGE_DIST" )
+		)
+		( "INDUCTANCE"
+			( "val" "100e-6" )
+			( "postol" "INDUCTANCE_PTOL" )
+			( "negtol" "INDUCTANCE_NTOL" )
+			( "distrib" "INDUCTANCE_DIST" )
+		)
+		( "VF_DIODE"
+			( "val" "0" )
+			( "postol" "VF_DIODE_PTOL" )
+			( "negtol" "VF_DIODE_NTOL" )
+			( "distrib" "VF_DIODE_DIST" )
+		)
+		( "N_FWD_MODE"
+			( "val" "1" )
+			( "postol" "N_FWD_MODE_PTOL" )
+			( "negtol" "N_FWD_MODE_NTOL" )
+			( "distrib" "N_FWD_MODE_DIST" )
+		)
+		( "COMP_SLOPE"
+			( "val" "0" )
+			( "postol" "COMP_SLOPE_PTOL" )
+			( "negtol" "COMP_SLOPE_NTOL" )
+			( "distrib" "COMP_SLOPE_DIST" )
+		)
+		( "ISENS_GAIN"
+			( "val" "1" )
+			( "postol" "ISENS_GAIN_PTOL" )
+			( "negtol" "ISENS_GAIN_NTOL" )
+			( "distrib" "ISENS_GAIN_DIST" )
+		)
+		( "ILIM_GAIN"
+			( "val" "0" )
+			( "postol" "ILIM_GAIN_PTOL" )
+			( "negtol" "ILIM_GAIN_NTOL" )
+			( "distrib" "ILIM_GAIN_DIST" )
+		)
+	)
+	("symbol"
+			( "COMP_SLOPE" )
+			( "DEAD_TIME" )
+			( "ILIM_GAIN" )
+			( "INDUCTANCE" )
+			( "ISENS_GAIN" )
+			( "N_FWD_MODE" )
+			( "PERIOD" )
+			( "T_STORAGE" )
+			( "VF_DIODE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+
+("awb1842_sac"
+	(Creator "Device property file created by analog_uprev: 1842_sac on Wed Jun 27 00:48:10 IST 2007")
+	("device_info"
+		( MODEL_TYPE 591 )
+		( SYMBOL_NAME "SA_1842" )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C")
+ 			("D")
+			("e") 
+			("g")
+			("h")
+			("i")
+			("j")
+			("m")
+			("n") )
+	)
+	("model_params"
+	("level_0"
+		( "VF_DIODE"
+			( "val" "0" )
+			( "postol" "VF_DIODE_PTOL" )
+			( "negtol" "VF_DIODE_NTOL" )
+			( "distrib" "VF_DIODE_DIST" )
+		)
+		( "T_STORAGE"
+			( "val" "0" )
+			( "postol" "T_STORAGE_PTOL
+T_STORAGE_PTOL" )
+			( "negtol" "T_STORAGE_NTOL
+T_STORAGE_NTOL" )
+			( "distrib" "T_STORAGE_DIST
+T_STORAGE_DIST" )
+		)
+		( "PERIOD"
+			( "val" "10e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "N_FWD_MODE"
+			( "val" "1" )
+			( "postol" "N_FWD_MODE_PTOL" )
+			( "negtol" "N_FWD_MODE_NTOL" )
+			( "distrib" "N_FWD_MODE_DIST" )
+		)
+		( "COMP_SLOPE"
+			( "val" "0" )
+			( "postol" "COMP_SLOPE_PTOL" )
+			( "negtol" "COMP_SLOPE_NTOL" )
+			( "distrib" "COMP_SLOPE_DIST" )
+		)
+		( "INDUCTANCE"
+			( "val" "100e-6" )
+			( "postol" "INDUCTANCE_PTOL" )
+			( "negtol" "INDUCTANCE_NTOL" )
+			( "distrib" "INDUCTANCE_DIST" )
+		)
+		( "ISENS_GAIN"
+			( "val" "1" )
+			( "postol" "ISENS_GAIN_PTOL" )
+			( "negtol" "ISENS_GAIN_NTOL" )
+			( "distrib" "ISENS_GAIN_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+	)
+	("symbol"
+			( "COMP_SLOPE" )
+			( "DEAD_TIME" )
+			( "INDUCTANCE" )
+			( "ISENS_GAIN" )
+			( "N_FWD_MODE" )
+			( "PERIOD" )
+			( "T_STORAGE" )
+			( "VF_DIODE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+
+
+("awb1843_sac"
+	(Creator "Device property file created by analog_uprev: 1843_sac on Mon Jul 30 15:27:52 IST 2007")
+	("device_info"
+		( MODEL_TYPE 591 )
+		( SYMBOL_NAME "SA_1842" )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C")
+ 			("D")
+ 			("E")
+ 			("G")
+ 			("H")
+ 			("I")
+ 			("J")
+ 			("M")
+ 			("N") )
+	)
+	("model_params"
+	("level_0"
+		( "VF_DIODE"
+			( "val" "0" )
+			( "postol" "VF_DIODE_PTOL" )
+			( "negtol" "VF_DIODE_NTOL" )
+			( "distrib" "VF_DIODE_DIST" )
+		)
+		( "T_STORAGE"
+			( "val" "0" )
+			( "postol" "T_STORAGE_PTOL
+T_STORAGE_PTOL" )
+			( "negtol" "T_STORAGE_NTOL
+T_STORAGE_NTOL" )
+			( "distrib" "T_STORAGE_DIST
+T_STORAGE_DIST" )
+		)
+		( "PERIOD"
+			( "val" "10e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "N_FWD_MODE"
+			( "val" "1" )
+			( "postol" "N_FWD_MODE_PTOL" )
+			( "negtol" "N_FWD_MODE_NTOL" )
+			( "distrib" "N_FWD_MODE_DIST" )
+		)
+		( "COMP_SLOPE"
+			( "val" "0" )
+			( "postol" "COMP_SLOPE_PTOL" )
+			( "negtol" "COMP_SLOPE_NTOL" )
+			( "distrib" "COMP_SLOPE_DIST" )
+		)
+		( "INDUCTANCE"
+			( "val" "100e-6" )
+			( "postol" "INDUCTANCE_PTOL" )
+			( "negtol" "INDUCTANCE_NTOL" )
+			( "distrib" "INDUCTANCE_DIST" )
+		)
+		( "ISENS_GAIN"
+			( "val" "1" )
+			( "postol" "ISENS_GAIN_PTOL" )
+			( "negtol" "ISENS_GAIN_NTOL" )
+			( "distrib" "ISENS_GAIN_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+	)
+	("symbol"
+			( "COMP_SLOPE" )
+			( "DEAD_TIME" )
+			( "INDUCTANCE" )
+			( "ISENS_GAIN" )
+			( "N_FWD_MODE" )
+			( "PERIOD" )
+			( "T_STORAGE" )
+			( "VF_DIODE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+("awb1844_sac"
+	(Creator "Device property file created by analog_uprev: 1844_sac on Wed Aug  1 18:56:38 IST 2007")
+	("device_info"
+		( MODEL_TYPE 591 )
+		( SYMBOL_NAME "SA_1842" )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C")
+ 			("D")
+ 			("E")
+ 			("G")
+ 			("H")
+ 			("I")
+ 			("J")
+ 			("M")
+ 			("N") )
+	)
+	("model_params"
+	("level_0"
+		( "VF_DIODE"
+			( "val" "0" )
+			( "postol" "VF_DIODE_PTOL" )
+			( "negtol" "VF_DIODE_NTOL" )
+			( "distrib" "VF_DIODE_DIST" )
+		)
+		( "T_STORAGE"
+			( "val" "0" )
+			( "postol" "T_STORAGE_PTOL
+T_STORAGE_PTOL" )
+			( "negtol" "T_STORAGE_NTOL
+T_STORAGE_NTOL" )
+			( "distrib" "T_STORAGE_DIST
+T_STORAGE_DIST" )
+		)
+		( "PERIOD"
+			( "val" "10e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "N_FWD_MODE"
+			( "val" "1" )
+			( "postol" "N_FWD_MODE_PTOL" )
+			( "negtol" "N_FWD_MODE_NTOL" )
+			( "distrib" "N_FWD_MODE_DIST" )
+		)
+		( "COMP_SLOPE"
+			( "val" "0" )
+			( "postol" "COMP_SLOPE_PTOL" )
+			( "negtol" "COMP_SLOPE_NTOL" )
+			( "distrib" "COMP_SLOPE_DIST" )
+		)
+		( "INDUCTANCE"
+			( "val" "100e-6" )
+			( "postol" "INDUCTANCE_PTOL" )
+			( "negtol" "INDUCTANCE_NTOL" )
+			( "distrib" "INDUCTANCE_DIST" )
+		)
+		( "ISENS_GAIN"
+			( "val" "1" )
+			( "postol" "ISENS_GAIN_PTOL" )
+			( "negtol" "ISENS_GAIN_NTOL" )
+			( "distrib" "ISENS_GAIN_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+	)
+	("symbol"
+			( "COMP_SLOPE" )
+			( "DEAD_TIME" )
+			( "INDUCTANCE" )
+			( "ISENS_GAIN" )
+			( "N_FWD_MODE" )
+			( "PERIOD" )
+			( "T_STORAGE" )
+			( "VF_DIODE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+
+
+("awb1845_sac"
+	(Creator "Device property file created by analog_uprev: 1845_sac on Wed Jun 27 02:45:50 IST 2007")
+	("device_info"
+		( MODEL_TYPE 591 )
+		( SYMBOL_NAME "SA_1842" )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C")
+ 			("D")
+			("E")
+			("G")
+			("H")
+			("I")
+			("J")
+			("M")
+			("N") )
+	)
+	("model_params"
+	("level_0"
+		( "VF_DIODE"
+			( "val" "0" )
+			( "postol" "VF_DIODE_PTOL" )
+			( "negtol" "VF_DIODE_NTOL" )
+			( "distrib" "VF_DIODE_DIST" )
+		)
+		( "T_STORAGE"
+			( "val" "0" )
+			( "postol" "T_STORAGE_PTOL
+T_STORAGE_PTOL" )
+			( "negtol" "T_STORAGE_NTOL
+T_STORAGE_NTOL" )
+			( "distrib" "T_STORAGE_DIST
+T_STORAGE_DIST" )
+		)
+		( "PERIOD"
+			( "val" "10e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "N_FWD_MODE"
+			( "val" "1" )
+			( "postol" "N_FWD_MODE_PTOL" )
+			( "negtol" "N_FWD_MODE_NTOL" )
+			( "distrib" "N_FWD_MODE_DIST" )
+		)
+		( "COMP_SLOPE"
+			( "val" "0" )
+			( "postol" "COMP_SLOPE_PTOL" )
+			( "negtol" "COMP_SLOPE_NTOL" )
+			( "distrib" "COMP_SLOPE_DIST" )
+		)
+		( "INDUCTANCE"
+			( "val" "100e-6" )
+			( "postol" "INDUCTANCE_PTOL" )
+			( "negtol" "INDUCTANCE_NTOL" )
+			( "distrib" "INDUCTANCE_DIST" )
+		)
+		( "ISENS_GAIN"
+			( "val" "1" )
+			( "postol" "ISENS_GAIN_PTOL" )
+			( "negtol" "ISENS_GAIN_NTOL" )
+			( "distrib" "ISENS_GAIN_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+	)
+	("symbol"
+			( "COMP_SLOPE" )
+			( "DEAD_TIME" )
+			( "INDUCTANCE" )
+			( "ISENS_GAIN" )
+			( "N_FWD_MODE" )
+			( "PERIOD" )
+			( "T_STORAGE" )
+			( "VF_DIODE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+("awb1846_sac"
+	(Creator "Device property file created by analog_uprev: 1846_sac on Mon Jul 30 15:16:23 IST 2007")
+	("device_info"
+		( MODEL_TYPE 591 )
+		( SYMBOL_NAME "SA_1846" )
+		( PORT_ORDER 
+ 			("P")
+ 			("O")
+ 			("N")
+ 			("M")
+ 			("L")
+ 			("K")
+ 			("J")
+ 			("G")
+ 			("F")
+ 			("E")
+ 			("D")
+ 			("C")
+ 			("B")
+ 			("A") )
+	)
+	("model_params"
+	("level_0"
+		( "VF_DIODE"
+			( "val" "0" )
+			( "postol" "VF_DIODE_PTOL" )
+			( "negtol" "VF_DIODE_NTOL" )
+			( "distrib" "VF_DIODE_DIST" )
+		)
+		( "T_STORAGE"
+			( "val" "0" )
+			( "postol" "T_STORAGE_PTOL
+T_STORAGE_PTOL" )
+			( "negtol" "T_STORAGE_NTOL
+T_STORAGE_NTOL" )
+			( "distrib" "T_STORAGE_DIST
+T_STORAGE_DIST" )
+		)
+		( "PERIOD"
+			( "val" "10e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "N_FWD_MODE"
+			( "val" "1" )
+			( "postol" "N_FWD_MODE_PTOL" )
+			( "negtol" "N_FWD_MODE_NTOL" )
+			( "distrib" "N_FWD_MODE_DIST" )
+		)
+		( "COMP_SLOPE"
+			( "val" "0" )
+			( "postol" "COMP_SLOPE_PTOL" )
+			( "negtol" "COMP_SLOPE_NTOL" )
+			( "distrib" "COMP_SLOPE_DIST" )
+		)
+		( "INDUCTANCE"
+			( "val" "100e-6" )
+			( "postol" "INDUCTANCE_PTOL" )
+			( "negtol" "INDUCTANCE_NTOL" )
+			( "distrib" "INDUCTANCE_DIST" )
+		)
+		( "ISENS_GAIN"
+			( "val" "1" )
+			( "postol" "ISENS_GAIN_PTOL" )
+			( "negtol" "ISENS_GAIN_NTOL" )
+			( "distrib" "ISENS_GAIN_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+	)
+	("symbol"
+			( "COMP_SLOPE" )
+			( "DEAD_TIME" )
+			( "INDUCTANCE" )
+			( "ISENS_GAIN" )
+			( "N_FWD_MODE" )
+			( "PERIOD" )
+			( "T_STORAGE" )
+			( "VF_DIODE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+("awb1847_sac"
+	(Creator "Device property file created by analog_uprev: 1847_sac on Thu Aug  2 09:49:19 IST 2007")
+	("device_info"
+		( MODEL_TYPE 591 )
+		( SYMBOL_NAME "SA_1846" )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C")
+ 			("D")
+ 			("E")
+ 			("F")
+ 			("G")
+ 			("J")
+ 			("K")
+ 			("L")
+ 			("M")
+ 			("N")
+ 			("O")
+ 			("P") )
+	)
+	("model_params"
+	("level_0"
+		( "VF_DIODE"
+			( "val" "0" )
+			( "postol" "VF_DIODE_PTOL" )
+			( "negtol" "VF_DIODE_NTOL" )
+			( "distrib" "VF_DIODE_DIST" )
+		)
+		( "T_STORAGE"
+			( "val" "0" )
+			( "postol" "T_STORAGE_PTOL
+T_STORAGE_PTOL" )
+			( "negtol" "T_STORAGE_NTOL
+T_STORAGE_NTOL" )
+			( "distrib" "T_STORAGE_DIST
+T_STORAGE_DIST" )
+		)
+		( "PERIOD"
+			( "val" "10e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "N_FWD_MODE"
+			( "val" "1" )
+			( "postol" "N_FWD_MODE_PTOL" )
+			( "negtol" "N_FWD_MODE_NTOL" )
+			( "distrib" "N_FWD_MODE_DIST" )
+		)
+		( "COMP_SLOPE"
+			( "val" "0" )
+			( "postol" "COMP_SLOPE_PTOL" )
+			( "negtol" "COMP_SLOPE_NTOL" )
+			( "distrib" "COMP_SLOPE_DIST" )
+		)
+		( "INDUCTANCE"
+			( "val" "100e-6" )
+			( "postol" "INDUCTANCE_PTOL" )
+			( "negtol" "INDUCTANCE_NTOL" )
+			( "distrib" "INDUCTANCE_DIST" )
+		)
+		( "ISENS_GAIN"
+			( "val" "1" )
+			( "postol" "ISENS_GAIN_PTOL" )
+			( "negtol" "ISENS_GAIN_NTOL" )
+			( "distrib" "ISENS_GAIN_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+	)
+	("symbol"
+			( "COMP_SLOPE" )
+			( "DEAD_TIME" )
+			( "INDUCTANCE" )
+			( "ISENS_GAIN" )
+			( "N_FWD_MODE" )
+			( "PERIOD" )
+			( "T_STORAGE" )
+			( "VF_DIODE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+("awbpwmbck"
+	(Creator "Device property file created by analog_uprev: pwmbck on Thu Aug  2 10:02:24 IST 2007")
+	("device_info"
+		( SYMBOL_NAME "PWMXFM" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C")
+ 			("D")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "R_OUT"
+			( "val" "0.01" )
+			( "postol" "R_OUT_PTOL" )
+			( "negtol" "R_OUT_NTOL" )
+			( "distrib" "R_OUT_DIST" )
+		)
+		( "TRNS_RATIO"
+			( "val" "1" )
+			( "postol" "TRNS_RATIO_PTOL" )
+			( "negtol" "TRNS_RATIO_NTOL" )
+			( "distrib" "TRNS_RATIO_DIST" )
+		)
+	)
+	("symbol"
+			( "R_OUT" )
+			( "TRNS_RATIO" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+("awbpwmbckd"
+	(Creator "Device property file created by analog_uprev: pwmbckd on Thu Aug  2 10:02:24 IST 2007")
+	("device_info"
+		( SYMBOL_NAME "PWMFLYD" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C")
+ 			("D")
+ 			("E")
+ 			("F")
+ 			("G") )
+	)
+	("model_params"
+	("level_0"
+		( "R_SENSE"
+			( "val" "1e-6" )
+			( "postol" "R_SENSE_PTOL" )
+			( "negtol" "R_SENSE_NTOL" )
+			( "distrib" "R_SENSE_DIST" )
+		)
+		( "R_INPUT"
+			( "val" "1e-6" )
+			( "postol" "R_INPUT_PTOL" )
+			( "negtol" "R_INPUT_NTOL" )
+			( "distrib" "R_INPUT_DIST" )
+		)
+		( "TRNS_RATIO"
+			( "val" "1" )
+			( "postol" "TRNS_RATIO_PTOL" )
+			( "negtol" "TRNS_RATIO_NTOL" )
+			( "distrib" "TRNS_RATIO_DIST" )
+		)
+		( "PERIOD"
+			( "val" "1e-5" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "INDUCTANCE"
+			( "val" "1e-3" )
+			( "postol" "INDUCTANCE_PTOL" )
+			( "negtol" "INDUCTANCE_NTOL" )
+			( "distrib" "INDUCTANCE_DIST" )
+		)
+	)
+	("symbol"
+			( "INDUCTANCE" )
+			( "PERIOD" )
+			( "R_INPUT" )
+			( "R_SENSE" )
+			( "TRNS_RATIO" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+
+("awbpwmbst"
+	(Creator "Device property file created by analog_uprev: pwmbst on Thu Aug  2 10:02:24 IST 2007")
+	("device_info"
+		( SYMBOL_NAME "PWMBST" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C")
+ 			("D")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "R_IN"
+			( "val" "0.01" )
+			( "postol" "R_IN_PTOL" )
+			( "negtol" "R_IN_NTOL" )
+			( "distrib" "R_IN_DIST" )
+		)
+		( "TRNS_RATIO"
+			( "val" "1" )
+			( "postol" "TRNS_RATIO_PTOL" )
+			( "negtol" "TRNS_RATIO_NTOL" )
+			( "distrib" "TRNS_RATIO_DIST" )
+		)
+	)
+	("symbol"
+			( "R_IN" )
+			( "TRNS_RATIO" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+("awbpwmbstd"
+	(Creator "Device property file created by analog_uprev: pwmbstd on Thu Aug  2 10:02:24 IST 2007")
+	("device_info"
+		( SYMBOL_NAME "PWMFLYD" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C")
+ 			("D")
+ 			("E")
+ 			("F")
+ 			("G") )
+	)
+	("model_params"
+	("level_0"
+		( "TRNS_RATIO"
+			( "val" "1" )
+			( "postol" "TRNS_RATIO_PTOL" )
+			( "negtol" "TRNS_RATIO_NTOL" )
+			( "distrib" "TRNS_RATIO_DIST" )
+		)
+		( "PERIOD"
+			( "val" "10e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "INDUCTANCE"
+			( "val" "100e-6" )
+			( "postol" "INDUCTANCE_PTOL" )
+			( "negtol" "INDUCTANCE_NTOL" )
+			( "distrib" "INDUCTANCE_DIST" )
+		)
+	)
+	("symbol"
+			( "INDUCTANCE" )
+			( "PERIOD" )
+			( "TRNS_RATIO" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+("awbpwmflyd"
+	(Creator "Device property file created by analog_uprev: pwmflyd on Thu Aug  2 10:02:24 IST 2007")
+	("device_info"
+		( MODEL_TYPE 591 )
+		( SYMBOL_NAME "PWMFLYD" )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C")
+ 			("D")
+ 			("E")
+ 			("F")
+ 			("G") )
+	)
+	("model_params"
+	("level_0"
+		( "PERIOD"
+			( "val" "10e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "TRNS_RATIO"
+			( "val" "1" )
+			( "postol" "TRNS_RATIO_PTOL" )
+			( "negtol" "TRNS_RATIO_NTOL" )
+			( "distrib" "TRNS_RATIO_DIST" )
+		)
+		( "INDUCTANCE"
+			( "val" "100e-6" )
+			( "postol" "INDUCTANCE_PTOL" )
+			( "negtol" "INDUCTANCE_NTOL" )
+			( "distrib" "INDUCTANCE_DIST" )
+		)
+		( "R_SENSE"
+			( "val" "1e-4" )
+			( "postol" "R_SENSE_PTOL" )
+			( "negtol" "R_SENSE_NTOL" )
+			( "distrib" "R_SENSE_DIST" )
+		)
+		( "R_INPUT"
+			( "val" "1e-4" )
+			( "postol" "R_INPUT_PTOL" )
+			( "negtol" "R_INPUT_NTOL" )
+			( "distrib" "R_INPUT_DIST" )
+		)
+	)
+	("symbol"
+			( "INDUCTANCE" )
+			( "PERIOD" )
+			( "R_INPUT" )
+			( "R_SENSE" )
+			( "TRNS_RATIO" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+("awbpwmxfm"
+	(Creator "Device property file created by analog_uprev: pwmxfm on Thu Aug  2 10:02:24 IST 2007")
+	("device_info"
+		( SYMBOL_NAME "PWMXFM" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C")
+ 			("D")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "R_OUT"
+			( "val" "0.01" )
+			( "postol" "R_OUT_PTOL" )
+			( "negtol" "R_OUT_NTOL" )
+			( "distrib" "R_OUT_DIST" )
+		)
+		( "TRNS_RATIO"
+			( "val" "1" )
+			( "postol" "TRNS_RATIO_PTOL" )
+			( "negtol" "TRNS_RATIO_NTOL" )
+			( "distrib" "TRNS_RATIO_DIST" )
+		)
+	)
+	("symbol"
+			( "R_OUT" )
+			( "TRNS_RATIO" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+("awbuc1854_sac"
+	(Creator "Device property file created by analog_uprev: uc1854_sac on Thu Aug  2 14:19:58 IST 2007")
+	("device_info"
+		( MODEL_TYPE 591 )
+		( SYMBOL_NAME "UC1854_SAC" )
+		( PORT_ORDER 
+ 			("VAO")
+ 			("VSNS")
+ 			("PKLM")
+ 			("CAO")
+ 			("ISNS")
+ 			("MULT")
+ 			("DUTY")
+ 			("VCC")
+ 			("COM")
+ 			("SS")
+ 			("ENA")
+ 			("RSET")
+ 			("CT")
+ 			("VRMS")
+ 			("IAC")
+ 			("VREF") )
+	)
+	("model_params"
+	("level_0"
+		( "PERIOD"
+			( "val" "10E-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "0.25e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+		( "VSAWMIN"
+			( "val" "1.1" )
+			( "postol" "VSAWMIN_PTOL" )
+			( "negtol" "VSAWMIN_NTOL" )
+			( "distrib" "VSAWMIN_DIST" )
+		)
+		( "VSAWMAX"
+			( "val" "6.3" )
+			( "postol" "VSAWMAX_PTOL" )
+			( "negtol" "VSAWMAX_NTOL" )
+			( "distrib" "VSAWMAX_DIST" )
+		)
+		( "UVLO_ON_OFF"
+			( "val" "0" )
+			( "postol" "0" )
+			( "negtol" "0" )
+			( "distrib" "FLAT" )
+		)
+		( "SS_ON_OFF"
+			( "val" "1" )
+			( "postol" "0" )
+			( "negtol" "0" )
+			( "distrib" "FLAT" )
+		)
+		( "VREF"
+			( "val" "7.5" )
+			( "postol" "VREF_PTOL" )
+			( "negtol" "VREF_NTOL" )
+			( "distrib" "VREF_DIST" )
+		)
+		( "ICCON"
+			( "val" "10E-3" )
+			( "postol" "ICCON_PTOL" )
+			( "negtol" "ICCON_NTOL" )
+			( "distrib" "ICCON_DIST" )
+		)
+		( "ICCOFF"
+			( "val" "1.5E-3" )
+			( "postol" "ICCOFF_PTOL" )
+			( "negtol" "ICCOFF_NTOL" )
+			( "distrib" "ICCOFF_DIST" )
+		)
+		( "VOSVA"
+			( "val" "4e-3" )
+			( "postol" "VOSVA_PTOL" )
+			( "negtol" "VOSVA_NTOL" )
+			( "distrib" "VOSVA_DIST" )
+		)
+		( "VOSCA"
+			( "val" "2e-3" )
+			( "postol" "VOSCA_PTOL" )
+			( "negtol" "VOSCA_NTOL" )
+			( "distrib" "VOSCA_DIST" )
+		)
+		( "AVVA"
+			( "val" "100" )
+			( "postol" "AVVA_PTOL" )
+			( "negtol" "AVVA_NTOL" )
+			( "distrib" "AVVA_DIST" )
+		)
+		( "AVCA"
+			( "val" "110" )
+			( "postol" "AVCA_PTOL" )
+			( "negtol" "AVCA_NTOL" )
+			( "distrib" "AVCA_DIST" )
+		)
+		( "GBWVA"
+			( "val" "500E3" )
+			( "postol" "GBWVA_PTOL" )
+			( "negtol" "GBWVA_NTOL" )
+			( "distrib" "GBWVA_DIST" )
+		)
+		( "GBWCA"
+			( "val" "900E3" )
+			( "postol" "GBWCA_PTOL" )
+			( "negtol" "GBWCA_NTOL" )
+			( "distrib" "GBWCA_DIST" )
+		)
+		( "SRVA"
+			( "val" "2E6" )
+			( "postol" "SRVA_PTOL" )
+			( "negtol" "SRVA_NTOL" )
+			( "distrib" "SRVA_DIST" )
+		)
+		( "SRCA"
+			( "val" "2E6" )
+			( "postol" "SRCA_PTOL" )
+			( "negtol" "SRCA_NTOL" )
+			( "distrib" "SRCA_DIST" )
+		)
+		( "VMAXVA"
+			( "val" "5.75" )
+			( "postol" "VMAXVA_PTOL" )
+			( "negtol" "VMAXVA_NTOL" )
+			( "distrib" "VMAXVA_DIST" )
+		)
+		( "VTPKLMT"
+			( "val" "0" )
+			( "postol" "VTPKLMT_PTOL" )
+			( "negtol" "VTPKLMT_NTOL" )
+			( "distrib" "VTPKLMT_DIST" )
+		)
+	)
+	("symbol"
+			( "AVCA" )
+			( "AVVA" )
+			( "DEAD_TIME" )
+			( "GBWCA" )
+			( "GBWVA" )
+			( "ICCOFF" )
+			( "ICCON" )
+			( "PERIOD" )
+			( "SRCA" )
+			( "SRVA" )
+			( "SS_ON_OFF" )
+			( "UVLO_ON_OFF" )
+			( "VMAXVA" )
+			( "VOSCA" )
+			( "VOSVA" )
+			( "VREF" )
+			( "VSAWMAX" )
+			( "VSAWMIN" )
+			( "VTPKLMT" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+("awbuc2854_sac"
+	(Creator "Device property file created by analog_uprev: uc2854_sac on Thu Aug  2 14:19:58 IST 2007")
+	("device_info"
+		( MODEL_TYPE 591 )
+		( SYMBOL_NAME "UC1854_SAC" )
+		( PORT_ORDER 
+ 			("VAO")
+ 			("VSNS")
+ 			("PKLM")
+ 			("CAO")
+ 			("ISNS")
+ 			("MULT")
+ 			("DUTY")
+ 			("VCC")
+ 			("COM")
+ 			("SS")
+ 			("ENA")
+ 			("RSET")
+ 			("CT")
+ 			("VRMS")
+ 			("IAC")
+ 			("VREF") )
+	)
+	("model_params"
+	("level_0"
+		( "PERIOD"
+			( "val" "10E-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "0.25e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+		( "VSAWMIN"
+			( "val" "1.1" )
+			( "postol" "VSAWMIN_PTOL" )
+			( "negtol" "VSAWMIN_NTOL" )
+			( "distrib" "VSAWMIN_DIST" )
+		)
+		( "VSAWMAX"
+			( "val" "6.3" )
+			( "postol" "VSAWMAX_PTOL" )
+			( "negtol" "VSAWMAX_NTOL" )
+			( "distrib" "VSAWMAX_DIST" )
+		)
+		( "UVLO_ON_OFF"
+			( "val" "0" )
+			( "postol" "0" )
+			( "negtol" "0" )
+			( "distrib" "FLAT" )
+		)
+		( "SS_ON_OFF"
+			( "val" "1" )
+			( "postol" "0" )
+			( "negtol" "0" )
+			( "distrib" "FLAT" )
+		)
+		( "VREF"
+			( "val" "7.5" )
+			( "postol" "VREF_PTOL" )
+			( "negtol" "VREF_NTOL" )
+			( "distrib" "VREF_DIST" )
+		)
+		( "ICCON"
+			( "val" "10E-3" )
+			( "postol" "ICCON_PTOL" )
+			( "negtol" "ICCON_NTOL" )
+			( "distrib" "ICCON_DIST" )
+		)
+		( "ICCOFF"
+			( "val" "1.5E-3" )
+			( "postol" "ICCOFF_PTOL" )
+			( "negtol" "ICCOFF_NTOL" )
+			( "distrib" "ICCOFF_DIST" )
+		)
+		( "VOSVA"
+			( "val" "4e-3" )
+			( "postol" "VOSVA_PTOL" )
+			( "negtol" "VOSVA_NTOL" )
+			( "distrib" "VOSVA_DIST" )
+		)
+		( "VOSCA"
+			( "val" "2e-3" )
+			( "postol" "VOSCA_PTOL" )
+			( "negtol" "VOSCA_NTOL" )
+			( "distrib" "VOSCA_DIST" )
+		)
+		( "AVVA"
+			( "val" "100" )
+			( "postol" "AVVA_PTOL" )
+			( "negtol" "AVVA_NTOL" )
+			( "distrib" "AVVA_DIST" )
+		)
+		( "AVCA"
+			( "val" "110" )
+			( "postol" "AVCA_PTOL" )
+			( "negtol" "AVCA_NTOL" )
+			( "distrib" "AVCA_DIST" )
+		)
+		( "GBWVA"
+			( "val" "500E3" )
+			( "postol" "GBWVA_PTOL" )
+			( "negtol" "GBWVA_NTOL" )
+			( "distrib" "GBWVA_DIST" )
+		)
+		( "GBWCA"
+			( "val" "900E3" )
+			( "postol" "GBWCA_PTOL" )
+			( "negtol" "GBWCA_NTOL" )
+			( "distrib" "GBWCA_DIST" )
+		)
+		( "SRVA"
+			( "val" "2E6" )
+			( "postol" "SRVA_PTOL" )
+			( "negtol" "SRVA_NTOL" )
+			( "distrib" "SRVA_DIST" )
+		)
+		( "SRCA"
+			( "val" "2E6" )
+			( "postol" "SRCA_PTOL" )
+			( "negtol" "SRCA_NTOL" )
+			( "distrib" "SRCA_DIST" )
+		)
+		( "VMAXVA"
+			( "val" "5.75" )
+			( "postol" "VMAXVA_PTOL" )
+			( "negtol" "VMAXVA_NTOL" )
+			( "distrib" "VMAXVA_DIST" )
+		)
+		( "VTPKLMT"
+			( "val" "0" )
+			( "postol" "VTPKLMT_PTOL" )
+			( "negtol" "VTPKLMT_NTOL" )
+			( "distrib" "VTPKLMT_DIST" )
+		)
+	)
+	("symbol"
+			( "AVCA" )
+			( "AVVA" )
+			( "DEAD_TIME" )
+			( "GBWCA" )
+			( "GBWVA" )
+			( "ICCOFF" )
+			( "ICCON" )
+			( "PERIOD" )
+			( "SRCA" )
+			( "SRVA" )
+			( "SS_ON_OFF" )
+			( "UVLO_ON_OFF" )
+			( "VMAXVA" )
+			( "VOSCA" )
+			( "VOSVA" )
+			( "VREF" )
+			( "VSAWMAX" )
+			( "VSAWMIN" )
+			( "VTPKLMT" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+("awbuc3854_sac"
+	(Creator "Device property file created by analog_uprev: uc3854_sac on Thu Aug  2 14:19:58 IST 2007")
+	("device_info"
+		( MODEL_TYPE 591 )
+		( SYMBOL_NAME "UC1854_SAC" )
+		( PORT_ORDER 
+ 			("VAO")
+ 			("VSNS")
+ 			("PKLM")
+ 			("CAO")
+ 			("ISNS")
+ 			("MULT")
+ 			("DUTY")
+ 			("VCC")
+ 			("COM")
+ 			("SS")
+ 			("ENA")
+ 			("RSET")
+ 			("CT")
+ 			("VRMS")
+ 			("IAC")
+ 			("VREF") )
+	)
+	("model_params"
+	("level_0"
+		( "PERIOD"
+			( "val" "10E-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "0.25e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+		( "VSAWMIN"
+			( "val" "1.1" )
+			( "postol" "VSAWMIN_PTOL" )
+			( "negtol" "VSAWMIN_NTOL" )
+			( "distrib" "VSAWMIN_DIST" )
+		)
+		( "VSAWMAX"
+			( "val" "6.3" )
+			( "postol" "VSAWMAX_PTOL" )
+			( "negtol" "VSAWMAX_NTOL" )
+			( "distrib" "VSAWMAX_DIST" )
+		)
+		( "UVLO_ON_OFF"
+			( "val" "0" )
+			( "postol" "0" )
+			( "negtol" "0" )
+			( "distrib" "FLAT" )
+		)
+		( "SS_ON_OFF"
+			( "val" "1" )
+			( "postol" "0" )
+			( "negtol" "0" )
+			( "distrib" "FLAT" )
+		)
+		( "VREF"
+			( "val" "7.5" )
+			( "postol" "VREF_PTOL" )
+			( "negtol" "VREF_NTOL" )
+			( "distrib" "VREF_DIST" )
+		)
+		( "ICCON"
+			( "val" "10E-3" )
+			( "postol" "ICCON_PTOL" )
+			( "negtol" "ICCON_NTOL" )
+			( "distrib" "ICCON_DIST" )
+		)
+		( "ICCOFF"
+			( "val" "1.5E-3" )
+			( "postol" "ICCOFF_PTOL" )
+			( "negtol" "ICCOFF_NTOL" )
+			( "distrib" "ICCOFF_DIST" )
+		)
+		( "VOSVA"
+			( "val" "4e-3" )
+			( "postol" "VOSVA_PTOL" )
+			( "negtol" "VOSVA_NTOL" )
+			( "distrib" "VOSVA_DIST" )
+		)
+		( "VOSCA"
+			( "val" "2e-3" )
+			( "postol" "VOSCA_PTOL" )
+			( "negtol" "VOSCA_NTOL" )
+			( "distrib" "VOSCA_DIST" )
+		)
+		( "AVVA"
+			( "val" "100" )
+			( "postol" "AVVA_PTOL" )
+			( "negtol" "AVVA_NTOL" )
+			( "distrib" "AVVA_DIST" )
+		)
+		( "AVCA"
+			( "val" "110" )
+			( "postol" "AVCA_PTOL" )
+			( "negtol" "AVCA_NTOL" )
+			( "distrib" "AVCA_DIST" )
+		)
+		( "GBWVA"
+			( "val" "500E3" )
+			( "postol" "GBWVA_PTOL" )
+			( "negtol" "GBWVA_NTOL" )
+			( "distrib" "GBWVA_DIST" )
+		)
+		( "GBWCA"
+			( "val" "900E3" )
+			( "postol" "GBWCA_PTOL" )
+			( "negtol" "GBWCA_NTOL" )
+			( "distrib" "GBWCA_DIST" )
+		)
+		( "SRVA"
+			( "val" "2E6" )
+			( "postol" "SRVA_PTOL" )
+			( "negtol" "SRVA_NTOL" )
+			( "distrib" "SRVA_DIST" )
+		)
+		( "SRCA"
+			( "val" "2E6" )
+			( "postol" "SRCA_PTOL" )
+			( "negtol" "SRCA_NTOL" )
+			( "distrib" "SRCA_DIST" )
+		)
+		( "VMAXVA"
+			( "val" "5.75" )
+			( "postol" "VMAXVA_PTOL" )
+			( "negtol" "VMAXVA_NTOL" )
+			( "distrib" "VMAXVA_DIST" )
+		)
+		( "VTPKLMT"
+			( "val" "0" )
+			( "postol" "VTPKLMT_PTOL" )
+			( "negtol" "VTPKLMT_NTOL" )
+			( "distrib" "VTPKLMT_DIST" )
+		)
+	)
+	("symbol"
+			( "AVCA" )
+			( "AVVA" )
+			( "DEAD_TIME" )
+			( "GBWCA" )
+			( "GBWVA" )
+			( "ICCOFF" )
+			( "ICCON" )
+			( "PERIOD" )
+			( "SRCA" )
+			( "SRVA" )
+			( "SS_ON_OFF" )
+			( "UVLO_ON_OFF" )
+			( "VMAXVA" )
+			( "VOSCA" )
+			( "VOSVA" )
+			( "VREF" )
+			( "VSAWMAX" )
+			( "VSAWMIN" )
+			( "VTPKLMT" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+

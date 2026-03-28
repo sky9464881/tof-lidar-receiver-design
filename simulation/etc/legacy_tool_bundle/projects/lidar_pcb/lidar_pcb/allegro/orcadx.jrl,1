@@ -1,0 +1,38 @@
+\t (00:00:13) orcadx 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:13)     Journal start - Fri Apr 11 15:08:55 2025
+\t (00:00:13)         Host=DESKTOP-TSB5932 User=sky94 Pid=1916 CPUs=8
+\t (00:00:13) CmdLine= C:\Cadence\OrCADX_24.1\tools\bin\unison.exe -layout -orcadx -mpssession sky94 -proj c:\users\sky94\appdata\roaming\spb_data\cdssetup\workspace\projects\lidar_pcb\lidar_pcb.opj c:/users/sky94/appdata/roaming/spb_data/cdssetup/workspace/projects/lidar_pcb/allegro/lidar_pcb.brd
+\t (00:00:13) 
+\d (00:00:13) Design opened: c:/users/sky94/appdata/roaming/spb_data/cdssetup/workspace/projects/lidar_pcb/allegro/lidar_pcb.brd
+\i (00:00:14) trapsize 32023
+\i (00:00:16) trapsize 32499
+\t (00:00:25) sky9464881@kw.ac.kr user logged in.
+
+\t (00:00:26) Loading consmgr.cxt 
+\t (00:00:26) Loading acns_formula.cxt 
+\t (00:00:26) > DoPullSchematic message received
+\t (00:00:26) > Pulling schematic...
+\t (00:00:26) Starting Cadence Logic Import...
+\t (00:00:27) Opening existing design...
+\i (00:00:28) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged
+\i (00:00:28) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (00:00:29) trapsize 32499
+\t (00:00:30) > Sending response DonePullSchematic
+\t (00:00:30) > Schematic pulled successfully
+\i (00:00:30) updateport ReportsPane
+\i (00:00:30) updateport SearchPane
+\i (00:00:30) updateport VisibilityPane
+\i (00:00:31) updateport CMPanelPort
+\i (00:00:31) updateport PropPane
+\i (00:00:31) ucpedit 
+\i (00:00:31) updateport ReportsPane
+\i (00:00:31) updateport SearchPane
+\i (00:00:31) updateport VisibilityPane
+\i (00:00:39) opencd C:/Users/sky94/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/lidar_pcb/allegro/Untitled.brd 
+\e (00:00:39) Do you want to save the changes you made to c:/users/sky94/appdata/roaming/spb_data/cdssetup/workspace/projects/lidar_pcb/allegro/lidar_pcb.brd?
+\i (00:00:40) fillin yes 
+\t (00:00:40) Opening existing design...
+\i (00:00:41) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged
+\i (00:00:41) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (00:00:42) trapsize 10993
+\t (00:00:42)     Journal end - Fri Apr 11 15:09:24 2025

@@ -1,0 +1,18 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : twtstwtw.brd                                  )
+(    Software Version : 24.1S003                                      )
+(    Date/Time        : Tue Apr  1 23:27:48 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Placing page "1"
+	Placed symbol:  R1 / R_AXRC05_200 / AXRC05 at (7587.50 11591.50)
+	Placed symbol:  R2 / R_AXRC05_1.4K / AXRC05 at (7972.50 11591.50)
+	ERROR:   Could not find symbol:  U1 / OPA855_TEST1_OPA855 / TEST1
+
+Placed 2 of 3 symbols.

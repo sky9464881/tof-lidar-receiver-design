@@ -1,0 +1,120 @@
+("awbbfg194"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 17:47:28 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "PNP3" )
+		( MODEL_TYPE 507 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "15" )
+		( VCB "20" )
+		( VEB "3" )
+		( IC "100.0e-3" )
+		( IB "10.0e-3" )
+		( PDM "1.0" )
+		( TJ "150" )
+	)
+)
+("awbbfp194"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 17:47:28 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "PNP3" )
+		( MODEL_TYPE 507 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "15" )
+		( VCB "20" )
+		( VEB "3" )
+		( IC "1.0e-1" )
+		( IB "1.0e-2" )
+		( PDM "7.0e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfr194"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 17:47:28 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "PNP3" )
+		( MODEL_TYPE 507 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "15" )
+		( VCB "20" )
+		( VEB "3" )
+		( IC "1.0e-1" )
+		( IB "1.0e-2" )
+		( PDM "7.0e-1" )
+		( TJ "150" )
+	)
+)
+("awbbft92"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 17:47:28 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "PNP3" )
+		( MODEL_TYPE 507 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "15" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "2.5e-2" )
+		( IB "3.0e-3" )
+		( PDM "2.0e-1" )
+		( TJ "150" )
+	)
+)
+("awbbft92w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 17:47:28 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "PNP3" )
+		( MODEL_TYPE 507 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "15" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "2.5e-2" )
+		( IB "3.0e-3" )
+		( PDM "2.0e-1" )
+		( TJ "150" )
+	)
+)
+("awbbft93"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 17:47:28 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "PNP3" )
+		( MODEL_TYPE 507 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "15" )
+		( VEB "2" )
+		( IC "3.5e-2" )
+		( IB "3.0e-3" )
+		( PDM "3.0e-1" )
+		( TJ "150" )
+	)
+)

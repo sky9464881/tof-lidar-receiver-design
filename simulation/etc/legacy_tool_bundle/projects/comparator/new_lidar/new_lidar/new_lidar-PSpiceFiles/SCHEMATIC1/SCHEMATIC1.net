@@ -1,0 +1,7 @@
+* source NEW_LIDAR
+V_V1         N1005496 0 160Vdc
+C_C228         N1005496 0  100nF  TC=0,0 
+C_C229         0 N1005520  100nF  TC=0,0 
+R_R133         N1005520 N1005496  400k TC=0,0 
+R_R134         N1005548 0  2k TC=0,0 
+X_D4         N1005548 N1005520 awb1n749a PARAMS:               

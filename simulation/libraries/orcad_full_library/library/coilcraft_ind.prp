@@ -1,0 +1,751 @@
+("DO1608C102MLC"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("DO1608C152MLC"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("DO1608C222MLC"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("DO1608C272MLC"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("DO1608C332MLC"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("DO1608C472MLC"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("DO1608C682MLC"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("DO1608C822MLC"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("DO1608C103MLC"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("DO1608C153MLC"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("DO1608C223MLC"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("DO1608C333MLC"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("DO1608C473MLC"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("DO1608C683MLC"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("DO1608C104MLC"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("DO1608C154MLC"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("DO1608C224MLC"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("DO1608C334MLC"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("DO1608C474MLC"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("DO1608C684MLC"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("DO1608C105MLC"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+
+("LPO2506O-472LD"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("LPO2506O-682LD"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("LPO2506O-822LD"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("LPO2506O-103LD"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("LPO2506O-153LD"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("LPO2506O-223LD"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("LPO2506O-333LD"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("LPO2506O-473LD"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("LPO2506O-683LD"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("LPO2506O-104LD"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("LPO2506O-154LD"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("LPO2506O-224LD"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("LPO2506O-334LD"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("LPO2506O-474LD"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("LPO2506O-684LD"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("LPO2506O-105LD"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+("PFL1610-331MEW"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("PFL1610-471MEW"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("PFL1610-561MEW"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("PFL1610-681MEW"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("PFL1610-102MEW"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("PFL1610-222MEW"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("PFL1610-472MEW"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 20006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)

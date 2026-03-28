@@ -1,0 +1,526 @@
+****************************************************************************
+*
+* WARNING : please consider following remarks before usage
+*
+* 1) All models are a tradeoff between accuracy and complexity (ie. simulation
+*    time).
+* 2) Macromodels are not a substitute to breadboarding, they rather confirm the
+*    validity of a design approach and help to select surrounding component values.
+*
+* 3) A macromodel emulates the NOMINAL performance of a TYPICAL device within
+*    SPECIFIED OPERATING CONDITIONS (ie. temperature, supply voltage, etc.).
+*    Thus the macromodel is often not as exhaustive as the datasheet, its goal
+*    is to illustrate the main parameters of the product.
+*
+* 4) Data issued from macromodels used outside of its specified conditions
+*    (Vcc, Temperature, etc) or even worse: outside of the device operating
+*    conditions (Vcc, Vicm, etc) are not reliable in any way.
+*
+* Modification: two models added for quadruple differential line driver sn75als192 
+* and quadruple differential line driver Receiver sn75als193
+*
+****************************************************************************
+
+* ARINC 429 Line Drivers
+*$
+.SUBCKT DEI1148
++IN1A IN1B 
++IN2A IN2B 
++IN3A IN3B 
++IN4A IN4B 
++IN5A IN5B 
++IN6A IN6B 
++IN7A IN7B 
++IN8A IN8B 
++TESTAA TESTAB
++TESTBA TESTBB
++OUT1A OUT1B  
++OUT2A OUT2B 
++OUT3A OUT3B 
++OUT4A OUT4B 
++OUT5A OUT5B 
++OUT6A OUT6B 
++OUT7A OUT7B 
++OUT8A OUT8B
++VDD
++VSS
+RTESTBA TESTBA 0 1K
+RTESTBB TESTBB 0 1K
+RTESTAA TESTAA 0 1K
+RTESTAB TESTAB 0 1K
+E1A OUT1A 0 VALUE {IF((V(IN1A)-V(IN1B)>=6.5 | (V(TESTAA) >=2.5 & V(TESTAB) <=0.5) ),5.0,
++IF((V(IN1A)-V(IN1B)<=2.5 | (V(TESTAA) <=0.5 & V(TESTAB) >=2.5) ), 0.0,0.0))}
+ROUT1A OUT1A 0 300K
+COUT1A OUT1A 0 1P
+
+E1B OUT1B 0 VALUE {IF((V(IN1B)-V(IN1A)>=6.5 | (V(TESTAA) <=0.5 & V(TESTAB) >=2.5)),5.0,
++IF((V(IN1A)-V(IN1B)<=2.5 | (V(TESTAA) >=2.5 & V(TESTAB) <=0.5)), 0.0,0.0))}
+ROUT1B OUT1B 0 300K
+COUT1B OUT1B 0 1P
+
+E3p OUT3A 0 VALUE {IF((V(IN3A)-V(IN3B)>=6.5 | (V(TESTAA) >=2.5 & V(TESTAB) <=0.5) ),5.0,
++IF((V(IN3A)-V(IN3B)<=2.5 | (V(TESTAA) <=0.5 & V(TESTAB) >=2.5) ), 0.0,0.0))}
+ROUT3A OUT3A 0 300K
+COUT3A OUT3A 0 1P
+
+E3B OUT3B 0 VALUE {IF((V(IN3B)-V(IN3A)>=6.5 | (V(TESTAA) <=0.5 & V(TESTAB) >=2.5)),5.0,
++IF((V(IN3A)-V(IN3B)<=2.5 | (V(TESTAA) >=2.5 & V(TESTAB) <=0.5)), 0.0,0.0))}
+ROUT3B OUT3B 0 300K
+COUT3B OUT3B 0 1P
+
+E5A OUT5A 0 VALUE {IF((V(IN5A)-V(IN5B)>=6.5 | (V(TESTAA) >=2.5 & V(TESTAB) <=0.5) ),5.0,
++IF((V(IN5A)-V(IN5B)<=2.5 | (V(TESTAA) <=0.5 & V(TESTAB) >=2.5) ), 0.0,0.0))}
+ROUT5A OUT5A 0 300K
+COUT5A OUT5A 0 1P
+
+E5B OUT5B 0 VALUE {IF((V(IN5B)-V(IN5A)>=6.5 | (V(TESTAA) <=0.5 & V(TESTAB) >=2.5)),5.0,
++IF((V(IN5A)-V(IN5B)<=2.5 | (V(TESTAA) >=2.5 & V(TESTAB) <=0.5)), 0.0,0.0))}
+ROUT5B OUT5B 0 300K
+COUT5B OUT5B 0 1P
+
+E7p OUT7A 0 VALUE {IF((V(IN7A)-V(IN7B)>=6.5 | (V(TESTAA) >=2.5 & V(TESTAB) <=0.5) ),5.0,
++IF((V(IN7A)-V(IN7B)<=2.5 | (V(TESTAA) <=0.5 & V(TESTAB) >=2.5) ), 0.0,0.0))}
+ROUT7A OUT7A 0 300K
+COUT7A OUT7A 0 1P
+
+E7B OUT7B 0 VALUE {IF((V(IN7B)-V(IN7A)>=6.5 | (V(TESTAA) <=0.5 & V(TESTAB) >=2.5)),5.0,
++IF((V(IN7A)-V(IN7B)<=2.5 | (V(TESTAA) >=2.5 & V(TESTAB) <=0.5)), 0.0,0.0))}
+ROUT7B OUT7B 0 300K
+COUT7B OUT7B 0 1P
+
+E2p OUT2A 0 VALUE {IF((V(IN2A)-V(IN2B)>=6.5 | (V(TESTBA) >=2.5 & V(TESTBB) <=0.5) ),5.0,
++IF((V(IN2A)-V(IN2B)<=2.5 | (V(TESTBA) <=0.5 & V(TESTBB) >=2.5) ), 0.0,0.0))}
+ROUT2A OUT2A 0 300K
+COUT2A OUT2A 0 1P
+
+E2B OUT2B 0 VALUE {IF((V(IN2B)-V(IN2A)>=6.5 | (V(TESTBA) <=0.5 & V(TESTBB) >=2.5)),5.0,
++IF((V(IN2A)-V(IN2B)<=2.5 | (V(TESTBA) >=2.5 & V(TESTBB) <=0.5)), 0.0,0.0))}
+ROUT2B OUT2B 0 300K
+COUT2B OUT2B 0 1P
+
+E4p OUT4A 0 VALUE {IF((V(IN4A)-V(IN4B)>=6.5 | (V(TESTBA) >=2.5 & V(TESTBB) <=0.5) ),5.0,
++IF((V(IN4A)-V(IN4B)<=2.5 | (V(TESTBA) <=0.5 & V(TESTBB) >=2.5) ), 0.0,0.0))}
+ROUT4A OUT4A 0 300K
+COUT4A OUT4A 0 1P
+
+E4B OUT4B 0 VALUE {IF((V(IN4B)-V(IN4A)>=6.5 | (V(TESTBA) <=0.5 & V(TESTBB) >=2.5)),5.0,
++IF((V(IN4A)-V(IN4B)<=2.5 | (V(TESTBA) >=2.5 & V(TESTBB) <=0.5)), 0.0,0.0))}
+ROUT4B OUT4B 0 300K
+COUT4B OUT4B 0 1P
+
+E6p OUT6A 0 VALUE {IF((V(IN6A)-V(IN6B)>=6.5 | (V(TESTBA) >=2.5 & V(TESTBB) <=0.5) ),5.0,
++IF((V(IN6A)-V(IN6B)<=2.5 | (V(TESTBA) <=0.5 & V(TESTBB) >=2.5) ), 0.0,0.0))}
+ROUT6A OUT6A 0 300K
+COUT6A OUT6A 0 1P
+
+E6B OUT6B 0 VALUE {IF((V(IN6B)-V(IN6A)>=6.5 | (V(TESTBA) <=0.5 & V(TESTBB) >=2.5)),5.0,
++IF((V(IN6A)-V(IN6B)<=2.5 | (V(TESTBA) >=2.5 & V(TESTBB) <=0.5)), 0.0,0.0))}
+ROUT6B OUT6B 0 300K
+COUT6B OUT6B 0 1P
+
+E8p OUT8A 0 VALUE {IF((V(IN8A)-V(IN8B)>=6.5 | (V(TESTBA) >=2.5 & V(TESTBB) <=0.5) ),5.0,
++IF((V(IN8A)-V(IN8B)<=2.5 | (V(TESTBA) <=0.5 & V(TESTBB) >=2.5) ), 0.0,0.0))}
+ROUT8A OUT8A 0 300K
+COUT8A OUT8A 0 1P
+
+E8B OUT8B 0 VALUE {IF((V(IN8B)-V(IN8A)>=6.5 | (V(TESTBA) <=0.5 & V(TESTBB) >=2.5)),5.0,
++IF((V(IN8A)-V(IN8B)<=2.5 | (V(TESTBA) >=2.5 & V(TESTBB) <=0.5)), 0.0,0.0))}
+ROUT8B OUT8B 0 300K
+COUT8B OUT8B 0 1P
+
+.ENDS DEI1148
+*$
+
+
+*$
+.SUBCKT DEI1075 HI_LO TTLIN0 TTLIN1 GND V- 429OUTA 429OUTB  V+   PARAMS:HI_LO=0
+*************************************************************
+.PARAM R_VALUE= {if (HI_LO==0, 1600K, 225K)}
+UMY_SELOGIC LOGICEXP(2,4)  $G_DPWR $G_DGND TTLIN0 TTLIN1 SEL1 SEL2 SEL3 SEL4   
++D0_GATE IO_STD
++ LOGIC:
+***INTERMEDIATE SIGNALS
++SEL1= {(~(TTLIN0)) & (~(TTLIN1)) } 
++SEL2= { (~(TTLIN0)) & TTLIN1 }
++SEL3= { TTLIN0 & (~(TTLIN1)) } 
++SEL4= { TTLIN0 & TTLIN1 } 
+**************ANALOG INTERFACE
+RSEL1 SEL1 0 1K
+RSEL2 SEL2 0 1K
+RSEL3 SEL3 0 1K
+RSEL4 SEL4 0 1K
+*********FIX VALUES FOR LOGIC LEVELS ***********
+VA A1 0 DC 0V
+VB B1 0 DC -5V
+VC C1 0 DC 5V
+*VD D1 0 DC  2.0V          ; SIGNAL FOR HI-Z AS A INPUT TO THROUGH IT OUT ON THE BASIS OF SELECTION
+U_DSTM1         STIM(1,1)
++ $G_DPWR $G_DGND
++ D1 
++ IO_STM
++ IO_LEVEL=0
++  0s X  
+************SELECTING LOGIC TO MAKE LOGIC LEVELS WITH THE HELP      OF INPUT DIGITAL VALUE***********************
+EOUTXA 429OUTA_1 0 VALUE {IF((V(SEL1) >= 0.5 ),V(A1),IF((V(SEL2) >= 0.5),V(B1),IF((V(SEL3) >= 0.5),V(C1),V(D1))))}
+EOUTXB 429OUTB_1 0 VALUE {IF((V(SEL1) >= 0.5 ),V(A1),IF((V(SEL2) >= 0.5),V(C1),IF((V(SEL3) >= 0.5),V(B1),V(D1))))}
+*************LOGIC TO CREATE SLEW (PROGRAMMABLE********
+ROUTXA 429OUTA_1 429OUTA {R_VALUE}
+COUTXA 429OUTA 0 1P
+ROUTXB 429OUTB_1 429OUTB {R_VALUE}
+COUTXB 429OUTB 0 1P
+*******************************************************
+.ENDS DEI1075
+*$
+
+*$
+.SUBCKT DEI1074 HI_LO TTLIN0 TTLIN1 GND V- 429OUTA 429OUTB  V+  PARAMS:HI_LO=0
+*************************************************************
+.PARAM R_VALUE= {if (HI_LO==0, 1600K, 225K)}
+UMY_SELOGIC LOGICEXP(2,4)  $G_DPWR $G_DGND TTLIN0 TTLIN1 SEL1 SEL2 SEL3 SEL4   
++D0_GATE IO_STD
++ LOGIC:
+***INTERMEDIATE SIGNALS
++SEL1= {(~(TTLIN0)) & (~(TTLIN1)) } 
++SEL2= { (~(TTLIN0)) & TTLIN1 }
++SEL3= { TTLIN0 & (~(TTLIN1)) } 
++SEL4= { TTLIN0 & TTLIN1 } 
+**************ANALOG INTERFACE
+RSEL1 SEL1 0 1K
+RSEL2 SEL2 0 1K
+RSEL3 SEL3 0 1K
+RSEL4 SEL4 0 1K
+*********FIX VALUES FOR LOGIC LEVELS ***********
+VA A1 0 DC 0V
+VB B1 0 DC -5V
+VC C1 0 DC 5V
+*VD D1 0 DC  2.0V          ; SIGNAL FOR HI-Z AS A INPUT TO THROUGH IT OUT ON THE BASIS OF SELECTION
+U_DSTM1         STIM(1,1)
++ $G_DPWR $G_DGND
++ D1 
++ IO_STM
++ IO_LEVEL=0
++  0s X  
+************SELECTING LOGIC TO MAKE LOGIC LEVELS WITH THE HELP      OF INPUT DIGITAL VALUE***********************
+EOUTXA 429OUTA_1 0 VALUE {IF((V(SEL1) >= 0.5 ),V(A1),IF((V(SEL2) >= 0.5),V(B1),IF((V(SEL3) >= 0.5),V(C1),V(D1))))}
+EOUTXB 429OUTB_1 0 VALUE {IF((V(SEL1) >= 0.5 ),V(A1),IF((V(SEL2) >= 0.5),V(C1),IF((V(SEL3) >= 0.5),V(B1),V(D1))))}
+*************LOGIC TO CREATE SLEW (PROGRAMMABLE********
+ROUTXA 429OUTA_1 429OUTA {R_VALUE}
+COUTXA 429OUTA 0 1P
+ROUTXB 429OUTB_1 429OUTB {R_VALUE}
+COUTXB 429OUTB 0 1P
+*******************************************************
+.ENDS DEI1074
+*$
+
+*$
+.SUBCKT DEI1073  HI_LO TTLIN0 TTLIN1 GND V- 429OUTA 429OUTB  V+  PARAMS:HI_LO=0
+*************************************************************
+.PARAM R_VALUE= {if (HI_LO==0, 1600K, 225K)}
+
+*VGND GND 0 DC 0V
+*RHI_LO HI_LO 0 1K
+
+UMY_SELOGIC LOGICEXP(2,4)  $G_DPWR $G_DGND TTLIN0 TTLIN1 SEL1 SEL2 SEL3 SEL4   
++D0_GATE IO_STD
++ LOGIC:
+***INTERMEDIATE SIGNALS
++SEL1= {(~(TTLIN0)) & (~(TTLIN1)) } 
++SEL2= { (~(TTLIN0)) & TTLIN1 }
++SEL3= { TTLIN0 & (~(TTLIN1)) } 
++SEL4= { TTLIN0 & TTLIN1 } 
+**************ANALOG INTERFACE
+RSEL1 SEL1 0 1K
+RSEL2 SEL2 0 1K
+RSEL3 SEL3 0 1K
+RSEL4 SEL4 0 1K
+*********FIX VALUES FOR LOGIC LEVELS ***********
+VA A1 0 DC 0V
+VB B1 0 DC -5V
+VC C1 0 DC 5V
+*VD D1 0 DC  2.0V          ; SIGNAL FOR HI-Z AS A INPUT TO THROUGH IT OUT ON THE BASIS OF SELECTION
+U_DSTM1         STIM(1,1)
++ $G_DPWR $G_DGND
++ D1 
++ IO_STM
++ IO_LEVEL=0
++  0s X  
+************SELECTING LOGIC TO MAKE LOGIC LEVELS WITH THE HELP      OF INPUT DIGITAL VALUE***********************
+EOUTXA 429OUTA_1 0 VALUE {IF((V(SEL1) >= 0.5 ),V(A1),IF((V(SEL2) >= 0.5),V(B1),IF((V(SEL3) >= 0.5),V(C1),V(D1))))}
+EOUTXB 429OUTB_1 0 VALUE {IF((V(SEL1) >= 0.5 ),V(A1),IF((V(SEL2) >= 0.5),V(C1),IF((V(SEL3) >= 0.5),V(B1),V(D1))))}
+*************LOGIC TO CREATE SLEW (PROGRAMMABLE********
+ROUTXA 429OUTA_1 429OUTA {R_VALUE}
+COUTXA 429OUTA 0 1P
+ 
+ROUTXB 429OUTB_1 429OUTB {R_VALUE}
+COUTXB 429OUTB 0 1P
+*******************************************************
+.ENDS DEI1073
+*$
+
+*$
+.SUBCKT DEI1047 IN1A IN1B 
++IN2A IN2B 
++IN3A IN3B 
++IN4A IN4B 
++IN5A IN5B 
++IN6A IN6B 
++IN7A IN7B 
++IN8A IN8B 
++TESTA TESTB 
++OUT1A OUT1B  
++OUT2A OUT2B 
++OUT3A OUT3B 
++OUT4A OUT4B 
++OUT5A OUT5B 
++OUT6A OUT6B 
++OUT7A OUT7B 
++OUT8A OUT8B
++VDD
++VSS1
++VSS
+RTESTA TESTA 0 1K
+RTESTB TESTA 0 1K
+
+VTESTA TESTA 0 dc 0v    ;TESTA AND TESTB PINS ARE NOT MODELED 
+VTESTB TESTB 0 dc 0v
+
+E1A OUT1A 0 VALUE {IF((V(IN1A)-V(IN1B)>=6.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5) ),5.0,
++IF((V(IN1A)-V(IN1B)<=2.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5) ), 0.0,0.0))}
+ROUT1A OUT1A 0 300K
+COUT1A OUT1A 0 1P
+
+E1B OUT1B 0 VALUE {IF((V(IN1B)-V(IN1A)>=6.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5)),5.0,
++IF((V(IN1A)-V(IN1B)<=2.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5)), 0.0,0.0))}
+ROUT1B OUT1B 0 300K
+COUT1B OUT1B 0 1P
+
+E2p OUT2A 0 VALUE {IF((V(IN2A)-V(IN2B)>=6.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5) ),5.0,
++IF((V(IN2A)-V(IN2B)<=2.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5) ), 0.0,0.0))}
+ROUT2A OUT2A 0 300K
+COUT2A OUT2A 0 1P
+
+E2B OUT2B 0 VALUE {IF((V(IN2B)-V(IN2A)>=6.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5)),5.0,
++IF((V(IN2A)-V(IN2B)<=2.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5)), 0.0,0.0))}
+ROUT2B OUT2B 0 300K
+COUT2B OUT2B 0 1P
+
+E3p OUT3A 0 VALUE {IF((V(IN3A)-V(IN3B)>=6.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5) ),5.0,
++IF((V(IN3A)-V(IN3B)<=2.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5) ), 0.0,0.0))}
+ROUT3A OUT3A 0 300K
+COUT3A OUT3A 0 1P
+
+E3B OUT3B 0 VALUE {IF((V(IN3B)-V(IN3A)>=6.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5)),5.0,
++IF((V(IN3A)-V(IN3B)<=2.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5)), 0.0,0.0))}
+ROUT3B OUT3B 0 300K
+COUT3B OUT3B 0 1P
+
+E4p OUT4A 0 VALUE {IF((V(IN4A)-V(IN4B)>=6.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5) ),5.0,
++IF((V(IN4A)-V(IN4B)<=2.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5) ), 0.0,0.0))}
+ROUT4A OUT4A 0 300K
+COUT4A OUT4A 0 1P
+
+E4B OUT4B 0 VALUE {IF((V(IN4B)-V(IN4A)>=6.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5)),5.0,
++IF((V(IN4A)-V(IN4B)<=2.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5)), 0.0,0.0))}
+ROUT4B OUT4B 0 300K
+COUT4B OUT4B 0 1P
+
+E5A OUT5A 0 VALUE {IF((V(IN5A)-V(IN5B)>=6.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5) ),5.0,
++IF((V(IN5A)-V(IN5B)<=2.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5) ), 0.0,0.0))}
+ROUT5A OUT5A 0 300K
+COUT5A OUT5A 0 1P
+
+E5B OUT5B 0 VALUE {IF((V(IN5B)-V(IN5A)>=6.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5)),5.0,
++IF((V(IN5A)-V(IN5B)<=2.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5)), 0.0,0.0))}
+ROUT5B OUT5B 0 300K
+COUT5B OUT5B 0 1P
+
+E6p OUT6A 0 VALUE {IF((V(IN6A)-V(IN6B)>=6.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5) ),5.0,
++IF((V(IN6A)-V(IN6B)<=2.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5) ), 0.0,0.0))}
+ROUT6A OUT6A 0 300K
+COUT6A OUT6A 0 1P
+
+E6B OUT6B 0 VALUE {IF((V(IN6B)-V(IN6A)>=6.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5)),5.0,
++IF((V(IN6A)-V(IN6B)<=2.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5)), 0.0,0.0))}
+ROUT6B OUT6B 0 300K
+COUT6B OUT6B 0 1P
+
+E7p OUT7A 0 VALUE {IF((V(IN7A)-V(IN7B)>=6.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5) ),5.0,
++IF((V(IN7A)-V(IN7B)<=2.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5) ), 0.0,0.0))}
+ROUT7A OUT7A 0 300K
+COUT7A OUT7A 0 1P
+
+E7B OUT7B 0 VALUE {IF((V(IN7B)-V(IN7A)>=6.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5)),5.0,
++IF((V(IN7A)-V(IN7B)<=2.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5)), 0.0,0.0))}
+ROUT7B OUT7B 0 300K
+COUT7B OUT7B 0 1P
+
+E8p OUT8A 0 VALUE {IF((V(IN8A)-V(IN8B)>=6.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5) ),5.0,
++IF((V(IN8A)-V(IN8B)<=2.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5) ), 0.0,0.0))}
+ROUT8A OUT8A 0 300K
+COUT8A OUT8A 0 1P
+
+E8B OUT8B 0 VALUE {IF((V(IN8B)-V(IN8A)>=6.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5)),5.0,
++IF((V(IN8A)-V(IN8B)<=2.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5)), 0.0,0.0))}
+ROUT8B OUT8B 0 300K
+COUT8B OUT8B 0 1P
+
+.ENDS DEI1047
+*$
+
+* PSpice Model Editor - Version 16.0.0
+
+*$
+.SUBCKT DEI1046 IN1A IN1B 
++IN2A IN2B 
++IN3A IN3B 
++IN4A IN4B 
++IN5A IN5B 
++IN6A IN6B 
++IN7A IN7B 
++IN8A IN8B 
++TESTA TESTB 
++OUT1A OUT1B  
++OUT2A OUT2B 
++OUT3A OUT3B 
++OUT4A OUT4B 
++OUT5A OUT5B 
++OUT6A OUT6B 
++OUT7A OUT7B 
++OUT8A OUT8B
++VDD
++VSS
++VSS1
+RTESTA TESTA 0 1K
+RTESTB TESTA 0 1K
+E1A OUT1A 0 VALUE {IF((V(IN1A)-V(IN1B)>=6.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5) ),5.0,
++IF((V(IN1A)-V(IN1B)<=2.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5) ), 0.0,0.0))}
+ROUT1A OUT1A 0 300K
+COUT1A OUT1A 0 1P
+E1B OUT1B 0 VALUE {IF((V(IN1B)-V(IN1A)>=6.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5)),5.0,
++IF((V(IN1A)-V(IN1B)<=2.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5)), 0.0,0.0))}
+ROUT1B OUT1B 0 300K
+COUT1B OUT1B 0 1P
+E2p OUT2A 0 VALUE {IF((V(IN2A)-V(IN2B)>=6.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5) ),5.0,
++IF((V(IN2A)-V(IN2B)<=2.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5) ), 0.0,0.0))}
+ROUT2A OUT2A 0 300K
+COUT2A OUT2A 0 1P
+E2B OUT2B 0 VALUE {IF((V(IN2B)-V(IN2A)>=6.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5)),5.0,
++IF((V(IN2A)-V(IN2B)<=2.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5)), 0.0,0.0))}
+ROUT2B OUT2B 0 300K
+COUT2B OUT2B 0 1P
+E3p OUT3A 0 VALUE {IF((V(IN3A)-V(IN3B)>=6.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5) ),5.0,
++IF((V(IN3A)-V(IN3B)<=2.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5) ), 0.0,0.0))}
+ROUT3A OUT3A 0 300K
+COUT3A OUT3A 0 1P
+E3B OUT3B 0 VALUE {IF((V(IN3B)-V(IN3A)>=6.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5)),5.0,
++IF((V(IN3A)-V(IN3B)<=2.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5)), 0.0,0.0))}
+ROUT3B OUT3B 0 300K
+COUT3B OUT3B 0 1P
+E4p OUT4A 0 VALUE {IF((V(IN4A)-V(IN4B)>=6.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5) ),5.0,
++IF((V(IN4A)-V(IN4B)<=2.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5) ), 0.0,0.0))}
+ROUT4A OUT4A 0 300K
+COUT4A OUT4A 0 1P
+E4B OUT4B 0 VALUE {IF((V(IN4B)-V(IN4A)>=6.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5)),5.0,
++IF((V(IN4A)-V(IN4B)<=2.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5)), 0.0,0.0))}
+ROUT4B OUT4B 0 300K
+COUT4B OUT4B 0 1P
+E5A OUT5A 0 VALUE {IF((V(IN5A)-V(IN5B)>=6.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5) ),5.0,
++IF((V(IN5A)-V(IN5B)<=2.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5) ), 0.0,0.0))}
+ROUT5A OUT5A 0 300K
+COUT5A OUT5A 0 1P
+E5B OUT5B 0 VALUE {IF((V(IN5B)-V(IN5A)>=6.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5)),5.0,
++IF((V(IN5A)-V(IN5B)<=2.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5)), 0.0,0.0))}
+ROUT5B OUT5B 0 300K
+COUT5B OUT5B 0 1P
+E6p OUT6A 0 VALUE {IF((V(IN6A)-V(IN6B)>=6.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5) ),5.0,
++IF((V(IN6A)-V(IN6B)<=2.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5) ), 0.0,0.0))}
+ROUT6A OUT6A 0 300K
+COUT6A OUT6A 0 1P
+E6B OUT6B 0 VALUE {IF((V(IN6B)-V(IN6A)>=6.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5)),5.0,
++IF((V(IN6A)-V(IN6B)<=2.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5)), 0.0,0.0))}
+ROUT6B OUT6B 0 300K
+COUT6B OUT6B 0 1P
+E7p OUT7A 0 VALUE {IF((V(IN7A)-V(IN7B)>=6.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5) ),5.0,
++IF((V(IN7A)-V(IN7B)<=2.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5) ), 0.0,0.0))}
+ROUT7A OUT7A 0 300K
+COUT7A OUT7A 0 1P
+E7B OUT7B 0 VALUE {IF((V(IN7B)-V(IN7A)>=6.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5)),5.0,
++IF((V(IN7A)-V(IN7B)<=2.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5)), 0.0,0.0))}
+ROUT7B OUT7B 0 300K
+COUT7B OUT7B 0 1P
+E8p OUT8A 0 VALUE {IF((V(IN8A)-V(IN8B)>=6.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5) ),5.0,
++IF((V(IN8A)-V(IN8B)<=2.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5) ), 0.0,0.0))}
+ROUT8A OUT8A 0 300K
+COUT8A OUT8A 0 1P
+E8B OUT8B 0 VALUE {IF((V(IN8B)-V(IN8A)>=6.5 | (V(TESTA) <=0.5 & V(TESTB) >=2.5)),5.0,
++IF((V(IN8A)-V(IN8B)<=2.5 | (V(TESTA) >=2.5 & V(TESTB) <=0.5)), 0.0,0.0))}
+ROUT8B OUT8B 0 300K
+COUT8B OUT8B 0 1P
+.ENDS DEI1046
+*$
+*$
+.subckt sn75als192 A G Gbar Y Z 
++	optional: DPWR=$G_DPWR DGND=$G_DGND
++	params: MNTYMXDLY=0 IO_LEVEL=0
+U_inv1 inv DPWR DGND
++	gbar   gbarbar 
++	D_04XX IO_STD_sn75als192 MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL} 
+U_or2 OR(2)
++  DPWR  DGND
++  G gbarbar  sel
++	D_04XX IO_STD_sn75als192 MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL} 
+U_bufA BUF3
++  DPWR  DGND
++  A SEL  Y
++  D_XX IO_STD_sn75als192 MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL} 
+U_invZ INV3
++  DPWR  DGND
++  A SEL  Z
++  D_XX IO_STD_sn75als192 MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL} 
+.model D_xx utgate (
++	tplhty=8ns	tplhmx=13ns
++	tphlty=12ns	tphlmx=18ns
++	tpzhty=11ns	tpzhmx=17ns
++	tpzlty=16ns	tpzlmx=25ns
++	tphzty=5ns	tphzmx=8ns
++	tplzty=7ns	tplzmx=12ns
++	)
+.model D_04XX ugate (
++	tplhty=12ns	tplhmx=22ns
++	tphlty=8ns	tphlmx=15ns
++	)
+.model IO_STD_sn75als192 uio (
++	drvh=96.4	drvl=104
++	AtoD1="AtoD_STD"	AtoD2="AtoD_STD_NX"
++	AtoD3="AtoD_STD"	AtoD4="AtoD_STD_NX"
++	DtoA1="DtoA_STD"	DtoA2="DtoA_STD"
++	DtoA3="DtoA_STD"	DtoA4="DtoA_STD"
++       tswhl1=1.511ns		tswlh1=3.517ns
++       tswhl2=1.487ns		tswlh2=3.564ns
++       tswhl3=1.511ns		tswlh3=3.517ns
++       tswhl4=1.487ns		tswlh4=3.564ns
++	DIGPOWER="DIGIFPWR" )
+.ends sn75als192
+*$
+
+*$
+.subckt sn75als193 A B G Gbar Y 
++	optional: DPWR=$G_DPWR DGND=$G_DGND
++	params: MNTYMXDLY=0 IO_LEVEL=0
+U_inv1 inv DPWR DGND
++	gbar   gbarbar 
++	D_04XX IO_STD MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL} 
+U_or2 OR(2)
++  DPWR  DGND G gbarbar  sel
++	D_04XX IO_STD MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL} 
+U1 buf DPWR DGND a_bdiff  node1 
++	D_04XX IO_STD MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL} 
+Ediff node1 0 value { IF (V(a,b) >=0.2,5.0,IF(V(a,b) < 0.2 & V(a,b) > -0.2,1.4,IF(V(a,b) <= -0.2,0.0,0.001)))} 
+Ubuf3 buf3 $G_DPWR $G_DGND
++	node1   sel   Y 
++	D_426 IO_STD MNTYMXDLY={MNTYMXDLY} IO_LEVEL={IO_LEVEL} 
+.model D_04XX ugate (
++	tplhty=12ns	tplhmx=22ns
++	tphlty=8ns	tphlmx=15ns)
+.ends sn75als193
+*$

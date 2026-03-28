@@ -1,0 +1,43 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 24.1.0 d001Apr-01-2025 at 23:27:36 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='TWTSTWTW';
+ POST_TIME='Mar  6 2025 10:16:32';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ R1 'R_AXRC05_200':;
+
+SECTION_NUMBER 1
+ '@TWTSTWTW.SCHEMATIC1(SCH_1):INS1085986@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@twtstwtw.schematic1(sch_1):ins1085986@analog.\r.normal\(chips)',
+ P_PATH='@twtstwtw.schematic1(sch_1):page1_ins1085986@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(350,140)',
+ SECTION='';
+
+PART_NAME
+ R2 'R_AXRC05_1.4K':;
+
+SECTION_NUMBER 1
+ '@TWTSTWTW.SCHEMATIC1(SCH_1):INS1086008@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@twtstwtw.schematic1(sch_1):ins1086008@analog.\r.normal\(chips)',
+ P_PATH='@twtstwtw.schematic1(sch_1):page1_ins1086008@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(490,140)',
+ SECTION='';
+
+PART_NAME
+ U1 'OPA855_TEST1_OPA855':;
+
+SECTION_NUMBER 1
+ '@TWTSTWTW.SCHEMATIC1(SCH_1):INS1086114@OPA855.OPA855.NORMAL(CHIPS)':
+ C_PATH='@twtstwtw.schematic1(sch_1):ins1086114@opa855.\opa855.normal\(chips)',
+ P_PATH='@twtstwtw.schematic1(sch_1):page1_ins1086114@opa855.\opa855.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(480,240)',
+ SECTION='';
+
+END.

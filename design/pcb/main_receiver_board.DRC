@@ -1,0 +1,107 @@
+Date and Time : 11/29/24 10:03:47
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+
+Checking For Unconnected Bus Nets
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: 80DB_LIDAR 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC3,VS+  VS+  +VS_5V_6
+                    SCHEMATIC1, 6_CTIA_1  (4.20, 5.30) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC1,VS+  VS+  +VS_5V_6
+                    SCHEMATIC1, 6_CTIA_1  (5.40, 2.30) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC2,VS+  VS+  +VS_5V_6
+                    SCHEMATIC1, 6_CTIA_1  (8.20, 2.70) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC6,VS+  VS+  +VS_5V_7
+                    SCHEMATIC1, 7_CTIA_2  (4.00, 5.30) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC4,VS+  VS+  +VS_5V_7
+                    SCHEMATIC1, 7_CTIA_2  (5.00, 2.70) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC13,VS-  VS-  GND
+                    SCHEMATIC1, 9_4_DIFF_Dual_amp  (4.50, 1.90) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC13,THERMAL_PAD  THERMAL_PAD  GND
+                    SCHEMATIC1, 9_4_DIFF_Dual_amp  (4.00, 2.90) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC15,VS-  VS-  GND
+                    SCHEMATIC1, 9_4_DIFF_Dual_amp  (4.50, 3.70) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC15,THERMAL_PAD  THERMAL_PAD  GND
+                    SCHEMATIC1, 9_4_DIFF_Dual_amp  (4.00, 4.70) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC11,THERMAL_PAD  THERMAL_PAD  GND
+                    SCHEMATIC1, 9_2_DIFF_Multi_TIA  (4.80, 4.40) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC10,THERMAL_PAD  THERMAL_PAD  GND
+                    SCHEMATIC1, 9_2_DIFF_Multi_TIA  (4.80, 2.60) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC11,VS-  VS-  GND
+                    SCHEMATIC1, 9_2_DIFF_Multi_TIA  (5.30, 3.40) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC10,VS-  VS-  GND
+                    SCHEMATIC1, 9_2_DIFF_Multi_TIA  (5.30, 1.60) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC9,THERMAL_PAD  THERMAL_PAD  GND
+                    SCHEMATIC1, 9_1_DIFF_single_amp  (5.40, 3.20) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC9,VS-  VS-  GND
+                    SCHEMATIC1, 9_1_DIFF_single_amp  (5.90, 2.20) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC4,THERMAL_PAD  THERMAL_PAD  GND
+                    SCHEMATIC1, 7_CTIA_2  (4.50, 3.90) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC6,THERMAL_PAD  THERMAL_PAD  GND
+                    SCHEMATIC1, 7_CTIA_2  (4.50, 4.10) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC4,VS-  VS-  GND
+                    SCHEMATIC1, 7_CTIA_2  (5.00, 2.90) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC6,VS-  VS-  GND
+                    SCHEMATIC1, 7_CTIA_2  (4.00, 5.10) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC1,EPAD  EPAD  GND
+                    SCHEMATIC1, 6_CTIA_1  (5.40, 3.10) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC1,VS  VS  GND
+                    SCHEMATIC1, 6_CTIA_1  (5.40, 2.20) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC2,VS-  VS-  GND
+                    SCHEMATIC1, 6_CTIA_1  (8.20, 2.90) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC3,THERMAL_PAD  THERMAL_PAD  GND
+                    SCHEMATIC1, 6_CTIA_1  (4.70, 4.10) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC2,THERMAL_PAD  THERMAL_PAD  GND
+                    SCHEMATIC1, 6_CTIA_1  (7.70, 3.90) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC3,VS-  VS-  GND
+                    SCHEMATIC1, 6_CTIA_1  (4.20, 5.10) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC11,VS+  VS+  +VS_5V_3
+                    SCHEMATIC1, 9_2_DIFF_Multi_TIA  (5.30, 3.20) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC10,VS+  VS+  +VS_5V_3
+                    SCHEMATIC1, 9_2_DIFF_Multi_TIA  (5.30, 1.40) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC13,VS+  VS+  +VS_5V_2
+                    SCHEMATIC1, 9_4_DIFF_Dual_amp  (4.50, 1.70) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC15,VS+  VS+  +VS_5V_2
+                    SCHEMATIC1, 9_4_DIFF_Dual_amp  (4.50, 3.50) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? IC9,VS+  VS+  +VS_5V_1
+                    SCHEMATIC1, 9_1_DIFF_single_amp  (5.90, 2.00) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

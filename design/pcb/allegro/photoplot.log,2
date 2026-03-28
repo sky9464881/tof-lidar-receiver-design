@@ -1,0 +1,600 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : 80DB_LIDAR_1.brd                              )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Wed Dec 04 13:52:10 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          MM
+    FILM-SIZE             4000000 2000000
+    FORMAT                3.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < C:/Users/MSDL3/Desktop/OrCAD File/80dB_LiDAR/allegro/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: text composed 0 width line found at (30.0000 15.0000)
+           ... ignored.
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... ignored.
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.33400                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.27000                                  DARK 
+  CIRCLE     1.35990                                  DARK 
+  CIRCLE     1.90500                                  DARK 
+  CIRCLE     2.03200                                  DARK 
+  CIRCLE     2.41000                                  DARK 
+  CIRCLE     4.06400                                  DARK 
+  SQUARE     1.27000                     0.000 NO     DARK 
+  SQUARE     1.54990                     0.000 NO     DARK 
+  SQUARE     1.90500                     0.000 NO     DARK 
+  SQUARE     2.41000                     0.000 NO     DARK 
+  RECTANGLE  0.30000     x 0.70000      90.000 NO     DARK 
+  RECTANGLE  0.59990     x 0.70000       0.000 NO     DARK 
+  RECTANGLE  0.59990     x 0.70000      90.000 NO     DARK 
+  RECTANGLE  0.59990     x 1.19990       0.000 NO     DARK 
+  RECTANGLE  0.59990     x 1.19990      90.000 NO     DARK 
+  RECTANGLE  0.65000     x 1.52500      90.000 NO     DARK 
+  RECTANGLE  0.80010     x 0.95000      90.000 NO     DARK 
+  RECTANGLE  0.80010     x 1.24990      90.000 NO     DARK 
+  RECTANGLE  0.96520     x 0.81280       0.000 NO     DARK 
+  RECTANGLE  0.96520     x 0.81280      90.000 NO     DARK 
+  RECTANGLE  1.00000     x 1.70000       0.000 NO     DARK 
+  RECTANGLE  1.27000     x 0.63500       0.000 NO     DARK 
+  RECTANGLE  1.27000     x 2.00660       0.000 NO     DARK 
+  RECTANGLE  1.27000     x 2.00660      90.000 NO     DARK 
+  RECTANGLE  2.00000     x 1.40000       0.000 NO     DARK 
+  RECTANGLE  2.00000     x 1.40000      90.000 NO     DARK 
+  RECTANGLE  2.23520     x 2.64160       0.000 NO     DARK 
+  RECTANGLE  2.23520     x 2.64160      90.000 NO     DARK 
+  OBLONG     0.30000     x 0.85000       0.111 NO     DARK 
+  OBLONG     0.30000     x 0.85000      90.000 NO     DARK 
+  OBLONG     0.30000     x 0.85000     179.790 NO     DARK 
+
+     TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < GND >
+     TO FILE < C:/Users/MSDL3/Desktop/OrCAD File/80dB_LiDAR/allegro/GND.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.33400                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  CIRCLE     1.23290                                  DARK 
+  CIRCLE     1.27000                                  DARK 
+  CIRCLE     1.65100                                  DARK 
+  CIRCLE     1.90500                                  DARK 
+  CIRCLE     2.28300                                  DARK 
+  CIRCLE     3.81000                                  DARK 
+  SQUARE     1.90500                     0.000 NO     DARK 
+
+     GND created.
+
+
+================================================================
+     PROCESSING FILM < PWD >
+     TO FILE < C:/Users/MSDL3/Desktop/OrCAD File/80dB_LiDAR/allegro/PWD.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.33400                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.23290                                  DARK 
+  CIRCLE     1.27000                                  DARK 
+  CIRCLE     1.65100                                  DARK 
+  CIRCLE     1.90500                                  DARK 
+  CIRCLE     2.28300                                  DARK 
+  CIRCLE     3.81000                                  DARK 
+  SQUARE     1.90500                     0.000 NO     DARK 
+
+     PWD created.
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < C:/Users/MSDL3/Desktop/OrCAD File/80dB_LiDAR/allegro/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.33400                                  DARK 
+  CIRCLE     0.60000                                  DARK 
+  CIRCLE     0.60960                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.27000                                  DARK 
+  CIRCLE     1.35990                                  DARK 
+  CIRCLE     1.90500                                  DARK 
+  CIRCLE     2.03200                                  DARK 
+  CIRCLE     2.41000                                  DARK 
+  CIRCLE     4.06400                                  DARK 
+  SQUARE     1.90500                     0.000 NO     DARK 
+  SQUARE     2.41000                     0.000 NO     DARK 
+  RECTANGLE  0.59990     x 0.70000       0.000 NO     DARK 
+  RECTANGLE  0.96520     x 0.81280       0.000 NO     DARK 
+  RECTANGLE  0.96520     x 0.81280      90.000 NO     DARK 
+  RECTANGLE  1.27000     x 0.63500      90.000 NO     DARK 
+  RECTANGLE  1.27000     x 2.00660       0.000 NO     DARK 
+  RECTANGLE  2.00000     x 1.40000       0.000 NO     DARK 
+  RECTANGLE  2.00000     x 1.40000      90.000 NO     DARK 
+  RECTANGLE  2.23520     x 2.64160       0.000 NO     DARK 
+
+     BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < Soldermask_TOP >
+     TO FILE < C:/Users/MSDL3/Desktop/OrCAD File/80dB_LiDAR/allegro/Soldermask_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: more than one pin class in film record
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (76.6700 44.3700).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (75.7200 44.3700).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (74.7700 44.3700).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (74.7700 46.8700).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (76.6700 46.8700).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (79.9800 42.2400).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (81.0800 42.2400).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (80.2700 47.6600).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (79.1700 47.6600).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (85.6000 41.0800).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (86.7000 41.0800).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (85.6000 42.2400).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (86.7000 42.2400).
+    WARNING: Null REGULAR-PAD specified for padstack D85_30_2 at (86.8700 43.5400).
+    WARNING: Null REGULAR-PAD specified for padstack D85_30_2 at (86.3700 43.5400).
+    WARNING: Null REGULAR-PAD specified for padstack D85_30_2 at (85.8700 43.5400).
+    WARNING: Null REGULAR-PAD specified for padstack D85_30_2 at (85.3700 43.5400).
+    WARNING: Null REGULAR-PAD specified for padstack D85_30_2 at (84.6400 44.2100).
+    WARNING: Null REGULAR-PAD specified for padstack D85_30_2 at (84.6400 44.7100).
+    WARNING: Null REGULAR-PAD specified for padstack D85_30_2 at (87.5400 44.7100).
+    WARNING: Null REGULAR-PAD specified for padstack D85_30_2 at (87.5400 44.2100).
+    WARNING: Null REGULAR-PAD specified for padstack S155 at (86.1200 44.9600).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (85.6100 47.6700).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (86.7100 47.6700).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (85.6100 48.8400).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (86.7100 48.8400).
+    WARNING: Null REGULAR-PAD specified for padstack D85_30_2 at (84.6400 45.2100).
+    WARNING: Null REGULAR-PAD specified for padstack D85_30_2 at (84.6400 45.7100).
+    WARNING: Null REGULAR-PAD specified for padstack D85_30_2 at (85.3700 46.4400).
+    WARNING: Null REGULAR-PAD specified for padstack D85_30_2 at (85.8700 46.4400).
+    WARNING: Null REGULAR-PAD specified for padstack D85_30_2 at (86.3700 46.4400).
+    WARNING: Null REGULAR-PAD specified for padstack D85_30_2 at (86.8700 46.4400).
+    WARNING: Null REGULAR-PAD specified for padstack D85_30_2 at (87.5400 45.7100).
+    WARNING: Null REGULAR-PAD specified for padstack D85_30_2 at (87.5400 45.2100).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (87.0900 126.1500).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (88.9900 126.1500).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (88.9900 123.6500).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (88.0400 123.6500).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (87.0900 123.6500).
+    WARNING: Null REGULAR-PAD specified for padstack RECT0_8X0_95 at (93.4540 43.6500).
+    WARNING: Null REGULAR-PAD specified for padstack RECT0_8X0_95 at (93.4540 46.3500).
+    WARNING: Null REGULAR-PAD specified for padstack RECT0_8X0_95 at (93.4540 123.6500).
+    WARNING: Null REGULAR-PAD specified for padstack RECT0_8X0_95 at (93.4540 126.3500).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (175.3700 43.6800).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (176.4700 43.6800).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (175.3800 42.5200).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (176.4800 42.5200).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (173.1200 42.5300).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (173.1200 43.6300).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (174.2700 42.5300).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (174.2700 43.6300).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (176.4100 44.9400).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (176.4100 46.0400).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (176.4300 48.4300).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (176.4300 47.3300).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (175.2700 47.3300).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (175.2700 48.4300).
+    WARNING: Null REGULAR-PAD specified for padstack RECT0_8X0_95 at (183.4500 43.6500).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (181.0100 42.5300).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (181.0100 43.6300).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (182.2500 42.5300).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (182.2500 43.6300).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (181.0100 44.8700).
+    WARNING: Null REGULAR-PAD specified for padstack RECT0_8X0_95 at (183.4500 46.3500).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (181.0100 45.9700).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (181.0800 118.8300).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (181.0800 119.9300).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (182.2300 118.8300).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (182.2300 119.9300).
+    WARNING: Null REGULAR-PAD specified for padstack RECT0_8X0_95 at (183.4540 123.6500).
+    WARNING: Null REGULAR-PAD specified for padstack RECT0_8X0_95 at (183.4540 126.3500).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (181.1050 122.5350).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (181.1050 123.6350).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (182.2500 122.5500).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (182.2500 123.6500).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (253.8400 126.2000).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (254.7900 123.7000).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (253.8400 123.7000).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (260.2700 42.1200).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (260.2700 43.0700).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (260.2700 44.0200).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (255.7400 126.2000).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (255.7400 123.7000).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (262.7700 44.0200).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (262.7700 42.1200).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (266.3700 45.1900).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (267.4700 45.1900).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (266.7300 47.8200).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (266.7300 46.7200).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (265.5700 47.8200).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (265.5700 46.7200).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (267.3200 125.2500).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (267.3200 126.3500).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (267.3100 123.6500).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (267.3100 122.5500).
+    WARNING: Null REGULAR-PAD specified for padstack RECT0_8X0_95 at (273.4500 43.6500).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (272.2900 42.5600).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (272.2900 43.6600).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (271.1200 42.5600).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (271.1200 43.6600).
+    WARNING: Null REGULAR-PAD specified for padstack RECT0_8X0_95 at (273.4500 46.3500).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (271.1450 45.1700).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (271.1450 46.2700).
+    WARNING: Null REGULAR-PAD specified for padstack RECT0_8X0_95 at (273.4500 123.6500).
+    WARNING: Null REGULAR-PAD specified for padstack RECT0_8X0_95 at (273.4500 126.3500).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (268.4800 125.2500).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (268.4800 126.3500).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (268.4700 123.6500).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (268.4700 122.5500).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (338.6100 44.2700).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (340.5100 44.2700).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (340.5100 41.7700).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (339.5600 41.7700).
+    WARNING: Null REGULAR-PAD specified for padstack R120_60 at (338.6100 41.7700).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (356.6210 126.3210).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (356.6210 127.4210).
+    WARNING: Null REGULAR-PAD specified for padstack RECT0_8X0_95 at (363.4500 43.6500).
+    WARNING: Null REGULAR-PAD specified for padstack RECT0_8X0_95 at (363.4500 46.3500).
+    WARNING: Null REGULAR-PAD specified for padstack RECT0_8X0_95 at (363.4500 123.6500).
+    WARNING: Null REGULAR-PAD specified for padstack RECT0_8X0_95 at (363.4500 126.3500).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (357.8550 122.5400).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (357.8550 123.6400).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (359.1150 122.5400).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (359.1150 123.6400).
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     1.11760                                  DARK 
+  CIRCLE     1.27000                                  DARK 
+  CIRCLE     1.35990                                  DARK 
+  CIRCLE     1.74090                                  DARK 
+  CIRCLE     1.90500                                  DARK 
+  CIRCLE     2.03200                                  DARK 
+  CIRCLE     2.41000                                  DARK 
+  CIRCLE     2.41300                                  DARK 
+  CIRCLE     2.79100                                  DARK 
+  CIRCLE     4.06400                                  DARK 
+  CIRCLE     4.31800                                  DARK 
+  CIRCLE     7.62000                                  DARK 
+  SQUARE     1.27000                     0.000 NO     DARK 
+  SQUARE     1.54990                     0.000 NO     DARK 
+  SQUARE     1.90500                     0.000 NO     DARK 
+  SQUARE     2.41000                     0.000 NO     DARK 
+  SQUARE     2.79100                     0.000 NO     DARK 
+  RECTANGLE  0.30000     x 0.70000      90.000 NO     DARK 
+  RECTANGLE  0.59990     x 0.70000       0.000 NO     DARK 
+  RECTANGLE  0.59990     x 0.70000      90.000 NO     DARK 
+  RECTANGLE  0.59990     x 1.19990       0.000 NO     DARK 
+  RECTANGLE  0.59990     x 1.19990      90.000 NO     DARK 
+  RECTANGLE  0.65000     x 1.52500      90.000 NO     DARK 
+  RECTANGLE  0.80010     x 0.95000      90.000 NO     DARK 
+  RECTANGLE  0.80010     x 1.24990      90.000 NO     DARK 
+  RECTANGLE  0.96520     x 0.81280       0.000 NO     DARK 
+  RECTANGLE  0.96520     x 0.81280      90.000 NO     DARK 
+  RECTANGLE  1.00000     x 1.70000       0.000 NO     DARK 
+  RECTANGLE  1.27000     x 0.63500       0.000 NO     DARK 
+  RECTANGLE  1.27000     x 2.00660       0.000 NO     DARK 
+  RECTANGLE  1.27000     x 2.00660      90.000 NO     DARK 
+  RECTANGLE  1.39700     x 0.76200       0.000 NO     DARK 
+  RECTANGLE  1.39700     x 2.13360       0.000 NO     DARK 
+  RECTANGLE  1.39700     x 2.13360      90.000 NO     DARK 
+  RECTANGLE  2.00000     x 1.40000       0.000 NO     DARK 
+  RECTANGLE  2.00000     x 1.40000      90.000 NO     DARK 
+  RECTANGLE  2.13000     x 1.54990       0.000 NO     DARK 
+  RECTANGLE  2.13000     x 1.54990      90.000 NO     DARK 
+  RECTANGLE  2.23520     x 2.64160       0.000 NO     DARK 
+  RECTANGLE  2.23520     x 2.64160      90.000 NO     DARK 
+  OBLONG     0.30000     x 0.85000       0.111 NO     DARK 
+  OBLONG     0.30000     x 0.85000      90.000 NO     DARK 
+  OBLONG     0.30000     x 0.85000     179.790 NO     DARK 
+
+     Soldermask_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < Soldermask_BOTTOM >
+     TO FILE < C:/Users/MSDL3/Desktop/OrCAD File/80dB_LiDAR/allegro/Soldermask_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: more than one pin class in film record
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (82.7550 35.7450).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (82.7550 36.8450).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (180.2000 114.8100).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (180.2000 115.9100).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (267.3500 118.0600).
+    WARNING: Null REGULAR-PAD specified for padstack R70_60 at (267.3500 119.1600).
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     1.11760                                  DARK 
+  CIRCLE     1.27000                                  DARK 
+  CIRCLE     1.35990                                  DARK 
+  CIRCLE     1.74090                                  DARK 
+  CIRCLE     1.90500                                  DARK 
+  CIRCLE     2.03200                                  DARK 
+  CIRCLE     2.41000                                  DARK 
+  CIRCLE     2.41300                                  DARK 
+  CIRCLE     2.79100                                  DARK 
+  CIRCLE     4.06400                                  DARK 
+  CIRCLE     4.31800                                  DARK 
+  CIRCLE     7.62000                                  DARK 
+  SQUARE     1.90500                     0.000 NO     DARK 
+  SQUARE     2.41000                     0.000 NO     DARK 
+  SQUARE     2.79100                     0.000 NO     DARK 
+  RECTANGLE  0.59990     x 0.70000       0.000 NO     DARK 
+  RECTANGLE  0.96520     x 0.81280       0.000 NO     DARK 
+  RECTANGLE  0.96520     x 0.81280      90.000 NO     DARK 
+  RECTANGLE  1.27000     x 0.63500      90.000 NO     DARK 
+  RECTANGLE  1.27000     x 2.00660       0.000 NO     DARK 
+  RECTANGLE  1.39700     x 0.76200      90.000 NO     DARK 
+  RECTANGLE  1.39700     x 2.13360       0.000 NO     DARK 
+  RECTANGLE  2.00000     x 1.40000       0.000 NO     DARK 
+  RECTANGLE  2.00000     x 1.40000      90.000 NO     DARK 
+  RECTANGLE  2.13000     x 1.54990       0.000 NO     DARK 
+  RECTANGLE  2.13000     x 1.54990      90.000 NO     DARK 
+  RECTANGLE  2.23520     x 2.64160       0.000 NO     DARK 
+
+     Soldermask_BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < Silkscreen_TOP >
+     TO FILE < C:/Users/MSDL3/Desktop/OrCAD File/80dB_LiDAR/allegro/Silkscreen_TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: 0 width line found at (33.0132 40.1700)
+           ... using undefined line width of 0.2000
+
+    WARNING: Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 0.2000
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.15240                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.20320                                  DARK 
+  CIRCLE     0.25000                                  DARK 
+
+     Silkscreen_TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < Silkscreen_BOTTOM >
+     TO FILE < C:/Users/MSDL3/Desktop/OrCAD File/80dB_LiDAR/allegro/Silkscreen_BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.15240                                  DARK 
+  CIRCLE     0.20000                                  DARK 
+  CIRCLE     0.20320                                  DARK 
+
+     Silkscreen_BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < OUTLINE >
+     TO FILE < C:/Users/MSDL3/Desktop/OrCAD File/80dB_LiDAR/allegro/OUTLINE.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20000                                  DARK 
+
+     OUTLINE created.
+
+
+================================================================
+     PROCESSING FILM < DRILL >
+     TO FILE < C:/Users/MSDL3/Desktop/OrCAD File/80dB_LiDAR/allegro/DRILL.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.2000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.20000                                  DARK 
+
+     DRILL created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created with warnings
+        GND created.
+        PWD created.
+        BOTTOM created.
+        Soldermask_TOP created with warnings
+        Soldermask_BOTTOM created with warnings
+        Silkscreen_TOP created with warnings
+        Silkscreen_BOTTOM created.
+        OUTLINE created.
+        DRILL created.
+
+ ARTWORK had warnings

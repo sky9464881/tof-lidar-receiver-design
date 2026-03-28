@@ -1,0 +1,392 @@
+("ROV05D391K"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("ROV05-391K")
+	)
+)
+("ROV05D471K"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("ROV05-471K")
+	)
+)
+("ROV07D241K"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("ROV07-241K")
+	)
+)
+("ROV07D271K"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("ROV07-271K")
+	)
+)
+("ROV07D471K"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("ROV07-471K")
+	)
+)
+("ROV10D241K"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("ROV10-241K")
+	)
+)
+("ROV10D271K"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("ROV10-271K")
+	)
+)
+("ROV10D391K"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("ROV10-391K")
+	)
+)
+("ROV10D471K"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("ROV10-471K")
+	)
+)
+("ROV14D271K"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("ROV14-271K")
+	)
+)
+("ROV14D391K"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("ROV14-391K")
+	)
+)
+("ROV14D561K"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("ROV14-561K")
+	)
+)
+("ROV20D471K"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("ROV20-471K")
+	)
+)
+("ROV20D561K"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("ROV20-561K")
+	)
+)
+("ROV07-241K"
+	(Creator "Device property file created by prp_generator on Tue Feb 01 10:38:41 IST 05")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "2")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "VARISTOR")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "240")
+		(VAC_RMS "150")
+		(PDM "0.25")
+	)
+)
+("ROV07-471K"
+	(Creator "Device property file created by prp_generator on Tue Feb 01 10:38:41 IST 05")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "2")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "VARISTOR")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "470")
+		(VAC_RMS "300")
+		(PDM "0.25")
+	)
+)
+("ROV07-271K"
+	(Creator "Device property file created by prp_generator on Tue Feb 01 10:38:41 IST 05")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "2")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "VARISTOR")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "270")
+		(VAC_RMS "175")
+		(PDM "0.25")
+	)
+)
+("ROV05-471K"
+	(Creator "Device property file created by prp_generator on Tue Feb 01 10:38:41 IST 05")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "2")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "VARISTOR")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "470")
+		(VAC_RMS "300")
+		(PDM "0.1")
+	)
+)
+("ROV14-561K"
+	(Creator "Device property file created by prp_generator on Tue Feb 01 10:38:41 IST 05")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "2")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "VARISTOR")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "560")
+		(VAC_RMS "350")
+		(PDM "0.6")
+	)
+)
+("ROV05-391K"
+	(Creator "Device property file created by prp_generator on Tue Feb 01 10:38:41 IST 05")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "2")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "VARISTOR")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "390")
+		(VAC_RMS "250")
+		(PDM "0.1")
+	)
+)
+("ROV14-271K"
+	(Creator "Device property file created by prp_generator on Tue Feb 01 10:38:41 IST 05")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "2")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "VARISTOR")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "270")
+		(VAC_RMS "175")
+		(PDM "0.6")
+	)
+)
+("ROV20-561K"
+	(Creator "Device property file created by prp_generator on Tue Feb 01 10:38:41 IST 05")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "2")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "VARISTOR")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "560")
+		(VAC_RMS "350")
+		(PDM "1")
+	)
+)
+("ROV10-241K"
+	(Creator "Device property file created by prp_generator on Tue Feb 01 10:38:41 IST 05")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "2")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "VARISTOR")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "240")
+		(VAC_RMS "150")
+		(PDM "0.4")
+	)
+)
+("ROV14-391K"
+	(Creator "Device property file created by prp_generator on Tue Feb 01 10:38:41 IST 05")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "2")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "VARISTOR")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "390")
+		(VAC_RMS "250")
+		(PDM "0.6")
+	)
+)
+("ROV10-471K"
+	(Creator "Device property file created by prp_generator on Tue Feb 01 10:38:41 IST 05")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "2")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "VARISTOR")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "470")
+		(VAC_RMS "300")
+		(PDM "0.4")
+	)
+)
+("ROV20-471K"
+	(Creator "Device property file created by prp_generator on Tue Feb 01 10:38:41 IST 05")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "2")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "VARISTOR")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "470")
+		(VAC_RMS "300")
+		(PDM "1")
+	)
+)
+("ROV10-271K"
+	(Creator "Device property file created by prp_generator on Tue Feb 01 10:38:41 IST 05")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "2")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "VARISTOR")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "270")
+		(VAC_RMS "175")
+		(PDM "0.4")
+	)
+)
+("ROV10-391K"
+	(Creator "Device property file created by prp_generator on Tue Feb 01 10:38:41 IST 05")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "2")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "VARISTOR")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "390")
+		(VAC_RMS "250")
+		(PDM "0.4")
+	)
+)

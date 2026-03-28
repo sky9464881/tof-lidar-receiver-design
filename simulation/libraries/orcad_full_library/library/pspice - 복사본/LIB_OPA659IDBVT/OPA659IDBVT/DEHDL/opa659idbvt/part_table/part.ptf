@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'OPA659IDBVT'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "OPA659IDBVT" (!) = "", "SOT95P280X145-5N", "SOT23 (5-Pin)", "595-OPA659IDBVT", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA659IDBVT?qs=IDSsxkoac0yQx%2FRcNbdWsA%3D%3D", "OPA659IDBVT", "https://www.arrow.com/en/products/opa659idbvt/texas-instruments?region=nac", "Texas Instruments OPA659IDBVT JFET Op Amp, 350MHz, 5-Pin SOT-23", "http://www.ti.com/lit/gpn/opa659", "1.45 mm"
+END_PART
+
+END.

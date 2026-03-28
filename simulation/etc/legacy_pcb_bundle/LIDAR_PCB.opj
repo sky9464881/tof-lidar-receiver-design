@@ -1,0 +1,114 @@
+(ExpressProject "LIDAR_PCB"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "24.1 S003 (4280230)  [3/6/2025]-[04/08/25]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\lidar_pcb.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ORCADX")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    ("Allegro Netlist Output Board File" ".\allegro\lidar_pcb.brd")
+    (Display_Online_DRC_Results "FALSE"))
+  (Folder "Layout"
+    (File ".\allegro\lidar_pcb.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\lidar_pcb.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (Sort User)
+    (File ".\LIDAR_PCB_OUTPUT\BOM.SCH.CSV"
+      (Type "Report")
+      (DisplayName ".\LIDAR_PCB_OUTPUT\BOM.SCH.CSV")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs"
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile
+         "C:\Users\sky94\OneDrive\Desktop\대학\lidar\lidar_pcb\allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile
+         "C:\Users\sky94\OneDrive\Desktop\대학\lidar\lidar_pcb\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile
+         "C:\Users\sky94\OneDrive\Desktop\대학\lidar\lidar_pcb\allegro\eco.txt"))
+    (File ".\allegro\genfeed.log"
+      (Type "Log File")
+      (LogFile
+         "c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\lidar_pcb\allegro\genfeed.log")))
+  (PartMRUSelector
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OPA855IDSGT
+      (FullPartName "OPA855IDSGT.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1744042644\OPA855IDSGT\CAPTURE\OPA855IDSGT.OLB")
+      (DeviceIndex "0"))
+    (OPA855IDSGR
+      (FullPartName "OPA855IDSGR.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1744042497\OPA855IDSGR\CAPTURE\OPA855IDSGR.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OPA277U_2K5
+      (FullPartName "OPA277U_2K5.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\WORKSPACE\LIBRARIES\SYMBOLS\DOWNLOADS\OPA277U_2K5.OLB")
+      (DeviceIndex "0"))
+    (GRM0225C1HR50WA03L
+      (FullPartName "GRM0225C1HR50WA03L.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743880928\GRM0225C1HR50WA03L\CAPTURE\GRM0225C1HR50WA03L.OLB")
+      (DeviceIndex "0"))
+    (GCQ1555C1HR50WB01D
+      (FullPartName "GCQ1555C1HR50WB01D.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743880483\GCQ1555C1HR50WB01D\CAPTURE\GCQ1555C1HR50WB01D.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "sky94")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs")
+      (Path "Logs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 153 0 742"))
+      (Tab 0)))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\OrCADX_24.1\tools\capture\library\pspice"))

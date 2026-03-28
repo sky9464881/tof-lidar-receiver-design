@@ -1,0 +1,1798 @@
+("DMBRM140T3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:29 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "1")
+		(IFM "2")
+		(VR "40")
+		(PDM "0.47")
+		(TJ "125")
+		(RJA "277")
+		(RJC "35")
+		(RCA "242")
+	)
+)
+("DMBRA120LT3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:29 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "1")
+		(VR "20")
+		(PDM "0.29")
+		(TJ "125")
+		(RJA "138")
+		(RJC "34")
+		(RCA "104")
+	)
+)
+("DMBR20200CTP/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:29 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "10")
+		(IFM "20")
+		(VR "200")
+		(PDM "7.2")
+		(TJ "150")
+		(RJA "17.36")
+		(RJC "2")
+		(RCA "15.36")
+	)
+)
+("D1N5819/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:29 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "1")
+		(VR "40")
+		(VR_RMS "28")
+		(PDM "0.6")
+		(TJ "150")
+		(RJA "80")
+	)
+)
+("mbrb1045/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:29 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "10")
+		(IFM "20")
+		(VR "45")
+		(PDM "5.3")
+		(TJ "150")
+		(RJA "34")
+		(RJC "1")
+		(RCA "33")
+	)
+)
+("DMUR240/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:29 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "2")
+		(VR "400")
+		(PDM "1.75")
+		(TJ "175")
+		(RJA "87")
+	)
+)
+("DMBRB20100CT/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:29 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "10")
+		(IFM "20")
+		(VR "100")
+		(PDM "6")
+		(TJ "150")
+		(RJA "50")
+		(RJC "2")
+		(RCA "48")
+	)
+)
+("D1N5818/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:29 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "1")
+		(VR "30")
+		(VR_RMS "21")
+		(PDM "0.6")
+		(TJ "150")
+		(RJA "80")
+	)
+)
+("bav70tt1/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:29 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "200m")
+		(VR "70")
+		(PDM "225m")
+		(TJ "150")
+		(RJA "555")
+	)
+)
+("murs205t3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:29 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "2")
+		(VR "50")
+		(PDM "1.3")
+		(TJ "175")
+		(RJA "115.38")
+		(RJC "13")
+		(RCA "102.38")
+	)
+)
+("DMURA110T3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:29 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "1")
+		(VR "100")
+		(PDM "0.6")
+		(TJ "175")
+		(RJA "216")
+		(RJC "24")
+		(RCA "192")
+	)
+)
+("D1N5817/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:29 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "1")
+		(VR "20")
+		(VR_RMS "14")
+		(PDM "0.6")
+		(TJ "150")
+		(RJA "80")
+	)
+)
+("murhb840ct/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:29 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "4")
+		(IFM "8")
+		(VR "400")
+		(PDM "6")
+		(TJ "175")
+		(RJA "50")
+		(RJC "3")
+		(RCA "47")
+	)
+)
+("DMURA120T3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:29 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "1")
+		(VR "200")
+		(PDM "0.6")
+		(TJ "175")
+		(RJA "216")
+		(RJC "24")
+		(RCA "192")
+	)
+)
+("DMBRM110LT3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "1")
+		(VR "10")
+		(PDM "0.23")
+		(TJ "125")
+		(RJA "277")
+		(RJC "35")
+		(RCA "242")
+	)
+)
+("mur220/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "2")
+		(VR "200")
+		(PDM "1.4")
+		(TJ "175")
+		(RJA "87")
+	)
+)
+("DNSR15TW1/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "30m")
+		(VR "15")
+		(PDM "0.25")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("DMURA140T3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "1")
+		(VR "400")
+		(PDM "0.9")
+		(TJ "175")
+		(RJA "216")
+		(RJC "24")
+		(RCA "192")
+	)
+)
+("DMBR2545CTP/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "15")
+		(IFM "30")
+		(VR "45")
+		(PDM "7.7")
+		(TJ "150")
+		(RJA "16.23")
+		(RJC "2")
+		(RCA "14.23")
+	)
+)
+("DMBR2045CTP/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "10")
+		(IFM "20")
+		(VR "45")
+		(PDM "5")
+		(TJ "150")
+		(RJA "25")
+		(RJC "2")
+		(RCA "23")
+	)
+)
+("murb1620ct/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "8")
+		(IFM "16")
+		(VR "200")
+		(PDM "6")
+		(TJ "175")
+		(RJA "50")
+		(RJC "3")
+		(RCA "47")
+	)
+)
+("DMBRM110ET3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "1")
+		(VR "10")
+		(PDM "0.38")
+		(TJ "150")
+		(RJA "277")
+		(RJC "35")
+		(RCA "242")
+	)
+)
+("DMBR845/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "8")
+		(VR "45")
+		(VR_RMS "31.5")
+		(PDM "4.96")
+		(TJ "150")
+		(RJA "25.2")
+		(RJC "3")
+		(RCA "22.2")
+	)
+)
+("DMBRS130LT3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "1")
+		(VR "30")
+		(PDM "0.3")
+		(TJ "125")
+		(RJA "333.33")
+		(RJC "12")
+		(RCA "321.33")
+	)
+)
+("DMBR16100CT/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "16")
+		(VR "100")
+		(VR_RMS "70")
+		(PDM "11.6")
+		(TJ "150")
+		(RJC "2")
+	)
+)
+("murs260t3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "2")
+		(VR "600")
+		(PDM "2.4")
+		(TJ "175")
+		(RJA "62.5")
+		(RJC "13")
+		(RCA "49.5")
+	)
+)
+("da121tt1/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "200m")
+		(VR "80")
+		(PDM "225m")
+		(TJ "150")
+		(RJA "555")
+	)
+)
+("rb751v40t1/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(VR "40")
+		(PDM "200m")
+		(TJ "150")
+		(RJA "635")
+	)
+)
+("DMBRB2545CT/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "15")
+		(IFM "30")
+		(VR "45")
+		(PDM "6.5")
+		(TJ "150")
+		(RJA "50")
+		(RJC "1.5")
+		(RCA "48.5")
+	)
+)
+("bas16tt1/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "200m")
+		(VR "75")
+		(PDM "225m")
+		(TJ "150")
+		(RJA "555")
+	)
+)
+("murd320/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "3")
+		(IFM "6")
+		(VR "200")
+		(PDM "2")
+		(TJ "175")
+		(RJA "80")
+		(RJC "6")
+		(RCA "74")
+	)
+)
+("DMURS230T3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "2")
+		(VR "300")
+		(PDM "1.5")
+		(TJ "175")
+		(RJA "100")
+		(RJC "13")
+		(RCA "87")
+	)
+)
+("DMUR210/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "2")
+		(VR "100")
+		(PDM "1.45")
+		(TJ "175")
+		(RJA "87")
+	)
+)
+("DMSR1560/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "15")
+		(IFM "30")
+		(VR "600")
+		(PDM "19.8")
+		(TJ "150")
+		(RJA "72.8")
+		(RJC "1.6")
+		(RCA "71.2")
+	)
+)
+("DMBRS2040LT3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "2")
+		(IFM "4")
+		(VR "40")
+		(PDM "0.67")
+		(TJ "125")
+		(RJA "78")
+		(RJC "22.5")
+		(RCA "55.5")
+	)
+)
+("DMBRM130LT3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "1")
+		(IFM "2")
+		(VR "30")
+		(PDM "0.32")
+		(TJ "125")
+		(RJA "277")
+		(RJC "35")
+		(RCA "242")
+	)
+)
+("DMBRS140LT3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "1")
+		(IFM "2")
+		(VR "40")
+		(PDM "0.42")
+		(TJ "125")
+		(RJA "80")
+		(RJC "24")
+		(RCA "56")
+	)
+)
+("DMBRB2515L/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "25")
+		(IFM "30")
+		(VR "15")
+		(PDM "8.5")
+		(TJ "100")
+		(RJA "50")
+		(RJC "1")
+		(RCA "49")
+	)
+)
+("DMBR20100CTP/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "10")
+		(IFM "20")
+		(VR "100")
+		(PDM "6.8")
+		(TJ "150")
+		(RJA "60")
+		(RJC "2")
+		(RCA "58")
+	)
+)
+("DMBR1545CTP/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "7.5")
+		(IFM "15")
+		(VR "45")
+		(PDM "3.7")
+		(TJ "150")
+		(RJA "60")
+		(RJC "3")
+		(RCA "57")
+	)
+)
+("DMBR130/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "1")
+		(VR "30")
+		(PDM "1.25")
+		(TJ "125")
+		(RJA "80")
+	)
+)
+("mmbv2109lt1/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "200m")
+		(VR "30")
+		(PDM "225m")
+		(TJ "150")
+		(RJA "555.55")
+	)
+)
+("DMMBD2836LT1/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "100m")
+		(VR "75")
+		(PDM "300m")
+		(TJ "150")
+		(RJA "417")
+	)
+)
+("DMBR4015CTL/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "20")
+		(IFM "40")
+		(VR "15")
+		(PDM "7")
+		(TJ "125")
+		(RJA "2")
+		(RJC "1.3")
+		(RCA "0.7")
+	)
+)
+("bas21slt1/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "225m")
+		(VR "250")
+		(PDM "300m")
+		(TJ "150")
+		(RJA "417")
+	)
+)
+("DMURA160T3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "1")
+		(VR "600")
+		(PDM "0.9")
+		(TJ "175")
+		(RJA "216")
+		(RJC "24")
+		(RCA "192")
+	)
+)
+("mv104/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "200m")
+		(VR "32")
+		(PDM "280m")
+		(TJ "125")
+		(RJA "357.14")
+	)
+)
+("mur2100e/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "2")
+		(VR "1000")
+		(PDM "2.6")
+		(TJ "175")
+		(RJA "87")
+	)
+)
+("DMURS360T3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "3")
+		(VR "600")
+		(PDM "3.1")
+		(TJ "175")
+		(RJA "48.38")
+		(RJC "11")
+		(RCA "37.38")
+	)
+)
+("DMBRA120ET3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "1")
+		(VR "20")
+		(PDM "0.38")
+		(TJ "150")
+		(RJA "138")
+		(RJC "34")
+		(RCA "104")
+	)
+)
+("DMBR2515L/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "25")
+		(IFM "30")
+		(VR "15")
+		(TJ "100")
+		(RJC "2")
+	)
+)
+("murs210t3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "2")
+		(VR "100")
+		(PDM "1.3")
+		(TJ "175")
+		(RJA "115.38")
+		(RJC "13")
+		(RCA "102.38")
+	)
+)
+("mur260/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "2")
+		(VR "600")
+		(PDM "2")
+		(TJ "175")
+		(RJA "87")
+	)
+)
+("mur2020r/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:30 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "20")
+		(IFM "40")
+		(VR "200")
+		(PDM "19")
+		(TJ "175")
+		(RJA "7.89")
+		(RJC "2")
+		(RCA "5.89")
+	)
+)
+("murs220t3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:31 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "2")
+		(VR "200")
+		(PDM "1.8")
+		(TJ "175")
+		(RJA "83.3")
+		(RJC "13")
+		(RCA "70.3")
+	)
+)
+("DMURS240T3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:31 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "2")
+		(VR "400")
+		(PDM "1.5")
+		(TJ "175")
+		(RJA "100")
+		(RJC "13")
+		(RCA "87")
+	)
+)
+("DMBRM120ET3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:31 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "1")
+		(IFM "2")
+		(VR "20")
+		(PDM "0.38")
+		(TJ "150")
+		(RJA "277")
+		(RJC "35")
+		(RCA "242")
+	)
+)
+("DMBRB1545CT/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:31 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "7.5")
+		(IFM "15")
+		(VR "45")
+		(PDM "3.2")
+		(TJ "150")
+		(RJA "50")
+		(RJC "2")
+		(RCA "48")
+	)
+)
+("baw56tt1/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:31 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "200m")
+		(VR "70")
+		(PDM "225m")
+		(TJ "150")
+		(RJA "555")
+	)
+)
+("DMBRP40030CTLB2/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:31 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "200")
+		(IFM "200")
+		(VR "30")
+		(PDM "92")
+		(TJ "150")
+		(RJC "0.4")
+	)
+)
+("p6smb6_8at3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:56 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "30")
+		(IRMX "0.42")
+		(PDM "3")
+		(TJ "150")
+		(RJC "25")
+		(RCA "201")
+		(RJA "226")
+	)
+)
+("DMR2835S/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:56 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "100")
+		(TJ "150")
+		(RJC "1")
+	)
+)
+("1_5ke56/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "100")
+		(IRMX "81.16m")
+		(PDM "5")
+		(TJ "175")
+		(RJC "20")
+	)
+)
+("1_5smc12at3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "100")
+		(IRMX "0.317")
+		(PDM "4")
+		(TJ "150")
+		(RJC "18.3")
+		(RCA "146.7")
+		(RJA "165")
+	)
+)
+("1_5smc43at3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "100")
+		(IRMX "88.49m")
+		(PDM "4")
+		(TJ "150")
+		(RJC "18.3")
+		(RCA "146.7")
+		(RJA "165")
+	)
+)
+("1n4694/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "100m")
+		(IRMX "29.036m")
+		(PDM "250m")
+		(TJ "175")
+		(RJA "500")
+	)
+)
+("1n4698/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "100m")
+		(IRMX "21.645m")
+		(PDM "250m")
+		(TJ "175")
+		(RJA "500")
+	)
+)
+("1n5231/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "200m")
+		(IRMX "93.37m")
+		(PDM "500m")
+		(TJ "200")
+		(RJC "250")
+	)
+)
+("1n6280/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "100")
+		(IRMX "189.39m")
+		(PDM "5")
+		(TJ "175")
+		(RJC "20")
+	)
+)
+("1n752/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "200m")
+		(IRMX "81.16m")
+		(PDM "500m")
+		(TJ "200")
+		(RJC "300")
+	)
+)
+("1smb5935bt3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "200m")
+		(IRMX "105.82m")
+		(PDM "3")
+		(TJ "150")
+		(RJC "25")
+	)
+)
+("1smc28at3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(PDM "1500")
+		(TJ "150")
+	)
+)
+("bzx84c5v1lt3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "10m")
+		(IRMX "55.55m")
+		(PDM "300m")
+		(TJ "150")
+		(RJA "417")
+	)
+)
+("bzx84c6v8/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+	)
+)
+("p6smb13at3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "30")
+		(IRMX "0.219")
+		(PDM "3")
+		(TJ "150")
+		(RJC "25")
+		(RCA "201")
+		(RJA "226")
+	)
+)
+("p6smb18at3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "30")
+		(IRMX "0.159")
+		(PDM "3")
+		(TJ "150")
+		(RJC "25")
+		(RCA "201")
+		(RJA "226")
+	)
+)
+("p6smb20at3/ON"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:56:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "30")
+		(IRMX "0.143")
+		(PDM "3")
+		(TJ "150")
+		(RJC "25")
+		(RCA "201")
+		(RJA "226")
+	)
+)

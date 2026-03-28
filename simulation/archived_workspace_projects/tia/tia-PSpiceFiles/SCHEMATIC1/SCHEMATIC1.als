@@ -1,0 +1,8 @@
+.ALIASES
+V_V2            V2(+=0 -=-5 ) CN @TIA.SCHEMATIC1(sch_1):INS1077124@SOURCE.VDC.Normal(chips)
+V_V1            V1(+=5 -=0 ) CN @TIA.SCHEMATIC1(sch_1):INS1076960@SOURCE.VDC.Normal(chips)
+X_U2            U2(+=0 -=N1077846 VS+=5 VS-=-5 Vo=N1077839 ) CN @TIA.SCHEMATIC1(sch_1):INS1077719@OPA855.OPA855.Normal(chips)
+R_R150          R150(1=N1077846 2=N1077839 ) CN @TIA.SCHEMATIC1(sch_1):INS1077817@ANALOG.R.Normal(chips)
+_    _(-5=-5)
+_    _(5=5)
+.ENDALIASES

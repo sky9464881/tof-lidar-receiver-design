@@ -1,0 +1,241 @@
+
+**** 04/01/25 18:26:11 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-tetsr"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\del123\del123-PSpiceFiles\SCHEM
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "tetsr.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa695_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa856_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\tlv3604.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPAx277.LIB" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa855_a.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1m 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source DEL123
+V_V1         N1080667 0 5
+V_V2         0 N1080673 5
+X_U2         N1080291 N1079833 N1080673 N1080667 N1079857 OPA855
+R_R150         N1079833 N1079857  200 TC=0,0 
+C_C1         N1079857 N1079833  1n  TC=0,0 
+V_V5         N1080291 0 0
+I_I1         0 N1079833 DC 1m  
+
+**** RESUMING tetsr.cir ****
+.END
+
+**** 04/01/25 18:26:11 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-tetsr"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\del123\del123-PSpiceFiles\SCHEM
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.X_E_N.DVN  X_U2.X_I_NP1.DNVF               X_U2.X_U1.DNVF  
+          IS  100.000000E-18  100.000000E-18                  100.000000E-18 
+          KF  316.227800E-12  316.227800E-12                  316.227800E-12 
+
+
+**** 04/01/25 18:26:11 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-tetsr"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\del123\del123-PSpiceFiles\SCHEM
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+**** 04/01/25 18:26:11 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-tetsr"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\del123\del123-PSpiceFiles\SCHEM
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.X_ESD_OUT.ESD_SW           X_U2.X_S1._S1   X_U2.X_S2._S2   
+         RON   50                               1.000000E-03    1.000000E-03 
+        ROFF    1.000000E+12                   20.000000E+03   20.000000E+03 
+         VON     .5                              .8              .8          
+        VOFF     .45                            -.6             -.4          
+
+
+**** 04/01/25 18:26:11 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-tetsr"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\del123\del123-PSpiceFiles\SCHEM
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(X_U2.ZO)   -5.0000                   (N1079833)   -3.6501                      
+
+(N1079857)   -3.9941                  (N1080291)    0.0000                      
+
+(N1080667)    5.0000                  (N1080673)   -5.0000                      
+
+(X_U2.MID)     .5030                  (X_U2.CMRR)     .5030                     
+
+(X_U2.ESDN)   -3.6501                 (X_U2.ESDP)-7.418E-06                     
+
+(X_U2.CLAMP)     .5030                (X_U2.PSRRN)     .5033                    
+
+(X_U2.PSRRP)     .5032                (X_U2.VCC_B)    5.0000                    
+
+(X_U2.VEE_B)   -3.9941                (X_U2.VIMON)  401.9900                    
+
+(X_U2.AOLNET)     .0030               (X_U2.N06456)-7.418E-06                   
+
+(X_U2.N10561)-407.4E-06               (X_U2.N10570)-412.4E-06                   
+
+(X_U2.N11984)-412.4E-06               (X_U2.N11991)   -3.6501                   
+
+(X_U2.N25816)-563.3E-06               (X_U2.N28602)   -2.8941                   
+
+(X_U2.N30136)    4.6000               (X_U2.N30913)-563.3E-06                   
+
+(X_U2.N31014)-563.3E-06               (X_U2.N35675)    1.6000                   
+
+(X_U2.N35813)    1.6000               (X_U2.N38050)    -.5941                   
+
+(X_U2.N38096)    -.5941               (X_U2.VOUT_S)   -5.0000                   
+
+(X_U2.X_U1.3)    0.0000               (X_U2.X_U1.4)    0.0000                   
+
+(X_U2.X_U1.5)    0.0000               (X_U2.X_U1.6)    0.0000                   
+
+(X_U2.X_U1.7)     .8338               (X_U2.X_U1.8)     .8338                   
+
+(X_U2.N110431)  401.9900              (X_U2.N112292)   -5.0000                  
+
+(X_U2.N317950)     .5030              (X_U2.N406634)    5.0000                  
+
+(X_U2.N406794)   -3.9941              (X_U2.N749288)-407.4E-06                  
+
+(X_U2.VCC_CLP)    1.6000              (X_U2.VEE_CLP)    -.5941                  
+
+(X_U2.X_E_N.3)    0.0000              (X_U2.X_E_N.4)    0.0000                  
+
+(X_U2.X_E_N.5)    0.0000              (X_U2.X_E_N.6)    0.0000                  
+
+(X_U2.X_E_N.7)     .8338              (X_U2.X_E_N.8)     .8338                  
+
+(X_U2.N1254860)  502.0600             (X_U2.N1446199)     .5030                 
+
+(X_U2.N1446217)     .5030             (X_U2.N1461236)     .5618                 
+
+(X_U2.N1461246)     .5030             (X_U2.N1461252)     .5013                 
+
+(X_U2.N1481243)   -2.7166             (X_U2.N1481253)     .5027                 
+
+(X_U2.N1481259)     .5038             (X_U2.N1483677)    7.5986                 
+
+(X_U2.N1483687)     .5033             (X_U2.N1483693)     .4946                 
+
+(X_U2.N1483703)     .5026             (X_U2.N1483713)     .5113                 
+
+(X_U2.N1490067)     .5032             (X_U2.N1492098)    8.7572                 
+
+(X_U2.N1492108)    6.0058             (X_U2.N1492118)    6.0058                 
+
+(X_U2.N1492126)    6.0058             (X_U2.N1492376)    6.0058                 
+
+(X_U2.N1534615)  141.0200             (X_U2.N1534625)    5.4251                 
+
+(X_U2.N1534635)    5.4251             (X_U2.N1534645)    5.4251                 
+
+(X_U2.N1534887)    5.4251             (X_U2.N1541593)  126.1900                 
+
+(X_U2.N1541603)    4.9058             (X_U2.X_I_NP1.3)    0.0000                
+
+(X_U2.X_I_NP1.4)    0.0000            (X_U2.X_I_NP1.5)    0.0000                
+
+(X_U2.X_I_NP1.6)    0.0000            (X_U2.X_I_NP1.7)     .8338                
+
+(X_U2.X_I_NP1.8)     .8338            (X_U2.X_VOS_VS_VCM.1)-407.4E-06       
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -4.199E-01
+    V_V2        -4.216E-01
+    V_V5        -7.418E-04
+    X_U2.V_VCM_MAX  -4.097E-09
+    X_U2.V_VCM_MIN   3.397E-09
+    X_U2.X_H3.VH_H3  -4.015E-01
+    X_U2.X_VOS_VS_VCM.V1  -1.653E-17
+
+    TOTAL POWER DISSIPATION   4.21E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 04/01/25 18:26:11 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-tetsr"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\del123\del123-PSpiceFiles\SCHEM
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .05
+

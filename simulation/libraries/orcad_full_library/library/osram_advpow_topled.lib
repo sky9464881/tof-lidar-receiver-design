@@ -1,0 +1,306 @@
+*****************************************************************************************
+* LW_G6SP-typ D, OSRAM Advanced Power TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LW_G6SP-typ D
++ IS=704.57E-15
++ N=5
++ RS=1.5332
+*$
+*
+*****************************************************************************************
+* LT_G6SP-typ D, OSRAM Advanced Power TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LT_G6SP-typ D
++ IS=704.28E-15
++ N=5
++ RS=1.5332
+*$
+*
+*****************************************************************************************
+* LY_G6SP-typ D, OSRAM Advanced Power TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LY_G6SP-typ D
++ IS=27.378E-21
++ N=1.7845
++ RS=1.4781
+*$
+*
+*****************************************************************************************
+* LR_G6SP-typ D, OSRAM Advanced Power TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LR_G6SP-typ D
++ IS=10.130E-21
++ N=1.6792
++ RS=1.6263
+*$
+*
+*****************************************************************************************
+* LA_G6SP-typ D, OSRAM Advanced Power TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LA_G6SP-typ D
++ IS=10.130E-21
++ N=1.6792
++ RS=1.6263
+*$
+*
+*****************************************************************************************
+* LW_G6SG-4-typ D, OSRAM Advanced Power TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LW_G6SG-4-typ D
++ IS=7.5047E-15
++ N=3.6462
++ RS=5.4947
+*$
+*
+*****************************************************************************************
+* LW_G6SG-3-typ D, OSRAM Advanced Power TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LW_G6SG-3-typ D
++ IS=47.295E-15
++ N=1.8059
++ RS=3.2427
++ IKF=2.2776E-15
+*$
+*
+*****************************************************************************************
+* LA_G67F-typ D, OSRAM Advanced Power TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LA_G67F-typ D
++ IS=3.4917E-9
++ N=4.7291
++ RS=1.7177
+*$
+*
+*****************************************************************************************

@@ -1,0 +1,14 @@
+\t (00:00:03) orcadx 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Tue Apr  8 06:53:53 2025
+\t (00:00:03)         Host=BOOK-QTRCVV9COM User=user Pid=7716 CPUs=12
+\t (00:00:03) CmdLine= C:\Cadence\OrCADX_24.1\tools\bin\unison.exe -layout -orcadx -mpssession user -proj c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\lidar_pcb\lidar_pcb.opj c:/users/user/appdata/roaming/spb_data/cdssetup/workspace/projects/lidar_pcb/allegro/lidar_pcb.brd
+\t (00:00:03) 
+\t (00:00:10) Loading axlcore.cxt 
+\t (00:00:10) Starting new design...
+\i (00:00:10) trapsize 10500
+\i (00:00:11) opencd c:/users/user/appdata/roaming/spb_data/cdssetup/workspace/projects/lidar_pcb/allegro/lidar_pcb.brd 
+\t (00:00:11) Opening existing design...
+\w (00:00:11) WARNING(SPMHDB-213): DRC set to "out of date". The current product selection supports a different DRC capability than what is saved in the design.
+\i (00:00:11) trapsize 29587
+\t (00:00:11) > Sending response DoneOpenBoard
+\t (00:00:11)     Journal end - Tue Apr  8 06:54:01 2025

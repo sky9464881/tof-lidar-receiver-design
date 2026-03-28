@@ -1,0 +1,125 @@
+\t (00:00:08) orcadx 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:08)     Journal start - Tue Apr  8 04:48:18 2025
+\t (00:00:08)         Host=BOOK-QTRCVV9COM User=user Pid=11728 CPUs=12
+\t (00:00:08) CmdLine= unison -layout -orcadx -productToken 00013BF0BD8CA4B5E1F639B2F485F4E0B0E271FCB0CEA4A9E4AA6AFEEA8DA1B5E6FE60D2A6A3B2C7BA8038F3EF8383C6DF9F2CF1C1A6B3F7E6AA3AC5D48690E8EC9064FEFAC0A2B2E6FC6EE2BFD2F0E7B4FB38FBED9BC09A80CF5D8998F6C08480CF5AE1FB9894D6AD9E51FD91D3FF84BFF038FBED85C08480CF38FBED85C08480CF5F0FC67DEB7CE73B000040DD C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/libraries/footprints/downloads/capc5764x279n.dra
+\t (00:00:08) 
+\d (00:00:08) Design opened: C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/libraries/footprints/downloads/capc5764x279n.dra
+\i (00:00:09) trapsize 26045
+\i (00:00:10) trapsize 26697
+\t (00:00:16) Loading consmgr.cxt 
+\t (00:00:16) Loading acns_formula.cxt 
+\i (00:00:16) trapsize 27382
+\w (00:00:17) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:00:18) nayunwoo159@kw.ac.kr user logged in.
+
+\i (00:00:19) QtSignal ucp_shape_create_dyn_dim UCPAddShape_Type CurrentIndexChanged 1
+\i (00:00:19) updateport VisibilityPane
+\w (00:00:19) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:20) updateport CMPanelPort
+\i (00:00:20) updateport PropPane
+\i (00:00:20) ucpedit 
+\i (00:00:20) updateport ReportsPane
+\i (00:00:20) updateport SearchPane
+\i (00:00:20) updateport VisibilityPane
+\i (00:00:21) trapsize 11683
+\i (00:00:22) prepopup 46.5036 30.1475
+\i (00:00:23) drag_start grid -33.8748 7.4827
+\i (00:00:24) drag_stop 72.6733 -31.7719
+\w (00:00:24) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:24) updateport ReportsPane
+\i (00:00:24) updateport SearchPane
+\i (00:00:24) updateport PropPane
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in 36.6899 -14.0139
+\i (00:00:24) trapsize 5841
+\i (00:00:24) zoom in 1 
+\i (00:00:24) setwindow pcb
+\i (00:00:24) zoom in 35.2880 -14.7148
+\i (00:00:24) trapsize 2921
+\i (00:00:25) drag_start grid 27.4021 -14.4227
+\i (00:00:25) drag_stop 54.3896 -15.4741
+\w (00:00:25) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:25) updateport ReportsPane
+\i (00:00:25) updateport SearchPane
+\i (00:00:25) updateport PropPane
+\i (00:00:26) roam start
+\i (00:00:26) roam x -2
+\i (00:00:26) roam x -1
+\i (00:00:26) roam x -2
+\i (00:00:26) roam x -4
+\i (00:00:26) roam x -183
+\i (00:00:26) roam y -17
+\i (00:00:26) roam x -57
+\i (00:00:26) roam y -4
+\i (00:00:26) roam x -12
+\i (00:00:26) roam y -2
+\i (00:00:26) roam x -96
+\i (00:00:26) roam y -6
+\i (00:00:26) roam x -36
+\i (00:00:26) roam y -1
+\i (00:00:26) roam x -29
+\i (00:00:26) roam y -3
+\i (00:00:26) roam x -24
+\i (00:00:26) roam y -5
+\i (00:00:26) roam x -28
+\i (00:00:26) roam y -3
+\i (00:00:26) roam x -36
+\i (00:00:26) roam y -1
+\i (00:00:26) roam x -9
+\i (00:00:26) roam x -108
+\i (00:00:26) roam y -3
+\i (00:00:26) roam x -69
+\i (00:00:26) roam x -86
+\i (00:00:26) roam x -94
+\i (00:00:26) roam y -2
+\i (00:00:26) roam x -84
+\i (00:00:26) roam y -1
+\i (00:00:26) roam x -75
+\i (00:00:26) roam x -69
+\i (00:00:26) roam x -14
+\i (00:00:26) roam x -66
+\i (00:00:26) roam x -4
+\i (00:00:26) roam end
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in 8.4757 -5.0765
+\i (00:00:26) trapsize 1460
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in 6.8401 -4.5507
+\i (00:00:27) trapsize 730
+\i (00:00:27) roam start
+\i (00:00:27) roam x -6
+\i (00:00:27) roam y -3
+\i (00:00:27) roam x -5
+\i (00:00:27) roam y -2
+\i (00:00:27) roam x -3
+\i (00:00:27) roam y -1
+\i (00:00:27) roam x -69
+\i (00:00:27) roam y -36
+\i (00:00:27) roam x -34
+\i (00:00:27) roam y -15
+\i (00:00:27) roam x -14
+\i (00:00:27) roam y -6
+\i (00:00:27) roam x -117
+\i (00:00:27) roam y -27
+\i (00:00:27) roam x -43
+\i (00:00:27) roam y -9
+\i (00:00:27) roam x -35
+\i (00:00:27) roam y -6
+\i (00:00:27) roam x -16
+\i (00:00:27) roam y -3
+\i (00:00:27) roam x -6
+\i (00:00:27) roam x -9
+\i (00:00:27) roam y -5
+\i (00:00:27) roam end
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 5.6719 -3.9811
+\i (00:00:28) trapsize 365
+\i (00:00:32) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:00:32) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:00:32) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:00:32) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\t (00:00:39)     Journal end - Tue Apr  8 04:48:49 2025

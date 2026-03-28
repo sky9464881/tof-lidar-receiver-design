@@ -1,0 +1,393 @@
+("awbba582"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbba592"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbba892"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbar6302w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbar6303w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbar63"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbas140w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbas170w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbas40"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbas70"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbat1503w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbat15098"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbat17"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 22 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "3.915E-08" )
+		)
+		( "RS"
+			( "val" "1.070E+01" )
+		)
+		( "N"
+			( "val" "1.215E+00" )
+		)
+		( "TT"
+			( "val" "0" )
+		)
+		( "CJO"
+			( "val" "8.820E-13" )
+		)
+		( "VJ"
+			( "val" "3.000E-01" )
+		)
+		( "M"
+			( "val" "1.439E-01" )
+		)
+		( "EG"
+			( "val" ".67" )
+		)
+		( "XTI"
+			( "val" "2.000E+00" )
+		)
+		( "KF"
+			( "val" "0.0" )
+		)
+		( "AF"
+			( "val" "1.0" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+		( "BV"
+			( "val" "8.00000e+00" )
+		)
+		( "IBV"
+			( "val" "1.00000e+00" )
+		)
+	)
+	("symbol"
+			( "IC" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( IF "3.00e-02" )
+		( VR "4.00e+00" )
+		( TJ "100" )
+		( PDM "1.88e-01" )
+		( RJC "400" )
+		( RCA "220" )
+	)
+)
+("awbbat17w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbat18"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbb515"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbb535"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbb555"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbb619c"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbb639c"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbb659c"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbb835"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbby5102w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbby5103w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbby5202w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbby5203w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbby5302w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbby5303w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 18:09:20 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "Diode" )
+		( MODEL_TYPE 522 )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("device_max_ops"
+	)
+)

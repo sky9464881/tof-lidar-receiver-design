@@ -1,0 +1,50 @@
+{
+	"Gate Swap" : [],
+	"Ref Des" : [],
+	"Pin Swap" : [],
+	"Component Property" : [],
+	"Net Property" : [],
+	"Pin Property" : [],
+	"Component" : [
+		{
+			"Name" : "C40(6.8UF)",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1202132\\@\\TAJA685K020R\\.\\TAJA685K020R.Normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "C40(6.8UF)"
+		},
+		{
+			"Name" : "C41(0.1UF)",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1202156\\@\\C0603G104K5RACT250\\.\\C0603G104K5RACT250.Normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "C41(0.1UF)"
+		},
+		{
+			"Name" : "C23(0.1UF)",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1156007\\@\\C0603G104K5RACT250\\.\\C0603G104K5RACT250.Normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "C23(0.1UF)"
+		},
+		{
+			"Name" : "R14(20)",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1180175\\@\\SG73P1JTTD20R0F\\.\\SG73P1JTTD20R0F.Normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "R14(20)"
+		}
+	],
+	"Net" : [
+		{
+			"Name" : "695INTPUT+",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\695INTPUT+\\",
+			"Logical" : null,
+			"Physical" : "695INTPUT+"
+		}
+	],
+	"Connection" : [
+		{
+			"Name" : "OPA695.3",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1155513\\@\\OPA695IDBVR\\.\\OPA695IDBVR.Normal\\(chips):\\NONINVERTING_INPUT\\",
+			"Logical" : "0",
+			"Physical" : "695INTPUT+"
+		}
+	]
+}

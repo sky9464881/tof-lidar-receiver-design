@@ -1,0 +1,96 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : LIDAR_READOUT_VER1_2_top_bot_gnd.brd          )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Mon Jul 17 10:32:38 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		5.5
+ MACHINE-OFFSET		x:0.00000	y:0.00000   (inch)
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		ENGLISH
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	YES
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		YES
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		YES
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	YES
+ ENHANCED_EXCELLON	YES
+ SCALE			1.000000
+
+ WARNING(SPMHMF-368): Cannot find NC Drill tool file 'nc_tools.txt'
+ WARNING(SPMHMF-369): ... will auto-generate tool file 'nc_tools_auto.txt'.
+
+
+     Auto-generating tool file 'nc_tools_auto.txt' ...
+
+           Size  Plating  Tool        + Tolerance  - Tolerance
+
+           13.0  P        T01            0.000000     0.000000
+           20.0  P        T02            0.000000     0.000000
+           29.5  P        T03            0.000000     0.000000
+           31.0  P        T04            0.000000     0.000000
+           36.0  P        T05            0.000000     0.000000
+           37.0  P        T06            0.000000     0.000000
+           54.0  P        T07            0.000000     0.000000
+           55.0  P        T08            0.000000     0.000000
+           70.9  P        T09            0.000000     0.000000
+          150.0  P        T10            0.000000     0.000000
+          236.2  N        T11            0.000000     0.000000
+
+
+Drill files being output to directory 'E:/project/pulsed_Lidar/design/version1/PCB' ...
+
+
+
+     'LIDAR_READOUT_VER1_2_top_bot_gnd-1-4.drl' created for holes connecting TOP and BOTTOM ; Plating = PLATED
+     ---------------------------------------------------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.  13.0000    0.0000/  0.0000      PLATED         93
+     T02    2.  20.0000    0.0000/  0.0000      PLATED        357
+     T03    3.  29.5000    0.0000/  0.0000      PLATED         12
+     T04    4.  31.0000    0.0000/  0.0000      PLATED          2
+     T05    5.  36.0000    0.0000/  0.0000      PLATED         40
+     T06    6.  37.0000    0.0000/  0.0000      PLATED         20
+     T07    7.  54.0000    0.0000/  0.0000      PLATED         18
+     T08    8.  55.0000    0.0000/  0.0000      PLATED          3
+     T09    9.  70.9000    0.0000/  0.0000      PLATED          4
+     T10   10. 150.0000    0.0000/  0.0000      PLATED          1
+
+     ---- Total holes:                                        550
+
+     ---- Total head travel:              13.62 feet (4.15 meters)
+
+
+
+
+     'LIDAR_READOUT_VER1_2_top_bot_gnd-1-4-np.drl' created for holes connecting TOP and BOTTOM ; Plating = NON_PLATED
+     ----------------------------------------------------------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T11    1. 236.2000    0.0000/  0.0000  NON_PLATED          4
+
+     ---- Total holes:                                          4
+
+     ---- Total head travel:              1.05 feet (0.32 meters)
+

@@ -1,0 +1,89 @@
+
+**** 12/26/24 17:52:56 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-chanTIA"  [ c:\users\msdl3\desktop\orcad file\80db_lidar\dffd-PSpiceFiles\SCHEMATIC1\chanTIA.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "chanTIA.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\MSDL3\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "C:\Cadence\SPB_17.2\tools\capture\library\pspice\opa855_pspice\opa855_a.lib" 
+.lib "C:\Cadence\SPB_17.2\tools\capture\library\pspice\sboc036d\opa695_a.lib" 
+.lib "C:\Cadence\SPB_17.2\tools\capture\library\pspice\opa892\opa892.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 40ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source DFFD
+E_U1         N00321 0 VALUE {LIMIT(V(0,N00125)*1E6,-15V,+15V)}
+R_R1         N00125 N00321  200 TC=0,0 
+R_R2         N00321 0  200 TC=0,0 
+I_I1         N00125 0 DC 0Adc AC 0Aac
++PULSE 1mA 3mA 1ns 1.4ns 1.4ns 4ns 10ns
+
+**** RESUMING chanTIA.cir ****
+.END
+
+**** 12/26/24 17:52:56 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-chanTIA"  [ c:\users\msdl3\desktop\orcad file\80db_lidar\dffd-PSpiceFiles\SCHEMATIC1\chanTIA.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00125)-200.0E-09 (N00321)     .2000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 12/26/24 17:52:56 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-chanTIA"  [ c:\users\msdl3\desktop\orcad file\80db_lidar\dffd-PSpiceFiles\SCHEMATIC1\chanTIA.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        0.00
+

@@ -1,0 +1,38 @@
+(ExpressProject "CAAP"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\caap.dsn"
+      (Type "Schematic Design")))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (MPSSessionName "MSDL3")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\msdl3\desktop\orcad file\80db_lidar\caap.dsn")
+      (Path "Design Resources"
+         "c:\users\msdl3\desktop\orcad file\80db_lidar\caap.dsn" "SCHEMATIC1")
+      (Select "Design Resources"
+         "c:\users\msdl3\desktop\orcad file\80db_lidar\caap.dsn" "SCHEMATIC1"
+         "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 412"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1740 104 555")
+        (Scroll "-309 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\MSDL3\DESKTOP\ORCAD FILE\80DB_LIDAR\CAAP.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

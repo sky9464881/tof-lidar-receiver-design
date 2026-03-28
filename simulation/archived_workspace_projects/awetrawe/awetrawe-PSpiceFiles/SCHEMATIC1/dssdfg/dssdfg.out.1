@@ -1,0 +1,120 @@
+
+**** 04/08/25 20:23:35 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-dssdfg"  [ C:\Users\sky94\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\awetrawe\awetrawe-pspicefiles
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "dssdfg.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\sky94\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "C:\Users\sky94\OneDrive\문서\카카오톡 받은 파일\pspice추가_라이브러리\pspice추가_라이브러리\TVL3604\tlv3604.lib" 
+.lib "C:\Users\sky94\OneDrive\문서\카카오톡 받은 파일\pspice추가_라이브러리\pspice추가_라이브러리\opa855_pspice\opa855_a.lib" 
+.lib "C:\Users\sky94\OneDrive\문서\카카오톡 받은 파일\pspice추가_라이브러리\pspice추가_라이브러리\opa695\opa695_a.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 20n 0 
+.OPTIONS ADVCONV
+.AUTOCONVERGE ITL1=1000 ITL2=1000 ITL4=1000 RELTOL=0.05 ABSTOL=1.0E-6 VNTOL=.001 PIVTOL=1.0E-10 
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source AWETRAWE
+C_C295         0 VEE  1nF  TC=0,0 
+C_C307         0 N1153202  1n  TC=0,0 
+R_R192         N1154454 N1154096  10.1k TC=0,0 
+X_U84         N1153616 N1153146 N1153160 VCC VEE OPA695
+R_R194         N1152986 N1152588  10 TC=0,0 
+C_C308         0 VCC  1nF  TC=0,0 
+C_C293         0 N1152588  1.2p  TC=0,0 
+R_R190         N1154380 N1154108  100 TC=0,0 
+C_C309         0 VCC  6.8uF  TC=0,0 
+C_C297         0 VCC  0.1uF  TC=0,0 
+V_V14         0 VEE 5
+C_C312         0 N1154364  1n  TC=0,0 
+R_R179         N1153146 N1153160  402 TC=0,0 
+R_R182         IN N1153160  27 TC=0,0 
+V_V13         VCC 0 5
+V_V18         0 N1154454 5
+V_V15         N1153234 0 5
+R_R180         N1153466 N1153234  2k TC=0,0 
+R_R181         N1153326 N1153336  200 TC=0,0 
+C_C296         0 VCC  1n  TC=0,0 
+R_R183         N1153616 0  20 TC=0,0 
+X_U85         N1153466 N1153326 VCC VEE N1153336 OPAX277
+V_V16         0 N1153982 5
+C_C306         0 0  0.1uF  TC=0,0 
+C_C305         0 VCC  0.1uF  TC=0,0 
+R_R177         N1152588 N1152626  500 TC=0,0 
+C_C303         0 VCC  1nF  TC=0,0 
+X_U87         N1154096 N1153962 VCC N1154430 N1153972 OPAX277
+C_C313         0 N1154430  0.1uF  TC=0,0 
+C_C310         0 VEE  0.1uF  TC=0,0 
+R_R188         N1153962 N1153972  200 TC=0,0 
+V_V17         N1153834 0 5
+X_U83         N1153202 N1152986 N1152626 VCC 0 OPA855
+C_C294         0 VEE  6.8uF  TC=0,0 
+C_C311         0 VEE  1n  TC=0,0 
+R_R184         N1153336 N1153202  130 TC=0,0 
+C_C314         0 N1154430  1n  TC=0,0 
+C_C299         0 VCC  1n  TC=0,0 
+R_R186         N1153982 N1153466  18k TC=0,0 
+C_C302         0 VCC  6.8u  TC=0,0 
+C_C292         N1152626 N1152588  0.5pF  TC=0,0 
+C_C304         0 VCC  1n  TC=0,0 
+R_R189         0 N1153326  200 TC=0,0 
+R_R191         N1153972 N1154364  130 TC=0,0 
+I_I6         0 N1152588 DC 0Adc AC 0Aac
++PULSE 0 6u 5n 0.4n 0.4n 1n 0
+C_C300         0 VCC  0.1uF  TC=0,0 
+C_C301         N1152626 N1153136  1n  TC=0,0 
+R_R178         N1153136 N1153146  50 TC=0,0 
+C_C298         N1152626 N1153136  0.1u  TC=0,0 
+R_R187         N1154096 N1153834  9.9 TC=0,0 
+X_U86         IN N1154364 VCC 0 N1154108 N1154380 TLV3604
+R_R176         0 N1152588  21.34G TC=0,0 
+.PARAM  ivar=0.5
+
+**** RESUMING dssdfg.cir ****
+.END
+
+INFO(ORPSIM-15423): Unable to find index file tlv3604.ind for library file tlv3604.lib.
+
+INFO(ORPSIM-15422): Making new index file tlv3604.ind for library file tlv3604.lib.
+
+Index has 21 entries from 1 file(s).
+
+
+INFO(ORPSIM-15423): Unable to find index file opa855_a.ind for library file opa855_a.lib.
+
+INFO(ORPSIM-15422): Making new index file opa855_a.ind for library file opa855_a.lib.
+
+Index has 15 entries from 1 file(s).
+
+
+INFO(ORPSIM-15423): Unable to find index file opa695_a.ind for library file opa695_a.lib.
+
+INFO(ORPSIM-15422): Making new index file opa695_a.ind for library file opa695_a.lib.
+
+Index has 15 entries from 1 file(s).
+
+
+ERROR(ORPSIM-15108): Subcircuit OPAX277 used by X_U85 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit OPAX277 used by X_U87 is undefined
+

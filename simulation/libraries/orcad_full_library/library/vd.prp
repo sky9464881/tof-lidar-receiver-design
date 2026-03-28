@@ -1,0 +1,156 @@
+("awbmc33064"
+	(Creator "Device property file created by analog_uprev on Wed Feb 28 08:56:23 IST 2001")
+	("device_info"
+		( MODEL_TYPE 703 )
+		( SYMBOL_NAME "MC34064" )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C") )
+	)
+	("device_max_ops"
+	)
+)
+("awbs8052alb"
+	(Creator "Device property file created by analog_uprev on Wed Feb 28 08:56:23 IST 2001")
+	("device_info"
+		( MODEL_TYPE 703 )
+		( SYMBOL_NAME "Low_Volt_Det" )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C") )
+	)
+	("device_max_ops"
+	)
+)
+("awbs8052alo"
+	(Creator "Device property file created by analog_uprev on Wed Feb 28 08:56:23 IST 2001")
+	("device_info"
+		( MODEL_TYPE 703 )
+		( SYMBOL_NAME "Low_Volt_Det" )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C") )
+	)
+	("device_max_ops"
+	)
+)
+("awbs8052alr"
+	(Creator "Device property file created by analog_uprev on Wed Feb 28 08:56:23 IST 2001")
+	("device_info"
+		( MODEL_TYPE 703 )
+		( SYMBOL_NAME "Low_Volt_Det" )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C") )
+	)
+	("device_max_ops"
+	)
+)
+("awbs8052aly"
+	(Creator "Device property file created by analog_uprev on Wed Feb 28 08:56:23 IST 2001")
+	("device_info"
+		( MODEL_TYPE 703 )
+		( SYMBOL_NAME "Low_Volt_Det" )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C") )
+	)
+	("device_max_ops"
+	)
+)
+("awbs8053alb"
+	(Creator "Device property file created by analog_uprev on Wed Feb 28 08:56:23 IST 2001")
+	("device_info"
+		( MODEL_TYPE 703 )
+		( SYMBOL_NAME "Low_Volt_Det" )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C") )
+	)
+	("device_max_ops"
+	)
+)
+("awbs8053alr"
+	(Creator "Device property file created by analog_uprev on Wed Feb 28 08:56:23 IST 2001")
+	("device_info"
+		( MODEL_TYPE 703 )
+		( SYMBOL_NAME "Low_Volt_Det" )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C") )
+	)
+	("device_max_ops"
+	)
+)
+("awbs8053hlb"
+	(Creator "Device property file created by analog_uprev on Wed Feb 28 08:56:23 IST 2001")
+	("device_info"
+		( MODEL_TYPE 703 )
+		( SYMBOL_NAME "Low_Volt_Det" )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("A") )
+	)
+	("device_max_ops"
+	)
+)
+("awbs8054alb"
+	(Creator "Device property file created by analog_uprev on Wed Feb 28 08:56:23 IST 2001")
+	("device_info"
+		( MODEL_TYPE 703 )
+		( SYMBOL_NAME "Low_Volt_Det" )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C") )
+	)
+	("device_max_ops"
+	)
+)
+("awbs8054alo"
+	(Creator "Device property file created by analog_uprev on Wed Feb 28 08:56:23 IST 2001")
+	("device_info"
+		( MODEL_TYPE 703 )
+		( SYMBOL_NAME "Low_Volt_Det" )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("A") )
+	)
+	("device_max_ops"
+	)
+)
+("awbs8054alr"
+	(Creator "Device property file created by analog_uprev on Wed Feb 28 08:56:23 IST 2001")
+	("device_info"
+		( MODEL_TYPE 703 )
+		( SYMBOL_NAME "Low_Volt_Det" )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C") )
+	)
+	("device_max_ops"
+	)
+)
+("awbs8054aly"
+	(Creator "Device property file created by analog_uprev on Wed Feb 28 08:56:23 IST 2001")
+	("device_info"
+		( MODEL_TYPE 703 )
+		( SYMBOL_NAME "Low_Volt_Det" )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("A") )
+	)
+	("device_max_ops"
+	)
+)

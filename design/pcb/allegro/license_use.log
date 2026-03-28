@@ -1,0 +1,20 @@
+Licenses in Use Report
+
+--------------------------------------------------------------------
+Consumers of license:  "OrCAD_PCB_Designer_PSpice"
+    Server:      5280@DESKTOP-H90EQRS
+    Available:   1
+    In use:      1
+
+ USER                 SYSTEM               USED  STATUS
+ MSDL3                DESKTOP-H90EQRS        1   Checked out
+
+--------------------------------------------------------------------
+Consumers of license:  "OrCAD_PCB_Editor"
+    Server:      5280@DESKTOP-H90EQRS
+    Available:   1
+    In use:      1
+
+ USER                 SYSTEM               USED  STATUS
+ MSDL3                DESKTOP-H90EQRS        1   Checked out
+

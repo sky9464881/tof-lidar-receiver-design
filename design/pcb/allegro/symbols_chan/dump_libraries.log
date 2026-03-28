@@ -1,0 +1,154 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dump Library Log                                                 )
+(                                                                     )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Mon Dec 02 00:20:12 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+*** file: C:/Users/MSDL3/Desktop/OrCAD File/80dB_LiDAR/allegro/80DB_LIDAR_1.brd ***
+
+
+
+  *** Creating padstacks. ***
+
+  RF_LLB_PAD1 being dumped.
+
+  R120_60 being dumped.
+
+  SM_LIB_PAD5 being dumped.
+
+  SM_LLB_PAD7 being dumped.
+
+  RECT0_8X1_25 being dumped.
+
+  SM_LLB_PAD8 being dumped.
+
+  RECT0_8X0_95 being dumped.
+
+  HOLE150 being dumped.
+
+  R170_100 being dumped.
+
+  TO_LLB_PAD48 being dumped.
+
+  TO_LLB_PAD49 being dumped.
+
+  SMD50_25 being dumped.
+
+  T_N20_40 being dumped.
+
+  SM_LLB_PAD7_1 being dumped.
+
+  SM_LLB_PAD8_1 being dumped.
+
+  PAD22SQ18 being dumped.
+
+  R152_5_65 being dumped.
+
+  SM_LLB_PAD30_1 being dumped.
+
+  SM_LLB_PAD31_1 being dumped.
+
+  VIA being dumped.
+
+  PAD12CIR07 being dumped.
+
+  S155 being dumped.
+
+  PAD22CIR18 being dumped.
+
+  PAD79REC50 being dumped.
+
+  S_R74T28D2M74_28P74_28 being dumped.
+
+  PAD79REC56 being dumped.
+
+  S_R90T160M90_160P56_102 being dumped.
+
+  PAD80CIR55D being dumped.
+
+  PAD250 being dumped.
+
+  D70_30 being dumped.
+
+  PAD125 being dumped.
+
+  D85_30 being dumped.
+
+  R70_30 being dumped.
+
+  R70_60 being dumped.
+
+
+  *** Creating shape symbols (.dra and .ssm) ***
+
+  ps_r74_28_d250 being dumped.
+
+  d70_30 being dumped.
+
+  d85_30 being dumped.
+
+
+  *** Creating flash symbols (.dra and .fsm) ***
+
+  ab00 being dumped.
+
+
+  *** Creating package symbols (.dra and .psm) ***
+
+  smc2012 being dumped.
+
+  r12_150 being dumped.
+
+  smc1608 being dumped.
+
+  smr1005 being dumped.
+
+  smr3216 being dumped.
+
+  smr1608 being dumped.
+
+  rfsmav being dumped.
+
+  header4 being dumped.
+
+  lm2990_to220ab being dumped.
+
+  smc603212 being dumped.
+
+  smc321612 being dumped.
+
+  qfn50p300x300x100-17n-d being dumped.
+
+  lcc3_smd being dumped.
+
+  sot95p280x145-5n being dumped.
+
+  soic127p600x175-8n being dumped.
+
+  soic8 being dumped.
+
+  lm2940_to220 being dumped.
+
+  son50p200x200x80-9n being dumped.
+
+  st5ew being dumped.
+
+  opa277 being dumped.
+
+
+
+*********************** Summary *********************
+ERRORs reported:                           0
+
+Number of padstacks dumped:               34
+Number of package symbols dumped:         20
+Number of shape symbols dumped:            3
+Number of flash symbols dumped:            1
+
+Total number of symbols dumped:           24
+*****************************************************
+

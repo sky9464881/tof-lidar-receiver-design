@@ -1,0 +1,257 @@
+*$ model description: "awb1n6116a"
+*b Device model created by analog_uprev for 1n6116a on Tue Feb  6 07:43:40 IST 2001
+.subckt awb1n6116a   8 2
++ params:
++ IC=0
++ STATE=1
++ STATE_FACTOR=0
++ VZT=25.7
++ IZT=50.0m
++ VCL=29.92
++ IPP=13.4
++ TCBV=23.13
++ IR=0.25u
++ VR=20.6
++ IRM=0.5u
++ CP=100p
+xinst1n6116a   8 2 model534     params:  ic={IC}
++  STATE_FACTOR={STATE_FACTOR}
++   vzt={VZT}
++  izt={IZT}
++  vcl={VCL}
++  ipp={IPP}
++  tcbv={TCBV}
++  ir={IR}
++  vr={VR}
++  irm={IRM}
++  cp={CP}
++ 
+.ends  awb1n6116a
+*$ end model description: "awb1n6116a"
+*
+*
+*$ model description: "awb1n6137a"
+*b Device model created by analog_uprev for 1n6137a on Tue Feb  6 07:43:40 IST 2001
+.subckt awb1n6137a   8 2
++ params:
++ IC=0
++ STATE=1
++ STATE_FACTOR=0
++ VZT=190.0
++ IZT=5.0m
++ VCL=218.4
++ IPP=1.8
++ TCBV=167.2
++ IR=0.25u
++ VR=152.0
++ IRM=0.5u
++ CP=100p
+xinst1n6137a   8 2 model534     params:  ic={IC}
++  STATE_FACTOR={STATE_FACTOR}
++   vzt={VZT}
++  izt={IZT}
++  vcl={VCL}
++  ipp={IPP}
++  tcbv={TCBV}
++  ir={IR}
++  vr={VR}
++  irm={IRM}
++  cp={CP}
++ 
+.ends  awb1n6137a
+*$ end model description: "awb1n6137a"
+*
+*
+*$ model description: "awbmr2520l"
+*b Device model created by analog_uprev for mr2520l on Tue Feb  6 07:43:40 IST 2001
+.subckt awbmr2520l   8 2
++ params:
++ STATE_FACTOR=0
++ VZT=28
++ IZT=80m
++ VCL=438.4
++ IPP=1.3
++ TCBV=28
++ IR=25u
++ VR=20
++ IRM=150u
++ ISF=1.345f
++ NF=931.8m
++ RSF=1.074
++ CP=360.0e-12
++ ZZT=0.25
++ CJ1=1500p
++ VJ1=0.0
+xinstmr2520l   8 2 model234     params:   vzt={VZT}
++  izt={IZT}
++  vcl={VCL}
++  ipp={IPP}
++  tcbv={TCBV}
++  ir={IR}
++  vr={VR}
++  irm={IRM}
++  isf={ISF}
++  nf={NF}
++  rsf={RSF}
++  cp={CP}
++ 
+.ends  awbmr2520l
+*$ end model description: "awbmr2520l"
+*
+*
+*$ model description: "awbp6ke400p"
+*b Device model created by analog_uprev for p6ke400p on Tue Feb  6 07:43:40 IST 2001
+.subckt awbp6ke400p   8 2
++ params:
++ STATE_FACTOR=0
++ VZT=401
++ IZT=15m
++ VCL=438.4
++ IPP=1.3
++ TCBV=354
++ IR=2.5u
++ VR=342
++ IRM=20u
++ CP=360.0e-12
++ ZZT=30
++ ISF=1.345f
++ NF=931.8m
++ RSF=1.074
++ CJ1=370p
++ VJ1=0
+xinstp6ke400p   8 2 model234     params:   vzt={VZT}
++  izt={IZT}
++  vcl={VCL}
++  ipp={IPP}
++  tcbv={TCBV}
++  ir={IR}
++  vr={VR}
++  irm={IRM}
++  cp={CP}
++ 
+.ends  awbp6ke400p
+*$ end model description: "awbp6ke400p"
+*
+*
+*$ model description: "awbp6ke47"
+*b Device model created by analog_uprev for p6ke47 on Tue Feb  6 07:43:40 IST 2001
+.subckt awbp6ke47   8 2
++ params:
++ STATE_FACTOR=0
++ VZT=47
++ IZT=1m
++ VCL=67.8
++ IPP=8.9
++ TCBV=47.47
++ IR=1.25u
++ VR=38.1
++ IRM=2.5u
++ CP=510p
++ ISF=1.345f
++ NF=931.8m
++ RSF=1.074
+xinstp6ke47   8 2 model234     params:   vzt={VZT}
++  izt={IZT}
++  vcl={VCL}
++  ipp={IPP}
++  tcbv={TCBV}
++  ir={IR}
++  vr={VR}
++  irm={IRM}
++  cp={CP}
++ 
+.ends  awbp6ke47
+*$ end model description: "awbp6ke47"
+*
+*
+*$ model description: "awbp6ke62"
+*b Device model created by analog_uprev for p6ke62 on Tue Feb  6 07:43:40 IST 2001
+.subckt awbp6ke62   8 2
++ params:
++ STATE_FACTOR=0
++ VZT=62
++ IZT=1m
++ VCL=89
++ IPP=6.8
++ TCBV=64.48
++ IR=1.25u
++ VR=50.2
++ IRM=2.5u
++ CP=400p
++ ISF=1.345f
++ NF=931.8m
++ RSF=1.074
+xinstp6ke62   8 2 model234     params:   vzt={VZT}
++  izt={IZT}
++  vcl={VCL}
++  ipp={IPP}
++  tcbv={TCBV}
++  ir={IR}
++  vr={VR}
++  irm={IRM}
++  cp={CP}
++ 
+.ends  awbp6ke62
+*$ end model description: "awbp6ke62"
+*
+*
+*$ model description: "awbp6ke68"
+*b Device model created by analog_uprev for p6ke68 on Tue Feb  6 07:43:40 IST 2001
+.subckt awbp6ke68   8 2
++ params:
++ STATE_FACTOR=0
++ VZT=68
++ IZT=1m
++ VCL=98
++ IPP=6.1
++ TCBV=62.4
++ IR=5u
++ VR=58.1
++ IRM=2.5e-06
++ CP=505p
++ NF=1.09
++ RSF=0.8
+xinstp6ke68   8 2 model234     params:   vzt={VZT}
++  izt={IZT}
++  vcl={VCL}
++  ipp={IPP}
++  tcbv={TCBV}
++  ir={IR}
++  vr={VR}
++  irm={IRM}
++  cp={CP}
++ 
+.ends  awbp6ke68
+*$ end model description: "awbp6ke68"
+*
+*
+*$ model description: "awbp6ke68a"
+*b Device model created by analog_uprev for p6ke68a on Tue Feb  6 07:43:40 IST 2001
+.subckt awbp6ke68a   8 2
++ params:
++ STATE_FACTOR=0
++ VZT=68
++ IZT=1m
++ VCL=92
++ IPP=6.5
++ TCBV=62.4
++ IR=5u
++ VR=53
++ IRM=2.5e-06
++ CP=643p
++ NF=1.08
++ RSF=7.3
+xinstp6ke68a   8 2 model234     params:   vzt={VZT}
++  izt={IZT}
++  vcl={VCL}
++  ipp={IPP}
++  tcbv={TCBV}
++  ir={IR}
++  vr={VR}
++  irm={IRM}
++  cp={CP}
++ 
+.ends  awbp6ke68a
+*$ end model description: "awbp6ke68a"
+*
+*

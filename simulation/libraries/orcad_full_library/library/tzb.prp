@@ -1,0 +1,438 @@
+("awb1n6116a"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 07:43:40 IST 2001")
+	("device_info"
+		( MODEL_TYPE 534 )
+		( SYMBOL_NAME "Bi_Tzorb" )
+		( PORT_ORDER 
+ 			("AN1")
+ 			("AN2") )
+	)
+	("model_params"
+	("level_0"
+		( "VZT"
+			( "val" "25.7" )
+		)
+		( "IZT"
+			( "val" "50.0m" )
+		)
+		( "VCL"
+			( "val" "29.92" )
+		)
+		( "IPP"
+			( "val" "13.4" )
+		)
+		( "TCBV"
+			( "val" "23.13" )
+		)
+		( "IR"
+			( "val" "0.25u" )
+		)
+		( "VR"
+			( "val" "20.6" )
+		)
+		( "IRM"
+			( "val" "0.5u" )
+		)
+		( "CP"
+			( "val" "100p" )
+		)
+	)
+	("symbol"
+			( "IC" )
+			( "STATE" )
+	)
+	)
+	("device_max_ops"
+		( IF "35" )
+		( IRMX "13.4" )
+		( PDM "500" )
+		( TJ "150" )
+		( RJC "150" )
+		( RCA "0.0" )
+	)
+)
+("awb1n6137a"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 07:43:40 IST 2001")
+	("device_info"
+		( MODEL_TYPE 534 )
+		( SYMBOL_NAME "Bi_Tzorb" )
+		( PORT_ORDER 
+ 			("AN1")
+ 			("AN2") )
+	)
+	("model_params"
+	("level_0"
+		( "VZT"
+			( "val" "190.0" )
+		)
+		( "IZT"
+			( "val" "5.0m" )
+		)
+		( "VCL"
+			( "val" "218.4" )
+		)
+		( "IPP"
+			( "val" "1.8" )
+		)
+		( "TCBV"
+			( "val" "167.2" )
+		)
+		( "IR"
+			( "val" "0.25u" )
+		)
+		( "VR"
+			( "val" "152.0" )
+		)
+		( "IRM"
+			( "val" "0.5u" )
+		)
+		( "CP"
+			( "val" "100p" )
+		)
+	)
+	("symbol"
+			( "IC" )
+			( "STATE" )
+	)
+	)
+	("device_max_ops"
+		( IF "70" )
+		( IRMX "1.8" )
+		( PDM "500" )
+		( TJ "150" )
+		( RJC "150" )
+		( RCA "0.0" )
+	)
+)
+("awbmr2520l"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 07:43:40 IST 2001")
+	("device_info"
+		( MODEL_TYPE 234 )
+		( SYMBOL_NAME "Zener_Diode" )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("model_params"
+	("level_0"
+		( "VZT"
+			( "val" "28" )
+		)
+		( "IZT"
+			( "val" "80m" )
+		)
+		( "ZZT"
+			( "val" "0.25" )
+		)
+		( "TCBV"
+			( "val" "28" )
+		)
+		( "IR"
+			( "val" "25u" )
+		)
+		( "VR"
+			( "val" "20" )
+		)
+		( "IRM"
+			( "val" "150u" )
+		)
+		( "ISF"
+			( "val" "1.345f" )
+		)
+		( "NF"
+			( "val" "931.8m" )
+		)
+		( "RSF"
+			( "val" "1.074" )
+		)
+		( "CJ1"
+			( "val" "1500p" )
+		)
+		( "VJ1"
+			( "val" "0.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "50" )
+		( IRMX "68" )
+		( PDM "2500" )
+		( TJ "175" )
+		( RJC "75" )
+		( RCA "0" )
+	)
+)
+("awbp6ke400p"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 07:43:40 IST 2001")
+	("device_info"
+		( MODEL_TYPE 234 )
+		( SYMBOL_NAME "Zener_Diode" )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("model_params"
+	("level_0"
+		( "VZT"
+			( "val" "401" )
+		)
+		( "IZT"
+			( "val" "15m" )
+		)
+		( "ZZT"
+			( "val" "30" )
+		)
+		( "TCBV"
+			( "val" "354" )
+		)
+		( "IR"
+			( "val" "2.5u" )
+		)
+		( "VR"
+			( "val" "342" )
+		)
+		( "IRM"
+			( "val" "20u" )
+		)
+		( "ISF"
+			( "val" "1.345f" )
+		)
+		( "NF"
+			( "val" "931.8m" )
+		)
+		( "RSF"
+			( "val" "1.074" )
+		)
+		( "CJ1"
+			( "val" "370p" )
+		)
+		( "VJ1"
+			( "val" "0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "100" )
+		( IRMX "50" )
+		( PDM "600" )
+		( TJ "175" )
+		( RJC "20" )
+		( RCA "0" )
+	)
+)
+("awbp6ke47"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 07:43:40 IST 2001")
+	("device_info"
+		( MODEL_TYPE 234 )
+		( SYMBOL_NAME "Zener_Diode" )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("model_params"
+	("level_0"
+		( "VZT"
+			( "val" "47" )
+		)
+		( "IZT"
+			( "val" "1m" )
+		)
+		( "VCL"
+			( "val" "67.8" )
+		)
+		( "IPP"
+			( "val" "8.9" )
+		)
+		( "TCBV"
+			( "val" "47.47" )
+		)
+		( "IR"
+			( "val" "1.25u" )
+		)
+		( "VR"
+			( "val" "38.1" )
+		)
+		( "IRM"
+			( "val" "2.5u" )
+		)
+		( "ISF"
+			( "val" "1.345f" )
+		)
+		( "NF"
+			( "val" "931.8m" )
+		)
+		( "RSF"
+			( "val" "1.074" )
+		)
+		( "CP"
+			( "val" "510p" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "100" )
+		( IRMX "8.9" )
+		( PDM "600" )
+		( TJ "150" )
+		( RJC "30" )
+		( RCA "30" )
+	)
+)
+("awbp6ke62"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 07:43:40 IST 2001")
+	("device_info"
+		( MODEL_TYPE 234 )
+		( SYMBOL_NAME "Zener_Diode" )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("model_params"
+	("level_0"
+		( "VZT"
+			( "val" "62" )
+		)
+		( "IZT"
+			( "val" "1m" )
+		)
+		( "VCL"
+			( "val" "89" )
+		)
+		( "IPP"
+			( "val" "6.8" )
+		)
+		( "TCBV"
+			( "val" "64.48" )
+		)
+		( "IR"
+			( "val" "1.25u" )
+		)
+		( "VR"
+			( "val" "50.2" )
+		)
+		( "IRM"
+			( "val" "2.5u" )
+		)
+		( "ISF"
+			( "val" "1.345f" )
+		)
+		( "NF"
+			( "val" "931.8m" )
+		)
+		( "RSF"
+			( "val" "1.074" )
+		)
+		( "CP"
+			( "val" "400p" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "100" )
+		( IRMX "6.8" )
+	)
+)
+("awbp6ke68"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 07:43:40 IST 2001")
+	("device_info"
+		( MODEL_TYPE 234 )
+		( SYMBOL_NAME "Zener_Diode" )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("model_params"
+	("level_0"
+		( "VZT"
+			( "val" "68" )
+		)
+		( "IZT"
+			( "val" "1m" )
+		)
+		( "VCL"
+			( "val" "98" )
+		)
+		( "IPP"
+			( "val" "6.1" )
+		)
+		( "TCBV"
+			( "val" "62.4" )
+		)
+		( "IR"
+			( "val" "5u" )
+		)
+		( "VR"
+			( "val" "58.1" )
+		)
+		( "NF"
+			( "val" "1.09" )
+		)
+		( "RSF"
+			( "val" "0.8" )
+		)
+		( "CP"
+			( "val" "505p" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "50" )
+		( IRMX "6.1" )
+		( PDM "600" )
+		( TJ "175" )
+		( RJC "20" )
+		( RCA "60" )
+	)
+)
+("awbp6ke68a"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 07:43:40 IST 2001")
+	("device_info"
+		( MODEL_TYPE 234 )
+		( SYMBOL_NAME "Zener_Diode" )
+		( PORT_ORDER 
+ 			("AN")
+ 			("CAT") )
+	)
+	("model_params"
+	("level_0"
+		( "VZT"
+			( "val" "68" )
+		)
+		( "IZT"
+			( "val" "1m" )
+		)
+		( "VCL"
+			( "val" "92" )
+		)
+		( "IPP"
+			( "val" "6.5" )
+		)
+		( "TCBV"
+			( "val" "62.4" )
+		)
+		( "IR"
+			( "val" "5u" )
+		)
+		( "VR"
+			( "val" "53" )
+		)
+		( "NF"
+			( "val" "1.08" )
+		)
+		( "RSF"
+			( "val" "7.3" )
+		)
+		( "CP"
+			( "val" "643p" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "50" )
+		( IRMX "7.1" )
+		( PDM "600" )
+		( TJ "175" )
+		( RJC "20" )
+		( RCA "60" )
+	)
+)

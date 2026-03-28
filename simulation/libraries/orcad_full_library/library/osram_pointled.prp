@@ -1,0 +1,273 @@
+("LS_P47K-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:54:29 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "20m")
+		(VD "12")
+		(PDM "50m")
+		(TJ "125")
+	)
+)
+("LY_P47B-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:54:29 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "60m")
+		(VD "12")
+		(PDM "130m")
+		(TJ "125")
+	)
+)
+("LA_P47B-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:54:29 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "60m")
+		(VD "12")
+		(PDM "130m")
+		(TJ "125")
+	)
+)
+("LW_P4SG-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:54:29 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "20m")
+		(VD "5")
+		(PDM "75m")
+		(TJ "125")
+	)
+)
+("LR_P47F-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:54:29 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "50m")
+		(VD "12")
+		(PDM "130m")
+		(TJ "125")
+	)
+)
+("LY_P47F-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:54:29 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "50m")
+		(VD "12")
+		(PDM "135m")
+		(TJ "125")
+	)
+)
+("LA_P47F-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:54:29 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "50m")
+		(VD "12")
+		(PDM "130m")
+		(TJ "125")
+	)
+)
+("LG_P47K-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:54:29 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "20m")
+		(VD "12")
+		(PDM "50m")
+		(TJ "125")
+	)
+)
+("LY_P476-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:54:29 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "30m")
+		(VD "12")
+		(PDM "80m")
+		(TJ "125")
+	)
+)
+("LB_P473-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:54:29 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "20m")
+		(VD "5")
+		(PDM "80m")
+		(TJ "110")
+	)
+)
+("LS_P47F-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:54:29 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "50m")
+		(VD "12")
+		(PDM "130m")
+		(TJ "125")
+	)
+)
+("LW_P473-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:54:29 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "20m")
+		(VD "5")
+		(PDM "80m")
+		(TJ "110")
+	)
+)
+("LY_P47K-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:54:29 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "20m")
+		(VD "12")
+		(PDM "50m")
+		(TJ "125")
+	)
+)

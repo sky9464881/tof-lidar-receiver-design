@@ -1,0 +1,7 @@
+\t (00:00:06) topwb  unreleased (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:06)     Journal start - Sun Apr  6 17:57:44 2025
+\t (00:00:06)         Host=BOOK-QTRCVV9COM User=user Pid=12720 CPUs=12
+\t (00:00:06) CmdLine= 
+\t (00:00:06) 
+\t (00:00:06) skill setRedsGlobalTypes()
+\t (00:00:06) skill acns_setGlobalTypes()

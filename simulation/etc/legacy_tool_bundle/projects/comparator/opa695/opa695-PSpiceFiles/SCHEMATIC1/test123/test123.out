@@ -1,0 +1,220 @@
+
+**** 03/26/25 19:42:43 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test123"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\opa695\opa695-pspicefiles\sch
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "test123.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa695_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa856_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\tlv3604.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPAx277.LIB" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa855_a.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 0.05u 0 0.0001m 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source OPA695
+V_V2         0 -5 5
+V_V3         5 0 5
+C_C253         0 5  0.1uF  TC=0,0 
+C_C254         0 5  6.8uF  TC=0,0 
+C_C255         0 -5  0.1uF  TC=0,0 
+C_C256         0 -5  6.8uF  TC=0,0 
+R_R152         N1062043 N1061964  500 TC=0,0 
+R_R154         N1067160 0  20 TC=0,0 
+C_C257         N1064918 N1064922  0.1u  TC=0,0 
+R_R155         N1064922 N1062043  360 TC=0,0 
+C_C258         N1064918 N1064922  1n  TC=0,0 
+V_V6         N1064918 N10668911  
++PULSE 0 -3m 5n 1n 1n 1n 100n
+V_V7         N10668911 0 4
+X_U73         N1067160 N1062043 N1061964 5 -5 OPA695
+C_C259         0 0  0.1uF  TC=0,0 
+R_R156         N1067630 N1061964  20 TC=0,0 
+R_R157         N1067630 0  67k TC=0,0 
+
+**** RESUMING test123.cir ****
+.END
+
+**** 03/26/25 19:42:43 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test123"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\opa695\opa695-pspicefiles\sch
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U73.X_E_N.DVN X_U73.X_I_NP.DVNF 
+          IS  100.000000E-18  100.000000E-18 
+          KF  316.227800E-12  316.227800E-12 
+
+
+               X_U73.X_I_NP2.DVNF 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+**** 03/26/25 19:42:43 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test123"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\opa695\opa695-pspicefiles\sch
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U73.R_NOISE   X_U73.R_NOISELESS 
+  T_Measured   27              27            
+   T_Current   27            -273.15         
+           R    1               1            
+
+
+**** 03/26/25 19:42:43 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test123"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\opa695\opa695-pspicefiles\sch
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    5)    5.0000  (   -5)   -5.0000  (N1061964)     .0168                      
+
+(N1062043)     .0070                  (N1064918)    4.0000                      
+
+(N1064922)     .0070                  (N1067160)-260.0E-06                      
+
+(N1067630)     .0168                  (N10668911)    4.0000                     
+
+(X_U73.AOL)     .0168                 (X_U73.MID)-44.22E-21                     
+
+(X_U73.CMRR)-482.6E-09                (X_U73.CLAMP)     .0168                   
+
+(X_U73.VCC_B)    5.0000               (X_U73.VEE_B)   -5.0000                   
+
+(X_U73.VIMON)     .0198               (X_U73.AOLNET)    -.0168                  
+
+(X_U73.N05102)     .0070              (X_U73.N06456)-260.0E-06                  
+
+(X_U73.N10561)    -.0070              (X_U73.N10570)    -.0070                  
+
+(X_U73.N11984)    -.0070              (X_U73.N25816)     .0070                  
+
+(X_U73.N28602)   -3.3000              (X_U73.N30136)    3.3000                  
+
+(X_U73.N30913)     .0070              (X_U73.N31014)     .0070                  
+
+(X_U73.N35669)    4.1998              (X_U73.N35813)    4.1998                  
+
+(X_U73.N38050)   -4.2000              (X_U73.N38096)   -4.2000                  
+
+(X_U73.N42663)-44.22E-21              (X_U73.N42834)-44.22E-21                  
+
+(X_U73.N44757)-44.22E-21              (X_U73.N44799)-44.22E-21                  
+
+(X_U73.VOUT_S)     .0168              (X_U73.N110431)     .0198                 
+
+(X_U73.N112292)     .0168             (X_U73.N317950)-44.22E-21                 
+
+(X_U73.N406634)    5.0000             (X_U73.N406794)   -5.0000                 
+
+(X_U73.N701935)-241.8E-06             (X_U73.N704979)   -6.4993                 
+
+(X_U73.N705005)    -.0078             (X_U73.N709083)    3.6601                 
+
+(X_U73.N709113)     .0062             (X_U73.N749288)    -.0070                 
+
+(X_U73.VCC_CLP)    4.1998             (X_U73.VEE_CLP)   -4.2000                 
+
+(X_U73.X_E_N.3)    0.0000             (X_U73.X_E_N.4)    0.0000                 
+
+(X_U73.X_E_N.5)    0.0000             (X_U73.X_E_N.6)    0.0000                 
+
+(X_U73.X_E_N.7)     .8338             (X_U73.X_E_N.8)     .8338                 
+
+(X_U73.N1327152)     .0070            (X_U73.X_I_NP.3)    0.0000                
+
+(X_U73.X_I_NP.4)    0.0000            (X_U73.X_I_NP.5)    0.0000                
+
+(X_U73.X_I_NP.6)    0.0000            (X_U73.X_I_NP.7)     .8338                
+
+(X_U73.X_I_NP.8)     .8338            (X_U73.X_I_NP2.3)    0.0000               
+
+(X_U73.X_I_NP2.4)    0.0000           (X_U73.X_I_NP2.5)    0.0000               
+
+(X_U73.X_I_NP2.6)    0.0000           (X_U73.X_I_NP2.7)     .8338               
+
+(X_U73.X_I_NP2.8)     .8338           (X_U73.X_VOS_VS_VCM.1)    -.0070      
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2        -1.290E-02
+    V_V3        -1.292E-02
+    V_V6         0.000E+00
+    V_V7         0.000E+00
+    X_U73.V_VCM_MAX  -3.300E-09
+    X_U73.V_VCM_MIN   3.300E-09
+    X_U73.X_H3.VH_H3  -1.980E-05
+    X_U73.X_VOS_VS_VCM.V1  -9.661E-17
+
+    TOTAL POWER DISSIPATION   1.29E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 03/26/25 19:42:43 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test123"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\opa695\opa695-pspicefiles\sch
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .06
+

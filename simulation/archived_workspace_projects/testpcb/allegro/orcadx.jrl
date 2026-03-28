@@ -1,0 +1,1529 @@
+\t (00:00:14) orcadx 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:14)     Journal start - Sat Apr  5 05:11:25 2025
+\t (00:00:14)         Host=BOOK-QTRCVV9COM User=user Pid=17892 CPUs=12
+\t (00:00:14) CmdLine= C:\Cadence\OrCADX_24.1\tools\bin\unison.exe -layout -orcadx -mpssession user -proj c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\testpcb\testpcb.opj c:/users/user/appdata/roaming/spb_data/cdssetup/workspace/projects/testpcb/allegro/testpcb.brd
+\t (00:00:14) 
+\d (00:00:14) Design opened: c:/users/user/appdata/roaming/spb_data/cdssetup/workspace/projects/testpcb/allegro/testpcb.brd
+\i (00:00:14) trapsize 6155
+\i (00:00:16) trapsize 7859
+\t (00:00:23) Loading consmgr.cxt 
+\t (00:00:23) Loading acns_formula.cxt 
+\i (00:00:23) trapsize 7848
+\i (00:00:23) trapsize 7997
+\t (00:00:26) nayunwoo159@kw.ac.kr user logged in.
+
+\t (00:00:28) > DoPullSchematic message received
+\t (00:00:28) > Pulling schematic...
+\t (00:00:28) Starting Cadence Logic Import...
+\t (00:00:29) Opening existing design...
+\i (00:00:30) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged
+\i (00:00:30) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (00:00:30) trapsize 7997
+\t (00:00:31) > Sending response DonePullSchematic
+\t (00:00:31) > Schematic pulled successfully
+\i (00:00:31) trapsize 6888
+\i (00:00:31) updateport ReportsPane
+\i (00:00:31) updateport SearchPane
+\i (00:00:31) updateport VisibilityPane
+\i (00:00:31) updateport PropPane
+\i (00:00:32) ucpedit 
+\i (00:00:32) updateport VisibilityPane
+\i (00:00:36) design sync eco 
+\t (00:00:36) > Requesting Capture to open design
+\t (00:00:36) > Response received OpenDesign is done by remote tool
+\t (00:00:36) Design opened successfully
+\t (00:00:36) > Requesting Capture to generate logical netlist
+\t (00:00:36) > Requesting Capture to open design
+\t (00:00:36) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:00:36) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\testpcb\allegro
+\t (00:00:36) > Requesting Capture to generate logical netlist
+\t (00:00:36) > Response received OpenDesign is done by remote tool
+\t (00:00:36) Design opened successfully
+\t (00:00:36) > Generating Physical Netlist
+\t (00:00:36) Starting genfeedformat...
+\t (00:00:37) > Generating Physical Netlist successful
+\t (00:00:37) > Generating Differences
+\t (00:00:37) > Generating Differences successful
+\t (00:00:37) > Displaying differences output
+\t (00:00:37) > Displaying differences output successful
+\t (00:00:37) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:00:37) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\testpcb\allegro
+\i (00:00:37) updateport ReportsPane
+\i (00:00:37) updateport SearchPane
+\i (00:00:37) updateport PropPane
+\i (00:00:38) QtSignal DesignSyncDialog sync_button clicked
+\t (00:00:38) > Sending response DoneOpenBoard
+\t (00:00:38) Starting Cadence Logic Import...
+\t (00:00:39) Opening existing design...
+\i (00:00:40) trapsize 6888
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:40) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:40) trapsize 6888
+\t (00:00:40) Placed 78 of 78 symbols.
+\i (00:00:40) QtSignal DesignSyncDialog sch_comboBox EditingFinished "c:/users/user/appdata/roaming/spb_data/cdssetup/workspace/projects/testpcb/testpcb.opj"
+\i (00:00:40) QtSignal MainCanvas DesignSyncDialog closed
+\i (00:00:40) updateport ReportsPane
+\i (00:00:40) updateport SearchPane
+\i (00:00:40) updateport VisibilityPane
+\i (00:00:40) updateport PropPane
+\i (00:00:40) ucpedit 
+\i (00:00:40) updateport VisibilityPane
+\i (00:00:44) zoom in 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom in 19686.39 8472.45
+\i (00:00:44) trapsize 3444
+\i (00:00:44) zoom in 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom in 19686.39 8472.45
+\i (00:00:44) trapsize 1722
+\i (00:00:44) zoom in 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom in 19686.40 8472.45
+\i (00:00:44) trapsize 861
+\i (00:00:44) zoom in 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom in 19686.40 8472.46
+\i (00:00:44) trapsize 431
+\i (00:00:44) zoom in 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom in 19686.40 8472.46
+\i (00:00:44) trapsize 215
+\i (00:00:44) zoom out 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom out 19686.40 8472.47
+\i (00:00:44) trapsize 431
+\i (00:00:44) zoom out 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom out 19686.40 8472.46
+\i (00:00:44) trapsize 861
+\i (00:00:44) zoom out 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom out 19686.41 8472.47
+\i (00:00:44) trapsize 1722
+\i (00:00:44) zoom out 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom out 19686.40 8472.47
+\i (00:00:44) trapsize 3444
+\i (00:00:44) zoom out 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom out 19686.41 8472.46
+\i (00:00:44) trapsize 6888
+\i (00:00:45) zoom out 1 
+\i (00:00:45) setwindow pcb
+\i (00:00:45) zoom out 19672.84 8472.55
+\i (00:00:45) trapsize 12198
+\i (00:00:45) zoom out 1 
+\i (00:00:45) setwindow pcb
+\i (00:00:45) zoom out 34836.21 15002.99
+\i (00:00:45) trapsize 12198
+\i (00:00:47) drag_start grid 24321.92 22663.05
+\i (00:00:48) drag_stop 4708.26 10538.68
+\i (00:00:49) drag_start grid 25712.44 19882.01
+\i (00:00:49) drag_stop 25712.44 19882.01
+\i (00:00:50) QtSignal PropertyStatusWidget unplaced_Components_cnt linkActivated unplacedComponentsLink
+\i (00:00:50) updateport SearchPane
+\i (00:00:58) drag_start grid 16759.44 13173.36
+\i (00:00:58) drag_stop 17222.94 15490.89
+\i (00:00:59) pick grid 25566.07 12636.66
+\t (00:00:59) last pick:  25566.07 12636.66
+\i (00:00:59) zoom in 1 
+\i (00:00:59) setwindow pcb
+\i (00:00:59) zoom in 20662.65 17174.15
+\i (00:00:59) trapsize 6099
+\i (00:00:59) zoom in 1 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom in 20662.66 17149.76
+\i (00:01:00) trapsize 3049
+\i (00:01:00) zoom in 1 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom in 20443.11 16997.29
+\i (00:01:00) trapsize 1525
+\i (00:01:00) zoom in 1 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom in 20443.11 16997.29
+\i (00:01:00) trapsize 762
+\i (00:01:00) zoom in 1 
+\i (00:01:00) setwindow pcb
+\i (00:01:00) zoom in 20443.12 16997.30
+\i (00:01:00) trapsize 381
+\i (00:01:01) zoom out 1 
+\i (00:01:01) setwindow pcb
+\i (00:01:01) zoom out 20540.70 17018.65
+\i (00:01:01) trapsize 762
+\i (00:01:02) roam start
+\i (00:01:02) roam x -3
+\i (00:01:02) roam y 3
+\i (00:01:02) roam x -8
+\i (00:01:02) roam y 7
+\i (00:01:02) roam x -7
+\i (00:01:02) roam y 6
+\i (00:01:02) roam x -12
+\i (00:01:02) roam y 8
+\i (00:01:02) roam x -5
+\i (00:01:02) roam y 4
+\i (00:01:02) roam x -22
+\i (00:01:02) roam y 17
+\i (00:01:02) roam x -5
+\i (00:01:02) roam y 6
+\i (00:01:02) roam end
+\i (00:01:03) zoom in 1 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) zoom in 20775.61 16454.59
+\i (00:01:03) trapsize 381
+\i (00:01:04) zoom out 1 
+\i (00:01:04) setwindow pcb
+\i (00:01:04) zoom out 20693.27 16344.81
+\i (00:01:04) trapsize 762
+\i (00:01:05) roam start
+\i (00:01:05) roam y 4
+\i (00:01:05) roam x 2
+\i (00:01:05) roam y 14
+\i (00:01:05) roam x 9
+\i (00:01:05) roam y 54
+\i (00:01:05) roam x 6
+\i (00:01:05) roam y 114
+\i (00:01:05) roam x 6
+\i (00:01:05) roam y 126
+\i (00:01:05) roam y 57
+\i (00:01:05) roam x 12
+\i (00:01:05) roam y 117
+\i (00:01:05) roam x 12
+\i (00:01:05) roam y 84
+\i (00:01:05) roam x 13
+\i (00:01:05) roam y 96
+\i (00:01:05) roam x 2
+\i (00:01:05) roam y 52
+\i (00:01:06) roam x 1
+\i (00:01:06) roam y 41
+\i (00:01:06) roam y 12
+\i (00:01:06) roam end
+\i (00:01:06) zoom out 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom out 20716.14 15573.31
+\i (00:01:06) trapsize 1525
+\i (00:01:07) roam start
+\i (00:01:07) roam y 1
+\i (00:01:07) roam y 3
+\i (00:01:08) roam y 6
+\i (00:01:08) roam y 14
+\i (00:01:08) roam y 57
+\i (00:01:08) roam x -11
+\i (00:01:08) roam y 97
+\i (00:01:08) roam x -16
+\i (00:01:08) roam y 96
+\i (00:01:08) roam x -29
+\i (00:01:08) roam y 216
+\i (00:01:08) roam x -13
+\i (00:01:08) roam y 197
+\i (00:01:08) roam x -12
+\i (00:01:08) roam y 105
+\i (00:01:08) roam x -3
+\i (00:01:08) roam y 91
+\i (00:01:08) roam y 39
+\i (00:01:08) roam y 38
+\i (00:01:08) roam x 3
+\i (00:01:08) roam y 12
+\i (00:01:08) roam x 1
+\i (00:01:08) roam y 10
+\i (00:01:08) roam y 12
+\i (00:01:08) roam y 2
+\i (00:01:08) roam end
+\i (00:01:08) zoom in 1 
+\i (00:01:08) setwindow pcb
+\i (00:01:08) zoom in 20851.87 13356.42
+\i (00:01:08) trapsize 762
+\i (00:01:09) zoom in 1 
+\i (00:01:09) setwindow pcb
+\i (00:01:09) zoom in 20829.00 13344.23
+\i (00:01:09) trapsize 381
+\i (00:01:09) zoom in 1 
+\i (00:01:09) setwindow pcb
+\i (00:01:09) zoom in 20829.00 13344.23
+\i (00:01:09) trapsize 191
+\i (00:01:10) zoom out 1 
+\i (00:01:10) setwindow pcb
+\i (00:01:10) zoom out 20750.48 13293.92
+\i (00:01:10) trapsize 381
+\i (00:01:12) drag_start grid 21082.11 13444.11
+\i (00:01:12) ucp_trace_slide_pick 
+\t (00:01:12) Selected item not valid for current operation, ignored: Vertical Line Segment "Package Geometry/Silkscreen_Top"
+\t (00:01:12) No valid items selected for the current operation, exiting.
+\i (00:01:12) ucpedit 
+\i (00:01:12) updateport VisibilityPane
+\i (00:01:13) drag_stop grid 20757.35 13446.39
+\i (00:01:13) drag_start grid 21076.77 13448.68
+\i (00:01:13) ucp_trace_slide_pick 
+\t (00:01:13) Selected item not valid for current operation, ignored: Vertical Line Segment "Package Geometry/Silkscreen_Top"
+\t (00:01:13) No valid items selected for the current operation, exiting.
+\i (00:01:13) drag_stop grid 21077.53 13448.68
+\i (00:01:13) ucpedit 
+\i (00:01:14) updateport VisibilityPane
+\i (00:01:14) drag_start grid 21052.38 13437.24
+\i (00:01:14) ucp_move 
+\t (00:01:14) last pick:  21048.37 13440.17
+\t (00:01:14) Pick new location for the element(s).
+\i (00:01:15) drag_stop 20590.39 13425.81
+\i (00:01:15) updateport ReportsPane
+\i (00:01:15) updateport SearchPane
+\i (00:01:15) updateport VisibilityPane
+\i (00:01:15) updateport PropPane
+\i (00:01:15) ucpedit 
+\i (00:01:15) updateport VisibilityPane
+\i (00:01:16) pick grid 20914.39 13251.99
+\t (00:01:16) last pick:  20914.39 13251.99
+\i (00:01:17) pick grid 20603.35 13391.50
+\t (00:01:17) last pick:  20603.35 13391.50
+\i (00:01:17) drag_start grid 20589.63 13400.65
+\i (00:01:17) ucp_move 
+\t (00:01:17) last pick:  20595.13 13400.00
+\t (00:01:17) Pick new location for the element(s).
+\i (00:01:18) drag_stop grid 21015.78 13441.82
+\i (00:01:18) updateport ReportsPane
+\i (00:01:18) updateport SearchPane
+\i (00:01:18) updateport PropPane
+\i (00:01:18) ucpedit 
+\i (00:01:18) updateport VisibilityPane
+\i (00:01:18) pick grid 21058.48 13306.88
+\t (00:01:18) last pick:  21058.48 13306.88
+\i (00:01:21) pick grid 21018.07 13435.72
+\t (00:01:21) last pick:  21018.07 13435.72
+\i (00:01:22) drag_start grid 21077.53 13441.82
+\i (00:01:22) ucp_move 
+\t (00:01:22) last pick:  21078.78 13441.82
+\t (00:01:22) Pick new location for the element(s).
+\i (00:01:22) drag_stop grid 20944.89 13499.00
+\i (00:01:22) updateport ReportsPane
+\i (00:01:22) updateport SearchPane
+\i (00:01:23) updateport PropPane
+\i (00:01:23) ucpedit 
+\i (00:01:23) updateport VisibilityPane
+\i (00:01:23) drag_start grid 20944.89 13499.00
+\i (00:01:23) ucp_move 
+\t (00:01:23) last pick:  20944.89 13499.00
+\t (00:01:23) Pick new location for the element(s).
+\i (00:01:23) drag_stop grid 20864.08 13513.48
+\i (00:01:23) updateport ReportsPane
+\i (00:01:23) updateport SearchPane
+\i (00:01:23) updateport PropPane
+\i (00:01:23) ucpedit 
+\i (00:01:23) updateport VisibilityPane
+\i (00:01:23) drag_start grid 20864.08 13513.48
+\i (00:01:23) ucp_move 
+\t (00:01:23) last pick:  20864.08 13513.48
+\t (00:01:23) Pick new location for the element(s).
+\i (00:01:24) drag_stop 20812.24 13513.48
+\i (00:01:24) updateport ReportsPane
+\i (00:01:24) updateport SearchPane
+\i (00:01:24) updateport PropPane
+\i (00:01:24) ucpedit 
+\i (00:01:24) updateport VisibilityPane
+\i (00:01:24) drag_start grid 20812.24 13513.48
+\i (00:01:24) ucp_move 
+\t (00:01:24) last pick:  20797.90 13529.53
+\t (00:01:24) Pick new location for the element(s).
+\i (00:01:25) drag_stop grid 20951.75 13428.86
+\i (00:01:25) updateport ReportsPane
+\i (00:01:25) updateport SearchPane
+\i (00:01:25) updateport PropPane
+\i (00:01:25) ucpedit 
+\i (00:01:25) updateport VisibilityPane
+\i (00:01:25) pick grid 20986.05 13295.45
+\t (00:01:25) last pick:  20986.05 13295.45
+\i (00:01:26) drag_start grid 20928.88 13398.36
+\i (00:01:26) ucp_move 
+\t (00:01:26) last pick:  20926.16 13399.33
+\t (00:01:26) Pick new location for the element(s).
+\i (00:01:26) drag_stop grid 21022.65 13428.10
+\i (00:01:27) updateport ReportsPane
+\i (00:01:27) updateport SearchPane
+\i (00:01:27) updateport PropPane
+\i (00:01:27) ucpedit 
+\i (00:01:27) updateport VisibilityPane
+\i (00:01:27) pick grid 21027.22 13290.87
+\t (00:01:27) last pick:  21027.22 13290.87
+\i (00:01:27) pick grid 20962.42 13424.28
+\t (00:01:27) last pick:  20962.42 13424.28
+\i (00:01:28) pick grid dbl 20962.42 13424.28
+\t (00:01:28) last pick:  20962.42 13424.28
+\i (00:01:29) pick grid 20970.04 13279.44
+\t (00:01:29) last pick:  20970.04 13279.44
+\i (00:01:30) drag_start grid 20962.42 13421.24
+\i (00:01:30) ucp_move 
+\t (00:01:30) last pick:  20959.65 13428.10
+\t (00:01:30) Pick new location for the element(s).
+\i (00:01:31) drag_stop grid 20754.30 13423.52
+\i (00:01:31) updateport ReportsPane
+\i (00:01:31) updateport SearchPane
+\i (00:01:31) updateport PropPane
+\i (00:01:31) ucpedit 
+\i (00:01:31) updateport VisibilityPane
+\i (00:01:32) drag_start grid 20757.35 13423.52
+\i (00:01:32) ucp_move 
+\t (00:01:32) last pick:  20754.30 13423.52
+\t (00:01:32) Pick new location for the element(s).
+\i (00:01:32) drag_stop 20613.26 13428.86
+\i (00:01:32) updateport ReportsPane
+\i (00:01:32) updateport SearchPane
+\i (00:01:32) updateport PropPane
+\i (00:01:32) ucpedit 
+\i (00:01:33) updateport VisibilityPane
+\i (00:01:34) pick grid 20834.34 13265.72
+\t (00:01:34) last pick:  20834.34 13265.72
+\i (00:01:35) drag_start grid 20619.36 13398.36
+\i (00:01:35) ucp_move 
+\t (00:01:35) last pick:  20613.83 13400.00
+\t (00:01:35) Pick new location for the element(s).
+\i (00:01:35) drag_stop 20686.45 13393.79
+\i (00:01:35) updateport ReportsPane
+\i (00:01:35) updateport SearchPane
+\i (00:01:35) updateport PropPane
+\i (00:01:35) ucpedit 
+\i (00:01:35) updateport VisibilityPane
+\i (00:01:36) drag_start grid 20686.45 13393.79
+\i (00:01:36) ucp_move 
+\t (00:01:36) last pick:  20709.31 13400.00
+\t (00:01:36) Pick new location for the element(s).
+\i (00:01:36) drag_stop 20613.26 13393.79
+\i (00:01:36) updateport ReportsPane
+\i (00:01:36) updateport SearchPane
+\i (00:01:36) updateport PropPane
+\i (00:01:36) ucpedit 
+\i (00:01:36) updateport VisibilityPane
+\i (00:01:36) drag_start grid 20613.26 13393.79
+\i (00:01:36) ucp_move 
+\t (00:01:36) last pick:  20613.83 13400.00
+\t (00:01:36) Pick new location for the element(s).
+\i (00:01:37) drag_stop grid 20358.64 13396.84
+\i (00:01:37) updateport ReportsPane
+\i (00:01:37) updateport SearchPane
+\i (00:01:37) updateport PropPane
+\i (00:01:37) ucpedit 
+\i (00:01:37) updateport VisibilityPane
+\i (00:01:37) drag_start grid 20357.11 13396.84
+\i (00:01:37) ucp_move 
+\t (00:01:37) last pick:  20358.64 13396.84
+\t (00:01:37) Pick new location for the element(s).
+\i (00:01:37) drag_stop 20325.09 13295.45
+\i (00:01:37) updateport ReportsPane
+\i (00:01:37) updateport SearchPane
+\i (00:01:37) updateport PropPane
+\i (00:01:37) ucpedit 
+\i (00:01:37) updateport VisibilityPane
+\i (00:01:38) zoom out 1 
+\i (00:01:38) setwindow pcb
+\i (00:01:38) zoom out 20492.05 13394.55
+\i (00:01:38) trapsize 762
+\i (00:01:38) roam start
+\i (00:01:38) roam x -2
+\i (00:01:38) roam x -40
+\i (00:01:38) roam y 3
+\i (00:01:38) roam x -78
+\i (00:01:38) roam y 1
+\i (00:01:38) roam x -182
+\i (00:01:38) roam x -70
+\i (00:01:38) roam x -27
+\i (00:01:38) roam x -6
+\i (00:01:38) roam x -20
+\i (00:01:38) roam x -67
+\i (00:01:38) roam y -13
+\i (00:01:38) roam x -90
+\i (00:01:38) roam y -15
+\i (00:01:38) roam x -51
+\i (00:01:38) roam y -9
+\i (00:01:38) roam x -14
+\i (00:01:38) roam y -2
+\i (00:01:39) roam x -25
+\i (00:01:39) roam y -4
+\i (00:01:39) roam end
+\i (00:01:39) zoom in 1 
+\i (00:01:39) setwindow pcb
+\i (00:01:39) zoom in 20453.89 13458.55
+\i (00:01:39) trapsize 381
+\i (00:01:41) drag_start grid 20305.99 13279.40
+\i (00:01:41) ucp_move 
+\t (00:01:41) last pick:  20300.00 13275.48
+\t (00:01:41) Pick new location for the element(s).
+\i (00:01:41) drag_stop 20348.69 13245.85
+\i (00:01:42) updateport ReportsPane
+\i (00:01:42) updateport SearchPane
+\i (00:01:42) updateport PropPane
+\i (00:01:42) ucpedit 
+\i (00:01:42) updateport VisibilityPane
+\i (00:01:42) pick grid 20342.59 13335.05
+\t (00:01:42) last pick:  20342.59 13335.05
+\i (00:01:42) zoom in 1 
+\i (00:01:42) setwindow pcb
+\i (00:01:42) zoom in 20332.68 13295.41
+\i (00:01:42) trapsize 191
+\i (00:01:43) roam start
+\i (00:01:43) roam y 2
+\i (00:01:43) roam y 1
+\i (00:01:43) roam x -3
+\i (00:01:43) roam y 29
+\i (00:01:43) roam x -5
+\i (00:01:43) roam y 19
+\i (00:01:43) roam x -9
+\i (00:01:43) roam y 27
+\i (00:01:43) roam x -15
+\i (00:01:43) roam y 65
+\i (00:01:43) roam x -10
+\i (00:01:43) roam y 51
+\i (00:01:43) roam x -6
+\i (00:01:43) roam y 34
+\i (00:01:43) roam x -3
+\i (00:01:43) roam y 15
+\i (00:01:43) roam x -3
+\i (00:01:43) roam y 3
+\i (00:01:43) roam x -3
+\i (00:01:43) roam y 12
+\i (00:01:43) roam x -3
+\i (00:01:43) roam y 5
+\i (00:01:43) roam x -3
+\i (00:01:43) roam y 4
+\i (00:01:44) roam x -3
+\i (00:01:44) roam y -4
+\i (00:01:44) roam end
+\i (00:01:45) pick grid 20254.78 13136.76
+\t (00:01:45) last pick:  20254.78 13136.76
+\i (00:01:45) pick grid 20255.16 13140.19
+\t (00:01:45) last pick:  20255.16 13140.19
+\i (00:01:46) pick grid dbl 20255.16 13140.19
+\t (00:01:46) last pick:  20255.16 13140.19
+\i (00:01:48) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Top 0
+\i (00:01:48) updateport ReportsPane
+\i (00:01:48) updateport SearchPane
+\i (00:01:48) updateport VisibilityPane
+\i (00:01:48) updateport PropPane
+\i (00:01:48) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 0
+\i (00:01:48) updateport ReportsPane
+\i (00:01:48) updateport SearchPane
+\i (00:01:48) updateport VisibilityPane
+\i (00:01:48) updateport PropPane
+\i (00:01:49) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 1
+\i (00:01:49) updateport ReportsPane
+\i (00:01:49) updateport SearchPane
+\i (00:01:49) updateport VisibilityPane
+\i (00:01:49) updateport PropPane
+\i (00:01:49) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Top 1
+\i (00:01:49) updateport ReportsPane
+\i (00:01:49) updateport SearchPane
+\i (00:01:49) updateport VisibilityPane
+\i (00:01:49) updateport PropPane
+\i (00:01:50) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 0
+\i (00:01:50) updateport ReportsPane
+\i (00:01:50) updateport SearchPane
+\i (00:01:50) updateport VisibilityPane
+\i (00:01:50) updateport PropPane
+\i (00:01:51) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 1
+\i (00:01:51) updateport ReportsPane
+\i (00:01:51) updateport SearchPane
+\i (00:01:51) updateport VisibilityPane
+\i (00:01:51) updateport PropPane
+\i (00:01:51) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Soldermask_Bottom" +
+\i (00:01:51) QtSignal 0
+\i (00:01:51) updateport ReportsPane
+\i (00:01:51) updateport SearchPane
+\i (00:01:51) updateport VisibilityPane
+\i (00:01:51) updateport PropPane
+\i (00:01:52) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Soldermask_Bottom" +
+\i (00:01:52) QtSignal 1
+\i (00:01:52) updateport ReportsPane
+\i (00:01:52) updateport SearchPane
+\i (00:01:52) updateport VisibilityPane
+\i (00:01:52) updateport PropPane
+\i (00:01:52) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Silkscreen_Bottom" +
+\i (00:01:52) QtSignal 0
+\i (00:01:52) updateport ReportsPane
+\i (00:01:52) updateport SearchPane
+\i (00:01:52) updateport VisibilityPane
+\i (00:01:52) updateport PropPane
+\i (00:01:53) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Silkscreen_Bottom" +
+\i (00:01:53) QtSignal 1
+\i (00:01:53) updateport ReportsPane
+\i (00:01:53) updateport SearchPane
+\i (00:01:53) updateport VisibilityPane
+\i (00:01:53) updateport PropPane
+\i (00:01:53) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Pastemask_Bottom" +
+\i (00:01:53) QtSignal 0
+\i (00:01:53) updateport ReportsPane
+\i (00:01:53) updateport SearchPane
+\i (00:01:53) updateport VisibilityPane
+\i (00:01:53) updateport PropPane
+\i (00:01:54) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Pastemask_Bottom" +
+\i (00:01:54) QtSignal 1
+\i (00:01:54) updateport ReportsPane
+\i (00:01:54) updateport SearchPane
+\i (00:01:54) updateport VisibilityPane
+\i (00:01:54) updateport PropPane
+\i (00:01:56) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Silkscreen_Top" +
+\i (00:01:56) QtSignal 0
+\i (00:01:56) updateport ReportsPane
+\i (00:01:56) updateport SearchPane
+\i (00:01:56) updateport VisibilityPane
+\i (00:01:56) updateport PropPane
+\i (00:01:56) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Silkscreen_Top" +
+\i (00:01:56) QtSignal 1
+\i (00:01:56) updateport ReportsPane
+\i (00:01:56) updateport SearchPane
+\i (00:01:56) updateport VisibilityPane
+\i (00:01:56) updateport PropPane
+\i (00:01:57) QtSignal VisLayerToolbarViewsButton Views clicked on
+\i (00:01:58) QtSignal VisLayerToolbarViewsButton Views clicked
+\i (00:01:59) QtSignal VisLayerToolbarViewsButton Views clicked on
+\i (00:01:59) QtSignal VisLayerToolbarViewsButton Views clicked
+\i (00:01:59) QtSignal VisLayerToolbarNetColorsButton NetColorsButton clicked
+\i (00:01:59) updateport VisibilityPane
+\i (00:01:59) QtSignal VisLayerToolbarNetColorsButton NetColorsButton clicked
+\i (00:01:59) updateport VisibilityPane
+\i (00:02:00) QtSignal VisLayerToolbarViewsButton Views clicked on
+\i (00:02:00) QtSignal VisLayerToolbarViewsButton Views clicked
+\i (00:02:01) QtSignal VisLayerToolbarAllButton All clicked
+\i (00:02:01) updateport ReportsPane
+\i (00:02:01) updateport SearchPane
+\i (00:02:01) updateport VisibilityPane
+\i (00:02:01) updateport PropPane
+\i (00:02:01) QtSignal VisLayerToolbarAllButton All clicked on
+\i (00:02:01) updateport ReportsPane
+\i (00:02:01) updateport SearchPane
+\i (00:02:01) updateport VisibilityPane
+\i (00:02:01) updateport PropPane
+\i (00:02:02) QtSignal VisLayerToolbarAllButton All clicked
+\i (00:02:02) updateport ReportsPane
+\i (00:02:02) updateport SearchPane
+\i (00:02:02) updateport VisibilityPane
+\i (00:02:02) updateport PropPane
+\i (00:02:02) zoom out 1 
+\i (00:02:02) setwindow pcb
+\i (00:02:02) zoom out 20273.46 13115.41
+\i (00:02:02) trapsize 381
+\i (00:02:02) zoom out 1 
+\i (00:02:02) setwindow pcb
+\i (00:02:02) zoom out 20273.47 13115.42
+\i (00:02:02) trapsize 762
+\i (00:02:02) zoom out 1 
+\i (00:02:02) setwindow pcb
+\i (00:02:02) zoom out 20273.46 13115.41
+\i (00:02:02) trapsize 1525
+\i (00:02:02) zoom out 1 
+\i (00:02:02) setwindow pcb
+\i (00:02:02) zoom out 20279.56 13121.51
+\i (00:02:02) trapsize 3049
+\i (00:02:02) zoom out 1 
+\i (00:02:02) setwindow pcb
+\i (00:02:02) zoom out 20285.66 13121.52
+\i (00:02:02) trapsize 6099
+\i (00:02:03) roam start
+\i (00:02:03) roam x -1
+\i (00:02:03) roam x -102
+\i (00:02:03) roam y -9
+\i (00:02:03) roam x -32
+\i (00:02:03) roam x -259
+\i (00:02:03) roam x -137
+\i (00:02:03) roam x -94
+\i (00:02:03) roam y 7
+\i (00:02:03) roam x -45
+\i (00:02:03) roam y 5
+\i (00:02:03) roam x -15
+\i (00:02:03) roam y 3
+\i (00:02:04) roam end
+\i (00:02:04) roam start
+\i (00:02:04) roam x 12
+\i (00:02:04) roam x 33
+\i (00:02:04) roam x 36
+\i (00:02:04) roam y -2
+\i (00:02:04) roam x 27
+\i (00:02:04) roam y -1
+\i (00:02:04) roam x 12
+\i (00:02:04) roam x 1
+\i (00:02:04) roam x 3
+\i (00:02:05) roam end
+\i (00:02:05) zoom in 1 
+\i (00:02:05) setwindow pcb
+\i (00:02:05) zoom in 15271.46 13075.88
+\i (00:02:05) trapsize 3049
+\i (00:02:09) QtSignal VisLayerToolbarAllButton All clicked on
+\i (00:02:09) updateport ReportsPane
+\i (00:02:09) updateport SearchPane
+\i (00:02:09) updateport VisibilityPane
+\i (00:02:09) updateport PropPane
+\i (00:02:11) QtSignal PropertyStatusWidget DRC_Errors_cnt linkActivated drcErrorsLink
+\i (00:02:11) updateport SearchPane
+\i (00:02:11) QtSignal ADTableContainerWidget DRCTable selectionChanged 0 11
+\i (00:02:11) QtSignal ADTableContainerWidget DRCTable selectionChanged 0 11
+\i (00:02:12) QtSignal ADTableContainerWidget DRCTable selectionChanged 0 11
+\i (00:02:12) QtSignal ADTableContainerWidget DRCTable selectionChanged 0 11
+\i (00:02:12) QtSignal ADTableContainerWidget DRCTable selectionChanged
+\i (00:02:12) QtSignal ADTableContainerWidget DRCTable selectionChanged
+\i (00:02:12) QtSignal ADTableContainerWidget DRCTable selectionChanged
+\i (00:02:12) QtSignal ADTableContainerWidget DRCTable selectionChanged
+\i (00:02:15) QtSignal ADTableContainerWidget DRCTable selectionChanged
+\i (00:02:16) QtSignal ADTableContainerWidget DRCTable selectionChanged
+\i (00:02:18) QtSignal ADTableContainerWidget DRCTableHeader InvokeFacetWindow 7 3 1 1267 977
+\i (00:02:20) QtSignal facet_numerical_dlg filter_first_val_edit editingFinished 0
+\i (00:02:20) QtSignal facet_numerical_dlg filter_cancel_btn clicked
+\i (00:02:20) QtSignal ADTableContainerWidget DRCTable selectionChanged
+\i (00:02:22) QtSignal ADTableContainerWidget DRCTable selectionChanged
+\i (00:02:27) QtSignal ADTableContainerWidget DRCTable selectionChanged
+\i (00:02:27) QtSignal ADTableContainerWidget DRCTable selectionChanged
+\i (00:02:27) QtSignal ADTableContainerWidget DRCTable selectionChanged
+\i (00:02:35) QtSignal ADTableContainerWidget DRCTable selectionChanged
+\i (00:02:39) roam start
+\i (00:02:39) roam x -1
+\i (00:02:39) roam y -13
+\i (00:02:40) roam x -41
+\i (00:02:40) roam y -75
+\i (00:02:40) roam x -52
+\i (00:02:40) roam y -48
+\i (00:02:40) roam x -126
+\i (00:02:40) roam y -69
+\i (00:02:40) roam x -96
+\i (00:02:40) roam y -30
+\i (00:02:40) roam x -135
+\i (00:02:40) roam y -29
+\i (00:02:40) roam x -63
+\i (00:02:40) roam y -13
+\i (00:02:40) roam x -36
+\i (00:02:40) roam y -11
+\i (00:02:40) roam x -9
+\i (00:02:40) roam y -12
+\i (00:02:40) roam x -12
+\i (00:02:40) roam y -16
+\i (00:02:40) roam x -3
+\i (00:02:40) roam y -5
+\i (00:02:40) roam x -30
+\i (00:02:40) roam y -37
+\i (00:02:40) roam x -2
+\i (00:02:40) roam y -6
+\i (00:02:40) roam x -4
+\i (00:02:40) roam y -12
+\i (00:02:40) roam x -5
+\i (00:02:40) roam y -12
+\i (00:02:40) roam x -3
+\i (00:02:40) roam y -8
+\i (00:02:40) roam x -25
+\i (00:02:40) roam y -79
+\i (00:02:40) roam x -30
+\i (00:02:40) roam y -47
+\i (00:02:40) roam x -17
+\i (00:02:40) roam y -22
+\i (00:02:40) roam x -24
+\i (00:02:40) roam y -24
+\i (00:02:40) roam x -10
+\i (00:02:40) roam y -9
+\i (00:02:40) roam x -42
+\i (00:02:40) roam y -42
+\i (00:02:40) roam x -6
+\i (00:02:40) roam y -3
+\i (00:02:40) roam end
+\i (00:02:41) roam start
+\i (00:02:41) roam y -5
+\i (00:02:41) roam x 30
+\i (00:02:41) roam y -64
+\i (00:02:41) roam x 28
+\i (00:02:41) roam y -63
+\i (00:02:41) roam x 20
+\i (00:02:41) roam y -56
+\i (00:02:41) roam x 9
+\i (00:02:41) roam y -22
+\i (00:02:41) roam x 1
+\i (00:02:41) roam y -5
+\i (00:02:41) roam x 5
+\i (00:02:41) roam y -24
+\i (00:02:41) roam x 3
+\i (00:02:41) roam y -22
+\i (00:02:41) roam x 6
+\i (00:02:41) roam y -9
+\i (00:02:41) roam end
+\i (00:02:41) zoom in 1 
+\i (00:02:41) setwindow pcb
+\i (00:02:41) zoom in 12661.17 18479.45
+\i (00:02:41) trapsize 1525
+\i (00:02:41) zoom in 1 
+\i (00:02:41) setwindow pcb
+\i (00:02:41) zoom in 12566.64 18497.74
+\i (00:02:41) trapsize 762
+\i (00:02:41) zoom in 1 
+\i (00:02:41) setwindow pcb
+\i (00:02:41) zoom in 12566.64 18497.75
+\i (00:02:41) trapsize 381
+\i (00:02:42) roam start
+\i (00:02:42) roam y -6
+\i (00:02:42) roam y -9
+\i (00:02:42) roam x -4
+\i (00:02:42) roam y -186
+\i (00:02:42) roam y -75
+\i (00:02:42) roam y -57
+\i (00:02:42) roam x -2
+\i (00:02:42) roam y -47
+\i (00:02:42) roam x -4
+\i (00:02:42) roam y -34
+\i (00:02:42) roam y -12
+\i (00:02:42) roam y -15
+\i (00:02:42) roam y -6
+\i (00:02:42) roam y -3
+\i (00:02:42) roam y -2
+\i (00:02:42) roam end
+\i (00:02:46) zoom out 1 
+\i (00:02:46) setwindow pcb
+\i (00:02:46) zoom out 12536.86 19040.47
+\i (00:02:46) trapsize 762
+\i (00:02:47) zoom out 1 
+\i (00:02:47) setwindow pcb
+\i (00:02:47) zoom out 12536.85 19040.47
+\i (00:02:47) trapsize 1525
+\i (00:03:15) QtSignal AnalysisDialog SelectWorkflow CurrentIndexChanged "Coupling Workflow"
+\i (00:03:16) QtSignal AnalysisDialog SelectWorkflow CurrentIndexChanged "Impedance Workflow"
+\i (00:03:22) QtSignal ImpedanceWorkflow SelectNets linkActivated "select_nets"
+\t (00:03:22) Select nets
+
+\i (00:03:22) net probe 
+\i (00:03:22) updateport VisibilityPane
+\i (00:03:24) QtSignal ImpNetSel allNetTree itemSelectionChanged 5VDD
+\i (00:03:24) QtSignal ImpNetSel allNetTree itemClicked 5VDD
+\i (00:03:29) updateport ReportsPane
+\i (00:03:29) updateport SearchPane
+\i (00:03:29) updateport VisibilityPane
+\i (00:03:29) updateport PropPane
+\i (00:03:29) ucpedit 
+\i (00:03:29) updateport VisibilityPane
+\i (00:03:30) pick grid 13887.74 18034.18
+\t (00:03:30) last pick:  13887.74 18034.18
+\i (00:03:31) zoom out 1 
+\i (00:03:31) setwindow pcb
+\i (00:03:31) zoom out 14967.23 18567.83
+\i (00:03:31) trapsize 3049
+\i (00:03:31) zoom out 1 
+\i (00:03:31) setwindow pcb
+\i (00:03:31) zoom out 14967.24 18567.82
+\i (00:03:31) trapsize 6099
+\i (00:03:32) zoom in 1 
+\i (00:03:32) setwindow pcb
+\i (00:03:32) zoom in 13258.82 18372.67
+\i (00:03:32) trapsize 3049
+\i (00:03:32) zoom in 1 
+\i (00:03:32) setwindow pcb
+\i (00:03:32) zoom in 13258.82 18372.67
+\i (00:03:32) trapsize 1525
+\i (00:03:32) roam start
+\i (00:03:32) roam x 5
+\i (00:03:32) roam y -9
+\i (00:03:32) roam x 10
+\i (00:03:32) roam y -12
+\i (00:03:32) roam x 12
+\i (00:03:32) roam y -20
+\i (00:03:32) roam x 23
+\i (00:03:32) roam y -36
+\i (00:03:32) roam x 15
+\i (00:03:32) roam y -28
+\i (00:03:32) roam x 7
+\i (00:03:32) roam y -14
+\i (00:03:32) roam x 8
+\i (00:03:32) roam y -19
+\i (00:03:32) roam x 10
+\i (00:03:32) roam y -27
+\i (00:03:32) roam x 5
+\i (00:03:32) roam y -12
+\i (00:03:32) roam x 18
+\i (00:03:32) roam y -50
+\i (00:03:32) roam x 9
+\i (00:03:32) roam y -31
+\i (00:03:32) roam x 6
+\i (00:03:32) roam y -20
+\i (00:03:32) roam x 1
+\i (00:03:32) roam y -13
+\i (00:03:32) roam x 2
+\i (00:03:32) roam y -6
+\i (00:03:32) roam y -8
+\i (00:03:32) roam y -3
+\i (00:03:32) roam y -1
+\i (00:03:33) roam end
+\i (00:03:33) zoom in 1 
+\i (00:03:33) setwindow pcb
+\i (00:03:33) zoom in 14862.81 19400.32
+\i (00:03:33) trapsize 762
+\i (00:03:33) roam start
+\i (00:03:33) roam x 4
+\i (00:03:33) roam y -6
+\i (00:03:33) roam x 5
+\i (00:03:33) roam y -4
+\i (00:03:33) roam x 6
+\i (00:03:33) roam y -9
+\i (00:03:33) roam x 3
+\i (00:03:33) roam y -3
+\i (00:03:33) roam x 7
+\i (00:03:33) roam y -11
+\i (00:03:34) roam x 8
+\i (00:03:34) roam y -12
+\i (00:03:34) roam x 15
+\i (00:03:34) roam y -28
+\i (00:03:34) roam x 13
+\i (00:03:34) roam y -15
+\i (00:03:34) roam x 11
+\i (00:03:34) roam y -18
+\i (00:03:34) roam x 15
+\i (00:03:34) roam y -21
+\i (00:03:34) roam x 12
+\i (00:03:34) roam y -20
+\i (00:03:34) roam x 6
+\i (00:03:34) roam y -4
+\i (00:03:34) roam x 6
+\i (00:03:34) roam y -9
+\i (00:03:34) roam x 7
+\i (00:03:34) roam y -12
+\i (00:03:34) roam x 3
+\i (00:03:34) roam y -6
+\i (00:03:34) roam x 3
+\i (00:03:34) roam y -6
+\i (00:03:34) roam x 5
+\i (00:03:34) roam y -3
+\i (00:03:34) roam x 3
+\i (00:03:34) roam y -3
+\i (00:03:34) roam y -2
+\i (00:03:34) roam end
+\i (00:03:34) zoom in 1 
+\i (00:03:34) setwindow pcb
+\i (00:03:34) zoom in 14876.51 19272.22
+\i (00:03:34) trapsize 381
+\i (00:03:35) roam start
+\i (00:03:35) roam x 19
+\i (00:03:35) roam y -6
+\i (00:03:35) roam x 95
+\i (00:03:35) roam y -41
+\i (00:03:35) roam x 19
+\i (00:03:35) roam y -13
+\i (00:03:35) roam x 20
+\i (00:03:35) roam y -21
+\i (00:03:35) roam x 7
+\i (00:03:35) roam y -17
+\i (00:03:35) roam x 17
+\i (00:03:35) roam y -22
+\i (00:03:35) roam x 37
+\i (00:03:35) roam y -87
+\i (00:03:35) roam x 32
+\i (00:03:35) roam y -87
+\i (00:03:35) roam x 9
+\i (00:03:35) roam y -26
+\i (00:03:35) roam x 30
+\i (00:03:35) roam y -72
+\i (00:03:35) roam x 15
+\i (00:03:35) roam y -37
+\i (00:03:35) roam x 9
+\i (00:03:35) roam y -18
+\i (00:03:35) roam x 1
+\i (00:03:35) roam y -6
+\i (00:03:35) roam x 3
+\i (00:03:35) roam y -8
+\i (00:03:35) roam x 3
+\i (00:03:35) roam y -9
+\i (00:03:35) roam y -3
+\i (00:03:35) roam y -3
+\i (00:03:35) roam x 5
+\i (00:03:35) roam y -13
+\i (00:03:35) roam x 4
+\i (00:03:35) roam y -8
+\i (00:03:35) roam x 2
+\i (00:03:35) roam y -4
+\i (00:03:35) roam x 3
+\i (00:03:35) roam y -5
+\i (00:03:35) roam x 3
+\i (00:03:35) roam y -3
+\i (00:03:35) roam end
+\i (00:03:35) zoom in 1 
+\i (00:03:35) setwindow pcb
+\i (00:03:35) zoom in 14987.05 19450.61
+\i (00:03:35) trapsize 191
+\i (00:03:36) zoom in 1 
+\i (00:03:36) setwindow pcb
+\i (00:03:36) zoom in 14987.06 19450.99
+\i (00:03:36) trapsize 95
+\i (00:03:36) roam start
+\i (00:03:36) roam x 26
+\i (00:03:36) roam y -24
+\i (00:03:36) roam x 12
+\i (00:03:36) roam y -17
+\i (00:03:36) roam x 6
+\i (00:03:36) roam y -9
+\i (00:03:36) roam x 7
+\i (00:03:36) roam y -10
+\i (00:03:37) roam x 9
+\i (00:03:37) roam y -12
+\i (00:03:37) roam x 8
+\i (00:03:37) roam y -23
+\i (00:03:37) roam x 12
+\i (00:03:37) roam y -33
+\i (00:03:37) roam x 6
+\i (00:03:37) roam y -63
+\i (00:03:37) roam y -45
+\i (00:03:37) roam y -22
+\i (00:03:37) roam y -44
+\i (00:03:37) roam x 1
+\i (00:03:37) roam y -31
+\i (00:03:37) roam x 2
+\i (00:03:37) roam y -63
+\i (00:03:37) roam x 6
+\i (00:03:37) roam y -81
+\i (00:03:37) roam x 4
+\i (00:03:37) roam y -45
+\i (00:03:37) roam x 6
+\i (00:03:37) roam y -21
+\i (00:03:37) roam x 3
+\i (00:03:37) roam y -9
+\i (00:03:37) roam x 2
+\i (00:03:37) roam y -5
+\i (00:03:37) roam y -1
+\i (00:03:37) roam end
+\i (00:03:39) zoom out 1 
+\i (00:03:39) setwindow pcb
+\i (00:03:39) zoom out 15046.00 19513.64
+\i (00:03:39) trapsize 191
+\i (00:03:40) roam start
+\i (00:03:40) roam x 16
+\i (00:03:40) roam y -6
+\i (00:03:40) roam x 38
+\i (00:03:40) roam y -3
+\i (00:03:40) roam x 25
+\i (00:03:40) roam y -3
+\i (00:03:40) roam x 26
+\i (00:03:40) roam x 70
+\i (00:03:40) roam y 7
+\i (00:03:40) roam x 80
+\i (00:03:40) roam y 14
+\i (00:03:40) roam x 51
+\i (00:03:40) roam y 9
+\i (00:03:40) roam x 60
+\i (00:03:40) roam y 3
+\i (00:03:40) roam x 42
+\i (00:03:40) roam x 81
+\i (00:03:40) roam x 46
+\i (00:03:40) roam x 95
+\i (00:03:40) roam x 42
+\i (00:03:40) roam x 24
+\i (00:03:40) roam x 10
+\i (00:03:40) roam y 3
+\i (00:03:40) roam x 5
+\i (00:03:41) roam end
+\i (00:03:48) zoom out 1 
+\i (00:03:48) setwindow pcb
+\i (00:03:48) zoom out 15246.50 19468.08
+\i (00:03:48) trapsize 381
+\i (00:03:49) roam start
+\i (00:03:49) roam y 3
+\i (00:03:49) roam x -22
+\i (00:03:49) roam y 9
+\i (00:03:49) roam x -48
+\i (00:03:49) roam y 13
+\i (00:03:49) roam x -108
+\i (00:03:49) roam y 21
+\i (00:03:49) roam x -155
+\i (00:03:49) roam y 20
+\i (00:03:49) roam x -172
+\i (00:03:49) roam y 9
+\i (00:03:49) roam x -198
+\i (00:03:49) roam y 3
+\i (00:03:49) roam x -123
+\i (00:03:49) roam y 7
+\i (00:03:49) roam x -134
+\i (00:03:49) roam y 3
+\i (00:03:49) roam x -382
+\i (00:03:49) roam y 6
+\i (00:03:49) roam x -255
+\i (00:03:49) roam x -234
+\i (00:03:49) roam x -105
+\i (00:03:49) roam end
+\i (00:03:49) roam start
+\i (00:03:49) roam x -9
+\i (00:03:49) roam x -31
+\i (00:03:49) roam x -207
+\i (00:03:49) roam x -171
+\i (00:03:49) roam y 3
+\i (00:03:49) roam x -78
+\i (00:03:49) roam y 9
+\i (00:03:49) roam x -107
+\i (00:03:49) roam y 9
+\i (00:03:49) roam x -298
+\i (00:03:49) roam y 19
+\i (00:03:49) roam x -192
+\i (00:03:49) roam y 3
+\i (00:03:49) roam x -138
+\i (00:03:49) roam x -53
+\i (00:03:49) roam x -40
+\i (00:03:49) roam y -4
+\i (00:03:49) roam end
+\i (00:03:50) roam start
+\i (00:03:50) roam y -45
+\i (00:03:50) roam x -2
+\i (00:03:50) roam y -94
+\i (00:03:50) roam x -4
+\i (00:03:50) roam y -164
+\i (00:03:50) roam y -235
+\i (00:03:50) roam y -203
+\i (00:03:50) roam y -157
+\i (00:03:50) roam y -57
+\i (00:03:50) roam y -42
+\i (00:03:50) roam x -3
+\i (00:03:50) roam y -90
+\i (00:03:50) roam x 6
+\i (00:03:50) roam y -27
+\i (00:03:50) roam x 3
+\i (00:03:50) roam y -18
+\i (00:03:50) roam y -6
+\i (00:03:50) roam y 1
+\i (00:03:50) roam x -9
+\i (00:03:50) roam y 17
+\i (00:03:50) roam x -3
+\i (00:03:50) roam y 9
+\i (00:03:50) roam end
+\i (00:03:51) roam start
+\i (00:03:51) roam y -3
+\i (00:03:51) roam y -2
+\i (00:03:51) roam y -1
+\i (00:03:51) roam y -2
+\i (00:03:51) roam y -3
+\i (00:03:51) roam y -3
+\i (00:03:51) roam y -1
+\i (00:03:51) roam x 1
+\i (00:03:51) roam x 5
+\i (00:03:51) roam y -2
+\i (00:03:51) roam x 3
+\i (00:03:51) roam end
+\i (00:03:51) zoom in 1 
+\i (00:03:51) setwindow pcb
+\i (00:03:51) zoom in 12993.01 20543.48
+\i (00:03:51) trapsize 191
+\i (00:03:54) zoom out 1 
+\i (00:03:54) setwindow pcb
+\i (00:03:54) zoom out 13242.30 20479.83
+\i (00:03:54) trapsize 381
+\i (00:03:55) zoom out 1 
+\i (00:03:55) setwindow pcb
+\i (00:03:55) zoom out 12281.71 20461.53
+\i (00:03:55) trapsize 762
+\i (00:03:55) zoom out 1 
+\i (00:03:55) setwindow pcb
+\i (00:03:55) zoom out 12309.15 20452.39
+\i (00:03:55) trapsize 1525
+\i (00:03:56) roam start
+\i (00:03:56) roam x -6
+\i (00:03:56) roam x -21
+\i (00:03:56) roam x -36
+\i (00:03:56) roam x -81
+\i (00:03:56) roam y 6
+\i (00:03:56) roam x -119
+\i (00:03:56) roam y 6
+\i (00:03:56) roam x -145
+\i (00:03:56) roam y 10
+\i (00:03:56) roam x -72
+\i (00:03:56) roam x -107
+\i (00:03:56) roam y 3
+\i (00:03:56) roam x -90
+\i (00:03:56) roam x -46
+\i (00:03:56) roam x -14
+\i (00:03:56) roam x -1
+\i (00:03:56) roam x -12
+\i (00:03:56) roam y 2
+\i (00:03:56) roam x -8
+\i (00:03:56) roam x -19
+\i (00:03:56) roam x -12
+\i (00:03:56) roam x -14
+\i (00:03:56) roam y 3
+\i (00:03:56) roam x -28
+\i (00:03:56) roam x -6
+\i (00:03:56) roam x -3
+\i (00:03:56) roam end
+\i (00:03:56) zoom in 1 
+\i (00:03:56) setwindow pcb
+\i (00:03:56) zoom in 10416.99 20157.00
+\i (00:03:56) trapsize 762
+\i (00:03:57) zoom in 1 
+\i (00:03:57) setwindow pcb
+\i (00:03:57) zoom in 10456.64 20157.01
+\i (00:03:57) trapsize 381
+\i (00:03:57) zoom in 1 
+\i (00:03:57) setwindow pcb
+\i (00:03:57) zoom in 10456.64 20157.01
+\i (00:03:57) trapsize 191
+\i (00:03:57) zoom in 1 
+\i (00:03:57) setwindow pcb
+\i (00:03:57) zoom in 10456.64 20157.02
+\i (00:03:57) trapsize 95
+\i (00:03:57) zoom out 1 
+\i (00:03:57) setwindow pcb
+\i (00:03:57) zoom out 10480.08 20159.31
+\i (00:03:57) trapsize 191
+\i (00:03:58) zoom out 1 
+\i (00:03:58) setwindow pcb
+\i (00:03:58) zoom out 10527.35 20173.79
+\i (00:03:58) trapsize 381
+\i (00:03:59) roam start
+\i (00:03:59) roam x -1
+\i (00:03:59) roam y -1
+\i (00:03:59) roam x -20
+\i (00:03:59) roam x -85
+\i (00:03:59) roam x -114
+\i (00:03:59) roam x -60
+\i (00:03:59) roam x -62
+\i (00:03:59) roam x -208
+\i (00:03:59) roam y 3
+\i (00:03:59) roam x -153
+\i (00:03:59) roam y 15
+\i (00:03:59) roam x -144
+\i (00:03:59) roam y 24
+\i (00:03:59) roam x -122
+\i (00:03:59) roam y 18
+\i (00:03:59) roam x -118
+\i (00:03:59) roam y 19
+\i (00:03:59) roam x -90
+\i (00:03:59) roam y 9
+\i (00:03:59) roam x -51
+\i (00:03:59) roam y 5
+\i (00:03:59) roam x -36
+\i (00:03:59) roam x -18
+\i (00:03:59) roam x -6
+\i (00:03:59) roam x -3
+\i (00:04:00) roam end
+\i (00:04:02) roam start
+\i (00:04:02) roam x -2
+\i (00:04:02) roam x -25
+\i (00:04:02) roam y 7
+\i (00:04:02) roam x -21
+\i (00:04:02) roam y 5
+\i (00:04:02) roam x -18
+\i (00:04:02) roam y 6
+\i (00:04:02) roam x -167
+\i (00:04:02) roam y 57
+\i (00:04:02) roam x -160
+\i (00:04:02) roam y 57
+\i (00:04:02) roam x -183
+\i (00:04:02) roam y 61
+\i (00:04:02) roam x -216
+\i (00:04:02) roam y 74
+\i (00:04:02) roam x -215
+\i (00:04:02) roam y 64
+\i (00:04:02) roam x -124
+\i (00:04:02) roam y 33
+\i (00:04:02) roam x -380
+\i (00:04:02) roam y 89
+\i (00:04:02) roam x -210
+\i (00:04:02) roam y 54
+\i (00:04:02) roam x -187
+\i (00:04:02) roam y 34
+\i (00:04:02) roam x -84
+\i (00:04:02) roam y 21
+\i (00:04:02) roam x -105
+\i (00:04:02) roam y 21
+\i (00:04:02) roam x -36
+\i (00:04:02) roam y 11
+\i (00:04:02) roam x -3
+\i (00:04:02) roam end
+\i (00:04:03) roam start
+\i (00:04:03) roam x 18
+\i (00:04:03) roam x 14
+\i (00:04:03) roam y -2
+\i (00:04:03) roam x 31
+\i (00:04:03) roam y -4
+\i (00:04:03) roam x 62
+\i (00:04:03) roam y -5
+\i (00:04:03) roam x 87
+\i (00:04:03) roam x 178
+\i (00:04:03) roam x 198
+\i (00:04:03) roam x 107
+\i (00:04:03) roam x 105
+\i (00:04:03) roam x 264
+\i (00:04:03) roam x 66
+\i (00:04:03) roam x 15
+\i (00:04:03) roam y -3
+\i (00:04:03) roam end
+\i (00:04:05) drag_start grid 8261.00 19837.53
+\i (00:04:05) drag_stop 8550.70 19702.59
+\i (00:04:05) updateport ReportsPane
+\i (00:04:05) updateport SearchPane
+\i (00:04:05) updateport PropPane
+\i (00:04:06) pick grid 8248.80 19835.24
+\t (00:04:06) last pick:  8248.80 19835.24
+\i (00:04:07) drag_start grid 8253.37 19849.72
+\i (00:04:07) drag_stop 8427.96 19744.52
+\i (00:04:07) updateport ReportsPane
+\i (00:04:07) updateport SearchPane
+\i (00:04:07) updateport PropPane
+\i (00:04:08) pick grid 8264.81 19871.83
+\t (00:04:08) last pick:  8264.81 19871.83
+\i (00:04:09) drag_start grid 8253.37 19858.11
+\i (00:04:09) drag_stop 8281.58 19771.96
+\i (00:04:09) updateport ReportsPane
+\i (00:04:09) updateport SearchPane
+\i (00:04:09) updateport PropPane
+\i (00:04:10) pick grid 8260.24 19849.72
+\t (00:04:10) last pick:  8260.24 19849.72
+\i (00:04:10) roam start
+\i (00:04:10) roam y -2
+\i (00:04:10) roam y -4
+\i (00:04:10) roam x -6
+\i (00:04:10) roam y -29
+\i (00:04:10) roam x -1
+\i (00:04:10) roam y -3
+\i (00:04:10) roam x -24
+\i (00:04:10) roam y -31
+\i (00:04:10) roam x -41
+\i (00:04:10) roam y -12
+\i (00:04:10) roam x -34
+\i (00:04:10) roam y -6
+\i (00:04:10) roam x -15
+\i (00:04:10) roam y -5
+\i (00:04:10) roam x -47
+\i (00:04:10) roam y -4
+\i (00:04:10) roam x -28
+\i (00:04:10) roam y -8
+\i (00:04:11) roam x -48
+\i (00:04:11) roam y -10
+\i (00:04:11) roam x -42
+\i (00:04:11) roam y -6
+\i (00:04:11) roam x -54
+\i (00:04:11) roam y -11
+\i (00:04:11) roam x -27
+\i (00:04:11) roam y -1
+\i (00:04:11) roam x -12
+\i (00:04:11) roam y -3
+\i (00:04:11) roam x -24
+\i (00:04:11) roam y -3
+\i (00:04:11) roam x -11
+\i (00:04:11) roam x -1
+\i (00:04:11) roam y 1
+\i (00:04:11) roam x 4
+\i (00:04:11) roam y 9
+\i (00:04:11) roam x 6
+\i (00:04:11) roam y 5
+\i (00:04:11) roam x 9
+\i (00:04:11) roam y 4
+\i (00:04:11) roam x 11
+\i (00:04:11) roam y 5
+\i (00:04:11) roam x 1
+\i (00:04:11) roam end
+\i (00:04:11) prepopup 8264.81 19852.01
+\i (00:04:12) pop dyn_option_select '@:@All On' 
+\i (00:04:12) ucp_turn_all_layers_on 
+\i (00:04:14) pick grid 8209.92 19848.96
+\t (00:04:14) last pick:  8209.92 19848.96
+\i (00:04:14) updateport ReportsPane
+\i (00:04:14) updateport SearchPane
+\i (00:04:14) updateport PropPane
+\i (00:04:14) pick grid dbl 8209.92 19848.96
+\t (00:04:14) last pick:  8209.92 19848.96
+\i (00:04:14) updateport ReportsPane
+\i (00:04:14) updateport SearchPane
+\i (00:04:14) updateport PropPane
+\i (00:04:14) drag_start grid 8201.53 19853.54
+\i (00:04:15) drag_stop 8434.82 19710.21
+\i (00:04:15) updateport ReportsPane
+\i (00:04:15) updateport SearchPane
+\i (00:04:15) updateport PropPane
+\i (00:04:16) pick grid 8185.52 19837.53
+\t (00:04:16) last pick:  8185.52 19837.53
+\i (00:04:16) updateport ReportsPane
+\i (00:04:16) updateport SearchPane
+\i (00:04:16) updateport PropPane
+\i (00:04:16) drag_start grid 8187.81 19851.25
+\i (00:04:16) drag_stop 8482.84 19730.80
+\i (00:04:17) updateport ReportsPane
+\i (00:04:17) updateport SearchPane
+\i (00:04:17) updateport PropPane
+\i (00:04:17) pick grid 8030.00 19778.83
+\t (00:04:17) last pick:  8030.00 19778.83
+\i (00:04:19) drag_start grid 8402.80 19934.35
+\i (00:04:19) drag_stop 7920.22 19656.85
+\i (00:04:19) updateport ReportsPane
+\i (00:04:19) updateport SearchPane
+\i (00:04:19) updateport PropPane
+\i (00:04:20) drag_start grid 8301.40 19858.11
+\i (00:04:20) drag_stop 8862.50 19645.41
+\i (00:04:20) updateport ReportsPane
+\i (00:04:20) updateport SearchPane
+\i (00:04:20) updateport PropPane
+\i (00:04:21) pick grid 8296.83 19842.10
+\t (00:04:21) last pick:  8296.83 19842.10
+\i (00:04:21) updateport ReportsPane
+\i (00:04:21) updateport SearchPane
+\i (00:04:21) updateport PropPane
+\i (00:04:21) roam start
+\i (00:04:21) roam y -6
+\i (00:04:21) roam x -1
+\i (00:04:21) roam y -6
+\i (00:04:22) roam x -18
+\i (00:04:22) roam y -57
+\i (00:04:22) roam x -53
+\i (00:04:22) roam y -54
+\i (00:04:22) roam x -97
+\i (00:04:22) roam y -48
+\i (00:04:22) roam x -63
+\i (00:04:22) roam y -17
+\i (00:04:22) roam x -152
+\i (00:04:22) roam y -15
+\i (00:04:22) roam x -180
+\i (00:04:22) roam y -1
+\i (00:04:22) roam x -115
+\i (00:04:22) roam x -5
+\i (00:04:22) roam x 29
+\i (00:04:22) roam y 4
+\i (00:04:22) roam x 78
+\i (00:04:22) roam y 8
+\i (00:04:22) roam x 150
+\i (00:04:22) roam y 18
+\i (00:04:22) roam x 138
+\i (00:04:22) roam y 22
+\i (00:04:22) roam x 237
+\i (00:04:22) roam y 104
+\i (00:04:22) roam x 141
+\i (00:04:22) roam y 93
+\i (00:04:22) roam x 99
+\i (00:04:22) roam y 75
+\i (00:04:22) roam x 199
+\i (00:04:22) roam y 168
+\i (00:04:22) roam x 2
+\i (00:04:22) roam y 3
+\i (00:04:22) roam end
+\i (00:04:22) zoom out 1 
+\i (00:04:22) setwindow pcb
+\i (00:04:22) zoom out 8270.91 19829.14
+\i (00:04:22) trapsize 762
+\i (00:04:22) zoom out 1 
+\i (00:04:22) setwindow pcb
+\i (00:04:22) zoom out 8270.90 19829.14
+\i (00:04:22) trapsize 1525
+\i (00:04:24) drag_start grid 8243.45 19844.39
+\i (00:04:24) drag_stop 9234.52 19249.75
+\i (00:04:24) updateport ReportsPane
+\i (00:04:24) updateport SearchPane
+\i (00:04:24) updateport PropPane
+\i (00:04:24) drag_start grid 8804.55 19426.62
+\i (00:04:24) drag_stop 8767.95 19441.86
+\i (00:04:25) pick grid 8337.98 19844.39
+\t (00:04:25) last pick:  8337.98 19844.39
+\i (00:04:25) updateport ReportsPane
+\i (00:04:25) updateport SearchPane
+\i (00:04:25) updateport PropPane
+\i (00:04:26) drag_start grid 8298.34 19862.69
+\i (00:04:27) drag_stop 8758.81 19524.20
+\i (00:04:27) updateport ReportsPane
+\i (00:04:27) updateport SearchPane
+\i (00:04:27) updateport PropPane
+\i (00:04:27) drag_start grid 8886.88 19432.71
+\i (00:04:27) drag_stop 8892.98 19426.62
+\i (00:04:28) pick grid 9435.79 19481.51
+\t (00:04:28) last pick:  9435.79 19481.51
+\i (00:04:29) pick grid dbl 9435.79 19481.51
+\t (00:04:29) last pick:  9435.79 19481.51
+\i (00:04:30) pick grid 12588.94 19097.27
+\t (00:04:30) last pick:  12588.94 19097.27
+\i (00:04:31) pick grid 12424.27 19048.48
+\t (00:04:31) last pick:  12424.27 19048.48
+\i (00:04:31) drag_start grid 12506.61 19021.04
+\i (00:04:32) drag_stop 12509.65 19021.04
+\i (00:04:32) pick grid dbl 12506.61 19021.04
+\t (00:04:32) last pick:  12506.61 19021.04
+\i (00:04:32) roam start
+\i (00:04:32) roam x 42
+\i (00:04:32) roam y 1
+\i (00:04:32) roam x 75
+\i (00:04:32) roam y 8
+\i (00:04:32) roam x 51
+\i (00:04:32) roam y 15
+\i (00:04:32) roam x 66
+\i (00:04:32) roam y 33
+\i (00:04:32) roam x 51
+\i (00:04:32) roam y 27
+\i (00:04:32) roam x 258
+\i (00:04:32) roam y 112
+\i (00:04:32) roam x 36
+\i (00:04:32) roam y 15
+\i (00:04:32) roam x 75
+\i (00:04:32) roam y 38
+\i (00:04:32) roam y 3
+\i (00:04:33) roam end
+\i (00:04:33) zoom out 1 
+\i (00:04:33) setwindow pcb
+\i (00:04:33) zoom out 13320.09 18446.25
+\i (00:04:33) trapsize 3049
+\i (00:04:34) pick grid 12283.27 18915.87
+\t (00:04:34) last pick:  12283.27 18915.87
+\i (00:04:34) pick grid 12264.97 19025.65
+\t (00:04:34) last pick:  12264.97 19025.65
+\i (00:04:34) pick grid dbl 12264.97 19025.65
+\t (00:04:34) last pick:  12264.97 19025.65
+\i (00:04:35) pick grid 12466.24 19080.54
+\t (00:04:35) last pick:  12466.24 19080.54
+\i (00:04:35) pick grid dbl 12466.24 19080.54
+\t (00:04:35) last pick:  12466.24 19080.54
+\i (00:04:35) zoom out 1 
+\i (00:04:35) setwindow pcb
+\i (00:04:35) zoom out 14875.32 19214.72
+\i (00:04:35) trapsize 6099
+\i (00:04:36) roam start
+\i (00:04:36) roam y 13
+\i (00:04:36) roam y 83
+\i (00:04:36) roam y 10
+\i (00:04:36) roam y 101
+\i (00:04:36) roam y 54
+\i (00:04:36) roam y 42
+\i (00:04:36) roam y 9
+\i (00:04:36) roam end
+\i (00:04:37) zoom in 1 
+\i (00:04:37) setwindow pcb
+\i (00:04:37) zoom in 11673.37 13173.71
+\i (00:04:37) trapsize 3049
+\i (00:04:39) drag_start grid 13417.67 11435.51
+\i (00:04:39) drag_stop 15405.93 11319.63
+\i (00:04:40) pick grid 15442.52 11087.87
+\t (00:04:40) last pick:  15442.52 11087.87
+\i (00:04:41) zoom out 1 
+\i (00:04:41) setwindow pcb
+\i (00:04:41) zoom out 13850.70 12801.68
+\i (00:04:41) trapsize 6099
+\i (00:08:26) xname_flush 
+\i (00:08:26) xname_flush '!' 
+\i (00:08:29) xname_flush 
+\i (00:08:31) xname_flush '!' 
+\i (00:08:32) xname_flush 
+\i (00:09:17) xname_flush '!' 
+\i (00:09:18) xname_flush '!' 
+\i (00:09:24) xname_flush 
+\i (00:09:56) xname_flush '!' 
+\i (00:09:58) xname_flush 
+\i (00:10:41) xname_flush '!' 
+\i (00:10:42) xname_flush 
+\i (00:15:36) xname_flush '!' 
+\i (00:15:38) xname_flush 
+\i (00:15:44) xname_flush '!' 
+\i (00:15:54) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:15:54) QtSignal MainCanvas ImpGrpSel closed
+\i (00:15:54) QtSignal MainCanvas CplGrpSel closed
+\i (00:15:54) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:15:54) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:15:54) QtSignal MainCanvas CplPrefDialog closed
+\i (00:15:54) QtSignal MainCanvas ImpPrefDialog closed
+\t (00:16:00)     Journal end - Sat Apr  5 05:27:11 2025

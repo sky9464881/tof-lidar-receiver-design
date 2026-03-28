@@ -1,0 +1,161 @@
+("LR_G6SP-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:18:33 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "200m")
+		(PDM "560m")
+		(TJ "125")
+	)
+)
+("LA_G6SP-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:18:33 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "200m")
+		(PDM "560m")
+		(TJ "125")
+	)
+)
+("LY_G6SP-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:18:33 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "200m")
+		(PDM "560m")
+		(TJ "125")
+	)
+)
+("LA_G67F-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:18:33 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "200m")
+		(VD "12")
+		(PDM "560m")
+		(TJ "125")
+	)
+)
+("LW_G6SP-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:18:33 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "250m")
+		(PDM "650m")
+		(TJ "125")
+	)
+)
+("LW_G6SG-3-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:18:33 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "150m")
+		(PDM "650m")
+		(TJ "125")
+	)
+)
+("LT_G6SP-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:18:33 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "250m")
+		(PDM "650m")
+		(TJ "125")
+	)
+)
+("LW_G6SG-4-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:18:33 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "150m")
+		(PDM "650m")
+		(TJ "125")
+	)
+)

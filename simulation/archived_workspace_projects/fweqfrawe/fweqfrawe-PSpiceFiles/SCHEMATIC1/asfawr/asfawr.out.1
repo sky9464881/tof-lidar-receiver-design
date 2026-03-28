@@ -1,0 +1,562 @@
+
+**** 04/05/25 05:47:58 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-asfawr"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\fweqfrawe\fweqfrawe-pspicefile
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "asfawr.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa855_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPA858.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa695_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa856_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\tlv3604.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPAx277.LIB" 
+
+*Analysis directives: 
+.TRAN  0 5m 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source FWEQFRAWE
+V_V1         VCC 0 5
+V_V2         0 VEE 0
+C_C267         0 VEE  1n  TC=0,0 
+C_C253         0 VCC  0.1uF  TC=0,0 
+X_U1         N1093528 N1093508 VCC VEE N1093518 OPAX277
+C_C261         0 N1093528  1n  TC=0,0 
+R_R149         N1093722 N1093528  17k TC=0,0 
+C_C268         0 VCC  1n  TC=0,0 
+C_C252         0 VEE  0.1uF  TC=0,0 
+R_R147         N1093528 N1093414  3k TC=0,0 
+C_C262         0 N1093528  0.1u  TC=0,0 
+R_R148         N1093508 N1093518  20k TC=0,0 
+R_R153         N10940171 N1093518  130 TC=0,0 
+C_C269         N10940171 0  0.1uF  TC=0,0 
+R_R156         N1095124 N1095414  10 TC=0,0 
+R_R151         N1095124 N1095170  500 TC=0,0 
+C_C254         0 N1093518  1n  TC=0,0 
+C_C266         N1095170 N1095124  0.7pF  TC=0,0 
+C_C264         0 N1095124  0.1u  TC=0,0 
+I_I4         N1095124 0 DC 0Adc AC 0Aac
++SIN 0 3m 1k 0 0 0
+X_U47         N1093518 N1095414 VCC 0 N1095170 OPA856
+R_R159         0 N1095124  21.34G TC=0,0 
+C_C265         0 N1095124  1.2p  TC=0,0 
+C_C263         0 N1095124  1n  TC=0,0 
+V_V3         N1093414 0 5
+V_V4         0 N1093722 5
+
+**** RESUMING asfawr.cir ****
+.END
+
+**** 04/05/25 05:47:58 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-asfawr"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\fweqfrawe\fweqfrawe-pspicefile
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_U1.DVN   X_U1.X_U39.DVNF X_U1.X_U40.DVNF X_U47.X_E_N.DVN 
+          IS  100.000000E-18  100.000000E-18  100.000000E-18  100.000000E-18 
+          KF    3.162278E-12    3.162278E-12    3.162278E-12  316.227800E-12 
+
+
+               X_U47.X_I_NN.DNVF 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_U47.X_I_NP.DNVF 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+**** 04/05/25 05:47:58 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-asfawr"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\fweqfrawe\fweqfrawe-pspicefile
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+               X_U47.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+**** 04/05/25 05:47:58 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-asfawr"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\fweqfrawe\fweqfrawe-pspicefile
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_S1._S1   X_U1.X_S2._S2   
+         RON     .01             .01         
+        ROFF    1.000000E+12    1.000000E+12 
+         VON     .01             .01         
+        VOFF    0               0            
+
+
+               X_U1.X_U20.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .7          
+        VOFF    0            
+
+
+               X_U1.X_U21.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .1          
+
+
+               X_U1.X_U25.OL_SW 
+         RON    1.000000E-03 
+        ROFF    1.000000E+12 
+         VON     .9          
+        VOFF     .8          
+
+
+               X_U1.X_U5.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .1          
+
+
+               X_U47.X_ESD_IN.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .45         
+
+
+               X_U47.X_ESD_OUT.ESD_SW          X_U47.X_S1._S1  X_U47.X_S2._S2  
+         RON   50                               1.000000E-03   50            
+        ROFF    1.000000E+12                    2.000000E+06    1.000000E+12 
+         VON     .5                             1.88            1            
+        VOFF     .45                           -1                .9          
+
+
+               X_U47.X_S3._S3  X_U47.X_S4._S4  
+         RON   50               1.000000E-03 
+        ROFF    1.000000E+12    2.000000E+06 
+         VON    1               1.9          
+        VOFF     .9            -1            
+
+
+Starting pseudo-transient algorithm.
+
+INFO(ORPSIM-16594): To improve Pseudotransient Convergence and Performance, set following options to relax stabilization criteria for capacitor currents and inductor voltages: PTRANABSTOL=1e-5, PTRANVNTOL=1e-4
+
+ERROR -- Convergence problem in transient bias point calculation
+
+
+  Last node voltages tried were:
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VCC)    5.0000  (  VEE)    0.0000  (N1093414)    5.0000                      
+
+(N1093508)    2.9877                  (N1093518)    2.7426                      
+
+(N1093528)    3.4687                  (N1093722)   -5.0000                      
+
+(N1095124)    1.7258                  (N1095170)     .0367                      
+
+(N1095414)    1.7596                  (X_U1.MID)    2.5000                      
+
+(X_U1.V11)    2.5000                  (X_U1.V12)    2.5000                      
+
+(N10940171)    2.7426                 (X_U1.ESDN)    3.0000                     
+
+(X_U1.ESDP)    3.4565                 (X_U1.VCLP)    2.7771                     
+
+(X_U47.MID) 116.2E-06                 (X_U1.CLAMP)    2.7770                    
+
+(X_U1.VCC_B)    5.0000                (X_U1.VEE_B) 2.500E-06                    
+
+(X_U1.VIMON)    5.8919                (X_U47.CMRR) 124.2E-06                    
+
+(X_U47.ESDN)    1.7596                (X_U47.ESDP)    2.7426                    
+
+(X_U47.PSRM) 116.2E-06                (X_U47.PSRP) 315.2E-06                    
+
+(X_U1.VOUT_S)    2.7426               (X_U1.VSENSE)    2.7770                   
+
+(X_U1.X_U1.3)    0.0000               (X_U1.X_U1.4)    0.0000                   
+
+(X_U1.X_U1.5)    0.0000               (X_U1.X_U1.6)    0.0000                   
+
+(X_U1.X_U1.7)     .8338               (X_U1.X_U1.8)     .8338                   
+
+(X_U47.CLAMP) 178.8E-06               (X_U47.VCC_B)    5.0000                   
+
+(X_U47.VEE_B)-983.8E-12               (X_U47.VIMON)   -3.3781                   
+
+(X_U1.VCC_CLP)    3.9684              (X_U1.VEE_CLP)     .1740                  
+
+(X_U1.X_U39.3)    0.0000              (X_U1.X_U39.4)    0.0000                  
+
+(X_U1.X_U39.5)    0.0000              (X_U1.X_U39.6)    0.0000                  
+
+(X_U1.X_U39.7)     .8338              (X_U1.X_U39.8)     .8338                  
+
+(X_U1.X_U40.3)    0.0000              (X_U1.X_U40.4)    0.0000                  
+
+(X_U1.X_U40.5)    0.0000              (X_U1.X_U40.6)    0.0000                  
+
+(X_U1.X_U40.7)     .8338              (X_U1.X_U40.8)     .8338                  
+
+(X_U47.AOLNET)   98.3210              (X_U47.CMRR_2)    2.7426                  
+
+(X_U47.N06456)    2.7426              (X_U47.N10561)    2.7426                  
+
+(X_U47.N11984)    2.7426              (X_U47.N11991)    1.7596                  
+
+(X_U47.N25816)    2.7428              (X_U47.N28602)    1.1000                  
+
+(X_U47.N30136)    4.6000              (X_U47.N30913)    2.7428                  
+
+(X_U47.N31014)    2.7428              (X_U47.N35669)    4.1723                  
+
+(X_U47.N35813)    4.1723              (X_U47.N38050)    1.0662                  
+
+(X_U47.N38096)    1.0662              (X_U47.N45856) 116.2E-06                  
+
+(X_U47.N45892) 116.2E-06              (X_U47.N45974) 116.2E-06                  
+
+(X_U47.N45986) 116.2E-06              (X_U47.N48550) -105.0000                  
+
+(X_U47.N50645)  105.0000              (X_U47.VOUT_S)     .0367                  
+
+(X_U47.VSENSE) 178.8E-06              (X_U1.CL_CLAMP)    2.7771                 
+
+(X_U1.N2986935)    3.4565             (X_U1.N2986947)    2.5000                 
+
+(X_U1.N2986949)    3.4565             (X_U1.N2986957)    3.4565                 
+
+(X_U1.N2986973)    2.5000             (X_U1.N2986975)    2.5000                 
+
+(X_U1.N2986977)    3.4565             (X_U1.N2986981)    3.4565                 
+
+(X_U1.N2987013)    3.0000             (X_U1.N2987017)    3.0000                 
+
+(X_U1.N2987029)    2.0000             (X_U1.N2987037)    3.0000                 
+
+(X_U1.N2987051)    3.0000             (X_U1.N2987061)    2.5000                 
+
+(X_U1.N2987123)    2.5000             (X_U1.N2987135)    2.5000                 
+
+(X_U1.N2987157)    2.5000             (X_U1.N2987159)    2.5000                 
+
+(X_U1.N2987201)   37.5000             (X_U1.N2987203)    2.5000                 
+
+(X_U1.N2987205)    2.5000             (X_U1.N2987225)    2.5000                 
+
+(X_U1.N2987231)    2.5000             (X_U1.N2987243)  -32.5000                 
+
+(X_U1.N2987295)   77.5000             (X_U1.N2987299)    2.5000                 
+
+(X_U1.N2987301)    2.5000             (X_U1.N2987319)    2.5000                 
+
+(X_U1.N2987325)    2.5000             (X_U1.N2987337)  -72.5000                 
+
+(X_U1.N2987363)    2.7770             (X_U1.N2987391)    3.9684                 
+
+(X_U1.N2987395)     .1740             (X_U1.N2987423)     .1740                 
+
+(X_U1.N2987427)    3.9684             (X_U1.N2987487)    2.5000                 
+
+(X_U1.N2987493)    2.5000             (X_U1.N2987499)    2.5000                 
+
+(X_U1.N2987541)    5.8919             (X_U1.N2987553)    2.7426                 
+
+(X_U1.N2987623)    2.7426             (X_U1.N2987655)     .7771                 
+
+(X_U1.N2987675)    4.7471             (X_U1.N2987683)     .7771                 
+
+(X_U1.N2987687)     .7771             (X_U1.N2987711)    4.7471                 
+
+(X_U1.N2987719)    4.7471             (X_U1.N2987763)    2.5000                 
+
+(X_U1.N2987785)    5.0000             (X_U1.N2987801) 2.503E-06                 
+
+(X_U1.N3108745)    3.1924             (X_U1.N3108755)    2.7771                 
+
+(X_U1.N3108879)    2.7770             (X_U1.N3108917)    2.7771                 
+
+(X_U1.N3108949)    2.7771             (X_U1.N3109015)    2.7771                 
+
+(X_U1.N3116457)    2.7771             (X_U1.N3116503)  237.8300                 
+
+(X_U1.N3116515)  125.5200             (X_U1.N3116609)  237.8200                 
+
+(X_U1.N3116619)   90.1350             (X_U1.N3116655)  237.7900                 
+
+(X_U1.N3116665)    2.6788             (X_U1.N3116675)  237.8200                 
+
+(X_U1.N3116685)  237.8200             (X_U1.N3116957)  237.7900                 
+
+(X_U1.N3117239)  237.8200             (X_U1.N3126023)    3.6481                 
+
+(X_U1.N3128929)     .1283             (X_U1.N3130349)    2.5000                 
+
+(X_U1.N3130359)    2.5024             (X_U1.N3202117)  237.8200                 
+
+(X_U1.N3202127)  237.8200             (X_U1.N3202213)  237.8200                 
+
+(X_U1.N3204124)  237.8200             (X_U1.N3204134)  237.8200                 
+
+(X_U1.N3204220)  237.8200             (X_U1.N3205032)  237.8200                 
+
+(X_U1.N3205042)  237.8200             (X_U1.N3205128)  237.8200                 
+
+(X_U1.N3205956)  237.8200             (X_U1.N3205966)  237.8200                 
+
+(X_U1.N3206052)  237.8200             (X_U1.N3206890)  237.8200                 
+
+(X_U1.N3206900)  237.8200             (X_U1.N3206986)  237.8200                 
+
+(X_U1.N3208573)  237.8200             (X_U1.N3208669)  237.8200                 
+
+(X_U1.N3236810)    2.5000             (X_U1.N3236820)    2.5000                 
+
+(X_U47.N110431)   -3.3781             (X_U47.N112292)     .0367                 
+
+(X_U47.N317950) 116.2E-06             (X_U47.N406634)    5.0000                 
+
+(X_U47.N406794)-983.7E-12             (X_U47.N851530)   -3.2463                 
+
+(X_U47.N851538)     .0367             (X_U47.N886982) 178.8E-06                 
+
+(X_U47.N964475)    -.0982             (X_U47.N964485)    -.0364                 
+
+(X_U47.VCC_CLP)    4.1723             (X_U47.VEE_CLP)    1.0662                 
+
+(X_U47.X_E_N.3)    0.0000             (X_U47.X_E_N.4)    0.0000                 
+
+(X_U47.X_E_N.5)    0.0000             (X_U47.X_E_N.6)    0.0000                 
+
+(X_U47.X_E_N.7)     .8338             (X_U47.X_E_N.8)     .8338                 
+
+(X_U1.N32898091)  237.8200            (X_U47.CL_CLAMP) 178.8E-06                
+
+(X_U47.N1496926) 124.2E-06            (X_U47.N1496932)     .0195                
+
+(X_U47.N1497038)     .0013            (X_U47.N1499697) 315.3E-06                
+
+(X_U47.N1499703)     .0872            (X_U47.N1499813)     .0045                
+
+(X_U47.N1634353) 95.93E-06            (X_U47.N1634387) 116.2E-06                
+
+(X_U47.N1634433) 116.2E-06            (X_U47.N1634507) 116.2E-06                
+
+(X_U47.N1634795) 116.2E-06            (X_U47.N1634799) 116.2E-06                
+
+(X_U47.N1634845) 116.2E-06            (X_U47.N1634951) 116.2E-06                
+
+(X_U47.N1635005) 116.2E-06            (X_U47.N1635213) 116.2E-06                
+
+(X_U47.N1635235) 116.2E-06            (X_U47.N1643637)    -.0364                
+
+(X_U47.N1643649)    -.0364            (X_U47.N1643659)    -.0364                
+
+(X_U47.N1643803)    -.0364            (X_U47.N1643825)    -.0364                
+
+(X_U47.N1643851)    -.0364            (X_U47.N1671002) 178.8E-06                
+
+(X_U47.X_I_NN.3)    0.0000            (X_U47.X_I_NN.4)    0.0000                
+
+(X_U47.X_I_NN.5)    0.0000            (X_U47.X_I_NN.6)    0.0000                
+
+(X_U47.X_I_NN.7)     .8338            (X_U47.X_I_NN.8)     .8338                
+
+(X_U47.X_I_NP.3)    0.0000            (X_U47.X_I_NP.4)    0.0000                
+
+(X_U47.X_I_NP.5)    0.0000            (X_U47.X_I_NP.6)    0.0000                
+
+(X_U47.X_I_NP.7)     .8338            (X_U47.X_I_NP.8)     .8338                
+
+(X_U1.CLAW_CLAMP)    2.7771           (X_U47.N16709581) 178.8E-06               
+
+(X_U1.SW_OL_OPAx277)    2.5000        
+
+
+  These voltages failed to converge:
+
+    V(N1095124)               =     3.150V  \     1.726V
+    V(N1095414)               =     3.149V  \     1.760V
+    V(N1095170)               =     3.201V  \    36.67mV
+    V(X_U1.N3116503)          =    -1.032V  \    237.83V
+    V(X_U1.N3116515)          =   653.54mV  \    125.52V
+    V(X_U1.N2987363)          =     2.742V  \     2.777V
+    V(X_U1.N2987427)          =     4.011V  \     3.968V
+    V(X_U1.VIMON)             =     2.410V  \     5.892V
+    V(X_U1.CLAMP)             =     2.742V  \     2.777V
+    V(X_U1.N32898091)         =    -1.032V  \    237.82V
+    V(X_U1.N3116655)          =    -1.032V  \    237.79V
+    V(X_U1.N3116665)          =     2.497V  \     2.679V
+    V(X_U1.N3108745)          =     3.105V  \     3.192V
+    V(X_U1.N3108755)          =     2.742V  \     2.777V
+    V(X_U1.N3108917)          =     2.742V  \     2.777V
+    V(X_U1.N3108949)          =     2.742V  \     2.777V
+    V(X_U1.N3109015)          =     2.742V  \     2.777V
+    V(X_U1.VCLP)              =     2.742V  \     2.777V
+    V(X_U1.N3116609)          =    -1.032V  \    237.82V
+    V(X_U1.N3116619)          =     1.185V  \     90.14V
+    V(X_U1.N3108879)          =     2.742V  \     2.777V
+    V(X_U1.N3202213)          =    -1.032V  \    237.82V
+    V(X_U1.N3204220)          =    -1.032V  \    237.82V
+    V(X_U1.N3205128)          =    -1.032V  \    237.82V
+    V(X_U1.N3206052)          =    -1.032V  \    237.82V
+    V(X_U1.N3206986)          =    -1.032V  \    237.82V
+    V(X_U1.N3208669)          =    -1.032V  \    237.82V
+    V(X_U1.N3116457)          =     2.742V  \     2.777V
+    V(X_U1.CL_CLAMP)          =     2.742V  \     2.777V
+    V(X_U1.CLAW_CLAMP)        =     2.742V  \     2.777V
+    V(X_U1.VCC_CLP)           =     4.011V  \     3.968V
+    V(X_U1.N2987687)          =   742.13mV  \   777.05mV
+    V(X_U1.N2987683)          =   742.13mV  \   777.05mV
+    V(X_U1.N2987711)          =     4.712V  \     4.747V
+    V(X_U1.N2987719)          =     4.712V  \     4.747V
+    V(X_U1.N3116675)          =    -1.032V  \    237.82V
+    V(X_U1.VSENSE)            =     2.742V  \     2.777V
+    V(X_U1.N3202117)          =    -1.032V  \    237.82V
+    V(X_U1.N3116685)          =    -1.032V  \    237.82V
+    V(X_U1.N3204124)          =    -1.032V  \    237.82V
+    V(X_U1.N3202127)          =    -1.032V  \    237.82V
+    V(X_U1.N3205032)          =    -1.032V  \    237.82V
+    V(X_U1.N3204134)          =    -1.032V  \    237.82V
+    V(X_U1.N3205956)          =    -1.032V  \    237.82V
+    V(X_U1.N3205042)          =    -1.032V  \    237.82V
+    V(X_U1.N3206890)          =    -1.032V  \    237.82V
+    V(X_U1.N3205966)          =    -1.032V  \    237.82V
+    V(X_U1.N3208573)          =    -1.032V  \    237.82V
+    V(X_U1.N3206900)          =    -1.032V  \    237.82V
+    V(X_U1.N3117239)          =    -1.032V  \    237.82V
+    V(X_U1.N3116957)          =    -1.031V  \    237.79V
+    V(X_U1.N2987391)          =     4.011V  \     3.968V
+    V(X_U1.N2987541)          =     2.410V  \     5.892V
+    V(X_U47.MID)              =     2.500V  \   116.17uV
+    V(X_U47.N45892)           =     2.500V  \   116.17uV
+    V(X_U47.N45974)           =     2.500V  \   116.17uV
+    V(X_U47.N1634353)         =     2.065V  \    95.93uV
+    V(X_U47.N1634387)         =     2.500V  \   116.16uV
+    V(X_U47.N1497038)         =     2.500V  \    1.266mV
+    V(X_U47.CMRR)             =     2.500V  \   124.22uV
+    V(X_U47.N1499813)         =     2.502V  \    4.539mV
+    V(X_U47.PSRP)             =     2.500V  \   315.21uV
+    V(X_U47.N1499703)         =     2.544V  \    87.21mV
+    V(X_U47.N1499697)         =     2.500V  \   315.25uV
+    V(X_U47.N1496932)         =     2.502V  \    19.49mV
+    V(X_U47.N1496926)         =     2.500V  \   124.22uV
+    V(X_U47.N964475)          =     2.737V  \   -98.18mV
+    V(X_U47.N964485)          =     2.588V  \   -36.37mV
+    V(X_U47.N1643659)         =     2.588V  \   -36.37mV
+    V(X_U47.N1643851)         =     2.588V  \   -36.37mV
+    V(X_U47.N16709581)        =     3.289V  \   178.82uV
+    V(X_U47.N1634433)         =     2.500V  \   116.16uV
+    V(X_U47.N1634507)         =     2.500V  \   116.17uV
+    V(X_U47.N1634951)         =     2.500V  \   116.16uV
+    V(X_U47.N1635005)         =     2.500V  \   116.17uV
+    V(X_U47.N1634799)         =     2.500V  \   116.16uV
+    V(X_U47.N1635213)         =     2.500V  \   116.16uV
+    V(X_U47.N317950)          =     2.500V  \   116.17uV
+    V(X_U47.N406794)          =    2.504uV  \  -983.65pV
+    V(X_U47.CLAMP)            =     3.289V  \   178.82uV
+    V(X_U47.N38096)           =     1.037V  \     1.066V
+    V(X_U47.ESDN)             =     3.149V  \     1.760V
+    V(X_U47.VIMON)            =     2.602V  \    -3.378V
+    V(X_U47.VOUT_S)           =     3.201V  \    36.67mV
+    V(X_U47.N112292)          =     3.201V  \    36.67mV
+    V(X_U47.VEE_B)            =    2.501uV  \  -983.77pV
+    V(X_U47.N1643803)         =     2.588V  \   -36.37mV
+    V(X_U47.N1643637)         =     2.588V  \   -36.37mV
+    V(X_U47.N1643825)         =     2.588V  \   -36.37mV
+    V(X_U47.VSENSE)           =     3.289V  \   178.82uV
+    V(X_U47.CL_CLAMP)         =     3.289V  \   178.82uV
+    V(X_U47.N886982)          =     3.289V  \   178.82uV
+    V(X_U47.N1635235)         =     2.500V  \   116.16uV
+    V(X_U47.N1634795)         =     2.500V  \   116.16uV
+    V(X_U47.PSRM)             =     2.500V  \   116.16uV
+    V(X_U47.N851538)          =     3.201V  \    36.67mV
+    V(X_U47.N1634845)         =     2.500V  \   116.16uV
+    V(X_U47.VEE_CLP)          =     1.037V  \     1.066V
+    V(X_U47.N1671002)         =     3.289V  \   178.82uV
+    V(X_U47.N11991)           =     3.149V  \     1.760V
+    V(X_U47.N851530)          =     10.32V  \    -3.246V
+    V(X_U47.N1643649)         =     2.588V  \   -36.37mV
+    V(X_U47.N38050)           =     1.037V  \     1.066V
+    V(X_U47.N50645)           =    107.50V  \    105.00V
+    V(X_U47.N45856)           =     2.500V  \   116.17uV
+    V(X_U47.N45986)           =     2.500V  \   116.17uV
+    V(X_U47.N48550)           =   -102.50V  \   -105.00V
+    V(X_U47.AOLNET)           =    -38.10V  \     98.32V
+    V(X_U47.N110431)          =     2.602V  \    -3.378V
+    V(X_U1.N2987675)          =     4.712V  \     4.747V
+    V(X_U1.N2987655)          =   742.13mV  \   777.05mV
+
+  These supply currents failed to converge:
+
+    I(X_U1.E_E1)              =   592.99pA  \   509.32pA
+    I(X_U47.E_E3)             =  -701.06pA  \   -36.55pA
+    I(X_U47.E_E6)             =    24.29uA  \    25.86uA
+    I(V_V1)                   =   -17.90mA  \   -21.38mA
+    I(X_U47.V_VCM_MAX)        =   -2.100nA  \   -4.600nA
+    I(X_U47.V_VCM_MIN)        =    1.400nA  \   -1.100nA
+    I(X_U1.X_H1.VH_H1)        =   -90.41uA  \    3.392mA
+    I(X_U47.X_H3.VH_H3)       =  -102.44uA  \    3.378mA
+    I(X_U1.X_H1.H_H1)         =    90.41fA  \   -3.392pA
+    I(X_U47.X_H3.H_H3)        =  -102.44pA  \    3.378nA
+
+  These devices failed to converge:
+    X_U1.X_U18.G1 X_U1.X_U19.G1 X_U1.X_U26.G1 X_U1.X_U27.G1 X_U47.X_AOL_2.G1 
+    X_U47.X_CLAWP.G1 X_U47.X_IQ_N.G1 X_U47.X_IQ_P.G1 
+
+**** Interrupt ****

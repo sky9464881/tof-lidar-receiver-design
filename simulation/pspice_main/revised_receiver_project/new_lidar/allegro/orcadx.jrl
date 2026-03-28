@@ -1,0 +1,118 @@
+\t (00:00:11) orcadx 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:11)     Journal start - Thu Apr  3 03:57:02 2025
+\t (00:00:11)         Host=BOOK-QTRCVV9COM User=user Pid=21384 CPUs=12
+\t (00:00:11) CmdLine= C:\Cadence\OrCADX_24.1\tools\bin\unison.exe -layout -orcadx -mpssession user -proj c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\new_lidar\new_lidar\new_lidar.opj C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/new_lidar/new_lidar/allegro/new_lidar.brd
+\t (00:00:11) 
+\d (00:00:11) Design opened: C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/new_lidar/new_lidar/allegro/new_lidar.brd
+\i (00:00:11) trapsize 6155
+\i (00:00:13) trapsize 7859
+\t (00:00:19) Loading consmgr.cxt 
+\t (00:00:19) Loading acns_formula.cxt 
+\i (00:00:19) trapsize 7848
+\i (00:00:19) trapsize 7997
+\t (00:00:21) nayunwoo159@kw.ac.kr user logged in.
+
+\i (00:00:21) trapsize 6888
+\i (00:00:22) updateport VisibilityPane
+\i (00:00:22) updateport PropPane
+\i (00:00:22) ucpedit 
+\i (00:00:22) updateport VisibilityPane
+\i (00:00:25) design sync eco 
+\t (00:00:25) > Requesting Capture to open design
+\t (00:00:25) > Response received OpenDesign is done by remote tool
+\t (00:00:25) Design opened successfully
+\t (00:00:25) > Requesting Capture to generate logical netlist
+\t (00:00:25) > Requesting Capture to open design
+\t (00:00:26) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:00:26) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\new_lidar\new_lidar\allegro
+\t (00:00:26) > Requesting Capture to generate logical netlist
+\t (00:00:26) > Response received OpenDesign is done by remote tool
+\t (00:00:26) Design opened successfully
+\t (00:00:26) > Generating Physical Netlist
+\t (00:00:26) Starting genfeedformat...
+\t (00:00:26) > Generating Physical Netlist successful
+\t (00:00:26) > Generating Differences
+\t (00:00:26) > Generating Differences successful
+\t (00:00:26) > Displaying differences output
+\t (00:00:26) > Displaying differences output successful
+\t (00:00:26) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:00:26) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\new_lidar\new_lidar\allegro
+\i (00:00:26) updateport ReportsPane
+\i (00:00:26) updateport SearchPane
+\i (00:00:26) updateport PropPane
+\i (00:00:30) QtSignal DesignSyncDialog sync_button clicked
+\t (00:00:30) > Sending response DoneOpenBoard
+\t (00:00:30) Starting Cadence Logic Import...
+\w (00:00:31) WARNING(SPMHGE-795): netrev had warnings.
+\t (00:00:31) Opening existing design...
+\i (00:00:32) trapsize 6888
+\w (00:00:32) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:32) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:00:32) Placed 14 of 80 symbols.
+\i (00:00:32) QtSignal DesignSyncDialog sch_comboBox EditingFinished "C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/new_lidar/new_lidar/new_lidar.opj"
+\i (00:00:32) QtSignal MainCanvas DesignSyncDialog closed
+\i (00:00:32) updateport ReportsPane
+\i (00:00:32) updateport SearchPane
+\i (00:00:32) updateport VisibilityPane
+\i (00:00:32) updateport PropPane
+\i (00:00:32) ucpedit 
+\i (00:00:32) updateport VisibilityPane
+\i (00:01:01) setwindow text
+\i (00:01:01) close
+\i (00:01:04) setwindow pcb
+\i (00:01:04) design sync eco 
+\t (00:01:04) > Requesting Capture to open design
+\t (00:01:04) > Requesting Capture to open design
+\t (00:01:05) > Response received OpenDesign is done by remote tool
+\t (00:01:05) Design opened successfully
+\t (00:01:05) > Requesting Capture to generate logical netlist
+\t (00:01:05) > Response received OpenDesign is done by remote tool
+\t (00:01:05) Design opened successfully
+\t (00:01:05) > Generating Physical Netlist
+\t (00:01:05) Starting genfeedformat...
+\t (00:01:05) > Generating Physical Netlist successful
+\t (00:01:05) > Generating Differences
+\t (00:01:05) > Generating Differences successful
+\t (00:01:05) > Displaying differences output
+\t (00:01:05) > Displaying differences output successful
+\t (00:01:05) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:01:05) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\new_lidar\new_lidar\allegro
+\i (00:01:05) updateport ReportsPane
+\i (00:01:05) updateport SearchPane
+\i (00:01:05) updateport PropPane
+\i (00:01:11) QtSignal MainCanvas DesignSyncDialog closed
+\i (00:01:11) ucpedit 
+\i (00:01:11) updateport VisibilityPane
+\i (00:01:35) design sync eco 
+\t (00:01:35) > Requesting Capture to open design
+\t (00:01:35) > Response received OpenDesign is done by remote tool
+\t (00:01:35) Design opened successfully
+\t (00:01:35) > Requesting Capture to generate logical netlist
+\t (00:01:35) > Requesting Capture to open design
+\t (00:01:36) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:01:36) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\new_lidar\new_lidar\allegro
+\t (00:01:36) > Requesting Capture to generate logical netlist
+\t (00:01:36) > Response received OpenDesign is done by remote tool
+\t (00:01:36) Design opened successfully
+\t (00:01:36) > Generating Physical Netlist
+\t (00:01:36) Starting genfeedformat...
+\t (00:01:36) > Generating Physical Netlist successful
+\t (00:01:36) > Generating Differences
+\t (00:01:36) > Generating Differences successful
+\t (00:01:36) > Displaying differences output
+\t (00:01:36) > Displaying differences output successful
+\t (00:01:36) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:01:36) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\new_lidar\new_lidar\allegro
+\i (00:01:36) updateport ReportsPane
+\i (00:01:36) updateport SearchPane
+\i (00:01:36) updateport PropPane
+\i (00:01:45) QtSignal MainCanvas DesignSyncDialog closed
+\i (00:01:45) ucpedit 
+\i (00:01:45) updateport VisibilityPane
+\i (00:03:01) QtSignal MainCanvas CplGrpSel closed
+\i (00:03:01) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:03:01) QtSignal MainCanvas CplPrefDialog closed
+\i (00:03:01) QtSignal MainCanvas ImpPrefDialog closed
+\i (00:03:01) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:03:01) QtSignal MainCanvas ImpGrpSel closed
+\t (00:03:07)     Journal end - Thu Apr  3 03:59:58 2025

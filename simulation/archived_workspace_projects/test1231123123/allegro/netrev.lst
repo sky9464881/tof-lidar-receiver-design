@@ -1,0 +1,154 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : test1231123123.brd                            )
+(    Software Version : 24.1S003                                      )
+(    Date/Time        : Wed Apr  2 21:31:29 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         '.'
+Design Directory:            'C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/test1231123123/allegro'
+Old design name:             'C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/test1231123123/allegro/test1231123123.brd'
+New design name:             'C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/test1231123123/allegro/test1231123123.brd'
+
+CmdLine: netrev -y 1 -q netrev_constraint_report.xml C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/test1231123123/allegro/#Taaaaau02848.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read ./pstchip.dat 
+   Finished reading ./pstchip.dat (00:00:00.02)
+Starting to read ./pstxprt.dat 
+   Finished reading ./pstxprt.dat (00:00:00.00)
+Starting to read ./pstxnet.dat 
+   Finished reading ./pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'CAPC1005X70N' used by RefDes C11(0.7PF) for device 'GRM1555C1HR70WA01D_CAPC1005X70N_GRM1555C1HR70WA01D' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or u
+
+#2   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SMC2012' used by RefDes C245 for device 'CAP_2012_SMC2012_47UF' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbols.
+
+#3   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'T491A' used by RefDes C246(10UF) for device 'T491A106K016AT_T491A_T491A106K016AT' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate
+
+#4   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'HEADER4' used by RefDes JP1 for device '4 HEADER_0_HEADER4_4 HEADER' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbols.
+
+#5   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'ST5EW' used by RefDes R136 for device 'RESISTOR VAR_0_ST5EW_5K' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbols.
+
+#6   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SMR1005' used by RefDes R137 for device 'R_3216_SMR1005_10' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbols.
+
+#7   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'RESC1508X63N' used by RefDes R23(50OHM) for device 'P0603E50R0BBT_RESC1508X63N_P0603E50R0BBT' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdocto
+
+#8   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'R12_150' used by RefDes U74 for device 'R12_4_R12_150_R12_150B' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old symbols.
+
+------ Library Paths ------
+MODULEPATH =  . 
+           c:/cadence/orcadx_24.1/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/OrCADX_24.1/share/orApps/OrCaptureApp/../../../share/local/pcb/symbols 
+           C:/Cadence/OrCADX_24.1/share/orApps/OrCaptureApp/../../../share/pcb/pcb_lib/symbols 
+           C:/Cadence/OrCADX_24.1/share/orApps/OrCaptureApp/../../../share/pcb/allegrolib/symbols 
+           C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/OrCAD_Capture/24.1.0/downloaded_parts/allegropcb 
+           C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/libraries/footprints 
+           C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/libraries/footprints/downloads 
+           C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/OrCADX_24.1/share/orApps/OrCaptureApp/../../../share/local/pcb/padstacks 
+           C:/Cadence/OrCADX_24.1/share/orApps/OrCaptureApp/../../../share/pcb/pcb_lib/symbols 
+           C:/Cadence/OrCADX_24.1/share/orApps/OrCaptureApp/../../../share/pcb/allegrolib/symbols 
+           C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/OrCAD_Capture/24.1.0/downloaded_parts/allegropcb 
+           C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/libraries/footprints 
+           C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/libraries/footprints/downloads 
+           C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Apr 2 21:31:29 2025
+   DESIGN NAME : 'TEST1231123123'
+   PACKAGING ON Mar  6 2025 10:16:32
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+  8 warnings detected
+
+cpu time      0:00:32
+elapsed time  0:00:00
+

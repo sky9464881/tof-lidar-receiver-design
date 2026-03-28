@@ -1,0 +1,2068 @@
+* PSpice Model Editor - Version 16.6.0
+*$
+*b Device model created by analog_uprev for 4n26 on Sat Mar 24 12:59:26 IST 2001
+* updated using Model Editor release 16.6.0 on 05/29/14 at 15:00
+.subckt awbHCPL_M453 AN CAT C B E 
++ params:
++ CJO=60p
++ VJ=0.67
++ MJ=0.45
++ BV=5
++ ISD=6.682E-14
++ ND=2
++ XTI=20
++ IR=10u
++ VR=5
++ RSD=10
++ CIO=0.6p
++ CC1=4m
++ CC2=-4m
++ IST=9.72f
++ BF=64
++ NF=1.15
++ IKF=0.05
++ ISE=1f
++ NE=1.5
++ ISC=5p
++ NC=5
++ RC=0.1
++ CJC=0.25p
++ VJC=1
++ MJC=0.57
++ XTB=3
++ TF=2.6170n
++ TR=15.3526u
++ CJE=1.62p
++ VJE=0.8
++ MJE=0.2
++ VAF=100
++ RE=10m
+XinstawbHCPL_M453 AN CAT C B E  model681
++ params: 
++ cjo={CJO}
++ vj={VJ}
++ mj={MJ}
++ bv={BV}
++ isd={ISD}
++ nd={ND}
++ xti={XTI}
++ ir={IR}
++ vr={VR}
++ rsd={RSD}
++ cio={CIO}
++ cc1={CC1}
++ cc2={CC2}
++ ist={IST}
++ bf={BF}
++ nf={NF}
++ ikf={IKF}
++ ise={ISE}
++ ne={NE}
++ isc={ISC}
++ nc={NC}
++ rc={RC}
++ cjc={CJC}
++ vjc={VJC}
++ mjc={MJC}
++ xtb={XTB}
++ tf={TF}
++ tr={TR}
++ cje={CJE}
++ vje={VJE}
++ mje={MJE}
++ vaf={VAF}
++ re={RE}
+.ends awbHCPL_M453
+*
+*
+*$
+*b Device model created by analog_uprev for 4n26 on Sat Mar 24 12:59:26 IST 2001
+* updated using Model Editor release 16.6.0 on 05/29/14 at 13:52
+.subckt awbps8101 AN CAT C B E 
++ params:
++ CJO=30p
++ VJ=0.67
++ MJ=0.45
++ BV=5
++ ISD=4.682E-17
++ ND=2
++ XTI=24
++ IR=12u
++ VR=6
++ RSD=18
++ CIO=0.6p
++ CC1=4m
++ CC2=-4m
++ IST=9.72f
++ BF=70
++ NF=1.15
++ IKF=0.05
++ ISE=1f
++ NE=1.5
++ ISC=5p
++ NC=5
++ RC=0.1
++ CJC=1.4p
++ VJC=1
++ MJC=0.57
++ XTB=3
++ TF=6.270n
++ TR=8.026u
++ CJE=1.62p
++ VJE=0.8
++ MJE=0.2
++ VAF=100
++ RE=10m
+Xinstawbps8101 AN CAT C B E  model681
++ params: 
++ cjo={CJO}
++ vj={VJ}
++ mj={MJ}
++ bv={BV}
++ isd={ISD}
++ nd={ND}
++ xti={XTI}
++ ir={IR}
++ vr={VR}
++ rsd={RSD}
++ cio={CIO}
++ cc1={CC1}
++ cc2={CC2}
++ ist={IST}
++ bf={BF}
++ nf={NF}
++ ikf={IKF}
++ ise={ISE}
++ ne={NE}
++ isc={ISC}
++ nc={NC}
++ rc={RC}
++ cjc={CJC}
++ vjc={VJC}
++ mjc={MJC}
++ xtb={XTB}
++ tf={TF}
++ tr={TR}
++ cje={CJE}
++ vje={VJE}
++ mje={MJE}
++ vaf={VAF}
++ re={RE}
+.ends awbps8101
+*
+*
+*$
+*b Device model created by analog_uprev for 4n26 on Sat Mar 24 12:59:26 IST 2001
+* updated using Model Editor release 16.6.0 on 05/29/14 at 12:16
+.subckt awbpc457 AN CAT C B E 
++ params:
++ CJO=100p
++ VJ=0.67
++ MJ=0.45
++ BV=5
++ ISD=4.682E-17
++ ND=2
++ XTI=20
++ IR=10u
++ VR=5
++ RSD=22
++ CIO=0.6p
++ CC1=4m
++ CC2=-4m
++ IST=9.72f
++ BF=70
++ NF=1.15
++ IKF=0.05
++ ISE=1f
++ NE=1.5
++ ISC=5p
++ NC=5
++ RC=0.1
++ CJC=0.25p
++ VJC=1
++ MJC=0.57
++ XTB=3
++ TF=2.6170n
++ TR=8.3526u
++ CJE=1.62p
++ VJE=0.8
++ MJE=0.2
++ VAF=100
++ RE=10m
+Xinstawbpc457 AN CAT C B E  model681
++ params: 
++ cjo={CJO}
++ vj={VJ}
++ mj={MJ}
++ bv={BV}
++ isd={ISD}
++ nd={ND}
++ xti={XTI}
++ ir={IR}
++ vr={VR}
++ rsd={RSD}
++ cio={CIO}
++ cc1={CC1}
++ cc2={CC2}
++ ist={IST}
++ bf={BF}
++ nf={NF}
++ ikf={IKF}
++ ise={ISE}
++ ne={NE}
++ isc={ISC}
++ nc={NC}
++ rc={RC}
++ cjc={CJC}
++ vjc={VJC}
++ mjc={MJC}
++ xtb={XTB}
++ tf={TF}
++ tr={TR}
++ cje={CJE}
++ vje={VJE}
++ mje={MJE}
++ vaf={VAF}
++ re={RE}
+.ends awbpc457
+*
+*
+*$
+*a Device model created by analog_uprev for 3c91 on Sat Mar 24 12:59:26 IST 2001
+.subckt awb3c91   5 3 2 6
+QQ8 6 1 2  M1MQ13C9X
+.MODEL M1MQ13C9X NPN TR=10.000000N VJC=700.000000M NC=2 VJE=
++ 900.000000M NE=2 IKR=0 NF=1 BR=362.000000M CJC=21.380000P RC=
++ 10 VAR=0 CJE=29.830000P XCJC=1 TF=6.930000N XTB=1.5 IS=100.000000F
++ IKF=300.000000MEG MJC=333.000000M BF=100 NR=1 MJE=500.000000M VAF=
++ 98 IRB=0 ISC=1N ISE=0
+GI7 2 1 POLY(2) 4 3 7 3 0 0 0 0 3.000000
+RR4 4 3 1.0M
+II1 3 7 1M
+RR5 3 7 1K TC=-6.800000M 8.000000U
+DD6 5 4 M2MD13C9X
+.MODEL M2MD13C9X D IS=181.177710F CJO=31.224990P VJ=900.000000M M=
++ 500.000000M N=1.81234 RS=834.682700M BV=14 IBV=1
+* SPECTRE: + IMAX=1000
+CC5 1 5 6.000000P TC=0
+CC4 2 3 3.000000P TC=0
+RR3 3 2 10.000000G TC=0 0
+RR2 5 1 10.000000G TC=0 0
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for 3c92 on Sat Mar 24 12:59:26 IST 2001
+.subckt awb3c92   5 3 2 6
+QQ8 6 1 2  M1MQ13C9X
+.MODEL M1MQ13C9X NPN TR=10.000000N VJC=700.000000M NC=2 VJE=
++ 900.000000M NE=2 IKR=0 NF=1 BR=362.000000M RB=0 CJC=21.380000P RC=
++ 10 VAR=0 CJE=29.830000P XCJC=1 TF=6.930000N XTB=1.5 IS=100.000000F
++ IKF=300.000000MEG MJC=333.000000M BF=100 NR=1 MJE=500.000000M VAF=
++ 98 IRB=0 ISC=1N ISE=0 RBM=0
+GI7 2 1 POLY(2) 4 3 7 3 0 0 0 0 3.000000
+RR4 4 3 1.0M
+II1 3 7 1M
+RR5 3 7 1K TC=-6.800000M 8.000000U
+DD6 5 4 M2MD13C9X
+.MODEL M2MD13C9X D IS=181.177710F CJO=31.224990P VJ=900.000000M M=
++ 500.000000M N=1.81234 RS=834.682700M BV=14 IBV=1
+* SPECTRE: + IMAX=1000
+CC5 1 5 6.000000P TC=0
+CC4 2 3 3.000000P TC=0
+RR3 3 2 10.000000G TC=0 0
+RR2 5 1 10.000000G TC=0 0
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for 4n24 on Sat Mar 24 12:59:26 IST 2001
+.subckt awb4n24   4 6 3 1 7
+VV5 4 2 300.000000M
+QQ1 3 1 7  M1M4N24NPN
+.MODEL M1M4N24NPN NPN BF=600 VAF=100 IKF=5 ISE=3.000000F BR=1 NR=
++ 850.000000M ISC=200.000000P RB=100 CJE=2.200000P TF=6.000000N CJC=
++ 5.200000P TR=500.000000N
+RR1 7 3 1.000000G TC=0 0
+RR2 7 1 100.000000MEG TC=0 0
+FI1 7 1 POLY(2) VIC2 VIC2 0 3.448280M 0 0 0 0 0 0 0 0
+VIC2 2 5 0.0
+DD2 5 6 M2M4N24D
+.MODEL M2M4N24D D IS=1E-16 RS=0 N=1 TT=5.000000N CJO=18.800000P VJ=1
++ M=370.000000M EG=1.43
+* SPECTRE: + IMAX=1000
+RR5 5 6 10.000000G TC=0 0
+.ends
+*
+*
+*$
+*b Device model created by analog_uprev for 4n25 on Sat Mar 24 12:59:26 IST 2001
+.subckt awb4n25   1 4 3 2 5
++ params:
++ ISD=7f
++ RSD=2
++ ND=1.575
++ XTI=20
++ IR=80u
++ VR=3
++ BV=3
++ CJO=18.5p
++ VJ=0.54
++ MJ=0.26772
++ CIO=0.2p
++ CC1=4m
++ CC2=-4m
++ IST=9.72f
++ BF=600
++ NF=1.15
++ VAF=100
++ IKF=0.05
++ ISE=1f
++ NE=1.5
++ ISC=5p
++ NC=5
++ RE=0
++ RC=0.1
++ XTB=3
++ CJE=9p
++ VJE=0.8
++ MJE=0.2
++ CJC=19p
++ VJC=1
++ MJC=0.57
++ TF=0.9n
++ TR=1u
+xinst4n25   1 4 3 2 5 model680     params:   isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  xti={XTI}
++  ir={IR}
++  vr={VR}
++  bv={BV}
++  cjo={CJO}
++  vj={VJ}
++  mj={MJ}
++  cio={CIO}
++  cc1={CC1}
++  cc2={CC2}
++  ist={IST}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  isc={ISC}
++  nc={NC}
++  re={RE}
++  rc={RC}
++  xtb={XTB}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  tf={TF}
++  tr={TR}
++ 
+.ends  awb4n25
+*
+*
+*$
+*b Device model created by analog_uprev for 4n26 on Sat Mar 24 12:59:26 IST 2001
+.subckt awb4n26   1 4 3 2 5
++ params:
++ ISD=7f
++ RSD=2
++ ND=1.575
++ XTI=20
++ IR=80u
++ VR=3
++ BV=3
++ CJO=18.5p
++ VJ=0.54
++ MJ=0.26772
++ CIO=0.2p
++ CC1=4m
++ CC2=-4m
++ IST=9.72f
++ BF=600
++ NF=1.15
++ VAF=100
++ IKF=0.05
++ ISE=1f
++ NE=1.5
++ ISC=5p
++ NC=5
++ RE=0
++ RC=0.1
++ XTB=3
++ CJE=9p
++ VJE=0.8
++ MJE=0.2
++ CJC=19p
++ VJC=1
++ MJC=0.57
++ TF=0.9n
++ TR=1u
+xinst4n26   1 4 3 2 5 model680     params:   isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  xti={XTI}
++  ir={IR}
++  vr={VR}
++  bv={BV}
++  cjo={CJO}
++  vj={VJ}
++  mj={MJ}
++  cio={CIO}
++  cc1={CC1}
++  cc2={CC2}
++  ist={IST}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  isc={ISC}
++  nc={NC}
++  re={RE}
++  rc={RC}
++  xtb={XTB}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  tf={TF}
++  tr={TR}
++ 
+.ends  awb4n26
+*
+*
+*$
+*b Device model created by analog_uprev for 4n27 on Sat Mar 24 12:59:26 IST 2001
+.subckt awb4n27   1 4 3 2 5
++ params:
++ ISD=7f
++ RSD=2
++ ND=1.575
++ XTI=20
++ IR=80u
++ VR=3
++ BV=3
++ CJO=18.5p
++ VJ=0.54
++ MJ=0.26772
++ CIO=0.2p
++ CC1=4m
++ CC2=-4m
++ IST=9.72f
++ BF=600
++ NF=1.15
++ VAF=100
++ IKF=0.05
++ ISE=1f
++ NE=1.5
++ ISC=5p
++ NC=5
++ RE=0
++ RC=0.1
++ XTB=3
++ CJE=9p
++ VJE=0.8
++ MJE=0.2
++ CJC=19p
++ VJC=1
++ MJC=0.57
++ TF=0.9n
++ TR=1u
+xinst4n27   1 4 3 2 5 model680     params:   isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  xti={XTI}
++  ir={IR}
++  vr={VR}
++  bv={BV}
++  cjo={CJO}
++  vj={VJ}
++  mj={MJ}
++  cio={CIO}
++  cc1={CC1}
++  cc2={CC2}
++  ist={IST}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  isc={ISC}
++  nc={NC}
++  re={RE}
++  rc={RC}
++  xtb={XTB}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  tf={TF}
++  tr={TR}
++ 
+.ends  awb4n27
+*
+*
+*$
+*b Device model created by analog_uprev for 4n28 on Sat Mar 24 12:59:26 IST 2001
+.subckt awb4n28   1 4 3 2 5
++ params:
++ ISD=7f
++ RSD=2
++ ND=1.575
++ XTI=20
++ IR=80u
++ VR=3
++ BV=3
++ CJO=18.5p
++ VJ=0.54
++ MJ=0.26772
++ CIO=0.2p
++ CC1=4m
++ CC2=-4m
++ IST=9.72f
++ BF=600
++ NF=1.15
++ VAF=100
++ IKF=0.05
++ ISE=1f
++ NE=1.5
++ ISC=5p
++ NC=5
++ RE=0
++ RC=0.1
++ XTB=3
++ CJE=9p
++ VJE=0.8
++ MJE=0.2
++ CJC=19p
++ VJC=1
++ MJC=0.57
++ TF=0.9n
++ TR=1u
+xinst4n28   1 4 3 2 5 model680     params:   isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  xti={XTI}
++  ir={IR}
++  vr={VR}
++  bv={BV}
++  cjo={CJO}
++  vj={VJ}
++  mj={MJ}
++  cio={CIO}
++  cc1={CC1}
++  cc2={CC2}
++  ist={IST}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  isc={ISC}
++  nc={NC}
++  re={RE}
++  rc={RC}
++  xtb={XTB}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  tf={TF}
++  tr={TR}
++ 
+.ends  awb4n28
+*
+*
+*$
+*b Device model created by analog_uprev for 4n32 on Sat Mar 24 12:59:26 IST 2001
+.subckt awb4n32   1 4 3 2 5
++ params:
++ ISD=77f
++ RSD=2
++ ND=1.76
++ XTI=20
++ IR=0.05u
++ VR=3
++ BV=3
++ CJO=18p
++ VJ=1
++ MJ=0.5
++ CIO=0.2p
++ CC1=0.54m
++ CC2=160m
++ IST=20f
++ BF=20000
++ NF=1.05
++ VAF=70
++ IKF=0.06
++ ISE=0.2f
++ NE=1.4
++ ISC=10p
++ NC=0.51
++ RE=1
++ RC=8
++ XTB=3
++ CJE=5.5p
++ VJE=11.5
++ MJE=1.21
++ CJC=15.8p
++ VJC=0.25
++ MJC=0.31
++ TF=1n
++ TR=0.5u
+xinst4n32   1 4 3 2 5 model680     params:   isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  xti={XTI}
++  ir={IR}
++  vr={VR}
++  bv={BV}
++  cjo={CJO}
++  vj={VJ}
++  mj={MJ}
++  cio={CIO}
++  cc1={CC1}
++  cc2={CC2}
++  ist={IST}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  isc={ISC}
++  nc={NC}
++  re={RE}
++  rc={RC}
++  xtb={XTB}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  tf={TF}
++  tr={TR}
++ 
+.ends  awb4n32
+*
+*
+*$
+*b Device model created by analog_uprev for 4n35 on Sat Mar 24 12:59:26 IST 2001
+.subckt awb4n35   1 4 3 2 5
++ params:
++ ISD=7f
++ RSD=2
++ ND=1.55
++ XTI=20
++ IR=8u
++ VR=6
++ BV=6
++ CJO=18p
++ VJ=0.67
++ MJ=0.275171
++ CIO=0.2p
++ CC1=0.7m
++ CC2=1.08
++ IST=20f
++ BF=600
++ NF=1.15
++ VAF=200
++ IKF=0.0305
++ ISE=0.2f
++ NE=1.28
++ ISC=0.1p
++ NC=6
++ RE=0
++ RC=0.05
++ XTB=3
++ CJE=9p
++ VJE=0.8
++ MJE=0.2
++ CJC=19p
++ VJC=1
++ MJC=0.57
++ TF=0.9n
++ TR=1u
+xinst4n35   1 4 3 2 5 model680     params:   isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  xti={XTI}
++  ir={IR}
++  vr={VR}
++  bv={BV}
++  cjo={CJO}
++  vj={VJ}
++  mj={MJ}
++  cio={CIO}
++  cc1={CC1}
++  cc2={CC2}
++  ist={IST}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  isc={ISC}
++  nc={NC}
++  re={RE}
++  rc={RC}
++  xtb={XTB}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  tf={TF}
++  tr={TR}
++ 
+.ends  awb4n35
+*
+*
+*$
+*b Device model created by analog_uprev for 4n36 on Sat Mar 24 12:59:26 IST 2001
+.subckt awb4n36   1 4 3 2 5
++ params:
++ ISD=7f
++ RSD=2
++ ND=1.55
++ XTI=20
++ IR=8u
++ VR=6
++ BV=6
++ CJO=18p
++ VJ=0.67
++ MJ=0.275171
++ CIO=0.2p
++ CC1=0.7m
++ CC2=1.08
++ IST=20f
++ BF=600
++ NF=1.15
++ VAF=200
++ IKF=0.0305
++ ISE=0.2f
++ NE=1.28
++ ISC=0.1p
++ NC=6
++ RE=0
++ RC=0.05
++ XTB=3
++ CJE=9p
++ VJE=0.8
++ MJE=0.2
++ CJC=19p
++ VJC=1
++ MJC=0.57
++ TF=0.9n
++ TR=1u
+xinst4n36   1 4 3 2 5 model680     params:   isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  xti={XTI}
++  ir={IR}
++  vr={VR}
++  bv={BV}
++  cjo={CJO}
++  vj={VJ}
++  mj={MJ}
++  cio={CIO}
++  cc1={CC1}
++  cc2={CC2}
++  ist={IST}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  isc={ISC}
++  nc={NC}
++  re={RE}
++  rc={RC}
++  xtb={XTB}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  tf={TF}
++  tr={TR}
++ 
+.ends  awb4n36
+*
+*
+*$
+*b Device model created by analog_uprev for 4n37 on Sat Mar 24 12:59:26 IST 2001
+.subckt awb4n37   1 4 3 2 5
++ params:
++ ISD=7f
++ RSD=2
++ ND=1.55
++ XTI=20
++ IR=8u
++ VR=6
++ BV=6
++ CJO=18p
++ VJ=0.67
++ MJ=0.275171
++ CIO=0.2p
++ CC1=0.7m
++ CC2=1.08
++ IST=20f
++ BF=600
++ NF=1.15
++ VAF=200
++ IKF=0.0305
++ ISE=0.2f
++ NE=1.28
++ ISC=0.1p
++ NC=6
++ RE=0
++ RC=0.05
++ XTB=3
++ CJE=9p
++ VJE=0.8
++ MJE=0.2
++ CJC=19p
++ VJC=1
++ MJC=0.57
++ TF=0.9n
++ TR=1u
+xinst4n37   1 4 3 2 5 model680     params:   isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  xti={XTI}
++  ir={IR}
++  vr={VR}
++  bv={BV}
++  cjo={CJO}
++  vj={VJ}
++  mj={MJ}
++  cio={CIO}
++  cc1={CC1}
++  cc2={CC2}
++  ist={IST}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  isc={ISC}
++  nc={NC}
++  re={RE}
++  rc={RC}
++  xtb={XTB}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  tf={TF}
++  tr={TR}
++ 
+.ends  awb4n37
+*
+*
+*$
+*b Device model created by analog_uprev for 4n45 on Sat Mar 24 12:59:26 IST 2001
+.subckt awb4n45   1 4 3 2 5
++ params:
++ ISD=0.4e-18
++ RSD=1m
++ ND=1.53
++ XTI=32
++ IR=8f
++ VR=5
++ BV=100
++ CJO=60p
++ VJ=1
++ MJ=0.5
++ CIO=0.6p
++ CC1=6.9m
++ CC2=0
++ IST=24.5f
++ BF=5000
++ NF=1.1
++ VAF=100
++ IKF=0.015
++ ISE=550n
++ NE=17.5
++ ISC=1p
++ NC=2
++ RE=0.8
++ RC=9
++ XTB=0
++ CJE=200p
++ VJE=0.8
++ MJE=0.2
++ CJC=50p
++ VJC=1
++ MJC=0.57
++ TF=100n
++ TR=1000n
+xinst4n45   1 4 3 2 5 model680     params:   isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  xti={XTI}
++  ir={IR}
++  vr={VR}
++  bv={BV}
++  cjo={CJO}
++  vj={VJ}
++  mj={MJ}
++  cio={CIO}
++  cc1={CC1}
++  cc2={CC2}
++  ist={IST}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  isc={ISC}
++  nc={NC}
++  re={RE}
++  rc={RC}
++  xtb={XTB}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  tf={TF}
++  tr={TR}
++ 
+.ends  awb4n45
+*
+*
+*$
+*b Device model created by analog_uprev for 4n46 on Sat Mar 24 12:59:26 IST 2001
+.subckt awb4n46   1 4 3 2 5
++ params:
++ ISD=0.4e-18
++ RSD=1m
++ ND=1.53
++ XTI=32
++ IR=8f
++ VR=5
++ BV=100
++ CJO=60p
++ VJ=1
++ MJ=0.5
++ CIO=0.6p
++ CC1=7.4m
++ CC2=2
++ IST=24.5f
++ BF=5000
++ NF=1.1
++ VAF=100
++ IKF=0.015
++ ISE=550n
++ NE=17.5
++ ISC=0.5p
++ NC=2
++ RE=1
++ RC=9
++ XTB=2.05
++ CJE=200p
++ VJE=0.8
++ MJE=0.2
++ CJC=50p
++ VJC=1
++ MJC=0.57
++ TF=100n
++ TR=1000n
+xinst4n46   1 4 3 2 5 model680     params:   isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  xti={XTI}
++  ir={IR}
++  vr={VR}
++  bv={BV}
++  cjo={CJO}
++  vj={VJ}
++  mj={MJ}
++  cio={CIO}
++  cc1={CC1}
++  cc2={CC2}
++  ist={IST}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  isc={ISC}
++  nc={NC}
++  re={RE}
++  rc={RC}
++  xtb={XTB}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  tf={TF}
++  tr={TR}
++ 
+.ends  awb4n46
+*
+*
+*$
+*a Device model created by analog_uprev for 6n134 on Sat Mar 24 12:59:26 IST 2001
+.subckt awb6n134   2 7 10 9 5 12 3 6
+FI27 5 8 POLY(2) VIC1 VIC1 0 16.700000M 0 -425.000000M 0 0 0 0 0 0
+DD5 5 8 M1MD1
+.MODEL M1MD1 D IS=5.000000N N=1.56 TT=1.000000P M=370.000000M
+* SPECTRE: + IMAX=1000
+CC4 3 7 1.700000P
+RR4 5 8 12.000000K TC=0 0
+VIC1 4 2 0.0
+DD1 7 4 M2M6N134
+.MODEL M2M6N134 D IS=4E-19 RS=6 N=1.5 TT=5.000000N CJO=60.000000P M=
++ 370.000000M EG=1.43 BV=20
+* SPECTRE: + IMAX=1000
+RR6 5 6 611.12 TC=0 0
+QQ4 3 8 5  M3M6N134
+.MODEL M3M6N134 NPN BF=500 NF=1 BR=10 ISC=200.000000P NC=1.3 RB=10 RE=
++ 100.000000M RC=13 CJE=1.000000P TF=280.000000P
+FI28 5 1 POLY(2) VIC2 VIC2 0 16.700000M 0 -425.000000M 0 0 0 0 0 0
+DD6 5 1 M1MD1
+CC6 12 9 1.700000P
+RR8 5 1 12.000000K TC=0 0
+VIC2 16 10 0.0
+DD7 9 16 M2M6N134
+RR9 5 6 611.12 TC=0 0
+QQ5 12 1 5  M3M6N134
+CC7 7 9 550.000000F TC=0
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for 6n138 on Sat Mar 24 12:59:26 IST 2001
+.subckt awb6n138   2 3 7 5 6 8
+********** THE SUBCKT OF THE MACROMODEL OF 6N138 *************
+********** INPUT NODE,  GROUND, VCC, OUTPUT, OTHERS **********
+**********   2   3        5      8     6       7    **********
+*.SUBCKT B6N138 2 3 5 6 7 8
+D1 2 9 DMOD
+VIF 9 3 DC 0
+CIO 2 8 0.6PF
+RIO 2 8 3G
+F1 8 11 VIF 0.0022
+*F1 8 11 VIF 0.03
+Q1 8 11 7 QMOD1
+Q2 6 7 5 QMOD2
+.MODEL DMOD D IS=1.0E-17 VJ=1.2V CJO=60PF BV=10 TT=0.1NS RS=.001
++ N=1.71 XTI=30 EG=1.20
+* SPECTRE: + IMAX=1000
+.MODEL QMOD1 NPN BF=75 VAF=10 IKF=0.02 NF=0.96 NE=1.55
++ ISE=1.0E-18 IS=1.0E-16 ISC=9.0E-11 NC=2.0 CJC=130.7PF
+.MODEL QMOD2 NPN BF=250 VAF=6.5 IKF=0.015 NF=0.818 NE=1.31
++ ISE=2.4E-13 IS=1.0E-15 ISC=4.76E-8 NC=2.65 CJC=40PF
+.ends
+*
+*
+*$
+*b Device model created by analog_uprev for h11ag1 on Sat Mar 24 12:59:26 IST 2001
+.subckt awbh11ag1   1 4 3 2 5
++ params:
++ ISD=80f
++ RSD=2.3
++ ND=1.99
++ XTI=23
++ IR=5u
++ VR=5
++ BV=6
++ CJO=50p
++ VJ=1
++ MJ=0.5
++ CIO=1p
++ CC1=9.2m
++ CC2=158.7m
++ IST=1e-16
++ BF=100
++ NF=1
++ VAF=200
++ IKF=5m
++ ISE=5f
++ NE=1.5
++ ISC=24n
++ NC=3.7
++ RE=0
++ RC=0
++ XTB=0
++ CJE=10p
++ VJE=0.75
++ MJE=0.33
++ CJC=300p
++ VJC=0.65
++ MJC=0.4
++ TF=0
++ TR=0
+xinsth11ag1   1 4 3 2 5 model680     params:   isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  xti={XTI}
++  ir={IR}
++  vr={VR}
++  bv={BV}
++  cjo={CJO}
++  vj={VJ}
++  mj={MJ}
++  cio={CIO}
++  cc1={CC1}
++  cc2={CC2}
++  ist={IST}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  isc={ISC}
++  nc={NC}
++  re={RE}
++  rc={RC}
++  xtb={XTB}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  tf={TF}
++  tr={TR}
++ 
+.ends  awbh11ag1
+*
+*
+*$
+*b Device model created by analog_uprev for hcc242 on Sat Mar 24 12:59:26 IST 2001
+.subckt awbhcc242   1 4 3 5
++ params:
++ ISD=0.8f
++ RSD=50m
++ ND=1.45
++ XTI=10
++ IR=80u
++ VR=2
++ BV=2
++ CJO=18.8p
++ VJ=1
++ MJ=370m
++ CIO=4p
++ CC1=7.5m
++ CC2=1E-3
++ IST=0.8f
++ BF=590
++ NF=1
++ VAF=100
++ IKF=0.25
++ ISE=3.0f
++ NE=1.3
++ ISC=200p
++ NC=2.0
++ RE=100m
++ RC=100m
++ XTB=1
++ CJE=2.2p
++ VJE=0.75
++ MJE=0.33
++ CJC=5.2p
++ VJC=0.75
++ MJC=0.33
++ TF=30n
++ TR=500n
+xinsthcc242   1 4 3 5 model679     params:   isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  xti={XTI}
++  ir={IR}
++  vr={VR}
++  bv={BV}
++  cjo={CJO}
++  vj={VJ}
++  mj={MJ}
++  cio={CIO}
++  cc1={CC1}
++  cc2={CC2}
++  ist={IST}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  isc={ISC}
++  nc={NC}
++  re={RE}
++  rc={RC}
++  xtb={XTB}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  tf={TF}
++  tr={TR}
++ 
+.ends  awbhcc242
+*
+*
+*$
+*a Device model created by analog_uprev for hcpl2602 on Sat Mar 24 12:59:26 IST 2001
+.subckt awbhcpl2602   11 14 2 5 9 8 13 12
+RR13 0 11 1.000000K TC=0 0
+RR12 0 11 1.000000K TC=0 0
+CC2 12 14 600.000000F TC=0
+DD3 3 1 M1M2602
+.MODEL M1M2602 D IS=100.000000F RS=0 N=1.2 TT=100.000010N CJO=
++ 180.000000P M=370.000000M
+* SPECTRE: + IMAX=1000
+DD4 1 5 M1M2602
+QQ1 14 5 2  M2M2602IN
+.MODEL M2M2602IN NPN BF=800 NF=1 ISE=100.000000F BR=10
+RR1 2 5 90 TC=0 0
+VIC1 14 3 0.0
+RR3 9 6 1.340000K TC=0 0
+RR6 9 4 3.750000K TC=0 0
+VV8 13 4 5.75
+FI6 9 6 POLY(2) VIC1 VIC1 0 795.000000M 0 -448.75 0 0 93.750000K 0 0
++ 0
+RR8 9 8 275.000000K TC=0 0
+DD7 6 7 M3M2602B
+.MODEL M3M2602B D IS=5.000000N N=1.56 TT=5.000000N CJO=1.000000P M=
++ 370.000000M
+* SPECTRE: + IMAX=1000
+QQ4 8 6 9  M4M2602OUT
+.MODEL M4M2602OUT NPN BF=800 NF=800.000000M BR=10 VAR=3 ISC=
++ 200.000000P NC=1.2 RB=10 RE=2 RC=15 CJE=50.000000P TF=880.000000P
++ CJC=0 TR=1.000000N
+RR11 9 7 1 TC=0 0
+CC4 7 9 3.000000N TC=0
+GI7 9 7 POLY(2) 13 9 13 9 0 -164.580000M 0 207.291990M 0 0 0 0 0 0
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for hcpl6730 on Sat Mar 24 12:59:26 IST 2001
+.subckt awbhcpl6730   3 2 5 6 8
+********** INPUT NODE,  GROUND, VCC, OUTPUT **********
+**********   2   3        5      8     6    **********
+rdummy1 9 0 10meg
+rdummy11 11 0 10meg
+rdummy111 7 0 10meg
+D1 2 9 DMOD
+VIF 9 3 DC 0
+CIO 2 8 0.6PF
+RIO 2 8 3G
+F1 8 11 POLY(1) VIF 0 0.0015 -0.1
+Q1 8 11 7 QMOD2
+Q2 6 7 5 QMOD2
+.MODEL DMOD D IS=0.2E-15 VJ=1.2V CJO=60PF BV=10 TT=0.1NS RS=50M
++ N=1.85 XTI=10 EG=1.20
+* SPECTRE: + IMAX=1000
+.MODEL QMOD2 NPN BF=350 VAF=10 IKF=0.008 NF=0.95 NE=1.4
++ ISE=2E-14 IS=5.0E-16 ISC=3E-9 NC=2.1 XTB=1 CJC=33PF RC=200M RE=200M
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for hcpl6731 on Sat Mar 24 12:59:26 IST 2001
+.subckt awbhcpl6731   3 2 5 6 8
+********** INPUT NODE,  GROUND, VCC, OUTPUT **********
+**********   2   3        5      8     6    **********
+D1 2 9 DMOD
+VIF 9 3 DC 0
+CIO 2 8 0.6PF
+RIO 2 8 3G
+I1 8 11 5N
+F1 8 11 POLY(1) VIF 0 0.0015 -0.1
+Q1 8 11 7 QMOD2
+Q2 6 7 5 QMOD2
+.MODEL DMOD D IS=0.2E-15 VJ=1.2V CJO=60PF BV=10 TT=0.1NS RS=50M
++ N=1.85 XTI=10 EG=1.20
+* SPECTRE: + IMAX=1000
+.MODEL QMOD2 NPN BF=350 VAF=100 IKF=0.008 NF=0.95 NE=1.4
++ ISE=2E-14 IS=5.0E-16 ISC=3E-12 NC=2.1 XTB=1 CJC=33PF RC=200M RE=200M
+.ends
+*
+*
+*$
+*b Device model created by analog_uprev for il221 on Sat Mar 24 12:59:26 IST 2001
+.subckt awbil221   1 4 3 2 5
++ params:
++ ISD=1.4513e-15
++ RSD=5.4511e-01
++ ND=1.4478e+00
++ XTI=1.7989e+01
++ IR=1.0000e-07
++ VR=6.0000e+00
++ BV=1.2000e+01
++ CJO=1.0000e-10
++ VJ=1
++ MJ=0.5
++ CIO=5.0000e-13
++ CC1=4.5226e-04
++ CC2=1.4957e-02
++ IST=2.7211e-15
++ BF=1.5512e+04
++ NF=1.5000e+00
++ VAF=1.0000e+00
++ IKF=5.0000e-03
++ ISE=3.0253e-11
++ NE=4.0000e+00
++ ISC=3.0253e-11
++ NC=3.2241e+00
++ RE=7.3674e-04
++ RC=9.2448e+01
++ XTB=3.0000e+00
++ CJE=0
++ VJE=0.75
++ MJE=0.33
++ CJC=9.7583e-12
++ VJC=7.4000e-01
++ MJC=3.9396e-01
++ TF=0
++ TR=0
+xinstil221   1 4 3 2 5 model680     params:   isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  xti={XTI}
++  ir={IR}
++  vr={VR}
++  bv={BV}
++  cjo={CJO}
++  vj={VJ}
++  mj={MJ}
++  cio={CIO}
++  cc1={CC1}
++  cc2={CC2}
++  ist={IST}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  isc={ISC}
++  nc={NC}
++  re={RE}
++  rc={RC}
++  xtb={XTB}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  tf={TF}
++  tr={TR}
++ 
+.ends  awbil221
+*
+*
+*$
+*b Device model created by analog_uprev for il222 on Sat Mar 24 12:59:26 IST 2001
+.subckt awbil222   1 4 3 2 5
++ params:
++ ISD=1.4513e-15
++ RSD=5.4511e-01
++ ND=1.4478e+00
++ XTI=1.7989e+01
++ IR=1.0000e-07
++ VR=6.0000e+00
++ BV=1.2000e+01
++ CJO=1.0000e-10
++ VJ=1
++ MJ=0.5
++ CIO=5.0000e-13
++ CC1=4.5226e-04
++ CC2=1.4957e-02
++ IST=1.7492e-15
++ BF=3.8964e+04
++ NF=8.5000e-01
++ VAF=1.0000e+00
++ IKF=3.7015e-02
++ ISE=1.0447e-12
++ NE=1.7353e+00
++ ISC=1.0447e-12
++ NC=3.0765e+00
++ RE=7.1268e-04
++ RC=6.8479e+01
++ XTB=3.0000e+00
++ CJE=0
++ VJE=0.75
++ MJE=0.33
++ CJC=9.7583e-12
++ VJC=7.4000e-01
++ MJC=3.9396e-01
++ TF=0
++ TR=0
+xinstil222   1 4 3 2 5 model680     params:   isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  xti={XTI}
++  ir={IR}
++  vr={VR}
++  bv={BV}
++  cjo={CJO}
++  vj={VJ}
++  mj={MJ}
++  cio={CIO}
++  cc1={CC1}
++  cc2={CC2}
++  ist={IST}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  isc={ISC}
++  nc={NC}
++  re={RE}
++  rc={RC}
++  xtb={XTB}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  tf={TF}
++  tr={TR}
++ 
+.ends  awbil222
+*
+*
+*$
+*b Device model created by analog_uprev for il223 on Sat Mar 24 12:59:26 IST 2001
+.subckt awbil223   1 4 3 2 5
++ params:
++ ISD=1.4513e-15
++ RSD=5.4511e-01
++ ND=1.4478e+00
++ XTI=1.7989e+01
++ IR=1.0000e-07
++ VR=6.0000e+00
++ BV=1.2000e+01
++ CJO=1.0000e-10
++ VJ=1
++ MJ=0.5
++ CIO=5.0000e-13
++ CC1=4.5226e-04
++ CC2=1.4957e-02
++ IST=3.3868e-17
++ BF=3.8085e+04
++ NF=8.5000e-01
++ VAF=1.0000e+00
++ IKF=9.5837e+00
++ ISE=2.8230e-13
++ NE=1.8603e+00
++ ISC=2.8230e-13
++ NC=3.0951e+00
++ RE=6.4579e-04
++ RC=3.7813e+01
++ XTB=3.0000e+00
++ CJE=0
++ VJE=0.75
++ MJE=0.33
++ CJC=9.7583e-12
++ VJC=7.4000e-01
++ MJC=3.9396e-01
++ TF=0
++ TR=0
+xinstil223   1 4 3 2 5 model680     params:   isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  xti={XTI}
++  ir={IR}
++  vr={VR}
++  bv={BV}
++  cjo={CJO}
++  vj={VJ}
++  mj={MJ}
++  cio={CIO}
++  cc1={CC1}
++  cc2={CC2}
++  ist={IST}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  isc={ISC}
++  nc={NC}
++  re={RE}
++  rc={RC}
++  xtb={XTB}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  tf={TF}
++  tr={TR}
++ 
+.ends  awbil223
+*
+*
+*$
+*b Device model created by analog_uprev for mct61 on Sat Mar 24 12:59:26 IST 2001
+.subckt awbmct61   1 4 3 5
++ params:
++ ISD=6f
++ RSD=0.2
++ ND=1.67
++ XTI=10
++ IR=1n
++ VR=3
++ BV=100
++ CJO=50p
++ VJ=1
++ MJ=0.5
++ CIO=0.4p
++ CC1=0.8
++ CC2=0.6
++ IST=10f
++ BF=40
++ NF=1
++ VAF=200
++ IKF=10m
++ ISE=320f
++ NE=1.1
++ ISC=2.7n
++ NC=1.076
++ RE=0
++ RC=1
++ XTB=0
++ CJE=8p
++ VJE=0.75
++ MJE=0.33
++ CJC=10n
++ VJC=0.75
++ MJC=0.33
++ TF=1u
++ TR=1u
+xinstmct61   1 4 3 5 model679     params:   isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  xti={XTI}
++  ir={IR}
++  vr={VR}
++  bv={BV}
++  cjo={CJO}
++  vj={VJ}
++  mj={MJ}
++  cio={CIO}
++  cc1={CC1}
++  cc2={CC2}
++  ist={IST}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  isc={ISC}
++  nc={NC}
++  re={RE}
++  rc={RC}
++  xtb={XTB}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  tf={TF}
++  tr={TR}
++ 
+.ends  awbmct61
+*
+*
+*$
+*b Device model created by analog_uprev for mct62 on Sat Mar 24 12:59:26 IST 2001
+.subckt awbmct62   1 4 3 5
++ params:
++ ISD=6f
++ RSD=0.2
++ ND=1.67
++ XTI=10
++ IR=1n
++ VR=3
++ BV=100
++ CJO=50p
++ VJ=1
++ MJ=0.5
++ CIO=0.4p
++ CC1=1
++ CC2=0.7
++ IST=10f
++ BF=40
++ NF=1
++ VAF=200
++ IKF=15m
++ ISE=320f
++ NE=1.1
++ ISC=2.7n
++ NC=1.05
++ RE=0
++ RC=1
++ XTB=0
++ CJE=8p
++ VJE=0.75
++ MJE=0.33
++ CJC=10n
++ VJC=0.75
++ MJC=0.33
++ TF=1u
++ TR=1u
+xinstmct62   1 4 3 5 model679     params:   isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  xti={XTI}
++  ir={IR}
++  vr={VR}
++  bv={BV}
++  cjo={CJO}
++  vj={VJ}
++  mj={MJ}
++  cio={CIO}
++  cc1={CC1}
++  cc2={CC2}
++  ist={IST}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  isc={ISC}
++  nc={NC}
++  re={RE}
++  rc={RC}
++  xtb={XTB}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  tf={TF}
++  tr={TR}
++ 
+.ends  awbmct62
+*
+*
+*$
+*b Device model created by analog_uprev for mct66 on Sat Mar 24 12:59:26 IST 2001
+.subckt awbmct66   1 4 3 5
++ params:
++ ISD=6f
++ RSD=0.2
++ ND=1.67
++ XTI=10
++ IR=1n
++ VR=3
++ BV=100
++ CJO=50p
++ VJ=1
++ MJ=0.5
++ CIO=0.4p
++ CC1=0.3
++ CC2=0.2
++ IST=10f
++ BF=40
++ NF=1
++ VAF=200
++ IKF=6m
++ ISE=320f
++ NE=1.1
++ ISC=2.5n
++ NC=1.07
++ RE=0
++ RC=1
++ XTB=0
++ CJE=8p
++ VJE=0.75
++ MJE=0.33
++ CJC=10n
++ VJC=0.75
++ MJC=0.33
++ TF=1u
++ TR=1u
+xinstmct66   1 4 3 5 model679     params:   isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  xti={XTI}
++  ir={IR}
++  vr={VR}
++  bv={BV}
++  cjo={CJO}
++  vj={VJ}
++  mj={MJ}
++  cio={CIO}
++  cc1={CC1}
++  cc2={CC2}
++  ist={IST}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  isc={ISC}
++  nc={NC}
++  re={RE}
++  rc={RC}
++  xtb={XTB}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  tf={TF}
++  tr={TR}
++ 
+.ends  awbmct66
+*
+*
+*$
+*b Device model created by analog_uprev for mct6 on Sat Mar 24 12:59:26 IST 2001
+.subckt awbmct6   1 4 3 5
++ params:
++ ISD=6f
++ RSD=0.2
++ ND=1.67
++ XTI=10
++ IR=1n
++ VR=3
++ BV=100
++ CJO=50p
++ VJ=1
++ MJ=0.5
++ CIO=0.4p
++ CC1=0.6
++ CC2=0.6
++ IST=10f
++ BF=40
++ NF=1
++ VAF=200
++ IKF=10m
++ ISE=320f
++ NE=1.1
++ ISC=2.7n
++ NC=1.1
++ RE=0
++ RC=1
++ XTB=0
++ CJE=8p
++ VJE=0.75
++ MJE=0.33
++ CJC=10n
++ VJC=0.75
++ MJC=0.33
++ TF=1u
++ TR=1u
+xinstmct6   1 4 3 5 model679     params:   isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  xti={XTI}
++  ir={IR}
++  vr={VR}
++  bv={BV}
++  cjo={CJO}
++  vj={VJ}
++  mj={MJ}
++  cio={CIO}
++  cc1={CC1}
++  cc2={CC2}
++  ist={IST}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  isc={ISC}
++  nc={NC}
++  re={RE}
++  rc={RC}
++  xtb={XTB}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  tf={TF}
++  tr={TR}
++ 
+.ends  awbmct6
+*
+*
+*$
+*a Device model created by analog_uprev for pc725 on Sat Mar 24 12:59:26 IST 2001
+.subckt awbpc725   5 4 9 2 3 1
+RR4 0 9 1.000000K TC=0 0
+RR3 0 9 1.000000K TC=0 0
+CC2 2 4 600.000000F
+CC1 1 5 600.000000F
+RR2 4 2 100.000000G TC=0 0
+RR1 5 1 100.000000G TC=0 0
+DD4 6 4 M1MD1PC725
+.MODEL M1MD1PC725 D IS=2.737860F RS=2.772 N=1.4406 CJO=30.000000P VJ=
++ 899.999940M M=499.999970M
+* SPECTRE: + IMAX=1000
+FI1 2 1 VFI1 1
+VFI1 5 6 0.0
+DD2 2 3 M2MD3PC725
+.MODEL M2MD3PC725 D IS=10.000000F BV=500 IBV=300.000000P
+* SPECTRE: + IMAX=1000
+DD1 3 7 M3MD2PC725
+.MODEL M3MD2PC725 D IS=10.000000F RS=0 N=1.2
+* SPECTRE: + IMAX=1000
+QQ1 7 1 2  M4MQ1PC725
+.MODEL M4MQ1PC725 NPN IS=100.000000F BF=130 NF=1 VAF=25 IKF=
++ 699.999940M ISE=90.000000N NE=3 BR=1 NR=1 RB=10 RBM=10 RE=
++ 10.000000M RC=1 CJE=14.100000N VJE=899.999940M MJE=499.999970M TF=
++ 107.143010N CJC=3.850000N VJC=749.999940M MJC=333.000000M XCJC=1 TR=
++ 6.154000U
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for pc733h on Sat Mar 24 12:59:26 IST 2001
+.subckt awbpc733h   5 2 7 1 4 3
+FI1 1 3 VFI1 10.000000M
+VFI1 5 6 0.0
+FI2 3 1 VFI2 -10.000000M
+VFI2 9 5 0.0
+DD5 6 2 M1MD1PC733H
+.MODEL M1MD1PC733H D IS=2.737000F RS=2.772 N=1.44 CJO=50.000000P VJ=
++ 899.999940M M=499.999970M
+* SPECTRE: + IMAX=1000
+DD6 2 9 M1MD1PC733H
+QQ2 4 3 1  M2MQ1PC733H
+.MODEL M2MQ1PC733H NPN IS=100.000000F BF=35 NF=1 VAF=50 IKF=
++ 75.000000M ISE=0 NE=2 BR=45.200000M NR=1 ISC=0 NC=3 RB=10 RBM=10 RE=
++ 10.000000M RC=30 CJE=477.299990P VJE=899.999940M MJE=499.999970M TF=
++ 5.000000N CJC=540.000000P VJC=749.999940M MJC=333.000000M XCJC=1 TR=
++ 6.154000U XTB=1.5
+DD7 1 4 M3MD3PC733H
+.MODEL M3MD3PC733H D IS=10.000000F BV=100 IBV=100.000000P
+* SPECTRE: + IMAX=1000
+CC3 1 2 600.000000F
+RR3 2 1 100.000000G TC=0 0
+CC4 5 3 600.000000F
+RR4 3 5 100.000000G TC=0 0
+RR5 0 7 1.000000K TC=0 0
+RR6 0 7 1.000000K TC=0 0
+.ends
+*
+*
+*$
+*b Device model created by analog_uprev for pc816 on Sat Mar 24 12:59:26 IST 2001
+.subckt awbpc816   1 4 3 5
++ params:
++ ISD=3f
++ RSD=2.8
++ ND=1.50
++ XTI=12
++ IR=8u
++ VR=4
++ BV=6
++ CJO=30p
++ VJ=0.9
++ MJ=0.5
++ CIO=0.6p
++ CC1=19.6m
++ CC2=0
++ IST=100f
++ BF=150
++ NF=1
++ VAF=100
++ IKF=50m
++ ISE=320p
++ NE=2.1
++ ISC=700p
++ NC=1.47
++ RE=100m
++ RC=2
++ XTB=3
++ CJE=54.5p
++ VJE=0.9
++ MJE=0.5
++ CJC=60p
++ VJC=0.75
++ MJC=0.33
++ TF=20n
++ TR=0n
+xinstpc816   1 4 3 5 model679     params:   isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  xti={XTI}
++  ir={IR}
++  vr={VR}
++  bv={BV}
++  cjo={CJO}
++  vj={VJ}
++  mj={MJ}
++  cio={CIO}
++  cc1={CC1}
++  cc2={CC2}
++  ist={IST}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  isc={ISC}
++  nc={NC}
++  re={RE}
++  rc={RC}
++  xtb={XTB}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  tf={TF}
++  tr={TR}
++ 
+.ends  awbpc816
+*
+*
+*$
+*a Device model created by analog_uprev for tlp112 on Sat Mar 24 12:59:26 IST 2001
+.subckt awbtlp112   1 3 7 6 2
+DD16 5 6 M1MD2_TLP112
+.MODEL M1MD2_TLP112 D IS=10F CJO=1P N=1.166 RS=0
+* SPECTRE: + IMAX=1000
+DD15 1 4 M2MD1_TLP112
+.MODEL M2MD1_TLP112 D IS=10F CJO=45P N=1.166 EG=1.35625 RS=50
+* SPECTRE: + IMAX=1000
+RR13 5 6 1.5G TC=0 0
+VIC6 4 3 0.0
+QQ5 7 5 2  M3MNPNTLP112
+.MODEL M3MNPNTLP112 NPN TR=1.7U BR=1 RB=100 CJC=6.0P CJE=12.2P TF=0
++ IKF=5 BF=100 NR=850M ISC=30P ISE=35F
+FI4 6 5 POLY(2) VIC6 VIC6 0 0 0 0.22 0 0 0 0 0 0
+CC3 5 1 .1P TC=0
+CC2 5 3 70F TC=0
+.ends
+*
+*
+*$
+*b Device model created by analog_uprev for 4n26 on Sat Mar 24 12:59:26 IST 2001
+* updated using Model Editor release 17.0.0 on 10/07/15 at 12:41
+.subckt awbpc410 AN CAT C B E 
++ params:
++ CJO=145p
++ VJ=0.67
++ MJ=0.45
++ BV=5
++ ISD=4.682E-17
++ ND=2
++ XTI=20
++ IR=10u
++ VR=5
++ RSD=39
++ CIO=5p
++ CC1=4.38m
++ CC2=-4m
++ IST=9.72f
++ BF=240
++ NF=1.14
++ IKF=0.05
++ ISE=1f
++ NE=1.5
++ ISC=5p
++ NC=5
++ RC=2
++ CJC=60f
++ VJC=1
++ MJC=0.57
++ XTB=3
++ TF=90p
++ TR=102p
++ CJE=10f
++ VJE=0.8
++ MJE=0.2
++ VAF=100
++ RE=10m
+Xinstawbpc410 AN CAT C B E  model681
++ params: 
++ cjo={CJO}
++ vj={VJ}
++ mj={MJ}
++ bv={BV}
++ isd={ISD}
++ nd={ND}
++ xti={XTI}
++ ir={IR}
++ vr={VR}
++ rsd={RSD}
++ cio={CIO}
++ cc1={CC1}
++ cc2={CC2}
++ ist={IST}
++ bf={BF}
++ nf={NF}
++ ikf={IKF}
++ ise={ISE}
++ ne={NE}
++ isc={ISC}
++ nc={NC}
++ rc={RC}
++ cjc={CJC}
++ vjc={VJC}
++ mjc={MJC}
++ xtb={XTB}
++ tf={TF}
++ tr={TR}
++ cje={CJE}
++ vje={VJE}
++ mje={MJE}
++ vaf={VAF}
++ re={RE}
+.ends awbpc410
+*
+*
+*$

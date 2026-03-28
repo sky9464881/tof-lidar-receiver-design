@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="file:///c:/cadence/orcadx_24.1/share/pcb/consmgr/VDD/report/treeview.xsl"?>
+<ConstraintDifferenceReport Path="file:///c:/cadence/orcadx_24.1/share/pcb/consmgr/VDD/report/rc" Status="no-change" Type="Constraint Difference Report">
+
+  <RptSummary Col1="Layout" Col2="Schematic">
+    <Entry Name="Report time">Fri Apr 11 21:05:37 2025
+</Entry>
+    <Entry Name="Software version">24.1 (S003)</Entry>
+    <Entry Name="Layout">C:\Users\sky94\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\lidar_pcb\allegro\auto_backup.brd</Entry>
+    <Entry Name="Schematic">C:\Users\sky94\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\lidar_pcb\allegro\pstcmdb.dat</Entry>
+    <Entry Name="Baseline File">C:\Users\sky94\AppData\Local\Temp\Tmp0000074e.dcf</Entry>
+    <Entry Name="Destination design updated">Yes</Entry>
+    <Entry Name="Update Mode">Diff3</Entry>
+    <Entry Name="Constraint Information">CrossSection, Electrical, Physical, Spacing, Same Net Spacing, NetClasses, Properties</Entry>
+    <Entry Name="White list">c:\cadence\orcadx_24.1\share\local\consmgr\cds_flow_config.txt - No valid filters found.</Entry>
+  </RptSummary>
+
+  <Tree>
+    <Item Filter="0x1" Name="Summary" Ref="main-summary"/>
+  </Tree>
+
+  <Summaries>
+    <MainSummary ID="main-summary"/>
+  </Summaries>
+
+  <Notes>
+    <Note Text="Baseline file(s) are invalid and no changes are being made.&#xA;Revision numbers are updated but all edits will need to be done manually." Type="Warning"/>
+  </Notes>
+
+  <Layers>
+    <Layer Name="TOP" Type="Conductor"/>
+    <Layer Name="LAYER_1" Type="Plane"/>
+    <Layer Name="LAYER_2" Type="Plane"/>
+    <Layer Name="BOTTOM" Type="Conductor"/>
+  </Layers>
+
+  <GenericLayers>
+    <Layer Name="Conductor"/>
+    <Layer Name="Plane"/>
+  </GenericLayers>
+
+</ConstraintDifferenceReport>

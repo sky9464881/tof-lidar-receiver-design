@@ -1,0 +1,75 @@
+("SDT12S60_L2"
+	(Creator "Device property file created by prp_generator on Wed Mar 02 18:15:25 IST 05")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_op"
+		(IF "12")
+		(IFM "120")
+		(VR "600")
+		(PDM "88.2")
+		(TJ "175")
+		(RJA "62")
+		(RJC "1.7")
+		(RCA "60.3")
+	)
+)
+("SDP04S60_L2"
+	(Creator "Device property file created by prp_generator on Wed Mar 02 18:15:25 IST 05")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_op"
+		(IF "4")
+		(IFM "40")
+		(VR "600")
+		(PDM "36.5")
+		(TJ "175")
+		(RJA "62")
+		(RJC "4.1")
+		(RCA "57.9")
+	)
+)
+("SDP06S60_L2"
+	(Creator "Device property file created by prp_generator on Wed Mar 02 18:15:25 IST 05")
+	("device_info"
+		(SYMBOL_NAME "Diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_op"
+		(IF "6")
+		(IFM "60")
+		(VR "600")
+		(PDM "57.6")
+		(TJ "175")
+		(RJA "62")
+		(RJC "2.6")
+		(RCA "59.4")
+	)
+)

@@ -1,0 +1,782 @@
+
+**** 04/04/25 00:01:48 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-safqe"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\dasdq\dasdq-pspicefiles\schemat
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "safqe.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPA858.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa695_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa856_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\tlv3604.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPAx277.LIB" 
+.lib "nom.lib" 
+.inc "C:\Cadence\OrCADX_24.1\tools\capture\library\opa855_a.lib" 
+
+*Analysis directives: 
+
+**** INCLUDING opa855_a.lib ****
+* OPA855 - Rev. A
+* Created by Sean Cashin; 2020-06-04
+* Created with Green-Williams-Lis Current Sense Amp Macro-model Architecture
+* Copyright 2020 by Texas Instruments Corporation
+******************************************************
+* MACRO-MODEL SIMULATED PARAMETERS:
+******************************************************
+* AC PARAMETERS
+**********************
+* CLOSED-LOOP OUTPUT IMPEDANCE VS. FREQUENCY (Zout vs. Freq.)
+* CLOSED-LOOP GAIN AND PHASE VS. FREQUENCY  WITH RL, CL EFFECTS (Acl vs. Freq.)
+* COMMON-MODE REJECTION RATIO VS. FREQUENCY (CMRR vs. Freq.)
+* POWER SUPPLY REJECTION RATIO VS. FREQUENCY (PSRR vs. Freq.)
+* INPUT VOLTAGE NOISE DENSITY VS. FREQUENCY (en vs. Freq.)
+**********************
+* DC PARAMETERS
+**********************
+* INPUT COMMON-MODE VOLTAGE RANGE (Vcm)
+* GAIN ERROR (Eg)
+* INPUT BIAS CURRENT VS. INPUT COMMON-MODE VOLTAGE (Ib vs. Vcm)
+* INPUT OFFSET VOLTAGE VS. TEMPERATURE (Vos vs. Temp)
+* OUTPUT VOLTAGE SWING vs. OUTPUT CURRENT (Vout vs. Iout)
+* SHORT-CIRCUIT OUTPUT CURRENT (Isc)
+* QUIESCENT CURRENT (Iq)
+**********************
+* TRANSIENT PARAMETERS
+**********************
+* SLEW RATE (SR)
+* SETTLING TIME VS. CAPACITIVE LOAD (ts)
+* OVERLOAD RECOVERY TIME (tor)
+******************************************************
+.subckt OPA855 IN+ IN- OUT VCC VEE
+******************************************************
+.MODEL R_NOISELESS RES (T_ABS=-273.15)
+C_C1A         N1492098 N1492108  26.53E-12   
+C_C1A1         MID N1492376  2E-12   
+C_C1A15         N1483677 N1483687  29.36P   
+C_C1A16         PSRRP N1481259  50P   
+C_C1A17         N1483713 PSRRN  34.6F   
+C_C1A35         N1461236 N1461246  18.72P   
+C_C1A36         N1461252 CMRR  53F   
+C_C1A39         N1481243 N1481253  22.74P   
+C_C1A40         N1483693 N1483703  34.6F   
+C_C1A41         N1534615 N1534625  4.55E-12   
+C_C1A42         MID N1534887  2E-12   
+C_C1A43         N1541593 N1541603  4.55E-12   
+C_C33         N406634 0  1E-15   
+C_C34         N317950 0  1   
+C_C35         N406794 0  1E-15   
+C_C44         N1446217 MID  5P   
+C_C47         MID CLAMP  12.5e-12   
+C_C7         N31014 MID  1P   
+C_C8         MID N35813  1E-15   
+C_C9         MID N38096  1E-15   
+C_C_CMN         MID ESDN  0.6P   
+C_C_CMN1         ESDN ESDP  0.2P   
+C_C_CMP         ESDP MID  0.6P   
+C_C_VIMON         MID VIMON  1E-12   
+C_C_VOUT_S         MID VOUT_S  1E-12   
+E_E3         N112292 MID OUT MID 1
+E_E6         MID 0 N317950 0 1
+G_G1         N1492098 MID N1446217 ZO -1.5
+G_G111         N1461252 MID N1461246 MID 333
+G_G114         N1481243 MID VCC_B MID 0.716
+G_G115         N1481259 MID N1481253 MID 4
+G_G116         N1483677 MID VEE_B MID 1.578
+G_G117         N1534615 MID N1492126 MID -28
+G_G118         N1534635 MID N1534625 MID -1
+G_G119         N1541593 MID N1534645 MID -28
+G_G12         N1446199 MID CLAMP MID -1
+G_G2         N10570 N10561 CMRR MID -1E-3
+G_G36         VCC_B 0 VCC 0 -1
+G_G37         VEE_B 0 VEE 0 -1
+G_G4         N1254860 MID N1541603 MID -114
+G_G5         N1492118 MID N1492108 MID -1
+G_G6         N25816 N11984 PSRRP PSRRN -1E-3
+G_G76         N1461236 MID ESDP MID 0.117
+G_G77         N1483693 MID N1483687 MID 21.74
+G_G78         N1483713 MID N1483703 MID 21.74
+G_G8         VCC_CLP MID N35813 MID -1E-3
+G_G9         VEE_CLP MID N38096 MID -1E-3
+I_I_B         N06456 MID DC 12U  
+I_I_OS         ESDN MID DC 12.1U  
+I_I_Q         VCC VEE DC 0.0164  
+L_L1         N1446199 N1446217  400P  
+L_L2         PSRRP N1490067  4N  
+R_R1         ESDP IN+ R_NOISELESS 10E-3
+R_R10         ESDN N11991 R_NOISELESS 1E-3
+R_R107         VCC_B 0 R_NOISELESS 1
+R_R108         N317950 0 R_NOISELESS 1E12
+R_R109         VEE_B 0 R_NOISELESS 1
+R_R110         VCC_B N406634 R_NOISELESS 1E-3
+R_R111         N406634 N317950 R_NOISELESS 1E6
+R_R112         N317950 N406794 R_NOISELESS 1E6
+R_R113         N406794 VEE_B R_NOISELESS 1E-3
+R_R146         N1461236 MID R_NOISELESS 1
+R_R147         N1461252 MID R_NOISELESS 1
+R_R148         N1483713 MID R_NOISELESS 1
+R_R162         ESDN ESDP R_NOISELESS 5K
+R_R1A         N1492108 N1492098 R_NOISELESS 10E3
+R_R1A1         N1492126 N1492118 R_NOISELESS 30
+R_R1A14         N1461236 N1461246 R_NOISELESS 10E3
+R_R1A15         N1461252 CMRR R_NOISELESS 10E3
+R_R1A16         PSRRP MID R_NOISELESS 2.8
+R_R1A17         N1483693 N1483703 R_NOISELESS 10E3
+R_R1A18         N1483713 PSRRN R_NOISELESS 10E3
+R_R1A40         N1481243 N1481253 R_NOISELESS 10E3
+R_R1A41         N1490067 N1481259 R_NOISELESS 7
+R_R1A42         N1483677 N1483687 R_NOISELESS 10E3
+R_R1A43         N1534645 N1534635 R_NOISELESS 30
+R_R1A44         N1534625 N1534615 R_NOISELESS 10
+R_R1A45         N1541603 N1541593 R_NOISELESS 10
+R_R2         ESDN IN- R_NOISELESS 10E-3
+R_R21         N11984 N25816 R_NOISELESS 1E3
+R_R211         MID N1254860 R_NOISELESS 1
+R_R225         MID N1446199 R_NOISELESS 1
+R_R226         MID N1446217 R_NOISELESS 30
+R_R245         VCC VEE R_NOISELESS 4.5K
+R_R246         N1481243 MID R_NOISELESS 1
+R_R247         N1481259 MID R_NOISELESS 1
+R_R248         N1483677 MID R_NOISELESS 1
+R_R249         N1483693 MID R_NOISELESS 1
+R_R25         MID N28602 R_NOISELESS 1E9
+R_R250         MID N1492098 R_NOISELESS 1
+R_R251         MID N1534615 R_NOISELESS 1
+R_R252         MID N1534635 R_NOISELESS 1
+R_R253         MID N1541593 R_NOISELESS 1
+R_R26         N30136 MID R_NOISELESS 1E9
+R_R27         MID N30913 R_NOISELESS 1
+R_R28         N31014 N30913 R_NOISELESS 1E-3
+R_R29         N35675 VCC_B R_NOISELESS 1E3
+R_R2A         MID N1492108 R_NOISELESS 20E3
+R_R2A1         N1492376 N1492126 R_NOISELESS 10
+R_R2A16         N1483687 MID R_NOISELESS 0.542
+R_R2A17         N1483703 MID R_NOISELESS 482.2
+R_R2A18         PSRRN MID R_NOISELESS 482.2
+R_R2A36         N1461246 MID R_NOISELESS 0.85
+R_R2A37         CMRR MID R_NOISELESS 30.1
+R_R2A40         N1481253 MID R_NOISELESS 0.7
+R_R2A41         N1534887 N1534645 R_NOISELESS 10
+R_R2A42         MID N1534625 R_NOISELESS 0.363
+R_R2A43         MID N1541603 R_NOISELESS 0.363
+R_R3         MID ESDP R_NOISELESS 2.3MEG
+R_R30         N35813 N35675 R_NOISELESS 1E-3
+R_R31         VCC_CLP MID R_NOISELESS 1E3
+R_R32         N38050 VEE_B R_NOISELESS 1E3
+R_R33         N38096 N38050 R_NOISELESS 1E-3
+R_R34         VEE_CLP MID R_NOISELESS 1E3
+R_R4         ESDN MID R_NOISELESS 2.3MEG
+R_R6         MID N1492118 R_NOISELESS 1
+R_R60         MID AOLNET R_NOISELESS 1
+R_R8         N10561 N10570 R_NOISELESS 1E3
+R_R81         MID N110431 R_NOISELESS 1E9
+R_R83         MID N112292 R_NOISELESS 1E9
+R_R9         N10570 N11984 R_NOISELESS 1E-3
+R_RDUMMY         MID ZO R_NOISELESS 140
+R_RX         ZO N1254860 R_NOISELESS 1400
+R_R_VIMON         VIMON N110431 R_NOISELESS 100
+R_R_VOUT_S         VOUT_S N112292 R_NOISELESS 100
+V_VCM_MAX         N30136 VCC_B -0.4
+V_VCM_MIN         N28602 VEE_B 1.1
+X_ESD_OUT         OUT VCC VEE ESD_OUT_OPA855 
+X_E_N         ESDP N06456 VNSE_OPA855 
+X_H3    OUT ZO N110431 MID 08_OP_AMP_COMPLETE_H3_OPA855 
+X_IQ_N         MID VIMON MID VEE IQ_SRC_OPA855 
+X_IQ_P         VIMON MID VCC MID IQ_SRC_OPA855 
+X_I_NP1         ESDN MID FEMT_OPA855 
+X_S1    OUT VCC_CLP CLAMP MID 08_OP_AMP_COMPLETE_S1_OPA855 
+X_S2    VEE_CLP OUT CLAMP MID 08_OP_AMP_COMPLETE_S2_OPA855 
+X_U1         MID N06456 FEMT_OPA855 
+X_U2         N31014 N11991 AOLNET MID AOL_1_OPA855 
+X_U3         AOLNET MID CLAMP MID AOL_2_OPA855 
+X_U5         VIMON MID N35675 VCC_B CLAWP_OPA855 
+X_U6         VIMON MID VEE_B N38050 CLAWN_OPA855 
+X_VCM_CLAMP         N25816 MID N30913 MID N30136 N28602 VCM_CLAMP_OPA855 
+X_VOS_DRIFT         N749288 N06456 VOS_DRIFT_OPA855 
+X_VOS_VS_VCM         N10561 N749288 VCC VEE VOS_VS_VCM_OPA855 
+.ENDS  OPA855
+*
+.SUBCKT 08_OP_AMP_COMPLETE_H3_OPA855 1 2 3 4  
+H_H3         3 4 VH_H3 -1E3
+VH_H3         1 2 0V
+.ENDS  08_OP_AMP_COMPLETE_H3_OPA855
+*
+.SUBCKT 08_OP_AMP_COMPLETE_S1_OPA855 1 2 3 4  
+S_S1         3 4 1 2 _S1
+RS_S1         1 2 1G
+.MODEL         _S1 VSWITCH ROFF=20E3 RON=1E-3 VOFF=-0.6 VON=0.8
+.ENDS  08_OP_AMP_COMPLETE_S1_OPA855
+*
+.SUBCKT 08_OP_AMP_COMPLETE_S2_OPA855 1 2 3 4  
+S_S2         3 4 1 2 _S2
+RS_S2         1 2 1G
+.MODEL         _S2 VSWITCH ROFF=20E3 RON=1E-3 VOFF=-0.4 VON=0.8
+.ENDS  08_OP_AMP_COMPLETE_S2_OPA855
+*
+.SUBCKT AOL_1_OPA855 VC+ VC- IOUT+ IOUT-
+.PARAM GAIN = 1
+.PARAM IPOS = .5
+.PARAM INEG = -.5
+G1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}
+.ENDS  AOL_1_OPA855
+*
+.SUBCKT AOL_2_OPA855 VC+ VC- IOUT+ IOUT-
+.PARAM GAIN = 0.75
+.PARAM IPOS = 40e-3
+.PARAM INEG = -40e-3
+G1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}
+.ENDS  AOL_2_OPA855
+*
+.SUBCKT CLAWN_OPA855 VC+ VC- IOUT+ IOUT-
+G1 IOUT+ IOUT- TABLE {ABS(V(VC+,VC-))} =
++(0, 1.02E-3)
++(20.5, 1.19E-3)
++(46.37, 1.37E-3)
++(55.32, 1.43E-3)
++(61.86, 1.47E-3)
++(67.19, 1.51E-3)
++(72.22, 1.55E-3)
++(78.37, 1.60E-3)
++(85.63, 1.63E-3)
++(90.22, 1.67E-3)
++(93.85, 1.70E-3)
++(97.87, 1.74E-3)
++(101.1, 1.76E-3)
++(104.5, 1.80E-3)
++(106.9, 1.83E-3)
++(109.9, 1.91E-3)
++(111.9, 2.026E-3)
++(120.1, 3.40E-3)
+
+.ENDS  CLAWN_OPA855
+*
+.SUBCKT CLAWP_OPA855 VC+ VC- IOUT+ IOUT-
+G1 IOUT+ IOUT- TABLE {ABS(V(VC+,VC-))} =
++(0, 7.88E-4)
++(6.1, 8.68E-4)
++(15.2, 9.53E-4)
++(27.1, 1.04E-3)
++(42.8, 1.16E-3)
++(60.7, 1.29E-3)
++(97.11, 1.66E-3)
++(106.7, 1.81E-3)
++(112.2, 1.99E-3)
++(120.1, 3.40E-3)
+
+.ENDS  CLAWP_OPA855
+*
+.SUBCKT ESD_OUT_OPA855 OUT VCC VEE
+.MODEL ESD_SW VSWITCH(RON=50 ROFF=1E12 VON=500E-3 VOFF=450E-3)
+S1 VCC OUT OUT VCC ESD_SW
+S2 OUT VEE VEE OUT ESD_SW
+.ENDS  ESD_OUT_OPA855
+*
+.SUBCKT FEMT_OPA855 1 2
+.PARAM FLWF=1000
+.PARAM NLFF=35000
+.PARAM NVRF=2500
+.PARAM GLFF={PWR(FLWF,0.25)*NLFF/1164}
+.PARAM RNVF={1.184*PWR(NVRF,2)}
+.MODEL DNVF D KF={PWR(FLWF,0.5)/1E11} IS=1.0E-16
+I1 0 7 10E-3
+I2 0 8 10E-3
+D1 7 0 DNVF
+D2 8 0 DNVF
+E1 3 6 7 8 {GLFF}
+R1 3 0 1E9
+R2 3 0 1E9
+R3 3 6 1E9
+E2 6 4 5 0 10
+R4 5 0 {RNVF}
+R5 5 0 {RNVF}
+R6 3 4 1E9
+R7 4 0 1E9
+G1 1 2 3 4 1E-6
+.ENDS  FEMT_OPA855
+*
+.SUBCKT IQ_SRC_OPA855 VC+ VC- IOUT+ IOUT-
+.PARAM GAIN = 1E-3
+G1 IOUT+ IOUT- VALUE={IF( (V(VC+,VC-)<=0),0,GAIN*V(VC+,VC-) )}
+.ENDS  IQ_SRC_OPA855
+*
+.SUBCKT VCM_CLAMP_OPA855 VIN+ VIN- IOUT- IOUT+ VP+ VP-
+.PARAM GAIN = 1
+G1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VIN+,VIN-),V(VP-,VIN-), V(VP+,VIN-))}
+.ENDS  VCM_CLAMP_OPA855
+*
+.SUBCKT VNSE_OPA855 1 2
+.PARAM FLW=1000
+.PARAM NLF=3
+.PARAM NVR=0.98
+.PARAM GLF={PWR(FLW,0.25)*NLF/1164}
+.PARAM RNV={1.184*PWR(NVR,2)}
+.MODEL DVN D KF={PWR(FLW,0.5)/1E11} IS=1.0E-16
+I1 0 7 10E-3
+I2 0 8 10E-3
+D1 7 0 DVN
+D2 8 0 DVN
+E1 3 6 7 8 {GLF}
+R1 3 0 1E9
+R2 3 0 1E9
+R3 3 6 1E9
+E2 6 4 5 0 10
+R4 5 0 {RNV}
+R5 5 0 {RNV}
+R6 3 4 1E9
+R7 4 0 1E9
+E3 1 2 3 4 1
+.ENDS  VNSE_OPA855
+*
+.SUBCKT VOS_DRIFT_OPA855 VOS+ VOS-
+.PARAM DC = -4E-4
+.PARAM POL = 1
+.PARAM DRIFT = 20E-6
+E1 VOS+ VOS- VALUE={DC+POL*DRIFT*(TEMP-27)}
+.ENDS  VOS_DRIFT_OPA855
+*
+.SUBCKT VOS_VS_VCM_OPA855 V+ V- REF+ REF-
+E1 V+ 1 TABLE {(V(REF+, V-))} =
++(0.35, 450E-6)
++(0.4, 435E-6)
++(0.55, 275E-6)
++(0.65, 150E-6)
++(0.75, 75E-6)
++(0.85, 25E-6)
++(1, 0)
+V1 1 V- 0
+.ENDS  VOS_VS_VCM_OPA855
+*
+
+**** RESUMING safqe.cir ****
+.TRAN  0 1m 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source DASDQ
+C_C254         0 N1078346  1n  TC=0,0 
+C_C262         0 N1078496  0.1u  TC=0,0 
+R_R154         0 N1077998  1 TC=0,0 
+C_C252         0 -5  0.1uF  TC=0,0 
+C_C265         0 N1077998  1.2p  TC=0,0 
+R_R155         N1078024 N1077998  1 TC=0,0 
+C_C261         0 N1078496  1n  TC=0,0 
+C_C263         0 N1078024  1n  TC=0,0 
+V_V1         5 0 5
+R_R148         N1078468 N1078478  200 TC=0,0 
+C_C264         0 N1078024  0.1u  TC=0,0 
+R_R149         -5 N1078496  15k TC=0,0 
+R_R147         N1078496 5  5k TC=0,0 
+R_R151         N1078024 N1078210  500 TC=0,0 
+X_U1         N1078496 N1078468 5 -5 N1078478 OPAX277
+C_C253         0 5  0.1uF  TC=0,0 
+V_V2         0 -5 5
+R_R156         N1078024 N1078270  1 TC=0,0 
+R_R153         N1078346 N1078478  130 TC=0,0 
+V_V3         VCC 0 2.5
+I_I1         N1077998 0 DC 0Adc AC 0Aac
++SIN 0 3m 1k 0 0 0
+V_V4         VEE 0 -2.5
+X_U2         N1078346 N1078270 VCC VEE N1078210 OPA855
+
+**** RESUMING safqe.cir ****
+.END
+
+**** 04/04/25 00:01:48 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-safqe"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\dasdq\dasdq-pspicefiles\schemat
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_U1.DVN   X_U1.X_U39.DVNF X_U1.X_U40.DVNF X_U2.X_E_N.DVN  
+          IS  100.000000E-18  100.000000E-18  100.000000E-18  100.000000E-18 
+          KF    3.162278E-12    3.162278E-12    3.162278E-12  316.227800E-12 
+
+
+               X_U2.X_I_NP1.DNVF               X_U2.X_U1.DNVF  
+          IS  100.000000E-18                  100.000000E-18 
+          KF  316.227800E-12                  316.227800E-12 
+
+
+**** 04/04/25 00:01:48 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-safqe"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\dasdq\dasdq-pspicefiles\schemat
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+               X_U2.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+**** 04/04/25 00:01:48 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-safqe"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\dasdq\dasdq-pspicefiles\schemat
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_S1._S1   X_U1.X_S2._S2   
+         RON     .01             .01         
+        ROFF    1.000000E+12    1.000000E+12 
+         VON     .01             .01         
+        VOFF    0               0            
+
+
+               X_U1.X_U20.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .7          
+        VOFF    0            
+
+
+               X_U1.X_U21.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .1          
+
+
+               X_U1.X_U25.OL_SW 
+         RON    1.000000E-03 
+        ROFF    1.000000E+12 
+         VON     .9          
+        VOFF     .8          
+
+
+               X_U1.X_U5.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .1          
+
+
+               X_U2.X_ESD_OUT.ESD_SW           X_U2.X_S1._S1   X_U2.X_S2._S2   
+         RON   50                               1.000000E-03    1.000000E-03 
+        ROFF    1.000000E+12                   20.000000E+03   20.000000E+03 
+         VON     .5                              .8              .8          
+        VOFF     .45                            -.6             -.4          
+
+
+**** 04/04/25 00:01:48 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-safqe"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\dasdq\dasdq-pspicefiles\schemat
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    5)    5.0000  (   -5)   -5.0000  (  VCC)    2.5000  (  VEE)   -2.5000      
+
+(X_U2.ZO)    2.5000                   (N1077998)     .0120                      
+
+(N1078024)     .0240                  (N1078210)    5.7833                      
+
+(N1078270)     .0245                  (N1078346)    2.4357                      
+
+(N1078468)    2.5000                  (N1078478)    2.5000                      
+
+(N1078496)    2.5000                  (X_U1.MID)-636.7E-18                      
+
+(X_U1.V11)-2.003E-09                  (X_U1.V12)-1.975E-09                      
+
+(X_U2.MID)    1.6416                  (X_U1.ESDN)    2.5000                     
+
+(X_U1.ESDP)    2.5000                 (X_U1.VCLP)    2.5090                     
+
+(X_U2.CMRR)    1.6416                 (X_U2.ESDN)     .0245                     
+
+(X_U2.ESDP)    2.4357                 (X_U1.CLAMP)    2.5084                    
+
+(X_U1.VCC_B)    5.0000                (X_U1.VEE_B)   -5.0000                    
+
+(X_U1.VIMON)     .4946                (X_U2.CLAMP)    1.6416                    
+
+(X_U2.PSRRN)    1.6413                (X_U2.PSRRP)    1.6414                    
+
+(X_U2.VCC_B)   -2.5000                (X_U2.VEE_B)    5.7833                    
+
+(X_U2.VIMON)  -60.9830                (X_U1.VOUT_S)    2.5000                   
+
+(X_U1.VSENSE)    2.5084               (X_U1.X_U1.3)    0.0000                   
+
+(X_U1.X_U1.4)    0.0000               (X_U1.X_U1.5)    0.0000                   
+
+(X_U1.X_U1.6)    0.0000               (X_U1.X_U1.7)     .8338                   
+
+(X_U1.X_U1.8)     .8338               (X_U2.AOLNET)    1.1416                   
+
+(X_U2.N06456)    2.4357               (X_U2.N10561)    2.4357                   
+
+(X_U2.N10570)    2.4358               (X_U2.N11984)    2.4358                   
+
+(X_U2.N11991)     .0245               (X_U2.N25816)    2.4359                   
+
+(X_U2.N28602)    6.8833               (X_U2.N30136)   -2.9000                   
+
+(X_U2.N30913)    2.4359               (X_U2.N31014)    2.4359                   
+
+(X_U2.N35675)   -3.8096               (X_U2.N35813)   -3.8096                   
+
+(X_U2.N38050)    7.2590               (X_U2.N38096)    7.2590                   
+
+(X_U2.VOUT_S)    2.5000               (X_U2.X_U1.3)    0.0000                   
+
+(X_U2.X_U1.4)    0.0000               (X_U2.X_U1.5)    0.0000                   
+
+(X_U2.X_U1.6)    0.0000               (X_U2.X_U1.7)     .8338                   
+
+(X_U2.X_U1.8)     .8338               (X_U1.VCC_CLP)    4.0039                  
+
+(X_U1.VEE_CLP)   -4.8260              (X_U1.X_U39.3)    0.0000                  
+
+(X_U1.X_U39.4)    0.0000              (X_U1.X_U39.5)    0.0000                  
+
+(X_U1.X_U39.6)    0.0000              (X_U1.X_U39.7)     .8338                  
+
+(X_U1.X_U39.8)     .8338              (X_U1.X_U40.3)    0.0000                  
+
+(X_U1.X_U40.4)    0.0000              (X_U1.X_U40.5)    0.0000                  
+
+(X_U1.X_U40.6)    0.0000              (X_U1.X_U40.7)     .8338                  
+
+(X_U1.X_U40.8)     .8338              (X_U2.N110431)  -60.9830                  
+
+(X_U2.N112292)    2.5000              (X_U2.N317950)    1.6416                  
+
+(X_U2.N406634)   -2.5000              (X_U2.N406794)    5.7833                  
+
+(X_U2.N749288)    2.4353              (X_U2.VCC_CLP)   -3.8095                  
+
+(X_U2.VEE_CLP)    7.2590              (X_U2.X_E_N.3)    0.0000                  
+
+(X_U2.X_E_N.4)    0.0000              (X_U2.X_E_N.5)    0.0000                  
+
+(X_U2.X_E_N.6)    0.0000              (X_U2.X_E_N.7)     .8338                  
+
+(X_U2.X_E_N.8)     .8338              (X_U1.CL_CLAMP)    2.5090                 
+
+(X_U1.N2986935)    2.5000             (X_U1.N2986947) 250.0E-09                 
+
+(X_U1.N2986949)    2.5000             (X_U1.N2986957)    2.5000                 
+
+(X_U1.N2986973)-1.581E-06             (X_U1.N2986975) 1.581E-06                 
+
+(X_U1.N2986977)    2.5000             (X_U1.N2986981)    2.5000                 
+
+(X_U1.N2987013)    2.5000             (X_U1.N2987017)    3.0000                 
+
+(X_U1.N2987029)   -3.0000             (X_U1.N2987037)    2.5000                 
+
+(X_U1.N2987051)    2.5000             (X_U1.N2987061) 44.40E-06                 
+
+(X_U1.N2987123)-636.7E-18             (X_U1.N2987135)-636.7E-18                 
+
+(X_U1.N2987157)-636.7E-18             (X_U1.N2987159)-636.7E-18                 
+
+(X_U1.N2987201)   35.0000             (X_U1.N2987203)-636.7E-18                 
+
+(X_U1.N2987205)-636.7E-18             (X_U1.N2987225)-636.7E-18                 
+
+(X_U1.N2987231)-636.7E-18             (X_U1.N2987243)  -35.0000                 
+
+(X_U1.N2987295)   75.0000             (X_U1.N2987299)-636.7E-18                 
+
+(X_U1.N2987301)-636.7E-18             (X_U1.N2987319)-636.7E-18                 
+
+(X_U1.N2987325)-636.7E-18             (X_U1.N2987337)  -75.0000                 
+
+(X_U1.N2987363)    2.5084             (X_U1.N2987391)    4.0039                 
+
+(X_U1.N2987395)   -4.8260             (X_U1.N2987423)   -4.8260                 
+
+(X_U1.N2987427)    4.0039             (X_U1.N2987487)-2.003E-09                 
+
+(X_U1.N2987493)-1.975E-09             (X_U1.N2987499)-636.7E-18                 
+
+(X_U1.N2987541)     .4946             (X_U1.N2987553)    2.5000                 
+
+(X_U1.N2987623)    2.5000             (X_U1.N2987655)     .5090                 
+
+(X_U1.N2987675)    4.4790             (X_U1.N2987683)     .5090                 
+
+(X_U1.N2987687)     .5090             (X_U1.N2987711)    4.4790                 
+
+(X_U1.N2987719)    4.4790             (X_U1.N2987763)-636.7E-18                 
+
+(X_U1.N2987785)    5.0000             (X_U1.N2987801)   -5.0000                 
+
+(X_U1.N3108745)    6.2706             (X_U1.N3108755)    2.5090                 
+
+(X_U1.N3108879)    2.5084             (X_U1.N3108917)    2.5090                 
+
+(X_U1.N3108949)    2.5090             (X_U1.N3109015)    2.5090                 
+
+(X_U1.N3116457)    2.5090             (X_U1.N3116503)   61.4300                 
+
+(X_U1.N3116515)   32.1140             (X_U1.N3116609)   61.4280                 
+
+(X_U1.N3116619)   22.8760             (X_U1.N3116655)   61.4210                 
+
+(X_U1.N3116665)     .0467             (X_U1.N3116675)   61.4280                 
+
+(X_U1.N3116685)   61.4280             (X_U1.N3116957)   61.4200                 
+
+(X_U1.N3117239)   61.4280             (X_U1.N3126023)    3.0007                 
+
+(X_U1.N3128929)   -4.7434             (X_U1.N3130349) 1.581E-06                 
+
+(X_U1.N3130359)     .0048             (X_U1.N3202117)   61.4280                 
+
+(X_U1.N3202127)   61.4280             (X_U1.N3202213)   61.4280                 
+
+(X_U1.N3204124)   61.4280             (X_U1.N3204134)   61.4280                 
+
+(X_U1.N3204220)   61.4280             (X_U1.N3205032)   61.4280                 
+
+(X_U1.N3205042)   61.4280             (X_U1.N3205128)   61.4280                 
+
+(X_U1.N3205956)   61.4280             (X_U1.N3205966)   61.4280                 
+
+(X_U1.N3206052)   61.4280             (X_U1.N3206890)   61.4280                 
+
+(X_U1.N3206900)   61.4280             (X_U1.N3206986)   61.4280                 
+
+(X_U1.N3208573)   61.4280             (X_U1.N3208669)   61.4280                 
+
+(X_U1.N3236810) 1.581E-09             (X_U1.N3236820) 1.581E-06                 
+
+(X_U2.N1254860)  -76.5910             (X_U2.N1446199)    1.6416                 
+
+(X_U2.N1446217)    1.6416             (X_U2.N1461236)    1.5487                 
+
+(X_U2.N1461246)    1.6416             (X_U2.N1461252)    1.6443                 
+
+(X_U2.N1481243)    4.6067             (X_U2.N1481253)    1.6418                 
+
+(X_U2.N1481259)    1.6409             (X_U2.N1483677)   -4.8932                 
+
+(X_U2.N1483687)    1.6413             (X_U2.N1483693)    1.6493                 
+
+(X_U2.N1483703)    1.6420             (X_U2.N1483713)    1.6339                 
+
+(X_U2.N1490067)    1.6414             (X_U2.N1492098)     .3541                 
+
+(X_U2.N1492108)     .7833             (X_U2.N1492118)     .7833                 
+
+(X_U2.N1492126)     .7833             (X_U2.N1492376)     .7833                 
+
+(X_U2.N1534615)  -20.2760             (X_U2.N1534625)     .8739                 
+
+(X_U2.N1534635)     .8739             (X_U2.N1534645)     .8739                 
+
+(X_U2.N1534887)     .8739             (X_U2.N1541593)  -17.9640                 
+
+(X_U2.N1541603)     .9549             (X_U1.N32898091)   61.4280                
+
+(X_U2.X_I_NP1.3)    0.0000            (X_U2.X_I_NP1.4)    0.0000                
+
+(X_U2.X_I_NP1.5)    0.0000            (X_U2.X_I_NP1.6)    0.0000                
+
+(X_U2.X_I_NP1.7)     .8338            (X_U2.X_I_NP1.8)     .8338                
+
+(X_U1.CLAW_CLAMP)    2.5090           (X_U1.SW_OL_OPAx277)-636.7E-18            
+
+(X_U2.X_VOS_VS_VCM.1)    2.4353       
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.785E-03
+    V_V2        -1.290E-03
+    V_V3        -9.696E-02
+    V_V4         8.544E-02
+    X_U1.V_VCM_MAX  -3.000E-12
+    X_U1.V_VCM_MIN   3.002E-12
+    X_U1.V_V_GRN   7.500E-11
+    X_U1.V_V_GRP  -7.500E-11
+    X_U1.V_V_ISCN   3.500E-11
+    X_U1.V_V_ISCP  -3.500E-11
+    X_U1.V_V_ORN   0.000E+00
+    X_U1.V_V_ORP   0.000E+00
+    X_U2.V_VCM_MAX   4.542E-09
+    X_U2.V_VCM_MIN  -5.242E-09
+    X_U1.X_H1.VH_H1   4.946E-04
+    X_U1.X_H2.VH_H2  -1.975E-09
+    X_U1.X_H3.VH_H3   2.003E-09
+    X_U2.X_H3.VH_H3   6.262E-02
+    X_U2.X_VOS_VS_VCM.V1   2.559E-13
+
+    TOTAL POWER DISSIPATION   4.71E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 04/04/25 00:01:48 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-safqe"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\dasdq\dasdq-pspicefiles\schemat
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .11
+

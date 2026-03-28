@@ -1,0 +1,126 @@
+\t (00:00:12) orcadx 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:12)     Journal start - Fri Apr  4 18:43:11 2025
+\t (00:00:12)         Host=BOOK-QTRCVV9COM User=user Pid=8480 CPUs=12
+\t (00:00:12) CmdLine= C:\Cadence\OrCADX_24.1\tools\bin\unison.exe -layout -orcadx -mpssession user -proj C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\testpcb\testpcb.opj C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/testpcb/allegro/testpcb.brd
+\t (00:00:12) 
+\d (00:00:12) Design opened: C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/testpcb/allegro/testpcb.brd
+\i (00:00:12) trapsize 6155
+\i (00:00:15) trapsize 7859
+\t (00:00:24) Loading consmgr.cxt 
+\t (00:00:24) Loading acns_formula.cxt 
+\i (00:00:24) trapsize 7848
+\i (00:00:24) trapsize 7997
+\t (00:00:28) nayunwoo159@kw.ac.kr user logged in.
+
+\i (00:00:29) trapsize 6888
+\i (00:00:29) updateport VisibilityPane
+\i (00:00:29) updateport PropPane
+\i (00:00:29) ucpedit 
+\i (00:00:29) updateport VisibilityPane
+\i (00:00:33) design sync eco 
+\t (00:00:33) > Requesting Capture to open design
+\t (00:00:33) > Response received OpenDesign is done by remote tool
+\t (00:00:33) Design opened successfully
+\t (00:00:33) > Requesting Capture to generate logical netlist
+\t (00:00:33) > Requesting Capture to open design
+\t (00:00:33) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:00:33) Logical netlist generated successfully at C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\testpcb\allegro
+\t (00:00:33) > Requesting Capture to generate logical netlist
+\t (00:00:33) > Response received OpenDesign is done by remote tool
+\t (00:00:33) Design opened successfully
+\t (00:00:33) > Generating Physical Netlist
+\t (00:00:33) Starting genfeedformat...
+\t (00:00:34) > Generating Physical Netlist successful
+\t (00:00:34) > Generating Differences
+\t (00:00:34) > Generating Differences successful
+\t (00:00:34) > Displaying differences output
+\t (00:00:34) > Displaying differences output successful
+\t (00:00:34) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:00:34) Logical netlist generated successfully at C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\testpcb\allegro
+\i (00:00:34) updateport ReportsPane
+\i (00:00:34) updateport SearchPane
+\i (00:00:34) updateport PropPane
+\i (00:00:35) QtSignal DesignSyncDialog sync_button clicked
+\t (00:00:35) > Sending response DoneOpenBoard
+\t (00:00:35) Starting Cadence Logic Import...
+\w (00:00:36) WARNING(SPMHGE-795): netrev had warnings.
+\t (00:00:36) Opening existing design...
+\i (00:00:37) trapsize 6888
+\w (00:00:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:38) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:38) trapsize 6888
+\t (00:00:38) Placed 50 of 51 symbols.
+\i (00:00:38) QtSignal DesignSyncDialog sch_comboBox EditingFinished "C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/testpcb/testpcb.opj"
+\i (00:00:38) QtSignal MainCanvas DesignSyncDialog closed
+\i (00:00:38) updateport ReportsPane
+\i (00:00:38) updateport SearchPane
+\i (00:00:38) updateport VisibilityPane
+\i (00:00:38) updateport PropPane
+\i (00:00:38) ucpedit 
+\i (00:00:38) updateport VisibilityPane
+\i (00:00:50) zoom in 1 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom in 16669.37 9657.21
+\i (00:00:50) trapsize 3444
+\i (00:00:50) zoom in 1 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom in 16669.37 9657.21
+\i (00:00:50) trapsize 1722
+\i (00:00:50) zoom in 1 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom in 16669.37 9657.21
+\i (00:00:50) trapsize 861
+\i (00:00:50) zoom out 1 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom out 16669.37 9657.21
+\i (00:00:50) trapsize 1722
+\i (00:00:50) zoom out 1 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom out 16669.37 9657.21
+\i (00:00:50) trapsize 3444
+\i (00:00:50) zoom out 1 
+\i (00:00:50) setwindow pcb
+\i (00:00:50) zoom out 16669.37 9657.21
+\i (00:00:50) trapsize 6888
+\i (00:00:54) zoom out 1 
+\i (00:00:54) setwindow pcb
+\i (00:00:54) zoom out 16669.37 9657.22
+\i (00:00:54) trapsize 10100
+\t (00:01:46) last pick:  24967.14 22583.54
+\w (00:01:46) WARNING(SPMHUT-40): Pick is outside the extent of the drawing ... pick again.
+\i (00:01:51) setwindow text
+\i (00:01:51) close
+\i (00:01:53) setwindow pcb
+\i (00:01:53) updateport CMPanelPort
+\i (00:01:53) updateport PropPane
+\i (00:01:53) updateport ReportsPane
+\i (00:01:53) updateport SearchPane
+\i (00:01:54) trapsize 7771
+\i (00:01:54) trapsize 10100
+\i (00:03:29) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:03:29) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:03:29) QtSignal MainCanvas CplGrpSel closed
+\i (00:03:29) QtSignal MainCanvas ImpPrefDialog closed
+\i (00:03:29) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:03:29) QtSignal MainCanvas ImpGrpSel closed
+\i (00:03:29) QtSignal MainCanvas CplPrefDialog closed
+\t (00:03:35)     Journal end - Fri Apr  4 18:46:34 2025

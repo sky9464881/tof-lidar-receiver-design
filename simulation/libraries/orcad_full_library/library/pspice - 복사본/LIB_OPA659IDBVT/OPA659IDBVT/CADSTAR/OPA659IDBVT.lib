@@ -1,0 +1,18 @@
+.OPA659IDBVT :1 ;Texas Instruments OPA659IDBVT JFET Op Amp, 350MHz, 5-Pin SOT-23
+SOT95P280X145-5N
+*STM IC
+*NGS
+*PLB 1="OUTPUT" 2="-VS" 3="NONINVERTING INPUT" 4="INVERTING INPUT" 5="+VS"
+*MXP 5
+*DFN OPA659IDBVT
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (OPA659IDBVT)
+~!Mouser Part Number (595-OPA659IDBVT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA659IDBVT?qs=IDSsxkoac0yQx%2FRcNbdWsA%3D%3D)
+~!Arrow Part Number (OPA659IDBVT)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/opa659idbvt/texas-instruments?region=nac)
+~!Link Datasheet (http://www.ti.com/lit/gpn/opa659)
+~!Height (1.45mm)
+~!3D_Model (OPA659IDBVT)
+OPA659IDBVT
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

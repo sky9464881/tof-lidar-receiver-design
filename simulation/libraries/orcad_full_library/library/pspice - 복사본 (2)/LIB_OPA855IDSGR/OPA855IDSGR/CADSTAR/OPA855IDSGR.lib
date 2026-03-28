@@ -1,0 +1,18 @@
+.OPA855IDSGR :1 ;High Speed Operational Amplifiers 8 GHz Gain Bandwidth Product, Decompensated Transimpedance Amplifier with Bipolar Input 8-WSON -40 to 125
+SON50P200X200X80-9N-D
+*STM IC
+*NGS
+*PLB 1="FB" 2="NC" 3="IN-" 4="IN+" 5="VS-" 6="OUT" 7="VS+" 8="'PD'" 9="THERMAL PAD"
+*MXP 9
+*DFN OPA855IDSGR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (OPA855IDSGR)
+~!Mouser Part Number (595-OPA855IDSGR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA855IDSGR?qs=byeeYqUIh0NcoHbLiEzp0g%3D%3D)
+~!Arrow Part Number (OPA855IDSGR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/opa855idsgr/texas-instruments?region=nac)
+~!Link Datasheet (http://www.ti.com/lit/ds/symlink/opa855.pdf)
+~!Height (0.8mm)
+~!3D_Model (OPA855IDSGR)
+OPA855IDSGR
+1.1!I 2.1!U 3.1!I 4.1!I 9.1!G 8.1!I 7.1!P 6.1!Y 5.1!P 

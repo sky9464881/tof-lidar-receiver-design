@@ -1,0 +1,16 @@
+* Library of European Models
+*
+*  Copyright Cadence Design Systems, Inc. 2002 All Rights Reserved.
+*
+*
+* $Revision:   1.7  $
+* $Author:   HIRASUNA  $
+* $Date:   11 May 2000 13:26:32  $
+*
+* ---------------------------------------------------------------------------
+
+* This file references each of these libraries.
+
+.lib "ediode.lib"               ; European diodes
+.lib "ebipolar.lib"             ; European bipolar transistors
+.lib "epwrbjt.lib"              ; European power bipolar transistors

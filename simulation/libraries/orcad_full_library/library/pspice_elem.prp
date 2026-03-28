@@ -1,0 +1,451 @@
+("ground"
+	(Creator "Device property file created by analog_uprev on Wed Jan  3 09:57:42 IST 2001")
+	("device_info"
+		( MODEL_TYPE 3 )
+		( SYMBOL_NAME "Ground" )
+		( PORT_ORDER 
+ 			("A")
+ 			("B") )
+	)
+	("device_max_ops"
+	)
+)
+("capacitor"
+	(Creator "Device property file created by analog_uprev on Wed Jan  3 09:57:42 IST 2001")
+	("device_info"
+		( MODEL_TYPE 1 )
+		( SYMBOL_NAME "Capacitor" )
+		( PORT_ORDER 
+ 			("A")
+ 			("B") )
+	)
+	("model_params"
+	("symbol"
+			( "IC" )
+			( "TC" )
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("v_sinusoidal"
+	(Creator "Device property file created by analog_uprev on Wed Jan  3 09:57:42 IST 2001")
+	("device_info"
+		( MODEL_TYPE 111 )
+		( SYMBOL_NAME "V.Source" )
+		( PORT_ORDER 
+ 			("PVS")
+ 			("NVS") )
+	)
+	("device_max_ops"
+	)
+)
+("v_pulse"
+	(Creator "Device property file created by analog_uprev on Wed Jan  3 09:57:42 IST 2001")
+	("device_info"
+		( MODEL_TYPE 112 )
+		( SYMBOL_NAME "V.Source" )
+		( PORT_ORDER 
+ 			("PVS")
+ 			("NVS") )
+	)
+	("device_max_ops"
+	)
+)
+("v_square"
+	(Creator "Device property file created by analog_uprev on Wed Jan  3 09:57:42 IST 2001")
+	("device_info"
+		( MODEL_TYPE 113 )
+		( SYMBOL_NAME "V.Source" )
+		( PORT_ORDER 
+ 			("PVS")
+ 			("NVS"))
+	)
+	("device_max_ops"
+	)
+)
+("i_sinusoidal"
+	(Creator "Device property file created by analog_uprev on Wed Jan  3 09:57:42 IST 2001")
+	("device_info"
+		( MODEL_TYPE 114 )
+		( SYMBOL_NAME "C.Source" )
+		( PORT_ORDER 
+ 			("PIS")
+ 			("NIS"))
+	)
+	("device_max_ops"
+	)
+)
+("i_pulse"
+	(Creator "Device property file created by analog_uprev on Wed Jan  3 09:57:42 IST 2001")
+	("device_info"
+		( MODEL_TYPE 115 )
+		( SYMBOL_NAME "C.Source" )
+		( PORT_ORDER 
+ 			("PIS")
+ 			("NIS") )
+	)
+	("device_max_ops"
+	)
+)
+("i_square"
+	(Creator "Device property file created by analog_uprev on Wed Jan  3 09:57:42 IST 2001")
+	("device_info"
+		( MODEL_TYPE 116 )
+		( SYMBOL_NAME "C.Source" )
+		( PORT_ORDER 
+ 			("PIS")
+ 			("NIS"))
+	)
+	("device_max_ops"
+	)
+)
+("inductor"
+	(Creator "Device property file created by analog_uprev on Wed Jan  3 09:57:42 IST 2001")
+	("device_info"
+		( MODEL_TYPE 2 )
+		( SYMBOL_NAME "Inductor" )
+		( PORT_ORDER 
+ 			("A")
+ 			("B") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+			( "IC" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("voltage_source"
+	(Creator "Device property file created by analog_uprev on Wed Jan  3 09:57:42 IST 2001")
+	("device_info"
+		( MODEL_TYPE 33 )
+		( SYMBOL_NAME "V.Source" )
+		( PORT_ORDER 
+ 			("PVS")
+ 			("NVS") )
+	)
+	("model_params"
+	("symbol"
+			( "DC_VALUE" )
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("current_source"
+	(Creator "Device property file created by analog_uprev on Wed Jan  3 09:57:42 IST 2001")
+	("device_info"
+		( MODEL_TYPE 35 )
+		( SYMBOL_NAME "C.Source" )
+		( PORT_ORDER 
+ 			("PIS")
+ 			("NIS") )
+	)
+	("model_params"
+	("symbol"
+			( "DC_VALUE" )
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("voltage_bus"
+	(Creator "Device property file created by analog_uprev on Wed Jan  3 09:57:42 IST 2001")
+	("device_info"
+		( MODEL_TYPE 46 )
+		( SYMBOL_NAME "V.Bus" )
+		( PORT_ORDER 
+ 			("VOUT")
+ 			("0") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("resistor"
+	(Creator "Device property file created by analog_uprev on Wed Jan  3 09:57:42 IST 2001")
+	("device_info"
+		( MODEL_TYPE 0 )
+		( SYMBOL_NAME "Resistor" )
+		( PORT_ORDER 
+ 			("A")
+ 			("B") )
+	)
+	("model_params"
+	("symbol"
+			( "TC1" )
+			( "TC2" )
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbvalve_reg_cell"
+	(Creator "Device property file created by analog_uprev on Wed Jan  3 09:57:42 IST 2001")
+	("device_info"
+		( MODEL_TYPE 8 )
+		( SYMBOL_NAME "Battery" )
+		( PORT_ORDER 
+ 			("+")
+ 			("-") )
+	)
+	("model_params"
+	("symbol"
+			( "VOC" )
+			( "AH" )
+			( "SOC" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbflooded_cell"
+	(Creator "Device property file created by analog_uprev on Wed Jan  3 09:57:42 IST 2001")
+	("device_info"
+		( MODEL_TYPE 8 )
+		( SYMBOL_NAME "Battery" )
+		( PORT_ORDER 
+ 			("+")
+ 			("-") )
+	)
+	("model_params"
+	("symbol"
+			( "VOC" )
+			( "AH" )
+			( "SOC" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbcapacitor"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"401")
+        ("SYMBOL_NAME"	"CAPACITOR")
+        ("PORT_ORDER"
+            ("A")
+            ("B")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("CAP"
+                ("val"	"1u")
+                ("postol"	"POSTOL")
+                ("negtol"	"NEGTOL")
+                ("distrib"	"DIST")
+            )
+            ("C1"
+                ("val"	"10n")
+                ("postol"	"C1_PTOL")
+                ("negtol"	"C1_NTOL")
+                ("distrib"	"C1_DIST")
+            )
+            ("C2"
+                ("val"	"2")
+                ("postol"	"C2_PTOL")
+                ("negtol"	"C2_NTOL")
+                ("distrib"	"C2_DIST")
+            )
+            ("C3"
+                ("val"	"111")
+                ("postol"	"C3_PTOL")
+                ("negtol"	"C3_NTOL")
+                ("distrib"	"C3_DIST")
+            )
+            ("ESL"
+                ("val"	"100u")
+                ("postol"	"ESL_PTOL")
+                ("negtol"	"ESL_NTOL")
+                ("distrib"	"ESL_DIST")
+            )
+            ("RESL"
+                ("val"	"10")
+                ("postol"	"10%")
+                ("negtol"	"10%")
+                ("distrib"	"FLAT")
+            )
+            ("ESR"
+                ("val"	"11")
+                ("postol"	"ESR_PTOL")
+                ("negtol"	"ESR_NTOL")
+                ("distrib"	"ESR_DIST")
+            )
+            ("RP"
+                ("val"	"12m")
+                ("postol"	"RP_PTOL")
+                ("negtol"	"RP_NTOL")
+                ("distrib"	"RP_DIST")
+            )
+            ("TC"
+                ("val"	"100")
+                ("postol"	"TC_PTOL")
+                ("negtol"	"TC_NTOL")
+                ("distrib"	"TC_DIST")
+            )
+            ("TC1_ESR"
+                ("val"	"10")
+                ("postol"	"TC1_ESR_PTOL")
+                ("negtol"	"TC1_ESR_NTOL")
+                ("distrib"	"TC1_ESR_DIST")
+            )
+            ("TC2_ESR"
+                ("val"	"10")
+                ("postol"	"TC2_ESR_PTOL")
+                ("negtol"	"TC2_ESR_NTOL")
+                ("distrib"	"TC2_ESR_DIST")
+            )
+        )
+    )
+    ("device_max_ops"
+	( "CV" "1")
+	( "CI" "10m")
+	( "SLP" "10")
+	( "TBRK" "27")
+	( "TMAX" "55")
+    )
+)
+("awbinductor"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"402")
+        ("SYMBOL_NAME"	"INDUCTOR")
+        ("PORT_ORDER"
+            ("A")
+            ("B")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("IND"
+                ("val"	"10n")
+                ("postol"	"POSTOL")
+                ("negtol"	"NEGTOL")
+                ("distrib"	"DIST")
+            )
+            ("L1"
+                ("val"	"1")
+                ("postol"	"L1_PTOL")
+                ("negtol"	"L1_NTOL")
+                ("distrib"	"L1_DIST")
+            )
+            ("L2"
+                ("val"	"2")
+                ("postol"	"L2_PTOL")
+                ("negtol"	"L2_NTOL")
+                ("distrib"	"L2_DIST")
+            )
+            ("L3"
+                ("val"	"10")
+                ("postol"	"L3_PTOL")
+                ("negtol"	"L3_NTOL")
+                ("distrib"	"L3_DIST")
+            )
+            ("RIND"
+                ("val"	"1meg")
+                ("postol"	"RIND_PTOL")
+                ("negtol"	"RIND_NTOL")
+                ("distrib"	"RIND_DIST")
+            )
+            ("CS"
+                ("val"	"0.47u")
+                ("postol"	"CS_PTOL")
+                ("negtol"	"CS_NTOL")
+                ("distrib"	"CS_DIST")
+            )
+            ("ESR"
+                ("val"	"100")
+                ("postol"	"ESR_PTOL")
+                ("negtol"	"ESR_NTOL")
+                ("distrib"	"ESR_DIST")
+            )
+            ("TC1_ESR"
+                ("val"	"10")
+                ("postol"	"TC1_ESR_PTOL")
+                ("negtol"	"TC1_ESR_NTOL")
+                ("distrib"	"TC1_ESR_DIST")
+            )
+            ("TC2_ESR"
+                ("val"	"10")
+                ("postol"	"TC2_ESR_PTOL")
+                ("negtol"	"TC2_ESR_NTOL")
+                ("distrib"	"TC2_ESR_DIST")
+            )
+        )
+    )
+    ("device_max_ops"
+	( "LI" "10m")
+	( "LV" "111m")
+    )
+)
+("awbresistor"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"400")
+        ("SYMBOL_NAME"	"RESISTOR")
+        ("PORT_ORDER"
+            ("A")
+            ("B")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("RES"
+                ("val"	"1k")
+                ("postol"	"POSTOL")
+                ("negtol"	"NEGTOL")
+                ("distrib"	"DIST")
+            )
+            ("ESL"
+                ("val"	"100m")
+                ("postol"	"ESL_PTOL")
+                ("negtol"	"ESL_NTOL")
+                ("distrib"	"ESL_DIST")
+            )
+            ("RESL"
+                ("val"	"100")
+                ("postol"	"RESL_PTOL")
+                ("negtol"	"RESL_NTOL")
+                ("distrib"	"RESL_DIST")
+            )
+            ("CS"
+                ("val"	"100u")
+                ("postol"	"CS_PTOL")
+                ("negtol"	"CS_NTOL")
+                ("distrib"	"CS_DIST")
+            )
+            ("RTMPL"
+                ("val"	"100m")
+                ("postol"	"RTMPL_PTOL")
+                ("negtol"	"RTMPL_NTOL")
+                ("distrib"	"RTMPL_DIST")
+            )
+            ("RTMPQ"
+                ("val"	"100u")
+                ("postol"	"RTMPQ_PTOL")
+                ("negtol"	"RTMPQ_NTOL")
+                ("distrib"	"RTMPQ_DIST")
+            )
+        )
+    )
+    ("device_max_ops"
+	( "RBA" "123")
+	( "PDM" "0.25")
+	( "SLP" "100m")
+	( "TMAX" "200")
+	( "TB" "200")
+    )
+)
+

@@ -1,0 +1,157 @@
+*****************************************************************************************
+* LP_K376-typ D, OSRAM Argus
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LP_K376-typ D
++ IS=980.13E-24
++ N=1.6749
++ RS=1.6217
++ IKF=7.1402E-3
+*$
+*
+*****************************************************************************************
+* LY_K376-typ D, OSRAM Argus
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LY_K376-typ D
++ IS=980.13E-24
++ N=1.6749
++ RS=1.6217
++ IKF=7.1402E-3
+*$
+*
+*****************************************************************************************
+* LS_K376-typ D, OSRAM Argus
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LS_K376-typ D
++ IS=980.13E-24
++ N=1.6749
++ RS=1.6217
++ IKF=7.1402E-3
+*$
+*
+*****************************************************************************************
+* LO_K376-typ D, OSRAM Argus
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LO_K376-typ D
++ IS=980.13E-24
++ N=1.6749
++ RS=1.6217
++ IKF=7.1402E-3
+*$
+*
+*****************************************************************************************

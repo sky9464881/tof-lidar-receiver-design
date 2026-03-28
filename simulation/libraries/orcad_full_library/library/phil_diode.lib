@@ -1,0 +1,3078 @@
+* Library of PHILIPS Diodes                           
+* $Revision:   1.0  $
+* $Author:   HIRASUNA	  $
+* $Date:   06 Jul 2001 10:10:36  $
+*
+*---------------------------------------------------------------
+*
+* This data is intended for use by customers in the design of electrical 
+* circuits using PHILIPS semiconductors.  The usual care has been taken, 
+* first, in generating the data, and second, in transcribing into  the 
+* data disk.  However, no responsibility for inaccuracies can be assumed 
+* by PHILIPS.  PHILIPS does not assume any liability arising out of the 
+* use of the data or circuits built therefrom; neither does it convey any
+* license under its patent rights nor the rights of others.
+* 
+* PHILIPS reserves the right to make changes without further notice to 
+* any product described in the part herein to improve reliability, 
+* function or design.
+* 
+* Philips Semiconductors
+* Business Group Transistors & Diodes
+* attention: Mr. P. Swinkels
+* Building BY 3.014
+* Gerstweg 2
+* 6534 AE  Nijmegen
+* The Netherlands
+* Fax:  +31-24-3532901* BF547 SPICE MODEL
+*
+*-------------------------------------------------------------------
+*$ 
+*
+*DEVICE=D1N5259B/PLP,D
+* D1N5259B D model
+* created using Parts release 7.1 on 08/21/98 at 10:38
+* Parts is a MicroSim product.
+.MODEL D1N5259B/PLP D
++ IS=389.27E-15
++ N=1.2744
++ RS=1.0000E-6
++ IKF=.1035
++ CJO=14.208E-12
++ M=1.1798
++ VJ=9.9900
++ ISR=29.315E-12
++ BV=38.982
++ IBV=.52416
++ TT=1.7312E-6
+*$ 
+*-------------------------------------------------------------------
+*
+.SUBCKT D1ps70sb10/PLP 1 3 
+* The Resistor R1 does not reflect 
+* a physical device.  Instead it
+* improves modeling in the reverse 
+* mode of operation.
+*
+R1 1 3 3.6E+07 
+D1 1 3 D1ps70sb10  
+*
+.MODEL D1ps70sb10 D( 
++    IS = 2.117E-07 
++    N = 1.016 
++    BV = 36 
++    IBV = 1.196E-06 
++    RS = 2.637 
++    CJO = 1.114E-11 
++    VJ = 0.2013 
++    M = 0.3868 
++    FC = 0 
++    TT = 0 
++    EG = 0.69 
++    XTI = 2) 
+.ENDS
+*
+*-------------------------------------------------------------------
+*$ 
+*
+*
+.SUBCKT D1ps70sb14/PLP 1 2 3
+* The resistors do not reflect 
+* physical devices.  Instead they
+* improve modeling in the reverse 
+* mode of operation.
+*
+R1 1 3 3.6E+07 
+D1 1 3 D1ps70sb14
+R2 3 2 3.6E+07
+D2 3 2 D1ps70sb14 
+*
+.MODEL D1ps70sb14 D( 
++    IS = 2.117E-07 
++    N = 1.016 
++    BV = 36 
++    IBV = 1.196E-06 
++    RS = 2.637 
++    CJO = 1.114E-11 
++    VJ = 0.2013 
++    M = 0.3868 
++    FC = 0 
++    TT = 0 
++    EG = 0.69 
++    XTI = 2) 
+.ENDS
+*
+*-------------------------------------------------------------------
+*$ 
+*
+*
+.SUBCKT D1ps70sb15/PLP 1 2 3
+* The resistors do not reflect 
+* physical devices.  Instead they
+* improve modeling in the reverse 
+* mode of operation.
+*
+R1 1 3 3.6E+07 
+D1 1 3 D1ps70sb15
+R2 2 3 3.6E+07
+D2 2 3 D1ps70sb15 
+*
+.MODEL D1ps70sb15 D( 
++    IS = 2.117E-07 
++    N = 1.016 
++    BV = 36 
++    IBV = 1.196E-06 
++    RS = 2.637 
++    CJO = 1.114E-11 
++    VJ = 0.2013 
++    M = 0.3868 
++    FC = 0 
++    TT = 0 
++    EG = 0.69 
++    XTI = 2) 
+.ENDS
+*
+*-------------------------------------------------------------------
+*$ 
+*
+*
+.SUBCKT D1ps70sb16/PLP 1 2 3
+* The resistors do not reflect 
+* physical devices.  Instead they
+* improve modeling in the reverse 
+* mode of operation.
+*
+R1 3 1 3.6E+07 
+D1 3 1 D1ps70sb16
+R2 3 2 3.6E+07
+D2 3 2 D1ps70sb16 
+*
+.MODEL D1ps70sb16 D( 
++    IS = 2.117E-07 
++    N = 1.016 
++    BV = 36 
++    IBV = 1.196E-06 
++    RS = 2.637 
++    CJO = 1.114E-11 
++    VJ = 0.2013 
++    M = 0.3868 
++    FC = 0 
++    TT = 0 
++    EG = 0.69 
++    XTI = 2) 
+.ENDS
+*
+*-------------------------------------------------------------------
+*$ 
+*
+*
+.SUBCKT D1PS70SB40/PLP 1 3
+* The Resistor R1 does not reflect 
+* a physical device.  Instead it 
+* improves modeling in the reverse
+* mode of operation.
+R1 1 3 6.659E+08 
+D1 1 3 D1PS70SB40
+*
+.MODEL D1PS70SB40 D( 
++ IS = 1.419E-08 
++ N = 1.025 
++ BV = 44 
++ IBV = 1.255E-07 
++ RS = 4.942 
++ CJO = 4.046E-12 
++ VJ = 0.323 
++ M = 0.4154 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT D1PS70SB44/PLP 1 2 3
+* The Resistors do not reflect
+* physical devices.  Instead they 
+* improve modeling in the reverse
+* mode of operation.
+R1 1 3 6.659E+08 
+D1 1 3 D1PS70SB44
+R2 3 2 6.659E+08
+D2 3 2 D1PS70SB44
+*
+.MODEL D1PS70SB44 D( 
++ IS = 1.419E-08 
++ N = 1.025 
++ BV = 44 
++ IBV = 1.255E-07 
++ RS = 4.942 
++ CJO = 4.046E-12 
++ VJ = 0.323 
++ M = 0.4154 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT D1PS70SB45/PLP 1 2 3
+* The Resistors do not reflect
+* physical devices.  Instead they 
+* improve modeling in the reverse
+* mode of operation.
+R1 1 3 6.659E+08 
+D1 1 3 D1PS70SB45
+R2 2 3 6.659E+08
+D2 2 3 D1PS70SB45
+*
+.MODEL D1PS70SB45 D( 
++ IS = 1.419E-08 
++ N = 1.025 
++ BV = 44 
++ IBV = 1.255E-07 
++ RS = 4.942 
++ CJO = 4.046E-12 
++ VJ = 0.323 
++ M = 0.4154 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT D1PS70SB46/PLP 1 2 3
+* The Resistors do not reflect
+* physical devices.  Instead they 
+* improve modeling in the reverse
+* mode of operation.
+R1 3 1 6.659E+08 
+D1 3 1 D1PS70SB46
+R2 3 2 6.659E+08
+D2 3 2 D1PS70SB46
+*
+.MODEL D1PS70SB46 D( 
++ IS = 1.419E-08 
++ N = 1.025 
++ BV = 44 
++ IBV = 1.255E-07 
++ RS = 4.942 
++ CJO = 4.046E-12 
++ VJ = 0.323 
++ M = 0.4154 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT D1PS70SB82/PLP 1 3
+*
+R1 1 3 3E+07
+D1 1 3 D1PS70SB82
+*
+* The resistors do not reflect 
+* physical devices. Instead they
+* improve modeling in the reverse 
+* mode of operation.
+*
+.MODEL D1PS70SB82 D
++ IS = 1.042E-08
++ N = 1.029
++ BV = 20
++ IBV = 0.001
++ RS = 5.567
++ CJO = 1.029E-12
++ VJ = 0.2159
++ M = 0.1731
++ FC = 0
++ TT = 0
++ EG = 0.69
++ XTI = 2
+.ENDS
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT D1PS70SB84/PLP 1 2 3
+*
+R1 1 3 3E+07
+D1 1 3 D1PS70SB84
+R2 3 2 3E+07
+D2 3 2 D1PS70SB84  
+*
+* The resistors do not reflect 
+* physical devices. Instead they
+* improve modeling in the reverse 
+* mode of operation.
+*
+.MODEL D1PS70SB84 D
++ IS = 1.042E-08
++ N = 1.029
++ BV = 20
++ IBV = 0.001
++ RS = 5.567
++ CJO = 1.029E-12
++ VJ = 0.2159
++ M = 0.1731
++ FC = 0
++ TT = 0
++ EG = 0.69
++ XTI = 2
+.ENDS
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT D1PS70SB85/PLP 1 2 3
+*
+R1 1 3 3E+07
+D1 1 3 D1PS70SB85
+R2 2 3 3E+07
+D2 2 3 D1PS70SB85
+*
+* The resistors do not reflect 
+* physical devices. Instead they
+* improve modeling in the reverse 
+* mode of operation.
+*
+.MODEL D1PS70SB85 D
++ IS = 1.042E-08
++ N = 1.029
++ BV = 20
++ IBV = 0.001
++ RS = 5.567
++ CJO = 1.029E-12
++ VJ = 0.2159
++ M = 0.1731
++ FC = 0
++ TT = 0
++ EG = 0.69
++ XTI = 2
+.ENDS
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT D1PS70SB86/PLP 1 2 3
+*
+R1 3 1 3E+07
+D1 3 1 D1PS70SB86
+R2 3 2 3E+07
+D2 3 2 D1PS70SB86
+*
+* The resistors do not reflect 
+* physical devices. Instead they
+* improve modeling in the reverse 
+* mode of operation.
+*
+.MODEL D1PS70SB86 D
++ IS = 1.042E-08
++ N = 1.029
++ BV = 20
++ IBV = 0.001
++ RS = 5.567
++ CJO = 1.029E-12
++ VJ = 0.2159
++ M = 0.1731
++ FC = 0
++ TT = 0
++ EG = 0.69
++ XTI = 2
+.ENDS
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT D1PS74SB23/PLP 1 2 
+* The Resistor R1 does not reflect 
+* a physical device.  Instead it
+* improves modeling in the reverse
+* mode of operation.
+R1 1 2 2.56E+05 
+D1 1 2 D1PS74SB23
+.MODEL D1PS74SB23 D 
++ IS = 6.984E-06 
++ N = 1.023 
++ BV = 30 
++ IBV = 0.0002402 
++ RS = 0.1574 
++ CJO = 3.075E-10 
++ VJ = 0.6615 
++ M = 0.6098 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT D1PS74SB43/PLP 1 2
+*
+* The resistor R1 does not reflect
+* a physical device. Instead it 
+* improves modeling in the reverse
+* mode of operation.
+*
+R1 1 2 1.4E+06
+D1 1 2 D1PS74SB43
+*
+.MODEL D1PS74SB43 D
++ IS = 4.9E-06
++ N = 1.001
++ BV = 40
++ IBV = 6E-05
++ RS = 0.108
++ CJO = 3.791E-10
++ VJ = 0.103
++ M = 0.4704
++ FC = 0.5
++ TT = 0
++ EG = 0.69
++ XTI = 2
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT D1PS75SB45/PLP 1 2 3
+*
+* The resistors do not reflect 
+* physical devices.  Instead they
+* improve modeling in the reverse
+* mode of operation.
+*
+R1 1 3 8E+08 
+D1 1 3 D1PS75SB45
+R2 2 3 8E+08
+D2 2 3 D1PS75SB45 
+.MODEL D1PS75SB45 D( 
++ IS = 9.114E-09 
++ N = 1.006 
++ BV = 45 
++ IBV = 7.8E-05 
++ RS = 4.563 
++ CJO = 3.895E-12 
++ VJ = 0.3192 
++ M = 0.4008 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT D1PS76SB10/PLP 1 2 
+* The Resistor R1 does not reflect 
+* a physical device.  Instead it
+* improves modeling in the reverse
+* mode of operation.
+R1 1 2 2.9E+07 
+D1 1 2 SBD 
+.MODEL SBD D( 
++ IS = 2.548E-07 
++ N = 1.02 
++ BV = 33 
++ IBV = 1.251E-06 
++ RS = 2.582 
++ CJO = 9.92E-12 
++ VJ = 0.317 
++ M = 0.4411 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+*.SUBCKT D1PS76SB17/PLP 1 2 
+* The Resistor R1 does not reflect
+* a physical device.  Instead it
+* improves modeling in the reverse
+* mode of operation.
+R1 1 2 6E+07 
+D1 1 2 SBD 
+.MODEL SBD D( 
++ IS = 1.419E-09 
++ N = 1.022 
++ BV = 6 
++ IBV = 2.45E-06 
++ RS = 5.112 
++ CJO = 7.867E-13 
++ VJ = 0.1043 
++ M = 0.1439 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT D1PS76SB21/PLP 1 2 
+* The Resistor R1 does not reflect
+* a physical device.  Instead it 
+* improves modeling in the 
+* reverse mode of operation.
+R1 1 2 5.9E+06 
+D1 1 2 D1PS76SB21 
+.MODEL D1PS76SB21 D (
++ IS = 1.009E-06 
++ N = 1.017 
++ BV = 44 
++ IBV = 0.001611 
++ RS = 0.6578 
++ CJO = 3.76E-11 
++ VJ = 0.274 
++ M = 0.4381 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2 )
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT D1PS76SB40/PLP 1 2 
+* The Resistor R1 does not 
+* reflect a physical device. 
+* Instead it improves modeling
+* in the reverse mode of 
+* operation.
+R1 1 2 6.659E+08 
+D1 1 2 D1PS76SB40
+*
+.MODEL D1PS76SB40 D( 
++ IS = 1.419E-08 
++ N = 1.025 
++ BV = 44 
++ IBV = 1.255E-07 
++ RS = 4.942 
++ CJO = 4.046E-12 
++ VJ = 0.323 
++ M = 0.4154 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT D1PS76SB62/PLP 1 2
+*
+* The resistor R1 does not reflect 
+* a physical device. Instead it
+* improves modelling in the reverse
+* mode of operation.
+*
+R1 1 2 5.729E+08
+D1 1 2 D1PS76SB62
+*
+.MODEL D1PS76SB62 D
++ IS = 4E-10
++ N = 0.9529
++ BV = 43
++ IBV = 0.0001
++ RS = 131.3
++ CJO = 4.181E-13
++ VJ = 0.1122
++ M = 0.08766
++ FC = 0.5
++ TT = 0
++ EG = 0.69
++ XTI = 2
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT D1PS76SB70/PLP 1 2 
+* The Resistor R1 does not reflect a
+* physical device.  Instead it improves
+* modeling in the reverse mode of
+* operation.
+R1 1 2 1.409E+09 
+D1 1 2 D1PS76SB70  
+.MODEL D1PS76SB70 D( 
++ IS = 3.22E-09 
++ N = 1.018 
++ BV = 77
++ IBV = 1.67E-07 
++ RS = 20.89 
++ CJO = 1.655E-12 
++ VJ = 0.349
++ M = 0.3583
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT D1PS79SB10/PLP 1 2 
+* The Resistor R1 does not reflect a
+* physical device.  Instead it improves
+* modeling in the reverse mode of
+* operation.
+R1 1 2 3.5E+07 
+D1 1 2 D1PS79SB10 
+* 
+.MODEL D1PS79SB10 D( 
++ IS = 2.36E-07 
++ N = 1.009 
++ BV = 33 
++ IBV = 0.001 
++ RS = 2.633 
++ CJO = 9.53E-12 
++ VJ = 0.2034 
++ M = 0.3811 
++ FC = 0.6435 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT D1PS79SB30/PLP 1 2
+*
+* The Resistor R1 does not reflect 
+* a physical device. Instead it
+* improves modeling in the reverse 
+* mode of operation.
+*
+R1 1 2 9.5E+07
+D1 1 2 1PS79SB30
+*
+.MODEL 1PS79SB30 D
++ IS = 8E-08
++ N = 1.012
++ BV = 45
++ IBV = 0.0001
++ RS = 0.8243
++ CJO = 2.515E-11
++ VJ = 0.4182
++ M = 0.4941
++ FC = 0.5
++ TT = 0
++ EG = 0.69
++ XTI = 2
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT D1PS79SB40/PLP 1 2
+*
+* The resistor does not reflect a
+* physical devices.  Instead it improves
+* modeling in the reverse mode of
+* operation.
+*
+R1 1 2 8E+08
+D1 1 2 D1PS79SB40
+.MODEL D1PS79SB40 D
++ IS = 8.361E-09
++ N = 1.003
++ BV = 44
++ IBV = 8E-07
++ RS = 5.031
++ CJO = 3.8E-12
++ VJ = 0.1119
++ M = 0.2915
++ FC = 1
++ TT = 0
++ EG = 0.69
++ XTI = 2
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT D1PS79SB62/PLP 1 2
+*
+* The resistor R1 does not reflect 
+* a physical device. Instead it
+* improves modelling in the reverse
+* mode of operation.
+*
+R1 1 2 5.729E+08
+D1 1 2 1PS79SB62
+*
+.MODEL 1PS79SB62 D
++ IS = 4E-10
++ N = 0.9529
++ BV = 43
++ IBV = 0.0001
++ RS = 131.3
++ CJO = 4.077E-13
++ VJ = 0.1032
++ M = 0.09482
++ FC = 0.5
++ TT = 0
++ EG = 0.69
++ XTI = 2
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+* D1PS88SB48
+* The resistors do not reflect 
+* physical devices.  Instead 
+* they improve modeling in the
+* reverse mode of operation.
+*
+.SUBCKT D1PS88SB48/PLP 1 2 3 4 5 6
+R1 1 6 8.961E+08 
+D1 1 6 D1PS88SB48 
+R2 2 6 8.961E+08
+D2 2 6 D1PS88SB48
+R3 4 3 8.961E+08
+D3 4 3 D1PS88SB48
+R4 5 3 8.961E+08
+D4 5 3 D1PS88SB48
+.MODEL D1PS88SB48 D 
++ IS = 9.649E-09 
++ N = 1.013 
++ BV = 1000 
++ IBV = 0.001 
++ RS = 4.999 
++ CJO = 3.928E-12 
++ VJ = 0.2057 
++ M = 0.3426 
++ FC = 4.441E-16 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2 
+.ENDS
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT D1PS88SB82/PLP 1 2 3 4 5 6
+*
+R1 1 6 3E+07
+D1 1 6 D1PS88SB82
+R2 2 5 3E+07
+D2 2 5 D1PS88SB82
+R3 3 4 3E+07
+D3 3 4 D1PS88SB82
+*
+* The resistors do not reflect 
+* physical devices. Instead they
+* improve modeling in the reverse 
+* mode of operation.
+*
+.MODEL D1PS88SB82 D
++ IS = 1.042E-08
++ N = 1.029
++ BV = 20
++ IBV = 0.001
++ RS = 5.567
++ CJO = 1.029E-12
++ VJ = 0.2159
++ M = 0.1731
++ FC = 0
++ TT = 0
++ EG = 0.69
++ XTI = 2
+.ENDS
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BAS116/PLP,D
+* BAS116 D model
+* created using Parts release 7.1 on 09/09/97 at 15:50
+* Parts is a MicroSim product.
+.MODEL BAS116/PLP D
++ IS=805.84E-18
++ N=1.0246
++ RS=50.000E-3
++ IKF=362.16E-6
++ CJO=1.9002E-12
++ M=.35193
++ VJ=1.2722
++ ISR=298.95E-15
++ BV=113.30
++ IBV=10
++ TT=1.0230E-6
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BAS16/PLP,D
+* BAS16 D model
+* created using Parts release 7.1 on 07/27/98 at 15:24
+* Parts is a MicroSim product.
+.MODEL BAS16/PLP D
++ IS=6.0289E-9
++ N=2.1283
++ RS=1.0000E-3
++ IKF=37.638E-3
++ CJO=593.63E-15
++ M=.1
++ VJ=.68774
++ ISR=2.0646e-9
++ NR=4.9950
++ BV=113.60
++ IBV=10
++ TT=4.5000E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BAS216/PLP,D
+* BAS216 D model
+* created using Parts release 7.1 on 06/03/98 at 11:40
+* Parts is a MicroSim product.
+.MODEL BAS216/PLP D
++ IS=6.0289E-9
++ N=2.1283
++ RS=1.0000E-3
++ IKF=37.638E-3
++ CJO=593.63E-15
++ M=.1
++ VJ=.68774
++ ISR=2.0646E-9
++ NR=4.9950
++ BV=113.60
++ IBV=10
++ TT=4.5000E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BAS221/PLP,D
+* BAS221 D model
+* created using Parts release 7.1 on 08/21/98 at 10:38
+* Parts is a MicroSim product.
+.MODEL BAS221/PLP D
++ IS=10.010E-21
++ N=4.995
++ RS=1.0000E-3
++ IKF=1.8660E-186
++ CJO=598.00e-15
++ M=.3333
++ VJ=.75
++ ISR=1.3340E-9
++ NR=2.100
++ BV=330.09
++ IBV=2.7225E-3
++ TT=52.960E-9
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAS240/PLP 1 2
+*
+* The Resistor R1 does not reflect 
+* a physical device.  Instead it 
+* improves modeling in the reverse
+* mode of operation.
+*
+R1 1 2 6.659E+08 
+D1 1 2 BAS240
+*
+.MODEL BAS240 D 
++ IS = 1.419E-08 
++ N = 1.025 
++ BV = 44 
++ IBV = 1.255E-07 
++ RS = 4.942 
++ CJO = 3.89E-12 
++ VJ = 0.1217 
++ M = 0.2899 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAS270/PLP 1 2
+*
+* The resistor R1 does not reflect 
+* a physical device. Instead it
+* improves modeling in the reverse
+* mode of operation.
+*
+R1 1 2 2E+09
+D1 1 2 BAS270
+*
+.MODEL BAS270 D
++ IS = 3.438E-09
++ N = 1.026
++ BV = 75
++ IBV = 0.001
++ RS = 27
++ CJO = 1.817E-12
++ VJ = 0.3
++ M = 0.28
++ FC = 0.5
++ TT = 0
++ EG = 0.69
++ XTI = 2
+.ENDS
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BAS28/PLP,D
+* BAS28 D model
+* created using Parts release 6.2i on 07/22/97 at 13:29
+* Parts is a MicroSim product.
+.MODEL BAS28/PLP D
++ IS=6.0289E-9
++ N=2.1283
++ RS=1.0000E-3
++ IKF=37.638E-3
++ CJO=593.63E-15
++ M=.1
++ VJ=.68774
++ ISR=2.0646E-9
++ NR=4.9950
++ BV=113.60
++ IBV=10
++ TT=4.5000E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BAS321/PLP,D
+* BAS321 D model
+* created using Parts release 7.1 on 11/20/98 at 13:45
+* Parts is a MicroSim product.
+.MODEL BAS321/PLP D
++ IS=3.7106E-9
++ N=1.9403
++ RS=.41967
++ IKF=62.731E-3
++ CJO=412.54E-12
++ M=.1
++ VJ=2.2836
++ ISR=7.2305E-9
++ BV=319.86
++ IBV=5.1728E-6
++ TT=37.510E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BAS32L/PLP,D
+* BAS32L D model
+* created using Parts release 6.2i on 02/21/97 at 11:11
+* Parts is a MicroSim product.
+.MODEL BAS32L/PLP D
++ IS=22.270E-9
++ N=2.2030
++ RS=1.0000E-3
++ IKF=16.940E-3
++ CJO=1.0350E-12
++ M=.1
++ VJ=.75
++ ISR=10.010E-21
++ BV=124.10
++ IBV=7.6070E-3
++ TT=4.3280E-9
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAS40/PLP 1 3 
+* The Resistor R1 does not 
+* reflect a physical device. 
+* Instead it improves modeling
+* in the reverse mode of 
+* operation.
+R1 1 3 6.659E+08 
+D1 1 3 BAS40 
+*
+.MODEL BAS40 D( 
++ IS = 1.419E-08 
++ N = 1.025 
++ BV = 44 
++ IBV = 1.255E-07 
++ RS = 4.942 
++ CJO = 4.046E-12 
++ VJ = 0.323 
++ M = 0.4154 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAS40-04/PLP 1 2 3 
+* The Resistors do not 
+* reflect physical devices. 
+* Instead they improve modeling
+* in the reverse mode of 
+* operation.
+R1 1 3 6.659E+08 
+D1 1 3 BAS40-04
+R2 3 2 6.659E+08
+D2 3 2 BAS40-04 
+*
+.MODEL BAS40-04 D( 
++ IS = 1.419E-08 
++ N = 1.025 
++ BV = 44 
++ IBV = 1.255E-07 
++ RS = 4.942 
++ CJO = 4.046E-12 
++ VJ = 0.323 
++ M = 0.4154 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAS40-05/PLP 1 2 3
+* The Resistors do not 
+* reflect physical devices. 
+* Instead they improve modeling
+* in the reverse mode of 
+* operation.
+R1 1 3 6.659E+08 
+D1 1 3 BAS40-05 
+R2 2 3 6.659E+08
+D2 2 3 BAS40-05 
+*
+.MODEL BAS40-05 D( 
++ IS = 1.419E-08 
++ N = 1.025 
++ BV = 44 
++ IBV = 1.255E-07 
++ RS = 4.942 
++ CJO = 4.046E-12 
++ VJ = 0.323 
++ M = 0.4154 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAS40-06/PLP 1 2 3
+* The Resistors do not 
+* reflect physical devices. 
+* Instead they improve modeling
+* in the reverse mode of 
+* operation.
+R1 3 1 6.659E+08 
+D1 3 1 BAS40-06
+R2 3 2 6.659E+08
+D2 3 2 BAS40-06
+*
+.MODEL BAS40-06 D( 
++ IS = 1.419E-08 
++ N = 1.025 
++ BV = 44 
++ IBV = 1.255E-07 
++ RS = 4.942 
++ CJO = 4.046E-12 
++ VJ = 0.323 
++ M = 0.4154 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAS40-04W/PLP 1 2 3
+* The Resistors do not 
+* reflect physical devices. 
+* Instead they improve modeling
+* in the reverse mode of 
+* operation.
+R1 1 3 6.659E+08 
+D1 1 3 BAS40-04W 
+R2 3 2 6.659E+08
+D2 3 2 BAS40-04W 
+*
+.MODEL BAS40-04W D( 
++ IS = 1.419E-08 
++ N = 1.025 
++ BV = 44 
++ IBV = 1.255E-07 
++ RS = 4.942 
++ CJO = 4.046E-12 
++ VJ = 0.323 
++ M = 0.4154 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAS40-05W/PLP 1 2 3
+* The Resistors do not 
+* reflect physical devices. 
+* Instead they improve modeling
+* in the reverse mode of 
+* operation.
+R1 1 3 6.659E+08 
+D1 1 3 BAS40-05W 
+R2 2 3 6.659E+08
+D2 2 3 BAS40-05W 
+*
+.MODEL BAS40-05W D( 
++ IS = 1.419E-08 
++ N = 1.025 
++ BV = 44 
++ IBV = 1.255E-07 
++ RS = 4.942 
++ CJO = 4.046E-12 
++ VJ = 0.323 
++ M = 0.4154 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAS40-06W/PLP 1 2 3
+* The resistors do not 
+* reflect physical devices. 
+* Instead they improve modeling
+* in the reverse mode of 
+* operation.
+R1 3 1 6.659E+08 
+D1 3 1 BAS40-06W 
+R2 3 2 6.659E+08
+D2 3 2 BAS40-06W 
+*
+.MODEL BAS40-06W D( 
++ IS = 1.419E-08 
++ N = 1.025 
++ BV = 44 
++ IBV = 1.255E-07 
++ RS = 4.942 
++ CJO = 4.046E-12 
++ VJ = 0.323 
++ M = 0.4154 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAS40W/PLP 1 3 
+* The Resistor R1 does not 
+* reflect a physical device. 
+* Instead it improves modeling
+* in the reverse mode of 
+* operation.
+R1 1 3 6.659E+08 
+D1 1 3 BAS40W 
+*
+.MODEL BAS40W D( 
++ IS = 1.419E-08 
++ N = 1.025 
++ BV = 44 
++ IBV = 1.255E-07 
++ RS = 4.942 
++ CJO = 4.046E-12 
++ VJ = 0.323 
++ M = 0.4154 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BAS45A/PLP,D
+* BAS45A D model
+* created using Parts release 6.2i on 02/21/97 at 11:00
+* Parts is a MicroSim product.
+.MODEL BAS45A/PLP D
++ IS=7.0000E-9
++ N=2.2707
++ RS=1.0000E-3
++ IKF=22.121
++ CJO=2.9332E-12
++ M=.24677
++ VJ=.3905
++ ISR=10.010E-21
++ NR=4.9950
++ BV=225.36
++ IBV=10
++ TT=1.7500E-6
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BAS56/PLP,D
+* BAS56 D model
+* created using Parts release 6.2i on 07/23/97 at 15:20
+* Parts is a MicroSim product.
+.MODEL BAS56/PLP D
++ IS=10.825E-9
++ N=1.9301
++ RS=.49924
++ IKF=1.4135
++ CJO=994.44E-15
++ M=.10001
++ VJ=.69196
++ ISR=1.0704E-9
++ BV=113.15
++ IBV=15.676E-3
++ TT=5.7708E-9
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAS70/PLP 1 3 
+* The Resistor R1 does not reflect 
+* a physical device.  Instead it 
+* improves modeling in the reverse
+* mode of operation.
+R1 1 3 1.409E+09 
+D1 1 3 BAS70 
+.MODEL BAS70 D( 
++ IS = 3.22E-09 
++ N = 1.018 
++ BV = 77
++ IBV = 1.67E-07 
++ RS = 20.89 
++ CJO = 1.655E-12 
++ VJ = 0.349
++ M = 0.3583
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAS70-04/PLP 1 2 3
+* The Resistors do not 
+* reflect physical devices. 
+* Instead they improve modeling
+* in the reverse mode of 
+* operation.
+R1 1 3 1.409E+09 
+D1 1 3 BAS70
+R2 3 2 1.409E+09 
+D2 3 2 BAS70
+.MODEL BAS70 D( 
++ IS = 3.22E-09 
++ N = 1.018 
++ BV = 77
++ IBV = 1.67E-07 
++ RS = 20.89 
++ CJO = 1.655E-12 
++ VJ = 0.349
++ M = 0.3583
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAS70-06/PLP 1 2 3
+* The Resistors do not 
+* reflect physical devices. 
+* Instead they improve modeling
+* in the reverse mode of 
+* operation.
+R1 3 1 1.409E+09 
+D1 3 1 BAS70
+R2 3 2 1.409E+09 
+D2 3 2 BAS70
+.MODEL BAS70 D( 
++ IS = 3.22E-09 
++ N = 1.018 
++ BV = 77
++ IBV = 1.67E-07 
++ RS = 20.89 
++ CJO = 1.655E-12 
++ VJ = 0.349
++ M = 0.3583
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAS70-07/PLP 1 2 3 4
+* The Resistors do not 
+* reflect physical devices. 
+* Instead they improve modeling
+* in the reverse mode of 
+* operation.
+R1 4 1 1.409E+09 
+D1 4 1 BAS70
+R2 3 2 1.409E+09 
+D2 3 2 BAS70
+.MODEL BAS70 D( 
++ IS = 3.22E-09 
++ N = 1.018 
++ BV = 77
++ IBV = 1.67E-07 
++ RS = 20.89 
++ CJO = 1.655E-12 
++ VJ = 0.349
++ M = 0.3583
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAS70-04W/PLP 1 2 3
+* The Resistors do not 
+* reflect physical devices. 
+* Instead they improve modeling
+* in the reverse mode of 
+* operation.
+R1 1 3 1.409E+09 
+
+D1 1 3 BAS70W
+R2 3 2 1.409E+09 
+D2 3 2 BAS70W
+*
+.MODEL BAS70W D( 
++ IS = 3.22E-09 
++ N = 1.018 
++ BV = 77
++ IBV = 1.67E-07 
++ RS = 20.89 
++ CJO = 1.655E-12 
++ VJ = 0.349
++ M = 0.3583
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAS70-05W/PLP 1 2 3
+* The Resistors do not 
+* reflect physical devices. 
+* Instead they improve modeling
+* in the reverse mode of 
+* operation.
+R1 1 3 1.409E+09 
+D1 1 3 BAS70W
+R2 2 3 1.409E+09 
+D2 2 3 BAS70W
+.MODEL BAS70W D( 
++ IS = 3.22E-09 
++ N = 1.018 
++ BV = 77
++ IBV = 1.67E-07 
++ RS = 20.89 
++ CJO = 1.655E-12 
++ VJ = 0.349
++ M = 0.3583
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAS70-06W/PLP 1 2 3
+* The Resistors do not 
+* reflect physical devices. 
+* Instead they improve modeling
+* in the reverse mode of 
+* operation.
+R1 3 1 1.409E+09 
+D1 3 1 BAS70W
+R2 3 2 1.409E+09 
+D2 3 2 BAS70W
+.MODEL BAS70W D( 
++ IS = 3.22E-09 
++ N = 1.018 
++ BV = 77
++ IBV = 1.67E-07 
++ RS = 20.89 
++ CJO = 1.655E-12 
++ VJ = 0.349
++ M = 0.3583
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAS70W/PLP 1 3 
+* The Resistor R1 does not reflect 
+* a physical device.  Instead it 
+* improves modeling in the reverse
+* mode of operation.
+R1 1 3 1.409E+09 
+D1 1 3 BAS70W  
+.MODEL BAS70W D( 
++ IS = 3.22E-09 
++ N = 1.018 
++ BV = 77
++ IBV = 1.67E-07 
++ RS = 20.89 
++ CJO = 1.655E-12 
++ VJ = 0.349
++ M = 0.3583
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAT120A/PLP 1 3 4
+* The resistors do not reflect 
+* physical devices.  Instead they
+* improve modeling in the reverse
+* mode of operation.
+R1 4 1 2.56E+05 
+D1 4 1 BAT120A
+R2 4 3 2.56E+05 
+D2 4 3 BAT120A
+.MODEL BAT120A (D 
++ IS = 6.984E-06 
++ N = 1.023 
++ BV = 30 
++ IBV = 0.0002402 
++ RS = 0.1574 
++ CJO = 3.075E-10 
++ VJ = 0.6615 
++ M = 0.6098 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2 )
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAT120C/PLP 1 3 4
+* The resistors do not reflect 
+* physical devices.  Instead they
+* improve modeling in the reverse
+* mode of operation.
+R1 1 4 2.56E+05 
+D1 1 4 BAT120C
+R2 3 4 2.56E+05 
+D2 3 4 BAT120C
+.MODEL BAT120C (D 
++ IS = 6.984E-06 
++ N = 1.023 
++ BV = 30 
++ IBV = 0.0002402 
++ RS = 0.1574 
++ CJO = 3.075E-10 
++ VJ = 0.6615 
++ M = 0.6098 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2 )
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAT120S/PLP 1 3 4
+* The resistor do not reflect 
+* physical devices.  Instead they
+* improve modeling in the reverse
+* mode of operation.
+R1 1 4 2.56E+05 
+D1 1 4 BAT120S
+R2 4 3 2.56E+05 
+D2 4 3 BAT120S
+.MODEL BAT120S (D 
++ IS = 6.984E-06 
++ N = 1.023 
++ BV = 30 
++ IBV = 0.0002402 
++ RS = 0.1574 
++ CJO = 3.075E-10 
++ VJ = 0.6615 
++ M = 0.6098 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2 )
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAT54/PLP 1 3 
+* The Resistor R1 does not reflect 
+* a physical device.  Instead it
+* improves modeling in the reverse 
+* mode of operation.
+*
+R1 1 3 3.6E+07 
+D1 1 3 BAT54  
+*
+.MODEL BAT54 D( 
++    IS = 2.117E-07 
++    N = 1.016 
++    BV = 36 
++    IBV = 1.196E-06 
++    RS = 2.637 
++    CJO = 1.114E-11 
++    VJ = 0.2013 
++    M = 0.3868 
++    FC = 0 
++    TT = 0 
++    EG = 0.69 
++    XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAT54A/PLP 1 2 3
+* The resistors do not reflect 
+* physical devices.  Instead they
+* improve modeling in the reverse 
+* mode of operation.
+*
+R1 3 1 3.6E+07 
+D1 3 1 BAT54A
+R2 3 2 3.6E+07
+D2 3 2 BAT54A 
+*
+.MODEL BAT54A D( 
++    IS = 2.117E-07 
++    N = 1.016 
++    BV = 36 
++    IBV = 1.196E-06 
++    RS = 2.637 
++    CJO = 1.114E-11 
++    VJ = 0.2013 
++    M = 0.3868 
++    FC = 0 
++    TT = 0 
++    EG = 0.69 
++    XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAT54C/PLP 1 2 3
+* The resistors do not reflect 
+* physical devices.  Instead they
+* improve modeling in the reverse 
+* mode of operation.
+*
+R1 1 3 3.6E+07 
+D1 1 3 BAT54C
+R2 2 3 3.6E+07
+D2 2 3 BAT54C
+*
+.MODEL BAT54C D( 
++    IS = 2.117E-07 
++    N = 1.016 
++    BV = 36 
++    IBV = 1.196E-06 
++    RS = 2.637 
++    CJO = 1.114E-11 
++    VJ = 0.2013 
++    M = 0.3868 
++    FC = 0 
++    TT = 0 
++    EG = 0.69 
++    XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAT54S/PLP 1 2 3
+* The resistors do not reflect 
+* physical devices.  Instead they
+* improve modeling in the reverse 
+* mode of operation.
+*
+R1 1 3 3.6E+07 
+D1 1 3 BAT54S
+R2 3 2 3.6E+07
+D2 3 2 BAT54S 
+*
+.MODEL BAT54S D( 
++    IS = 2.117E-07 
++    N = 1.016 
++    BV = 36 
++    IBV = 1.196E-06 
++    RS = 2.637 
++    CJO = 1.114E-11 
++    VJ = 0.2013 
++    M = 0.3868 
++    FC = 0 
++    TT = 0 
++    EG = 0.69 
++    XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAT720/PLP 1 2 
+R1 1 2 2.8E+06 
+D1 1 2 DBAT720 
+*
+* The Resistor R1 does not reflect
+* a physical device.  Instead it
+* improves modeling in the reverse
+* mode of operation 
+*
+.MODEL DBAT720 D 
++ IS = 1.281E-06 
++ N = 1.009 
++ BV = 44 
++ IBV = 2.21E-05 
++ RS = 0.3093 
++ CJO = 8.133E-11 
++ VJ = 0.4519 
++ M = 0.5304 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAT721/PLP 1 3
+* The resistor R1 does not reflect
+* a physical device. Instead it 
+* improves modeling in the reverse
+* mode of operation. 
+R1 1 3 5.9E+06 
+D1 1 3 BAT721
+* 
+.MODEL BAT721 D( 
++ IS = 1.009E-06 
++ N = 1.017 
++ BV = 44 
++ IBV = 0.001611 
++ RS = 0.6578 
++ CJO = 3.76E-11 
++ VJ = 0.274 
++ M = 0.4381 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS 
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAT721A/PLP 1 2 3
+* The resistors do not reflect
+* physical devices. Instead they 
+* improve modeling in the reverse
+* mode of operation. 
+R1 3 1 5.9E+06 
+D1 3 1 BAT721A
+R2 3 2 5.9E+06 
+D2 3 2 BAT721A
+* 
+.MODEL BAT721A D( 
++ IS = 1.009E-06 
++ N = 1.017 
++ BV = 44 
++ IBV = 0.001611 
++ RS = 0.6578 
++ CJO = 3.76E-11 
++ VJ = 0.274 
++ M = 0.4381 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAT721C/PLP 1 2 3
+* The resistors do not reflect
+* physical devices. Instead they 
+* improve modeling in the reverse
+* mode of operation. 
+R1 1 3 5.9E+06 
+D1 1 3 BAT721C
+R2 2 3 5.9E+06 
+D2 2 3 BAT721C
+* 
+.MODEL BAT721C D( 
++ IS = 1.009E-06 
++ N = 1.017 
++ BV = 44 
++ IBV = 0.001611 
++ RS = 0.6578 
++ CJO = 3.76E-11 
++ VJ = 0.274 
++ M = 0.4381 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS 
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAT721S/PLP 1 2 3
+* The resistors do not reflect
+* physical devices. Instead they 
+* improve modeling in the reverse
+* mode of operation. 
+R1 1 3 5.9E+06 
+D1 1 3 BAT721S
+R2 3 2 5.9E+06 
+D2 3 2 BAT721S
+* 
+.MODEL BAT721S D( 
++ IS = 1.009E-06 
++ N = 1.017 
++ BV = 44 
++ IBV = 0.001611 
++ RS = 0.6578 
++ CJO = 3.76E-11 
++ VJ = 0.274 
++ M = 0.4381 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAT74/PLP 1 2 3 4
+* The resistors do not reflect
+* physical devices.  Instead they
+* improve modeling in the reverse
+* mode of operation.
+R1 4 1 2.9E+07 
+D1 4 1 BAT74 
+R2 3 2 2.9E+07
+D2 3 2 BAT74
+*
+.MODEL BAT74 D( 
++ IS = 2.548E-07 
++ N = 1.02 
++ BV = 33 
++ IBV = 1.251E-06 
++ RS = 2.582 
++ CJO = 9.92E-12 
++ VJ = 0.317 
++ M = 0.4411 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAT754L/PLP 1 2 3 4 5 6
+*
+* The resistors do not reflect 
+* physical devices. Instead they
+* improve modeling in the reverse 
+* mode of operation.
+*
+R1 1 6 3.558E+07
+D1 1 6 BAT754L
+R2 2 5 3.558E+07
+D2 2 5 BAT754L
+R3 3 4 3.558E+07
+D3 3 4 BAT754L
+*
+.MODEL BAT754L D
++ IS = 2.993E-07
++ N = 1.01
++ BV = 30
++ IBV = 1.5E-06
++ RS = 2.734
++ CJO = 9.228E-12
++ VJ = 0.3033
++ M = 0.4131
++ FC = 0.5178
++ TT = 0
++ EG = 0.69
++ XTI = 2
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAT85/PLP 1 2 
+* The Resistor R1 does not reflect a
+* physical device.  Instead it improves
+* modeling in the reverse mode of
+* operation.
+*
+R1 1 2 3.6E+07 
+D1 1 2 BAT85
+.MODEL BAT85 D( 
++    IS = 2.117E-07 
++    N = 1.016 
++    BV = 36 
++    IBV = 1.196E-06 
++    RS = 2.637 
++    CJO = 1.114E-11 
++    VJ = 0.2013 
++    M = 0.3868 
++    FC = 0 
++    TT = 0 
++    EG = 0.69 
++    XTI = 2) 
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAT854AW/PLP 1 2 3
+*
+* The Resistor R1 does not reflect 
+* a physical device. Instead it
+* improves modeling in the reverse 
+* mode of operation.
+*
+R1 3 1 9.5E+07
+D1 3 1 BAT854AW
+R2 3 2 9.5E+07
+D2 3 2 BAT854AW
+*
+.MODEL BAT854AW D
++ IS = 8E-08
++ N = 1.012
++ BV = 45
++ IBV = 0.0001
++ RS = 0.8243
++ CJO = 2.515E-11
++ VJ = 0.4182
++ M = 0.4941
++ FC = 0.5
++ TT = 0
++ EG = 0.69
++ XTI = 2
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAT854CW/PLP 1 2 3
+*
+* The Resistor R1 does not reflect 
+* a physical device. Instead it
+* improves modeling in the reverse 
+* mode of operation.
+*
+R1 1 3 9.5E+07
+D1 1 3 BAT854CW
+R2 2 3 9.5E+07
+D2 2 3 BAT854CW
+*
+.MODEL BAT854CW D
++ IS = 8E-08
++ N = 1.012
++ BV = 45
++ IBV = 0.0001
++ RS = 0.8243
++ CJO = 2.515E-11
++ VJ = 0.4182
++ M = 0.4941
++ FC = 0.5
++ TT = 0
++ EG = 0.69
++ XTI = 2
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAT854SW/PLP 1 2 3
+*
+* The Resistor R1 does not reflect 
+* a physical device. Instead it
+* improves modeling in the reverse 
+* mode of operation.
+*
+R1 1 3 9.5E+07
+D1 1 3 BAT854SW
+R2 3 2 9.5E+07
+D2 3 2 BAT854SW
+*
+.MODEL BAT854SW D
++ IS = 8E-08
++ N = 1.012
++ BV = 45
++ IBV = 0.0001
++ RS = 0.8243
++ CJO = 2.515E-11
++ VJ = 0.4182
++ M = 0.4941
++ FC = 0.5
++ TT = 0
++ EG = 0.69
++ XTI = 2
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT BAT854W/PLP 1 3
+*
+* The Resistor R1 does not reflect 
+* a physical device. Instead it
+* improves modeling in the reverse 
+* mode of operation.
+*
+R1 1 3 9.5E+07
+D1 1 3 BAT854W
+*
+.MODEL BAT854W D
++ IS = 8E-08
++ N = 1.012
++ BV = 45
++ IBV = 0.0001
++ RS = 0.8243
++ CJO = 2.515E-11
++ VJ = 0.4182
++ M = 0.4941
++ FC = 0.5
++ TT = 0
++ EG = 0.69
++ XTI = 2
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BAV10/PLP,D
+* BAV10 D model
+* created using Parts release 6.2i on 07/23/97 at 10:44
+* Parts is a MicroSim product.
+.MODEL BAV10/PLP D
++ IS=10.825E-9
++ N=1.9301
++ RS=.49924
++ IKF=1.4135
++ CJO=994.44E-15
++ M=.10001
++ VJ=.69196
++ ISR=1.0704E-9
++ BV=113.15
++ IBV=15.676E-3
++ TT=5.7708E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BAV103/PLP,D
+* BAV103 D model
+* created using Parts release 6.2i on 02/21/97 at 11:01
+* Parts is a MicroSim product.
+.MODEL BAV103/PLP D
++ IS=21.910E-9
++ N=2.2330
++ RS=1.0000E-3
++ IKF=19.230E-3
++ CJO=1.0300E-12
++ M=.1001
++ VJ=.75
++ ISR=10.010E-21
++ BV=293.10
++ IBV=1.2930E-3
++ TT=51.940E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BAV199/PLP,D
+* BAV199 D model
+* created using Parts release 6.2i on 03/25/97 at 10:30
+* Parts is a MicroSim product.
+.MODEL BAV199/PLP D
++ IS=805.84E-18
++ N=1.0246
++ RS=50.000E-3
++ IKF=362.16E-6
++ CJO=1.9002E-12
++ M=.35193
++ VJ=1.2722
++ ISR=298.95E-15
++ BV=113.30
++ IBV=10
++ TT=1.0230E-6
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BAV23/PLP,D
+* BAV23 D model
+* created using Parts release 7.1 on 11/20/98 at 13:55
+* Parts is a MicroSim product.
+.MODEL BAV23/PLP D
++ IS=3.7106E-9
++ N=1.9403
++ RS=.41967
++ IKF=62.731E-3
++ CJO=794.74E-15
++ M=.10536
++ VJ=.3905
++ ISR=5.8659E-9
++ BV=319.86
++ IBV=5.1728E-6
++ TT=37.510E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BAV45/PLP,D
+* BAV45 D model
+* created using Parts release 6.2i on 02/21/97 at 11:01
+* Parts is a MicroSim product.
+.MODEL BAV45/PLP D
++ IS=159.05E-9
++ N=3.2164
++ RS=1.0000E-3
++ IKF=15.929E-3
++ CJO=985.42E-15
++ M=.1
++ VJ=.92853
++ ISR=10.010E-21
++ NR=4.9950
++ BV=85.305
++ IBV=10
++ TT=650.00E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZV85C3V6/PLP,D
+* BZV85C3V6 D model
+* created using Parts release 6.2i on 02/21/97 at 11:02
+* Parts is a MicroSim product.
+.MODEL BZV85C3V6/PLP D
++ IS=4.2450E-15
++ N=1.0330
++ RS=1.0000E-3
++ IKF=12.280E-3
++ CJO=245.10E-12
++ M=.218
++ VJ=.3905
++ ISR=9.2230E-6
++ NR=4.9950
++ BV=3.4110
++ IBV=52.160E-3
++ TT=5.0000E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZV90C30/PLP,D
+* BZV90C30 D model
+* created using Parts release 7.1 on 01/13/98 at 11:52
+* Parts is a MicroSim product.
+.MODEL BZV90C30/PLP D
++ IS=857.99E-18
++ N=.82675
++ RS=.31465
++ IKF=13.858E-6
++ CJO=21.774E-12
++ M=.33323
++ VJ=.68651
++ ISR=43.476E-12
++ NR=2.6052
++ BV=30.139
++ IBV=.43564
++ TT=144.27E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX284B6V2/PLP,D
+* BZX284B6V2 D model
+* created using Parts release 7.1 on 06/03/98 at 11:31
+* Parts is a MicroSim product.
+.MODEL BZX284B6V2/PLP D
++ IS=2.6665E-18
++ N=.82284
++ RS=.51617
++ IKF=11.760E-3
++ CJO=167.78E-12
++ M=.37745
++ VJ=.86869
++ ISR=48.886E-9
++ BV=6.3329
++ IBV=.94329
++ TT=121.76E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX284C7V5/PLP,D
+* BZX284C7V5 D model
+* created using Parts release 7.1 on 06/17/98 at 10:49
+* Parts is a MicroSim product.
+.MODEL BZX284C7V5/PLP D
++ IS=110.88E-18
++ N=.92657
++ RS=.85899
++ IKF=149.75
++ CJO=86.021E-12
++ M=.32808
++ VJ=.62493
++ ISR=1.1185E-9
++ BV=7.6329
++ IBV=1.0062
++ TT=2.7411E-6
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX284C8V2/PLP,D
+* BZX284C8V2 D model
+* created using Parts release 7.1 on 06/17/98 at 11:00
+* Parts is a MicroSim product.
+.MODEL BZX284C8V2/PLP D
++ IS=2.6665E-18
++ N=.82284
++ RS=.51617
++ IKF=11.760E-3
++ CJO=75.686E-12
++ M=.32952
++ VJ=.64386
++ ISR=146.71E-12
++ BV=8.3329
++ IBV=.94329
++ TT=2.7700E-6
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX79C6V8/PLP,D
+* BZX79C6V8 D model
+* created using Parts release 6.2i on 02/21/97 at 11:02
+* Parts is a MicroSim product.
+.MODEL BZX79C6V8/PLP D
++ IS=2.4710E-9
++ N=2.0880
++ RS=1.0000E-3
++ IKF=6.5100
++ CJO=95.650E-12
++ M=.3487
++ VJ=.7022
++ ISR=10.010E-21
++ BV=6.9480
++ IBV=.8623
++ TT=140E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C10V/PLP,D
+
+* BZX84C10V D model
+* created using Parts release 7.1 on 03/31/98 at 08:48
+* Parts is a MicroSim product.
+.MODEL BZX84C10V/PLP D
++ IS=110.88E-18
++ N=.92657
++ RS=.85899
++ IKF=149.75
++ CJO=57.292E-12
++ M=.33236
++ VJ=.67995
++ ISR=49.142E-12
++ BV=10.124
++ IBV=.72438
++ TT=973.82E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C11V/PLP,D
+
+* BZX84C11V D model
+* created using Parts release 7.1 on 03/31/98 at 08:49
+* Parts is a MicroSim product.
+.MODEL BZX84C11V/PLP D
++ IS=2.6665E-18
++ N=.82284
++ RS=.51617
++ IKF=11.760E-3
++ CJO=38.612E-12
++ M=.32962
++ VJ=.58913
++ ISR=592.87E-12
++ BV=11.119
++ IBV=.54544
++ TT=3.2172E-6
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C12V/PLP,D
+
+* BZX84C12V D model
+* created using Parts release 7.1 on 03/31/98 at 08:50
+* Parts is a MicroSim product.
+.MODEL BZX84C12V/PLP D
++ IS=2.6665E-18
++ N=.82284
++ RS=.51617
++ IKF=11.760E-3
++ CJO=48.079E-12
++ M=.32805
++ VJ=.62172
++ ISR=47.692E-12
++ BV=12.119
++ IBV=.54544
++ TT=825.22E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C13V/PLP,D
+
+* BZX84C13V D model
+* created using Parts release 7.1 on 03/31/98 at 08:52
+* Parts is a MicroSim product.
+.MODEL BZX84C13V/PLP D
++ IS=110.88E-18
++ N=.92657
++ RS=.85899
++ IKF=149.75
++ CJO=44.598E-12
++ M=.32761
++ VJ=.62204
++ ISR=43.951E-12
++ BV=13.118
++ IBV=.56589
++ TT=825.22E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C15V/PLP,D
+
+* BZX84C15V D model
+* created using Parts release 7.1 on 03/31/98 at 08:52
+* Parts is a MicroSim product.
+.MODEL BZX84C15V/PLP D
++ IS=2.6665E-18
++ N=.82284
++ RS=.51617
+
++ IKF=11.760E-3
++ CJO=28.508E-12
++ M=.33087
++ VJ=.64691
++ ISR=38.989E-12
++ BV=15.119
++ IBV=.54544
++ TT=2.9720E-6
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C16V/PLP,D
+
+* BZX84C16V D model
+* created using Parts release 7.1 on 03/31/98 at 08:53
+* Parts is a MicroSim product.
+.MODEL BZX84C16V/PLP D
++ IS=2.6665E-18
++ N=.82284
++ RS=.51617
++ IKF=11.760E-3
++ CJO=34.811E-12
++ M=.33136
++ VJ=.65666
++ ISR=38.553E-12
++ BV=16.119
++ IBV=.54544
++ TT=890.14E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C18V/PLP,D
+
+* BZX84C18V D model
+* created using Parts release 7.1 on 03/31/98 at 08:59
+* Parts is a MicroSim product.
+.MODEL BZX84C18V/PLP D
++ IS=110.88E-18
++ N=.92657
++ RS=.85899
++ IKF=149.75
++ CJO=24.981E-12
++ M=.331
++ VJ=.64091
++ ISR=36.794E-12
++ BV=18.118
++ IBV=.56589
++ TT=2.7700E-6
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C20V/PLP,D
+
+* BZX84C20V D model
+* created using Parts release 7.1 on 03/31/98 at 08:46
+* Parts is a MicroSim product.
+.MODEL BZX84C20V/PLP D
++ IS=2.6665E-18
++ N=.82284
++ RS=.51617
++ IKF=11.760E-3
++ CJO=22.793E-12
++ M=.3421
++ VJ=.68922
++ ISR=39.678E-12
++ BV=20.108
++ IBV=.35715
++ TT=2.6690E-6
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C22V/PLP,D
+
+* BZX84C22V D model
+* created using Parts release 7.1 on 03/31/98 at 09:05
+* Parts is a MicroSim product.
+.MODEL BZX84C22V/PLP D
++ IS=2.6665E-18
++ N=.82284
++ RS=.51617
++ IKF=11.760E-3
++ CJO=21.189E-12
++ M=.33428
++ VJ=.65115
++ ISR=39.038E-12
++ BV=22.100
++ IBV=.26549
++ TT=2.6690E-6
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C24V/PLP,D
+
+* BZX84C24V D model
+* created using Parts release 7.1 on 03/31/98 at 09:07
+* Parts is a MicroSim product.
+.MODEL BZX84C24V/PLP D
++ IS=2.6665E-18
++ N=.82284
++ RS=.51617
++ IKF=11.760E-3
++ CJO=24.790E-12
++ M=.33892
++ VJ=.67825
++ ISR=42.591E-12
++ BV=24.094
++ IBV=.21128
++ TT=882.93E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C27V/PLP,D
+
+* BZX84C27V D model
+* created using Parts release 7.1 on 03/31/98 at 09:15
+* Parts is a MicroSim product.
+.MODEL BZX84C27V/PLP D
++ IS=2.6665E-18
++ N=.82284
++ RS=.51617
++ IKF=11.760E-3
++ CJO=18.788E-12
++ M=.33528
++ VJ=.64221
++ ISR=48.736E-12
++ BV=27.143
++ IBV=.52819
++ TT=2.5247E-6
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C2V4/PLP,D
+
+* BZX84C2V4 D model
+* created using Parts release 7.1 on 03/30/98 at 11:17
+* Parts is a MicroSim product.
+.MODEL BZX84C2V4/PLP D
++ IS=2.6665E-18
++ N=.82284
++ RS=.51617
++ IKF=11.760E-3
++ CJO=243.19E-12
++ M=.28964
++ VJ=.58074
++ ISR=4.7427E-6
++ BV=2.4673
++ IBV=74.447E-3
++ TT=29.431E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C2V7/PLP,D
+
+* BZX84C2V7 D model
+* created using Parts release 7.1 on 03/30/98 at 11:29
+* Parts is a MicroSim product.
+.MODEL BZX84C2V7/PLP D
++ IS=110.88E-18
++ N=.92657
++ RS=.85899
++ IKF=147.68
++ CJO=344.69E-12
++ M=.31964
++ VJ=.72935
++ ISR=1.5159E-6
++ BV=2.7639
++ IBV=69.770E-3
++ TT=17.889E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C30V/PLP,D
+
+* BZX84C30V D model
+* created using Parts release 7.1 on 03/31/98 at 09:19
+* Parts is a MicroSim product.
+.MODEL BZX84C30V/PLP D
++ IS=110.88E-18
++ N=.92657
++ RS=.85899
++ IKF=149.75
++ CJO=17.398E-12
++ M=.33936
++ VJ=.65046
++ ISR=47.874E-12
++ BV=30.138
++ IBV=.44378
++ TT=2.5247E-6
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C33V/PLP,D
+
+* BZX84C33V D model
+* created using Parts release 7.1 on 03/31/98 at 09:22
+* Parts is a MicroSim product.
+.MODEL BZX84C33V/PLP D
++ IS=110.88E-18
++ N=.92657
++ RS=.85899
++ IKF=149.75
++ CJO=16.677E-12
++ M=.34957
++ VJ=.66723
++ ISR=100.00E-12
++ BV=33.134
++ IBV=.37878
++ TT=2.2362E-6
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C36V/PLP,D
+
+* BZX84C36V D model
+* created using Parts release 7.1 on 03/31/98 at 09:25
+* Parts is a MicroSim product.
+.MODEL BZX84C36V/PLP D
++ IS=110.88E-18
++ N=.92657
++ RS=.85899
++ IKF=149.75
++ CJO=18.666E-12
++ M=.36733
++ VJ=.74368
++ ISR=42.919E-12
++ BV=36.134
++ IBV=.37878
++ TT=810.79E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C39V/PLP,D
+
+* BZX84C39V D model
+* created using Parts release 7.1 on 03/31/98 at 09:27
+* Parts is a MicroSim product.
+.MODEL BZX84C39V/PLP D
++ IS=2.6665E-18
++ N=.82284
++ RS=.51617
++ IKF=11.760E-3
++ CJO=15.275E-12
++ M=.35813
++ VJ=.71073
++ ISR=54.711E-12
++ BV=39.131
++ IBV=.32753
++ TT=2.6690E-6
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C3V0/PLP,D
+
+* BZX84C3V0 D model
+* created using Parts release 7.1 on 03/30/98 at 11:36
+* Parts is a MicroSim product.
+.MODEL BZX84C3V0/PLP D
++ IS=2.6665E-18
++ N=.82284
++ RS=.51617
++ IKF=11.760E-3
++ CJO=336.44E-12
++ M=.32418
++ VJ=.73919
++ ISR=468.92E-9
++ BV=3.0638
++ IBV=65.080E-3
++ TT=10.676E-9
+*$ 
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C3V6/PLP,D
+
+* BZX84C3V6 D model
+* created using Parts release 7.1 on 03/30/98 at 11:40
+* Parts is a MicroSim product.
+.MODEL BZX84C3V6/PLP D
++ IS=110.88E-18
++ N=.92657
+
++ RS=.85899
++ IKF=147.68
++ CJO=219.21E-12
++ M=.31686
++ VJ=.57426
++ ISR=18.160E-9
++ BV=3.6606
++ IBV=61.478E-3
++ TT=125.51E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C3V9/PLP,D
+
+* BZX84C3V9 D model
+* created using Parts release 7.1 on 03/30/98 at 11:43
+* Parts is a MicroSim product.
+.MODEL BZX84C3V9/PLP D
++ IS=2.6665E-18
++ N=.82284
++ RS=.51617
++ IKF=11.760E-3
++ CJO=285.49E-12
++ M=.36607
++ VJ=.84797
++ ISR=13.080E-9
++ BV=3.9622
++ IBV=61.229E-3
++ TT=37.510E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C43V/PLP,D
+
+* BZX84C43V D model
+* created using Parts release 7.1 on 03/31/98 at 09:29
+* Parts is a MicroSim product.
+.MODEL BZX84C43V/PLP D
++ IS=2.6665E-18
++ N=.82284
++ RS=.51617
++ IKF=11.760E-3
++ CJO=14.596E-12
++ M=.3553
++ VJ=.6878
++ ISR=69.202E-12
++ BV=43.128
++ IBV=.29071
++ TT=2.4670E-6
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C47V/PLP,D
+
+* BZX84C47V D model
+* created using Parts release 7.1 on 03/31/98 at 09:32
+* Parts is a MicroSim product.
+.MODEL BZX84C47V/PLP D
++ IS=2.6665E-18
++ N=.82284
++ RS=.51617
++ IKF=11.760E-3
++ CJO=15.100E-12
++ M=.39802
++ VJ=.99859
++ ISR=51.813E-12
++ BV=47.125
++ IBV=.26134
++ TT=810.79E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C4V7/PLP,D
+
+* BZX84C4V7 D model
+* created using Parts release 7.1 on 03/30/98 at 11:47
+* Parts is a MicroSim product.
+.MODEL BZX84C4V7/PLP D
++ IS=110.88E-18
++ N=.92657
++ RS=.85899
++ IKF=147.68
++ CJO=171.18E-12
++ M=.32124
++ VJ=.57636
++ ISR=3.2814E-9
++ BV=4.7745
++ IBV=.10527
++ TT=108.78E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C51V/PLP,D
+
+* BZX84C51V D model
+* created using Parts release 7.1 on 03/31/98 at 09:33
+* Parts is a MicroSim product.
+.MODEL BZX84C51V/PLP D
++ IS=2.6665E-18
++ N=.82284
++ RS=.51617
++ IKF=11.760E-3
++ CJO=14.030E-12
++ M=.33875
++ VJ=.76575
++ ISR=60.382E-12
++ BV=51.120
++ IBV=.21741
++ TT=2.3083E-6
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C56V/PLP,D
+
+* BZX84C56V D model
+* created using Parts release 7.1 on 03/31/98 at 09:35
+* Parts is a MicroSim product.
+.MODEL BZX84C56V/PLP D
++ IS=2.6665E-18
++ N=.82284
++ RS=.51617
++ IKF=11.760E-3
++ CJO=12.024E-12
++ M=.34443
++ VJ=.60675
++ ISR=53.794E-12
++ BV=56.116
++ IBV=.18612
++ TT=2.3083E-6
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C5V1/PLP,D
+
+* BZX84C5V1 D model
+* created using Parts release 7.1 on 03/30/98 at 11:54
+* Parts is a MicroSim product.
+.MODEL BZX84C5V1/PLP D
++ IS=2.6665E-18
++ N=.82284
++ RS=.51617
++ IKF=11.760E-3
++ CJO=232.29E-12
++ M=.35004
++ VJ=.79587
++ ISR=150.40E-12
++ BV=5.1760
++ IBV=.10454
++ TT=43.858E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C5V6/PLP,D
+
+* BZX84C5V6 D model
+* created using Parts release 7.1 on 03/30/98 at 12:37
+* Parts is a MicroSim product.
+.MODEL BZX84C5V6/PLP D
++ IS=2.6665E-18
++ N=.82284
++ RS=.51617
++ IKF=11.760E-3
++ CJO=137.10E-12
++ M=.34532
++ VJ=.72637
++ ISR=1.2666E-9
++ BV=5.7078
++ IBV=.35715
++ TT=78.483E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C62V/PLP,D
+
+* BZX84C62V D model
+* created using Parts release 7.1 on 03/31/98 at 09:37
+* Parts is a MicroSim product.
+.MODEL BZX84C62V/PLP D
++ IS=110.88E-18
++ N=.92657
++ RS=.85899
++ IKF=149.75
++ CJO=11.525E-12
++ M=.35851
++ VJ=.65914
++ ISR=51.091E-12
++ BV=62.112
++ IBV=.16341
++ TT=2.2362E-6
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C68V/PLP,D
+
+* BZX84C68V D model
+* created using Parts release 7.1 on 03/31/98 at 09:42
+* Parts is a MicroSim product.
+.MODEL BZX84C68V/PLP D
++ IS=2.6665E-18
++ N=.82284
++ RS=.51617
++ IKF=11.760E-3
++ CJO=11.121E-12
++ M=.34915
++ VJ=.60561
++ ISR=53.010E-12
++ BV=68.110
++ IBV=.14452
++ TT=2.6257E-6
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C6V2/PLP,D
+
+* BZX84C6V2 D model
+* created using Parts release 7.1 on 03/30/98 at 14:50
+* Parts is a MicroSim product.
+.MODEL BZX84C6V2/PLP D
++ IS=110.88E-18
++ N=.92657
++ RS=.85899
++ IKF=149.75
++ CJO=108.46E-12
++ M=.34501
++ VJ=.72044
++ ISR=48.986E-9
++ BV=6.3329
++ IBV=1.0062
++ TT=121.76E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C6V8/PLP,D
+
+* BZX84C6V8 D model
+* created using Parts release 7.1 on 03/30/98 at 14:54
+* Parts is a MicroSim product.
+.MODEL BZX84C6V8/PLP D
++ IS=110.88E-18
++ N=.92657
++ RS=.85899
++ IKF=149.75
++ CJO=93.867E-12
++ M=.35256
++ VJ=.75339
++ ISR=522.33E-12
++ BV=6.9329
++ IBV=1.0062
++ TT=231.41E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C7V5/PLP,D
+
+* BZX84C7V5 D model
+* created using Parts release 7.1 on 03/31/98 at 08:46
+* Parts is a MicroSim product.
+.MODEL BZX84C7V5/PLP D
++ IS=2.6665E-18
++ N=.82284
++ RS=.51617
++ IKF=11.760E-3
++ CJO=63.513E-12
++ M=.33559
++ VJ=.66795
++ ISR=1.1222E-9
++ BV=7.6329
++ IBV=.94329
++ TT=2.7411E-6
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C8V2/PLP,D
+
+* BZX84C8V2 D model
+* created using Parts release 7.1 on 03/31/98 at 08:47
+* Parts is a MicroSim product.
+.MODEL BZX84C8V2/PLP D
++ IS=110.88E-18
++ N=.92657
++ RS=.85899
++ IKF=149.75
++ CJO=54.185E-12
++ M=.33443
++ VJ=.66823
++ ISR=146.75E-12
++ BV=8.3329
++ IBV=1.0062
++ TT=2.7700E-6
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=BZX84C9V1/PLP,D
+
+* BZX84C9V1 D model
+* created using Parts release 7.1 on 03/31/98 at 08:47
+* Parts is a MicroSim product.
+.MODEL BZX84C9V1/PLP D
++ IS=110.88E-18
++ N=.92657
++ RS=.85899
++ IKF=149.75
++ CJO=49.094E-12
++ M=.33781
++ VJ=.69176
++ ISR=53.426E-12
++ BV=9.2329
++ IBV=1.0062
++ TT=2.7700E-6
+*$
+*---------------------------------------------------------------------------
+*
+*
+.SUBCKT PBYR2150CT/PLP 1 2 3 4
+* The resistors do not reflect
+* physical devices.  Instead they 
+* improve modeling in the 
+* reverse mode of operation.
+R1 1 2 1.2E+07 
+D1 1 2 PBYR2150CT 
+R2 3 4 1.2E+07
+D2 3 4 PBYR2150CT
+.MODEL PBYR2150CT D( 
++ IS = 1.145E-06 
++ N = 1.048 
++ BV = 165 
++ IBV = 0.0002 
++ RS = 0.437 
++ CJO = 2.44E-10 
++ VJ = 0.185 
++ M = 0.463 
++ FC = 0.5 
++ TT = 0 
++ EG = 0.69 
++ XTI = 2)
+.ENDS
+*
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=PLVA2656A/PLP,D
+* PLVA2656AB D model
+* created using Parts release 7.1 on 12/04/98 at 14:05
+* Parts is a MicroSim product.
+.MODEL PLVA2656A/PLP D
++ IS=1.2302E-15
++ N=.99169
++ RS=.4793
++ IKF=49.525E-3
++ CJO=125.26E-12
++ M=.33643
++ VJ=.68657
++ ISR=32.826E-9
++ BV=5.7651
++ IBV=3.2718
++ TT=104.45E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=PLVA650A/PLP,D
+* PLVA650A D model
+* created using Parts release 7.1 on 12/16/98 at 12:03
+* Parts is a MicroSim product.
+.MODEL PLVA650A/PLP D
++ IS=535.74E-18
++ N=1.0029
++ RS=.29276
++ IKF=2.5050
++ CJO=119.42E-12
++ M=.32565
++ VJ=.62169
++ ISR=216.91E-9
++ NR=4.9950
++ BV=5.1893
++ IBV=.21213
++ TT=132.15E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=PMBD6050/PLP,D
+* PMBD6050 D model
+* created using Parts release 7.1 on 07/29/98 at 10:59
+* Parts is a MicroSim product.
+.MODEL PMBD6050/PLP D
++ IS=6.0289E-9
++ N=2.1283
++ RS=1.0000E-3
++ IKF=37.638E-3
++ CJO=593.63E-15
++ M=.1
++ VJ=.68774
++ ISR=1.6725E-9
++ NR=4.9950
++ BV=139.42
++ IBV=34.486E-3
++ TT=4.5000E-9
+*$
+*---------------------------------------------------------------------------
+*
+*DEVICE=PMBD7000/PLP,D
+* PMBD7000 D model
+* created using Parts release 6.2i on 03/26/97 at 13:51
+* Parts is a MicroSim product.
+.MODEL PMBD7000/PLP D
++ IS=6.0289E-9
++ N=2.1283
++ RS=1.0000E-3
++ IKF=37.638E-3
++ CJO=593.63E-15
++ M=.1
++ VJ=.68774
++ ISR=2.0646E-9
++ NR=4.9950
++ BV=113.60
++ IBV=10
++ TT=5.7708E-9
+*$
+*---------------------------------------------------------------------------
+*
+

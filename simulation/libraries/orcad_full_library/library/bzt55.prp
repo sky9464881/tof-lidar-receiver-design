@@ -1,0 +1,1850 @@
+("BZT55C2V4"
+	("Implementation"
+		("BZT55C2V4")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "219.298m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C2V7"
+	("Implementation"
+		("BZT55C2V7")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "200.000m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C3V0"
+	("Implementation"
+		("BZT55C3V0")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "178.571m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C3V3"
+	("Implementation"
+		("BZT55C3V3")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "161.290m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C3V6"
+	("Implementation"
+		("BZT55C3V6")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "147.058m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C3V9"
+	("Implementation"
+		("BZT55C3V9")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "135.135m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C4V3"
+	("Implementation"
+		("BZT55C4V3")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "125.000m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C4V7"
+	("Implementation"
+		("BZT55C4V7")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "113.636m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C5V1"
+	("Implementation"
+		("BZT55C5V1")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "104.166m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C5V6"
+	("Implementation"
+		("BZT55C5V6")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "96.153m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C6V2"
+	("Implementation"
+		("BZT55C6V2")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "86.206m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C6V8"
+	("Implementation"
+		("BZT55C6V8")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "78.125m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C7V5"
+	("Implementation"
+		("BZT55C7V5")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "71.428m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C8V2"
+	("Implementation"
+		("BZT55C8V2")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "64.935m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C9V1"
+	("Implementation"
+		("BZT55C9V1")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "58.823m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C10"
+	("Implementation"
+		("BZT55C10")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "53.191m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C11"
+	("Implementation"
+		("BZT55C11")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "48.076m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C12"
+	("Implementation"
+		("BZT55C12")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "43.859m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C13"
+	("Implementation"
+		("BZT55C13")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "40.322m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C15"
+	("Implementation"
+		("BZT55C15")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "36.231m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C16"
+	("Implementation"
+		("BZT55C16")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "32.679m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C18"
+	("Implementation"
+		("BZT55C18")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "29.761m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C20"
+	("Implementation"
+		("BZT55C20")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "26.595m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C22"
+	("Implementation"
+		("BZT55C22")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "24.038m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C24"
+	("Implementation"
+		("BZT55C24")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "21.929m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C27"
+	("Implementation"
+		("BZT55C27")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "19.920m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C30"
+	("Implementation"
+		("BZT55C30")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "17.857m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C33"
+	("Implementation"
+		("BZT55C33")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "16.129m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C36"
+	("Implementation"
+		("BZT55C36")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "14.705m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C39"
+	("Implementation"
+		("BZT55C39")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "13.513m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C43"
+	("Implementation"
+		("BZT55C43")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "12.500m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C47"
+	("Implementation"
+		("BZT55C47")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "11.363m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C51"
+	("Implementation"
+		("BZT55C51")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "10.416m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C56"
+	("Implementation"
+		("BZT55C56")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "9.615m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C62"
+	("Implementation"
+		("BZT55C62")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "8.620m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C68"
+	("Implementation"
+		("BZT55C68")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "7.812m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55C75"
+	("Implementation"
+		("BZT55C75")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "7.142m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B2V4"
+	("Implementation"
+		("BZT55B2V4")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "212.765m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B2V7"
+	("Implementation"
+		("BZT55B2V7")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "189.393m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B3V0"
+	("Implementation"
+		("BZT55B3V0")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "170.068m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B3V3"
+	("Implementation"
+		("BZT55B3V3")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "154.320m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B3V6"
+	("Implementation"
+		("BZT55B3V6")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "142.045m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B3V9"
+	("Implementation"
+		("BZT55B3V9")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "130.890m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B4V3"
+	("Implementation"
+		("BZT55B4V3")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "118.483m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B4V7"
+	("Implementation"
+		("BZT55B4V7")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "108.695m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B5V1"
+	("Implementation"
+		("BZT55B5V1")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "100.000m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B5V6"
+	("Implementation"
+		("BZT55B5V6")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "91.240m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B6V2"
+	("Implementation"
+		("BZT55B6V2")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "82.236m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B6V8"
+	("Implementation"
+		("BZT55B6V8")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "75.075m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B7V5"
+	("Implementation"
+		("BZT55B7V5")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "68.027m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B8V2"
+	("Implementation"
+		("BZT55B8V2")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "62.189m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B9V1"
+	("Implementation"
+		("BZT55B9V1")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "56.053m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B10"
+	("Implementation"
+		("BZT55B10")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "51.020m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B11"
+	("Implementation"
+		("BZT55B11")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "46.382m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B12"
+	("Implementation"
+		("BZT55B12")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "42.517m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B13"
+	("Implementation"
+		("BZT55B13")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "39.246m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B15"
+	("Implementation"
+		("BZT55B15")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "34.013m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B16"
+	("Implementation"
+		("BZT55B16")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "31.847m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B18"
+	("Implementation"
+		("BZT55B18")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "28.344m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B20"
+	("Implementation"
+		("BZT55B20")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "25.510m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B22"
+	("Implementation"
+		("BZT55B22")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "23.201m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B24"
+	("Implementation"
+		("BZT55B24")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "21.276m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B27"
+	("Implementation"
+		("BZT55B27")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "18.939m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B30"
+	("Implementation"
+		("BZT55B30")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "17.006m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B33"
+	("Implementation"
+		("BZT55B33")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "15.432m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B36"
+	("Implementation"
+		("BZT55B36")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "14.164m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B39"
+	("Implementation"
+		("BZT55B39")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "13.089m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B43"
+	("Implementation"
+		("BZT55B43")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "11.876m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B47"
+	("Implementation"
+		("BZT55B47")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "10.845m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B51"
+	("Implementation"
+		("BZT55B51")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "10.000m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B56"
+	("Implementation"
+		("BZT55B56")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "9.107m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B62"
+	("Implementation"
+		("BZT55B62")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "8.223m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B68"
+	("Implementation"
+		("BZT55B68")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "7.507m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+
+("BZT55B75"
+	("Implementation"
+		("BZT55B75")
+	)
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "A")
+		(NODE_AN "A")
+		(NODE_CAT "K")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+            (IRMX "6.802m")
+		(PDM "500m")
+		(TJ "175")
+            (RJC "500")
+            (RCA "0")
+	)
+)
+

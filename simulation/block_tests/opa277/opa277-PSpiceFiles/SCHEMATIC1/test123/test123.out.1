@@ -1,0 +1,56 @@
+
+**** 03/26/25 23:22:04 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test123"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\opa277\opa277-pspicefiles\sch
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "test123.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa695_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa856_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\tlv3604.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPAx277.LIB" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa855_a.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source OPA277
+X_U1         N1061390 N1061309 5 -5 N1061232 OPAX277
+V_V1         5 0 5
+V_V2         0 -5 5
+C_C252         GND -5  0.1uF  TC=0,0 
+C_C253         GND 5  0.1uF  TC=0,0 
+R_R146         N1061232 N1061236  200 TC=0,0 
+C_C254         GND N1061236  0.1uF  TC=0,0 
+R_R145         N1061309 N1061232  200 TC=0,0 
+C_C251         0 N1061390  6.8uF  TC=0,0 
+C_C250         GND N1061390  0.1uF  TC=0,0 
+R_R148         -5 N1061390  10k TC=0,0 
+R_R147         N1061390 5  10k TC=0,0 
+
+**** RESUMING test123.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node GND is floating
+

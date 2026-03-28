@@ -1,0 +1,438 @@
+******************************************************************
+* 
+* EPCOS AG			EPCOS AG
+* Bereich Induktivitäten	Inductors Division
+* Entwicklung			Development Department
+* D-89520 Heidenheim		D-89520 Heidenheim
+* In den Seewiesen 26		In den Seewiesen 26
+*
+* Allgemeines			General
+*	Wolfgang Sammet
+*	Tel  +49 (0) 7321 326-220
+*	FAX  +49 (0) 7321 326-628
+*	Email wolfgang.sammet@epcos.com
+*
+*
+* Modellierung und Simulation	Modeling and simulation
+*	Stefan Schefler
+*	Tel  +49 (0) 7321 326-446
+*	FAX  +49 (0) 7321 326-628
+*	Email stefan.schefler@epcos.com
+*
+*
+******************************************************************
+* Bitte lesen Sie die Hinweise in der Datei "Liesmich.txt" .
+* Please read the hints in "Readme.txt" .
+******************************************************************
+*
+* 
+* Library SIMID_0603.lib 
+* Version 1.25 (Dienstag, 27. Mai 2008  9:18 Uhr CEST)
+* 
+******************************************************************
+* SPICE-Simulationsdaten für SIMID 0603
+* SPICE simulation data for SIMID 0603
+* 	SIMID_0603
+*
+******************************************************************
+*
+******************************************************************
+* Library für PSPICE
+* 
+* Libs für weitere Spice-Versionen sind verfügbar (HSPICE ..)
+*	
+******************************************************************
+*
+.subckt SIMID_0603_BASE1 A1 A2  PARAMS:  
++	ls11_a=10.9931n rs11_a=121m cp11_a=99.8945f rp11_a=10.4641k 
++	lwira1_a=300.6000p lwa1_a=2.4219n rwa1_a=473.9956m lwb1_a=5.7399n 
++	rwb1_a=12.0699 kw1a1_a=0.9999 
+ls1_b	A1 31 	{ls11_a}  
+rs1_b	31 A2 	{rs11_a}  
+cp1_b	A1 A2 	{cp11_a}  
+rp1_b	A1 A2 	{rp11_a}  
+lwira_b	900 0 	{lwira1_a}  
+lwa_b	900 901 	{lwa1_a}  
+rwa_b	901 0 	{rwa1_a}  
+lwb_b	900 902 	{lwb1_a}  
+rwb_b	902 0 	{rwb1_a}  
+kw1a_b	ls1_b lwira_b	{kw1a1_a}
+.ENDS
+
+*
+* B82496C3100G000 SIMID 0603-C standard type (10 nH +-2%)
+*
+.subckt B82496C3100G000 A1 A2   PARAMS:  
++	ls11=10.9931n rs11=121m cp11=99.8945f rp11=10.4641k 
++	lwira1=300.6000p lwa1=2.4219n rwa1=473.9956m lwb1=5.7399n 
++	rwb1=12.0699 kw1a1=0.9999 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3101G000 SIMID 0603-C standard type (100 nH +-2%)
+*
+.subckt B82496C3101G000 A1 A2   PARAMS:  
++	ls11=112.2060n rs11=1.325 cp11=87.4732f rp11=31.2992k 
++	lwira1=300.6000p lwa1=4.4041n rwa1=646.1592m lwb1=5.9043n 
++	rwb1=7.0531 kw1a1=999.9990m 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3109A000 SIMID 0603-C standard type (1 nH +-0.3nH%)
+*
+.subckt B82496C3109A000 A1 A2   PARAMS:  
++	ls11=1.1338n rs11=8.14m cp11=59.9651f rp11=3.7744k 
++	lwira1=300.6000p lwa1=2.5385n rwa1=412.3707m lwb1=9.2338n 
++	rwb1=20.5029 kw1a1=0.9999 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3120J000 SIMID 0603-C standard type (12 nH +-5%)
+*
+.subckt B82496C3120J000 A1 A2   PARAMS:  
++	ls11=14.1227n rs11=169m cp11=94.6108f rp11=12.2949k 
++	lwira1=300.6000p lwa1=2.6471n rwa1=530.9233m lwb1=7.5965n 
++	rwb1=17.7286 kw1a1=0.9999 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3121J000 SIMID 0603-C standard type (120 nH +-5%)
+*
+.subckt B82496C3121J000 A1 A2   PARAMS:  
++	ls11=132.3403n rs11=1.983 cp11=87.4404f rp11=38.4288k 
++	lwira1=300.6000p lwa1=5.3743n rwa1=616.9442m lwb1=6.3643n 
++	rwb1=6.6461 kw1a1=0.9999 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3129A000 SIMID 0603-C standard type (1.2 nH +-0.3nH%)
+*
+.subckt B82496C3129A000 A1 A2   PARAMS:  
++	ls11=1.3564n rs11=8.86m cp11=57.5845f rp11=2.3140k 
++	lwira1=300.6000p lwa1=1.5576n rwa1=135.0027m lwb1=4.2754n 
++	rwb1=5.8326 kw1a1=999.9990m 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3150G000 SIMID 0603-C standard type (15 nH +-2%)
+*
+.subckt B82496C3150G000 A1 A2   PARAMS:  
++	ls11=17.1604n rs11=261m cp11=85.3086f rp11=16.4242k 
++	lwira1=300.6000p lwa1=3.2840n rwa1=793.3227m lwb1=8.8742n 
++	rwb1=22.5400 kw1a1=0.9999 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3151J000 SIMID 0603-C standard type (150 nH +-5%)
+*
+.subckt B82496C3151J000 A1 A2   PARAMS:  
++	ls11=157.4885n rs11=3.06 cp11=84.7831f rp11=45.6027k 
++	lwira1=300.6000p lwa1=7.0818n rwa1=993.8755m lwb1=7.9523n 
++	rwb1=10.0716 kw1a1=0.9999 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3159A000 SIMID 0603-C standard type (1.5 nH +-0.3nH%)
+*
+.subckt B82496C3159A000 A1 A2   PARAMS:  
++	ls11=1.6015n rs11=13.96m cp11=113.2033f rp11=3.2049k 
++	lwira1=300.6000p lwa1=1.9582n rwa1=293.8505m lwb1=6.0033n 
++	rwb1=13.7319 kw1a1=0.9999 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3180G000 SIMID 0603-C standard type (18 nH +-2%)
+*
+.subckt B82496C3180G000 A1 A2   PARAMS:  
++	ls11=19.3971n rs11=278m cp11=86.4138f rp11=13.4363k 
++	lwira1=300.6000p lwa1=3.8002n rwa1=1.1069 lwb1=9.1370n 
++	rwb1=19.8205 kw1a1=999.9990m 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3181J000 SIMID 0603-C standard type (180 nH +-5%)
+*
+.subckt B82496C3181J000 A1 A2   PARAMS:  
++	ls11=186.9513n rs11=3.015 cp11=85.3560f rp11=44.9357k 
++	lwira1=300.6000p lwa1=6.6328n rwa1=680.3291m lwb1=6.5399n 
++	rwb1=6.8245 kw1a1=0.9999 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3189A000 SIMID 0603-C standard type (1.8 nH +-0.3nH%)
+*
+.subckt B82496C3189A000 A1 A2   PARAMS:  
++	ls11=1.8980n rs11=20m cp11=8.0478f rp11=2.9833k 
++	lwira1=300.6000p lwa1=1.6465n rwa1=222.7675m lwb1=5.0964n 
++	rwb1=10.9907 kw1a1=0.9999 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3220J000 SIMID 0603-C standard type (22 nH +-5%)
+*
+.subckt B82496C3220J000 A1 A2   PARAMS:  
++	ls11=23.8521n rs11=308m cp11=92.1821f rp11=13.3776k 
++	lwira1=300.6000p lwa1=3.6633n rwa1=959.7321m lwb1=8.3201n 
++	rwb1=15.1789 kw1a1=999.9990m 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3221G000 SIMID 0603-C standard type (220 nH +-2%)
+*
+.subckt B82496C3221G000 A1 A2   PARAMS:  
++	ls11=233.8950n rs11=4.965 cp11=84.9122f rp11=57.7162k 
++	lwira1=300.6000p lwa1=6.7303n rwa1=1.1456 lwb1=8.9477n 
++	rwb1=13.1512 kw1a1=0.9999 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3229A000 SIMID 0603-C standard type (2.2 nH +-0.3nH%)
+*
+.subckt B82496C3229A000 A1 A2   PARAMS:  
++	ls11=2.3618n rs11=19.53m cp11=84.3399f rp11=4.9246k 
++	lwira1=300.6000p lwa1=1.7542n rwa1=129.8518m lwb1=4.0844n 
++	rwb1=5.0817 kw1a1=999.9990m 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3270J000 SIMID 0603-C standard type (27 nH +-5%)
+*
+.subckt B82496C3270J000 A1 A2   PARAMS:  
++	ls11=30.6227n rs11=513m cp11=85.6378f rp11=16.5664k 
++	lwira1=300.6000p lwa1=4.9143n rwa1=1.6243 lwb1=11.4975n 
++	rwb1=19.6590 kw1a1=999.9990m 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3279A000 SIMID 0603-C standard type (2.7 nH +-0.3nH%)
+*
+.subckt B82496C3279A000 A1 A2   PARAMS:  
++	ls11=2.9518n rs11=26.86m cp11=85.3912f rp11=6.0444k 
++	lwira1=300.6000p lwa1=1.6864n rwa1=153.3889m lwb1=4.3421n 
++	rwb1=6.6028 kw1a1=0.9999 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3330J000 SIMID 0603-C standard type (33 nH +-5%)
+*
+.subckt B82496C3330J000 A1 A2   PARAMS:  
++	ls11=36.1962n rs11=410m cp11=110.8333f rp11=16.8808k 
++	lwira1=300.6000p lwa1=3.3949n rwa1=553.9178m lwb1=5.6656n 
++	rwb1=7.7037 kw1a1=0.9999 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3339A000 SIMID 0603-C standard type (3.3 nH +-0.3nH%)
+*
+.subckt B82496C3339A000 A1 A2   PARAMS:  
++	ls11=3.7008n rs11=32.72m cp11=52.0712f rp11=8.3390k 
++	lwira1=300.6000p lwa1=2.2143n rwa1=327.0170m lwb1=6.8095n 
++	rwb1=15.1863 kw1a1=0.9999 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3390J000 SIMID 0603-C standard type (39 nH +-5%)
+*
+.subckt B82496C3390J000 A1 A2   PARAMS:  
++	ls11=43.4367n rs11=548m cp11=97.7014f rp11=22.7595k 
++	lwira1=300.6000p lwa1=3.9354n rwa1=808.1064m lwb1=7.8300n 
++	rwb1=12.9978 kw1a1=999.9990m 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3399J000 SIMID 0603-C standard type (3.9 nH +-5%)
+*
+.subckt B82496C3399J000 A1 A2   PARAMS:  
++	ls11=4.0993n rs11=38.84m cp11=75.1200f rp11=8.1608k 
++	lwira1=300.6000p lwa1=2.3657n rwa1=355.2277m lwb1=6.0797n 
++	rwb1=12.7051 kw1a1=0.9999 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3470J000 SIMID 0603-C standard type (47 nH +-5%)
+*
+.subckt B82496C3470J000 A1 A2   PARAMS:  
++	ls11=52.8957n rs11=707m cp11=95.8912f rp11=25.8870k 
++	lwira1=300.6000p lwa1=4.1007n rwa1=751.2345m lwb1=7.8141n 
++	rwb1=11.7987 kw1a1=0.9999 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3479J000 SIMID 0603-C standard type (4.7 nH +-5%)
+*
+.subckt B82496C3479J000 A1 A2   PARAMS:  
++	ls11=5.2285n rs11=59.83m cp11=64.9151f rp11=4.2386k 
++	lwira1=300.6000p lwa1=2.5472n rwa1=448.0916m lwb1=6.8260n 
++	rwb1=17.9820 kw1a1=0.9999 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3560J000 SIMID 0603-C standard type (56 nH +-5%)
+*
+.subckt B82496C3560J000 A1 A2   PARAMS:  
++	ls11=59.4080n rs11=896m cp11=97.7714f rp11=27.8399k 
++	lwira1=300.6000p lwa1=4.8126n rwa1=1.2056 lwb1=9.1534n 
++	rwb1=16.1489 kw1a1=0.9999 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3569J000 SIMID 0603-C standard type (5.6 nH +-5%)
+*
+.subckt B82496C3569J000 A1 A2   PARAMS:  
++	ls11=6.0039n rs11=64.11m cp11=79.7926f rp11=11.4861k 
++	lwira1=300.6000p lwa1=2.3887n rwa1=402.2840m lwb1=6.6309n 
++	rwb1=15.1359 kw1a1=0.9999 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3680J000 SIMID 0603-C standard type (68 nH +-5%)
+*
+.subckt B82496C3680J000 A1 A2   PARAMS:  
++	ls11=74.4974n rs11=1.049 cp11=93.5461f rp11=31.9024k 
++	lwira1=300.6000p lwa1=4.4350n rwa1=911.2055m lwb1=7.7617n 
++	rwb1=11.8215 kw1a1=0.9999 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3689J000 SIMID 0603-C standard type (6.8 nH +-5%)
+*
+.subckt B82496C3689J000 A1 A2   PARAMS:  
++	ls11=7.6442n rs11=78m cp11=75.0886f rp11=10.0870k 
++	lwira1=300.6000p lwa1=2.2253n rwa1=344.8595m lwb1=5.1379n 
++	rwb1=10.3163 kw1a1=0.9999 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3820J000 SIMID 0603-C standard type (82 nH +-5%)
+*
+.subckt B82496C3820J000 A1 A2   PARAMS:  
++	ls11=91.3187n rs11=1.129 cp11=85.1031f rp11=32.0244k 
++	lwira1=300.6000p lwa1=4.4476n rwa1=1.0155 lwb1=7.2487n 
++	rwb1=10.6678 kw1a1=999.9990m 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+
+*
+* B82496C3829J000 SIMID 0603-C standard type (8.2 nH +-5%)
+*
+.subckt B82496C3829J000 A1 A2   PARAMS:  
++	ls11=8.9685n rs11=89.41m cp11=73.4291f rp11=13.7859k 
++	lwira1=300.6000p lwa1=2.3648n rwa1=338.7358m lwb1=5.7762n 
++	rwb1=11.2109 kw1a1=0.9999 
+X1 A1 A2 SIMID_0603_BASE1  PARAMS:  ls11_a={ls11} 
++	rs11_a={rs11} cp11_a={cp11} rp11_a={rp11} 
++	lwira1_a={lwira1} lwa1_a={lwa1} rwa1_a={rwa1} 
++	lwb1_a={lwb1} rwb1_a={rwb1} kw1a1_a={kw1a1} 
+.ENDS
+

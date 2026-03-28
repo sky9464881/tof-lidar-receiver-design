@@ -1,0 +1,44 @@
+* PSpice Model Editor - Version 16.6.0
+*$
+* updated using Model Editor release 16.6.0 on 06/17/14 at 10:10
+*DEVICE=LED,D
+.subckt LED 1 2 
++ params:
++ AREA=1.0
++ IS=10f
++ RS=0
++ CJO=0
++ BV=5
++ IBV=.001
+D_LED 1 2 model201 {area} 
+.model model201 d
++ is={IS}
++ rs={RS}
++ cjo={CJO}
++ bv={BV}
++ ibv={IBV}
++ N=2
+.ends LED
+*$
+.SUBCKT Zener AN CAT
+* Model generated on 2014 Jun 17
+* MODEL FORMAT: PSpice
+* MODEL Type: ZEN
++ params:
++ VZT=4
++ IZT= 20m
++ ZZT= 11
++ TCBV=1.7
++ IR= 1u
++ VR= 1
+XinstMyZenerModel AN CAT model434
++ params:
++ vzt={VZT}
++ izt={IZT}
++ zzt={ZZT}
++ tcbv={TCBV}
++ ir={IR}
++ vr={VR}
+.ends Zener
+* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+*$

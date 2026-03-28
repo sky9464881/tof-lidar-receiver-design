@@ -1,0 +1,155 @@
+
+**** 12/15/23 11:34:21 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Tranisent"  [ C:\Users\a0488507\Documents\TI_Models\PSpiceFiles\OPA892-PSpiceFiles\SCHEMATIC1\Tranisent.sim 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Tranisent.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../OPA892.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 5u 0 5E-11 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source OPA892
+X_U1         N00673 N00378 N00357 VCC VEE OPA892
+V_V1         VCC 0 15
+V_V2         VEE 0 -15
+R_R1         N00378 N00357  220 TC=0,0 
+R_R2         0 N00378  24.44 TC=0,0 
+R_R3         0 N00357  150 TC=0,0 
+V_V4         N00673 0  AC 1
++SIN 0 100m 1E6 0 0 0
+
+**** RESUMING Tranisent.cir ****
+.END
+
+**** 12/15/23 11:34:21 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Tranisent"  [ C:\Users\a0488507\Documents\TI_Models\PSpiceFiles\OPA892-PSpiceFiles\SCHEMATIC1\Tranisent.sim 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_I_NP.DNVF 
+          IS  100.000000E-18 
+          KF   31.622780E-12 
+
+
+               X_U1.X_I_NP1.DNVF               X_U1.X_U5.DVN   
+          IS  100.000000E-18                  100.000000E-18 
+          KF   31.622780E-12                   31.622780E-12 
+
+
+**** 12/15/23 11:34:21 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Tranisent"  [ C:\Users\a0488507\Documents\TI_Models\PSpiceFiles\OPA892-PSpiceFiles\SCHEMATIC1\Tranisent.sim 
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+ERROR(ORPSIM-16583): Detected an imported model containing transistors or diodes. For such models, PSpice for TI supports a minimum of one and maximum of three traces. Reduce the number of traces and simulate again.
+
+
+ABORTING SIMULATION
+**** 12/15/23 11:34:21 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Tranisent"  [ C:\Users\a0488507\Documents\TI_Models\PSpiceFiles\OPA892-PSpiceFiles\SCHEMATIC1\Tranisent.sim 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+Node counts:
+  Top level (NUNODS)                =           6
+  External (NCNODS)                 =         120
+  Total (NUMNOD)                    =         120
+
+Total device count (NUMEL)          =         264
+  Capacitors (C)                    =          38
+  Diodes (D)                        =           6
+  VCVS (E)                          =          10
+  VCCS (G)                          =          54
+  CCVS (H)                          =           1
+  Current Sources (I)               =           9
+  Resistors (R)                     =         136
+  Voltage Sources (V)               =          10
+
+Number of subcircuits (X)           =          20
+
+Matrix statistics:
+  Matrix size (NSTOP)               =         141
+  Initial no. elements (NTTAR)      =         569
+  No. elements w/ fillin (NTTBR)    =         569
+  No. fillins (IFILL)               =           0
+  No. overflows (NTTOV)             =           0
+  No. LU operations (IOPS)          =           0
+  Percent sparsity (PERSPA)         =      97.138
+
+Analysis statistics:
+  No. total time points (NUMTTP)    =           0
+  No. rejected time points (NUMRTP) =           0
+  No. iterations (NUMNIT)           =           0
+
+Load Threads                        =           1
+
+Runtime statistics:                       Seconds      Iterations
+  Matrix load                       =        0.00
+  Matrix solution                   =        0.00               1
+  Readin                            =        1.50
+  General setup                     =         .02
+  CMI setup                     =        0.00
+  Setup                             =        0.00
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =         .06
+  License check-out time            =      134.02
+  Total job time (using Solver 1)   =        1.52
+

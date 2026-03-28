@@ -1,0 +1,25 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : apdtest.brd                                   )
+(    Software Version : 24.1S003                                      )
+(    Date/Time        : Thu Apr  3 04:00:39 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Placing page "1"
+	Placed symbol:  C10(0.1UF) / C0603G104K5RACT250_C0603_C0603G104K5RACT250 / C0603 at (7631.69 11605.12)
+	Placed symbol:  C23(0.1UF) / C0603G104K5RACT250_C0603_C0603G104K5RACT250 / C0603 at (8740.97 12271.98)
+	Placed symbol:  C9(0.1UF) / C0603G104K5RACT250_C0603_C0603G104K5RACT250 / C0603 at (7805.07 12516.84)
+	Placed symbol:  C266 / 04025U0R7BAT2A_CAPC1005X56N_04025U0R7BAT2A / CAPC1005X56N at (8472.94 12379.22)
+	Placed symbol:  IC1 / OPA855IDSGR_SON50P200X200X80-9N-D_OPA855IDSGR / SON50P200X200X80-9N-D at (8584.32 12003.91)
+	Placed symbol:  R11(500OHM) / MCA12060D5000BP500_RESC3216X65N_MCA12060D5000BP500 / RESC3216X65N at (8320.53 11851.50)
+	Placed symbol:  R4(200K) / TNPW0603200KBEEA_RESC1608X60N_TNPW0603200KBEEA / RESC1608X60N at (7631.69 12429.72)
+	Placed symbol:  R6(10OHM) / CRCW201010R0JNEFIF_RESC5025X70N_CRCW201010R0JNEFIF / RESC5025X70N at (8320.53 11733.23)
+	Placed symbol:  U75 / MTAPD-06-013_MTAPD06013_MTAPD-06-013 / MTAPD06013 at (8005.22 12003.91)
+	Placed symbol:  C24(1NF) / C3216X5R2J102M115AA_C3216_COMMERCIAL_C3216X5R2J102M115AA / C3216_COMMERCIAL at (8994.08 12271.98)
+
+Placed 10 of 10 symbols.

@@ -1,0 +1,116 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../cdssetup/workspace/projects/tesr123123/allegro/tesr123123.brd         |
+|                                                    Wed Apr  2 15:30:26 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  0            pins ADDED TO this new net
+                                 C9(0.1UF).1    C10(0.1UF).2   C23(0.1UF).1   
+                                 C24(1NF).2     IC1.5          IC1.9          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  +5VDD        pins ADDED TO this new net
+                                 C23(0.1UF).2   C24(1NF).1     IC1.7          
+                                 IC1.8          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  APD_BIAS     pins ADDED TO this new net
+                                 C9(0.1UF).2    R4(200K).2     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1078951     pins ADDED TO this new net
+                                 C11(0.7PF).1   R6(10OHM).1    R11(500OHM).1  
+                                 U75.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1078959     pins ADDED TO this new net
+                                 C11(0.7PF).2   IC1.1          R11(500OHM).2  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1078967     pins ADDED TO this new net
+                                 C10(0.1UF).1   R4(200K).1     U75.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1079167     pins ADDED TO this new net
+                                 IC1.3          R6(10OHM).2    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TIA_OUTPUT   pins ADDED TO this new net
+                                 IC1.6          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../cdssetup/workspace/projects/tesr123123/allegro/tesr123123.brd         |
+|                                                    Wed Apr  2 15:30:26 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C0603G104K5RACT250_C0603_C0603G104K5RACT250
+ C3216X5R2J102M115AA_C3216_COMMERCIAL_C3216X5R2J102M115AA
+ CRCW201010R0JNEFIF_RESC5025X70N_CRCW201010R0JNEFIF
+ GRM1555C1HR70WA01D_CAPC1005X70N_GRM1555C1HR70WA01D
+ MCA12060D5000BP500_RESC3216X65N_MCA12060D5000BP500
+ MTAPD-06-013_MTAPD06013_MTAPD-06-013
+ OPA855IDSGR_SON50P200X200X80-9N-D_OPA855IDSGR
+ TNPW0603200KBEEA_RESC1608X60N_TNPW0603200KBEEA
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../cdssetup/workspace/projects/tesr123123/allegro/tesr123123.brd         |
+|                                                    Wed Apr  2 15:30:26 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C9(0.1UF)           C0603G104K5RACT250_C0603_C0603G104K5RACT250 
+ C10(0.1UF)          C0603G104K5RACT250_C0603_C0603G104K5RACT250 
+ C11(0.7PF)          GRM1555C1HR70WA01D_CAPC1005X70N_GRM1555C1HR70WA01D 
+ C23(0.1UF)          C0603G104K5RACT250_C0603_C0603G104K5RACT250 
+ C24(1NF)            C3216X5R2J102M115AA_C3216_COMMERCIAL_C3216X5R2J102M115AA 
+ IC1                 OPA855IDSGR_SON50P200X200X80-9N-D_OPA855IDSGR 
+ R4(200K)            TNPW0603200KBEEA_RESC1608X60N_TNPW0603200KBEEA 
+ R6(10OHM)           CRCW201010R0JNEFIF_RESC5025X70N_CRCW201010R0JNEFIF 
+ R11(500OHM)         MCA12060D5000BP500_RESC3216X65N_MCA12060D5000BP500 
+ U75                 MTAPD-06-013_MTAPD06013_MTAPD-06-013 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../cdssetup/workspace/projects/tesr123123/allegro/tesr123123.brd         |
+|                                                    Wed Apr  2 15:30:26 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C9(0.1UF).2                    PRIM_FILE      .\pstchip.dat
+ C9(0.1UF).2                    XY             (180,170)
+ C10(0.1UF).2                   PRIM_FILE      .\pstchip.dat
+ C10(0.1UF).2                   XY             (110,360)
+ C11(0.7PF).2                   PRIM_FILE      .\pstchip.dat
+ C11(0.7PF).2                   XY             (370,230)
+ C23(0.1UF).2                   PRIM_FILE      .\pstchip.dat
+ C23(0.1UF).2                   XY             (770,270)
+ C24(1NF).2                     PRIM_FILE      .\pstchip.dat
+ C24(1NF).2                     XY             (830,270)
+ IC1.5                          PRIM_FILE      .\pstchip.dat
+ IC1.5                          XY             (530,290)
+ R4(200K).2                     PRIM_FILE      .\pstchip.dat
+ R4(200K).2                     XY             (110,200)
+ R6(10OHM).2                    PRIM_FILE      .\pstchip.dat
+ R6(10OHM).2                    XY             (360,320)
+ R11(500OHM).2                  PRIM_FILE      .\pstchip.dat
+ R11(500OHM).2                  XY             (360,300)
+ U75.1                          PRIM_FILE      .\pstchip.dat
+ U75.1                          XY             (230,290)
+|------------------------------------------------------------------------------|
+|       Nets changed          :      25                                        |
+|       Comp definitions added:       8                                        |
+|       Components added      :      10                                        |
+|       Slot property added   :      20                                        |
+|                                                                              |
+|   Total ECO changes reported:      63                                        |
+|------------------------------------------------------------------------------|

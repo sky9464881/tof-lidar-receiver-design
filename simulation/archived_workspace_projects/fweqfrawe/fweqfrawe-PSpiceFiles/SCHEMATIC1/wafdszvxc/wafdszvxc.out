@@ -1,0 +1,442 @@
+
+**** 04/03/25 20:41:14 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-wafdszvxc"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\fweqfrawe\fweqfrawe-PSpiceF
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "wafdszvxc.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa855_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPA858.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa695_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa856_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\tlv3604.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPAx277.LIB" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 5u 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source FWEQFRAWE
+C_C265         0 N1081729  1.2p  TC=0,0 
+V_V2         0 -5 5
+V_V1         5 0 5
+X_U1         N1082239 N1082211 5 -5 N1082221 OPAX277
+R_R153         N1082089 N1082221  130 TC=0,0 
+C_C253         0 5  0.1uF  TC=0,0 
+R_R156         N1081755 N1082001  1 TC=0,0 
+X_U76         N1082089 N1082001 N1081941 5 0 OPA855
+C_C263         0 N1081755  1n  TC=0,0 
+R_R147         N1082239 5  5k TC=0,0 
+C_C264         0 N1081755  0.1u  TC=0,0 
+R_R155         N1081755 N1081729  1 TC=0,0 
+R_R148         N1082211 N1082221  200 TC=0,0 
+C_C261         0 N1082239  1n  TC=0,0 
+R_R151         N1081755 N1081941  500 TC=0,0 
+R_R149         -5 N1082239  15k TC=0,0 
+C_C252         0 -5  0.1uF  TC=0,0 
+I_I1         0 N1081729 DC 3m  
+C_C254         0 N1082089  1n  TC=0,0 
+C_C262         0 N1082239  0.1u  TC=0,0 
+R_R154         0 N1081729  1 TC=0,0 
+
+**** RESUMING wafdszvxc.cir ****
+.END
+
+**** 04/03/25 20:41:14 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-wafdszvxc"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\fweqfrawe\fweqfrawe-PSpiceF
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_U1.DVN   X_U1.X_U39.DVNF X_U1.X_U40.DVNF X_U76.X_E_N.DVN 
+          IS  100.000000E-18  100.000000E-18  100.000000E-18  100.000000E-18 
+          KF    3.162278E-12    3.162278E-12    3.162278E-12  316.227800E-12 
+
+
+               X_U76.X_I_NP1.DNVF              X_U76.X_U1.DNVF 
+          IS  100.000000E-18                  100.000000E-18 
+          KF  316.227800E-12                  316.227800E-12 
+
+
+**** 04/03/25 20:41:14 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-wafdszvxc"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\fweqfrawe\fweqfrawe-PSpiceF
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+               X_U76.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+**** 04/03/25 20:41:14 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-wafdszvxc"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\fweqfrawe\fweqfrawe-PSpiceF
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_S1._S1   X_U1.X_S2._S2   
+         RON     .01             .01         
+        ROFF    1.000000E+12    1.000000E+12 
+         VON     .01             .01         
+        VOFF    0               0            
+
+
+               X_U1.X_U20.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .7          
+        VOFF    0            
+
+
+               X_U1.X_U21.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .1          
+
+
+               X_U1.X_U25.OL_SW 
+         RON    1.000000E-03 
+        ROFF    1.000000E+12 
+         VON     .9          
+        VOFF     .8          
+
+
+               X_U1.X_U5.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .1          
+
+
+               X_U76.X_ESD_OUT.ESD_SW          X_U76.X_S1._S1  X_U76.X_S2._S2  
+         RON   50                               1.000000E-03    1.000000E-03 
+        ROFF    1.000000E+12                   20.000000E+03   20.000000E+03 
+         VON     .5                              .8              .8          
+        VOFF     .45                            -.6             -.4          
+
+
+**** 04/03/25 20:41:14 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-wafdszvxc"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\fweqfrawe\fweqfrawe-PSpiceF
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    5)    5.0000  (   -5)   -5.0000  (N1081729)     .0116                      
+
+(N1081755)     .0202                  (N1081941)    4.0785                      
+
+(N1082001)     .0207                  (N1082089)    2.4357                      
+
+(N1082211)    2.5000                  (N1082221)    2.5000                      
+
+(N1082239)    2.5000                  (X_U1.MID)-424.9E-18                      
+
+(X_U1.V11)-2.003E-09                  (X_U1.V12)-1.975E-09                      
+
+(X_U76.ZO)    4.0785                  (X_U1.ESDN)    2.5000                     
+
+(X_U1.ESDP)    2.5000                 (X_U1.VCLP)    2.5090                     
+
+(X_U76.MID)    2.5000                 (X_U1.CLAMP)    2.5084                    
+
+(X_U1.VCC_B)    5.0000                (X_U1.VEE_B)   -5.0000                    
+
+(X_U1.VIMON)     .4950                (X_U76.CMRR)    2.5000                    
+
+(X_U76.ESDN)     .0207                (X_U76.ESDP)    2.4357                    
+
+(X_U1.VOUT_S)    2.5000               (X_U1.VSENSE)    2.5084                   
+
+(X_U1.X_U1.3)    0.0000               (X_U1.X_U1.4)    0.0000                   
+
+(X_U1.X_U1.5)    0.0000               (X_U1.X_U1.6)    0.0000                   
+
+(X_U1.X_U1.7)     .8338               (X_U1.X_U1.8)     .8338                   
+
+(X_U76.CLAMP)    4.4568               (X_U76.PSRRN)    2.5002                   
+
+(X_U76.PSRRP)    2.5001               (X_U76.VCC_B)    5.0000                   
+
+(X_U76.VEE_B) 2.501E-06               (X_U76.VIMON)   10.6170                   
+
+(X_U1.VCC_CLP)    4.0039              (X_U1.VEE_CLP)   -4.8260                  
+
+(X_U1.X_U39.3)    0.0000              (X_U1.X_U39.4)    0.0000                  
+
+(X_U1.X_U39.5)    0.0000              (X_U1.X_U39.6)    0.0000                  
+
+(X_U1.X_U39.7)     .8338              (X_U1.X_U39.8)     .8338                  
+
+(X_U1.X_U40.3)    0.0000              (X_U1.X_U40.4)    0.0000                  
+
+(X_U1.X_U40.5)    0.0000              (X_U1.X_U40.6)    0.0000                  
+
+(X_U1.X_U40.7)     .8338              (X_U1.X_U40.8)     .8338                  
+
+(X_U76.AOLNET)    2.0000              (X_U76.N06456)    2.4357                  
+
+(X_U76.N10561)    2.4353              (X_U76.N10570)    2.4353                  
+
+(X_U76.N11984)    2.4353              (X_U76.N11991)     .0207                  
+
+(X_U76.N25816)    2.4352              (X_U76.N28602)    1.1000                  
+
+(X_U76.N30136)    4.6000              (X_U76.N30913)    2.4352                  
+
+(X_U76.N31014)    2.4352              (X_U76.N35675)    4.1132                  
+
+(X_U76.N35813)    4.1132              (X_U76.N38050)    1.0873                  
+
+(X_U76.N38096)    1.0873              (X_U76.VOUT_S)    4.0785                  
+
+(X_U76.X_U1.3)    0.0000              (X_U76.X_U1.4)    0.0000                  
+
+(X_U76.X_U1.5)    0.0000              (X_U76.X_U1.6)    0.0000                  
+
+(X_U76.X_U1.7)     .8338              (X_U76.X_U1.8)     .8338                  
+
+(X_U1.CL_CLAMP)    2.5090             (X_U1.N2986935)    2.5000                 
+
+(X_U1.N2986947) 250.0E-09             (X_U1.N2986949)    2.5000                 
+
+(X_U1.N2986957)    2.5000             (X_U1.N2986973)-1.581E-06                 
+
+(X_U1.N2986975) 1.581E-06             (X_U1.N2986977)    2.5000                 
+
+(X_U1.N2986981)    2.5000             (X_U1.N2987013)    2.5000                 
+
+(X_U1.N2987017)    3.0000             (X_U1.N2987029)   -3.0000                 
+
+(X_U1.N2987037)    2.5000             (X_U1.N2987051)    2.5000                 
+
+(X_U1.N2987061) 44.40E-06             (X_U1.N2987123)-424.9E-18                 
+
+(X_U1.N2987135)-424.9E-18             (X_U1.N2987157)-424.9E-18                 
+
+(X_U1.N2987159)-424.9E-18             (X_U1.N2987201)   35.0000                 
+
+(X_U1.N2987203)-424.9E-18             (X_U1.N2987205)-424.9E-18                 
+
+(X_U1.N2987225)-424.9E-18             (X_U1.N2987231)-424.9E-18                 
+
+(X_U1.N2987243)  -35.0000             (X_U1.N2987295)   75.0000                 
+
+(X_U1.N2987299)-424.9E-18             (X_U1.N2987301)-424.9E-18                 
+
+(X_U1.N2987319)-424.9E-18             (X_U1.N2987325)-424.9E-18                 
+
+(X_U1.N2987337)  -75.0000             (X_U1.N2987363)    2.5084                 
+
+(X_U1.N2987391)    4.0039             (X_U1.N2987395)   -4.8260                 
+
+(X_U1.N2987423)   -4.8260             (X_U1.N2987427)    4.0039                 
+
+(X_U1.N2987487)-2.003E-09             (X_U1.N2987493)-1.975E-09                 
+
+(X_U1.N2987499)-424.9E-18             (X_U1.N2987541)     .4950                 
+
+(X_U1.N2987553)    2.5000             (X_U1.N2987623)    2.5000                 
+
+(X_U1.N2987655)     .5090             (X_U1.N2987675)    4.4790                 
+
+(X_U1.N2987683)     .5090             (X_U1.N2987687)     .5090                 
+
+(X_U1.N2987711)    4.4790             (X_U1.N2987719)    4.4790                 
+
+(X_U1.N2987763)-424.9E-18             (X_U1.N2987785)    5.0000                 
+
+(X_U1.N2987801)   -5.0000             (X_U1.N3108745)    6.2706                 
+
+(X_U1.N3108755)    2.5090             (X_U1.N3108879)    2.5084                 
+
+(X_U1.N3108917)    2.5090             (X_U1.N3108949)    2.5090                 
+
+(X_U1.N3109015)    2.5090             (X_U1.N3116457)    2.5090                 
+
+(X_U1.N3116503)   61.4560             (X_U1.N3116515)   32.1280                 
+
+(X_U1.N3116609)   61.4530             (X_U1.N3116619)   22.8860                 
+
+(X_U1.N3116655)   61.4470             (X_U1.N3116665)     .0467                 
+
+(X_U1.N3116675)   61.4530             (X_U1.N3116685)   61.4530                 
+
+(X_U1.N3116957)   61.4460             (X_U1.N3117239)   61.4530                 
+
+(X_U1.N3126023)    3.0007             (X_U1.N3128929)   -4.7434                 
+
+(X_U1.N3130349) 1.581E-06             (X_U1.N3130359)     .0048                 
+
+(X_U1.N3202117)   61.4530             (X_U1.N3202127)   61.4530                 
+
+(X_U1.N3202213)   61.4530             (X_U1.N3204124)   61.4530                 
+
+(X_U1.N3204134)   61.4530             (X_U1.N3204220)   61.4530                 
+
+(X_U1.N3205032)   61.4530             (X_U1.N3205042)   61.4530                 
+
+(X_U1.N3205128)   61.4530             (X_U1.N3205956)   61.4530                 
+
+(X_U1.N3205966)   61.4530             (X_U1.N3206052)   61.4530                 
+
+(X_U1.N3206890)   61.4530             (X_U1.N3206900)   61.4530                 
+
+(X_U1.N3206986)   61.4530             (X_U1.N3208573)   61.4530                 
+
+(X_U1.N3208669)   61.4530             (X_U1.N3236810) 1.581E-09                 
+
+(X_U1.N3236820) 1.581E-06             (X_U76.N110431)   10.6170                 
+
+(X_U76.N112292)    4.0785             (X_U76.N317950)    2.5000                 
+
+(X_U76.N406634)    5.0000             (X_U76.N406794) 2.504E-06                 
+
+(X_U76.N749288)    2.4353             (X_U76.VCC_CLP)    4.1132                 
+
+(X_U76.VEE_CLP)    1.0873             (X_U76.X_E_N.3)    0.0000                 
+
+(X_U76.X_E_N.4)    0.0000             (X_U76.X_E_N.5)    0.0000                 
+
+(X_U76.X_E_N.6)    0.0000             (X_U76.X_E_N.7)     .8338                 
+
+(X_U76.X_E_N.8)     .8338             (X_U1.N32898091)   61.4530                
+
+(X_U76.N1254860)   31.2270            (X_U76.N1446199)    4.3937                
+
+(X_U76.N1446217)    4.3937            (X_U76.N1461236)    2.5075                
+
+(X_U76.N1461246)    2.5000            (X_U76.N1461252)    2.4998                
+
+(X_U76.N1481243)     .7102            (X_U76.N1481253)    2.4999                
+
+(X_U76.N1481259)    2.5005            (X_U76.N1483677)    6.4446                
+
+(X_U76.N1483687)    2.5002            (X_U76.N1483693)    2.4954                
+
+(X_U76.N1483703)    2.4998            (X_U76.N1483713)    2.5046                
+
+(X_U76.N1490067)    2.5001            (X_U76.N1492098)    2.9728                
+
+(X_U76.N1492108)    2.8152            (X_U76.N1492118)    2.8152                
+
+(X_U76.N1492126)    2.8152            (X_U76.N1492376)    2.8152                
+
+(X_U76.N1534615)   10.5480            (X_U76.N1534625)    2.7819                
+
+(X_U76.N1534635)    2.7819            (X_U76.N1534645)    2.7819                
+
+(X_U76.N1534887)    2.7819            (X_U76.N1541593)    9.6989                
+
+(X_U76.N1541603)    2.7522            (X_U1.CLAW_CLAMP)    2.5090               
+
+(X_U76.X_I_NP1.3)    0.0000           (X_U76.X_I_NP1.4)    0.0000               
+
+(X_U76.X_I_NP1.5)    0.0000           (X_U76.X_I_NP1.6)    0.0000               
+
+(X_U76.X_I_NP1.7)     .8338           (X_U76.X_I_NP1.8)     .8338               
+
+(X_U1.SW_OL_OPAx277)-424.9E-18        (X_U76.X_VOS_VS_VCM.1)    2.4353      
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2        -1.290E-03
+    V_V1        -2.741E-02
+    X_U1.V_VCM_MAX  -3.001E-12
+    X_U1.V_VCM_MIN   3.002E-12
+    X_U1.V_V_GRN   7.500E-11
+    X_U1.V_V_GRP  -7.500E-11
+    X_U1.V_V_ISCN   3.500E-11
+    X_U1.V_V_ISCP  -3.500E-11
+    X_U1.V_V_ORN   0.000E+00
+    X_U1.V_V_ORP   0.000E+00
+    X_U76.V_VCM_MAX  -2.100E-09
+    X_U76.V_VCM_MIN   1.400E-09
+    X_U1.X_H1.VH_H1   4.950E-04
+    X_U1.X_H2.VH_H2  -1.975E-09
+    X_U1.X_H3.VH_H3   2.003E-09
+    X_U76.X_H3.VH_H3  -8.117E-03
+    X_U76.X_VOS_VS_VCM.V1   1.133E-15
+
+    TOTAL POWER DISSIPATION   1.44E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 04/03/25 20:41:14 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-wafdszvxc"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\fweqfrawe\fweqfrawe-PSpiceF
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .14
+

@@ -1,0 +1,1852 @@
+*$
+.model awb1041t060_3b7 CORE (LEVEL=3 GAP=0  OD=.58 ID=.302 AREA=.0202 BR=.8k BM=4.5k HC=.2  )
+*$
+*$
+.model awb1041t060_3d3 CORE (LEVEL=3 GAP=0  OD=.58 ID=.302 AREA=.0202 BR=2.0k BM=4.6k HC=1.0  )
+*$
+*$
+.model awb1041t060_3e2a CORE (LEVEL=3 GAP=0  OD=0.58 ID=0.302 AREA=0.0202 BR=0.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awb1041t060_4c4 CORE (LEVEL=3 GAP=0  OD=.58 ID=.302 AREA=.0202 BR=2.55k BM=3.2k HC=3.8  )
+*$
+*$
+.model awb1107pl00_3b7 CORE (LEVEL=3 GAP=0  ID=0 OD=1.55 AREA=.167 BR=.8k BM=4.5k HC=.2  )
+*$
+*$
+.model awb1107pl00_3b9 CORE (LEVEL=3 GAP=0  ID=0 OD=1.55 AREA=.167 BR=1.2k BM=4.7k HC=.3  )
+*$
+*$
+.model awb1107pl00_3d3 CORE (LEVEL=3 GAP=0  ID=0 OD=1.55 AREA=.167 BR=2.0k BM=4.6k HC=1.0  )
+*$
+*$
+.model awb1107pl00_4c4 CORE (LEVEL=3 GAP=0  ID=0 OD=1.55 AREA=.167 BR=2.55k BM=3.2k HC=3.8  )
+*$
+*$
+.model awb135t050_3b7 CORE (LEVEL=3 GAP=0  OD=.34 ID=.176 AREA=.01 BR=.8k BM=4.5k HC=.2  )
+*$
+*$
+.model awb135t050_3d3 CORE (LEVEL=3 GAP=0  OD=.34 ID=.176 AREA=.01 BR=2.0k BM=4.6k HC=1.0  )
+*$
+*$
+.model awb135t050_3e2a CORE (LEVEL=3 GAP=0  OD=.34 ID=.176 AREA=0.01 BR=0.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awb135t050_4c4 CORE (LEVEL=3 GAP=0  OD=.34 ID=.176 AREA=.01 BR=2.55k BM=3.2k HC=3.8  )
+*$
+*$
+.model awb1408pl00_3b7 CORE (LEVEL=3 GAP=0  ID=0 OD=1.98 AREA=.251 BR=.8k BM=4.5k HC=.2  )
+*$
+*$
+.model awb1408pl00_3b9 CORE (LEVEL=3 GAP=0  ID=0 OD=1.55 AREA=.251 BR=1.2k BM=4.7k HC=.3  )
+*$
+*$
+.model awb1408pl00_3c8 CORE (LEVEL=3 GAP=0  ID=0 OD=1.98 AREA=.251 BR=1.0k BM=5k HC=.2  )
+*$
+*$
+.model awb1408pl00_3d3 CORE (LEVEL=3 GAP=0  ID=0 OD=1.98 AREA=.251 BR=2.0k BM=4.6k HC=1.0  )
+*$
+*$
+.model awb1408pl00_3e2a CORE (LEVEL=3 GAP=0  ID=0 OD=1.98 AREA=.251 BR=.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awb1408pl00_4c4 CORE (LEVEL=3 GAP=0  ID=0 OD=1.98 AREA=.251 BR=2.55k BM=3.2k HC=3.8  )
+*$
+*$
+.model awb144t500_3c6a CORE (LEVEL=3 GAP=0  OD=7.366 ID=3.8862 AREA=2.13 BR=1.0k BM=5.5k HC=.2  )
+*$
+*$
+.model awb144t500_3c8 CORE (LEVEL=3 GAP=0  OD=7.366 ID=3.8862 AREA=2.13 BR=1.0k BM=5k HC=.2  )
+*$
+*$
+.model awb1811pl00_3b7 CORE (LEVEL=3 GAP=0  ID=0 OD=2.58 AREA=.433 BR=.8k BM=4.5k HC=.2  )
+*$
+*$
+.model awb1811pl00_3b9 CORE (LEVEL=3 GAP=0  ID=0 OD=2.58 AREA=.433 BR=1.2k BM=4.7k HC=.3  )
+*$
+*$
+.model awb1811pl00_3c8 CORE (LEVEL=3 GAP=0  ID=0 OD=2.58 AREA=.433 BR=1.0k BM=5k HC=.2  )
+*$
+*$
+.model awb1811pl00_3d3 CORE (LEVEL=3 GAP=0  ID=0 OD=2.58 AREA=.433 BR=2.0k BM=4.6k HC=1.0  )
+*$
+*$
+.model awb1811pl00_3e2a CORE (LEVEL=3 GAP=0  ID=0 OD=2.58 AREA=.433 BR=.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awb1811pl00_4c4 CORE (LEVEL=3 GAP=0  ID=0 OD=2.58 AREA=.433 BR=2.55k BM=3.2k HC=3.8  )
+*$
+*$
+.model awb1f19_3c6a CORE (LEVEL=3 GAP=0  ID=0 OD=18.5 AREA=1.46 BR=1.0k BM=5.5k HC=.2  )
+*$
+*$
+.model awb1f19_3c8 CORE (LEVEL=3 GAP=0  ID=0 OD=18.5 AREA=1.46 BR=1.0k BM=5k HC=.2  )
+*$
+*$
+.model awb204t250_3c8 CORE (LEVEL=3 GAP=0  OD=1.27 ID=.79248 AREA=.148 BR=1.0K BM=5K HC=.2  )
+*$
+*$
+.model awb204t250_3e2a CORE (LEVEL=3 GAP=0  OD=1.27 ID=.79248 AREA=.148 BR=0.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awb204t250_4c4 CORE (LEVEL=3 GAP=0  OD=1.27 ID=.79248 AREA=.148 BR=2.55k BM=3.2k HC=3.8  )
+*$
+*$
+.model awb213t050_3b7 CORE (LEVEL=3 GAP=0  OD=.479 ID=.223 AREA=.0153 BR=.8k BM=4.5k HC=.2  )
+*$
+*$
+.model awb213t050_3d3 CORE (LEVEL=3 GAP=0  OD=.479 ID=.223 AREA=.0153 BR=2.0k BM=4.6k HC=1.0  )
+*$
+*$
+.model awb213t050_3e2a CORE (LEVEL=3 GAP=0  OD=0.479 ID=0.223 AREA=0.0153 BR=0.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awb213t050_4c4 CORE (LEVEL=3 GAP=0  OD=.479 ID=.223 AREA=.0153 BR=2.55k BM=3.2k HC=3.8  )
+*$
+*$
+.model awb266t125_3b7 CORE (LEVEL=3 GAP=0  OD=.945 ID=.471 AREA=.072 BR=.8k BM=4.5k HC=.2  )
+*$
+*$
+.model awb266t125_3d3 CORE (LEVEL=3 GAP=0  OD=.945 ID=.471 AREA=.072 BR=2.0k BM=4.6k HC=1.0  )
+*$
+*$
+.model awb266t125_3e2a CORE (LEVEL=3 GAP=0  OD=0.945 ID=0.471 AREA=0.072 BR=0.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awb266t125_4c4 CORE (LEVEL=3 GAP=0  OD=.945 ID=.471 AREA=.072 BR=2.55k BM=3.2k HC=3.8  )
+*$
+*$
+.model awb331t185_3c8 CORE (LEVEL=3 GAP=0  OD=1.5875 ID=.90678 AREA=.153 BR=1.0k BM=5k HC=.2  )
+*$
+*$
+.model awb331t185_3e2a CORE (LEVEL=3 GAP=0  OD=1.5875 ID=.90678 AREA=.153 BR=0.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awb400t750_3c6a CORE (LEVEL=3 GAP=0  OD=5.08 ID=3.175 AREA=1.78 BR=1.0k BM=5.5k HC=.2  )
+*$
+*$
+.model awb400t750_3c8 CORE (LEVEL=3 GAP=0  OD=5.08 ID=3.175 AREA=1.78 BR=1.0k BM=5k HC=.2  )
+*$
+*$
+.model awb500t400_3c8 CORE (LEVEL=3 GAP=0  OD=3.59918 ID=2.30124 AREA=.643 BR=1.0k BM=5k HC=.2  )
+*$
+*$
+.model awb500t400_3e2a CORE (LEVEL=3 GAP=0  OD=3.59918 ID=2.30124 AREA=.643 BR=0.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awb500t400_3e5 CORE (LEVEL=3 GAP=0  OD=3.59918 ID=2.30124 AREA=.643 BR=1.0k BM=3.65k HC=.1  )
+*$
+*$
+.model awb500t600_3c8 CORE (LEVEL=3 GAP=0  OD=3.59918 ID=2.30124 AREA=.968 BR=1.0k BM=5k HC=.2  )
+*$
+*$
+.model awb500t600_3e2a CORE (LEVEL=3 GAP=0  OD=3.59918 ID=2.30124 AREA=.968 BR=0.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awb500t600_3e5 CORE (LEVEL=3 GAP=0  OD=3.59918 ID=2.30124 AREA=.968 BR=1.0k BM=3.65k HC=.1  )
+*$
+*$
+.model awb502t300_3c8 CORE (LEVEL=3 GAP=0  OD=2.90068 ID=1.89992 AREA=.371 BR=1.0k BM=5k HC=.2  )
+*$
+*$
+.model awb502t300_3e2a CORE (LEVEL=3 GAP=0  OD=2.90068 ID=1.89992 AREA=.371 BR=0.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awb502t300_3e5 CORE (LEVEL=3 GAP=0  OD=2.90068 ID=1.89992 AREA=.371 BR=1.0k BM=3.65k HC=.1  )
+*$
+*$
+.model awb528t500_3c6a CORE (LEVEL=3 GAP=0  OD=3.8862 ID=1.9558 AREA=1.17 BR=1.0k BM=5.5k HC=.2  )
+*$
+*$
+.model awb528t500_3c8 CORE (LEVEL=3 GAP=0  OD=3.8862 ID=1.9558 AREA=1.17 BR=1.0k BM=5k HC=.2  )
+*$
+*$
+.model awb528t500_3e2a CORE (LEVEL=3 GAP=0  OD=3.8862 ID=1.9558 AREA=1.17 BR=0.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awb528t500_4c4 CORE (LEVEL=3 GAP=0  OD=3.8862 ID=1.9558 AREA=1.17 BR=2.55k BM=3.2k HC=3.8  )
+*$
+*$
+.model awb58020 CORE (LEVEL=3 GAP=0  OD=.602 ID=.265 AREA=.047 BR=100 BM=15K HC=.55  )
+*$
+*$
+.model awb58021 CORE (LEVEL=3 GAP=0  OD=.602 ID=.265 AREA=.047 BR=150 BM=15K HC=2  )
+*$
+*$
+.model awb58022 CORE (LEVEL=3 GAP=0  OD=.602 ID=.265 AREA=.047 BR=50 BM=15K HC=1.7  )
+*$
+*$
+.model awb58023 CORE (LEVEL=3 GAP=0  OD=.602 ID=.265 AREA=.047 BR=50 BM=15K HC=2.4  )
+*$
+*$
+.model awb58050 CORE (LEVEL=3 GAP=0  OD=1.241 ID=.745 AREA=.114 BR=100 BM=15K HC=.55  )
+*$
+*$
+.model awb58051 CORE (LEVEL=3 GAP=0  OD=1.241 ID=.745 AREA=.114 BR=150 BM=15K HC=2  )
+*$
+*$
+.model awb58052 CORE (LEVEL=3 GAP=0  OD=1.241 ID=.745 AREA=.114 BR=50 BM=15K HC=1.7  )
+*$
+*$
+.model awb58053 CORE (LEVEL=3 GAP=0  OD=1.241 ID=.745 AREA=.114 BR=50 BM=15K HC=2.4  )
+*$
+*$
+.model awb58715 CORE (LEVEL=3 GAP=0  OD=4.987 ID=3.117 AREA=1.251 BR=100 BM=15K HC=.55  )
+*$
+*$
+.model awb58716 CORE (LEVEL=3 GAP=0  OD=4.987 ID=3.117 AREA=1.251 BR=150 BM=15K HC=2  )
+*$
+*$
+.model awb58717 CORE (LEVEL=3 GAP=0  OD=4.987 ID=3.117 AREA=1.251 BR=50 BM=15K HC=1.7  )
+*$
+*$
+.model awb58718 CORE (LEVEL=3 GAP=0  OD=4.987 ID=3.117 AREA=1.251 BR=50 BM=15K HC=2.4  )
+*$
+*$
+.model awb58894 CORE (LEVEL=3 GAP=0  OD=2.68 ID=1.36 AREA=.654 BR=150 BM=15K HC=2  )
+*$
+*$
+.model awb58930 CORE (LEVEL=3 GAP=0  OD=2.68 ID=1.36 AREA=.654 BR=100 BM=15K HC=.55  )
+*$
+*$
+.model awb58932 CORE (LEVEL=3 GAP=0  OD=2.68 ID=1.36 AREA=.654 BR=50 BM=15K HC=1.7  )
+*$
+*$
+.model awb58933 CORE (LEVEL=3 GAP=0  OD=2.68 ID=1.36 AREA=.654 BR=50 BM=15K HC=2.4  )
+*$
+*$
+.model awb704pl00_3b7 CORE (LEVEL=3 GAP=0  ID=0 OD=1 AREA=.07 BR=.8k BM=4.5k HC=.2  )
+*$
+*$
+.model awb704pl00_3b9 CORE (LEVEL=3 GAP=0  ID=0 OD=1.0 AREA=.07 BR=1.2k BM=4.7k HC=.3  )
+*$
+*$
+.model awb704pl00_3d3 CORE (LEVEL=3 GAP=0  ID=0 OD=1.0 AREA=.07 BR=2.0k BM=4.6k HC=1.0  )
+*$
+*$
+.model awb704pl00_4c4 CORE (LEVEL=3 GAP=0  ID=0 OD=1.0 AREA=.07 BR=2.55k BM=3.2k HC=3.8  )
+*$
+*$
+.model awb768t188_3c8 CORE (LEVEL=3 GAP=0  OD=1.27 ID=.713 AREA=.128 BR=1.0k BM=5k HC=.20  )
+*$
+*$
+.model awb768t188_3d3 CORE (LEVEL=3 GAP=0  OD=1.27 ID=.713 AREA=.128 BR=2.0k BM=4.6k HC=1.0  )
+*$
+*$
+.model awb768t188_3e2a CORE (LEVEL=3 GAP=0  OD=1.27 ID=.713 AREA=.128 BR=0.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awb768t188_4c4 CORE (LEVEL=3 GAP=0  OD=1.27 ID=.713 AREA=.128 BR=2.55k BM=3.2k HC=3.8  )
+*$
+*$
+.model awb80505a100 CORE (LEVEL=3 GAP=0  OD=0.698 ID=0.385 AREA=0.0033 BR=14k BM=14.3k HC=0.15  )
+*$
+*$
+.model awb80505a160 CORE (LEVEL=3 GAP=0  OD=0.698 ID=0.385 AREA=0.0053 BR=14k BM=14.3k HC=0.15  )
+*$
+*$
+.model awb80505a200 CORE (LEVEL=3 GAP=0  OD=0.698 ID=0.385 AREA=0.0066 BR=14k BM=14.3k HC=0.15  )
+*$
+*$
+.model awb80505a60 CORE (LEVEL=3 GAP=0  OD=0.698 ID=0.385 AREA=0.002 BR=14k BM=14.3k HC=0.15  )
+*$
+*$
+.model awb80505d100 CORE (LEVEL=3 GAP=0  OD=0.698 ID=0.385 AREA=0.0066 BR=6.2k BM=7.7k HC=0.036  )
+*$
+*$
+.model awb80505d30 CORE (LEVEL=3 GAP=0  OD=0.698 ID=0.385 AREA=0.002 BR=6.2k BM=7.7k HC=0.036  )
+*$
+*$
+.model awb80505d50 CORE (LEVEL=3 GAP=0  OD=0.698 ID=0.385 AREA=0.0033 BR=6.2k BM=7.7k HC=0.036  )
+*$
+*$
+.model awb80505d80 CORE (LEVEL=3 GAP=0  OD=0.698 ID=0.385 AREA=0.0053 BR=6.2k BM=7.7k HC=0.036  )
+*$
+*$
+.model awb80512a100 CORE (LEVEL=3 GAP=0  OD=0.86 ID=0.541 AREA=0.0033 BR=14k BM=14.3k HC=0.15  )
+*$
+*$
+.model awb80512a160 CORE (LEVEL=3 GAP=0  OD=0.86 ID=0.541 AREA=0.0053 BR=14k BM=14.3k HC=0.15  )
+*$
+*$
+.model awb80512a200 CORE (LEVEL=3 GAP=0  OD=0.86 ID=0.541 AREA=0.0066 BR=14k BM=14.3k HC=0.15  )
+*$
+*$
+.model awb80512a60 CORE (LEVEL=3 GAP=0  OD=0.86 ID=0.541 AREA=0.002 BR=14k BM=14.3k HC=0.15  )
+*$
+*$
+.model awb80512d100 CORE (LEVEL=3 GAP=0  OD=0.86 ID=0.541 AREA=0.0066 BR=6.2k BM=7.7k HC=0.036  )
+*$
+*$
+.model awb80512d30 CORE (LEVEL=3 GAP=0  OD=0.86 ID=0.541 AREA=0.002 BR=6.2k BM=7.7k HC=0.036  )
+*$
+*$
+.model awb80512d50 CORE (LEVEL=3 GAP=0  OD=0.86 ID=0.541 AREA=0.0033 BR=6.2k BM=7.7k HC=0.036  )
+*$
+*$
+.model awb80512d80 CORE (LEVEL=3 GAP=0  OD=0.86 ID=0.541 AREA=0.0053 BR=6.2k BM=7.7k HC=0.036  )
+*$
+*$
+.model awb80521a100 CORE (LEVEL=3 GAP=0  OD=0.537 ID=0.227 AREA=0.0033 BR=14k BM=14.3k HC=0.15  )
+*$
+*$
+.model awb80521a160 CORE (LEVEL=3 GAP=0  OD=0.537 ID=0.227 AREA=0.0053 BR=14k BM=14.3k HC=0.15  )
+*$
+*$
+.model awb80521a200 CORE (LEVEL=3 GAP=0  OD=0.537 ID=0.227 AREA=0.0066 BR=14k BM=14.3k HC=0.15  )
+*$
+*$
+.model awb80521a60 CORE (LEVEL=3 GAP=0  OD=0.537 ID=0.227 AREA=0.002 BR=14k BM=14.3k HC=0.15  )
+*$
+*$
+.model awb80521d100 CORE (LEVEL=3 GAP=0  OD=0.537 ID=0.227 AREA=0.0066 BR=6.2k BM=7.7k HC=0.036  )
+*$
+*$
+.model awb80521d30 CORE (LEVEL=3 GAP=0  OD=0.537 ID=0.227 AREA=0.002 BR=6.2k BM=7.7k HC=0.036  )
+*$
+*$
+.model awb80521d50 CORE (LEVEL=3 GAP=0  OD=0.537 ID=0.227 AREA=0.0033 BR=6.2k BM=7.7k HC=0.036  )
+*$
+*$
+.model awb80521d80 CORE (LEVEL=3 GAP=0  OD=0.537 ID=0.227 AREA=0.0053 BR=6.2k BM=7.7k HC=0.036  )
+*$
+*$
+.model awb80550a100 CORE (LEVEL=3 GAP=0  OD=0.618 ID=0.303 AREA=0.0033 BR=14k BM=14.3k HC=0.15  )
+*$
+*$
+.model awb80550a160 CORE (LEVEL=3 GAP=0  OD=0.618 ID=0.303 AREA=0.0053 BR=14k BM=14.3k HC=0.15  )
+*$
+*$
+.model awb80550a200 CORE (LEVEL=3 GAP=0  OD=0.618 ID=0.303 AREA=0.0066 BR=14k BM=14.3k HC=0.15  )
+*$
+*$
+.model awb80550a60 CORE (LEVEL=3 GAP=0  OD=0.618 ID=0.303 AREA=0.002 BR=14k BM=14.3k HC=0.15  )
+*$
+*$
+.model awb80550d100 CORE (LEVEL=3 GAP=0  OD=0.618 ID=0.303 AREA=0.0066 BR=6.2k BM=7.7k HC=0.036  )
+*$
+*$
+.model awb80550d30 CORE (LEVEL=3 GAP=0  OD=0.618 ID=0.303 AREA=0.002 BR=6.2k BM=7.7k HC=0.036  )
+*$
+*$
+.model awb80550d50 CORE (LEVEL=3 GAP=0  OD=0.618 ID=0.303 AREA=0.0033 BR=6.2k BM=7.7k HC=0.036  )
+*$
+*$
+.model awb80550d80 CORE (LEVEL=3 GAP=0  OD=0.618 ID=0.303 AREA=0.0053 BR=6.2k BM=7.7k HC=0.036  )
+*$
+*$
+.model awb813e187_3c6a CORE (LEVEL=3 GAP=0  ID=0 OD=3.91 AREA=.224 BR=1.0k BM=5.5k HC=.2  )
+*$
+*$
+.model awb813e187_3c8 CORE (LEVEL=3 GAP=0  ID=0 OD=3.91 AREA=.224 BR=1.0k BM=5k HC=.2  )
+*$
+*$
+.model awb813e187_3e2a CORE (LEVEL=3 GAP=0  ID=0 OD=3.91 AREA=.224 BR=.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awb813e343_3c6a CORE (LEVEL=3 GAP=0  ID=0 OD=3.91 AREA=.413 BR=1.0k BM=5.5k HC=.2  )
+*$
+*$
+.model awb813e343_3c8 CORE (LEVEL=3 GAP=0  ID=0 OD=3.91 AREA=.413 BR=1.0k BM=5k HC=.2  )
+*$
+*$
+.model awb813e343_3e2a CORE (LEVEL=3 GAP=0  ID=0 OD=3.91 AREA=.413 BR=.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awb846t250_3c8 CORE (LEVEL=3 GAP=0  OD=2.2098 ID=1.3716 AREA=.259 BR=1.0k BM=5k HC=.2  )
+*$
+*$
+.model awb846t250_3e2a CORE (LEVEL=3 GAP=0  OD=2.2098 ID=1.3716 AREA=.259 BR=0.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awb846t250_4c4 CORE (LEVEL=3 GAP=0  OD=2.2098 ID=1.3716 AREA=.259 BR=2.55k BM=3.2k HC=3.8  )
+*$
+*$
+.model awb846t500_3c8 CORE (LEVEL=3 GAP=0  OD=2.2098 ID=1.3716 AREA=.518 BR=1.0k BM=5k HC=.2  )
+*$
+*$
+.model awb846t500_3e2a CORE (LEVEL=3 GAP=0  OD=2.2098 ID=1.3716 AREA=.518 BR=0.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awb891t050_3b7 CORE (LEVEL=3 GAP=0  OD=.391 ID=.222 AREA=.0104 BR=.8k BM=4.5k HC=.2  )
+*$
+*$
+.model awb891t050_3d3 CORE (LEVEL=3 GAP=0  OD=.391 ID=.222 AREA=.0104 BR=2.0k BM=4.6k HC=1.0  )
+*$
+*$
+.model awb891t050_3e2a CORE (LEVEL=3 GAP=0  OD=0.391 ID=0.222 AREA=0.0104 BR=0.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awb891t050_4c4 CORE (LEVEL=3 GAP=0  OD=.391 ID=.222 AREA=.0104 BR=2.55k BM=3.2k HC=3.8  )
+*$
+*$
+.model awb905pl00_3b7 CORE (LEVEL=3 GAP=0  ID=0 OD=1.25 AREA=.101 BR=.8k BM=4.5k HC=.2  )
+*$
+*$
+.model awb905pl00_3b9 CORE (LEVEL=3 GAP=0  ID=0 OD=1.25 AREA=.101 BR=1.2k BM=4.7k HC=.3  )
+*$
+*$
+.model awb905pl00_3d3 CORE (LEVEL=3 GAP=0  ID=0 OD=1.25 AREA=.101 BR=2.0k BM=4.6k HC=1.0  )
+*$
+*$
+.model awb905pl00_4c4 CORE (LEVEL=3 GAP=0  ID=0 OD=1.25 AREA=.101 BR=2.55k BM=3.2k HC=3.8  )
+*$
+*$
+.model awbaa_1 CORE (LEVEL=3 GAP=0  ID=0 OD=10.71 AREA=.99 BR=14.2k BM=16.8k HC=.12   )
+*$
+*$
+.model awbaa_3 CORE (LEVEL=3 GAP=0  ID=0 OD=14.175 AREA=2.38 BR=14.2k BM=16.8k HC=.12   )
+*$
+*$
+.model awbaa_326 CORE (LEVEL=3 GAP=0  ID=0 OD=21.42 AREA=2.68 BR=14.2k BM=16.8k HC=.12   )
+*$
+*$
+.model awbaa_392 CORE (LEVEL=3 GAP=0  ID=0 OD=20.475 AREA=3.12 BR=14.2k BM=16.8k HC=.12   )
+*$
+*$
+.model awbaa_81 CORE (LEVEL=3 GAP=0  ID=0 OD=16.065 AREA=3.71 BR=14.2k BM=16.8k HC=.12   )
+*$
+*$
+.model awbah_114 CORE (LEVEL=3 GAP=0  ID=0 OD=10.08 AREA=.794 BR=14.2k BM=16.4k HC=.36   )
+*$
+*$
+.model awbah_121 CORE (LEVEL=3 GAP=0  ID=0 OD=5.04 AREA=.298 BR=14.2k BM=16.4k HC=.36   )
+*$
+*$
+.model awbah_2 CORE (LEVEL=3 GAP=0  ID=0 OD=10.08 AREA=.895 BR=14.2k BM=16.4k HC=.36   )
+*$
+*$
+.model awbah_38 CORE (LEVEL=3 GAP=0  ID=0 OD=11.655 AREA=.4 BR=14.2k BM=16.4k HC=.36   )
+*$
+*$
+.model awbah_430 CORE (LEVEL=3 GAP=0  ID=0 OD=6.3 AREA=.444 BR=14.2k BM=16.4k HC=.36   )
+*$
+*$
+.model awbal147 CORE (LEVEL=3 GAP=0  ID=0 OD=7.875 AREA=.197 BR=14.4k BM=17.0k HC=.55   )
+*$
+*$
+.model awbal_1 CORE (LEVEL=3 GAP=0  ID=0 OD=5.04 AREA=.197 BR=14.4k BM=17.0k HC=.55   )
+*$
+*$
+.model awbal_3 CORE (LEVEL=3 GAP=0  ID=0 OD=6.3 AREA=.44 BR=14.4k BM=17.0k HC=.55   )
+*$
+*$
+.model awbal_4 CORE (LEVEL=3 GAP=0  ID=0 OD=8.19 AREA=.394 BR=14.4k BM=17.0k HC=.55   )
+*$
+*$
+.model awbal_5 CORE (LEVEL=3 GAP=0  ID=0 OD=8.19 AREA=.597 BR=14.4k BM=17.0k HC=.55   )
+*$
+*$
+.model awbam_1451 CORE (LEVEL=3 GAP=0  ID=0 OD=3.15 AREA=.051 BR=14.6k BM=16.8k HC=.65   )
+*$
+*$
+.model awbam_1452 CORE (LEVEL=3 GAP=0  ID=0 OD=3.78 AREA=.102 BR=14.6k BM=16.8k HC=.65   )
+*$
+*$
+.model awbam_1453 CORE (LEVEL=3 GAP=0  ID=0 OD=4.095 AREA=.102 BR=14.6k BM=16.8k HC=.65   )
+*$
+*$
+.model awbam_1454 CORE (LEVEL=3 GAP=0  ID=0 OD=3.938 AREA=.197 BR=14.6k BM=16.8k HC=.65   )
+*$
+*$
+.model awbam_1455 CORE (LEVEL=3 GAP=0  ID=0 OD=4.095 AREA=.197 BR=14.6k BM=16.8k HC=.65   )
+*$
+*$
+.model awbb64290a36x1 CORE (LEVEL=3 GAP=0  ID=0 OD=.97 AREA=.0127 BR=2950 BM=3920 HC=5.66  )
+*$
+*$
+.model awbb64290a37x1 CORE (LEVEL=3 GAP=0  ID=0 OD=1.53 AREA=.031 BR=2950 BM=3920 HC=5.66  )
+*$
+*$
+.model awbb64290a38x1 CORE (LEVEL=3 GAP=0  ID=0 OD=2.45 AREA=.08 BR=2950 BM=3920 HC=5.66  )
+*$
+*$
+.model awbb64290j35x35 CORE (LEVEL=3 GAP=0  ID=0 OD=.61 AREA=.005 BR=650 BM=3900 HC=.094  )
+*$
+*$
+.model awbb64290j35x38 CORE (LEVEL=3 GAP=0  ID=0 OD=.61 AREA=.005 BR=450 BM=3800 HC=.044  )
+*$
+*$
+.model awbb64290j35x830 CORE (LEVEL=3 GAP=0  ID=0 OD=.61 AREA=.005 BR=720 BM=3830 HC=.138  )
+*$
+*$
+.model awbb64290k22x830 CORE (LEVEL=3 GAP=0  ID=0 OD=10.25 AREA=.95 BR=720 BM=3830 HC=.138  )
+*$
+*$
+.model awbb64290k36x33 CORE (LEVEL=3 GAP=0  ID=0 OD=.97 AREA=.0127 BR=1850 BM=4500 HC=1.01  )
+*$
+*$
+.model awbb64290k36x35 CORE (LEVEL=3 GAP=0  ID=0 OD=.97 AREA=.0127 BR=650 BM=3900 HC=.094  )
+*$
+*$
+.model awbb64290k36x38 CORE (LEVEL=3 GAP=0  ID=0 OD=.97 AREA=.0127 BR=450 BM=3800 HC=.044  )
+*$
+*$
+.model awbb64290k36x830 CORE (LEVEL=3 GAP=0  ID=0 OD=.97 AREA=.0127 BR=720 BM=3830 HC=.138  )
+*$
+*$
+.model awbb64290k37x33 CORE (LEVEL=3 GAP=0  ID=0 OD=1.53 AREA=.031 BR=1850 BM=4500 HC=1.01  )
+*$
+*$
+.model awbb64290k37x35 CORE (LEVEL=3 GAP=0  ID=0 OD=1.53 AREA=.031 BR=650 BM=3900 HC=.094  )
+*$
+*$
+.model awbb64290k37x38 CORE (LEVEL=3 GAP=0  ID=0 OD=1.53 AREA=.031 BR=450 BM=3800 HC=.044  )
+*$
+*$
+.model awbb64290k37x47 CORE (LEVEL=3 GAP=0  ID=0 OD=1.53 AREA=.031 BR=1100 BM=4200 HC=.402  )
+*$
+*$
+.model awbb64290k37x830 CORE (LEVEL=3 GAP=0  ID=0 OD=1.53 AREA=.031 BR=720 BM=3830 HC=.138  )
+*$
+*$
+.model awbb64290k38x33 CORE (LEVEL=3 GAP=0  ID=0 OD=2.45 AREA=.08 BR=1850 BM=4500 HC=1.01  )
+*$
+*$
+.model awbb64290k38x35 CORE (LEVEL=3 GAP=0  ID=0 OD=2.45 AREA=.08 BR=650 BM=3900 HC=.094  )
+*$
+*$
+.model awbb64290k38x38 CORE (LEVEL=3 GAP=0  ID=0 OD=2.45 AREA=.08 BR=450 BM=3800 HC=.044  )
+*$
+*$
+.model awbb65495by1 CORE (LEVEL=3 GAP=0  ID=0 OD=.76 AREA=.028 BR=2950 BM=3920 HC=5.66  )
+*$
+*$
+.model awbb64290k38x47 CORE (LEVEL=3 GAP=0  ID=0 OD=2.45 AREA=.08 BR=1100 BM=4200 HC=.402  )
+*$
+*$
+.model awbb64290k38x830 CORE (LEVEL=3 GAP=0  ID=0 OD=2.45 AREA=.08 BR=720 BM=3830 HC=.138  )
+*$
+*$
+.model awbb64290k40x830 CORE (LEVEL=3 GAP=0  ID=0 OD=15.30 AREA=1.53 BR=720 BM=3830 HC=.138  )
+*$
+*$
+.model awbb64290k44x27 CORE (LEVEL=3 GAP=0  ID=0 OD=3.04 AREA=.12 BR=2300 BM=4850 HC=.188  )
+*$
+*$
+.model awbb64290k44x35 CORE (LEVEL=3 GAP=0  ID=0 OD=3.04 AREA=.12 BR=650 BM=3900 HC=.094  )
+*$
+*$
+.model awbb64290k44x38 CORE (LEVEL=3 GAP=0  ID=0 OD=3.04 AREA=.12 BR=450 BM=3800 HC=.044  )
+*$
+*$
+.model awbb64290k44x47 CORE (LEVEL=3 GAP=0  ID=0 OD=3.04 AREA=.12 BR=1100 BM=4200 HC=.402  )
+*$
+*$
+.model awbb64290k44x830 CORE (LEVEL=3 GAP=0  ID=0 OD=3.04 AREA=.12 BR=720 BM=3830 HC=.138  )
+*$
+*$
+.model awbb64290k45x27 CORE (LEVEL=3 GAP=0  ID=0 OD=3.87 AREA=.2 BR=2300 BM=4850 HC=.188  )
+*$
+*$
+.model awbb64290k45x35 CORE (LEVEL=3 GAP=0  ID=0 OD=3.87 AREA=.2 BR=650 BM=3900 HC=.094  )
+*$
+*$
+.model awbb64290k45x38 CORE (LEVEL=3 GAP=0  ID=0 OD=3.87 AREA=.20 BR=450 BM=3800 HC=.044  )
+*$
+*$
+.model awbb64290k45x47 CORE (LEVEL=3 GAP=0  ID=0 OD=3.87 AREA=.2 BR=1100 BM=4200 HC=.402  )
+*$
+*$
+.model awbb64290k45x830 CORE (LEVEL=3 GAP=0  ID=0 OD=3.87 AREA=.2 BR=720 BM=3830 HC=.138  )
+*$
+*$
+.model awbb64290k48x27 CORE (LEVEL=3 GAP=0  ID=0 OD=8.2 AREA=.83 BR=2300 BM=4850 HC=.188  )
+*$
+*$
+.model awbb64290k48x830 CORE (LEVEL=3 GAP=0  ID=0 OD=8.2 AREA=.83 BR=720 BM=3830 HC=.138  )
+*$
+*$
+.model awbb64290k58x27 CORE (LEVEL=3 GAP=0  ID=0 OD=8.2 AREA=.66 BR=2300 BM=4850 HC=.188  )
+*$
+*$
+.model awbb64290k58x830 CORE (LEVEL=3 GAP=0  ID=0 OD=8.2 AREA=.66 BR=720 BM=3830 HC=.138  )
+*$
+*$
+.model awbb64290k615x27 CORE (LEVEL=3 GAP=0  ID=0 OD=6.3 AREA=.76 BR=2300 BM=4850 HC=.188  )
+*$
+*$
+.model awbb64290k615x830 CORE (LEVEL=3 GAP=0  ID=0 OD=6.3 AREA=.76 BR=720 BM=3830 HC=.138  )
+*$
+*$
+.model awbb64290k616x27 CORE (LEVEL=3 GAP=0  ID=0 OD=6.3 AREA=1.02 BR=2300 BM=4850 HC=.188  )
+*$
+*$
+.model awbb64290k616x830 CORE (LEVEL=3 GAP=0  ID=0 OD=6.3 AREA=1.02 BR=720 BM=3830 HC=.138  )
+*$
+*$
+.model awbb64290k618x27 CORE (LEVEL=3 GAP=0  ID=0 OD=6.0 AREA=.51 BR=2300 BM=4850 HC=.188  )
+*$
+*$
+.model awbb64290k618x35 CORE (LEVEL=3 GAP=0  ID=0 OD=6.0 AREA=.51 BR=650 BM=3900 HC=.094  )
+*$
+*$
+.model awbb64290k618x830 CORE (LEVEL=3 GAP=0  ID=0 OD=6.0 AREA=.51 BR=720 BM=3830 HC=.138  )
+*$
+*$
+.model awbb64290k626x27 CORE (LEVEL=3 GAP=0  ID=0 OD=5.64 AREA=.36 BR=2300 BM=4850 HC=.188  )
+*$
+*$
+.model awbb64290k626x35 CORE (LEVEL=3 GAP=0  ID=0 OD=5.64 AREA=.36 BR=650 BM=3900 HC=.094  )
+*$
+*$
+.model awbb64290k626x830 CORE (LEVEL=3 GAP=0  ID=0 OD=5.64 AREA=.36 BR=720 BM=3830 HC=.138  )
+*$
+*$
+.model awbb64290k632x27 CORE (LEVEL=3 GAP=0  ID=0 OD=4.53 AREA=.35 BR=2300 BM=4850 HC=.188  )
+*$
+*$
+.model awbb64290k632x35 CORE (LEVEL=3 GAP=0  ID=0 OD=4.53 AREA=.35 BR=650 BM=3900 HC=.094  )
+*$
+*$
+.model awbb64290k632x830 CORE (LEVEL=3 GAP=0  ID=0 OD=4.53 AREA=.35 BR=720 BM=3830 HC=.138  )
+*$
+*$
+.model awbb65495by30 CORE (LEVEL=3 GAP=0  ID=0 OD=.76 AREA=.028 BR=720 BM=3830 HC=.138  )
+*$
+*$
+.model awbb65495by33 CORE (LEVEL=3 GAP=0  ID=0 OD=.76 AREA=.028 BR=1850 BM=4500 HC=1.01  )
+*$
+*$
+.model awbb65501jy1 CORE (LEVEL=3 GAP=0  ID=0 OD=.79 AREA=.047 BR=2950 BM=3920 HC=5.66  )
+*$
+*$
+.model awbb65501jy30 CORE (LEVEL=3 GAP=0  ID=0 OD=.79 AREA=.047 BR=720 BM=3830 HC=.138  )
+*$
+*$
+.model awbb65701lr30 CORE (LEVEL=3 GAP=0  ID=0 OD=4.5 AREA=1.36 BR=720 BM=3830 HC=.138  )
+*$
+*$
+.model awbb65701lr41 CORE (LEVEL=3 GAP=0  ID=0 OD=4.5 AREA=1.36 BR=1.6k BM=4.75k HC=.19  )
+*$
+*$
+.model awbb65701ly38 CORE (LEVEL=3 GAP=0  ID=0 OD=4.5 AREA=1.36 BR=450 BM=3800 HC=.044  )
+*$
+*$
+.model awbe21_3c6a CORE (LEVEL=3 GAP=0  ID=0 OD=7.75 AREA=1.47 BR=1.0k BM=5.5k HC=.2  )
+*$
+*$
+.model awbe21_3c8 CORE (LEVEL=3 GAP=0  ID=0 OD=7.75 AREA=1.47 BR=1.0k BM=5k HC=.2  )
+*$
+*$
+.model awbe21_3e2a CORE (LEVEL=3 GAP=0  ID=0 OD=7.75 AREA=1.47 BR=.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awbe375_3c6a CORE (LEVEL=3 GAP=0  ID=0 OD=6.93 AREA=.81 BR=1.0k BM=5.5k HC=.2  )
+*$
+*$
+.model awbe375_3c8 CORE (LEVEL=3 GAP=0  ID=0 OD=6.93 AREA=.81 BR=1.0k BM=5k HC=.2  )
+*$
+*$
+.model awbe375_3e2a CORE (LEVEL=3 GAP=0  ID=0 OD=6.93 AREA=.81 BR=.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awbec35_3c80 CORE (LEVEL=3 GAP=0  ID=0 OD=7.74 AREA=.843 BR=1.0k BM=5.5k HC=.2  )
+*$
+*$
+.model awbec35_3c81 CORE (LEVEL=3 GAP=0  ID=0 OD=7.74 AREA=.843 BR=1.0k BM=5k HC=.2  )
+*$
+*$
+.model awbec35_3c85 CORE (LEVEL=3 GAP=0  ID=0 OD=7.74 AREA=.843 BR=1.55k BM=4.7k HC=.188  )
+*$
+*$
+.model awbec41_3c80 CORE (LEVEL=3 GAP=0  ID=0 OD=8.93 AREA=1.21 BR=1.0k BM=5.5k HC=.2  )
+*$
+*$
+.model awbec41_3c81 CORE (LEVEL=3 GAP=0  ID=0 OD=8.93 AREA=1.21 BR=1.0k BM=5k HC=.2  )
+*$
+*$
+.model awbec41_3c85 CORE (LEVEL=3 GAP=0  ID=0 OD=8.93 AREA=1.21 BR=1.55k BM=4.7k HC=.188  )
+*$
+*$
+.model awbec52_3c80 CORE (LEVEL=3 GAP=0  ID=0 OD=10.5 AREA=1.80 BR=1.0k BM=5.5k HC=.2  )
+*$
+*$
+.model awbec52_3c81 CORE (LEVEL=3 GAP=0  ID=0 OD=10.5 AREA=1.8 BR=1.0k BM=5k HC=.2  )
+*$
+*$
+.model awbec52_3c85 CORE (LEVEL=3 GAP=0  ID=0 OD=10.5 AREA=1.8 BR=1.55k BM=4.7k HC=.188  )
+*$
+*$
+.model awbec70_3c80 CORE (LEVEL=3 GAP=0  ID=0 OD=14.4 AREA=2.79 BR=1.0k BM=5.5k HC=.2  )
+*$
+*$
+.model awbec70_3c81 CORE (LEVEL=3 GAP=0  ID=0 OD=14.4 AREA=2.79 BR=1.0k BM=5k HC=.2  )
+*$
+*$
+.model awbec70_3c85 CORE (LEVEL=3 GAP=0  ID=0 OD=14.4 AREA=2.79 BR=1.55k BM=4.7k HC=.188  )
+*$
+*$
+.model awbetd29_3c85 CORE (LEVEL=3 GAP=0  ID=0 OD=7.2 AREA=.76 BR=1.55k BM=4.7k HC=.188  )
+*$
+*$
+.model awbetd29_3f3 CORE (LEVEL=3 GAP=0  ID=0 OD=7.2 AREA=.76 BR=1.35k BM=4.6k HC=.188  )
+*$
+*$
+.model awbetd34_3c80 CORE (LEVEL=3 GAP=0  ID=0 OD=7.86 AREA=.971 BR=1.0k BM=5.5k HC=.2  )
+*$
+*$
+.model awbetd34_3c85 CORE (LEVEL=3 GAP=0  ID=0 OD=7.86 AREA=.971 BR=1.55k BM=4.7k HC=.188  )
+*$
+*$
+.model awbetd34_3f3 CORE (LEVEL=3 GAP=0  ID=0 OD=7.86 AREA=.971 BR=1.35k BM=4.6k HC=.188  )
+*$
+*$
+.model awbetd39_3c80 CORE (LEVEL=3 GAP=0  ID=0 OD=9.21 AREA=1.25 BR=1.0k BM=5.5k HC=.2  )
+*$
+*$
+.model awbetd39_3c85 CORE (LEVEL=3 GAP=0  ID=0 OD=9.21 AREA=1.25 BR=1.55k BM=4.7k HC=.188  )
+*$
+*$
+.model awbetd39_3f3 CORE (LEVEL=3 GAP=0  ID=0 OD=9.21 AREA=1.25 BR=1.35k BM=4.6k HC=.188  )
+*$
+*$
+.model awbetd44_3c80 CORE (LEVEL=3 GAP=0  ID=0 OD=10.3 AREA=1.74 BR=1.0k BM=5.5k HC=.2  )
+*$
+*$
+.model awbetd44_3c85 CORE (LEVEL=3 GAP=0  ID=0 OD=10.3 AREA=1.74 BR=1.55k BM=4.7k HC=.188  )
+*$
+*$
+.model awbetd44_3f3 CORE (LEVEL=3 GAP=0  ID=0 OD=10.3 AREA=1.74 BR=1.35k BM=4.6k HC=.188  )
+*$
+*$
+.model awbetd49_3c80 CORE (LEVEL=3 GAP=0  ID=0 OD=11.4 AREA=2.11 BR=1.0k BM=5.5k HC=.2  )
+*$
+*$
+.model awbetd49_3c85 CORE (LEVEL=3 GAP=0  ID=0 OD=11.4 AREA=2.11 BR=1.55k BM=4.7k HC=.188  )
+*$
+*$
+.model awbetd49_3f3 CORE (LEVEL=3 GAP=0  ID=0 OD=11.4 AREA=2.11 BR=1.35k BM=4.6k HC=.188  )
+*$
+*$
+.model awbf40705_tc CORE (LEVEL=3 GAP=0  OD=.673 ID=.281 AREA=0.1 BR=0.8k BM=5.0k HC=0.18  )
+*$
+*$
+.model awbf40907_tc CORE (LEVEL=3 GAP=0  OD=0.909 ID=0.533 AREA=0.137 BR=0.8k BM=5.0k HC=0.18  )
+*$
+*$
+.model awbf41003_tc CORE (LEVEL=3 GAP=0  OD=.880 ID=.439 AREA=0.073 BR=0.8k BM=5.0k HC=0.18  )
+*$
+*$
+.model awbf41005_tc CORE (LEVEL=3 GAP=0  OD=.880 ID=.439 AREA=0.110 BR=0.8k BM=5.0k HC=0.18  )
+*$
+*$
+.model awbf41206_tc CORE (LEVEL=3 GAP=0  OD=1.028 ID=.418 AREA=.224 BR=0.8k BM=5.0k HC=0.18  )
+*$
+*$
+.model awbf41303_tc CORE (LEVEL=3 GAP=0  OD=1.224 ID=.764 AREA=0.074 BR=0.8k BM=5.0k HC=0.18  )
+*$
+*$
+.model awbf41306_tc CORE (LEVEL=3 GAP=0  OD=1.224 ID=.764 AREA=0.149 BR=0.8k BM=5.0k HC=0.18  )
+*$
+*$
+.model awbf41406_tc CORE (LEVEL=3 GAP=0  OD=1.203 ID=.676 AREA=0.172 BR=0.8k BM=5.0k HC=0.18  )
+*$
+*$
+.model awbf41407_tc CORE (LEVEL=3 GAP=0  OD=1.202 ID=.676 AREA=0.129 BR=0.8k BM=5.0k HC=0.18  )
+*$
+*$
+.model awbf41506_tc CORE (LEVEL=3 GAP=0  OD=1.248 ID=.697 AREA=0.112 BR=0.8k BM=5.0k HC=0.18  )
+*$
+*$
+.model awbf41605_tc CORE (LEVEL=3 GAP=0  OD=1.496 ID=.842 AREA=0.158 BR=0.8k BM=5.0k HC=0.18  )
+*$
+*$
+.model awbf42206_tc CORE (LEVEL=3 GAP=0  OD=2.128 ID=1.321 AREA=0.261 BR=0.8k BM=5.0k HC=0.18  )
+*$
+*$
+.model awbf42207_tc CORE (LEVEL=3 GAP=0  OD=2.128 ID=1.321 AREA=0.326 BR=0.8k BM=5.0k HC=0.18  )
+*$
+*$
+.model awbf44916_tc CORE (LEVEL=3 GAP=0  OD=4.797 ID=3.307 AREA=1.2 BR=0.8k BM=5.0k HC=0.18  )
+*$
+*$
+.model awbg40200_tc CORE (LEVEL=3 GAP=0  OD=.235 ID=.117 AREA=0.008 BR=0.75k BM=4.18k HC=0.15  )
+*$
+*$
+.model awbg40301_tc CORE (LEVEL=3 GAP=0  OD=.327 ID=.171 AREA=.0102 BR=0.75k BM=4.18k HC=0.15  )
+*$
+*$
+.model awbg40603_tc CORE (LEVEL=3 GAP=0  OD=0.545 ID=0.285 AREA=0.0428 BR=0.75k BM=4.18k HC=0.15  )
+*$
+*$
+.model awbg40907_tc CORE (LEVEL=3 GAP=0  OD=0.909 ID=0.533 AREA=0.137 BR=0.75k BM=4.18k HC=0.15  )
+*$
+*$
+.model awbg42207_tc CORE (LEVEL=3 GAP=0  OD=2.128 ID=1.321 AREA=0.326 BR=0.75k BM=4.18k HC=0.15  )
+*$
+*$
+.model awbg44916_tc CORE (LEVEL=3 GAP=0  OD=4.797 ID=3.307 AREA=1.2 BR=0.75k BM=4.18k HC=0.15  )
+*$
+*$
+.model awbh1b_t10_18_10 CORE (LEVEL=3 GAP=0  ID=0 OD=4.15 AREA=.389 BR=1300 BM=4100 HC=.1  )
+*$
+*$
+.model awbh1b_t12_16_8 CORE (LEVEL=3 GAP=0  ID=0 OD=4.34 AREA=.159 BR=1300 BM=4100 HC=.1  )
+*$
+*$
+.model awbh1b_t12_20_10 CORE (LEVEL=3 GAP=0  ID=0 OD=4.81 AREA=.391 BR=1300 BM=4100 HC=.1  )
+*$
+*$
+.model awbh1b_t14_22_10 CORE (LEVEL=3 GAP=0  ID=0 OD=5.47 AREA=.393 BR=1300 BM=4100 HC=.1  )
+*$
+*$
+.model awbh1b_t14_22_65 CORE (LEVEL=3 GAP=0  ID=0 OD=5.47 AREA=.256 BR=1300 BM=4100 HC=.1  )
+*$
+*$
+.model awbh1b_t15_25_13 CORE (LEVEL=3 GAP=0  ID=0 OD=6.02 AREA=.636 BR=1300 BM=4100 HC=.1  )
+*$
+*$
+.model awbh1b_t16_28_13 CORE (LEVEL=3 GAP=0  ID=0 OD=6.56 AREA=.760 BR=1300 BM=4100 HC=.1  )
+*$
+*$
+.model awbh1b_t19_31_13 CORE (LEVEL=3 GAP=0  ID=0 OD=7.55 AREA=.765 BR=1300 BM=4100 HC=.1  )
+*$
+*$
+.model awbh1b_t19_31_8 CORE (LEVEL=3 GAP=0  ID=0 OD=7.55 AREA=.471 BR=1300 BM=4100 HC=.1  )
+*$
+*$
+.model awbh1b_t22_38_14 CORE (LEVEL=3 GAP=0  ID=0 OD=8.97 AREA=1.09 BR=1300 BM=4100 HC=.1  )
+*$
+*$
+.model awbh1b_t24_40_16 CORE (LEVEL=3 GAP=0  ID=0 OD=9.63 AREA=1.25 BR=1300 BM=4100 HC=.1  )
+*$
+*$
+.model awbh1b_t30_445_13 CORE (LEVEL=3 GAP=0  ID=0 OD=11.4 AREA=.93 BR=1300 BM=4100 HC=.1  )
+*$
+*$
+.model awbh1b_t30_48_15 CORE (LEVEL=3 GAP=0  ID=0 OD=11.8 AREA=1.33 BR=1300 BM=4100 HC=.1  )
+*$
+*$
+.model awbh1b_t36_60_20 CORE (LEVEL=3 GAP=0  ID=0 OD=14.4 AREA=2.35 BR=1300 BM=4100 HC=.1  )
+*$
+*$
+.model awbh5a_p148z12h CORE (LEVEL=3 GAP=0  ID=0 OD=2.42 AREA=.348 BR=1000 BM=4100 HC=.1  )
+*$
+*$
+.model awbh5a_p148z52h CORE (LEVEL=3 GAP=0  ID=0 OD=1.98 AREA=.251 BR=1000 BM=4100 HC=.1  )
+*$
+*$
+.model awbh5a_p1811z12h CORE (LEVEL=3 GAP=0  ID=0 OD=2.97 AREA=.577 BR=1000 BM=4100 HC=.1  )
+*$
+*$
+.model awbh5a_p1811z52h CORE (LEVEL=3 GAP=0  ID=0 OD=2.58 AREA=.433 BR=1000 BM=4100 HC=.1  )
+*$
+*$
+.model awbh5a_p1814z12h CORE (LEVEL=3 GAP=0  ID=0 OD=3.76 AREA=.562 BR=1000 BM=4100 HC=.1  )
+*$
+*$
+.model awbh5a_p1814z52h CORE (LEVEL=3 GAP=0  ID=0 OD=3.01 AREA=.45 BR=1000 BM=4100 HC=.1  )
+*$
+*$
+.model awbh5a_p2213z12h CORE (LEVEL=3 GAP=0  ID=0 OD=3.84 AREA=.852 BR=1000 BM=4100 HC=.1  )
+*$
+*$
+.model awbh5a_p2213z52h CORE (LEVEL=3 GAP=0  ID=0 OD=3.15 AREA=.634 BR=1000 BM=4100 HC=.1  )
+*$
+*$
+.model awbh5a_p2616z12h CORE (LEVEL=3 GAP=0  ID=0 OD=4.52 AREA=1.25 BR=1000 BM=4100 HC=.1  )
+*$
+*$
+.model awbh5a_p2616z52h CORE (LEVEL=3 GAP=0  ID=0 OD=3.76 AREA=.94 BR=1000 BM=4100 HC=.1  )
+*$
+*$
+.model awbh5a_p3019z12h CORE (LEVEL=3 GAP=0  ID=0 OD=5.32 AREA=1.73 BR=1000 BM=4100 HC=.1  )
+*$
+*$
+.model awbh5a_p3019z52h CORE (LEVEL=3 GAP=0  ID=0 OD=4.52 AREA=1.37 BR=1000 BM=4100 HC=.1  )
+*$
+*$
+.model awbh5b_p148z12h CORE (LEVEL=3 GAP=0  ID=0 OD=2.42 AREA=.348 BR=1350 BM=4200 HC=.1  )
+*$
+*$
+.model awbh5b_p148z52h CORE (LEVEL=3 GAP=0  ID=0 OD=1.98 AREA=.251 BR=1350 BM=4200 HC=.1  )
+*$
+*$
+.model awbh5b_p1811z12h CORE (LEVEL=3 GAP=0  ID=0 OD=2.97 AREA=.577 BR=1350 BM=4200 HC=.1  )
+*$
+*$
+.model awbh5b_p1811z52h CORE (LEVEL=3 GAP=0  ID=0 OD=2.58 AREA=.433 BR=1350 BM=4200 HC=.1  )
+*$
+*$
+.model awbh5b_p1814z12h CORE (LEVEL=3 GAP=0  ID=0 OD=3.76 AREA=.562 BR=1350 BM=4200 HC=.1  )
+*$
+*$
+.model awbh5b_p1814z52h CORE (LEVEL=3 GAP=0  ID=0 OD=3.01 AREA=.45 BR=1350 BM=4200 HC=.1  )
+*$
+*$
+.model awbh5b_p2213z12h CORE (LEVEL=3 GAP=0  ID=0 OD=3.84 AREA=.852 BR=1350 BM=4200 HC=.1  )
+*$
+*$
+.model awbh5b_p2213z52h CORE (LEVEL=3 GAP=0  ID=0 OD=3.15 AREA=.634 BR=1350 BM=4200 HC=.1  )
+*$
+*$
+.model awbh5b_p2616z12h CORE (LEVEL=3 GAP=0  ID=0 OD=4.52 AREA=1.25 BR=1350 BM=4200 HC=.1  )
+*$
+*$
+.model awbh5b_p2616z52h CORE (LEVEL=3 GAP=0  ID=0 OD=3.76 AREA=.94 BR=1350 BM=4200 HC=.1  )
+*$
+*$
+.model awbh5b_p3019z12h CORE (LEVEL=3 GAP=0  ID=0 OD=5.32 AREA=1.73 BR=1350 BM=4200 HC=.1  )
+*$
+*$
+.model awbh5b_p3019z52h CORE (LEVEL=3 GAP=0  ID=0 OD=4.52 AREA=1.37 BR=1350 BM=4200 HC=.1  )
+*$
+*$
+.model awbh5c2_p148z12h CORE (LEVEL=3 GAP=0  ID=0 OD=2.42 AREA=.348 BR=900 BM=4000 HC=.09  )
+*$
+*$
+.model awbh5c2_p148z52h CORE (LEVEL=3 GAP=0  ID=0 OD=1.98 AREA=.251 BR=900 BM=4000 HC=.09  )
+*$
+*$
+.model awbh5c2_p1811z12h CORE (LEVEL=3 GAP=0  ID=0 OD=2.97 AREA=.577 BR=900 BM=4000 HC=.09  )
+*$
+*$
+.model awbh5c2_p1811z52h CORE (LEVEL=3 GAP=0  ID=0 OD=2.58 AREA=.433 BR=900 BM=4000 HC=.09  )
+*$
+*$
+.model awbh5c2_p1814z12h CORE (LEVEL=3 GAP=0  ID=0 OD=3.76 AREA=.562 BR=900 BM=4000 HC=.09  )
+*$
+*$
+.model awbh5c2_p1814z52h CORE (LEVEL=3 GAP=0  ID=0 OD=3.01 AREA=.45 BR=900 BM=4000 HC=.09  )
+*$
+*$
+.model awbh5c2_p2213z12h CORE (LEVEL=3 GAP=0  ID=0 OD=3.84 AREA=.852 BR=900 BM=4000 HC=.09  )
+*$
+*$
+.model awbh5c2_p2213z52h CORE (LEVEL=3 GAP=0  ID=0 OD=3.15 AREA=.634 BR=900 BM=4000 HC=.09  )
+*$
+*$
+.model awbh5c2_p2616z12h CORE (LEVEL=3 GAP=0  ID=0 OD=4.52 AREA=1.25 BR=900 BM=4000 HC=.09  )
+*$
+*$
+.model awbh5c2_p2616z52h CORE (LEVEL=3 GAP=0  ID=0 OD=3.76 AREA=.94 BR=900 BM=4000 HC=.09  )
+*$
+*$
+.model awbh5c2_p3019z12h CORE (LEVEL=3 GAP=0  ID=0 OD=5.32 AREA=1.73 BR=900 BM=4000 HC=.09  )
+*$
+*$
+.model awbh5c2_p3019z52h CORE (LEVEL=3 GAP=0  ID=0 OD=4.52 AREA=1.37 BR=900 BM=4000 HC=.09  )
+*$
+*$
+.model awbh7c1_lp2213 CORE (LEVEL=3 GAP=0  ID=0 OD=4.9 AREA=.679 BR=1170 BM=5100 HC=.15  )
+*$
+*$
+.model awbh7c1_lp238 CORE (LEVEL=3 GAP=0  ID=0 OD=4.41 AREA=.313 BR=1170 BM=5100 HC=.15  )
+*$
+*$
+.model awbh7c1_lp3213 CORE (LEVEL=3 GAP=0  ID=0 OD=6.4 AREA=.703 BR=1170 BM=5100 HC=.15  )
+*$
+*$
+.model awbh7c1_pq2016 CORE (LEVEL=3 GAP=0  ID=0 OD=3.74 AREA=.62 BR=1170 BM=5100 HC=.15  )
+*$
+*$
+.model awbh7c1_pq2020 CORE (LEVEL=3 GAP=0  ID=0 OD=4.54 AREA=.62 BR=1170 BM=5100 HC=.15  )
+*$
+*$
+.model awbh7c1_pq2620 CORE (LEVEL=3 GAP=0  ID=0 OD=4.63 AREA=1.19 BR=1170 BM=5100 HC=.15  )
+*$
+*$
+.model awbh7c1_pq2625 CORE (LEVEL=3 GAP=0  ID=0 OD=5.55 AREA=1.18 BR=1170 BM=5100 HC=.15  )
+*$
+*$
+.model awbh7c1_pq3220 CORE (LEVEL=3 GAP=0  ID=0 OD=5.55 AREA=1.70 BR=1170 BM=5100 HC=.15  )
+*$
+*$
+.model awbh7c1_pq3230 CORE (LEVEL=3 GAP=0  ID=0 OD=7.46 AREA=1.61 BR=1170 BM=5100 HC=.15  )
+*$
+*$
+.model awbh7c1_pq3535 CORE (LEVEL=3 GAP=0  ID=0 OD=8.79 AREA=1.96 BR=1170 BM=5100 HC=.15  )
+*$
+*$
+.model awbh7c1_pq4040 CORE (LEVEL=3 GAP=0  ID=0 OD=10.19 AREA=2.01 BR=1170 BM=5100 HC=.15  )
+*$
+*$
+.model awbh7c1_pq5050 CORE (LEVEL=3 GAP=0  ID=0 OD=11.3 AREA=3.28 BR=1170 BM=5100 HC=.15  )
+*$
+*$
+.model awbh7c4_lp2213 CORE (LEVEL=3 GAP=0  ID=0 OD=4.9 AREA=.679 BR=950 BM=5100 HC=.18  )
+*$
+*$
+.model awbh7c4_lp238 CORE (LEVEL=3 GAP=0  ID=0 OD=4.41 AREA=.313 BR=950 BM=5100 HC=.18  )
+*$
+*$
+.model awbh7c4_lp3213 CORE (LEVEL=3 GAP=0  ID=0 OD=6.4 AREA=.703 BR=950 BM=5100 HC=.18  )
+*$
+*$
+.model awbh7c4_pq2016 CORE (LEVEL=3 GAP=0  ID=0 OD=3.74 AREA=.62 BR=950 BM=5100 HC=.18  )
+*$
+*$
+.model awbh7c4_pq2020 CORE (LEVEL=3 GAP=0  ID=0 OD=4.54 AREA=.62 BR=950 BM=5100 HC=.18  )
+*$
+*$
+.model awbh7c4_pq2620 CORE (LEVEL=3 GAP=0  ID=0 OD=4.63 AREA=1.19 BR=950 BM=5100 HC=.18  )
+*$
+*$
+.model awbh7c4_pq2625 CORE (LEVEL=3 GAP=0  ID=0 OD=5.55 AREA=1.18 BR=950 BM=5100 HC=.18  )
+*$
+*$
+.model awbh7c4_pq3220 CORE (LEVEL=3 GAP=0  ID=0 OD=5.55 AREA=1.70 BR=950 BM=5100 HC=.18  )
+*$
+*$
+.model awbh7c4_pq3230 CORE (LEVEL=3 GAP=0  ID=0 OD=7.46 AREA=1.61 BR=950 BM=5100 HC=.18  )
+*$
+*$
+.model awbh7c4_pq3535 CORE (LEVEL=3 GAP=0  ID=0 OD=8.79 AREA=1.96 BR=950 BM=5100 HC=.18  )
+*$
+*$
+.model awbh7c4_pq4040 CORE (LEVEL=3 GAP=0  ID=0 OD=10.19 AREA=2.01 BR=950 BM=5100 HC=.18  )
+*$
+*$
+.model awbh7c4_pq5050 CORE (LEVEL=3 GAP=0  ID=0 OD=11.3 AREA=3.28 BR=950 BM=5100 HC=.18  )
+*$
+*$
+.model awbk43434ec CORE (LEVEL=3 GAP=0  ID=0 OD=7.9 AREA=.97 BR=.9k BM=4.7k HC=.2  )
+*$
+*$
+.model awbk43939ec CORE (LEVEL=3 GAP=0  ID=0 OD=9.2 AREA=1.25 BR=.9k BM=4.7k HC=.2  )
+*$
+*$
+.model awbk44444ec CORE (LEVEL=3 GAP=0  ID=0 OD=10.3 AREA=1.73 BR=.9k BM=4.7k HC=.2  )
+*$
+*$
+.model awbk44949ec CORE (LEVEL=3 GAP=0  ID=0 OD=11.4 AREA=2.11 BR=.9k BM=4.7k HC=.2  )
+*$
+*$
+.model awbp43434ec CORE (LEVEL=3 GAP=0  ID=0 OD=7.9 AREA=.97 BR=.6k BM=5.05k HC=.18  )
+*$
+*$
+.model awbp43939ec CORE (LEVEL=3 GAP=0  ID=0 OD=9.2 AREA=1.25 BR=.6k BM=5.05k HC=.18  )
+*$
+*$
+.model awbp44444ec CORE (LEVEL=3 GAP=0  ID=0 OD=10.3 AREA=1.73 BR=.6k BM=5.05k HC=.18  )
+*$
+*$
+.model awbp44949ec CORE (LEVEL=3 GAP=0  ID=0 OD=11.4 AREA=2.11 BR=.6k BM=5.05k HC=.18  )
+*$
+*$
+.model awbr43434ec CORE (LEVEL=3 GAP=0  ID=0 OD=7.9 AREA=.97 BR=1.1k BM=5.05k HC=.18  )
+*$
+*$
+.model awbr43939ec CORE (LEVEL=3 GAP=0  ID=0 OD=9.2 AREA=1.25 BR=1.1k BM=5.05k HC=.18  )
+*$
+*$
+.model awbr44444ec CORE (LEVEL=3 GAP=0  ID=0 OD=10.3 AREA=1.73 BR=1.1k BM=5.05k HC=.18  )
+*$
+*$
+.model awbr44949ec CORE (LEVEL=3 GAP=0  ID=0 OD=11.4 AREA=2.11 BR=1.1k BM=5.05k HC=.18  )
+*$
+*$
+.model awbrm10pl00_3b7 CORE (LEVEL=3 GAP=0  ID=0 OD=4.7 AREA=.83 BR=.8k BM=4.5k HC=.2  )
+*$
+*$
+.model awbrm10pl00_3b9 CORE (LEVEL=3 GAP=0  ID=0 OD=4.7 AREA=.83 BR=1.2k BM=4.7k HC=.3  )
+*$
+*$
+.model awbrm10pl00_3c8 CORE (LEVEL=3 GAP=0  ID=0 OD=4.61 AREA=.97 BR=1.0k BM=5k HC=.2  )
+*$
+*$
+.model awbrm10pl00_3e2a CORE (LEVEL=3 GAP=0  ID=0 OD=4.61 AREA=.97 BR=.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awbrm5pl00_3b7 CORE (LEVEL=3 GAP=0  ID=0 OD=2.14 AREA=.21 BR=.8k BM=4.5k HC=.2  )
+*$
+*$
+.model awbrm5pl00_3b9 CORE (LEVEL=3 GAP=0  ID=0 OD=2.14 AREA=.21 BR=1.2k BM=4.7k HC=.3  )
+*$
+*$
+.model awbrm5pl00_3d3 CORE (LEVEL=3 GAP=0  ID=0 OD=2.14 AREA=.21 BR=2.0k BM=4.6k HC=1.0  )
+*$
+*$
+.model awbrm5pl00_3e2a CORE (LEVEL=3 GAP=0  ID=0 OD=2.14 AREA=.21 BR=.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awbrm5pl00_4c4 CORE (LEVEL=3 GAP=0  ID=0 OD=2.14 AREA=.21 BR=2.55k BM=3.2k HC=3.8  )
+*$
+*$
+.model awbrm6pl00_3b7 CORE (LEVEL=3 GAP=0  ID=0 OD=2.5 AREA=.319 BR=.8k BM=4.5k HC=.2  )
+*$
+*$
+.model awbrm6pl00_3b9 CORE (LEVEL=3 GAP=0  ID=0 OD=2.5 AREA=.319 BR=1.2k BM=4.7k HC=.3  )
+*$
+*$
+.model awbrm6pl00_3c8 CORE (LEVEL=3 GAP=0  ID=0 OD=2.75 AREA=.38 BR=1.0k BM=5k HC=.2  )
+*$
+*$
+.model awbrm6pl00_3d3 CORE (LEVEL=3 GAP=0  ID=0 OD=2.5 AREA=.319 BR=2.0k BM=4.6k HC=1.0  )
+*$
+*$
+.model awbrm6pl00_3e2a CORE (LEVEL=3 GAP=0  ID=0 OD=2.75 AREA=.38 BR=.3k BM=4.5k HC=.08  )
+*$
+*$
+.model awbsg_0800_0320 CORE (LEVEL=3 GAP=0  OD=2.032 ID=1.27 AREA=.242 BR=650 BM=11.5k HC=8  )
+*$
+*$
+.model awbsg_1060_0680 CORE (LEVEL=3 GAP=0  OD=2.692 ID=1.473 AREA=.681 BR=650 BM=11.5k HC=8  )
+*$
+*$
+.model awbsg_1300_0600 CORE (LEVEL=3 GAP=0  OD=3.302 ID=1.994 AREA=.731 BR=650 BM=11.5k HC=8  )
+*$
+*$
+.model awbsg_1301_1200 CORE (LEVEL=3 GAP=0  OD=3.302 ID=1.994 AREA=1.462 BR=650 BM=11.5k HC=8  )
+*$
+*$
+.model awbsg_1570_0740 CORE (LEVEL=3 GAP=0  OD=3.988 ID=2.413 AREA=1.14 BR=650 BM=11.5k HC=8  )
+*$
+*$
+.model awbsg_1840_1230 CORE (LEVEL=3 GAP=0  OD=4.674 ID=2.413 AREA=2.04 BR=650 BM=11.5k HC=8  )
+*$
+*$
+.model awbsg_2000_0670 CORE (LEVEL=3 GAP=0  OD=5.08 ID=3.175 AREA=1.28 BR=650 BM=11.5k HC=8  )
+*$
+*$
+.model awbw40200_tc CORE (LEVEL=3 GAP=0  OD=.235 ID=.117 AREA=0.008 BR=.5k BM=4.3k HC=0.04  )
+*$
+*$
+.model awbw40301_tc CORE (LEVEL=3 GAP=0  OD=.327 ID=.171 AREA=.0102 BR=.5k BM=4.3k HC=0.04  )
+*$
+*$
+.model awbw40603_tc CORE (LEVEL=3 GAP=0  OD=0.545 ID=0.285 AREA=0.0428 BR=0.5k BM=4.3k HC=0.04  )
+*$
+*$
+.model awbw40907_tc CORE (LEVEL=3 GAP=0  OD=0.909 ID=0.533 AREA=0.137 BR=0.5k BM=4.3k HC=0.04  )
+*$
+*$
+.model awbw42207_tc CORE (LEVEL=3 GAP=0  OD=2.128 ID=1.321 AREA=0.326 BR=0.5k BM=4.3k HC=0.04  )
+*$
+*$
+.model awbw44916_tc CORE (LEVEL=3 GAP=0  OD=4.797 ID=3.307 AREA=1.2 BR=0.5k BM=4.3k HC=0.04  )
+*$
+*$
+.model ee_14_3x5_3c90 CORE (LEVEL=3 OD=2.07 ID=0.0 AREA=0.145 GAP=0 BR=1.7k BM=4.5k HC=0.18867)
+*$
+*$
+.model ee_18_4_3c90 CORE (LEVEL=3 OD=2.43 ID=0.0 AREA=0.395 GAP=0 BR=1.7k BM=4.5k HC=0.18867)
+*$
+*$
+.model ee_22_6_3c90 CORE (LEVEL=3 OD=3.25 ID=0.0 AREA=0.785 GAP=0 BR=1.7k BM=4.5k HC=0.18867)
+*$
+*$
+.model ee_32_6_3c90 CORE (LEVEL=3 OD=4.17 ID=0.0 AREA=1.29 GAP=0 BR=1.7k BM=4.5k HC=0.18867)
+*$
+*$
+.model ee_38_8_3c90 CORE (LEVEL=3 OD=5.26 ID=0.0 AREA=1.94 GAP=0 BR=1.7k BM=4.5k HC=0.18867)
+*$
+*$
+.model ee_43_10_3c90 CORE (LEVEL=3 OD=6.17 ID=0.0 AREA=2.25 GAP=0 BR=1.7k BM=4.5k HC=0.18867)
+*$
+*$
+.model ee_58_11_3c90 CORE (LEVEL=3 OD=8.12 ID=0.0 AREA=3.05 GAP=0 BR=1.7k BM=4.5k HC=0.18867)
+*$
+*$
+.model ee_64_10_3c90 CORE (LEVEL=3 OD=7.97 ID=0.0 AREA=5.11 GAP=0 BR=1.7k BM=4.5k HC=0.18867)
+*$
+*$
+.model eplt_14_5_3c90 CORE (LEVEL=3 OD=1.67 ID=0.0 AREA=0.145 GAP=0 BR=1.7k BM=4.5k HC=0.18867)
+*$
+*$
+.model eplt_18_10_3c90 CORE (LEVEL=3 OD=2.03 ID=0.0 AREA=0.395 GAP=0 BR=1.7k BM=4.5k HC=0.18867)
+*$
+*$
+.model eplt_22_16_3c90 CORE (LEVEL=3 OD=2.61 ID=0.0 AREA=0.785 GAP=0 BR=1.7k BM=4.5k HC=0.18867)
+*$
+*$
+.model eplt_32_20_3c90 CORE (LEVEL=3 OD=3.59 ID=0.0 AREA=1.29 GAP=0 BR=1.7k BM=4.5k HC=0.18867)
+*$
+*$
+.model eplt_38_25_3c90 CORE (LEVEL=3 OD=4.37 ID=0.0 AREA=1.94 GAP=0 BR=1.7k BM=4.5k HC=0.18867)
+*$
+*$
+.model eplt_43_28_3c90 CORE (LEVEL=3 OD=5.08 ID=0.0 AREA=2.25 GAP=0 BR=1.7k BM=4.5k HC=0.18867)
+*$
+*$
+.model eplt_58_38_3c90 CORE (LEVEL=3 OD=6.83 ID=0.0 AREA=3.05 GAP=0 BR=1.7k BM=4.5k HC=0.18867)
+*$
+*$
+.model eplt_64_50_3c90 CORE (LEVEL=3 OD=6.90 ID=0.0 AREA=5.22 GAP=0 BR=1.7k BM=4.5k HC=0.18867)
+*$
+*$
+.model ee_14_3x5_3c92 CORE (LEVEL=3 OD=2.07 ID=0.0 AREA=0.145 GAP=0 BR=1.7k BM=5.5k HC=0.18867)
+*$
+*$
+.model ee_18_4_3c92 CORE (LEVEL=3 OD=2.43 ID=0.0 AREA=0.395 GAP=0 BR=1.7k BM=5.5k HC=0.18867)
+*$
+*$
+.model ee_22_6_3c92 CORE (LEVEL=3 OD=3.25 ID=0.0 AREA=0.785 GAP=0 BR=1.7k BM=5.5k HC=0.18867)
+*$
+*$
+.model ee_32_6_3c92 CORE (LEVEL=3 OD=4.17 ID=0.0 AREA=1.29 GAP=0 BR=1.7k BM=5.5k HC=0.18867)
+*$
+*$
+.model ee_38_8_3c92 CORE (LEVEL=3 OD=5.26 ID=0.0 AREA=1.94 GAP=0 BR=1.7k BM=5.5k HC=0.18867)
+*$
+*$
+.model ee_43_10_3c92 CORE (LEVEL=3 OD=6.17 ID=0.0 AREA=2.25 GAP=0 BR=1.7k BM=5.5k HC=0.18867)
+*$
+*$
+.model ee_58_11_3c92 CORE (LEVEL=3 OD=8.12 ID=0.0 AREA=3.05 GAP=0 BR=1.7k BM=5.5k HC=0.18867)
+*$
+*$
+.model ee_64_10_3c92 CORE (LEVEL=3 OD=7.97 ID=0.0 AREA=5.11 GAP=0 BR=1.7k BM=5.5k HC=0.18867)
+*$
+*$
+.model eplt_14_5_3c92 CORE (LEVEL=3 OD=1.67 ID=0.0 AREA=0.145 GAP=0 BR=1.7k BM=5.5k HC=0.18867)
+*$
+*$
+.model eplt_18_10_3c92 CORE (LEVEL=3 OD=2.03 ID=0.0 AREA=0.395 GAP=0 BR=1.7k BM=5.5k HC=0.18867)
+*$
+*$
+.model eplt_22_16_3c92 CORE (LEVEL=3 OD=2.61 ID=0.0 AREA=0.785 GAP=0 BR=1.7k BM=5.5k HC=0.18867)
+*$
+*$
+.model eplt_32_20_3c92 CORE (LEVEL=3 OD=3.59 ID=0.0 AREA=1.29 GAP=0 BR=1.7k BM=5.5k HC=0.18867)
+*$
+*$
+.model eplt_38_25_3c92 CORE (LEVEL=3 OD=4.37 ID=0.0 AREA=1.94 GAP=0 BR=1.7k BM=5.5k HC=0.18867)
+*$
+*$
+.model eplt_43_28_3c92 CORE (LEVEL=3 OD=5.08 ID=0.0 AREA=2.25 GAP=0 BR=1.7k BM=5.5k HC=0.18867)
+*$
+*$
+.model eplt_58_38_3c92 CORE (LEVEL=3 OD=6.83 ID=0.0 AREA=3.05 GAP=0 BR=1.7k BM=5.5k HC=0.18867)
+*$
+*$
+.model eplt_64_50_3c92 CORE (LEVEL=3 OD=6.90 ID=0.0 AREA=5.22 GAP=0 BR=1.7k BM=5.5k HC=0.18867)
+*$
+*$
+.model ee_14_3x5_3c96 CORE (LEVEL=3 OD=2.07 ID=0.0 AREA=0.145 GAP=0 BR=1.7k BM=5k HC=0.18867)
+*$
+*$
+.model ee_18_4_3c96 CORE (LEVEL=3 OD=2.43 ID=0.0 AREA=0.395 GAP=0 BR=1.7k BM=5k HC=0.18867)
+*$
+*$
+.model ee_22_6_3c96 CORE (LEVEL=3 OD=3.25 ID=0.0 AREA=0.785 GAP=0 BR=1.7k BM=5k HC=0.18867)
+*$
+*$
+.model ee_32_6_3c96 CORE (LEVEL=3 OD=4.17 ID=0.0 AREA=1.29 GAP=0 BR=1.7k BM=5k HC=0.18867)
+*$
+*$
+.model ee_38_8_3c96 CORE (LEVEL=3 OD=5.26 ID=0.0 AREA=1.94 GAP=0 BR=1.7k BM=5k HC=0.18867)
+*$
+*$
+.model ee_43_10_3c96 CORE (LEVEL=3 OD=6.17 ID=0.0 AREA=2.25 GAP=0 BR=1.7k BM=5k HC=0.18867)
+*$
+*$
+.model ee_58_11_3c96 CORE (LEVEL=3 OD=8.12 ID=0.0 AREA=3.05 GAP=0 BR=1.7k BM=5k HC=0.18867)
+*$
+*$
+.model ee_64_10_3c96 CORE (LEVEL=3 OD=7.97 ID=0.0 AREA=5.11 GAP=0 BR=1.7k BM=5k HC=0.18867)
+*$
+*$
+.model eplt_14_5_3c96 CORE (LEVEL=3 OD=1.67 ID=0.0 AREA=0.145 GAP=0 BR=1.7k BM=5k HC=0.18867)
+*$
+*$
+.model eplt_18_10_3c96 CORE (LEVEL=3 OD=2.03 ID=0.0 AREA=0.395 GAP=0 BR=1.7k BM=5k HC=0.18867)
+*$
+*$
+.model eplt_22_16_3c96 CORE (LEVEL=3 OD=2.61 ID=0.0 AREA=0.785 GAP=0 BR=1.7k BM=5k HC=0.18867)
+*$
+*$
+.model eplt_32_20_3c96 CORE (LEVEL=3 OD=3.59 ID=0.0 AREA=1.29 GAP=0 BR=1.7k BM=5k HC=0.18867)
+*$
+*$
+.model eplt_38_25_3c96 CORE (LEVEL=3 OD=4.37 ID=0.0 AREA=1.94 GAP=0 BR=1.7k BM=5k HC=0.18867)
+*$
+*$
+.model eplt_43_28_3c96 CORE (LEVEL=3 OD=5.08 ID=0.0 AREA=2.25 GAP=0 BR=1.7k BM=5k HC=0.18867)
+*$
+*$
+.model eplt_58_38_3c96 CORE (LEVEL=3 OD=6.83 ID=0.0 AREA=3.05 GAP=0 BR=1.7k BM=5k HC=0.18867)
+*$
+*$
+.model eplt_64_50_3c96 CORE (LEVEL=3 OD=6.90 ID=0.0 AREA=5.22 GAP=0 BR=1.7k BM=5k HC=0.18867)
+*$
+*$
+.model ee_14_3x5_3f3 CORE (LEVEL=3 OD=2.07 ID=0.0 AREA=0.145 GAP=0 BR=1.5k BM=4.5k HC=0.18867)
+*$
+*$
+.model ee_18_4_3f3 CORE (LEVEL=3 OD=2.43 ID=0.0 AREA=0.395 GAP=0 BR=1.5k BM=4.5k HC=0.18867)
+*$
+*$
+.model ee_22_6_3f3 CORE (LEVEL=3 OD=3.25 ID=0.0 AREA=0.785 GAP=0 BR=1.5k BM=4.5k HC=0.18867)
+*$
+*$
+.model ee_32_6_3f3 CORE (LEVEL=3 OD=4.17 ID=0.0 AREA=1.29 GAP=0 BR=1.5k BM=4.5k HC=0.18867)
+*$
+*$
+.model ee_38_8_3f3 CORE (LEVEL=3 OD=5.26 ID=0.0 AREA=1.94 GAP=0 BR=1.5k BM=4.5k HC=0.18867)
+*$
+*$
+.model ee_43_10_3f3 CORE (LEVEL=3 OD=6.17 ID=0.0 AREA=2.25 GAP=0 BR=1.5k BM=4.5k HC=0.18867)
+*$
+*$
+.model ee_58_11_3f3 CORE (LEVEL=3 OD=8.12 ID=0.0 AREA=3.05 GAP=0 BR=1.5k BM=4.5k HC=0.18867)
+*$
+*$
+.model ee_64_10_3f3 CORE (LEVEL=3 OD=7.97 ID=0.0 AREA=5.11 GAP=0 BR=1.5k BM=4.5k HC=0.18867)
+*$
+*$
+.model eplt_14_5_3f3 CORE (LEVEL=3 OD=1.67 ID=0.0 AREA=0.145 GAP=0 BR=1.5k BM=4.5k HC=0.18867)
+*$
+*$
+.model eplt_18_10_3f3 CORE (LEVEL=3 OD=2.03 ID=0.0 AREA=0.395 GAP=0 BR=1.5k BM=4.5k HC=0.18867)
+*$
+*$
+.model eplt_22_16_3f3 CORE (LEVEL=3 OD=2.61 ID=0.0 AREA=0.785 GAP=0 BR=1.5k BM=4.5k HC=0.18867)
+*$
+*$
+.model eplt_32_20_3f3 CORE (LEVEL=3 OD=3.59 ID=0.0 AREA=1.29 GAP=0 BR=1.5k BM=4.5k HC=0.18867)
+*$
+*$
+.model eplt_38_25_3f3 CORE (LEVEL=3 OD=4.37 ID=0.0 AREA=1.94 GAP=0 BR=1.5k BM=4.5k HC=0.18867)
+*$
+*$
+.model eplt_43_28_3f3 CORE (LEVEL=3 OD=5.08 ID=0.0 AREA=2.25 GAP=0 BR=1.5k BM=4.5k HC=0.18867)
+*$
+*$
+.model eplt_58_38_3f3 CORE (LEVEL=3 OD=6.83 ID=0.0 AREA=3.05 GAP=0 BR=1.5k BM=4.5k HC=0.18867)
+*$
+*$
+.model eplt_64_50_3f3 CORE (LEVEL=3 OD=6.90 ID=0.0 AREA=5.22 GAP=0 BR=1.5k BM=4.5k HC=0.18867)
+*$
+*$
+.model ee_14_3x5_3f35 CORE (LEVEL=3 OD=2.07 ID=0.0 AREA=0.145 GAP=0 BR=2k BM=5k HC=0.503)
+*$
+*$
+.model ee_18_4_3f35 CORE (LEVEL=3 OD=2.43 ID=0.0 AREA=0.395 GAP=0 BR=2k BM=5k HC=0.503)
+*$
+*$
+.model ee_22_6_3f35 CORE (LEVEL=3 OD=3.25 ID=0.0 AREA=0.785 GAP=0 BR=2k BM=5k HC=0.503)
+*$
+*$
+.model ee_32_6_3f35 CORE (LEVEL=3 OD=4.17 ID=0.0 AREA=1.29 GAP=0 BR=2k BM=5k HC=0.503)
+*$
+*$
+.model ee_38_8_3f35 CORE (LEVEL=3 OD=5.26 ID=0.0 AREA=1.94 GAP=0 BR=2k BM=5k HC=0.503)
+*$
+*$
+.model ee_43_10_3f35 CORE (LEVEL=3 OD=6.17 ID=0.0 AREA=2.25 GAP=0 BR=2k BM=5k HC=0.503)
+*$
+*$
+.model ee_58_11_3f35 CORE (LEVEL=3 OD=8.12 ID=0.0 AREA=3.05 GAP=0 BR=2k BM=5k HC=0.503)
+*$
+*$
+.model ee_64_10_3f35 CORE (LEVEL=3 OD=7.97 ID=0.0 AREA=5.11 GAP=0 BR=2k BM=5k HC=0.503)
+*$
+*$
+.model eplt_14_5_3f35 CORE (LEVEL=3 OD=1.67 ID=0.0 AREA=0.145 GAP=0 BR=2k BM=5k HC=0.503)
+*$
+*$
+.model eplt_18_10_3f35 CORE (LEVEL=3 OD=2.03 ID=0.0 AREA=0.395 GAP=0 BR=2k BM=5k HC=0.503)
+*$
+*$
+.model eplt_22_16_3f35 CORE (LEVEL=3 OD=2.61 ID=0.0 AREA=0.785 GAP=0 BR=2k BM=5k HC=0.503)
+*$
+*$
+.model eplt_32_20_3f35 CORE (LEVEL=3 OD=3.59 ID=0.0 AREA=1.29 GAP=0 BR=2k BM=5k HC=0.503)
+*$
+*$
+.model eplt_38_25_3f35 CORE (LEVEL=3 OD=4.37 ID=0.0 AREA=1.94 GAP=0 BR=2k BM=5k HC=0.503)
+*$
+*$
+.model eplt_43_28_3f35 CORE (LEVEL=3 OD=5.08 ID=0.0 AREA=2.25 GAP=0 BR=2k BM=5k HC=0.503)
+*$
+*$
+.model eplt_58_38_3f35 CORE (LEVEL=3 OD=6.83 ID=0.0 AREA=3.05 GAP=0 BR=2k BM=5k HC=0.503)
+*$
+*$
+.model eplt_64_50_3f35 CORE (LEVEL=3 OD=6.90 ID=0.0 AREA=5.22 GAP=0 BR=2k BM=5k HC=0.503)
+*$
+*$
+.model ee_14_3x5_3f4 CORE (LEVEL=3 OD=2.07 ID=0.0 AREA=0.145 GAP=0 BR=1.5k BM=4k HC=0.7547)
+*$
+*$
+.model ee_18_4_3f4 CORE (LEVEL=3 OD=2.43 ID=0.0 AREA=0.395 GAP=0 BR=1.5k BM=4k HC=0.7547)
+*$
+*$
+.model ee_22_6_3f4 CORE (LEVEL=3 OD=3.25 ID=0.0 AREA=0.785 GAP=0 BR=1.5k BM=4k HC=0.7547)
+*$
+*$
+.model ee_32_6_3f4 CORE (LEVEL=3 OD=4.17 ID=0.0 AREA=1.29 GAP=0 BR=1.5k BM=4k HC=0.7547)
+*$
+*$
+.model ee_38_8_3f4 CORE (LEVEL=3 OD=5.26 ID=0.0 AREA=1.94 GAP=0 BR=1.5k BM=4k HC=0.7547)
+*$
+*$
+.model ee_43_10_3f4 CORE (LEVEL=3 OD=6.17 ID=0.0 AREA=2.25 GAP=0 BR=1.5k BM=4k HC=0.7547)
+*$
+*$
+.model ee_58_11_3f4 CORE (LEVEL=3 OD=8.12 ID=0.0 AREA=3.05 GAP=0 BR=1.5k BM=4k HC=0.7547)
+*$
+*$
+.model ee_64_10_3f4 CORE (LEVEL=3 OD=7.97 ID=0.0 AREA=5.11 GAP=0 BR=1.5k BM=4k HC=0.7547)
+*$
+*$
+.model eplt_14_5_3f4 CORE (LEVEL=3 OD=1.67 ID=0.0 AREA=0.145 GAP=0 BR=1.5k BM=4k HC=0.7547)
+*$
+*$
+.model eplt_18_10_3f4 CORE (LEVEL=3 OD=2.03 ID=0.0 AREA=0.395 GAP=0 BR=1.5k BM=4k HC=0.7547)
+*$
+*$
+.model eplt_22_16_3f4 CORE (LEVEL=3 OD=2.61 ID=0.0 AREA=0.785 GAP=0 BR=1.5k BM=4k HC=0.7547)
+*$
+*$
+.model eplt_32_20_3f4 CORE (LEVEL=3 OD=3.59 ID=0.0 AREA=1.29 GAP=0 BR=1.5k BM=4k HC=0.7547)
+*$
+*$
+.model eplt_38_25_3f4 CORE (LEVEL=3 OD=4.37 ID=0.0 AREA=1.94 GAP=0 BR=1.5k BM=4k HC=0.7547)
+*$
+*$
+.model eplt_43_28_3f4 CORE (LEVEL=3 OD=5.08 ID=0.0 AREA=2.25 GAP=0 BR=1.5k BM=4k HC=0.7547)
+*$
+*$
+.model eplt_58_38_3f4 CORE (LEVEL=3 OD=6.83 ID=0.0 AREA=3.05 GAP=0 BR=1.5k BM=4k HC=0.7547)
+*$
+*$
+.model eplt_64_50_3f4 CORE (LEVEL=3 OD=6.90 ID=0.0 AREA=5.22 GAP=0 BR=1.5k BM=4k HC=0.7547)
+*$
+*$
+.model er_9x5_3c92 CORE (LEVEL=3 OD=1.42 ID=0.0 AREA=0.0847 GAP=0 BR=1.7k BM=5.5k HC=0.18867)
+*$
+*$
+.model er_11_3c92 CORE (LEVEL=3 OD=1.47 ID=0.0 AREA=0.119 GAP=0 BR=1.7k BM=5.5k HC=0.18867)
+*$
+*$
+.model er_14x5_3c92 CORE (LEVEL=3 OD=1.90 ID=0.0 AREA=0.176 GAP=0 BR=1.7k BM=5.5k HC=0.18867)
+*$
+*$
+.model er_18_3c92 CORE (LEVEL=3 OD=2.21 ID=0.0 AREA=0.302 GAP=0 BR=1.7k BM=5.5k HC=0.18867)
+*$
+*$
+.model er_23_3c92 CORE (LEVEL=3 OD=2.66 ID=0.0 AREA=0.502 GAP=0 BR=1.7k BM=5.5k HC=0.18867)
+*$
+*$
+.model er_9x5_3c96 CORE (LEVEL=3 OD=1.42 ID=0.0 AREA=0.0847 GAP=0 BR=1.7k BM=5k HC=0.18867)
+*$
+*$
+.model er_11_3c96 CORE (LEVEL=3 OD=1.47 ID=0.0 AREA=0.119 GAP=0 BR=1.7k BM=5k HC=0.18867)
+*$
+*$
+.model er_14x5_3c96 CORE (LEVEL=3 OD=1.90 ID=0.0 AREA=0.176 GAP=0 BR=1.7k BM=5k HC=0.18867)
+*$
+*$
+.model er_18_3c96 CORE (LEVEL=3 OD=2.21 ID=0.0 AREA=0.302 GAP=0 BR=1.7k BM=5k HC=0.18867)
+*$
+*$
+.model er_23_3c96 CORE (LEVEL=3 OD=2.66 ID=0.0 AREA=0.502 GAP=0 BR=1.7k BM=5k HC=0.18867)
+*$
+*$
+.model er_9x5_3f3 CORE (LEVEL=3 OD=1.42 ID=0.0 AREA=0.0847 GAP=0 BR=1.5k BM=4.5k HC=0.18867)
+*$
+*$
+.model er_11_3f3 CORE (LEVEL=3 OD=1.47 ID=0.0 AREA=0.119 GAP=0 BR=1.5k BM=4.5k HC=0.18867)
+*$
+*$
+.model er_14x5_3f3 CORE (LEVEL=3 OD=1.90 ID=0.0 AREA=0.176 GAP=0 BR=1.5k BM=4.5k HC=0.18867)
+*$
+*$
+.model er_18_3f3 CORE (LEVEL=3 OD=2.21 ID=0.0 AREA=0.302 GAP=0 BR=1.5k BM=4.5k HC=0.18867)
+*$
+*$
+.model er_23_3f3 CORE (LEVEL=3 OD=2.66 ID=0.0 AREA=0.502 GAP=0 BR=1.5k BM=4.5k HC=0.18867)
+*$
+*$
+.model er_9x5_3f35 CORE (LEVEL=3 OD=1.42 ID=0.0 AREA=0.0847 GAP=0 BR=2k BM=5k HC=0.503)
+*$
+*$
+.model er_11_3f35 CORE (LEVEL=3 OD=1.47 ID=0.0 AREA=0.119 GAP=0 BR=2k BM=5k HC=0.503)
+*$
+*$
+.model er_14x5_3f35 CORE (LEVEL=3 OD=1.90 ID=0.0 AREA=0.176 GAP=0 BR=2k BM=5k HC=0.503)
+*$
+*$
+.model er_18_3f35 CORE (LEVEL=3 OD=2.21 ID=0.0 AREA=0.302 GAP=0 BR=2k BM=5k HC=0.503)
+*$
+*$
+.model er_23_3f35 CORE (LEVEL=3 OD=2.66 ID=0.0 AREA=0.502 GAP=0 BR=2k BM=5k HC=0.503)
+*$
+*$
+.model er_9x5_3f4 CORE (LEVEL=3 OD=1.42 ID=0.0 AREA=0.0847 GAP=0 BR=1.5k BM=4k HC=0.7547)
+*$
+*$
+.model er_11_3f4 CORE (LEVEL=3 OD=1.47 ID=0.0 AREA=0.119 GAP=0 BR=1.5k BM=4k HC=0.7547)
+*$
+*$
+.model er_14x5_3f4 CORE (LEVEL=3 OD=1.90 ID=0.0 AREA=0.176 GAP=0 BR=1.5k BM=4k HC=0.7547)
+*$
+*$
+.model er_18_3f4 CORE (LEVEL=3 OD=2.21 ID=0.0 AREA=0.302 GAP=0 BR=1.5k BM=4k HC=0.7547)
+*$
+*$
+.model er_23_3f4 CORE (LEVEL=3 OD=2.66 ID=0.0 AREA=0.502 GAP=0 BR=1.5k BM=4k HC=0.7547)
+*$
+**R**
+*$
+.model er_28_3C94 CORE (LEVEL=3 OD=6.4 ID=0.0 AREA=0.814 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model er_28_3C90 CORE (LEVEL=3 OD=6.4 ID=0.0 AREA=0.814 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model er_28L_3C94 CORE (LEVEL=3 OD=7.55 ID=0.0 AREA=0.814 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model er_28L_3C90 CORE (LEVEL=3 OD=7.55 ID=0.0 AREA=0.814 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model er_35_3C94 CORE (LEVEL=3 OD=9.08 ID=0.0 AREA=1.07 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model er_35_3C90 CORE (LEVEL=3 OD=9.08 ID=0.0 AREA=1.07 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model er_35W_3C94 CORE (LEVEL=3 OD=9.27 ID=0.0 AREA=1.03 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model er_35W_3C90 CORE (LEVEL=3 OD=9.27 ID=0.0 AREA=1.03 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model er_40_3C94 CORE (LEVEL=3 OD=9.8 ID=0.0 AREA=1.49 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model er_40_3C90 CORE (LEVEL=3 OD=9.8 ID=0.0 AREA=1.49 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model er_42_3C94 CORE (LEVEL=3 OD=9.88 ID=0.0 AREA=1.94 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model er_42_3C90 CORE (LEVEL=3 OD=9.88 ID=0.0 AREA=1.94 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model er_42A_3C94 CORE (LEVEL=3 OD=9.9 ID=0.0 AREA=1.70 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model er_42A_3C90 CORE (LEVEL=3 OD=9.9 ID=0.0 AREA=1.70 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model er_48_3C94 CORE (LEVEL=3 OD=10 ID=0.0 AREA=2.55 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model er_48_3C90 CORE (LEVEL=3 OD=10 ID=0.0 AREA=2.55 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model er_54_3C94 CORE (LEVEL=3 OD=9.18 ID=0.0 AREA=2.5 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model er_54_3C90 CORE (LEVEL=3 OD=9.18 ID=0.0 AREA=2.5 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+
+**B**
+*$
+.model pp_9_5_3D3 CORE (LEVEL=3 OD=1.25 ID=0.0 AREA=0.101 GAP=0 BR=1.5k BM=4k HC=0.94339)
+*$
+*$
+.model pp_9_5_3H3 CORE (LEVEL=3 OD=1.25 ID=0.0 AREA=0.101 GAP=0 BR=0.7k BM=4k HC=0.18849)
+*$
+*$
+.model pp_9_5_3C91 CORE (LEVEL=3 OD=1.25 ID=0.0 AREA=0.101 GAP=0 BR=1.1k BM=4.5k HC=0.18849)
+*$
+*$
+.model pp_9_5_3F3 CORE (LEVEL=3 OD=1.25 ID=0.0 AREA=0.101 GAP=0 BR=1.5k BM=4.5k HC=0.18849)
+*$
+*$
+.model pp_9_5_3E27 CORE (LEVEL=3 OD=1.25 ID=0.0 AREA=0.101 GAP=0 BR=1k BM=4k HC=0.06289)
+*$
+*$
+.model pp_11_7_3D3 CORE (LEVEL=3 OD=1.55 ID=0.0 AREA=0.162 GAP=0 BR=1.5k BM=4k HC=0.94339)
+*$
+*$
+.model pp_11_7_3H3 CORE (LEVEL=3 OD=1.55 ID=0.0 AREA=0.162 GAP=0 BR=0.7k BM=4k HC=0.18849)
+*$
+*$
+.model pp_11_7_3C91 CORE (LEVEL=3 OD=1.55 ID=0.0 AREA=0.162 GAP=0 BR=1.1k BM=4.5k HC=0.18849)
+*$
+*$
+.model pp_11_7_3F3 CORE (LEVEL=3 OD=1.55 ID=0.0 AREA=0.162 GAP=0 BR=1.5k BM=4.5k HC=0.18849)
+*$
+*$
+.model pp_11_7_3E27 CORE (LEVEL=3 OD=1.55 ID=0.0 AREA=0.162 GAP=0 BR=1k BM=4k HC=0.06289)
+*$
+*$
+.model pp_14_8_3D3 CORE (LEVEL=3 OD=1.98 ID=0.0 AREA=0.251 GAP=0 BR=1.5k BM=4k HC=0.94339)
+*$
+*$
+.model pp_14_8_3H3 CORE (LEVEL=3 OD=1.98 ID=0.0 AREA=0.251 GAP=0 BR=0.7k BM=4k HC=0.18849)
+*$
+*$
+.model pp_14_8_3C91 CORE (LEVEL=3 OD=1.98 ID=0.0 AREA=0.251 GAP=0 BR=1.1k BM=4.5k HC=0.18849)
+*$
+*$
+.model pp_14_8_3F3 CORE (LEVEL=3 OD=1.98 ID=0.0 AREA=0.251 GAP=0 BR=1.5k BM=4.5k HC=0.18849)
+*$
+*$
+.model pp_14_8_3E27 CORE (LEVEL=3 OD=1.98 ID=0.0 AREA=0.251 GAP=0 BR=1k BM=4k HC=0.06289)
+*$
+*$
+.model pp_18_11_3D3 CORE (LEVEL=3 OD=2.58 ID=0.0 AREA=0.433 GAP=0 BR=1.5k BM=4k HC=0.94339)
+*$
+*$
+.model pp_18_11_3H3 CORE (LEVEL=3 OD=2.58 ID=0.0 AREA=0.433 GAP=0 BR=0.7k BM=4k HC=0.18849)
+*$
+*$
+.model pp_18_11_3C91 CORE (LEVEL=3 OD=2.58 ID=0.0 AREA=0.433 GAP=0 BR=1.1k BM=4.5k HC=0.18849)
+*$
+*$
+.model pp_18_11_3F3 CORE (LEVEL=3 OD=2.58 ID=0.0 AREA=0.433 GAP=0 BR=1.5k BM=4.5k HC=0.18849)
+*$
+*$
+.model pp_18_11_3E27 CORE (LEVEL=3 OD=2.58 ID=0.0 AREA=0.433 GAP=0 BR=1k BM=4k HC=0.06289)
+*$
+*$
+.model pp_22_13_3D3 CORE (LEVEL=3 OD=3.15 ID=0.0 AREA=0.634 GAP=0 BR=1.5k BM=4k HC=0.94339)
+*$
+*$
+.model pp_22_13_3H3 CORE (LEVEL=3 OD=3.15 ID=0.0 AREA=0.634 GAP=0 BR=0.7k BM=4k HC=0.18849)
+*$
+*$
+.model pp_22_13_3C91 CORE (LEVEL=3 OD=3.15 ID=0.0 AREA=0.634 GAP=0 BR=1.1k BM=4.5k HC=0.18849)
+*$
+*$
+.model pp_22_13_3F3 CORE (LEVEL=3 OD=3.15 ID=0.0 AREA=0.634 GAP=0 BR=1.5k BM=4.5k HC=0.18849)
+*$
+*$
+.model pp_22_13_3E27 CORE (LEVEL=3 OD=3.15 ID=0.0 AREA=0.634 GAP=0 BR=1k BM=4k HC=0.06289)
+*$
+*$
+.model pp_26_16_3D3 CORE (LEVEL=3 OD=3.76 ID=0.0 AREA=0.939 GAP=0 BR=1.5k BM=4k HC=0.94339)
+*$
+*$
+.model pp_26_16_3H3 CORE (LEVEL=3 OD=3.76 ID=0.0 AREA=0.939 GAP=0 BR=0.7k BM=4k HC=0.18849)
+*$
+*$
+.model pp_26_16_3C91 CORE (LEVEL=3 OD=3.76 ID=0.0 AREA=0.939 GAP=0 BR=1.1k BM=4.5k HC=0.18849)
+*$
+*$
+.model pp_26_16_3F3 CORE (LEVEL=3 OD=3.76 ID=0.0 AREA=0.939 GAP=0 BR=1.5k BM=4.5k HC=0.18849)
+*$
+*$
+.model pp_26_16_3E27 CORE (LEVEL=3 OD=3.76 ID=0.0 AREA=0.939 GAP=0 BR=1k BM=4k HC=0.06289)
+*$
+*$
+.model pp_30_19_3D3 CORE (LEVEL=3 OD=4.52 ID=0.0 AREA=1.37 GAP=0 BR=1.5k BM=4k HC=0.94339)
+*$
+*$
+.model pp_30_19_3H3 CORE (LEVEL=3 OD=4.52 ID=0.0 AREA=1.37 GAP=0 BR=0.7k BM=4k HC=0.18849)
+*$
+*$
+.model pp_30_19_3C91 CORE (LEVEL=3 OD=4.52 ID=0.0 AREA=1.37 GAP=0 BR=1.1k BM=4.5k HC=0.18849)
+*$
+*$
+.model pp_30_19_3F3 CORE (LEVEL=3 OD=4.52 ID=0.0 AREA=1.37 GAP=0 BR=1.5k BM=4.5k HC=0.18849)
+*$
+*$
+.model pp_30_19_3E27 CORE (LEVEL=3 OD=4.52 ID=0.0 AREA=1.37 GAP=0 BR=1k BM=4k HC=0.06289)
+*$
+*$
+.model pp_36_22_3D3 CORE (LEVEL=3 OD=5.32 ID=0.0 AREA=2.02 GAP=0 BR=1.5k BM=4k HC=0.94339)
+*$
+*$
+.model pp_36_22_3H3 CORE (LEVEL=3 OD=5.32 ID=0.0 AREA=2.02 GAP=0 BR=0.7k BM=4k HC=0.18849)
+*$
+*$
+.model pp_36_22_3C91 CORE (LEVEL=3 OD=5.32 ID=0.0 AREA=2.02 GAP=0 BR=1.1k BM=4.5k HC=0.18849)
+*$
+*$
+.model pp_36_22_3F3 CORE (LEVEL=3 OD=5.32 ID=0.0 AREA=2.02 GAP=0 BR=1.5k BM=4.5k HC=0.18849)
+*$
+*$
+.model pp_36_22_3E27 CORE (LEVEL=3 OD=5.32 ID=0.0 AREA=2.02 GAP=0 BR=1k BM=4k HC=0.06289)
+*$
+*$
+.model pp_42_29_3D3 CORE (LEVEL=3 OD=6.86 ID=0.0 AREA=2.65 GAP=0 BR=1.5k BM=4k HC=0.94339)
+*$
+*$
+.model pp_42_29_3H3 CORE (LEVEL=3 OD=6.86 ID=0.0 AREA=2.65 GAP=0 BR=0.7k BM=4k HC=0.18849)
+*$
+*$
+.model pp_42_29_3C91 CORE (LEVEL=3 OD=6.86 ID=0.0 AREA=2.65 GAP=0 BR=1.1k BM=4.5k HC=0.18849)
+*$
+*$
+.model pp_42_29_3F3 CORE (LEVEL=3 OD=6.86 ID=0.0 AREA=2.65 GAP=0 BR=1.5k BM=4.5k HC=0.18849)
+*$
+*$
+.model pp_42_29_3E27 CORE (LEVEL=3 OD=6.86 ID=0.0 AREA=2.65 GAP=0 BR=1k BM=4k HC=0.06289)
+*$
+*$
+.model pp_66_56_3D3 CORE (LEVEL=3 OD=12.3 ID=0.0 AREA=7.17 GAP=0 BR=1.5k BM=4k HC=0.94339)
+*$
+*$
+.model pp_66_56_3H3 CORE (LEVEL=3 OD=12.3 ID=0.0 AREA=7.17 GAP=0 BR=0.7k BM=4k HC=0.18849)
+*$
+*$
+.model pp_66_56_3C91 CORE (LEVEL=3 OD=12.3 ID=0.0 AREA=7.17 GAP=0 BR=1.1k BM=4.5k HC=0.18849)
+*$
+*$
+.model pp_66_56_3F3 CORE (LEVEL=3 OD=12.3 ID=0.0 AREA=7.17 GAP=0 BR=1.5k BM=4.5k HC=0.18849)
+*$
+*$
+.model pp_66_56_3E27 CORE (LEVEL=3 OD=12.3 ID=0.0 AREA=7.17 GAP=0 BR=1k BM=4k HC=0.06289)
+*$
+*$
+.model ei_16_12_3C90 CORE (LEVEL=3 OD=3.58 ID=0.0 AREA=0.194 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model ei_16_12_3F3 CORE (LEVEL=3 OD=3.58 ID=0.0 AREA=0.194 GAP=0 BR=1.5k BM=4.5k HC=0.18849)
+*$
+*$
+.model ei_20_14_3C90 CORE (LEVEL=3 OD=4.01 ID=0.0 AREA=0.228 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model ei_20_14_3F3 CORE (LEVEL=3 OD=4.01 ID=0.0 AREA=0.228 GAP=0 BR=1.5k BM=4.5k HC=0.18849)
+*$
+*$
+.model ei_22_15_3C90 CORE (LEVEL=3 OD=4.4 ID=0.0 AREA=0.331 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model ei_22_15_3F3 CORE (LEVEL=3 OD=4.4 ID=0.0 AREA=0.331 GAP=0 BR=1.5k BM=4.5k HC=0.18849)
+*$
+*$
+.model ei_25_17_3C90 CORE (LEVEL=3 OD=5.13 ID=0.0 AREA=0.403 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model ei_25_17_3F3 CORE (LEVEL=3 OD=5.13 ID=0.0 AREA=0.403 GAP=0 BR=1.5k BM=4.5k HC=0.18849)
+*$
+*$
+.model ei_28_17_3C90 CORE (LEVEL=3 OD=4.92 ID=0.0 AREA=0.837 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model ei_28_17_3F3 CORE (LEVEL=3 OD=4.92 ID=0.0 AREA=0.837 GAP=0 BR=1.5k BM=4.5k HC=0.18849)
+*$
+*$
+.model ei_30_21_3C90 CORE (LEVEL=3 OD=5.92 ID=0.0 AREA=1.13 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model ei_30_21_3F3 CORE (LEVEL=3 OD=5.92 ID=0.0 AREA=1.13 GAP=0 BR=1.5k BM=4.5k HC=0.18849)
+*$
+*$
+.model ei_33_23_3C90 CORE (LEVEL=3 OD=6.69 ID=0.0 AREA=1.18 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model ei_33_23_3F3 CORE (LEVEL=3 OD=6.69 ID=0.0 AREA=1.18 GAP=0 BR=1.5k BM=4.5k HC=0.18849)
+*$
+*$
+.model ei_35_24_3C90 CORE (LEVEL=3 OD=7.02 ID=0.0 AREA=0.893 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model ei_35_24_3F3 CORE (LEVEL=3 OD=7.02 ID=0.0 AREA=0.893 GAP=0 BR=1.5k BM=4.5k HC=0.18849)
+*$
+*$
+.model ei_40_27_3C90 CORE (LEVEL=3 OD=7.75 ID=0.0 AREA=1.43 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model ei_40_27_3F3 CORE (LEVEL=3 OD=7.75 ID=0.0 AREA=1.43 GAP=0 BR=1.5k BM=4.5k HC=0.18849)
+*$
+3C81,3C91 AND 3C90,3C94 ARE IDENTICAL.3C11 MATERIAL DATA NOT FOUND
+*$
+.model uu_10_8_3C90 CORE (LEVEL=3 OD=3.83 ID=0.0 AREA=0.0807 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_10_8_3C91 CORE (LEVEL=3 OD=3.83 ID=0.0 AREA=0.0807 GAP=0 BR=1.1k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_10_8_3E27 CORE (LEVEL=3 OD=3.83 ID=0.0 AREA=0.0807 GAP=0 BR=1k BM=4k HC=0.06289)
+*$
+*$
+.model uu_11_8_3C90 CORE (LEVEL=3 OD=4.0 ID=0.0 AREA=0.125 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_11_8_3C91 CORE (LEVEL=3 OD=4.0 ID=0.0 AREA=0.125 GAP=0 BR=1.1k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_11_8_3E27 CORE (LEVEL=3 OD=4.0 ID=0.0 AREA=0.125 GAP=0 BR=1k BM=4k HC=0.06289)
+*$
+*$
+.model uu_15_11_3C90 CORE (LEVEL=3 OD=5.2 ID=0.0 AREA=0.323 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_15_11_3C91 CORE (LEVEL=3 OD=5.2 ID=0.0 AREA=0.323 GAP=0 BR=1.1k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_15_11_3E27 CORE (LEVEL=3 OD=5.2 ID=0.0 AREA=0.323 GAP=0 BR=1k BM=4k HC=0.06289)
+*$
+*$
+.model uu_20_16_3C90 CORE (LEVEL=3 OD=6.8 ID=0.0 AREA=0.56 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_20_16_3C91 CORE (LEVEL=3 OD=6.8 ID=0.0 AREA=0.56 GAP=0 BR=1.1k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_20_16_3E27 CORE (LEVEL=3 OD=6.8 ID=0.0 AREA=0.56 GAP=0 BR=1k BM=4k HC=0.06289)
+*$
+*$
+.model uu_25_16_3C90 CORE (LEVEL=3 OD=8.36 ID=0.0 AREA=0.403 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_25_16_3C91 CORE (LEVEL=3 OD=8.36 ID=0.0 AREA=0.403 GAP=0 BR=1.1k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_25_16_3E27 CORE (LEVEL=3 OD=8.36 ID=0.0 AREA=0.403 GAP=0 BR=1k BM=4k HC=0.06289)
+*$
+*$
+.model uu_25_20_3C90 CORE (LEVEL=3 OD=8.82 ID=0.0 AREA=1.04 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_25_20_3C91 CORE (LEVEL=3 OD=8.82 ID=0.0 AREA=1.04 GAP=0 BR=1.1k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_25_20_3E27 CORE (LEVEL=3 OD=8.82 ID=0.0 AREA=1.04 GAP=0 BR=1k BM=4k HC=0.06289)
+*$
+*$
+.model uu_30_25_3C90 CORE (LEVEL=3 OD=11.1 ID=0.0 AREA=1.61 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_30_25_3C91 CORE (LEVEL=3 OD=11.1 ID=0.0 AREA=1.61 GAP=0 BR=1.1k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_30_25_3E27 CORE (LEVEL=3 OD=11.1 ID=0.0 AREA=1.61 GAP=0 BR=1k BM=4k HC=0.06289)
+*$
+*$
+.model uu_33_22_3C90 CORE (LEVEL=3 OD=11.0 ID=0.0 AREA=0.865 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_33_22_3C91 CORE (LEVEL=3 OD=11.0 ID=0.0 AREA=0.865 GAP=0 BR=1.1k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_33_22_3E27 CORE (LEVEL=3 OD=11.0 ID=0.0 AREA=0.865 GAP=0 BR=1k BM=4k HC=0.06289)
+*$
+*$
+.model uu_67_27_3C90 CORE (LEVEL=3 OD=17.3 ID=0.0 AREA=2.04 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_67_27_3C91 CORE (LEVEL=3 OD=17.3 ID=0.0 AREA=2.04 GAP=0 BR=1.1k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_67_27_3E27 CORE (LEVEL=3 OD=17.3 ID=0.0 AREA=2.04 GAP=0 BR=1k BM=4k HC=0.06289)
+*$
+*$
+.model uu_93_76_3C90 CORE (LEVEL=3 OD=35.4 ID=0.0 AREA=4.48 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_93_76_3C91 CORE (LEVEL=3 OD=35.4 ID=0.0 AREA=4.48 GAP=0 BR=1.1k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_93_76_3E27 CORE (LEVEL=3 OD=35.4 ID=0.0 AREA=4.48 GAP=0 BR=1k BM=4k HC=0.06289)
+*$
+*$
+.model uu_93_52_3C90 CORE (LEVEL=3 OD=25.8 ID=0.0 AREA=8.40 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_93_52_3C91 CORE (LEVEL=3 OD=25.8 ID=0.0 AREA=8.40 GAP=0 BR=1.1k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_93_52_3E27 CORE (LEVEL=3 OD=25.8 ID=0.0 AREA=8.40 GAP=0 BR=1k BM=4k HC=0.06289)
+*$
+*$
+.model uu_100_57_3C90 CORE (LEVEL=3 OD=30.8 ID=0.0 AREA=6.45 GAP=0 BR=1.7k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_100_57_3C91 CORE (LEVEL=3 OD=30.8 ID=0.0 AREA=6.45 GAP=0 BR=1.1k BM=4.5k HC=0.18849)
+*$
+*$
+.model uu_100_57_3E27 CORE (LEVEL=3 OD=30.8 ID=0.0 AREA=6.45 GAP=0 BR=1k BM=4k HC=0.06289)
+*$

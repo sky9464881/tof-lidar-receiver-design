@@ -1,0 +1,1869 @@
+("awb3n256"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "266.700010n" )
+		)
+		( "RS"
+			( "val" "12.000000m" )
+		)
+		( "N"
+			( "val" "2.5175" )
+		)
+		( "TT"
+			( "val" "11.800000u" )
+		)
+		( "CJO"
+			( "val" "15.000000p" )
+		)
+		( "VJ"
+			( "val" "600.000000m" )
+		)
+		( "M"
+			( "val" "449.999970m" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "BV"
+			( "val" "500" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "2" )
+		( VR "400" )
+		( TJ "165" )
+	)
+)
+("awbkbpc_35_06"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "6.720000n" )
+		)
+		( "RS"
+			( "val" "2.210000m" )
+		)
+		( "N"
+			( "val" "1.565" )
+		)
+		( "TT"
+			( "val" "99.999990n" )
+		)
+		( "CJO"
+			( "val" "871.999820p" )
+		)
+		( "VJ"
+			( "val" "436.999940m" )
+		)
+		( "M"
+			( "val" "437.999970m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "700" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "35" )
+		( VR "600" )
+		( TJ "175" )
+	)
+)
+("awbmda2500"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "1.000000p" )
+		)
+		( "RS"
+			( "val" "2.000000m" )
+		)
+		( "N"
+			( "val" "1" )
+		)
+		( "TT"
+			( "val" "5.300000u" )
+		)
+		( "CJO"
+			( "val" "474.999910p" )
+		)
+		( "VJ"
+			( "val" "549.999880m" )
+		)
+		( "M"
+			( "val" "599.999880m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "100" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "25" )
+		( VR "50" )
+		( TJ "175" )
+		( RJC "8" )
+	)
+)
+("awbmda2501"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "1.000000p" )
+		)
+		( "RS"
+			( "val" "2.000000m" )
+		)
+		( "N"
+			( "val" "1" )
+		)
+		( "TT"
+			( "val" "5.300000u" )
+		)
+		( "CJO"
+			( "val" "474.999910p" )
+		)
+		( "VJ"
+			( "val" "549.999880m" )
+		)
+		( "M"
+			( "val" "599.999880m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "200" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "25" )
+		( VR "100" )
+		( TJ "175" )
+		( RJC "8" )
+	)
+)
+("awbmda2502"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "1.000000p" )
+		)
+		( "RS"
+			( "val" "2.000000m" )
+		)
+		( "N"
+			( "val" "1" )
+		)
+		( "TT"
+			( "val" "5.300000u" )
+		)
+		( "CJO"
+			( "val" "474.999910p" )
+		)
+		( "VJ"
+			( "val" "549.999880m" )
+		)
+		( "M"
+			( "val" "599.999880m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "300" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "25" )
+		( VR "200" )
+		( TJ "175" )
+		( RJC "8" )
+	)
+)
+("awbmda2504"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "1.000000p" )
+		)
+		( "RS"
+			( "val" "2.000000m" )
+		)
+		( "N"
+			( "val" "1" )
+		)
+		( "TT"
+			( "val" "5.300000u" )
+		)
+		( "CJO"
+			( "val" "474.999910p" )
+		)
+		( "VJ"
+			( "val" "549.999880m" )
+		)
+		( "M"
+			( "val" "599.999880m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "500" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "25" )
+		( VR "400" )
+		( TJ "175" )
+		( RJC "8" )
+	)
+)
+("awbmda2506"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "1.000000p" )
+		)
+		( "RS"
+			( "val" "2.000000m" )
+		)
+		( "N"
+			( "val" "1" )
+		)
+		( "TT"
+			( "val" "5.300000u" )
+		)
+		( "CJO"
+			( "val" "474.999910p" )
+		)
+		( "VJ"
+			( "val" "549.999880m" )
+		)
+		( "M"
+			( "val" "599.999880m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "700" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "25" )
+		( VR "600" )
+		( TJ "175" )
+		( RJC "8" )
+	)
+)
+("awbmda2508"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "1.000000p" )
+		)
+		( "RS"
+			( "val" "2.000000m" )
+		)
+		( "N"
+			( "val" "1" )
+		)
+		( "TT"
+			( "val" "5.300000u" )
+		)
+		( "CJO"
+			( "val" "474.999910p" )
+		)
+		( "VJ"
+			( "val" "549.999880m" )
+		)
+		( "M"
+			( "val" "599.999880m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "800" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "25" )
+		( VR "900" )
+		( TJ "175" )
+		( RJC "8" )
+	)
+)
+("awbmda2510"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "1.000000p" )
+		)
+		( "RS"
+			( "val" "2.000000m" )
+		)
+		( "N"
+			( "val" "1" )
+		)
+		( "TT"
+			( "val" "5.300000u" )
+		)
+		( "CJO"
+			( "val" "474.999910p" )
+		)
+		( "VJ"
+			( "val" "549.999880m" )
+		)
+		( "M"
+			( "val" "599.999880m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "1000" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "25" )
+		( VR "1100" )
+		( TJ "175" )
+		( RJC "8" )
+	)
+)
+("awbmda3500"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "749.999940f" )
+		)
+		( "RS"
+			( "val" "2.000000m" )
+		)
+		( "N"
+			( "val" "1" )
+		)
+		( "TT"
+			( "val" "4.000000u" )
+		)
+		( "CJO"
+			( "val" "439.999910p" )
+		)
+		( "VJ"
+			( "val" "1" )
+		)
+		( "M"
+			( "val" "599.999880m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "100" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "35" )
+		( VR "50" )
+		( TJ "175" )
+		( RJC "5.6" )
+	)
+)
+("awbmda3501"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "749.999940f" )
+		)
+		( "RS"
+			( "val" "2.000000m" )
+		)
+		( "N"
+			( "val" "1" )
+		)
+		( "TT"
+			( "val" "4.000000u" )
+		)
+		( "CJO"
+			( "val" "439.999910p" )
+		)
+		( "VJ"
+			( "val" "1" )
+		)
+		( "M"
+			( "val" "599.999880m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "200" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "35" )
+		( VR "100" )
+		( TJ "175" )
+		( RJC "5.6" )
+	)
+)
+("awbmda3502"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "749.999940f" )
+		)
+		( "RS"
+			( "val" "2.000000m" )
+		)
+		( "N"
+			( "val" "1" )
+		)
+		( "TT"
+			( "val" "4.000000u" )
+		)
+		( "CJO"
+			( "val" "439.999910p" )
+		)
+		( "VJ"
+			( "val" "1" )
+		)
+		( "M"
+			( "val" "599.999880m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "300" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "35" )
+		( VR "200" )
+		( TJ "175" )
+		( RJC "5.6" )
+	)
+)
+("awbmda3504"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "749.999940f" )
+		)
+		( "RS"
+			( "val" "2.000000m" )
+		)
+		( "N"
+			( "val" "1" )
+		)
+		( "TT"
+			( "val" "4.000000u" )
+		)
+		( "CJO"
+			( "val" "439.999910p" )
+		)
+		( "VJ"
+			( "val" "1" )
+		)
+		( "M"
+			( "val" "599.999880m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "500" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "35" )
+		( VR "400" )
+		( TJ "175" )
+		( RJC "5.6" )
+	)
+)
+("awbmda3506"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "749.999940f" )
+		)
+		( "RS"
+			( "val" "2.000000m" )
+		)
+		( "N"
+			( "val" "1" )
+		)
+		( "TT"
+			( "val" "4.000000u" )
+		)
+		( "CJO"
+			( "val" "439.999910p" )
+		)
+		( "VJ"
+			( "val" "1" )
+		)
+		( "M"
+			( "val" "599.999880m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "700" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "35" )
+		( VR "600" )
+		( TJ "175" )
+		( RJC "5.6" )
+	)
+)
+("awbmda3508"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "749.999940f" )
+		)
+		( "RS"
+			( "val" "2.000000m" )
+		)
+		( "N"
+			( "val" "1" )
+		)
+		( "TT"
+			( "val" "4.000000u" )
+		)
+		( "CJO"
+			( "val" "439.999910p" )
+		)
+		( "VJ"
+			( "val" "1" )
+		)
+		( "M"
+			( "val" "599.999880m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "900" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "35" )
+		( VR "800" )
+		( TJ "175" )
+		( RJC "5.6" )
+	)
+)
+("awbmda3510"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "749.999940f" )
+		)
+		( "RS"
+			( "val" "2.000000m" )
+		)
+		( "N"
+			( "val" "1" )
+		)
+		( "TT"
+			( "val" "4.000000u" )
+		)
+		( "CJO"
+			( "val" "439.999910p" )
+		)
+		( "VJ"
+			( "val" "1" )
+		)
+		( "M"
+			( "val" "599.999880m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "1100" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "35" )
+		( VR "1000" )
+		( TJ "175" )
+		( RJC "5.6" )
+	)
+)
+("awbvbo13_02n01"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "1.000000p" )
+		)
+		( "RS"
+			( "val" "2.000000m" )
+		)
+		( "N"
+			( "val" "1" )
+		)
+		( "TT"
+			( "val" "5.300000u" )
+		)
+		( "CJO"
+			( "val" "474.999910p" )
+		)
+		( "VJ"
+			( "val" "549.999880m" )
+		)
+		( "M"
+			( "val" "599.999880m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "100" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "30" )
+		( VR "50" )
+	)
+)
+("awbvbo13_04n01"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "1.000000p" )
+		)
+		( "RS"
+			( "val" "2.000000m" )
+		)
+		( "N"
+			( "val" "1" )
+		)
+		( "TT"
+			( "val" "5.300000u" )
+		)
+		( "CJO"
+			( "val" "474.999910p" )
+		)
+		( "VJ"
+			( "val" "549.999880m" )
+		)
+		( "M"
+			( "val" "599.999880m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "500" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "30" )
+		( VR "400" )
+	)
+)
+("awbvbo13_06n01"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "1.000000p" )
+		)
+		( "RS"
+			( "val" "2.000000m" )
+		)
+		( "N"
+			( "val" "1" )
+		)
+		( "TT"
+			( "val" "5.300000u" )
+		)
+		( "CJO"
+			( "val" "474.999910p" )
+		)
+		( "VJ"
+			( "val" "549.999880m" )
+		)
+		( "M"
+			( "val" "599.999880m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "700" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "30" )
+		( VR "600" )
+	)
+)
+("awbvbo20_02n01"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "749.999940f" )
+		)
+		( "RS"
+			( "val" "2.000000m" )
+		)
+		( "N"
+			( "val" "1" )
+		)
+		( "TT"
+			( "val" "4.000000u" )
+		)
+		( "CJO"
+			( "val" "439.999910p" )
+		)
+		( "VJ"
+			( "val" "1" )
+		)
+		( "M"
+			( "val" "599.999880m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "100" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "40" )
+		( VR "200" )
+	)
+)
+("awbvbo20_04n01"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "749.999940f" )
+		)
+		( "RS"
+			( "val" "2.000000m" )
+		)
+		( "N"
+			( "val" "1" )
+		)
+		( "TT"
+			( "val" "4.000000u" )
+		)
+		( "CJO"
+			( "val" "439.999910p" )
+		)
+		( "VJ"
+			( "val" "1" )
+		)
+		( "M"
+			( "val" "599.999880m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "500" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "40" )
+		( VR "400" )
+	)
+)
+("awbvbo20_06n01"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "749.999940f" )
+		)
+		( "RS"
+			( "val" "2.000000m" )
+		)
+		( "N"
+			( "val" "1" )
+		)
+		( "TT"
+			( "val" "4.000000u" )
+		)
+		( "CJO"
+			( "val" "439.999910p" )
+		)
+		( "VJ"
+			( "val" "1" )
+		)
+		( "M"
+			( "val" "599.999880m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "700" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "40" )
+		( VR "600" )
+	)
+)
+("awbvbo20_08n01"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "749.999940f" )
+		)
+		( "RS"
+			( "val" "2.000000m" )
+		)
+		( "N"
+			( "val" "1" )
+		)
+		( "TT"
+			( "val" "4.000000u" )
+		)
+		( "CJO"
+			( "val" "439.999910p" )
+		)
+		( "VJ"
+			( "val" "1" )
+		)
+		( "M"
+			( "val" "599.999880m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "900" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "40" )
+		( VR "800" )
+	)
+)
+("awbvk648"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "1.0E-6" )
+		)
+		( "RS"
+			( "val" "3.0000m" )
+		)
+		( "N"
+			( "val" "2.9893" )
+		)
+		( "TT"
+			( "val" "100.000010n" )
+		)
+		( "CJO"
+			( "val" "872.000060p" )
+		)
+		( "VJ"
+			( "val" "437.000000m" )
+		)
+		( "M"
+			( "val" "437.999970m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "700" )
+		)
+		( "IBV"
+			( "val" "1000.000000m" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "30" )
+		( VR "600" )
+		( TJ "135" )
+		( RJC "1.0" )
+		( RCA "30" )
+	)
+)
+("awbw02m_001"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "4.068000n" )
+		)
+		( "RS"
+			( "val" "10.990000m" )
+		)
+		( "N"
+			( "val" "1.686" )
+		)
+		( "CJO"
+			( "val" "100.000000p" )
+		)
+		( "VJ"
+			( "val" "699.999940m" )
+		)
+		( "M"
+			( "val" "499.999970m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "100" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "1.5" )
+		( VR "50" )
+		( TJ "125" )
+	)
+)
+("awbw02m_002"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "4.068000n" )
+		)
+		( "RS"
+			( "val" "10.990000m" )
+		)
+		( "N"
+			( "val" "1.686" )
+		)
+		( "CJO"
+			( "val" "100.000000p" )
+		)
+		( "VJ"
+			( "val" "699.999940m" )
+		)
+		( "M"
+			( "val" "499.999970m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "300" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "1.5" )
+		( VR "200" )
+		( TJ "125" )
+	)
+)
+("awbw02m_003"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "4.068000n" )
+		)
+		( "RS"
+			( "val" "10.990000m" )
+		)
+		( "N"
+			( "val" "1.686" )
+		)
+		( "CJO"
+			( "val" "100.000000p" )
+		)
+		( "VJ"
+			( "val" "699.999940m" )
+		)
+		( "M"
+			( "val" "499.999970m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "500" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "1.5" )
+		( VR "400" )
+		( TJ "125" )
+	)
+)
+("awbw02m_004"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "4.068000n" )
+		)
+		( "RS"
+			( "val" "10.990000m" )
+		)
+		( "N"
+			( "val" "1.686" )
+		)
+		( "CJO"
+			( "val" "100.000000p" )
+		)
+		( "VJ"
+			( "val" "699.999940m" )
+		)
+		( "M"
+			( "val" "499.999970m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "700" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "1.5" )
+		( VR "600" )
+		( TJ "125" )
+	)
+)
+("awbw02m_005"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "4.068000n" )
+		)
+		( "RS"
+			( "val" "10.990000m" )
+		)
+		( "N"
+			( "val" "1.686" )
+		)
+		( "CJO"
+			( "val" "100.000000p" )
+		)
+		( "VJ"
+			( "val" "699.999940m" )
+		)
+		( "M"
+			( "val" "499.999970m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "900" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "1.5" )
+		( VR "800" )
+		( TJ "125" )
+	)
+)
+("awbw02m_006"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 09:16:05 IST 2001")
+	("device_info"
+		( MODEL_TYPE 498 )
+		( SYMBOL_NAME "BRDG2" )
+		( PORT_ORDER 
+ 			("PDC")
+ 			("AC2")
+ 			("NDC")
+ 			("AC1") )
+	)
+	("model_params"
+	("level_0"
+		( "IS"
+			( "val" "4.068000n" )
+		)
+		( "RS"
+			( "val" "10.990000m" )
+		)
+		( "N"
+			( "val" "1.686" )
+		)
+		( "CJO"
+			( "val" "100.000000p" )
+		)
+		( "VJ"
+			( "val" "699.999940m" )
+		)
+		( "M"
+			( "val" "499.999970m" )
+		)
+		( "EG"
+			( "val" "1.11" )
+		)
+		( "XTI"
+			( "val" "3" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "499.999970m" )
+		)
+		( "BV"
+			( "val" "1100" )
+		)
+		( "IBV"
+			( "val" "1.0" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IF "1.5" )
+		( VR "1000" )
+		( TJ "125" )
+	)
+)

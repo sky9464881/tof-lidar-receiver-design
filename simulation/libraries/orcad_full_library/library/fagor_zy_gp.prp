@@ -1,0 +1,852 @@
+("zy100gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"13E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy10gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"145E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy110gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"12E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy11gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"135E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy120gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"11E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy12gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"120E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy130gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"10E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy13gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"110E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy150gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"9E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy15gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"98E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy160gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"8.5E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy16gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"90E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy180gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"8.0E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy18gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"80E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy200gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0"
+        )
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"7.5E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy20gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"72E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy22gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"66E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy24gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"60E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy27gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"53E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy30gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"48E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy33gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"44E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy36gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"40E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy39gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"37E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy43gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"33E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy47gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"30E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy51gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"27E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy56gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"25E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy62gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"21E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy68gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"20E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy6v2gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"245E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy6v8gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"220E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy75gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"18E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy7v5gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"200E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy82gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"16E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy8v2gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"180E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy91gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"15E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)
+("zy9v1gp"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"zener")
+        ("MODEL_TYPE"	"434")
+    )
+    ("model_params"
+        ("level_0")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"K")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IRMX"	"165E-3")
+        ("PDM"	"2")
+        ("TJ"	"175")
+        ("RJC"	"60")
+        ("RCA"	"0")
+    )
+)

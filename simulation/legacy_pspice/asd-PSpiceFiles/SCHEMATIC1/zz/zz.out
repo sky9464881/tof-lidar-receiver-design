@@ -1,0 +1,95 @@
+
+**** 12/23/24 17:05:39 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-zz"  [ C:\Users\MSDL3\Desktop\OrCAD File\80dB_LiDAR\asd-PSpiceFiles\SCHEMATIC1\zz.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "zz.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\MSDL3\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "C:\Cadence\SPB_17.2\tools\capture\library\pspice\opa855_pspice\opa855_a.lib" 
+.lib "C:\Cadence\SPB_17.2\tools\capture\library\pspice\sboc036d\opa695_a.lib" 
+.lib "C:\Cadence\SPB_17.2\tools\capture\library\pspice\opa892\opa892.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 50ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source ASD
+R_R4         N00660 N00696  130 TC=0,0 
+R_R2         N00588 0  130 TC=0,0 
+V_V1         N00584 N00692  
++PULSE 0 200mV 1ns 1.4ns 1.4ns 3ns 10ns
+R_R5         0 N00660  250 TC=0,0 
+R_R1         N00584 N00588  70 TC=0,0 
+R_R3         N00696 N00692  70 TC=0,0 
+E_U1         N00660 0 VALUE {LIMIT(V(N00588,N00696)*1E6,-15V,+15V)}
+
+**** RESUMING zz.cir ****
+.END
+
+**** 12/23/24 17:05:39 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-zz"  [ C:\Users\MSDL3\Desktop\OrCAD File\80dB_LiDAR\asd-PSpiceFiles\SCHEMATIC1\zz.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00584)    0.0000 (N00588)    0.0000 (N00660)    0.0000 (N00692)    0.0000     
+
+(N00696)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 12/23/24 17:05:39 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-zz"  [ C:\Users\MSDL3\Desktop\OrCAD File\80dB_LiDAR\asd-PSpiceFiles\SCHEMATIC1\zz.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        0.00
+

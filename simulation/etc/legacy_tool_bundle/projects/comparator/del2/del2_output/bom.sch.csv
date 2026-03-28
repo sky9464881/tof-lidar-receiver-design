@@ -1,0 +1,12 @@
+Item Number,Quantity,Value,Description,Part Number,Part Reference,Manufacturer Name,Manufacturer Part Number,ID,SKU,ALT_MPN,ALT_MFR
+1,1,0.1uF,,,C253,,,39,,,
+2,1,6.8uF,,,C254,,,36,,,
+3,1,0.1uF,,,C255,,,15,,,
+4,1,6.8uF,,,C256,,,54,,,
+5,1,0.1u,,,C257,,,51,,,
+6,1,1n,,,C258,,,3,,,
+7,1,500,,,R152,,,24,,,
+8,1,360,,,R155,,,27,,,
+9,1,20,,,R156,,,12,,,
+10,1,67k,,,R157,,,21,,,
+11,1,OPA695,,,U73,,,42,,,

@@ -1,0 +1,255 @@
+
+**** 04/02/25 01:00:20 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-asefrawerawer"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\aserfaser\aserfaser-PSp
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "asefrawerawer.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPA858.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa695_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa856_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\tlv3604.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPAx277.LIB" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa855_a.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1m 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source ASERFASER
+I_I1         N1066320 0 DC 0Adc AC 0Aac
++SIN 0 2m 1k 0 0 0
+R_R1         N1066324 N1066332  1.4k TC=0,0 
+X_U71         0 N1066324 V+ V- N1066332 OPA858
+V_V1         V+ 0 5
+R_R2         N1066320 N1066324  200 TC=0,0 
+V_V2         0 V- 5
+
+**** RESUMING asefrawerawer.cir ****
+.END
+
+INFO(ORPSIM-15423): Unable to find index file OPA858.ind for library file OPA858.lib.
+
+INFO(ORPSIM-15422): Making new index file OPA858.ind for library file OPA858.lib.
+
+Index has 50 entries from 1 file(s).
+
+**** 04/02/25 01:00:20 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-asefrawerawer"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\aserfaser\aserfaser-PSp
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U71.XI0.XI18.X1.DVNF 
+          IS  100.000000E-18 
+          KF  100.000000E-15 
+
+
+               X_U71.XI0.XI63.X1.DVNF 
+          IS  100.000000E-18 
+          KF  100.000000E-15 
+
+
+               X_U71.XI0.XI17.X1.DVN 
+          IS  100.000000E-18 
+          KF  100.000000E-15 
+
+
+**** 04/02/25 01:00:20 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-asefrawerawer"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\aserfaser\aserfaser-PSp
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   V+)    5.0000  (   V-)   -5.0000  (N1066320) 78.88E-06                      
+
+(N1066324) 78.88E-06                  (N1066332) 78.89E-06                      
+
+(X_U71.PD)    4.9505                  (X_U71.XI0.NET1)-302.9E-15                
+
+(X_U71.XI0.NET2) 78.88E-06            (X_U71.XI0.HIGHZ) 78.89E-06               
+
+(X_U71.XI0.NET11)-302.9E-15           (X_U71.XI0.NET12) 78.88E-06               
+
+(X_U71.XI0.NET21) 78.89E-06           (X_U71.XI0.NET22) 78.88E-06               
+
+(X_U71.XI0.NET31) 78.89E-06           (X_U71.XI0.NET32)    0.0000               
+
+(X_U71.XI0.NET41) 78.89E-06           (X_U71.XI0.NET51) 78.89E-06               
+
+(X_U71.XI0.NET61) 78.89E-06           (X_U71.XI0.NET71) 78.89E-06               
+
+(X_U71.XI0.PDINV)   -5.0000           (X_U71.XI0.POWER)    5.0000               
+
+(X_U71.XI0.VCC_INT)    5.0000         (X_U71.XI0.VEE_INT)   -5.0000             
+
+(X_U71.XI0.XI60.Ib) 28.19E-15         (X_U71.XI0.XI60.Io) 2.663E-15             
+
+(X_U71.XI0.VINM_INT) 78.88E-06        (X_U71.XI0.VINP_INT) 78.89E-06            
+
+(X_U71.XI0.XI30.VOH)    4.1000        (X_U71.XI0.XI30.VOL)   -3.9500            
+
+(X_U71.XI0.XI40.ION)     .0202        (X_U71.XI0.XI17.X1.3)    0.0000           
+
+(X_U71.XI0.XI17.X1.4)    0.0000       (X_U71.XI0.XI17.X1.5)    0.0000           
+
+(X_U71.XI0.XI17.X1.6)    0.0000       (X_U71.XI0.XI17.X1.7)     .8338           
+
+(X_U71.XI0.XI17.X1.8)     .8338       (X_U71.XI0.XI18.X1.3)    0.0000           
+
+(X_U71.XI0.XI18.X1.4)    0.0000       (X_U71.XI0.XI18.X1.5)    0.0000           
+
+(X_U71.XI0.XI18.X1.6)    0.0000       (X_U71.XI0.XI18.X1.7)     .8338           
+
+(X_U71.XI0.XI18.X1.8)     .8338       (X_U71.XI0.XI19.X1.1) 71.32E-06           
+
+(X_U71.XI0.XI19.X1.2)    0.0000       (X_U71.XI0.XI19.X1.3)-525.6E-06           
+
+(X_U71.XI0.XI19.X1.4)    0.0000       (X_U71.XI0.XI21.X1.1) 7.820E-12           
+
+(X_U71.XI0.XI21.X1.2)    0.0000       (X_U71.XI0.XI26.NET4) 78.89E-06           
+
+(X_U71.XI0.XI28.NET8)    5.0100       (X_U71.XI0.XI28.NET9)   -5.0100           
+
+(X_U71.XI0.XI40.X1.3)    0.0000       (X_U71.XI0.XI52.X1.3)    0.0000           
+
+(X_U71.XI0.XI58.NET7) 78.89E-06       (X_U71.XI0.XI63.X1.3)    0.0000           
+
+(X_U71.XI0.XI63.X1.4)    0.0000       (X_U71.XI0.XI63.X1.5)    0.0000           
+
+(X_U71.XI0.XI63.X1.6)    0.0000       (X_U71.XI0.XI63.X1.7)     .8338           
+
+(X_U71.XI0.XI63.X1.8)     .8338       (X_U71.XI0.XI19.X1.1a)    0.0000          
+
+(X_U71.XI0.XI19.X1.3a)    0.0000      (X_U71.XI0.XI21.X1.1a)    0.0000          
+
+(X_U71.XI0.XI30.NET15) 78.89E-06      (X_U71.XI0.XI30.NET17) 78.89E-06          
+
+(X_U71.XI0.XI30.NET22) 78.89E-06      (X_U71.XI0.XI30.NET34) 78.89E-06          
+
+(X_U71.XI0.XI30.NET53) 78.89E-06      (X_U71.XI0.XI30.VIMON) 3.029E-12          
+
+(X_U71.XI0.XI40.PDINV)    0.0000      (X_U71.XI0.XI52.PDINV)    0.0000          
+
+(X_U71.XI0.XI67.NET12)    3.7500      (X_U71.XI0.XI67.NET16) 78.89E-06          
+
+(X_U71.XI0.XI67.NET20)   -5.2500      (X_U71.XI0.XI68.NET12)    3.7500          
+
+(X_U71.XI0.XI68.NET16) 78.88E-06      (X_U71.XI0.XI68.NET20)   -5.2500          
+
+(X_U71.XI0.XI85.NET15) 78.89E-06      (X_U71.XI0.XI85.NET27) 78.89E-06          
+
+(X_U71.XI0.XI19.X1.101) 71.32E-06     (X_U71.XI0.XI19.X1.102) 71.32E-06         
+
+(X_U71.XI0.XI19.X1.301)-525.6E-06     (X_U71.XI0.XI19.X1.302)-525.6E-06         
+
+(X_U71.XI0.XI21.X1.101) 7.820E-12     (X_U71.XI0.XI21.X1.102) 7.820E-12         
+
+(X_U71.XI0.XI26.NET019) 78.89E-06     (X_U71.XI0.XI26.NET020) 78.89E-06         
+
+(X_U71.XI0.XI28.NET014) 78.89E-06     (X_U71.XI0.XI30.NET068) 78.89E-06         
+
+(X_U71.XI0.XI30.NET070)    4.1000     (X_U71.XI0.XI30.NET092) 78.89E-06         
+
+(X_U71.XI0.XI40.LOGIC1)    1.0000     (X_U71.XI0.XI52.LOGIC1)    1.0000         
+
+(X_U71.XI0.XI85.NET024) 78.89E-06     (X_U71.XI0.XI85.NET026) 78.89E-06         
+
+(X_U71.XI0.XI30.NET0017) 78.89E-06    (X_U71.XI0.XI30.NET0100) 78.89E-06        
+
+(X_U71.XI0.XI30.NET0146) 78.89E-06    (X_U71.XI0.XI30.VIMONINV)-3.029E-12       
+
+(X_U71.XI0.XI30.XI0.X1.3)    0.0000   (X_U71.XI0.XI40.ION_SEG1)    0.0000       
+
+(X_U71.XI0.XI40.ION_SEG2)    0.0000   (X_U71.XI0.XI40.ION_SEG3)    1.0000       
+
+(X_U71.XI0.XI52.ITAILMAX)     .0010   (X_U71.XI0.XI52.ITAILMIN)     .0010       
+
+(X_U71.XI0.XI30.XI0.PDINV)    0.0000  (X_U71.XI0.XI30.XI0.LOGIC1)    1.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.022E-02
+    V_V2        -2.022E-02
+    X_U71.XI0.VPROBE2   3.156E-16
+    X_U71.XI0.VDOMPOLEBIAS  -3.178E-16
+    X_U71.XI0.VPROBE1   1.975E-10
+    X_U71.XI0.XI67.V0   2.960E-14
+    X_U71.XI0.XI67.VESDL   1.050E-11
+    X_U71.XI0.XI67.VESDH   7.500E-12
+    X_U71.XI0.XI68.V0   2.694E-14
+    X_U71.XI0.XI68.VESDL   1.050E-11
+    X_U71.XI0.XI68.VESDH   7.500E-12
+    X_U71.XI0.XI52.VLOGIC1   0.000E+00
+    X_U71.XI0.XI30.VPROBE3  -8.200E-12
+    X_U71.XI0.XI30.VPROBE4  -7.900E-12
+    X_U71.XI0.XI30.VCURSOURCEDETECT   3.029E-12
+    X_U71.XI0.XI30.VCURSINKDETECT  -3.029E-12
+    X_U71.XI0.XI30.VPROBE1   2.729E-12
+    X_U71.XI0.XI28.VBRIDGE  -3.156E-16
+    X_U71.XI0.XI28.VPROBE   0.000E+00
+    X_U71.XI0.XI28.VRECL   1.002E-11
+    X_U71.XI0.XI28.VRECH   1.002E-11
+    X_U71.XI0.XI40.VLOGIC1   0.000E+00
+    X_U71.XI0.XI30.XI0.VLOGIC1   0.000E+00
+
+    TOTAL POWER DISSIPATION   2.02E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 04/02/25 01:00:20 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-asefrawerawer"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\aserfaser\aserfaser-PSp
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        1.41
+

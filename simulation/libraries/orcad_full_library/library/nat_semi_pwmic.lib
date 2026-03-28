@@ -1,0 +1,4807 @@
+*/////////////////////////////////////////////////////////////////////////////////////////////////////
+* (C) National Semiconductor, Corporation.
+* Models developed and under copyright by:
+* National Semiconductor, Corporation.  
+*//////////////////////////////////////////////////////////////////////////////////////////////////////
+* Legal Notice:  
+* The model may be copied, and distributed without any modifications;
+* however, reselling or licensing the material is illegal.
+* We reserve the right to make changes to the model without any prior notice.
+* Pspice Models are provided "AS IS, WITH NO WARRANTY OF ANY KIND"
+*//////////////////////////////////////////////////////////////////////////////////////////////////////
+* Model Number 	     : LM5046 Phase-Shift Full Bridge PWM Controller with Integrated MOSFET Drivers
+* Last Revision Date : February 17, 2011
+* Revision Number    : 1.1
+* E-mail feedback    : http://wwwd.national.com/feedback/
+* Generated from Pspice Plugin Ver. 16.2
+* Modelled by : Eric Lee,  eric.lee@nsc.com
+*//////////////////////////////////////////////////////////////////////////////////////////////////////
+* This model has only been tested with Orcad PSPICE.  
+* Additional modifications maybe required to work with other SPICE packages
+*//////////////////////////////////////////////////////////////////////////////////////////////////////
+*
+*<Introduction >
+*This document contains the PSPICE model and the simulation circuit example for National Semiconductor's LM5046.
+*The LM5046 Phase-Shift full-bridge PWM controller with integrated MOSFET drivers contains 
+*all of the features necessary to implement 
+*full-bridge power converter using either current mode or voltage mode control.
+*
+*<LM5046 Model>
+*The LM5046 model contains all of the basic features including;
+*- Full-Bridge Gate Drivers
+*- Synchronous Rectifier Control Outputs
+*- Current Mode or Voltage Mode Control
+*- Single Resistor Programmable Switching Frequency
+*- Programmable Dead-time 
+*- Cycle-by-Cycle Current Limit
+*- Hiccup Mode Overload Protection
+*- Primaryside Soft-start
+*- Soft-start of the synchronous rectifiers
+*- Direct Optocoupler Interface
+*- Internal Start-up Bias Regulator
+*- 5V Reference
+*- Programmable UVLO and OVP
+*
+*<Assumptions and limitations>
+*Model & Example Assumptions;
+*- Temperature variations are not considered. Default temperature is assumed as 25C.
+*- Any parasitic elements including ESR and ESL of capacitor, DCR and leakage inductance 
+*of transformer are not considered. 
+*Some functions/characteristics of IC are not included in this model;
+*- Thermal Shutdown 
+*- Oscillator Synchronization
+*Some characteristics of IC are included but not optimized;
+*- Gate driver capability/strength
+*- Power consumption of controller  
+*- SS, SSSR, RES discharging time 
+*- UVLO shutdown hysteresis (0.1V)
+*- CS delay to output
+*Also AGND and PGND pin of IC are internally tied to GND (node number 0)
+*
+*<Note>
+*- To run the simulation, a simulation profile should be added first. Click 'New Simulation Profile' 
+*- The simulation takes around 10~16min actual time per 1mS simulation on a 1.7GHz machine.
+*- Vsupply should have a slope lower than 1V/us
+*/////////////////////////////////////////////////////////////////////////////////////////
+.SUBCKT LM5046 UVLO OVP RAMP CS SLOPE COMP REF RT RD1 RD2 RES SS SSSR SSOFF HS2 HO2 BST2 
++SR2 LO2 VCC LO1 SR1 BST1 HO1 HS1 VIN
+Ccomp1	COMP 0 1p IC=0
+Ccounter1         BUFFER1 0  10n IC=0
+Ccounter2         BUFFER2 0  10n IC=0
+Ccounter3         HICCUPCOMPLETE 0  400p IC=0
+Ccounter4         COUNTER9 0  4p IC=0
+Ccounter5         COUNTER10 0  4p IC=0
+Ccs1         CSINT 0  4p IC=0
+Ccs2         ILIM 0  100p IC=0
+Cdd1         DELAYDRVA 0  40p IC=0
+Cdd2         DELAYDRVB 0  40p IC=0
+Cdr10         LO1 0  4p IC=0
+Cdr11         SR1 0  4p IC=0
+Cdr12         SR2 0  4p IC=0
+Cdr13         DR8 0  4p IC=0
+Cdr14         HO2 HS2  4p IC=0
+Cdr15         LO2 0  4p IC=0
+Cdr16         DR7 0  4p IC=0
+Cdr5         DR5 0  4p IC=0
+Cdr6         DR6 0  4p IC=0
+Cdr7         DR9 0  4p IC=0
+Cdr8         DR10 0  4p IC=0
+Cdr9         HO1 HS1  4p IC=0
+Cisr1         ISR1 0  4p IC=0
+Cisr2         NSRSIGNAL 0  4p IC=0
+Cisr3         ISR 0  24.5p IC=0
+Cleb1         LEB1 0  4p IC=0
+Cleb2         LEB6 0  4p IC=0
+Cleb3         LEB8 0  8p IC=0
+Cmsk1         MSK2 0  4p IC=0
+Cmsk2         MSK3 0  4p IC=0
+Cosc1         CLK 0  5p IC=5
+Cosc2         OSC2 0  5p IC=5
+Cov1         OVPOUT 0  4p IC=0
+Cpwm1         PWM2 0  4p IC=0
+Cpwm2         PWM4 0  4p IC=0
+Cram1         RAM2LEB 0  4p IC=0
+Cram2         RAM5 0  4p IC=0
+Cres2         RES2 0  400p IC=0
+Cres3         AT2V2 0  40p IC=5
+Cres4         AT4V2 0  40p IC=0
+Cres5         AT0P1V2 0  40p IC=0
+Cres6         HICCUPSTART 0  40p IC=0
+Cres7         RES10 0  20p IC=0
+Cres8         RES9 0  20p IC=0
+Cres9         RES4 0  20p IC=0
+Cslope1         IOUTSLOPE 0  5p IC=0
+Css10         SS6 0  4p IC=0
+Css11         SS5 0  4p IC=0
+Css5         SS 0  4p IC=0
+Css7         SS2 0  4p IC=0
+Css9         RSTOUT 0  4p IC=0
+Csssr1         SSSR 0  4p IC=0
+Csssr2         SSSR2 0  4p IC=0
+Csssr3         SSSR4 0  4p IC=0
+Csssr4         SSSR5 0  4p IC=0
+Csssssr1         SOFTSTOPSSSR 0  4p IC=0
+Cstate1         STATER 0  4p IC=0
+Cstate2         STATES 0  4p IC=0
+Ctc1         TC2 0  4p IC=0
+Ctc10         TC24 0  4p IC=0
+Ctc11         TC27 0  4p IC=0
+Ctc12         TC30 0  4p IC=0
+Ctc2         TC4 0  4p IC=0
+Ctc3         TC7 0  4p IC=0
+Ctc4         TC9 0  4p IC=0
+Ctc5         TC12 0  4p IC=0
+Ctc6         TC14 0  4p IC=0
+Ctc7         TC17 0  4p IC=0
+Ctc8         TC19 0  4p IC=0
+Ctc9         TC22 0  4p IC=0
+Cuvc3         UVC2 0  4p IC=0
+Cuvc4         VCCLOW 0  4p IC=0
+Cuvi1         SD 0  4p IC=0
+Cuvi2         UVLO_LT2 0  4p IC=0
+Cuvi3         RD2 0  4p IC=0
+Cuvi4         RD1 0  4p IC=0
+Cuvr1         UVR2 0  4p IC=0
+Cuvr2         VREFLOW 0  4p IC=5
+Cuvr3         UVR6 0  8p IC=0
+Cvcc1         VCC3 0  3p IC=0
+Cvcc2         VCC4 0  4p IC=0
+Cvcc3         VCC5 0  4p IC=0
+Cvcc4         VCC6 0  4p IC=0
+Cvcc5         VCC7 0  4p IC=0
+Cvccboost         VCCBOOST 0  4p IC=0
+Cvccboost_vcc         BOOST1R8 0  4p IC=0
+Cvccint1         0 VCCINT  10p IC=0
+Cvref1         VREF3 0  3p IC=0
+Cvref2         REF 0  4p IC=0
+Dvcc1         VCCD1 VIN DNOM
+Dvcc2         VCC VCCD1 DNOM
+Dvref1         REF VCC DNOM
+Ecomp1         COMP4 0 VALUE { V(SS) }
+Ecounter1         COUNTER8 0 VALUE { if((V(at2V1)>(V(at2V2)+0.1)) & V(VREFuv)<=2.5 & V(VCCuv)<=2.5, 5, 0) }
+Ecounter2         COUNTER11 0 VALUE { if((V(at4V1)>(V(at4V2)+0.1)) & V(VREFuv)<=2.5 & V(VCCuv)<=2.5, 5, 0) }
+Ecounter3         COUNTER2 0 COUNTER1 0 1
+Ecounter4         COUNTER5 0 COUNTER4 0 1
+Edff1         DFF2 0 VALUE { if(V(NCLK)>2.5,V(NPH),0) }
+Edff2         DFF3 0 VALUE { if(V(NCLK)>2.5,V(PH),0) }
+Edff3         DFF6 0 VALUE { if(V(CLK)>2.5,V(DFF4),0) }
+Edff4         DFF7 0 VALUE { if(V(CLK)>2.5,V(DFF5),0) }
+Edrv10         SR2SIG 0 VALUE { if(V(SR2IN)>2.5 & V(NSRSIGNAL)<=2.5 & V(VCClow)<=2.5 & V(RSTout)<=2.5,5,0) }
+Edrv5         DRVHO1SIG 0 VALUE { if(V(HO1IN)>2.5 & V(VCCLOW)<=2.5 & V(RSTout)<=2.5 & (V(BST1)-V(HS1))>4.7,5,0) }
+Edrv6         DRVLO1SIG 0 VALUE { if(V(LO1IN)>2.5 & V(VCCLOW)<=2.5 & V(RSTout)<=2.5,5,0) }
+Edrv7         DRVHO2SIG 0 VALUE { if(V(HO2IN)>2.5 & V(VCCLOW)<=2.5 & V(RSTout)<=2.5 & (V(BST2)-V(HS2))>4.7,5,0) }
+Edrv8         DRVLO2SIG 0 VALUE { if(V(LO2IN)>2.5 & V(VCCLOW)<=2.5 & V(RSTout)<=2.5,5,0) }
+Edrv9         SR1SIG 0 VALUE { if(V(SR1IN)>2.5 & V(NSRSIGNAL)<=2.5 & V(VCClow)<=2.5 & V(RSTout)<=2.5,5,0) }
+Eisr1         ISR3 0 VALUE { if(V(ISR)>V(SSSR),5,0) }
+Eisr2         ISR2 0 VALUE { if(V(CLK)>2.5 | V(state) <2.5,5,0) }
+Eleb1         LEB2 0 VALUE { if(V(LEB3)>2.5 | V(LEB4)>2.5,5,0)  }
+Eleb2         LEB5 0 LEB6 0 1
+Emsk1         MSK4 0 VALUE { if(V(CLK)<=2.5 & V(PWM)<=2.5,5,0) }
+Emsk2         MSK5 0 VALUE { if(V(PWM)>2.5 & V(CLK)<=2.5,5,0) }
+Eosc1         OSC1 0 VALUE { if(V(OSC2)>cos(2*3.14*50E-9/(2/(6.25E9*I(VRT))+110E-9)),5,0) }
+Eosc2         OSC3 0 VALUE { if(V(VREFuv)<=2.5 & V(VCCuv)<=2.5 & V(FAULT)<=2.5,sin(2*3.141592*TIME*I(VRT)
++/100E-12/2),0) }
+Eosc3         NCLK 0 VALUE { {5-V(CLK)} }
+Eov1         OV1 0 VALUE { if(V(OVP)>1.25,5,0) }
+Epwm1         PWM1 0 VALUE { if(V(RSTOUT)>2.5 | V(CLK)>0.5, 5, 0) }
+Epwm2         PWM3 0 VALUE { if((V(ILIM)>2.5 | V(comp2PWM)<=V(RAMPint)) & V(comp2pwm)>0, 5, 0) }
+Eram         RAMPINT 0 RAMP 0 1
+Eram1         RAM3 0 VALUE { if(V(PWM)>4.5 | V(CLK)>2.5 | V(RSTout)>2.5, 5, 0) }
+Eram2         RAM6 0 VALUE { if(V(VCCUV)>2.5 | V(VREFUV)>2.5 | V(COMPi)<=1, 5, 0) }
+Eres1         RES3 0 VALUE { if(V(CLK)>(V(osc1)+0.1), 5, 0) }
+Eres2         RES7 0 VALUE { if((V(CLK)< (V(osc1)-0.1)) & V(RES6)<=2.5, 5, 0) }
+Eres3         RES8 0 VALUE { if((V(CLK)< (V(osc1)-0.1)) & V(RES6)>2.5, 5, 0) }
+Eres4         AT4V1 0 VALUE { if(V(RES)>4, 5, 0) }
+Eres5         AT2V1 0 VALUE { if(V(RES)<=2 | V(nFAULT)>2.5, 5, 0) }
+Eres6         AT0P1V1 0 VALUE { if(V(RES)<0.1, 5, 0) }
+Eres7         AT1V1 0 VALUE { if(V(RES)>1, 5, 0) }
+Eres8         COUNTER7 0 VALUE { if(V(BUFFER2)>15.5 & V(at2V1)<=(V(at2V2)+0.1), 5, 0) }
+Eres9         RESDISCHARGE 0 VALUE { if(V(VCCuv)>2.5 | V(VREFuv)>2.5 | V(HiccupComplete)>2.5, 10, 0) }
+Ess1         SSDISCHARGE 0 VALUE { if(V(VCCuv)>2.5 | V(VREFuv)>2.5 | V(SS4)<=2.5, 5, 0) }
+Ess2         SS9 0 VALUE { if((V(SSSR)<1 & V(SoftStopSSSR)>2.5) | ((V(SoftStopSSSR)>2.5 
++& V(SSoff)>2.8) | V(VCCuv)>2.5 | 
++V(VREFuv)>2.5 | V(OVPout)>2.5), 5, 0) }
+Ess3         SS8 0 VALUE { if(V(SS)<=0.2, 5, 0) }
+Ess4         RSTOUT1 0 VALUE { if(V(SS6)>2.5 | V(SS4)<=2.5, 5, 0) }
+Esssr1         SSSR7 0 VALUE { if(V(STATE)<=2.5, 5, 0) }
+Esssr2         SSSR8 0 VALUE { if(V(SSSR)<=0.2, 5, 0) }
+Esssssr1         SSSSSR1 0 VALUE { if(V(FAULT)>2.5 | V(UVLO_lt2)>2.5, 5, 0) }
+Estate1         STATER1 0 VALUE { if(V(SS5)>2.5 |V(SS)<=0.2, 5, 0) }
+Estate2         STATES1 0 VALUE { if(V(VCCuv)<=2.5 & V(VREFuv)<=2.5 & V(OVPout)<=2.5 & (V(SSoff)<=2.75 | 
++V(SoftStopSSSR)<=2.5) & (V(SoftStopSSSR)<=2.5 & V(SS)>2 & V(COMPi)>1.0 ), 5, 0) }
+Etc10         TC23 0 VALUE { if(V(comp2pwm)>0 & (V(PH)>2.5 | V(MskPWM)>2.5) & (V(delayDRVB)
++>0.5 & V(delayDRVB)<=2.5),5,0) }
+Etc11         TC26 0 VALUE { if(V(RSTout)>2.5 | (V(PH)>2.5 & V(MskPWM)<=2.5),5,0) }
+Etc12         TC28 0 VALUE { if(V(comp2pwm)>0 & (V(PH)<=2.5 | V(MskPWM)>2.5) & (V(delayDRVA)
++>0.5 & V(delayDRVA)<=2.5),5,0) }
+Etc2         TC3 0 VALUE { if(V(comp2pwm)>0 & V(PH)>2.5 & V(MskPWM)<=2.5 & (V(delayDRVA)>2.5
++& V(delayDRVA)<=4.5),5,0) }
+Etc4         TC8 0 VALUE { if(V(comp2pwm)>0 & V(PH)<=2.5 & V(MskPWM)<=2.5 & (V(delayDRVB)>2.5
++& V(delayDRVB)<=4.5),5,0) }
+Etc9         TC21 0 VALUE { if(V(RSTout)>2.5 | (V(PH)<=2.5 & V(MskPWM)<=2.5),5,0) }
+Euvc1         UVC3 0 VALUE { if(V(VCC)>V(VCCREGPT),5,0) }
+Euvc2         UVC5 0 VALUE { if(V(VCC)<6.3,5,0) }
+Euvi1         UVI1 0 VALUE { if(V(UVLO)<0.4,5,0) }
+Euvi2         UVI2 0 VALUE { if(V(UVLO)>1.25,0,5) }
+Euvr1         UVR3 0 VALUE { if(V(UVR6)>V(REFREGPT),5,0) }
+Euvr2         UVR5 0 VALUE { if(V(UVR6)<4.3,5,0) }
+Ev15         V5V 0 VALUE { if(V(VIN)>13,5,0) }
+Evcc_boost         VCC8 0 VALUE { IF(V(VCCBOOST)>2.5, 1.8, 0) }
+Evcc1         VCC1 BOOST1R8 TABLE { V(VIN, 0) } ( (0,0)(2.8,0)(10.5,7.8) )
+Evcc2         VCC2 0 VALUE { IF(V(SD)>2.5, 0, V(VCC1)) }
+Evccboost         BOOST1 0 VALUE { if(V(STATE)<=2.5 | V(SSSR)<1 ,5,0) }
+Evref1         VREF1 0 TABLE { V(VCC) } ( (0,0) (2, 0) (3.2,3) (5.2,5) )
+Evref2         VREF2 0 VALUE { IF( V(SD)>2.5, 0, V(VREF1)) }
+Evrt1         VRT1 0 TABLE { V(REF,0) } ( (0,0) (2,2) )
+Gdt1         0 RD1 TABLE { V(V5V, 0) } ( (0,1E-6)(5,40E-6) )
+Gdt2         0 RD2 TABLE { V(V5V, 0) } ( (0,1E-6)(5,40E-6) )
+Ggateloss         VIN 0 VALUE { I(VVCC) }
+Gisr1         0 ISR VALUE { if(V(ISR1)>2.5,1,0) }
+Givcc1         VCC7 0 TABLE { V(VCC) } ( (0,0) (10,0.0046)  )
+Govhys1         0 OVP VALUE { if(V(OVPOUT)>2.5, 20E-6, 0) }
+Gres1         0 RES VALUE {if(V(FAULT)>2.5,if(V(p10u_hiccup)>4.5,10E-6,if(V(n5u_hiccup)>4.5
++,-5E-6,0)),if(V(p30u)>4.5,
++30E-6,if(V(n5u)>4.5,-5E-6,0))) }
+Gslope1         0 IOUTSLOPE1 VALUE { if(V(CLK)<=2.5 & V(VREFuv)<=2.5 & V(VCCuv)<=2.5, I(VRT)/20,0) }
+Gslope2         0 SLOPE VALUE { if(V(VREFuv)<=2.5 & V(VCCuv)<=2.5, V(IOUTSLOPE)/20000,0) }
+Gss1         0 SS VALUE { if(V(VREFuv)<=2.5,20E-6,0) }
+Gsssr1         0 SSSR VALUE { if(V(VREFuv)<=2.5,20E-6,0) }
+Gsssr2         SSSR 0 VALUE {if(V(SoftStopSSSR)>2.5,if(V(state)>2.5,65E-6,if(V(FAULT)>2.5,125E-6,0)),0) }
+Guvihys1         UVLO 0 VALUE { if(V(UVLO_LT2)>2.5, 20E-6, 0) }
+Gvcc1         0 VCC4 TABLE { V(VCC3, VCC4) } ( (-1.4, -1)(0,0)(0.3,0.052) )
+Gvref1         VCC REF TABLE { V(VREF3, REF) } ( (-0.7,-1)(0,0)(0.15,0.015) )
+Q_Qcomp1         COMP COMP COMP2 NOMNPN
+Qcomp2         COMPI COMP COMP3 NOMNPN
+Rcomp1         REF COMPI  5k
+Rcomp2         COMP2 0  200
+Rcomp3         COMP3 0  200
+Rcomp4         COMP5 COMP2PWM  24k
+Rcomp5         COMP2PWM 0  24k
+Rcounter1         HICCUPCOMPLETE COUNTER7  500
+Rcounter2         BUFFER2 COUNTER3  1
+Rcounter3         BUFFER1 COUNTER6  1
+Rcounter4         COUNTER9 HICCUPCOMPLETE  500
+Rcounter5         COUNTER10 HICCUPCOMPLETE  500
+Rcounter6         COUNTER6 0  10Meg
+Rcounter7         BUFFER2 0  10Meg
+Rcs1         CS2 CS  18
+Rcs2         CS CSINT  2k
+Rcs3         CS1 ILIM  500
+Rdr10         DRVHO2SIG DR7  500
+Rdr5         DRVHO1SIG DR5  500
+Rdr6         DRVLO1SIG DR6  500
+Rdr7         SR1SIG DR9  500
+Rdr8         SR2SIG DR10  500
+Rdr9         DRVLO2SIG DR8  500
+Rdt1dummy         RD1 0  10E6
+Rdt2dummy         RD2 0  10E6
+RdumRT         RT 0  10E6
+RdumSlope1         IOUTSLOPE 0  10E6
+RdumSlope2         SLOPE 0  10E6
+Risr1         ISR1 ISR2  500
+Risr2         ISR3 NSRSIGNAL  500
+Rleb1         LEB1 LEB2  500
+Rleb2         LEB3 0  1
+Rleb3         LEB6 LEB4  500
+Rleb4         LEB8 LEB9  500
+Rmsk1         MSK2 MSK4  500
+Rmsk2         MSK3 MSK5  500
+Rosc1         CLK OSC1  500
+Rosc2         OSC2 OSC3  500
+Rov1         OVPOUT OV1  2500k
+Rovdummy         0 OVP  10Meg
+Rpwm1         PWM2 PWM1  1000
+Rpwm2         PWM4 PWM3  500
+Rram1         RAM1 RAMP  5.5
+Rram2         RAM2LEB RAM3  500
+Rram3         RAM4 RAMP  1k
+Rram4         RAM5 RAM6  500
+Rres1         RES1 RES  30
+Rres2         RES2 RESDISCHARGE  500
+Rres3         AT4V1 AT4V2  500
+Rres4         AT2V1 AT2V2  500
+Rres5         AT0P1V1 AT0P1V2  500
+Rres6         AT1V1 HICCUPSTART  500
+Rres7         RES8 RES10  500
+Rres8         RES7 RES9  500
+Rres9         RES3 RES4  500
+Rss10         SS6 SS8  500
+Rss11         SS5 SS9  500
+Rss12 SSOFF 0 200E3
+Rss7         SS1 SS  200
+Rss8         SS2 SSDISCHARGE  500
+Rss9         RSTOUT RSTOUT1  500
+Rsssr1         SSSR1 SSSR  200
+Rsssr2         SSSR2 SSSR3  500
+Rsssr3         SSSR4 SSSR7  500
+Rsssr4         SSSR5 SSSR8  500
+Rsssssr1         SOFTSTOPSSSR SSSSSR1  500
+Rstate1         STATER STATER1  500
+Rstate2         STATES STATES1  500
+Rtc1         TC1 TC2  500
+Rtc10         TC23 TC24  500
+Rtc11         TC26 TC27  500
+Rtc12         TC28 TC30  500
+Rtc2         TC3 TC4  500
+Rtc3         TC6 TC7  500
+Rtc4         TC8 TC9  500
+Rtc5         TC11 TC12  500
+Rtc6         TC13 TC14  500
+Rtc7         TC16 TC17  500
+Rtc8         TC18 TC19  500
+Rtc9         TC21 TC22  500
+Ruvc3         UVC2 UVC3  1.5k
+Ruvc4         VCCLOW UVC5  1.5k
+Ruvi1         SD UVI1  500
+Ruvi2         UVLO_LT2 UVI2  2500k
+Ruvidummy         0 UVLO  10Meg
+Ruvr1         UVR2 UVR3  500
+Ruvr2         VREFLOW UVR5  500
+Ruvr3         UVR6 REF  500
+Rvcc1         VCC2 VCC3  1
+Rvcc2         VCCREGPT VCC3  200
+Rvcc3         0 VCC4  5k
+Rvcc4         VCC7 VCC  1
+Rvcc5         0 VCCREGPT  1.8k
+Rvccboost         BOOST1 VCCBOOST  500
+Rvccboost_vcc         VCC8 BOOST1R8  500
+Rvccint1         VCC6 VCCINT  100m
+Rvccint2         VCCINT VCC  10m
+Rvindummy1         VIN 0  333k
+Rvref1         VREF2 VREF3  1
+Rvref2         REFREGPT VREF3  500
+Rvref3         0 REF  5k
+Rvref4         0 REFREGPT  4.5k
+Tleb         LEB3 0 LEB5 0 Z0=1 TD=40n
+Xdff1         DFF2 DFF3 DFF4 DFF5 rsff5k PARAMS:
+Xdff2         DFF6 DFF7 PH NPH rsff5k PARAMS:
+Xleb1         RAM2LEB LEB8 leb7 LEB4 rsff5k PARAMS:
+Xmsk1         MSK2 MSK3 MskPWM msk1 rsff5k PARAMS:
+Xpwm1         PWM2 PWM4 PWM pwm5 rsff5k PARAMS:
+Xres1         RES4 ILIM RES6 res5 rsff5k PARAMS:
+Xres2         RES9 RES10 p30u n5u rsff5k PARAMS:
+Xres3         AT4V2 AT2V2 p10u_hiccup n5u_hiccup rsff5k PARAMS:
+Xres4         AT0P1V2 HICCUPSTART FAULT nFAULT rsff5k PARAMS:
+Xss1         SS6 SS5 ss7 SS4 rsff5k PARAMS:
+Xsssr1         SSSR4 SSSR5 sssr6 SSSR3 rsff5k PARAMS:
+Xstate         STATER STATES STATE statenq rsff5k PARAMS:
+Xtc1         TC2 TC4 HO1IN tc5 rsff5k PARAMS:
+Xtc2         TC7 TC9 LO1IN tc10 rsff5k PARAMS:
+Xtc3         TC12 TC14 HO2IN tc15 rsff5k PARAMS:
+Xtc4         TC17 TC19 LO2IN tc20 rsff5k PARAMS:
+Xtc5         TC22 TC24 SR1IN tc25 rsff5k PARAMS:
+Xtc6         TC27 TC30 SR2IN tc29 rsff5k PARAMS:
+Xuvc1         UVC2 VCCLOW VCCUV uvc1 rsff5k PARAMS:
+Xuvr1         UVR2 VREFLOW VREFUV uvr1 rsff5k PARAMS:
+V1         V5V_0P2 V5V 0.2
+V1V5         COMPI COMP5 1
+Vcounter1         COUNTER1 BUFFER1 1
+Vcounter2         COUNTER4 BUFFER2 1
+VRT         VRT1 RT 0
+VVCC         VCC4 VCC5 0
+
+*S5K
+Scs1    CS2 0 LEB1 0 S5K
+Sram1    RAM1 0 RAM2LEB 0 S5K
+Sram2    RAM4 0 RAM5 0 S5K
+Sres1    RES1 0 RES2 0 S5K
+Sslope1    IOUTSLOPE 0 CLK 0 S5K
+Sss1    SS1 0 SS2 0 S5K
+Ssssr1    SSSR1 0 SSSR2 0 S5K
+
+*SCLAMP
+Scompdiode1    COMPI COMP4 COMPI COMP4 SWCLAMP
+Scounterdiode1    COUNTER2 COUNTER3 COUNTER8 0 SWCLAMP
+Scounterdiode2    COUNTER5 COUNTER6 COUNTER11 0 SWCLAMP
+Scounterdiode3    BUFFER1 0 COUNTER9 0 SWCLAMP
+Scounterdiode4    BUFFER2 0 COUNTER10 0 SWCLAMP
+Scounterdiode5    COUNTER7 HICCUPCOMPLETE COUNTER7 HICCUPCOMPLETE SWCLAMP
+Scsdiode1    CS1 ILIM CS1 ILIM SWCLAMP
+Scsdiode2    ILIM V5V ILIM V5V SWCLAMP
+Sdd1    DELAYDRVA V5V DELAYDRVA V5V SWCLAMP
+Sdd2    0 DELAYDRVA 0 DELAYDRVA SWCLAMP
+Sdd3    DELAYDRVB V5V DELAYDRVB V5V SWCLAMP
+Sdd4    0 DELAYDRVB 0 DELAYDRVB SWCLAMP
+Sdiode_vcc1    VCC5 VCC6 VCC5 VCC6 SWCLAMP
+Sissdiode1    ISR V5V ISR V5V SWCLAMP
+Sresdiode1    RES V5V RES V5V SWCLAMP
+Sresdiode2    0 RES 0 RES SWCLAMP
+Sresdiode3    RESDISCHARGE RES2 RESDISCHARGE RES2 SWCLAMP
+Sresdiode4    RES7 RES9 RES7 RES9 SWCLAMP
+Sresdiode5    RES8 RES10 RES8 RES10 SWCLAMP
+Sresdiode6    RES3 RES4 RES3 RES4 SWCLAMP
+Sslope2    0 ISR 0 ISR SWCLAMP
+Sssdiode1    SS V5V SS V5V SWCLAMP
+Sssdiode2    0 SS 0 SS SWCLAMP
+Ssssrdiode1    SSSR V5V_0P2 SSSR V5V_0P2 SWCLAMP
+Ssssrdiode2    0 SSSR 0 SSSR SWCLAMP
+Suvi1    0 UVLO 0 UVLO SWCLAMP
+
+*DRIVER
+Sdriver1   BST1 HO1  DR5 0 SdriverT
+Sdriver11    BST2 HO2 DR7 0 SdriverT
+Sdriver3    VCC LO1 DR6 0 SdriverT
+Sdriver9   VCC LO2  DR8 0 SdriverT
+Sdriver2    HO1 HS1 DR5 0 SdriverB
+Sdriver12    HO2 HS2 DR7 0 SdriverB
+Sdriver4   LO1 0  DR6 0 SdriverB
+Sdriver10    LO2 0 DR8 0 SdriverB
+Sdriver5   REF SR1  DR9 0 SdriverSRT
+Sdriver7   REF SR2  DR10 0 SdriverSRT
+Sdriver6   SR1 0  DR9 0 SdriverSRB
+Sdriver8   SR2 0  DR10 0 SdriverSRB
+
+*Rgiga 
+Rgiga1 LEB1 0 1G
+Rgiga2 RAM2LEB 0 1G
+Rgiga3 RAM5 0 1G
+Rgiga4 RES2 0 1G
+Rgiga5 CLK 0 1G
+Rgiga6 SS2 0 1G
+Rgiga7 SSSR2 0 1G
+Rgiga8 COMPI COMP4 1G
+Rgiga9 COUNTER8 0 1G
+Rgiga10 COUNTER11 0 1G
+Rgiga11 COUNTER9 0 1G
+Rgiga12 COUNTER10 0 1G
+Rgiga13 COUNTER7 HICCUPCOMPLETE 1G
+Rgiga14 CS1 ILIM 1G
+Rgiga15 ILIM V5V 1G
+Rgiga16 DELAYDRVA V5V 1G
+Rgiga17 0 DELAYDRVA 1G
+Rgiga18 DELAYDRVB V5V 1G
+Rgiga19 0 DELAYDRVB 1G
+Rgiga20 VCC5 VCC6 1G
+Rgiga21 ISR V5V 1G
+Rgiga22 RES V5V 1G
+Rgiga23 0 RES 1G
+Rgiga24 RESDISCHARGE RES2 1G
+Rgiga25 RES7 RES9 1G
+Rgiga26 RES8 RES10 1G
+Rgiga27 RES3 RES4 1G
+Rgiga28 0 ISR 1G
+Rgiga29 SS V5V 1G
+Rgiga30 0 SS 1G
+Rgiga31 SSSR V5V_0P2 1G
+Rgiga32 0 SSSR 1G
+Rgiga33 0 UVLO 1G
+Rgiga34 DR5 0 1G
+Rgiga35 DR7 0 1G
+Rgiga36 DR6 0 1G
+Rgiga37 DR8 0 1G
+Rgiga38 DR9 0 1G
+Rgiga39 DR10 0 1G
+
+*Fslope IOUTSLOPE1 IOUTSLOPE ISR 0 Fslope
+Fslope ISR 0 VFslope 10
+VFslope IOUTSLOPE1 IOUTSLOPE 0V
+
+*46
+Ecs2         CS1 0 VALUE { if(V(CSint)>0.75 & (((V(HO1)-V(HS1))>2 & V(LO2)>2) | ((V(HO2)-V(HS2))>2 
++& V(HO1)>2)),5,0) }
+Eleb3        LEB9 0 VALUE { if(((V(HO1)-V(HS1))>2 & V(LO2)>2) | ((V(HO2)-V(HS2))>2 & V(LO1)>2),5,0) }
+Etc1         TC1 0 VALUE { if(V(RSTout)>2.5 | (V(ILIM)>0.5 | ((V(PH)<=2.5 & V(MskPWM)<=2.5))),5,0) }
+Etc3         TC6 0 VALUE { if(V(RSTout)>2.5 | (V(PH)>2.5 & V(MskPWM)<=2.5),5,0) }
+Etc5         TC11 0 VALUE { if(V(RSTout)>2.5 | (((V(PH)<=0.5 ) & (V(MskPWM)>(V(dMskPWM)+0.1)))
++|((V(PH)>(V(dPH)+0.1)) & 
++(V(MskPWM)<=2.5))) | (V(ILIM)>0.5 & V(PH)<=2.5),5,0) }
+Etc6         TC13 0 VALUE { if(V(comp2pwm)>0 & (V(MskPWM)>2.5 | V(PH)<=2.5) & (V(delayDRVC)
++>0.5 & V(delayDRVC)<=2.5),5,0) }
+Etc7         TC16 0 VALUE { if(V(RSTout)>2.5 | (((V(PH)>4.5 ) & (V(MskPWM)>(V(dMskPWM)+0.1)))
++|((V(PH)<=(V(dPH)-0.1)) & 
++(V(MskPWM)<=2.5))) | (V(ILIM)>0.5 & V(PH)>2.5),5,0) }
+Etc8         TC18 0 VALUE { if(V(comp2pwm)>0 & (V(MskPWM)>2.5 | V(PH)>2.5 ) & (V(delayDRVD)
++>0.5& V(delayDRVD)<=2.5),5,0) }
+
+Gdd1         0 DELAYDRVA VALUE { if((V(MskPWM)<=2.5 & V(PH)>2.5) & V(VREFuv) <=2.5,1000E-12
++/(0.75E-6*V(RD1)-100E-9),-3.4E-3) }
+Gdd2         0 DELAYDRVB VALUE { if((V(MskPWM)<=2.5 & V(PH)<=2.5) & V(VREFuv) <=2.5,1000E-12
++/(0.75E-6*V(RD1)-100E-9),-3.4E-3) }
+
+Sdd6    DELAYDRVC V5V DELAYDRVC V5V SWCLAMP
+Gdd3    0 DELAYDRVC VALUE { if((V(MskPWM)<=2.5 & V(PH)>2.5) & V(VREFuv) <=2.5,1000E-12
++/(0.75E-6*V(RD1)-100E-9),-1000E-12/(0.75E-6*V(RD2)-100E-9))}
+Cdd3    DELAYDRVC 0  40p IC=0
+Sdd5    0 DELAYDRVC 0 DELAYDRVC SWCLAMP 
+
+Sdd8    DELAYDRVD V5V DELAYDRVD V5V SWCLAMP
+Gdd4    0 DELAYDRVD VALUE { if((V(MskPWM)<=2.5 & V(PH)<=2.5) & V(VREFuv) <=2.5,1000E-12
++/(0.75E-6*V(RD1)-100E-9),-1000E-12/(0.75E-6*V(RD2)-100E-9))}
+Cdd4    DELAYDRVD 0  40p IC=0
+Sdd7    0 DELAYDRVD 0 DELAYDRVD SWCLAMP
+
+Rtc13         MSKPWM DMSKPWM  500
+Ctc13         DMSKPWM 0  40p IC=0
+
+Rtc14         PH DPH  500
+Ctc14         DPH 0  40p IC=0 
+
+Rgiga40 DELAYDRVC V5V 1G
+Rgiga41 0 DELAYDRVC 1G
+Rgiga42 DELAYDRVD V5V 1G
+Rgiga43 0 DELAYDRVD 1G 
+
+*subckt
+.MODEL Dnom D IS=100n RS=30m CJO=10p VJ=0.5 EG=0.6
+.MODEL S5K VSWITCH RON=1 ROFF=100E6 VON=1V VOFF=0.0V
+.MODEL SWCLAMP VSWITCH RON=0.001 ROFF=100E6 VON=10m VOFF=0
+.MODEL SdriverT VSWITCH RON=2.7 ROFF=1E6 VON=2.6V VOFF=2.4V
+.MODEL SdriverB VSWITCH RON=1E6 ROFF=1.6 VON=2.6V VOFF=2.4V
+.MODEL SdriverSRT VSWITCH RON=17 ROFF=1E6 VON=2.6V VOFF=2.4V
+.MODEL SdriverSRB VSWITCH RON=1E6 ROFF=5 VON=2.6V VOFF=2.4V
+.MODEL NOMNPN NPN RB=350 RC=600 RE=20
+.ENDS LM5046
+
+*//////////////////////////////////////////////////////////////////////////////////////////
+* (C) National Semiconductor, Corporation.
+* Models developed and under copyright by:
+* National Semiconductor, Corporation.  
+*///////////////////////////////////////////////////////////////////////////////////////////
+* Legal Notice:  
+* The model may be copied, and distributed without any modifications;
+* however, reselling or licensing the material is illegal.
+* We reserve the right to make changes to the model without any prior notice.
+* Pspice Models are provided "AS IS, WITH NO WARRANTY OF ANY KIND"
+*////////////////////////////////////////////////////////////////////////////////////////////
+* Model Number 	     : LM5045 Full Bridge PWM Controller with Integrated MOSFET Drivers
+* Last Revision Date : February 25, 2011
+* Revision Number    : 1.1
+* E-mail feedback    : http://wwwd.national.com/feedback/
+* Generated from Pspice Plugin Ver. 16.2
+* Modelled by : Eric Lee,  eric.lee@nsc.com
+*////////////////////////////////////////////////////////////////////////////////////////////
+* This model has only been tested with Orcad PSPICE.  
+* Additional modifications maybe required to work with other SPICE packages
+*////////////////////////////////////////////////////////////////////////////////////////////
+*
+*<Introduction >
+*This document contains the PSPICE model and the simulation circuit example for National 
+*Semiconductor's LM5045.
+*The LM5045 full-bridge PWM controller with integrated MOSFET drivers contains all of the 
+*features necessary to implement 
+*full-bridge power converter using either current mode or voltage mode control.
+*
+*<LM5045 Model>
+*The LM5045 model contains all of the basic features including;
+*- Full-Bridge Gate Drivers
+*- Synchronous Rectifier Control Outputs
+*- Current Mode or Voltage Mode Control
+*- Single Resistor Programmable Switching Frequency
+*- Programmable Dead-time 
+*- Cycle-by-Cycle Current Limit
+*- Hiccup Mode Overload Protection
+*- Primaryside Soft-start
+*- Soft-start of the synchronous rectifiers
+*- Direct Optocoupler Interface
+*- Internal Start-up Bias Regulator
+*- 5V Reference
+*- Programmable UVLO and OVP
+*
+*<Assumptions and limitations>
+*Model & Example Assumptions;
+*- Temperature variations are not considered. Default temperature is assumed as 25C.
+*- Any parasitic elements including ESR and ESL of capacitor, DCR and leakage inductance 
+*of transformer are not considered. 
+*Some functions/characteristics of IC are not included in this model;
+*- Thermal Shutdown 
+*- Oscillator Synchronization
+*Some characteristics of IC are included but not optimized;
+*- Gate driver capability/strength
+*- Power consumption of controller  
+*- SS, SSSR, RES discharging time 
+*- UVLO shutdown hysteresis (0.1V)
+*- CS delay to output
+*Also AGND and PGND pin of IC are internally tied to GND (node number 0)
+*
+*<Note>
+*- To run the simulation, a simulation profile should be added first. Click 'New Simulation Profile' 
+*- The simulation takes around 10~16min actual time per 1mS simulation on a 1.7GHz machine.
+*- Vsupply should have a slope lower than 1V/us
+*/////////////////////////////////////////////////////////////////////////////////////////
+.SUBCKT LM5045 UVLO OVP RAMP CS SLOPE COMP REF RT RD1 RD2 RES SS SSSR SSOFF HS2 HO2 BST2 
++SR2 LO2 VCC LO1 SR1 BST1 HO1 HS1 VIN
+Ccomp1	COMP 0 1p IC=0
+Ccounter1         BUFFER1 0  10n IC=0
+Ccounter2         BUFFER2 0  10n IC=0
+Ccounter3         HICCUPCOMPLETE 0  400p IC=0
+Ccounter4         COUNTER9 0  4p IC=0
+Ccounter5         COUNTER10 0  4p IC=0
+Ccs1         CSINT 0  4p IC=0
+Ccs2         ILIM 0  100p IC=0
+Cdd1         DELAYDRVA 0  40p IC=0
+Cdd2         DELAYDRVB 0  40p IC=0
+Cdr10         LO1 0  4p IC=0
+Cdr11         SR1 0  4p IC=0
+Cdr12         SR2 0  4p IC=0
+Cdr13         DR8 0  4p IC=0
+Cdr14         HO2 HS2  4p IC=0
+Cdr15         LO2 0  4p IC=0
+Cdr16         DR7 0  4p IC=0
+Cdr5         DR5 0  4p IC=0
+Cdr6         DR6 0  4p IC=0
+Cdr7         DR9 0  4p IC=0
+Cdr8         DR10 0  4p IC=0
+Cdr9         HO1 HS1  4p IC=0
+Cisr1         ISR1 0  4p IC=0
+Cisr2         NSRSIGNAL 0  4p IC=0
+Cisr3         ISR 0  24.5p IC=0
+Cleb1         LEB1 0  4p IC=0
+Cleb2         LEB6 0  4p IC=0
+Cleb3         LEB8 0  8p IC=0
+Cmsk1         MSK2 0  4p IC=0
+Cmsk2         MSK3 0  4p IC=0
+Cosc1         CLK 0  5p IC=5
+Cosc2         OSC2 0  5p IC=5
+Cov1         OVPOUT 0  4p IC=0
+Cpwm1         PWM2 0  4p IC=0
+Cpwm2         PWM4 0  4p IC=0
+Cram1         RAM2LEB 0  4p IC=0
+Cram2         RAM5 0  4p IC=0
+Cres2         RES2 0  400p IC=0
+Cres3         AT2V2 0  40p IC=5
+Cres4         AT4V2 0  40p IC=0
+Cres5         AT0P1V2 0  40p IC=0
+Cres6         HICCUPSTART 0  40p IC=0
+Cres7         RES10 0  20p IC=0
+Cres8         RES9 0  20p IC=0
+Cres9         RES4 0  20p IC=0
+Cslope1         IOUTSLOPE 0  5p IC=0
+Css10         SS6 0  4p IC=0
+Css11         SS5 0  4p IC=0
+Css5         SS 0  4p IC=0
+Css7         SS2 0  4p IC=0
+Css9         RSTOUT 0  4p IC=0
+Csssr1         SSSR 0  4p IC=0
+Csssr2         SSSR2 0  4p IC=0
+Csssr3         SSSR4 0  4p IC=0
+Csssr4         SSSR5 0  4p IC=0
+Csssssr1         SOFTSTOPSSSR 0  4p IC=0
+Cstate1         STATER 0  4p IC=0
+Cstate2         STATES 0  4p IC=0
+Ctc1         TC2 0  4p IC=0
+Ctc10         TC24 0  4p IC=0
+Ctc11         TC27 0  4p IC=0
+Ctc12         TC30 0  4p IC=0
+Ctc2         TC4 0  4p IC=0
+Ctc3         TC7 0  4p IC=0
+Ctc4         TC9 0  4p IC=0
+Ctc5         TC12 0  4p IC=0
+Ctc6         TC14 0  4p IC=0
+Ctc7         TC17 0  4p IC=0
+Ctc8         TC19 0  4p IC=0
+Ctc9         TC22 0  4p IC=0
+Cuvc3         UVC2 0  4p IC=0
+Cuvc4         VCCLOW 0  4p IC=0
+Cuvi1         SD 0  4p IC=0
+Cuvi2         UVLO_LT2 0  4p IC=0
+Cuvi3         RD2 0  4p IC=0
+Cuvi4         RD1 0  4p IC=0
+Cuvr1         UVR2 0  4p IC=0
+Cuvr2         VREFLOW 0  4p IC=5
+Cuvr3         UVR6 0  8p IC=0
+Cvcc1         VCC3 0  3p IC=0
+Cvcc2         VCC4 0  4p IC=0
+Cvcc3         VCC5 0  4p IC=0
+Cvcc4         VCC6 0  4p IC=0
+Cvcc5         VCC7 0  4p IC=0
+Cvccboost         VCCBOOST 0  4p IC=0
+Cvccboost_vcc         BOOST1R8 0  4p IC=0
+Cvccint1         0 VCCINT  10p IC=0
+Cvref1         VREF3 0  3p IC=0
+Cvref2         REF 0  4p IC=0
+Dvcc1         VCCD1 VIN DNOM
+Dvcc2         VCC VCCD1 DNOM
+Dvref1         REF VCC DNOM
+Ecomp1         COMP4 0 VALUE { V(SS) }
+Ecounter1         COUNTER8 0 VALUE { if((V(at2V1)>(V(at2V2)+0.1)) & V(VREFuv)<=2.5 & V(VCCuv)<=2.5, 5, 0) }
+Ecounter2         COUNTER11 0 VALUE { if((V(at4V1)>(V(at4V2)+0.1)) & V(VREFuv)<=2.5 & V(VCCuv)<=2.5, 5, 0) }
+Ecounter3         COUNTER2 0 COUNTER1 0 1
+Ecounter4         COUNTER5 0 COUNTER4 0 1
+Edff1         DFF2 0 VALUE { if(V(NCLK)>2.5,V(NPH),0) }
+Edff2         DFF3 0 VALUE { if(V(NCLK)>2.5,V(PH),0) }
+Edff3         DFF6 0 VALUE { if(V(CLK)>2.5,V(DFF4),0) }
+Edff4         DFF7 0 VALUE { if(V(CLK)>2.5,V(DFF5),0) }
+Edrv10         SR2SIG 0 VALUE { if(V(SR2IN)>2.5 & V(NSRSIGNAL)<=2.5 & V(VCClow)<=2.5 & V(RSTout)<=2.5,5,0) }
+Edrv5         DRVHO1SIG 0 VALUE { if(V(HO1IN)>2.5 & V(VCCLOW)<=2.5 & V(RSTout)<=2.5 & (V(BST1)-V(HS1))>4.7,5,0) }
+Edrv6         DRVLO1SIG 0 VALUE { if(V(LO1IN)>2.5 & V(VCCLOW)<=2.5 & V(RSTout)<=2.5,5,0) }
+Edrv7         DRVHO2SIG 0 VALUE { if(V(HO2IN)>2.5 & V(VCCLOW)<=2.5 & V(RSTout)<=2.5 & (V(BST2)-V(HS2))>4.7,5,0) }
+Edrv8         DRVLO2SIG 0 VALUE { if(V(LO2IN)>2.5 & V(VCCLOW)<=2.5 & V(RSTout)<=2.5,5,0) }
+Edrv9         SR1SIG 0 VALUE { if(V(SR1IN)>2.5 & V(NSRSIGNAL)<=2.5 & V(VCClow)<=2.5 & V(RSTout)<=2.5,5,0) }
+Eisr1         ISR3 0 VALUE { if(V(ISR)>V(SSSR),5,0) }
+Eisr2         ISR2 0 VALUE { if(V(CLK)>2.5 | V(state) <2.5,5,0) }
+Eleb1         LEB2 0 VALUE { if(V(LEB3)>2.5 | V(LEB4)>2.5,5,0)  }
+Eleb2         LEB5 0 LEB6 0 1
+Emsk1         MSK4 0 VALUE { if(V(CLK)<=2.5 & V(PWM)<=2.5,5,0) }
+Emsk2         MSK5 0 VALUE { if(V(PWM)>2.5 & V(CLK)<=2.5,5,0) }
+Eosc1         OSC1 0 VALUE { if(V(OSC2)>cos(2*3.14*50E-9/(2/(6.25E9*I(VRT))+110E-9)),5,0) }
+Eosc2         OSC3 0 VALUE { if(V(VREFuv)<=2.5 & V(VCCuv)<=2.5 & V(FAULT)<=2.5,sin(2*3.141592*TIME*I(VRT)
++/100E-12/2),0) }
+Eosc3         NCLK 0 VALUE { {5-V(CLK)} }
+Eov1         OV1 0 VALUE { if(V(OVP)>1.25,5,0) }
+Epwm1         PWM1 0 VALUE { if(V(RSTOUT)>2.5 | V(CLK)>0.5, 5, 0) }
+Epwm2         PWM3 0 VALUE { if((V(ILIM)>2.5 | V(comp2PWM)<=V(RAMPint)) & V(comp2pwm)>0, 5, 0) }
+Eram         RAMPINT 0 RAMP 0 1
+Eram1         RAM3 0 VALUE { if(V(PWM)>4.5 | V(CLK)>2.5 | V(RSTout)>2.5, 5, 0) }
+Eram2         RAM6 0 VALUE { if(V(VCCUV)>2.5 | V(VREFUV)>2.5 | V(COMPi)<=1, 5, 0) }
+Eres1         RES3 0 VALUE { if(V(CLK)>(V(osc1)+0.1), 5, 0) }
+Eres2         RES7 0 VALUE { if((V(CLK)< (V(osc1)-0.1)) & V(RES6)<=2.5, 5, 0) }
+Eres3         RES8 0 VALUE { if((V(CLK)< (V(osc1)-0.1)) & V(RES6)>2.5, 5, 0) }
+Eres4         AT4V1 0 VALUE { if(V(RES)>4, 5, 0) }
+Eres5         AT2V1 0 VALUE { if(V(RES)<=2 | V(nFAULT)>2.5, 5, 0) }
+Eres6         AT0P1V1 0 VALUE { if(V(RES)<0.1, 5, 0) }
+Eres7         AT1V1 0 VALUE { if(V(RES)>1, 5, 0) }
+Eres8         COUNTER7 0 VALUE { if(V(BUFFER2)>15.5 & V(at2V1)<=(V(at2V2)+0.1), 5, 0) }
+Eres9         RESDISCHARGE 0 VALUE { if(V(VCCuv)>2.5 | V(VREFuv)>2.5 | V(HiccupComplete)>2.5, 10, 0) }
+Ess1         SSDISCHARGE 0 VALUE { if(V(VCCuv)>2.5 | V(VREFuv)>2.5 | V(SS4)<=2.5, 5, 0) }
+Ess2         SS9 0 VALUE { if((V(SSSR)<1 & V(SoftStopSSSR)>2.5) | ((V(SoftStopSSSR)>2.5 
++& V(SSoff)>2.8) | V(VCCuv)>2.5 | 
++V(VREFuv)>2.5 | V(OVPout)>2.5), 5, 0) }
+Ess3         SS8 0 VALUE { if(V(SS)<=0.2, 5, 0) }
+Ess4         RSTOUT1 0 VALUE { if(V(SS6)>2.5 | V(SS4)<=2.5, 5, 0) }
+Esssr1         SSSR7 0 VALUE { if(V(STATE)<=2.5, 5, 0) }
+Esssr2         SSSR8 0 VALUE { if(V(SSSR)<=0.2, 5, 0) }
+Esssssr1         SSSSSR1 0 VALUE { if(V(FAULT)>2.5 | V(UVLO_lt2)>2.5, 5, 0) }
+Estate1         STATER1 0 VALUE { if(V(SS5)>2.5 |V(SS)<=0.2, 5, 0) }
+Estate2         STATES1 0 VALUE { if(V(VCCuv)<=2.5 & V(VREFuv)<=2.5 & V(OVPout)<=2.5 & (V(SSoff)<=2.75 | 
++V(SoftStopSSSR)<=2.5) & (V(SoftStopSSSR)<=2.5 & V(SS)>2 & V(COMPi)>1.0 ), 5, 0) }
+Etc10         TC23 0 VALUE { if(V(comp2pwm)>0 & (V(PH)>2.5 | V(MskPWM)>2.5) & (V(delayDRVB)
++>0.5 & V(delayDRVB)<=2.5),5,0) }
+Etc11         TC26 0 VALUE { if(V(RSTout)>2.5 | (V(PH)>2.5 & V(MskPWM)<=2.5),5,0) }
+Etc12         TC28 0 VALUE { if(V(comp2pwm)>0 & (V(PH)<=2.5 | V(MskPWM)>2.5) & (V(delayDRVA)
++>0.5 & V(delayDRVA)<=2.5),5,0) }
+Etc2         TC3 0 VALUE { if(V(comp2pwm)>0 & V(PH)>2.5 & V(MskPWM)<=2.5 & (V(delayDRVA)>2.5
++& V(delayDRVA)<=4.5),5,0) }
+Etc4         TC8 0 VALUE { if(V(comp2pwm)>0 & V(PH)<=2.5 & V(MskPWM)<=2.5 & (V(delayDRVB)>2.5
++& V(delayDRVB)<=4.5),5,0) }
+Etc9         TC21 0 VALUE { if(V(RSTout)>2.5 | (V(PH)<=2.5 & V(MskPWM)<=2.5),5,0) }
+Euvc1         UVC3 0 VALUE { if(V(VCC)>V(VCCREGPT),5,0) }
+Euvc2         UVC5 0 VALUE { if(V(VCC)<6.3,5,0) }
+Euvi1         UVI1 0 VALUE { if(V(UVLO)<0.4,5,0) }
+Euvi2         UVI2 0 VALUE { if(V(UVLO)>1.25,0,5) }
+Euvr1         UVR3 0 VALUE { if(V(UVR6)>V(REFREGPT),5,0) }
+Euvr2         UVR5 0 VALUE { if(V(UVR6)<4.3,5,0) }
+Ev15         V5V 0 VALUE { if(V(VIN)>13,5,0) }
+Evcc_boost         VCC8 0 VALUE { IF(V(VCCBOOST)>2.5, 1.8, 0) }
+Evcc1         VCC1 BOOST1R8 TABLE { V(VIN, 0) } ( (0,0)(2.8,0)(10.5,7.8) )
+Evcc2         VCC2 0 VALUE { IF(V(SD)>2.5, 0, V(VCC1)) }
+Evccboost         BOOST1 0 VALUE { if(V(STATE)<=2.5 | V(SSSR)<1 ,5,0) }
+Evref1         VREF1 0 TABLE { V(VCC) } ( (0,0) (2, 0) (3.2,3) (5.2,5) )
+Evref2         VREF2 0 VALUE { IF( V(SD)>2.5, 0, V(VREF1)) }
+Evrt1         VRT1 0 TABLE { V(REF,0) } ( (0,0) (2,2) )
+Gdt1         0 RD1 TABLE { V(V5V, 0) } ( (0,1E-6)(5,40E-6) )
+Gdt2         0 RD2 TABLE { V(V5V, 0) } ( (0,1E-6)(5,40E-6) )
+Ggateloss         VIN 0 VALUE { I(VVCC) }
+Gisr1         0 ISR VALUE { if(V(ISR1)>2.5,1,0) }
+Givcc1         VCC7 0 TABLE { V(VCC) } ( (0,0) (10,0.0046)  )
+Govhys1         0 OVP VALUE { if(V(OVPOUT)>2.5, 20E-6, 0) }
+Gres1         0 RES VALUE {if(V(FAULT)>2.5,if(V(p10u_hiccup)>4.5,10E-6,if(V(n5u_hiccup)>4.5
++,-5E-6,0)),if(V(p30u)>4.5,
++30E-6,if(V(n5u)>4.5,-5E-6,0))) }
+Gslope1         0 IOUTSLOPE1 VALUE { if(V(CLK)<=2.5 & V(VREFuv)<=2.5 & V(VCCuv)<=2.5, I(VRT)/20,0) }
+Gslope2         0 SLOPE VALUE { if(V(VREFuv)<=2.5 & V(VCCuv)<=2.5, V(IOUTSLOPE)/20000,0) }
+Gss1         0 SS VALUE { if(V(VREFuv)<=2.5,20E-6,0) }
+Gsssr1         0 SSSR VALUE { if(V(VREFuv)<=2.5,20E-6,0) }
+Gsssr2         SSSR 0 VALUE {if(V(SoftStopSSSR)>2.5,if(V(state)>2.5,65E-6,if(V(FAULT)>2.5,125E-6,0)),0) }
+Guvihys1         UVLO 0 VALUE { if(V(UVLO_LT2)>2.5, 20E-6, 0) }
+Gvcc1         0 VCC4 TABLE { V(VCC3, VCC4) } ( (-1.4, -1)(0,0)(0.3,0.052) )
+Gvref1         VCC REF TABLE { V(VREF3, REF) } ( (-0.7,-1)(0,0)(0.15,0.015) )
+Q_Qcomp1         COMP COMP COMP2 NOMNPN
+Qcomp2         COMPI COMP COMP3 NOMNPN
+Rcomp1         REF COMPI  5k
+Rcomp2         COMP2 0  200
+Rcomp3         COMP3 0  200
+Rcomp4         COMP5 COMP2PWM  24k
+Rcomp5         COMP2PWM 0  24k
+Rcounter1         HICCUPCOMPLETE COUNTER7  500
+Rcounter2         BUFFER2 COUNTER3  1
+Rcounter3         BUFFER1 COUNTER6  1
+Rcounter4         COUNTER9 HICCUPCOMPLETE  500
+Rcounter5         COUNTER10 HICCUPCOMPLETE  500
+Rcounter6         COUNTER6 0  10Meg
+Rcounter7         BUFFER2 0  10Meg
+Rcs1         CS2 CS  18
+Rcs2         CS CSINT  2k
+Rcs3         CS1 ILIM  500
+Rdr10         DRVHO2SIG DR7  500
+Rdr5         DRVHO1SIG DR5  500
+Rdr6         DRVLO1SIG DR6  500
+Rdr7         SR1SIG DR9  500
+Rdr8         SR2SIG DR10  500
+Rdr9         DRVLO2SIG DR8  500
+Rdt1dummy         RD1 0  10E6
+Rdt2dummy         RD2 0  10E6
+RdumRT         RT 0  10E6
+RdumSlope1         IOUTSLOPE 0  10E6
+RdumSlope2         SLOPE 0  10E6
+Risr1         ISR1 ISR2  500
+Risr2         ISR3 NSRSIGNAL  500
+Rleb1         LEB1 LEB2  500
+Rleb2         LEB3 0  1
+Rleb3         LEB6 LEB4  500
+Rleb4         LEB8 LEB9  500
+Rmsk1         MSK2 MSK4  500
+Rmsk2         MSK3 MSK5  500
+Rosc1         CLK OSC1  500
+Rosc2         OSC2 OSC3  500
+Rov1         OVPOUT OV1  2500k
+Rovdummy         0 OVP  10Meg
+Rpwm1         PWM2 PWM1  1000
+Rpwm2         PWM4 PWM3  500
+Rram1         RAM1 RAMP  5.5
+Rram2         RAM2LEB RAM3  500
+Rram3         RAM4 RAMP  1k
+Rram4         RAM5 RAM6  500
+Rres1         RES1 RES  30
+Rres2         RES2 RESDISCHARGE  500
+Rres3         AT4V1 AT4V2  500
+Rres4         AT2V1 AT2V2  500
+Rres5         AT0P1V1 AT0P1V2  500
+Rres6         AT1V1 HICCUPSTART  500
+Rres7         RES8 RES10  500
+Rres8         RES7 RES9  500
+Rres9         RES3 RES4  500
+Rss10         SS6 SS8  500
+Rss11         SS5 SS9  500
+Rss12 SSOFF 0 200E3
+Rss7         SS1 SS  200
+Rss8         SS2 SSDISCHARGE  500
+Rss9         RSTOUT RSTOUT1  500
+Rsssr1         SSSR1 SSSR  200
+Rsssr2         SSSR2 SSSR3  500
+Rsssr3         SSSR4 SSSR7  500
+Rsssr4         SSSR5 SSSR8  500
+Rsssssr1         SOFTSTOPSSSR SSSSSR1  500
+Rstate1         STATER STATER1  500
+Rstate2         STATES STATES1  500
+Rtc1         TC1 TC2  500
+Rtc10         TC23 TC24  500
+Rtc11         TC26 TC27  500
+Rtc12         TC28 TC30  500
+Rtc2         TC3 TC4  500
+Rtc3         TC6 TC7  500
+Rtc4         TC8 TC9  500
+Rtc5         TC11 TC12  500
+Rtc6         TC13 TC14  500
+Rtc7         TC16 TC17  500
+Rtc8         TC18 TC19  500
+Rtc9         TC21 TC22  500
+Ruvc3         UVC2 UVC3  1.5k
+Ruvc4         VCCLOW UVC5  1.5k
+Ruvi1         SD UVI1  500
+Ruvi2         UVLO_LT2 UVI2  2500k
+Ruvidummy         0 UVLO  10Meg
+Ruvr1         UVR2 UVR3  500
+Ruvr2         VREFLOW UVR5  500
+Ruvr3         UVR6 REF  500
+Rvcc1         VCC2 VCC3  1
+Rvcc2         VCCREGPT VCC3  200
+Rvcc3         0 VCC4  5k
+Rvcc4         VCC7 VCC  1
+Rvcc5         0 VCCREGPT  1.8k
+Rvccboost         BOOST1 VCCBOOST  500
+Rvccboost_vcc         VCC8 BOOST1R8  500
+Rvccint1         VCC6 VCCINT  100m
+Rvccint2         VCCINT VCC  10m
+Rvindummy1         VIN 0  333k
+Rvref1         VREF2 VREF3  1
+Rvref2         REFREGPT VREF3  500
+Rvref3         0 REF  5k
+Rvref4         0 REFREGPT  4.5k
+Tleb         LEB3 0 LEB5 0 Z0=1 TD=40n
+Xdff1         DFF2 DFF3 DFF4 DFF5 rsff5k PARAMS:
+Xdff2         DFF6 DFF7 PH NPH rsff5k PARAMS:
+Xleb1         RAM2LEB LEB8 leb7 LEB4 rsff5k PARAMS:
+Xmsk1         MSK2 MSK3 MskPWM msk1 rsff5k PARAMS:
+Xpwm1         PWM2 PWM4 PWM pwm5 rsff5k PARAMS:
+Xres1         RES4 ILIM RES6 res5 rsff5k PARAMS:
+Xres2         RES9 RES10 p30u n5u rsff5k PARAMS:
+Xres3         AT4V2 AT2V2 p10u_hiccup n5u_hiccup rsff5k PARAMS:
+Xres4         AT0P1V2 HICCUPSTART FAULT nFAULT rsff5k PARAMS:
+Xss1         SS6 SS5 ss7 SS4 rsff5k PARAMS:
+Xsssr1         SSSR4 SSSR5 sssr6 SSSR3 rsff5k PARAMS:
+Xstate         STATER STATES STATE statenq rsff5k PARAMS:
+Xtc1         TC2 TC4 HO1IN tc5 rsff5k PARAMS:
+Xtc2         TC7 TC9 LO1IN tc10 rsff5k PARAMS:
+Xtc3         TC12 TC14 HO2IN tc15 rsff5k PARAMS:
+Xtc4         TC17 TC19 LO2IN tc20 rsff5k PARAMS:
+Xtc5         TC22 TC24 SR1IN tc25 rsff5k PARAMS:
+Xtc6         TC27 TC30 SR2IN tc29 rsff5k PARAMS:
+Xuvc1         UVC2 VCCLOW VCCUV uvc1 rsff5k PARAMS:
+Xuvr1         UVR2 VREFLOW VREFUV uvr1 rsff5k PARAMS:
+V1         V5V_0P2 V5V 0.2
+V1V5         COMPI COMP5 1
+Vcounter1         COUNTER1 BUFFER1 1
+Vcounter2         COUNTER4 BUFFER2 1
+VRT         VRT1 RT 0
+VVCC         VCC4 VCC5 0
+
+*S5K
+Scs1    CS2 0 LEB1 0 S5K
+Sram1    RAM1 0 RAM2LEB 0 S5K
+Sram2    RAM4 0 RAM5 0 S5K
+Sres1    RES1 0 RES2 0 S5K
+Sslope1    IOUTSLOPE 0 CLK 0 S5K
+Sss1    SS1 0 SS2 0 S5K
+Ssssr1    SSSR1 0 SSSR2 0 S5K
+
+*SCLAMP
+Scompdiode1    COMPI COMP4 COMPI COMP4 SWCLAMP
+Scounterdiode1    COUNTER2 COUNTER3 COUNTER8 0 SWCLAMP
+Scounterdiode2    COUNTER5 COUNTER6 COUNTER11 0 SWCLAMP
+Scounterdiode3    BUFFER1 0 COUNTER9 0 SWCLAMP
+Scounterdiode4    BUFFER2 0 COUNTER10 0 SWCLAMP
+Scounterdiode5    COUNTER7 HICCUPCOMPLETE COUNTER7 HICCUPCOMPLETE SWCLAMP
+Scsdiode1    CS1 ILIM CS1 ILIM SWCLAMP
+Scsdiode2    ILIM V5V ILIM V5V SWCLAMP
+Sdd1    DELAYDRVA V5V DELAYDRVA V5V SWCLAMP
+Sdd2    0 DELAYDRVA 0 DELAYDRVA SWCLAMP
+Sdd3    DELAYDRVB V5V DELAYDRVB V5V SWCLAMP
+Sdd4    0 DELAYDRVB 0 DELAYDRVB SWCLAMP
+Sdiode_vcc1    VCC5 VCC6 VCC5 VCC6 SWCLAMP
+Sissdiode1    ISR V5V ISR V5V SWCLAMP
+Sresdiode1    RES V5V RES V5V SWCLAMP
+Sresdiode2    0 RES 0 RES SWCLAMP
+Sresdiode3    RESDISCHARGE RES2 RESDISCHARGE RES2 SWCLAMP
+Sresdiode4    RES7 RES9 RES7 RES9 SWCLAMP
+Sresdiode5    RES8 RES10 RES8 RES10 SWCLAMP
+Sresdiode6    RES3 RES4 RES3 RES4 SWCLAMP
+Sslope2    0 ISR 0 ISR SWCLAMP
+Sssdiode1    SS V5V SS V5V SWCLAMP
+Sssdiode2    0 SS 0 SS SWCLAMP
+Ssssrdiode1    SSSR V5V_0P2 SSSR V5V_0P2 SWCLAMP
+Ssssrdiode2    0 SSSR 0 SSSR SWCLAMP
+Suvi1    0 UVLO 0 UVLO SWCLAMP
+
+*DRIVER
+Sdriver1   BST1 HO1  DR5 0 SdriverT
+Sdriver11    BST2 HO2 DR7 0 SdriverT
+Sdriver3    VCC LO1 DR6 0 SdriverT
+Sdriver9   VCC LO2  DR8 0 SdriverT
+Sdriver2    HO1 HS1 DR5 0 SdriverB
+Sdriver12    HO2 HS2 DR7 0 SdriverB
+Sdriver4   LO1 0  DR6 0 SdriverB
+Sdriver10    LO2 0 DR8 0 SdriverB
+Sdriver5   REF SR1  DR9 0 SdriverSRT
+Sdriver7   REF SR2  DR10 0 SdriverSRT
+Sdriver6   SR1 0  DR9 0 SdriverSRB
+Sdriver8   SR2 0  DR10 0 SdriverSRB
+
+*Rgiga 
+Rgiga1 LEB1 0 1G
+Rgiga2 RAM2LEB 0 1G
+Rgiga3 RAM5 0 1G
+Rgiga4 RES2 0 1G
+Rgiga5 CLK 0 1G
+Rgiga6 SS2 0 1G
+Rgiga7 SSSR2 0 1G
+Rgiga8 COMPI COMP4 1G
+Rgiga9 COUNTER8 0 1G
+Rgiga10 COUNTER11 0 1G
+Rgiga11 COUNTER9 0 1G
+Rgiga12 COUNTER10 0 1G
+Rgiga13 COUNTER7 HICCUPCOMPLETE 1G
+Rgiga14 CS1 ILIM 1G
+Rgiga15 ILIM V5V 1G
+Rgiga16 DELAYDRVA V5V 1G
+Rgiga17 0 DELAYDRVA 1G
+Rgiga18 DELAYDRVB V5V 1G
+Rgiga19 0 DELAYDRVB 1G
+Rgiga20 VCC5 VCC6 1G
+Rgiga21 ISR V5V 1G
+Rgiga22 RES V5V 1G
+Rgiga23 0 RES 1G
+Rgiga24 RESDISCHARGE RES2 1G
+Rgiga25 RES7 RES9 1G
+Rgiga26 RES8 RES10 1G
+Rgiga27 RES3 RES4 1G
+Rgiga28 0 ISR 1G
+Rgiga29 SS V5V 1G
+Rgiga30 0 SS 1G
+Rgiga31 SSSR V5V_0P2 1G
+Rgiga32 0 SSSR 1G
+Rgiga33 0 UVLO 1G
+Rgiga34 DR5 0 1G
+Rgiga35 DR7 0 1G
+Rgiga36 DR6 0 1G
+Rgiga37 DR8 0 1G
+Rgiga38 DR9 0 1G
+Rgiga39 DR10 0 1G
+
+*Fslope IOUTSLOPE1 IOUTSLOPE ISR 0 Fslope
+Fslope ISR 0 VFslope 10
+VFslope IOUTSLOPE1 IOUTSLOPE 0V
+
+*45
+Ecs2         CS1 0 VALUE { if(V(CSINT)>0.75 & (V(LO1)>2 | V(LO2)>2),5,0) }
+Eleb3         LEB9 0 VALUE { if(V(LO1)>2 | V(LO2)>2, 5, 0) }
+Etc1         TC1 0 VALUE { if(V(RSTout)>2.5 | (V(ILIM)>0.5 | (V(PH)<=2.5 | V(MskPWM)>2.5)),5,0) }
+Etc3         TC6 0 VALUE { if(V(RSTout)>2.5 | (V(ILIM)>0.5 | (V(PH)>2.5 | V(MskPWM)>2.5)),5,0)  }
+Etc5         TC11 0 VALUE { if(V(RSTout)>2.5 | (V(ILIM)>0.5 | (V(PH)>2.5 | V(MskPWM)>2.5)),5,0)  }
+Etc6         TC13 0 VALUE { if(V(comp2pwm)>0 & V(PH)<=2.5 & V(MskPWM)<=2.5 
++& (V(delayDRVB)>2.5& V(delayDRVB)<=4.5),5,0) }
+Etc7         TC16 0 VALUE { if(V(RSTout)>2.5 | (V(ILIM)>0.5 | (V(PH)<=2.5 | V(MskPWM)>2.5)),5,0) }
+Etc8         TC18 0 VALUE { if(V(comp2pwm)>0 & V(PH)>2.5 & V(MskPWM)<=2.5 
++& (V(delayDRVA)>2.5& V(delayDRVA)<=4.5),5,0) }
+
+Gdd1         0 DELAYDRVA VALUE { if((V(MskPWM)<=2.5 & V(PH)>2.5) & V(VREFUV)<=2.5,1333E-6/V(RD1),-1333E-6/V(RD2)) }
+Gdd2         0 DELAYDRVB VALUE { if((V(MskPWM)<=2.5 & V(PH)<=2.5) & V(VREFUV)<=2.5,1333E-6/V(RD1),-1333E-6/V(RD2)) }
+
+*subckt
+.MODEL Dnom D IS=100n RS=30m CJO=10p VJ=0.5 EG=0.6
+.MODEL S5K VSWITCH RON=1 ROFF=100E6 VON=1V VOFF=0.0V
+.MODEL SWCLAMP VSWITCH RON=0.001 ROFF=100E6 VON=10m VOFF=0
+.MODEL SdriverT VSWITCH RON=2.7 ROFF=1E6 VON=2.6V VOFF=2.4V
+.MODEL SdriverB VSWITCH RON=1E6 ROFF=1.6 VON=2.6V VOFF=2.4V
+.MODEL SdriverSRT VSWITCH RON=17 ROFF=1E6 VON=2.6V VOFF=2.4V
+.MODEL SdriverSRB VSWITCH RON=1E6 ROFF=5 VON=2.6V VOFF=2.4V
+.MODEL NOMNPN NPN RB=350 RC=600 RE=20
+.ENDS LM5045
+
+*//////////////////////////////////////////////////////////////////////////////////////////
+* (C) National Semiconductor, Corporation.
+* Models developed and under copyright by:
+* National Semiconductor, Corporation.  
+*//////////////////////////////////////////////////////////////////////////////////////////
+* Legal Notice:  
+* The model may be copied, and distributed without any modifications;
+* however, reselling or licensing the material is illegal.
+* We reserve the right to make changes to the model without prior notice. 
+* Pspice Models are provided "AS IS, WITH NO WARRANTY OF ANY KIND" 
+*//////////////////////////////////////////////////////////////////////////////////////////
+* Model Number 	  : LM5070 PWM Controller Block Model
+* Last Revision Date : Apr 12, 2011
+* Revision Number    :1.1
+* E-mail feedback 	  : http://wwwd.national.com/feedback/
+* Generated from OrCAD Pspice Ver. 10.5, compatible with Ver. 9.2
+* Modelled by : Eric Lee,  eric.lee@nsc.com
+*//////////////////////////////////////////////////////////////////////////////////////////
+*Assumptions and limitations;
+*1) Model & Example Assumptions;
+*The temperature for this model is 25C
+*ESR and ESL of capacitors are zero
+*Wire DCR and leakage inductances of transformer are zero
+*No parasitic elements of package
+*2)Some functions/characteristics are not included in this model;
+*Thermal shutdown 
+*Oscillator synchronization 
+*3)Some characteristics are included but not optimized;
+*Gate driver capability 
+*Power consumption of controller  
+*VCC regulator current limit 
+*4)This model requires the parameter 'OPTION' to select its device option.
+*///////////////////////////////////////////////////////////////////////////////////////////
+
+.SUBCKT LM5070 VIN FB COMP VCC OUT SS RT CS contEN PARAMS: OPTION=80
+* For LM5070-80, please select OPTION=80. For LM5070-50, please select OPTION=50
+Sdriverl OUT 0 GL1 0 SWdriverL 
+Sdriverh VCC OUT GH1 0 SWdriverH 
+Cq2 GL1 0  3p IC=0 
+Cq3 GH1 0  3p IC=0 
+Rq2 GH1 GH2  500  
+Rq3 GL1 GL2  500  
+E8 GL2 0 VALUE { if(V(uv1)>2.5 & V(uv2)>2.5 & V(err1)>2.5 & V(maxduty)>2.5,0,5) }
+E6 GH2 0 VALUE { if(V(uv1)>2.5 & V(uv2)>2.5 & V(err1)>2.5 & V(maxduty)>2.5,5,0) }
+Rq1 UV2 U1  500  
+Cq1 UV2 0  3p IC=0 
+Rqz1 U3 U2  500  
+Cqz1 U3 0  3p IC=5 
+Rq7 U5 U7  500  
+Cq6 U4 0  3p IC=0 
+Rq6 U4 U6  500  
+Cq7 U5 0  3p IC=0 
+Evccuv1 U6 0 VALUE { if(V(VCC)<6,5,0) }
+Evccuv3 U1 0 VALUE { if(V(U4)>2.5 | V(U3)>2.5,0,5) }
+Evccuv4 U2 0 VALUE { if(V(UV2)>2.5 | V(U5)>2.5,0,5) }
+Evccuv2 U7 0 VALUE { if(V(VCC)>7.5,5,0) }
+Rq5 UV1 U8  500  
+Cq5 0 UV1  3p IC=0 
+Guvlohys 0 contEN VALUE { if(V(uv1)>2.5, 20u, 0) }
+Euvlo U8 0 VALUE { if(V(contEN)>1.25,5,0) }
+Rq ERR1 F3  500  
+Cq ERR1 0  3p IC=0 
+Cqz F2 0  3p IC=5 
+Rqz F2 F4  500  
+Cq4 RESET 0  100p IC=0 
+Rq4 RESET F5  500  
+Ereset F3 0 VALUE { if(V(RESET)>2.5 | V(F2)>2.5,0,5) }
+Ecomp F55 0 VALUE { if(V(csramp)>V(comp2) | V(csramp)>0.5 ,5,0) }
+Eset F4 0 VALUE { if(V(ERR1)>2.5 | V(PULSEDCLKLEB)>2.5,0,5) }
+Dhys F55 F5 D5K
+Rhys RESET 0 5k
+Rvcc2 VCC2 VCC3  1  
+Cvcc2 VCC3 0  3p IC=0.77 
+Rvdd1 VDD1 VDD  1  
+Cvdd1 VDD 0  3p IC=0 
+Dvcc VCC4 VCC D5K 
+Rvcc3 VCC VCC6 1
+Givcc VCC6 0 TABLE { V(VCC) } ( (0,0) (7.5,0.003) )
+Dss SS vclamp D5K
+EMAX vclamp 0 VALUE {V(vdd)}
+VRT RT1 RT 0
+Gss 0 SS VALUE { if(V(uv1)<2.5 | V(uv2)<2.5,0, V(vdd)*2E-6) }
+Evcc2 VCC2 0 VALUE { if(V(uv1)>1, V(vcc1), 0.77) }
+Evcc1 VCC1 0 TABLE { V(VIN) } ( (0, 0.77) (9.5, 0.77) (13.0, 8.57) )
+Evdd VDD1 0 TABLE { V(VCC) } ( (5.3,0.0) (7.5,5) )
+Ert RT1 0 TABLE { V(vdd) } ( (0,0) (2,2) )
+Rssdis SS SSdis 200
+Sssdis SSdis 0 ssdiscont 0 S5K
+Rssdis1 ssdiscont ssdiscont1 200
+Cssdis2 ssdiscont 0 3p IC=0
+Essdis ssdiscont1 0 VALUE { if(V(uv1)<2.5 | V(uv2)<2.5, 5,0) }
+Rvddp VDD 0 5E3
+Ruvlodummy contEN 0 10Meg
+Rvindummy VIN 0 192k
+VVCC VCC5 VCC4 0
+Ggateloss VIN 0 VALUE {I(VVCC)}
+Gldo 0 VCC5 TABLE { V(VCC3,VCC4) } ( (0,0) (0.3,0.02) )
+Cvcc3 VCC5 0  3p IC=0.77 
+Cic1 COMP2 0  4.8p IC=0 
+Ric2 COMP2 0  5k  
+Ric3 COMP2 C1  10k  
+Dic4 C2 C1 Dcomp 
+Dic5 COMP C2 Dcomp 
+Dic7 vclampgnd COMP D5K 
+Dea2 vclampgnd C4 D5K 
+Eclampgnd vclampgnd 0 TABLE { V(vdd) } ( (0,0) (0.77,0.77) ) 
+Ric6 VDD COMP  5k  
+Dic8 COMP C3 D5K 
+Ess C3 0 SS 0 1
+Ggnamp COMP 0 C4 0 0.004
+Dea1 C4 vclamp D5K
+Rbw C4 0  1
+Cbw C4 0  0.0796u IC=0 
+Gea 0 C4 VALUE { if(V(Vdd)>4.5, (V(C12)-V(POS))*200,0) }
+Ereference POS 0 TABLE { V(vdd) } ( (0,0) (1.25,1.25) )
+Rfbd1 C12 0  10Meg  
+Rq11 C12 FB  1  
+Radd CSRAMP CSRAMP1 200
+Ric10 CSRAMP1 CS  2k 
+Cq10 PULSEDCLKLEB 0  3p IC=0 
+Ric11 CS 0  43k  
+Rq10 PULSEDCLKLEB C6  500  
+Rq12 MAXDUTY C13  500  
+Cq12 MAXDUTY 0  3p IC=0 
+Ric12 C8 0  1  
+Rq9 C7 C9  500  
+Cq9 C7 0  3p IC=0 
+Cramp RAMP 0  7.9p IC=0 
+Gramp1 0 CSRAMP VALUE {IF(OPTION==80,V(RAMP)*50E-6,0)} 
+Gramp2 0 RAMP VALUE { I(VRT)/40 }
+Eramp3 C10 0 MAXDUTY 0 1
+Sramp RAMP 0 C7 0 S5K
+E13 C9 0 VALUE { if( ( V(MAXDUTY)>4.5 & V(PULSEDCLKLEB)<1 ) ,0,5) }
+Sleb CSRAMP1 0 PULSEDCLKLEB 0 Sleb 
+Eosc1 C6 0 VALUE { if(V(C8)<2.5 & V(MAXDUTY)>2.5,5,0) }
+T1 C8 0 C10 0 Z0=1 TD=50n  
+E12 C13 0 VALUE { IF(OPTION==80,if(V(OSC)>-0.92,5,0),if(V(OSC)>0,5,0)) }
+Eosc OSC 0 VALUE { IF(OPTION==80,if(V(vdd)>4.5,sin(1.988E10*i(VRT)*TIME),0),if(V(vdd)>4.5
++,sin(9.936E9*i(VRT)*TIME),0)) }
+
+.MODEL D5K D IS=1E-14 CJO=0 VJ=1
+.MODEL SWdriverH VSWITCH RON=5 ROFF=1MEG VON=1V VOFF=0V
+.MODEL SWdriverL VSWITCH RON=2.6 ROFF=1MEG VON=1V VOFF=0V
+.MODEL S5K VSWITCH RON=1 ROFF=1MEG VON=1V VOFF=0V
+.MODEL Dcomp D IS=1E-20 CJO=0 VJ=1.1
+.MODEL Sleb VSWITCH RON=35 ROFF=1MEG VON=1V VOFF=0V
+.ENDS LM5070
+
+*//////////////////////////////////////////////////////////////////////////////////////////
+* (C) National Semiconductor, Corporation.
+* Models developed and under copyright by:
+* National Semiconductor, Corporation.  
+*//////////////////////////////////////////////////////////////////////////////////////////
+* Legal Notice:  
+* The model may be copied, and distributed without any modifications;
+* however, reselling or licensing the material is illegal.
+* We reserve the right to make changes to the model without prior notice. 
+* Pspice Models are provided "AS IS, WITH NO WARRANTY OF ANY KIND" 
+*///////////////////////////////////////////////////////////////////////////////////////////
+* Model Number 	  : LM5071 PWM Controller Block Model
+* Last Revision Date : April 23, 2010
+* Revision Number    :1.1
+* E-mail feedback 	  : http://wwwd.national.com/feedback/
+* Generated from OrCAD Pspice Ver. 10.5, compatible with Ver. 9.2
+* Modelled by : Eric Lee,  eric.lee@nsc.com
+*///////////////////////////////////////////////////////////////////////////////////////////
+*Assumptions and limitations;
+*1) Model & Example Assumptions;
+*The temperature for this model is 25C
+*ESR and ESL of capacitors are zero
+*Wire DCR and leakage inductances of transformer are zero
+*No parasitic elements of package
+*2)Some functions/characteristics are not included in this model;
+*Thermal shutdown 
+*Oscillator synchronization 
+*3)Some characteristics are included but not optimized;
+*Gate driver capability 
+*Power consumption of controller  
+*VCC regulator current limit 
+*4)This model requires the parameter 'OPTION' to select its device option.
+*////////////////////////////////////////////////////////////////////////////////////////////
+
+.SUBCKT LM5071 VIN FB COMP VCC OUT SS RT CS contEN PARAMS: OPTION=80
+* For LM5071-80, please select OPTION=80. For LM5071-50, please select OPTION=50
+Sdriverl OUT 0 GL1 0 SWdriverL 
+Sdriverh VCC OUT GH1 0 SWdriverH 
+Cq2 GL1 0  3p IC=0 
+Cq3 GH1 0  3p IC=0 
+Rq2 GH1 GH2  500  
+Rq3 GL1 GL2  500  
+E8 GL2 0 VALUE { if(V(uv1)>2.5 & V(uv2)>2.5 & V(err1)>2.5 & V(maxduty)>2.5,0,5) }
+E6 GH2 0 VALUE { if(V(uv1)>2.5 & V(uv2)>2.5 & V(err1)>2.5 & V(maxduty)>2.5,5,0) }
+Rq1 UV2 U1  500  
+Cq1 UV2 0  3p IC=0 
+Rqz1 U3 U2  500  
+Cqz1 U3 0  3p IC=5 
+Rq7 U5 U7  500  
+Cq6 U4 0  3p IC=0 
+Rq6 U4 U6  500  
+Cq7 U5 0  3p IC=0 
+Evccuv1 U6 0 VALUE { if(V(VCC)<6,5,0) }
+Evccuv3 U1 0 VALUE { if(V(U4)>2.5 | V(U3)>2.5,0,5) }
+Evccuv4 U2 0 VALUE { if(V(UV2)>2.5 | V(U5)>2.5,0,5) }
+Evccuv2 U7 0 VALUE { if(V(VCC)>7.5,5,0) }
+Rq5 UV1 U8  500  
+Cq5 0 UV1  3p IC=0 
+Guvlohys 0 contEN VALUE { if(V(uv1)>2.5, 20u, 0) }
+Euvlo U8 0 VALUE { if(V(contEN)>1.25,5,0) }
+Rq ERR1 F3  500  
+Cq ERR1 0  3p IC=0 
+Cqz F2 0  3p IC=5 
+Rqz F2 F4  500  
+Cq4 RESET 0  100p IC=0 
+Rq4 RESET F5  500  
+Ereset F3 0 VALUE { if(V(RESET)>2.5 | V(F2)>2.5,0,5) }
+Ecomp F55 0 VALUE { if(V(csramp)>V(comp2) | V(csramp)>0.5 ,5,0) }
+Eset F4 0 VALUE { if(V(ERR1)>2.5 | V(PULSEDCLKLEB)>2.5,0,5) }
+Dhys F55 F5 D5K
+Rhys RESET 0 5k
+Rvcc2 VCC2 VCC3  1  
+Cvcc2 VCC3 0  3p IC=0.77 
+Rvdd1 VDD1 VDD  1  
+Cvdd1 VDD 0  3p IC=0 
+Dvcc VCC4 VCC D5K 
+Rvcc3 VCC VCC6 1
+Givcc VCC6 0 TABLE { V(VCC) } ( (0,0) (7.5,0.003) )
+Dss SS vclamp D5K
+EMAX vclamp 0 VALUE {V(vdd)}
+VRT RT1 RT 0
+Gss 0 SS VALUE { if(V(uv1)<2.5 | V(uv2)<2.5,0, V(vdd)*2E-6) }
+Evcc2 VCC2 0 VALUE { if(V(uv1)>1, V(vcc1), 0.77) }
+Evcc1 VCC1 0 TABLE { V(VIN) } ( (0, 0.77) (9.5, 0.77) (13.0, 8.57) )
+Evdd VDD1 0 TABLE { V(VCC) } ( (5.3,0.0) (7.5,5) )
+Ert RT1 0 TABLE { V(vdd) } ( (0,0) (2,2) )
+Rssdis SS SSdis 200
+Sssdis SSdis 0 ssdiscont 0 S5K
+Rssdis1 ssdiscont ssdiscont1 200
+Cssdis2 ssdiscont 0 3p IC=0
+Essdis ssdiscont1 0 VALUE { if(V(uv1)<2.5 | V(uv2)<2.5, 5,0) }
+Rvddp VDD 0 5E3
+Ruvlodummy contEN 0 10Meg
+Rvindummy VIN 0 192k
+VVCC VCC5 VCC4 0
+Ggateloss VIN 0 VALUE {I(VVCC)}
+Gldo 0 VCC5 TABLE { V(VCC3,VCC4) } ( (0,0) (0.3,0.02) )
+Cvcc3 VCC5 0  3p IC=0.77 
+Cic1 COMP2 0  4.8p IC=0 
+Ric2 COMP2 0  5k  
+Ric3 COMP2 C1  10k  
+Dic4 C2 C1 Dcomp 
+Dic5 COMP C2 Dcomp 
+Dic7 vclampgnd COMP D5K 
+Dea2 vclampgnd C4 D5K 
+Eclampgnd vclampgnd 0 TABLE { V(vdd) } ( (0,0) (0.77,0.77) ) 
+Ric6 VDD COMP  5k  
+Dic8 COMP C3 D5K 
+Ess C3 0 SS 0 1
+Ggnamp COMP 0 C4 0 0.004
+Dea1 C4 vclamp D5K
+Rbw C4 0  1
+Cbw C4 0  0.0796u IC=0 
+Gea 0 C4 VALUE { if(V(Vdd)>4.5, (V(C12)-V(POS))*200,0) }
+Ereference POS 0 TABLE { V(vdd) } ( (0,0) (1.25,1.25) )
+Rfbd1 C12 0  10Meg  
+Rq11 C12 FB  1  
+Radd CSRAMP CSRAMP1 200
+Ric10 CSRAMP1 CS  2k 
+Cq10 PULSEDCLKLEB 0  3p IC=0 
+Ric11 CS 0  43k  
+Rq10 PULSEDCLKLEB C6  500  
+Rq12 MAXDUTY C13  500  
+Cq12 MAXDUTY 0  3p IC=0 
+Ric12 C8 0  1  
+Rq9 C7 C9  500  
+Cq9 C7 0  3p IC=0 
+Cramp RAMP 0  7.9p IC=0 
+Gramp1 0 CSRAMP VALUE {IF(OPTION==80,V(RAMP)*50E-6,0)} 
+Gramp2 0 RAMP VALUE { I(VRT)/40 }
+Eramp3 C10 0 MAXDUTY 0 1
+Sramp RAMP 0 C7 0 S5K
+E13 C9 0 VALUE { if( ( V(MAXDUTY)>4.5 & V(PULSEDCLKLEB)<1 ) ,0,5) }
+Sleb CSRAMP1 0 PULSEDCLKLEB 0 Sleb 
+Eosc1 C6 0 VALUE { if(V(C8)<2.5 & V(MAXDUTY)>2.5,5,0) }
+T1 C8 0 C10 0 Z0=1 TD=50n  
+E12 C13 0 VALUE { IF(OPTION==80,if(V(OSC)>-0.92,5,0),if(V(OSC)>0,5,0)) }
+Eosc OSC 0 VALUE { IF(OPTION==80,if(V(vdd)>4.5,sin(1.988E10*i(VRT)*TIME),0),if(V(vdd)>4.5
++,sin(9.936E9*i(VRT)*TIME),0)) }
+
+.MODEL D5K D IS=1E-14 CJO=0 VJ=1
+.MODEL SWdriverH VSWITCH RON=5 ROFF=1MEG VON=1V VOFF=0V
+.MODEL SWdriverL VSWITCH RON=2.6 ROFF=1MEG VON=1V VOFF=0V
+.MODEL S5K VSWITCH RON=1 ROFF=1MEG VON=1V VOFF=0V
+.MODEL Dcomp D IS=1E-20 CJO=0 VJ=1.1
+.MODEL Sleb VSWITCH RON=35 ROFF=1MEG VON=1V VOFF=0V
+.ENDS LM5071
+
+*///////////////////////////////////////////////////////////////////////////////////////////
+* (C) National Semiconductor, Corporation.
+* Models developed and under copyright by:
+* National Semiconductor, Corporation.  
+*//////////////////////////////////////////////////////////////////////////////////////////
+* Legal Notice:  
+* The model may be copied, and distributed without any modifications;
+* however, reselling or licensing the material is illegal.
+* We reserve the right to make changes to the model without prior notice. 
+* Pspice Models are provided "AS IS, WITH NO WARRANTY OF ANY KIND" 
+*///////////////////////////////////////////////////////////////////////////////////////////
+* Model Number 	  : LM5072 PWM Controller Block Model
+* Last Revision Date : Apr 11, 2011
+* Revision Number    :1.1
+* E-mail feedback 	  : http://wwwd.national.com/feedback/
+* Generated from OrCAD Pspice Ver. 10.5, compatible with Ver. 9.2
+* Modelled by : Eric Lee,  eric.lee@nsc.com
+*///////////////////////////////////////////////////////////////////////////////////////////
+*Assumptions and limitations;
+*1) Model & Example Assumptions;
+*The temperature for this model is 25C
+*ESR and ESL of capacitors are zero
+*Wire DCR and leakage inductances of transformer are zero
+*No parasitic elements of package
+*2)Some functions/characteristics are not included in this model;
+*Thermal shutdown 
+*Oscillator synchronization 
+*3)Some characteristics are included but not optimized;
+*Gate driver capability 
+*Power consumption of controller  
+*VCC regulator current limit 
+*4)This model requires the parameter 'OPTION' to select its device option.
+*///////////////////////////////////////////////////////////////////////////////////////////
+
+.SUBCKT LM5072 VIN FB COMP VCC OUT SS RT CS contEN PARAMS: OPTION=80
+* For LM5072-80, please select OPTION=80. For LM5072-50, please select OPTION=50
+Sdriverl OUT 0 GL1 0 SWdriverL 
+Sdriverh VCC OUT GH1 0 SWdriverH 
+Cq2 GL1 0  3p IC=0 
+Cq3 GH1 0  3p IC=0 
+Rq2 GH1 GH2  500  
+Rq3 GL1 GL2  500  
+E8 GL2 0 VALUE { if(V(uv1)>2.5 & V(uv2)>2.5 & V(err1)>2.5 & V(maxduty)>2.5,0,5) }
+E6 GH2 0 VALUE { if(V(uv1)>2.5 & V(uv2)>2.5 & V(err1)>2.5 & V(maxduty)>2.5,5,0) }
+Rq1 UV2 U1  500  
+Cq1 UV2 0  3p IC=0 
+Rqz1 U3 U2  500  
+Cqz1 U3 0  3p IC=5 
+Rq7 U5 U7  500  
+Cq6 U4 0  3p IC=0 
+Rq6 U4 U6  500  
+Cq7 U5 0  3p IC=0 
+Evccuv1 U6 0 VALUE { if(V(VCC)<6,5,0) }
+Evccuv3 U1 0 VALUE { if(V(U4)>2.5 | V(U3)>2.5,0,5) }
+Evccuv4 U2 0 VALUE { if(V(UV2)>2.5 | V(U5)>2.5,0,5) }
+Evccuv2 U7 0 VALUE { if(V(VCC)>7.5,5,0) }
+Rq5 UV1 U8  500  
+Cq5 0 UV1  3p IC=0 
+Guvlohys 0 contEN VALUE { if(V(uv1)>2.5, 20u, 0) }
+Euvlo U8 0 VALUE { if(V(contEN)>1.25,5,0) }
+Rq ERR1 F3  500  
+Cq ERR1 0  3p IC=0 
+Cqz F2 0  3p IC=5 
+Rqz F2 F4  500  
+Cq4 RESET 0  100p IC=0 
+Rq4 RESET F5  500  
+Ereset F3 0 VALUE { if(V(RESET)>2.5 | V(F2)>2.5,0,5) }
+Ecomp F55 0 VALUE { if(V(csramp)>V(comp2) | V(csramp)>0.5 ,5,0) }
+Eset F4 0 VALUE { if(V(ERR1)>2.5 | V(PULSEDCLKLEB)>2.5,0,5) }
+Dhys F55 F5 D5K
+Rhys RESET 0 5k
+Rvcc2 VCC2 VCC3  1  
+Cvcc2 VCC3 0  3p IC=0.77 
+Rvdd1 VDD1 VDD  1  
+Cvdd1 VDD 0  3p IC=0 
+Dvcc VCC4 VCC D5K 
+Rvcc3 VCC VCC6 1
+Givcc VCC6 0 TABLE { V(VCC) } ( (0,0) (7.5,0.003) )
+Dss SS vclamp D5K
+EMAX vclamp 0 VALUE {V(vdd)}
+VRT RT1 RT 0
+Gss 0 SS VALUE { if(V(uv1)<2.5 | V(uv2)<2.5,0, V(vdd)*2E-6) }
+Evcc2 VCC2 0 VALUE { if(V(uv1)>1, V(vcc1), 0.77) }
+Evcc1 VCC1 0 TABLE { V(VIN) } ( (0, 0.77) (9.0, 0.77) (14.5, 8.57) )
+Evdd VDD1 0 TABLE { V(VCC) } ( (5.3,0.0) (7.5,5) )
+Ert RT1 0 TABLE { V(vdd) } ( (0,0) (2,2) )
+Rssdis SS SSdis 200
+Sssdis SSdis 0 ssdiscont 0 S5K
+Rssdis1 ssdiscont ssdiscont1 200
+Cssdis2 ssdiscont 0 3p IC=0
+Essdis ssdiscont1 0 VALUE { if(V(uv1)<2.5 | V(uv2)<2.5, 5,0) }
+Rvddp VDD 0 5E3
+Ruvlodummy contEN 0 10Meg
+Rvindummy VIN 0 192k
+VVCC VCC5 VCC4 0
+Ggateloss VIN 0 VALUE {I(VVCC)}
+Gldo 0 VCC5 TABLE { V(VCC3,VCC4) } ( (0,0) (0.3,0.02) )
+Cvcc3 VCC5 0  3p IC=0.77 
+Cic1 COMP2 0  4.8p IC=0 
+Ric2 COMP2 0  5k  
+Ric3 COMP2 C1  10k  
+Dic4 C2 C1 Dcomp 
+Dic5 COMP C2 Dcomp 
+Dic7 vclampgnd COMP D5K 
+Dea2 vclampgnd C4 D5K 
+Eclampgnd vclampgnd 0 TABLE { V(vdd) } ( (0,0) (0.77,0.77) ) 
+Ric6 VDD COMP  5k  
+Dic8 COMP C3 D5K 
+Ess C3 0 SS 0 1
+Ggnamp COMP 0 C4 0 0.004
+Dea1 C4 vclamp D5K
+Rbw C4 0  1
+Cbw C4 0  0.0796u IC=0 
+Gea 0 C4 VALUE { if(V(Vdd)>4.5, (V(C12)-V(POS))*200,0) }
+Ereference POS 0 TABLE { V(vdd) } ( (0,0) (1.25,1.25) )
+Rfbd1 C12 0  10Meg  
+Rq11 C12 FB  1  
+Radd CSRAMP CSRAMP1 200
+Ric10 CSRAMP1 CS  2k 
+Cq10 PULSEDCLKLEB 0  3p IC=0 
+Ric11 CS 0  43k  
+Rq10 PULSEDCLKLEB C6  500  
+Rq12 MAXDUTY C13  500  
+Cq12 MAXDUTY 0  3p IC=0 
+Ric12 C8 0  1  
+Rq9 C7 C9  500  
+Cq9 C7 0  3p IC=0 
+Cramp RAMP 0  7.9p IC=0 
+Gramp1 0 CSRAMP VALUE {IF(OPTION==80,V(RAMP)*50E-6,0)} 
+Gramp2 0 RAMP VALUE { I(VRT)/40 }
+Eramp3 C10 0 MAXDUTY 0 1
+Sramp RAMP 0 C7 0 S5K
+E13 C9 0 VALUE { if( ( V(MAXDUTY)>4.5 & V(PULSEDCLKLEB)<1 ) ,0,5) }
+Sleb CSRAMP1 0 PULSEDCLKLEB 0 Sleb 
+Eosc1 C6 0 VALUE { if(V(C8)<2.5 & V(MAXDUTY)>2.5,5,0) }
+T1 C8 0 C10 0 Z0=1 TD=50n  
+E12 C13 0 VALUE { IF(OPTION==80,if(V(OSC)>-0.92,5,0),if(V(OSC)>0,5,0)) }
+Eosc OSC 0 VALUE { IF(OPTION==80,if(V(vdd)>4.5,sin(1.988E10*i(VRT)*TIME),0),if(V(vdd)>4.5
++,sin(9.936E9*i(VRT)*TIME),0)) }
+
+.MODEL D5K D IS=1E-14 CJO=0 VJ=1
+.MODEL SWdriverH VSWITCH RON=5 ROFF=1MEG VON=1V VOFF=0V
+.MODEL SWdriverL VSWITCH RON=2.6 ROFF=1MEG VON=1V VOFF=0V
+.MODEL S5K VSWITCH RON=1 ROFF=1MEG VON=1V VOFF=0V
+.MODEL Dcomp D IS=1E-20 CJO=0 VJ=1.1
+.MODEL Sleb VSWITCH RON=35 ROFF=1MEG VON=1V VOFF=0V
+.ENDS LM5072
+
+*/////////////////////////////////////////////////////////////////////////////////////////////////////
+* (C) National Semiconductor, Corporation.
+* Models developed and under copyright by:
+* National Semiconductor, Corporation.  
+*/////////////////////////////////////////////////////////////////////////////////////////////////////
+* Legal Notice:  
+* The model may be copied, and distributed without any modifications;
+* however, reselling or licensing the material is illegal.
+* We reserve the right to make changes to the model without prior notice. 
+* Pspice Models are provided "AS IS, WITH NO WARRANTY OF ANY KIND" 
+*/////////////////////////////////////////////////////////////////////////////////////////////////////
+* Model Number 	  : LM5025 Active Clamp Voltage Mode PWM Controller
+* Last Revision Date : Apr 17, 2009
+* Revision Number    :1.1
+* E-mail feedback 	  : http://wwwd.national.com/feedback/
+* Generated from OrCAD Pspice Ver. 10.5, compatible with Ver. 9.2
+* Modelled by : Eric Lee,  eric.lee@nsc.com
+*/////////////////////////////////////////////////////////////////////////////////////////////////////
+*<Introduction >
+*This document contains the SPICE model, application example for National Semiconductor's LM5025 
+*Active Clamp Voltage Mode PWM Controller. 
+*The LM5025 PWM controller contains all of the features necessary to implement power converters 
+*utilizing the Active Clamp / Reset technique.
+*<LM5025 Model>
+*The LM5025 PSPICE Model contains all of the basic features needed to implement single ended primary 
+*power converter topologies including;
+*- Internal Start-up Bias Regulator 
+*- Programmable Line UVLO with Adjustable Hysteresis
+*- Voltage Mode Control with Feed-Forward
+*- Adjustable Dual Mode Over Crrent Protection 
+*- Programmable Overlap or Deadtime 
+*- Volt*Second Clamp 
+*- Programmable Soft Start 
+*- Current Sense with 50nSec Leading Edge Blanking Time for Current Limit
+*- Single Resistor Programmable Switching Frequency
+*- Oscillator UP/DOWN Sync Capability 
+*- 5V Reference Output
+*<Assumptions and limitations>
+*Model & Example Assumptions;
+*- The temperature for this model is 25C
+*- ESR and ESL of capacitors are zero.
+*- Wire DCR and leakage inductances of transformer are zero.
+*- No parasitic elements of package. 
+*Some functions/characteristics of LM5025 are not included in this model;
+*- Thermal shutdown 
+*Some characteristics of LM5025 are included but not optimized
+*- Gate driver capability 
+*- Power consumption of controller  
+*- Synchronous pulse reqirements
+*Also AGND&PGND pin of LM5025 is internally tied to GND (node number 0)
+*<Note>
+*-To run the simulation a simulation profile should be added first--> click 'New Simulation Profile' 
+*-The simulation takes around 2~4min per 1mSec simulation on a 1.7GHz machine.
+*-User can select LM5025/25A/25B/25C by selecting 'IC' of parameter input. 
+*-For LM5025 device, set IC=0
+*-For LM5025A device, set IC=1
+*-For LM5025B device, set IC=2
+*-For LM5025C device, set IC=3
+*-SYNC input can be tied to GND through a resistor as it is not used. 
+*-Vsupply should have a slope lower than 150V/Sec 
+*-Pin name of pin#5 is 'TIME' in the datasheet
+*///////////////////////////////////////////////////////////////////////////////////////////////////
+
+.SUBCKT LM5025 VIN RAMP CS1 CS2 TIMESET REF VCC OUTA OUTB SS COMP RT SYNC UVLO PARAMS: IC=0
+Eleb1 F8 0 F9 0 1
+Essbuf SS2 0 VALUE { V(SS) }
+Rsu6 CS22 CS23 500  
+Cq3 F2 0 3E-12 IC=5 
+Ru6 UU4 UU5 500  
+Rq11 F11 F12 500  
+Cu2 UV6 0 3E-12 IC=0 
+Sdiode4 SSINT 5VT SSINT 5VT SWCLAMP
+Sclamp1 CLK_DUTY 0 0 CLK_DUTY SWCLAMP
+Ctt QD 0 1E-9 IC=0 
+Sdiode1 SYNC_COMP SYNC_DOMINENT SYNC_COMP SYNC_DOMINENT SWCLAMP
+Rq8 SET1 ONEND1 500  
+Rcs2f CS2 CS2INT { IF(IC==0,1,2E3) }  
+Csu7 CS26 0  3E-12 IC=0 
+Rvcc6 0 REF 5E3  
+Rob GOB GOB2 500  
+Csd2 SDIS2 0 3E-12 IC=0 
+Rsd2 SDIS2 SDIS3 500  
+Csu5 ZCS2TRIG 0 3E-12 IC=5 
+Guvlohys 0 UVLO VALUE { if(V(VINUV)>2.5, 20u, 0) }
+Cq1 CLK 0 3E-12 IC=0 
+Evccuv5 UU3 0 VALUE { if(V(REF)<3.5,5,0) }
+Eoffend OFFEND 0 VALUE { if(V(CLK_DUTY)>1 ,5,0) }
+Edrv RESET3 0 VALUE { IF(IC==0,if(V(rampint)>3.25 |
++  V(rampint)>V(COMP)| v(cs1int)>0.25 |
++  V(Zcs2trig)<2.5,5,0),IF(IC==1,if(V(rampint)>3.25 | V(rampint)>V(COMP)|
++  v(cs1int)>0.5 | V(Zcs2trig)<2.5,5,0),IF(IC==2,if(V(rampint)>3.25 |
++  V(rampint)>V(COMP)| v(cs1int)>0.25 | V(Zcs2trig)<2.5,5,0),if(V(rampint)>3.225
++  | V(rampint)>V(COMP)| v(cs1int)>0.5 | V(Zcs2trig)<2.5,5,0)))) }
+Rr2 ZMAXONTRIG R5 500  
+Ric1 SYNC_INT SYNC 1000  
+Evccuv2 UV7 0 VALUE { if(V(VCCINT)>7.48,5,0) }
+Rdum5 TIMESET 0 10E6  
+Ecs21 CS21 0 VALUE { if(V(CS22)>2.5 | V(ZCS2TRIG)>2.5,0,5) }
+Rq10 RESET2 RESET3 500  
+Rvdd2 REF2 REF3 1 
+Evcc3 VCC1 0 TABLE { V(VIN) } ( (0,0)(4.9,0)(5.0,2.2)(10.5,7.6) )
+Evcc4 VCC2 0 VALUE { IF(IC==0,if(V(VINUV)>2.5, V(VCC1), 0),V(VCC1)) }
+Sssdis1 SSDIS2 0 5VT ZSSDISTRIG SW5K
+Cu3 VCCUV 0 3E-12 IC=0 
+Cu4 UV4 0  3E-12 IC=5 
+Evccuv3 UV1 0 VALUE { if(V(UV2)>2.5 | V(UV4)>2.5,0,5) }
+Evccuv4 UV5 0 VALUE { if(V(VCCUV)>2.5 | V(UV6)>2.5,0,5) }
+Rq5 SYNC_COMP F4 500  
+Ccs2f CS2INT 0 3E-12 IC=0 
+Cof OUTOFF 0 3E-12 IC=0 
+Rsu4 SC4 SC5 500  
+Rq4 SET ONEND 500  
+Ggateloss VIN 0 VALUE { I(VVCC) }
+Rcs2dis1 CS2 CSDIS1  40  
+Eob GOB2 0 VALUE { If(v(outoff)<2.5 & (v(H_Iss)>2.5 | (v(H_Iss)<2.5 & v(Zssdistrig)>2.5)),
++  If(I(VTIME)>0, V(oa), 5-V(oa)),0) }
+Csd3 ZSSDISTRIG 0 3E-12 IC=5 
+Ecs24 CS27 0 VALUE {
++  IF(IC==0,if(V(CS2INT)>0.25,5,0),if(V(CS2INT)>0.5,5,0)) }
+Eoffend1 OFFEND1 0 VALUE { if(V(SYNC_INT)<1,5,0) }
+Rvcc7 0 VCC4 5E3  
+Cvcc6 VCC4 0 3E-12 IC=0 
+Rvcc4 VCC2 VCC3 1  
+Essdis1 SDIS11 0 VALUE { if(V(ZCS2TRIG)<2.5 | V(OUTOFF)>2.5, 5,0) }
+Cu7 UU2 0 3E-12 IC=0 
+Ru2 UV6 UV7 500  
+Rdum1 0 SYNC_INT 1E6  
+Ru7 UU2 UU3 500  
+Er3 R3 0 VALUE { IF(IC==3,if(V(RAMPINT)>3.225,5,0),if(V(RAMPINT)>3.25,5,0)) }
+Cr3 R2 0  3E-12 IC=0 
+Csync SYNC_DOMINENT 0 70E-12 IC=0 
+VRT RTN1 RT 0
+Ecs23 CS25 0 VALUE { if(V(CS24)>2.5 | V(CS26)>2.5,0,5) }
+V5VT 5VT 0 5
+Rvdd3 0 REF3 5E3  
+Gramp2 0 CLK_DUTY VALUE { IF(IC==0,if ( v(clk)>2.5 |
++  v(sync_dominent)>1, 0,-3.1*I(VRT)*5/4/2),IF(IC==1,if ( v(clk)>2.5 |
++  v(sync_dominent)>1, 0,-3.1*I(VRT)*5/4/2),IF(IC==2,if ( v(clk)>2.5 |
++  v(sync_dominent)>1, 0,-2.65*I(VRT)*4/3/2),if ( v(clk)>2.5 |
++  v(sync_dominent)>1, 0,-3.2*I(VRT)*10/9/2)))) }
+Rq7 F5 F6 500  
+Eset F3 0 VALUE { if(V(CLK)>2.5 | V(SET)>2.5,0,5) }
+Rrampdis RAMP RAMPDIS2 40  
+Rrampdis2 0 RAMPDIS3 1E3  
+Ruvlodum 0 UVLO 10E6  
+Eset2 F12 0 VALUE { if(V(Q)>2.5 | V(CLK)>2.5,0,5) }
+Rssdis3 SDIS10 SDIS11 500  
+Cvcc7 VCC3 0 3E-12 IC=0 
+Coa GOA 0  3E-12 IC=0 
+VVCC VCC4 VCC5 0
+Rpu REF COMP  { IF(IC==2,1E6,5E3) }  
+Rdum2 0 SYNC 250E3  
+Eonend1 ONEND1 0 VALUE { if(V(SYNC_INT)>2,5,0) }
+Esu3 SC3 0 VALUE { if(V(ZCS2TRIG)<2.5,5,0) }
+Rsu7 CS26 CS27  500  
+Cu8 UU6 0 3E-12 IC=0 
+Cq2 RESET 0 3E-12 IC=0 
+Csu2 SC2 0 3E-12 IC=0 
+Cu6 UU4 0 3E-12 IC=5 
+Esd1 SDIS1 0 VALUE { if(V(SDIS2)>2.5 | V(ZSSDISTRIG)>2.5,0,5) }
+Scs2dis CSDIS1 0 CSDIS2 0 SW5K
+Scs2dis2 CSDIS4 0 CSDIS2 0 SW5K
+Gdt 0 QD VALUE { if(I(VTIME)>0,if(V(Q1)>2.5
++  ,abs(I(VTIME))/(2.8E-3-1.2*abs(I(VTIME))/2.5),-1*abs(I(VTIME))/(2.8E-3-1.2*abs(I(VTIME))/2.5)),if(V(Q1)>2.5
++  ,abs(I(VTIME))/(2.9E-3+20*abs(I(VTIME))/2.5),-1*abs(I(VTIME))/(2.9E-3+20*abs(I(VTIME))/2.5))) }
+Rsu8 CS24 CS21 500  
+Rr3 R2 R3 500  
+G2 0 REF TABLE { V(REF3, REF) } ( (0,0)(0.3,0.02) )
+Cr4 R6 0 3E-12 IC=0 
+Ert1 RTN1 0 TABLE { V(REF,0) } ( (0,0) (2,2) )
+Ru3 VCCUV UV1 500  
+Cq7 F5 0 3E-12 IC=5 
+Cssdis3 SDIS10 0 3E-12 IC=0 
+Rsu2 SC2 SC3  500  
+VTIME RTIMEN1 TIMESET 0
+Rpd COMP COMPSS  6.74E3  
+Tleb F7 0 F8 0 Z0=1 TD=50E-9  
+Roa GOA GOA2  500  
+Ereset2 F10 0 VALUE { if(V(RESET2)>2.5 | V(F11)>2.5,0,5) }
+Evccuv6 UU7 0 VALUE { if(V(REF)>4,5,0) }
+Csu3 SC6 0 3E-12 IC=0 
+Rdum3 RT 0 10E6  
+Cvdd2 REF3 0 3E-12 IC=0 
+Evcc5 REF2 0 VALUE { IF(IC==0,if(V(VCCUV)>2.5, V(REF1), 0),V(REF1)) }
+Cr2 ZMAXONTRIG 0 3E-12 IC=5 
+Cq10 RESET2 0 3E-12 IC=0 
+Esd2 SDIS9 0 VALUE { if(V(SDIS7)>2.5 | V(SDIS10)>2.5,0,5) }
+Cq5 SYNC_COMP 0 3E-12 IC=0 
+Evccuv7 UU1 0 VALUE { if(V(UU2)>2.5 | V(UU4)>2.5,0,5) }
+Rvdd4 0 VCC3 1.8E3  
+V1V RAMPINT RAMP 1
+Eor OA 0 VALUE { if(V(QD)>2.5 | V(Q1)>2.5,5,0) }
+Csu8 CS24 0 3E-12 IC=0 
+Csu4 SC4 0 3E-12 IC=5 
+Ru8 UU6 UU7 500  
+Er1 R1 0 VALUE { if(V(R2)>2.5 | V(ZMAXONTRIG)>2.5,0,5) }
+Esd3 SDIS3 0 VALUE { if(V(SSINT)<0.1,5,0) }
+Eoa GOA2 0 VALUE { If(v(outoff)<2.5 & (v(H_Iss)>2.5 | (v(H_Iss)<2.5&v(Zssdistrig)>2.5)),V(ob),0) }
+Rssdis5 SSINT SS 1E3  
+Ert2 RTIMEN1 0 TABLE { V(REF,0) } ( (0,0) (2.5,2.5) )
+Er4 R7 0 VALUE { if(V(CLK)>2.5,5,0) }
+Rq2 RESET OFFEND 500  
+Ecsdis1 CSDIS3 0 VALUE { IF(IC==0,if(V(outoff)>2.5| V(LEB)>2.5 | V(goa)<2.5, 5,0),if(V(outoff)>2.5, 5,0)) }
+Esu1 SC1 0 VALUE { if(V(SC2)>2.5 | V(SC4)>2.5,0,5) }
+Rcs1dis1 CS1 CSDIS4 40  
+Cssdis4 SSINT 0 3E-12 IC=0 
+Euvlo U1 0 VALUE { if(V(UVLO)>2.5,5,0) }
+Rvindummy1 VIN 0 137E3  
+Rsd1 SDIS7 SDIS1 500  
+Rq9 Q F10 500  
+Evccuv8 UU5 0 VALUE { if(V(REFUV)>2.5 | V(UU6)>2.5,0,5) }
+Eoutoff OF1 0 VALUE { if(V(vinuv)<2.5 | V(vccuv)<2.5 | V(refuv)<2.5,5,0)}
+Rvccint2 VCCINT VCC 10E-3  
+Ereset F1 0 VALUE { if(V(RESET)>2.5 | V(F2)>2.5,0,5) }
+Esu4 SC7 0 VALUE { if(V(goa2)>2.5 | V(OUTOFF)>2.5,5,0) }
+Gramp1 0 CLK_DUTY VALUE { if(V(set1)<4 & V(onend1)>1,-0.4,0) }
+Eset1 F6 0 VALUE { if(V(SYNC_COMP)>2.5 | V(SET1)>2.5,0,5) }
+Rvcc5 VCC6 VCC 1  
+Er2 R5 0 VALUE { if(V(R4)>2.5 | V(R6)>2.5,0,5) }
+Ccs1f CS1INT 0 3E-12 IC=0 
+Rr4 R6 R7 500  
+Sdiode3 VCC5 VCC7 VCC5 VCC7 SWCLAMP
+Gss1 0 SSINT VALUE { IF(IC==3, if(V(H_ISS) > 2.5, 90E-6, 1E-6 ), if(V(H_ISS)>2.5, 22E-6, 1E-6 ) ) }
+Cq6 RESET1 0 3E-12 IC=0 
+Ru5 VINUV U1 500  
+Rcs2dis CSDIS2 CSDIS3 500  
+Rleb2 F7 0 1  
+Esu2 SC5 0 VALUE { if(V(H_ISS)>2.5 | V(SC6)>2.5,0,5) }
+Ru9 REFUV UU1 500  
+Sdiode2 COMP SS2 COMP SS2 SWCLAMP
+Era1 RAMPDIS4 0 VALUE { if(V(CLK)>2.5 | V(ZMAXONTRIG)>2.5 |
++  V(Zssdistrig)<2.5,5,0) }
+Eand OB 0 VALUE { if(V(QD)>2.5 & V(Q1)>2.5,5,0) }
+Rsu3 SC6 SC7 500  
+Csd1 SDIS7 0 3E-12 IC=0 
+Crampdis1 RAMPDIS3 0 3E-12 IC=0 
+Rvccint1 VCC7 VCCINT  100E-3  
+Ru4 UV4 UV5 500  
+Rq6 RESET1 OFFEND1 500  
+Cq9 Q 0 3E-12 IC=0 
+Cq11 F11 0 3E-12 IC=5 
+Cramp CLK_DUTY 0  1n IC=0 
+Rr1 R4 R1 500
+Rleb F9 goa2 500 
+Sdriverha VCC OUTA GOA 0 SWdriverHa
+Sdriverhb VCC OUTB GOB 0 SWdriverHb
+Cu5 VINUV 0 3E-12 IC=0 
+Cvcc8 REF 0 3E-12 IC=0 
+Givcc1 VCC6 0 TABLE { V(VCC) } ( (0,0) (7.5,0.0042)  )
+G4 0 VCC4 TABLE { IF(IC==3,V(VCC3,VCC4),0) } ( (0,0)(0.3,0.025) )
+G1 0 VCC4 TABLE { V(VCC3, VCC4) } ( (0,0)(0.3,0.025) )
+Stt2 QD 5VT QD 5VT SWCLAMP
+Ccs2dis CSDIS2 0 3E-12 IC=0 
+Rsu1 H_ISS SC1 500  
+Rof OF1 OUTOFF 500  
+Cssdis5 VCC6 0 3E-12 IC=0 
+Cu9 REFUV 0 3E-12 IC=0 
+Eonend ONEND 0 VALUE { if ( ( V(CLK_DUTY) < 0) | V(SYNC_COMP)>2.5 ,5,0) }
+Rsu5 ZCS2TRIG CS25 500  
+Cssdis6 SSDIS1 0 3E-12 IC=0 
+Rq1 CLK F1 500  
+Cr1 R4 0 3E-12 IC=0 
+Srampdis RAMPDIS2 0 RAMPDIS3 0 SW5K
+Cleb F9 0 3E-12 IC=0 
+Evccuv1 UV3 0 VALUE { if(V(VCCINT)<6.2,5,0) }
+Ea Q1 0 VALUE { if(V(Q)>2.5 & V(CLK)<2.5,5,0) }
+Cob GOB 0 3E-12 IC=0 
+Rsd3 ZSSDISTRIG SDIS9 500  
+Rrampdis1 RAMPDIS3 RAMPDIS4 500  
+Stt QD 0 0 QD SWCLAMP
+Sdriverlb OUTB 0 GOB 0 SWdriverLb
+Eleb LEB 0 VALUE { if(V(F7)<2.5 & V(F9)>2.5,5,0) }
+Cq4 SET 0 3E-12 IC=0 
+Sdriverla OUTA 0 GOA 0 SWdriverLa
+Cu1 UV2 0 3E-12 IC=0 
+Cq8 SET1 0 3E-12 IC=0 
+Cvccint1 0 VCCINT 10E-12 IC=0 
+Rq3 F2 F3 500  
+G3 COMPSS 0 TABLE { V(REF, 0) } ( (0,0)(5,10E-6) )
+Ecs22 CS23 0 VALUE { if(V(ZSSDISTRIG)<2.5 & V(LEB)<2.5,5,0) }
+Csu1 H_ISS 0 3E-12 IC=0 
+Gramp3 0 CLK_DUTY VALUE { IF(IC==0 , if(v(clk)>2.5,3.1*I(VRT)*5 ,
++  -3.1*I(VRT)*5/4/2) , IF(IC==1 , if(v(clk)>2.5 , 3.1*I(VRT)*5 ,
++  -3.1*I(VRT)*5/4/2) , IF(IC==2 , if(v(clk)>2.5 , 2.65*I(VRT)*4 ,
++  -2.65*I(VRT)*4/3/2) , if(v(clk)>2.5 , 3.2*I(VRT)*10 ,
++  -3.2*I(VRT)*10/9/2)))) }
+Csu6 CS22 0 3E-12 IC=0 
+Rssdis2 SS SSDIS1 {IF(IC==3,40,500)}   
+Rssdis4 SSDIS1 SSDIS2 {IF(IC==3,40,500)}  
+Evdd1 REF1 0 TABLE { V(VCC) } ( (0,0) (6.2,5) )
+Ru1 UV2 UV3 500  
+Ereset1 F4 0 VALUE { if(V(RESET1)>2.5 | V(F5)>2.5,0,5) }
+Rcs1f CS1 CS1INT  {IF(IC==0,1,2E3)}  
+Rres1 RES1 RES2 500  
+Rres2 RES3 RES4 500  
+Rres3 ZRESTART RES5 500  
+Rres4 RES6 RES7 500  
+Cres1 RES1 0 3E-12 IC=0 
+Cres2 RES3 0 3E-12 IC=0 
+Cres3 ZRESTART 0 3E-12 IC=5 
+Cres4 RES6 0 3E-12 IC=0 
+Esu5 RES4 0 VALUE { if(V(COMP)<0.05,5,0) }
+Esu6 RES7 0 VALUE { if(V(CLK)>2.5,5,0) }
+Esu8 RES5 0 VALUE { if(V(RES1)>2.5 | V(RES6)>2.5,0,5) }
+Esu7 RES2 0 VALUE { if(V(RES3)>2.5 | V(ZRESTART)>2.5,0,5) }
+
+RSdiode4 SSINT 5VT 1000E6
+RSdriverla GOA 0 1000E6
+RSdriverlb GOB 0 1000E6
+RStt 0 QD 1000E6
+RSrampdis RAMPDIS3 0 1000E6
+RStt2 QD 5VT 1000E6
+RSdriverha GOA 0 1000E6
+RSdiode2 COMP SS2 1000E6
+RSdiode3 VCC5 VCC7 1000E6
+RScs2dis CSDIS2 0 1000E6
+Rcs2dis2 CSDIS2 0 1000E6
+RSclamp1 0 CLK_DUTY 1000E6
+RSdiode1 SYNC_COMP SYNC_DOMINENT 1000E6
+RSssdis1 5VT ZSSDISTRIG 1000E6
+RSdriverhb GOB 0 1000E6
+
+Ceric1 vcc5 0 3E-12 IC=0
+Ceric2 vcc7 0 3E-12 IC=0
+
+
+.MODEL SW5K VSWITCH RON=1 ROFF=1MEG VON=1V VOFF=0V
+.MODEL SWCLAMP VSWITCH (RON=0.001 ROFF=10E6 VON=0.01 VOFF=0) 
+.MODEL SWdriverHa VSWITCH RON=3 ROFF=1E6 VON=2.6V VOFF=2.4V
+.MODEL SWdriverLa VSWITCH RON=1E6 ROFF=3 VON=2.6V VOFF=2.4V
+.MODEL SWdriverHb VSWITCH RON=6 ROFF=1E6 VON=2.6V VOFF=2.4V
+.MODEL SWdriverLb VSWITCH RON=1E6 ROFF=6 VON=2.6V VOFF=2.4V
+.ENDS LM5025
+
+*//////////////////////////////////////////////////////////////////////////////////////////////////
+* (C) National Semiconductor, Corporation.
+* Models developed and under copyright by:
+* National Semiconductor, Corporation.  
+*//////////////////////////////////////////////////////////////////////////////////////////////////
+* Legal Notice:  
+* The model may be copied, and distributed without any modifications;
+* however, reselling or licensing the material is illegal.
+* We reserve the right to make changes to the model without prior notice. 
+* Pspice Models are provided "AS IS, WITH NO WARRANTY OF ANY KIND" 
+*//////////////////////////////////////////////////////////////////////////////////////////////////
+* Model Number 	  : LM5027 Voltage Mode Active Clamp Controller
+* Last Revision Date : Jan 05, 2010
+* Revision Number    :1.0
+* E-mail feedback 	  : http://wwwd.national.com/feedback/
+* Generated from Pspice Plugin Ver. 16.2
+* Modelled by : Eric Lee,  eric.lee@nsc.com
+*//////////////////////////////////////////////////////////////////////////////////////////////////
+*<Introduction >
+* This document contains the SPICE model, application example for National Semiconductor's LM5027 
+*Voltage Mode Active Clamp Controller
+* The LM5027 PWM controller contains all of the features necessary to implement power converters 
+*utilizing the Active Clamp Reset technique
+* With the active clamp technique, higher efficiencies and greater power densities can be realized 
+*compared to conventional catch winding or RDC clamp reset techniques
+*<LM5027 Model>
+*The LM5027 PSPICE Model contains all of the basic features including;
+*- Voltage Mode Control
+*- Line Feedforward PWM Ramp
+*- Internal Start-up Bias Regulator 
+*- Programmable line UVLO with adjustable hysteresis
+*- Dual mode over-current protection including cycle-by-clcle and hiccup mode current limit 
+*- Programmable volt-second limiter 
+*- Programmable soft-start 
+*- Programmable synchronous rectifier soft start and soft stop 
+*- Programmable Switching Frequency
+*- 5V reference
+*- Programmable time delays between outputs
+*<Assumptions and limitations>
+*Model & Example Assumptions;
+*- The temperature for this model is 25C
+*- No parasitic elements of components are considered
+*Some functions/characteristics of LM5027 are not included in this model;
+*- Thermal shutdown 
+*- Oscillator Synchronization
+*Some characteristics of LM5027 are included but not optimized
+*- Gate driver capability 
+*- Power consumption of controller  
+*- SS & SSSR full discharging time
+*Also AGND&PGND pin of LM5027 are internally tied to GND (node number 0)
+*<Note>
+*-To run the simulation a simulation profile should be added first--> click 'New Simulation Profile' 
+*-The simulation takes around 1~3min actual time per 1mSec simulation on a 1.7GHz machine.
+*-Vsupply should have a slope lower than 150V/Sec 
+*///////////////////////////////////////////////////////////////////////////////////////////////////
+
+.SUBCKT LM5027 VIN RAMP TIME3 TIME2 TIME1 RT COMP REF OUTB OUTA OUTSR VCC CS SS RES SSSR OTP UVLO
+Sdriverhb VCC OUTB OB1 0 SWdriverHb
+Sssr4 SSR5 0 SHORTSSSR 0 S5K
+Sres2 RES3 RES2 RES3 RES2 SWCLAMP
+Sss2 SS1 0 SHORTSS_SSRESET 0 S5K
+Sret5 LIM22 0 RET2 0 Sleb
+Suvi2 SD_VREFOFF_VCCOFF 0 UV2 0 Sleb
+Sret7 0 RES 0 RES SWCLAMP
+Sret12 RET7 DOWN_PULSE RET7 DOWN_PULSE SWCLAMP
+Suvc1 V5V VCCUV UVC1 0 Sleb
+Sdly2 0 TIMERAMPA 0 TIMERAMPA SWCLAMP
+Sres3 RES5 HICCUPCOMPLETE RES5 HICCUPCOMPLETE SWCLAMP
+Sret1 V5V LIM22LATCH LATS 0 Sres
+Spwm1 PWM1 0 PWM2 0 S5K
+Svc1 VC3 VCC VC3 VCC SWCLAMP
+Sret6 LATR 0 HICCUPCOMPLETE 0 S5K
+Stsw1 TOFFRAMP 0 TSW1 0 SOSC
+Sssr1 SSSRRAMP 0 SSR1 0 S5K
+Sret9 V5V UP UP_PULSE 0 Sleb
+Sdriverha VCC OUTA OA1 0 SWdriverHa
+Sdly1 TIMERAMPA V5V TIMERAMPA V5V SWCLAMP
+Sret2 LIM22LATCH 0 LATR 0 Sres
+Suvc2 VCCUV 0 UVC2 0 Sleb
+Sres4 8COUNTERC 0 HICCUPCOMPLETE 0 S5k
+Sdly4 0 TIMERAMPB 0 TIMERAMPB SWCLAMP
+Sret11 RET6 UP_PULSE RET6 UP_PULSE  SWCLAMP
+Sss1 SS V5V SS V5V SWCLAMP
+Stsw3 V5V TSW7 TSW5 0 Sleb
+Suvr1 V5V VREFUV UV10 0 Sleb
+Sres5 8COUNTERREF 0 HICCUPCOMPLETE 0 S5k
+Sret10 UP 0 DOWN_PULSE 0 Sleb
+Spwm3 V5V PWM14 PWM10 0 S10R
+Stsw2 TONRAMP 0 TSW2 0 SOSC
+Suvi1 V5V SD_VREFOFF_VCCOFF UV1 0  Sleb
+Slg1 LG2 OUTPUTDIS_SSFAULT LG2 OUTPUTDIS_SSFAULT SWCLAMP
+Sdriverla OUTA 0 OA1 0 SWdriverLa
+Spwm2 PWM4 0 V5V PWM5 S5k
+Sssr3 0 SSSR 0 SSSR SWCLAMP
+Sret8 RES 0 HICCUPCOMPLETE 0 S5k
+Suvr2 VREFUV 0 UV11 0 Sleb
+Spwm4 PWM14 0 PWM13 0 S20R
+Sdriverlb1 OUTSR 0 OC1 0 SWdriverLsr
+Sres1 RES4 RES1 RES4 RES1 SWCLAMP
+Sret4 V5V LIM22 RET1 0 Sleb
+Sdly3 TIMERAMPB V5V TIMERAMPB V5V SWCLAMP
+Stsw4 TSW7 0 TSW6 0 Sleb
+Sssr2 SSSR V5V SSSR V5V SWCLAMP
+Sret3 LATS 0 HICCUPCOMPLETE 0 S5k
+Sdriverhb1 VCC OUTSR OC1 0 SWdriverHsr
+Sdriverlb OUTB 0 OB1 0 SWdriverLb
+
+Cdly2 TIMERAMPB 0  32p IC=0
+Rotp2 0 OTP  10Meg
+Cret1 LATS 0  3p IC=0
+Eres3 RES5 0 VALUE { if(V(8COUNTERC)>8.5 & V(UP_PULSE)>2.5,5,0) }
+Cpwm1 PWM2 0  10p IC=0
+Epwm5 PWM12 0 VALUE { If(V(PWM11)>2.5 & V(NCLK)>2.5,5,0)  }
+Clg5 LG6 0  3p IC=0
+Qpwm2 COMPINT COMP PWM7 QbreakN
+Ctsw5 TSW7 0  400p IC=0
+Gvc3 VC4 0 TABLE { V(VCC) } ( (0,0) (9.5,0.0055)  )
+Cret8 DOWN_PULSE 0  10p IC=0
+Gvr1 0 REF TABLE { V(VR2, REF) } ( (0,0)(0.02,0.0175) )
+Etsw5 CLK 0 VALUE { {V(V5V)-V(NCLK)} }
+Rpwm3 PWM4 CS  10
+Ruvi4 NSB UV5  500
+Cpwm7 PWM14 0  400p IC=0
+Cres2 8COUNTERREF 0  400p IC=0
+Euvi2 UV4 0 VALUE { if(V(UVLO)>0.4,5,0) }
+Css1 SS 0  3p IC=0
+Cuvr1 VREFUV 0  400p IC=0
+Essr3 SOFTSTOPSS 0 VALUE { if(V(SSSR)<2 & V(NSB)>2.5,5,0) }
+VTIMEB TB1 TIME2 0
+Cssr4 SSSR 0  3p IC=0
+Rtsw4 TSW6 TSW4  500
+Cpwm3 PWM5 0  10p IC=0
+Rret5 UP_PULSE RET6  1k
+Dpwm1 PWM5 DRVASIGNAL D5K
+Rres2 8COUNTERREF RES2  10
+Epwm4 PWM9 0 VALUE { If(V(CLK)>2.5 & V(PWM8)<2.5,5,0)  }
+Epwm2 ILIM 0 VALUE { If(V(CSINT)>0.5,5,0)  }
+Rvc4 0 VC2  5k
+VRT TSW8 RT 0
+Rpwm11 PWM13 PWM12  500
+Clg6 LG8 0  3p IC=0
+Rtc1 TIME3 0  10E6
+Roa OA1 OA2  500
+Cvr1 VR2 0  3p IC=0
+Edly1 OUTASIGNAL 0 VALUE { if(V(TIMERAMPA)>2.5 & V(DRVASIGNAL)>2.5,5,0) }
+Etsw3 NCLK 0 VALUE { IF(V(TSW7)>2.5,5,0) }
+Ruvr2 UV11 UV13  500
+Etsw1 TSW3 0 VALUE { If(V(TOFFRAMP)>2.5,5,0)  }
+Edly2 OUTBSIGNAL 0 VALUE { if(V(TIMERAMPA)>2.5 | V(DRVASIGNAL)>2.5,5,0) }
+Coc OC1 0  3p IC=0
+Rlg4 VCCUV LG5  500
+Essr4 SRSIGNAL 0 VALUE { IF(V(SSSRramp)>(V(V5V)-0.5-V(SSSR)),5,0) }
+Ctsw4 TSW6 0  3p IC=0
+Cuvi4 NSB 0  3p IC=0
+Rlg3 LG4 SOFTSTOP  500
+Rpwm7 PWM6 0  200
+Etb1 TB1 0 TABLE { V(REF) } ( (0,0) (5,2.5) )
+Rvc1 VIN 0  155k
+Cret7 UP_PULSE 0  10p IC=0
+Eotp OTP1 0 VALUE { if(V(OTP)<1.25,5,0) }
+Eret1 RET3 0 VALUE { if(V(ILIM)>2.5,5,0) }
+Cuvlo7 LIM22 0  400p IC=0
+Etsw4 TSW8 0 TABLE { V(REF) } ( (0,0) (5,2) )
+Roc OC1 OC2  500
+Rtsw2 CLK TSW2  500
+Cob OB1 0  3p IC=0
+Cuvr3 UV11 0  3p IC=0
+Cuvi1 SD_VREFOFF_VCCOFF 0  400p IC=0
+Cpwm6 PWM13 0  3p IC=0
+Eres1 RES4 0 VALUE { if(V(UP)<1,V(8COUNTERref)+0.5,0) }
+Rvc2 VCCREF VC1  1
+Rtsw3 TSW5 TSW3  500
+Eoc OC2 0 VALUE { if(V(OUTCSIGNAL)>2.5 & V(VCCUV)<2.5 & V(SRsignal)>2.5 ,5,0) }
+Elg1 LG2 0 VALUE { if(V(RES)>1 | V(STANDBY)>2.5,5,0) }
+Rotp1 OTPSIG OTP1  500
+Rvc3 0 VC1  2k
+Rssr1 SSR1 SSR2  500
+Rret4 RET2 RET4  500
+Rss3 SHORTSS_SSRESET SS3  500
+Rpwm8 PWM7 0  200
+Ruvr1 UV10 UV12  500
+Rssr2 SSR3 SSR4  3000
+Ruvi2 UV2 UV4  500
+Voffset RAMPINT RAMP 1
+Ess1 SSSRDISCHARGE 0 VALUE { if(V(SS)<4,5,0) }
+Eret2 RET4 0 VALUE { if(V(CLK)>2.5,5,0) }
+Rob OB1 OB2  500
+Rpwm12 DRVASIGNAL DRVASIGNAL1  500
+Rres1 RES1 8COUNTERC  10
+Elg2 LG4 0 VALUE { If(V(LG3)>2.5,5,0)  }
+Rpwm10 PWM10 PWM9  500
+VTIMEC TC1 TIME3 0
+Cvc1 VC1 0  3p IC=0
+Ruvi1 UV1 UV3  500
+Rss1 SS SS1  5.5k
+Eres2 RES3 0 VALUE { if(V(UP)>4,V(8COUNTERC)+0.5,0) }
+Etsw2 TSW4 0 VALUE { If(V(TONRAMP)>2.5,5,0)  }
+Rta1 TIME1 0  10E6
+Ctsw2 TSW2 0  3p IC=0
+Cvr2 REF 0  3p IC=0
+Gramp2 0 TONRAMP VALUE { IF(V(SS)>0.7 & I(VRT)>0,I(VRT)/15.4,0) }
+Cuvr2 UV10 0  3p IC=0
+Eob OB2 0 VALUE { if(V(OUTBSIGNAL)>2.5 & V(VCCUV)<2.5,5,0) }
+Cssr3 SSR3 0  10p IC=0
+Gssr2 0 SSSR VALUE { IF((V(SD_VREFoff_VCCoff)<2.5 & V(nSB)>2.5 & V(SS)>4) | V(OTPsig)>2.5,-20E-6
++,if(V(SHORTSSSR)<2.5,25E-6,0)) }
+Elg3 LG7 0 VALUE { If(V(LG5)>2.5| V(LG6)>2.5,5,0)  }
+Essr5 SHORTSSSR1 0 VALUE { if(V(STANDBY)>2.5 | V(SSSRDISCHARGE)>2.5,5,0) }
+Cotp2 OTP 0  15p IC=0
+Euvr1 UV12 0 VALUE { if(V(REF)<1.75,5,0) }
+Cotp1 OTPSIG 0  3p IC=0
+Cret4 RET2 0  3p IC=0
+Cuvi3 UV2 0  3p IC=0
+Cpwm8 DRVASIGNAL 0  3p IC=0
+Ctsw3 TSW5 0  3p IC=0
+Cpwm5 PWM10 0  3p IC=0
+Rpwm4 CSINT CS  1
+Rlg1 OUTPUTDIS_SSFAULT LG2  10k
+VVCC VC2 VC3 0
+Elg4 STANDBY 0 VALUE { If(V(LG7)>2.5| V(LG8)>2.5,5,0)  }
+Etc1 TC1 0 TABLE { V(REF) } ( (0,0) (5,2.5) )
+Cpwm10 COMP 0  1p IC=0
+Cuvi2 UV1 0  3p IC=0
+Epwm6 DRVASIGNAL1 0 VALUE { If(V(PWM14)>2.5 & V(nCLK)>2.5 & V(shortSS_SSreset)<2.5,5,0)  }
+Essr1 SSR2 0 VALUE { If(V(NCLK)>2.5 & V(SSR3)<2.5,5,0)  }
+Eoa OA2 0 VALUE { if(V(OUTASIGNAL)>2.5 & V(VCCUV)<2.5,5,0) }
+Cvc4 VCC 0  10p IC=0
+Cssr2 SSR1 0  3p IC=0
+Gdly2 0 TIMERAMPB VALUE { if(V(DRVASIGNAL)>2.5,I(VTIMEA)*10,-I(VTIMEC)*10) }
+Rret3 RET1 RET3  500
+Euvc1 UVC3 0 VALUE { if(V(VCC)<6,5,0) }
+Rret2 LATR RET5  500
+Gret2 0 RES VALUE { IF(V(RES)>1 ,IF(V(UP)>2.5,5E-6,-5E-6),-1E-10)  }
+Rpwm2 PWM3 PWM2  500
+Ess4 SS4 0 VALUE { if(V(SOFTSTOP)>2.5 & V(SSSR)<1.5 ,5,0) }
+Con TONRAMP 0  7.98p IC=0
+Gssr1 0 SSSRRAMP VALUE { IF(V(SSSR)>2 & V(SSSR)<4.8 & I(VRT)>0,I(VRT)/15.4,0) }
+Cssr5 SHORTSSSR 0  3p IC=0
+Epwm1 PWM3 0 VALUE { If(V(CLK)>2.5 | V(SHORTSS_SSRESET)>2.5,5,0) }
+Evr1 VR1 0 TABLE { V(VCC) } ( (0,0) (8,5) )
+Gret1 0 RES VALUE { IF(V(LIM22LATCH)>2.5 & V(RES)<1.01,17E-6,0) }
+Cpwm2 CSINT 0  3p IC=0
+Cuvc1 VCCUV 0  400p IC=0
+Clg1 OUTPUTDIS_SSFAULT 0  10p IC=0
+Rlg5 VREFUV LG6  500
+Cret5 RES 0  10p IC=0
+Cdly1 TIMERAMPA 0  32p IC=0
+Cres3 HICCUPCOMPLETE 0  1n IC=0
+Coa OA1 0  3p IC=0
+Essr2 SSR4 0 VALUE { IF(V(NCLK)>2.5,5,0) }
+Ess2 SS3 0 VALUE { if(V(SS4)>2.5|V(SS2)>2.5,5,0) }
+Ruvc2 UVC2 UVC4  500
+Rssr4 SHORTSSSR SHORTSSSR1  500
+VTIMEA TA1 TIME1 0
+Rssr3 SSSR SSR5  5k
+Cret3 RET1 0  3p IC=0
+Cret2 LATR 0  3p IC=0
+Ruvi3 0 UVLO  10Meg
+Rvr3 0 REF  5k
+Rpwm1 PWM1 RAMP  10
+Eret4 RET6 0 VALUE { if(V(RES)<2 ,5,0) }
+Clg3 SOFTSTOP 0  3p IC=0
+Rret1 LATS LIM22  500
+Clg4 LG5 0  3p IC=0
+Eret3 RET5 0 VALUE { if(V(RES)>1,5,0) }
+Rtsw1 NCLK TSW1  500
+Cpwm4 PWM8 0  10p IC=0
+Cvc2 VC2 0  3p IC=0
+Edly3 OUTCSIGNAL 0 VALUE { if(V(DRVASIGNAL)>2.5 | V(TIMERAMPB)>2.5,0,5) }
+Euvr2 UV13 0 VALUE { if(V(REF)>2.6,5,0) }
+Euvi1 UV3 0 VALUE { if(V(UVLO)<0.3,5,0) }
+Cvc5 VC4 0  3p IC=0
+Ess3 SS2 0 VALUE { if(V(OUTPUTDIS_SSFAULT)>2.5|V(SOFTSTOPSS)>2.5,5,0) }
+Clg2 LG3 0  3p IC=0
+Cvc3 VC3 0  10p IC=0
+Cuvc3 UVC2 0  3p IC=0
+Rret8 0 LIM22LATCH  10Meg
+Rtb1 TIME2 0  10E6
+Cret6 UP 0  400p IC=0
+Etia1 TA1 0 TABLE { V(REF) } ( (0,0) (5,2.5) )
+Guvi4 UVLO 0 VALUE { if(V(NSB)>2.5, 20u, 0) }
+Cssr1 SSSRRAMP 0  7.98p IC=0
+Coff TOFFRAMP 0  0.51p IC=0
+Gotp 0 OTP VALUE { if(V(OTPSIG)>2.5, 20u, 0) }
+Cres1 8COUNTERC 0  400p IC=0
+Rvr1 VR1 VR2  1
+Css2 SHORTSS_SSRESET 0  3p IC=0
+Ruvc1 UVC1 UVC3  500
+Rlg6 LG8 SD_VREFOFF_VCCOFF  500
+Qpwm1 COMP COMP PWM6 QbreakN
+Rpwm9 CLK PWM8  3000
+Essr6 VCC_LOW_HIGH 0 VALUE { IF(V(SSSR)>2.5,0,2) }
+Eret5 RET7 0 VALUE { if(V(RES)>4,5,0) }
+Euvc2 UVC4 0 VALUE { if(V(VCC)>(V(VCCREF)-0.18),5,0) }
+Rres3 RES5 HICCUPCOMPLETE  10k
+Rlg2 OTPSIG LG3  500
+Gdly1 0 TIMERAMPA VALUE { if(V(DRVASIGNAL)>2.5,I(VTIMEA)*10,-I(VTIMEB)*10) }
+Gvc1 VIN 0 VALUE { I(VVCC) }
+Ctsw1 TSW1 0  3p IC=0
+Rret6 DOWN_PULSE RET7  1k
+Rvc5 VC4 VCC  1
+Cret9 LIM22LATCH 0  400p IC=0
+Rvr2 0 VR2  5k
+Epwm3 PWM11 0 VALUE { If((V(RAMP)>2.5 | V(STANDBY)>2.5 | V(shortSS_SSreset)>2.5 
++ | V(SSint)<V(RAMPint) | V(COMPint)<V(RAMPint) | V(ILIM)>2.5)& V(NCLK)>2.5,5,0)  }
+Rpwm6 REF COMPINT  5k
+Evc1 VCCREF VCC_LOW_HIGH TABLE { V(VIN) } ( (0,-2)(3,-2)(13,7.5) )
+Gvc2 0 VC2 TABLE { V(VC1, VC2) } ( (0,0)(0.1,0.065) )
+Gss1 0 SS VALUE { if(V(SHORTSS_SSRESET)<2.5,22E-6,0) }
+Rss2 SS SSint  1k
+Gtsw1 0 TOFFRAMP VALUE { IF(V(SS)>0.7 & I(VRT)>0,I(VRT)/15.4,0) }
+Cuvc2 UVC1 0  3p IC=0
+Euvi3 UV5 0 VALUE { if(V(UVLO)<2.0,5,0) }
+Rpwm5 DRVASIGNAL PWM5  10k
+V5V V5V 0 5
+
+.MODEL D5K D IS=1E-14 CJO=0 VJ=1
+.MODEL SWdriverHa VSWITCH RON=2.1 ROFF=0.5E6 VON=2.6V VOFF=2.4V
+.MODEL SWdriverLa VSWITCH RON=0.5E6 ROFF=1.5 VON=2.6V VOFF=2.4V
+.MODEL SWdriverHb VSWITCH RON=3.1 ROFF=0.5E6 VON=2.6V VOFF=2.4V
+.MODEL SWdriverLb VSWITCH RON=0.5E6 ROFF=2 VON=2.6V VOFF=2.4V
+.MODEL SWdriverHsr VSWITCH RON=1.1 ROFF=0.5E6 VON=2.6V VOFF=2.4V
+.MODEL SWdriverLsr VSWITCH RON=0.5E6 ROFF=1 VON=2.6V VOFF=2.4V
+.MODEL SOSC VSWITCH RON=100 ROFF=100MEG VON=2.6V VOFF=2.4V
+.MODEL SWCLAMP VSWITCH RON=0.001 ROFF=100E6 VON=10m VOFF=0
+.MODEL S5K VSWITCH RON=1 ROFF=100MEG VON=1V VOFF=0V
+.MODEL Sleb VSWITCH RON=35 ROFF=100MEG VON=1V VOFF=0V
+.MODEL Sres VSWITCH RON=35 ROFF=100MEG VON=2.6V VOFF=2.4V
+.MODEL S10R VSWITCH RON=10 ROFF=100MEG VON=1V VOFF=0V
+.MODEL S20R VSWITCH RON=20 ROFF=100MEG VON=1V VOFF=0V
+.ENDS LM5027
+
+*//////////////////////////////////////////////////////////////////////////////////////////////////////
+* (C) National Semiconductor, Corporation.
+* Models developed and under copyright by:
+* National Semiconductor, Corporation.  
+*/////////////////////////////////////////////////////////////////////////////////////////////////////
+* Legal Notice:  
+* The model may be copied, and distributed without any modifications;
+* however, reselling or licensing the material is illegal.
+* We reserve the right to make changes to the model without prior notice. 
+* Pspice Models are provided "AS IS, WITH NO WARRANTY OF ANY KIND" 
+*//////////////////////////////////////////////////////////////////////////////////////////////////////
+* Model Number 	  : LM5030 100V Push-Pull Current Mode PWM Controller
+* Last Revision Date : Mar 19, 2010
+* Revision Number    :1.1
+* E-mail feedback 	  : http://wwwd.national.com/feedback/
+* Generated from Pspice Plugin Ver. 16.2
+* Modelled by : Eric Lee,  eric.lee@nsc.com
+*////////////////////////////////////////////////////////////////////////////////////////////////////////
+* This model has only been tested with Orcad PSPICE.  
+* Additional modifications maybe required to work with other SPICE packages
+*/////////////////////////////////////////////////////////////////////////////////////////////////////
+*<Introduction >
+*This document contains the SPICE model, application example for National Semiconductor's LM5030 
+*100V Push-Pull Current Mode PWM Controller
+*The LM5030 PWM controller contains all of the features needed to implement Push-Pull and Bridge topologies.
+*<LM5030 Model>
+*The LM5030 PSPICE Model contains all of the basic features including;
+*- Internal Start-up Bias Regulator 
+*- Single Resistor Programmable Switching Frequency
+*- Internal Error Amplifier
+*- Programmable Soft Start 
+*- Dual Mode Over-Currrent Protection
+*- Current Mode with Slope Compensation
+*- Direct Optocoupler Interface 
+*<Assumptions and limitations>
+*Model & Example Assumptions;
+*- The temperature for this model is 25C
+*- ESR and ESL of capacitors are zero.
+*- Wire DCR and leakage inductances of transformer are zero.
+*- No parasitic elements of package. 
+*Some functions/characteristics of LM5030 are not included in this model;
+*- Thermal shutdown 
+*- Oscillator Synchronization
+*Some characteristics of LM5030 are included but not optimized
+*- Gate driver capability 
+*- Power consumption of controller  
+*- SS discharging time 
+*- Deadtime
+*Also GND pin of LM5030 is internally tied to GND (node number 0)
+*<Note>
+*-To run the simulation a simulation profile should be added first--> click 'New Simulation Profile' 
+*-The simulation takes around 1~3min actual time per 1mSec simulation on a 1.7GHz machine.
+*-Vsupply should have a slope lower than 150V/Sec 
+*///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.SUBCKT LM5030 VIN VFB COMP VCC OUT1 OUT2 CS RT SS
+Rbw C4 0  1
+E11 GH2A 0 VALUE { if(V(select12)>2.5 & V(pulsedclkleb)<2.5 & V(err1)>2.5 & V(uv2)>2.5,5,0) }
+VRT RT1 RT 0
+Sleb1 CSRAMP1 0 PULSEDCLKLEB 0  Sleb
+Gss 0 SS VALUE { if(V(uv1)<2.5 | V(uv2)<2.5,0, V(vdd)*2E-6) }
+Rvcc3 VCC6 VCC  1
+Gramp2 0 RAMP VALUE { I(VRT)/40 }
+Cq2 GL1A 0  3p IC=0 
+Evccuv10 DFF9 0 VALUE { if(V(PULSEDCLKLEB)>2.5,0,5) }
+Rq16 SELECT12 DFF2  50
+I1 0 SS DC 10u
+Ric6 VDD COMP  5k
+Cq3 GH1A 0  3p IC=0
+E13 C9 0 VALUE { if( ( V(MAXDUTY)>4.5 & V(PULSEDCLKLEB)<1 & V(vdd)>4.5 ),0,5) }
+Sdriverh VCC OUT1 GH1A 0 SWdriverH
+Ereference POS 0 TABLE { V(vdd) } ( (0,0) (1.245,1.245) )
+Cq1 UV2 0  3p IC=0
+Sramp1 ERR1 0 N2309181 0 S5K
+Cvcc3 VCC5 0  3p IC=0.77
+Cq10 PULSEDCLKLEB 0  3p IC=0
+Ric12 C8 0  1
+Dss SS VCLAMP D5K
+Evcc2 VCC2 0 VALUE { if(V(uv1)>1 & V(SS)>0.45, V(vcc1), 0.77) }
+Cq15 SELECT12 0  30p IC=0
+Rqz1 U3 U2  500
+Rq9 C7 C9  500
+Givcc VCC6 0 TABLE { V(vcc) } ( (0,0) (7.5,0.003)  )
+Sdriverl OUT1 0 GL1A 0 SWdriverL 
+Gldo 0 VCC5 TABLE { V(vcc3, vcc4) } ( (0,0) (0.3,0.01)  )
+Cramp RAMP 0  7.9p IC=0
+Dic5 COMP C2 Dcomp
+Sssdis1 SELECT12 MEMORY DFF9 0 S5K
+Dea1 C4 VCLAMP D5K
+Ecomp4 N2310140 0 VALUE { if(V(csramp)>(V(comp2)-0.05) | V(csramp)>0.5 ,5,0) }
+Rqz2 DFF5 DFF6  50
+Cq9 C7 0  3p IC=0
+Rq11 C12 VFB  1
+Rq8 GH1B GH2B  500
+T1 C8 0 C10 0 Z0=1 TD=135n
+Evccuv1 U6 0 VALUE { if(V(VCC)<6,5,0) }
+E12 C13 0 VALUE { if(V(OSC)>-0.99,5,0) }
+Rvcc2 VCC2 VCC3  1
+Dvcc VCC4 VCC D5K
+Evcc1 VCC1 0 TABLE { V(VIN) } ( (0, 0.77) (4.0, 0.77) (4.5, 2.27) (11.7, 8.47) )
+Rq18 N2309181 N2310140  500
+Cq16 N2305005 0  3p IC=0
+VdefaultUV2 V5V 0 5
+Ess C3 0 SS 0 1
+Ric2 COMP2 0  5.8k
+Cic1 COMP2 0  5p IC=0
+Rq13 GL1B GL2B  500
+Ric3 COMP2 C1  10k
+Rq2 GH1A GH2A  500
+Rq6 U4 U6  500
+Cq5 ERR1 0  400p IC=0
+Ric11 CS 0  43k
+Sdriverl1 OUT2 0 GL1B 0 SWdriverL
+Evdd VDD1 0 TABLE { V(VCC) } ( (5.3,0.0) (7.5,5) )
+Cq17 MEMORY 0  3p IC=5
+Cq6 U4 0  3p IC=0
+Eclampgnd VCLAMPGND 0 TABLE { V(vdd) } ( (0,0) (0.77,0.77) )
+Rssdis1 SSDISCONT N1976297  10k
+Rq3 GL1A GL2A  500
+Cq18 N2309181 0  3p IC=0
+VVCC VCC5 VCC4 0
+Dss2 N1976297 SSDISCONT D5K
+Ecomp2 N1976297 0 VALUE { if(V(uv1)<1 | V(uv2)<1 | V(csramp)>0.625,5,0) }
+Cqz1 U3 0  3p IC=5
+Gramp1 0 CSRAMP VALUE { V(RAMP)*0.05E-3 }
+Evccuv5 DFF4 0 VALUE { if(V(MEMORY)>2.5 & V(PULSEDCLKLEB)>2.5,5,0) }
+Cq7 U5 0  3p IC=0
+Cq13 DFF3 0  3p IC=0
+Cvdd1 VDD 0  3p IC=0
+Sdriverh1 VCC OUT2 GH1B 0 SWdriverH
+Dea2 VCLAMPGND C4 D5K
+Rvdd1 VDD1 VDD  1
+Sramp RAMP 0 C7 0 S5K
+Ric10 CSRAMP1 CS  2k
+Evccuv2 U7 0 VALUE { if(V(VCC)>7.5,5,0) }
+E14 GL2A 0 V5V GH2A 1
+Cssdis2 SSDISCONT 0  1n IC=0
+Rq17 N2305005 N2307017  500
+Rq14 DFF3 DFF4  500
+Rssdis N1874071 SSDIS  200
+Dic7 VCLAMPGND COMP D5K
+Dss1 SS N1874071 D5K
+Cq14 DFF7 0  3p IC=0
+VdefaultUV1 UV1 0 5
+Rvindummy VIN 0  192k
+Sssdis SSDIS 0 SSDISCONT 0 S5K
+Cbw C4 0  0.0796u IC=0
+Rq7 U5 U7  500
+EMAX VCLAMP 0 VALUE { V(vdd) }
+Eosc1 C6 0 VALUE { if(V(C8)<2.5 & V(MAXDUTY)>2.5,5,0) }
+Cq12 MAXDUTY 0  3p IC=0
+Evccuv3 U1 0 VALUE { if(V(U4)>2.5 | V(U3)>2.5,0,5) }
+Cqz2 DFF5 0  30p IC=5
+Rfbd1 C12 0  10Meg
+Eosc OSC 0 VALUE { if(V(vdd)>4.5,sin(6.28*i(VRT)*TIME/(364E-12+172E-9*I(VRT))),0) }
+Cvcc2 VCC3 0  3p IC=0.77
+Rq12 MAXDUTY C13  500
+Eramp3 C10 0 MAXDUTY 0 1
+Ecomp5 N2307017 0 VALUE { if(V(PULSEDCLKLEB)>2.5,5,0) }
+Gea 0 C4 VALUE { if(V(Vdd)>4.5, (V(C12)-V(POS))*308,0) }
+Evccuv7 DFF2 0 VALUE { if(V(DFF3)>2.5 | V(DFF5)>2.5,0,5) }
+Ggateloss VIN 0 VALUE { I(VVCC) }
+Evccuv6 DFF8 0 VALUE { if(V(PULSEDCLKLEB)>2.5 & V(MEMORY)<2.5,5,0) }
+Rvddp 0 VDD  5k
+Evccuv4 U2 0 VALUE { if(V(UV2)>2.5 | V(U5)>2.5,0,5) }
+Dic4 C2 C1 Dcomp
+Cq8 GL1B 0  3p IC=0
+Radd CSRAMP CSRAMP1  200
+E10 GH2B 0 VALUE { if(V(select12)<2.5 & V(pulsedclkleb)<2.5 & V(err1)>2.5 & V(uv2)>2.5,5,0) }
+E15 GL2B 0 V5V GH2B 1
+Rq15 DFF7 DFF8  500
+Rq10 PULSEDCLKLEB C6  100
+Ert RT1 0 TABLE { V(vdd) } ( (0,0) (2,2) )
+Sramp2 V5V ERR1 N2305005 0 S5K
+Evccuv8 DFF6 0 VALUE { if(V(SELECT12)>2.5 | V(DFF7)>2.5,0,5) }
+Cq11 GH1B 0  3p IC=0
+Dic8 COMP C3 D5K
+Rq1 UV2 U1  500  
+Ggnamp COMP 0 C4 0 {0.0026}
+.MODEL D5K D IS=1E-14 CJO=0 VJ=1
+
+.MODEL SWdriverH VSWITCH RON=5 ROFF=1MEG VON=1.5V VOFF=0.5V
+
+.MODEL SWdriverL VSWITCH RON=2.5 ROFF=1MEG VON=1.5V VOFF=0.5V
+
+.MODEL S5K VSWITCH RON=1m ROFF=10MEG VON=1V VOFF=0V
+
+
+.MODEL Dcomp D IS=1E-20 CJO=0 VJ=1.1
+
+.MODEL Sleb VSWITCH RON=50 ROFF=1MEG VON=1.5V VOFF=0.5V
+
+.MODEL SWCLAMP VSWITCH (RON=0.001 ROFF=10E6 VON=0.01 VOFF=0) 
+.ENDS LM5030
+
+*////////////////////////////////////////////////////////////////////////////////////////////////////////
+* (C) National Semiconductor, Corporation.
+* Models developed and under copyright by:
+* National Semiconductor, Corporation.  
+*////////////////////////////////////////////////////////////////////////////////////////////////////////
+* Legal Notice:  
+* The model may be copied, and distributed without any modifications;
+* however, reselling or licensing the material is illegal.
+* We reserve the right to make changes to the model without any prior notice.
+* Pspice Models are provided "AS IS, WITH NO WARRANTY OF ANY KIND"
+*////////////////////////////////////////////////////////////////////////////////////////////////////////
+* Model Number 	     : LM5035 PWM Controller with Integrated Half-Bridge and SyncFET Drivers
+* Last Revision Date : July 12, 2010
+* Revision Number    : 1.0
+* E-mail feedback    : http://wwwd.national.com/feedback/
+* Generated from Pspice Plugin Ver. 16.2
+* Modelled by : Eric Lee,  eric.lee@nsc.com
+*////////////////////////////////////////////////////////////////////////////////////////////////////////
+* This model has only been tested with Orcad PSPICE.  
+* Additional modifications maybe required to work with other SPICE packages
+*////////////////////////////////////////////////////////////////////////////////////////////////////////
+*<Introduction >
+*This document contains the PSPICE model and the simulation circuit example for National Semiconductor's 
+*LM5035.
+*The LM5035 Half-Bridge Controller/Gate Driver contains all of the features necessary to 
+*implement half-bridge topology power converters
+*using voltage mode control with line voltage feed-forward.
+*<LM5035 Model>
+*The LM5035 Model contains all of the basic features including;
+*- Voltage Mode with Line Feed-Forward
+*- Internal Start-up Bias Regulator
+*- Half-Bridge Gate Drivers
+*- Synchronous Rectifier Control Outputs with Programmable Delay
+*- Single Resistor Programmable Switching Frequency
+*- Programmable Soft Start
+*- Programmable UVLO and OVP
+*- Volt-Second Limiting
+*- Cycle-by-Cycle Current Limit
+*- Versatile Hiccup mode Current Limit
+*- Direct Optocoupler Interface
+*- 5V Reference
+*<Assumptions and limitations>
+*Model & Example Assumptions;
+*- The temperature is 25C
+*- ESR and ESL of capacitors are zero.
+*- Wire DCR and leakage inductances of transformer are zero.
+*- No parasitic elements of IC package. 
+*Some functions/characteristics of LM5035 are not included in this model;
+*- Thermal Shutdown 
+*- Oscillator Synchronization
+*Some characteristics of LM5035 are included but not optimized
+*- Gate driver capability/strength
+*- Power consumption of controller  
+*- SS discharging time 
+*- UVLO shutdown hysteresis (0.1V)
+*- 80ns CS delay to output
+*Also AGND and PGND pin of LM5035 are internally tied to GND (node number 0)
+*<Note>
+*- To run the simulation, a simulation profile should be added first. Click 'New Simulation Profile' 
+*- The simulation takes around 5~8min actual time per 1ms simulation on a 1.7GHz machine.
+*- Vsupply should have a slope lower than 1V/us
+*///////////////////////////////////////////////////////////////////////////////////////////////////
+.SUBCKT LM5035 RAMP UVLO OVP COMP RT CS SS DLY RES HB HS HO LO VCC SR2 SR1 REF VIN
+VVCC VCC4 VCC5 0
+Rram3_discharge 0 RAM2 1k
+Rres6 RES9 RES11 500
+Cresdum1 RES 0 3p IC=0
+Rcomp1 REF COMPX 5k
+Ccs6 ILIM 0 100p IC=0
+Rdr5 DRVHISIG DR5 500
+Cvcc4 VCC6 0 3p IC=0
+Ecs4 CS7 0 VALUE { if(V(RAMPINT)>3.5 | V(CLK)>2.5 | V(PWMout)>2.5,5,0) }
+Cotr7 OTR10 0 3p IC=0
+Rovdummy 0 OVP 10Meg
+Guvihys1 UVLO 0 VALUE { if(V(NSB)>2.5, 0, 23E-6) }
+Rram2 RAM2 RAM3 500
+Eosc1 OSC1 0 VALUE { if(V(OSC2)>cos(2*3.14*35E-9/(2/(6.25E9*I(VRT))+110E-9)),5,0) }
+Cres6 RES9 0 3p IC=0
+Xuvr1 UVR2 VREFLOW VREFuv uvr1 rsff5k PARAMS:
+Rcs3 CS5 CS7 500
+Cotr8 OTR11 0 3p IC=5
+Tleb LEB1 0 LEB2 0 Z0=1 TD=50n
+Cuvi1 SD 0 3p IC=0
+Ess1 SSRESET 0 VALUE { if(V(DRIVERSoff)>2.5 | V(CLtimerout)>2.5 | V(SD)>2.5,5,0) }
+Edff4 DFF7 0 VALUE { if(V(CLK)>2.5,V(DFF5),0) }
+V1 V5V 0 5
+Rdlydummy DLY 0 10E6
+Ruvb3 UVB2 UVB3 500
+Rdr7 SR1SIG DR7 500
+Rotr1 OTR1 OUTPUTTIMERRESET 500
+Cosc1 CLK 0 5p IC=5
+Rcs4 CS6 CS8 500
+Cres5 RES8 0 3p IC=0
+Cdlo1 ENHOLO 0 3p IC=0
+Edff3 DFF6 0 VALUE { if(V(CLK)>2.5,V(DFF4),0) }
+Rcomp2 COMP2 0 200
+V1V RAMPINT RAMP 1
+Cuvc3 UVC2 0 3p IC=0
+Xdff1 DFF2 DFF3 DFF4 DFF5 rsff5k PARAMS:
+Rosc1 CLK OSC1 500
+Evref2 VREF2 0 VALUE { if(V(VCCuv)>2.5 | V(VCClow)>2.5 | V(SD)>2.5,0,V(VREF1)) }
+Euvc1 UVC3 0 VALUE { if(V(VCC)>7.4,5,0) }
+Rleb1 LEB1 0 1
+Cotr1 OUTPUTTIMERRESET 0 3p IC=0
+Cuvb1 UVB2 0 3p IC=0
+Css7 SS2 0 300p IC=0
+Euvi2 UVI2 0 VALUE { if(V(UVLO)>1.25,5,0) }
+Cvref1 VREF3 0 3p IC=0
+Rcomp3 COMP3 0 200
+Cvcc2 VCC4 0 3p IC=0
+Rdr6 DRVLOSIG DR6  500
+Cdr11 SR1 0 3p IC=0
+Gss2 SS 0 VALUE { if(V(VCCuv)<=2.5 & V(VREFuv)<=2.5,if(V(nSB)<=2.5,110E-6,0),0) }
+Cvcc5 VCC7 0 3p IC=0
+Ruvc3 UVC2 UVC3  500
+Cmon1 MON2 0 10p IC=0
+Cmon2 MON1 0 20p IC=0
+Cmon3 MON3 0 3p IC=0
+Eosc2 OSC3 0 VALUE { if(V(VREFuv)<=2.5,sin(2*3.141592*TIME/(2/(6.25E9*I(VRT))+110E-9)),0) }
+Rosc2 OSC2 OSC3 500
+Cosc2 OSC2 0 3p IC=0
+Eleb2 LEB2 0 LEB3 0 1
+Cuvr1 UVR2 0 3p IC=0
+Ccs3 CS5 0 3p IC=0
+Eotr1 OTR1 0 VALUE { if(V(DRIVERSOFF)>2.5 | V(SSRESTART)>2.5,5,0) }
+Cvcc3 VCC5 0 3p IC=0
+Cdl1 DRVLATCH 0 400p IC=0
+Cuvc4 VCCLOW 0 3p IC=0
+Edrv5 DRVHISIG 0 VALUE { if(V(ENholo)<=2.5,0,if(V(DRVHI)>2.5 & V(DELAYDRVHI)>2.5 & V(VCClow)<=2.5 
++& V(UVb)>2.5,5,0)) }
+Cuvb2 UVB4 0 3p IC=0
+Rdlo2 PENSR1SR2 ENSR1SR2 500
+Euvr1 UVR3 0 VALUE { if(V(REF)>4,5,0) }
+Ruvi2 NSB UVI2 500
+Eov1 OV1 0 VALUE { if(V(OVP)>1.25,5,0) }
+Ccs4 CS6 0 3p IC=0
+VDLY VDLY1 DLY 0
+Xres_sub1 RES5 RES6 RESLATCH res4 rsff5k PARAMS:
+Euvi1 UVI1 0 VALUE { if(V(UVLO)>0.35,0,5) }
+Rmon2 MON3 MON4 500
+Cdr8 DR8 0 3p IC=0
+Xdff2 DFF6 DFF7 SELECTHILO DFF1 rsff5k PARAMS:
+Ggateloss VIN 0 VALUE { I(VVCC) }
+Ecomp1 COMP4 0 VALUE { V(SS) }
+Xuvb1 UVB2 UVB4 uvb1 UVb rsff5k PARAMS:
+Rdl1 DRVLATCH DL1 2
+Rvcc4 VCC7 VCC 1
+Eleb1 CS8 0 VALUE { if(V(LEB1)>2.5 & V(LEB4)>2.5,5,0)  }
+Ruvr1 UVR2 UVR3 500
+Rov1  OVPSIG OV1 500
+Eotr2 OTR6 0 VALUE { if(V(DRVHI)>2.5 | V(DRIVERSOFF)>2.5,5,0) }
+Rpwm3 PWMOUT PWM5 50
+Evcc1 VCC1 0 TABLE { V(VIN) } ( (0,0)(4.5,0)(4.6,0.7)(12,7.6) )
+Edrv7 SR1SIG 0 VALUE { if(V(ENsr1sr2)<=2.5,0,if(V(DRVHI)>2.5 | V(DELAYDRVHI)>2.5,0,if(V(VCClow)<=2.5,5,0))) }
+Cuvi2 NSB 0 3p IC=0
+Eres_sub1 RES5 0 VALUE { if(V(CLK)>2.5,V(RES7),0) }
+Eres_sub2 RES6 0 VALUE { if(V(CLK)>2.5,V(ILIMLATCH),0) }
+Rotr4 OTR5 OTR6 500
+Emon1 MON4 0 VALUE { if(V(RAMPint)>3.5,5,0) }
+Rleb2 LEB3 LEB4 500
+Evdly1 VDLY1 0 TABLE { V(REF,0) } ( (0,0) (2.5,2.5) )
+Cuvr2 VREFLOW 0 3p IC=0
+Rss7 SS1 SS 32
+Cdd1 DELAYDRVHI 0 40p IC=0
+Cdlo2 ENSR1SR2 0 3p IC=0
+Rvccint1 VCC6 VCCINT  100m
+Euvc2 UVC5 0 VALUE { if(V(VCC)<6.2,5,0) }
+Cvref2 REF 0 3p IC=0
+Givcc1 VCC7 0 TABLE { V(VCC) } ( (0,0) (7.5,0.004)  )
+Cdr10 LO 0 3p IC=0
+Cleb1 LEB3 0 3p IC=0
+Cov1 OVPSIG 0 3p IC=0
+Rdrvhi1 DRVHI PDRVHI  500
+Cotr4 OTR5 0 10p IC=0
+Rres1 RES1 RES 32
+Rmon1 MON2 MON3 200
+Xcs1 CS5 CS6 cs4 CSBLANK rsff5k PARAMS:
+Ruvc4 VCCLOW UVC5 500
+Cdrvhi1 DRVHI 0  10p IC=0
+Xotr2 OTR10 OTR11 CLTIMEROUT otr9 rsff5k PARAMS:
+Epwm1 PWM5 0 VALUE { if((V(RAMPINT)>V(COMPX)) | V(maxONlatch)>2.5 | V(ILIMlatch)>2.5 | V(DRIVERSoff)>2.5 
++| V(SSreset)>2.5,5,0) }
+Ruvb2 UVB4 UVB5 500
+Eosc3 NCLK 0 VALUE { {5-V(CLK)} }
+Eleb3 LEB4 0 VALUE { if(V(DRVLOSIG)>2.5 | V(DRVHISIG)>2.5,5,0) }
+Tresd1 DCLK 0 RESD2 0 Z0=1 TD=80n
+Qcomp2 COMPX COMP COMP3 NOMNPN
+Rdr8 SR2SIG DR8 500
+Rvcc3 0 VCC4 5k
+Euvr2 UVR5 0 VALUE { if(V(REF)<3,5,0) }
+Eres1 RES3 0 VALUE { if(V(CLTIMEROUT)>2.5,5,0) }
+Xpwm1 PWMOUT PWM2 PWMOUT2 pwm1 rsff5k PARAMS:
+Evref1 VREF1 0 TABLE { V(VCC) } ( (0,0) (6,5) )
+Ecs2 CS9 0 VALUE { if(V(CLK)>0.1,0,if(V(CS1)>0.25 & V(PWMOUT2)>2.5,5,0)) }
+Cdl2 MAXONLATCH 0 500p IC=0
+Rdrvoff1 PDRIVERSOFF DRIVERSOFF 500
+Rram1 RAM1 RAMP 10
+Edff1 DFF2 0 VALUE { if(V(NCLK)>2.5,V(DFF1),0) }
+RdumRT RT 0 10E6
+Ruvr2 VREFLOW UVR5 500
+Rvindummy1 VIN 0 1.28Meg
+Rresd1 DCLK 0 1
+Rdrvlo1 DRVLO PDRVLO 500
+Rcs5 CS CS1 2k
+Edrv8 SR2SIG 0 VALUE { if(V(ENsr1sr2)<=2.5,0,if(V(DRVLO)>2.5 | V(DELAYDRVLO)>2.5,0,if(V(VCClow)<=2.5,5,0))) }
+Cdrvoff1 DRIVERSOFF 0 3p IC=0
+Xotr1 OTR5 CLTIMEROUT SSRESTART otr4 rsff5k PARAMS:
+Epwm2 PWM4 0 VALUE { if(V(CLK)>4.5, 5, 0) }
+Eram1 RAM3 0 VALUE { if(V(SSRESET)>2.5 | V(CLK)>2.5 | V(maxONlatch)>2.5,5,0) }
+Eres2 RES10 0 VALUE { if(V(DCLK)>2.5,5,0) }
+Eotr3 OTR12 0 VALUE { if(V(RES)<0.1 & V(SS)<0.1,5,0) }
+Cdd2 DELAYDRVLO 0 40p IC=0
+Cdr9 HO HS 3p IC=0
+Rvcc1 VCC2 VCC3 1
+Cdrvlo1 DRVLO 0 10p IC=0
+Ccs5 CS1 0 6p IC=0
+Eresd1 RESD2 0 CLK 0 1
+Rvref3 0 REF 5k
+Edlo1 PENHOLO 0 VALUE { if(V(DRVlatch)>2.5 & V(DRIVERSoff)<=2.5,5,0)}
+Edrv6 DRVLOSIG 0 VALUE { if(V(ENholo)<=2.5,0,if(V(DRVLO)>2.5 & V(DELAYDRVLO)>2.5 & V(VCClow)<=2.5,5,0)) }
+Rotr7 OTR10 OTR12 500
+Rpwm2 PWM2 PWM4 500
+Rvcc2 0 VCC3 2k
+Xres1 RES8 RES9 ILIMLATCH RES7 rsff5k PARAMS:
+Ruvi1 SD UVI1 500
+Cres1 RES2 0 300p IC=0
+VRT VRT1 RT 0
+Cvccint1 0 VCCINT 10p IC=0
+Cdr7 DR7 0 3p IC=0
+Rres5 RES8 RES10 500
+Eotr4 OTR13 0 VALUE { if(V(DRIVERSOFF)>2.5 | V(RES)>2.5,5,0) }
+Gres1 0 RES VALUE { if(V(RESLATCH)>2.5, 22E-6, -12E-6) }
+Edff2 DFF3 0 VALUE { if(V(NCLK)>2.5,V(SELECTHILO),0) }
+Rres2 RES2 RES3 500
+Rresdum1 0 RES 1G
+Rdl2 MAXONLATCH MON1 5
+Evrt1 VRT1 0 TABLE { V(REF,0) } ( (0,0) (2,2) )
+Govhys1 0 OVP VALUE { if(V(OVPSIG)>2.5,23E-6,0) }
+Cvcc1 VCC3 0 3p IC=0
+Qcomp1 COMP COMP COMP2 NOMNPN
+Rotr8 OTR11 OTR13 500
+Css5 SS 0 3p IC=0
+Cpwm1 PWMOUT 0 400p IC=0
+Rcs6 CS9 ILIM 500
+Rdlo1 PENHOLO ENHOLO 500
+Eres3 RES11 0 VALUE { if(V(ILIM)>4.5,5,0) }
+Rvref1 VREF2 VREF3  1
+Xuvc1 UVC2 VCCLOW VCCuv uvc1 rsff5k PARAMS:
+Cram1 RAM2 0 3p IC=0
+Ruvidummy 0 UVLO 10Meg
+Rss8 SS2 SSRESET 500
+Cpwm2 PWM2 0 3p IC=0
+Evcc2 VCC2 0 VALUE { IF(V(SD)>2.5,0,V(VCC1)) }
+Cdr6 DR6 0 3p IC=0
+Ccomp1 COMP 0 1p IC=0
+Rcs7 CS CS2 32
+Ccs7 CS2 0 10p IC=0
+Rvccint2 VCCINT VCC 10m
+Cdr12 SR2 0 3p IC=0
+Cdr5 DR5 0 3p IC=0
+Rvref2 0 VREF3  5k
+Cdl3 DL1 0 10p IC=0
+Gvref1 0 REF TABLE { V(VREF3, REF) } ( (0,0)(0.15,0.02) )
+Dvcc1 vcctemp VIN DNOM 
+Dvcc2 VCC vcctemp DNOM 
+Dvref1 REF VCC DNOM
+*SWITCHs
+Sdiode_vcc1 VCC5 VCC6 VCC5 VCC6 SWCLAMP
+Spwmdiode1 PWM5 PWMOUT PWM5 PWMOUT SWCLAMP
+Scompdiode1 COMPX COMP4 COMPX COMP4 SWCLAMP
+Smondiode1 MON4 MON3 MON4 MON3 SWCLAMP
+Suvi1 0 UVLO 0 UVLO SWCLAMP
+Sresdiode1 RES V5V RES V5V SWCLAMP
+Sresdiode2 0 RES 0 RES SWCLAMP
+Scsdiode1 CS9 ILIM CS9 ILIM SWCLAMP
+Scsdiode2 ILIM V5V ILIM V5V SWCLAMP
+Sssdiode1 SS V5V SS V5V SWCLAMP
+Sssdiode2 0 SS 0 SS SWCLAMP
+Sdd1 DELAYDRVHI V5V DELAYDRVHI V5V SWCLAMP
+Sdd2 0 DELAYDRVHI 0 DELAYDRVHI SWCLAMP
+Sdd3 DELAYDRVLO V5V DELAYDRVLO V5V SWCLAMP
+Sdd4 0 DELAYDRVLO 0 DELAYDRVLO SWCLAMP
+Sres1 RES1 0 RES2 0 S5K
+Sdl1 V5V DL1 DRVLO 0 S5K
+Sss1 SS1 0 SS2 0 S5K
+Sram1 RAM1 0 RAM2 0 S5K
+Scs1 CS2 0 CSBLANK 0 S5K
+Smon1 V5V MON1 MON2 0 S5K
+Smon2 MON1 0 CLK 0 S5K
+Sdriver1 HB HO DR5 0 SdriverT
+Sdriver2 HO HS DR5 0 SdriverB
+Sdriver3 VCC LO DR6 0 SdriverT
+Sdriver4 LO 0 DR6 0 SdriverB
+Sdriver6 SR1 0 DR7 0 SdriverSRB
+Sdriver8 SR2 0 DR8 0 SdriverSRB
+Rgiga1 VCC5 VCC6 1G
+Rgiga2 PWM5 PWMOUT 1G
+Rgiga3 COMPX COMP4 1G
+Rgiga4 MON4 MON3 1G
+Rgiga5 0 UVLO 1G
+Rgiga6 RES V5V 1G
+Rgiga7 0 RES 1G
+Rgiga8 CS9 ILIM 1G
+Rgiga9 ILIM V5V 1G
+Rgiga10 SS V5V 1G
+Rgiga11 0 SS 1G
+Rgiga12 DELAYDRVHI V5V 1G
+Rgiga13 0 DELAYDRVHI 1G
+Rgiga14 DELAYDRVLO V5V 1G
+Rgiga15 0 DELAYDRVLO 1G
+Rgiga16 RES2 0 1G
+Rgiga17 DRVLO 0 1G
+Rgiga18 SS2 0 1G
+Rgiga19 RAM2 0 1G
+Rgiga20 CSBLANK 0 1G
+Rgiga21 MON2 0 1G
+Rgiga22 CLK 0 1G
+Rgiga23 DR5 0 1G
+Rgiga24 DR5 0 1G
+Rgiga25 DR6 0 1G
+Rgiga26 DR6 0 1G
+Rgiga27 DR7 0 1G
+Rgiga28 DR8 0 1G
+Rgiga29	OUTPUTTIMERRESET 0 1G
+Rgiga30 DR7 0 1G
+Rgiga331 DR8 0 1G
+*35
+Gvcc1 0 VCC4 TABLE { V(VCC3, VCC4) } ( (0,0)(0.3,0.020) )
+Euvb1 UVB3 0 VALUE { if((V(HB)-V(HS))>4.9,5,0) }
+Euvb2 UVB5 0 VALUE { if((V(HB)-V(HS))<4.5,5,0) }
+Gss1 0 SS VALUE { if(V(VCCuv)<=2.5 & V(VREFuv)<=2.5, if(V(nSB)<=2.5 | V(SSrestart)>2.5 | V(SSreset)>2.5
++, 1.2E-6, 55E-6),0) }
+Edriversoff PDRIVERSOFF 0 VALUE { if(V(VREFuv)>2.5 | V(VREFlow)>2.5 | V(ovpsig)>2.5 | V(VCClow)>2.5 
++| V(SD)>2.5,5,0) }
+Edrvhi1 PDRVHI 0 VALUE { if(V(selectHILO)>2.5 & V(PWMout2)>2.5 & V(SSreset)<=2.5 & V(nCLK)>2.5,5,0) }
+Edrvlo1 PDRVLO 0 VALUE { if(V(selectHILO)<=2.5 & V(PWMout2)>2.5 & V(SSreset)<=2.5 & V(nCLK)>2.5,5,0) }
+Edlo2 PENSR1SR2 0 VALUE { if(V(DRVlatch)>2.5 & V(DRIVERSoff)<=2.5,5,0) }
+Gdd1 0 DELAYDRVHI VALUE { if(V(DRVHI)>2.5,I(VDLY)*14.286,-I(VDLY)*29.63) }
+Gdd2 0 DELAYDRVLO VALUE { if(V(DRVLO)>2.5,I(VDLY)*14.286,-I(VDLY)*29.63) }
+Sdl2 DL1 0 DRIVERSoff 0 S5K
+Sdriver5 VCC SR1 DR7 0 SdriverSRT
+Sdriver7 VCC SR2 DR8 0 SdriverSRT
+*subckt
+.MODEL Dnom D IS=100n RS=30m CJO=10p VJ=0.5 EG=0.6
+.MODEL S5K VSWITCH RON=1 ROFF=100E6 VON=1V VOFF=0.0V
+.MODEL SWCLAMP VSWITCH RON=0.001 ROFF=100E6 VON=10m VOFF=0
+.MODEL SdriverT VSWITCH RON=8 ROFF=0.5E6 VON=2.6V VOFF=2.4V
+.MODEL SdriverB VSWITCH RON=0.5E6 ROFF=5 VON=2.6V VOFF=2.4V
+.MODEL SdriverSRT VSWITCH RON=20 ROFF=0.5E6 VON=2.6V VOFF=2.4V
+.MODEL SdriverSRB VSWITCH RON=0.5E6 ROFF=20 VON=2.6V VOFF=2.4V
+.MODEL NOMNPN NPN RB=350 RC=600 RE=20
+.ENDS LM5035
+
+* RSFF
+.SUBCKT RSFF5K R S Q NQ
+Eff1 PSTATE 0 VALUE { if(V(R)>2.5 & V(S)<=2.5,0,if(V(R)<=2.5 & V(S)>2.5,5,2.5)) }
+Rff1 STATE PSTATE 500  
+Cff1 STATE 0  9p IC=0 
+Eff2 PQ 0 VALUE {if(V(STATE)>=4.5,5,if(V(STATE)<=0.5,0,if(V(FFMEM)>2.5,5,0))) }
+Rff2 Q PQ  500 
+Cff2 Q 0  12p IC=0 
+Eff3 PNQ 0 VALUE {if(V(STATE)>=4.5,0,if(V(STATE)<=0.5,5,if(V(FFMEM)>2.5,0,5))) }
+Rff3 NQ PNQ  500  
+Cff3 NQ 0  12p IC=0 
+Sff4 V5V FFMEM Q 0 SFF
+Rff4 Q 0 1G
+Sff5 FFMEM 0 NQ 0 SFF
+Rff5 NQ 0 1G
+Cff6 FFMEM 0  3p IC=0  
+Vff7 V5V 0 5
+.MODEL SFF VSWITCH RON=500 ROFF=100MEG VON=4.5V VOFF=0.5V
+.ENDS RSFF5K
+
+*//////////////////////////////////////////////////////////////////////////////////////////////////////
+* (C) National Semiconductor, Corporation.
+* Models developed and under copyright by:
+* National Semiconductor, Corporation.  
+*//////////////////////////////////////////////////////////////////////////////////////////////////////
+* Legal Notice:  
+* The model may be copied, and distributed without any modifications;
+* however, reselling or licensing the material is illegal.
+* We reserve the right to make changes to the model without any prior notice.
+* Pspice Models are provided "AS IS, WITH NO WARRANTY OF ANY KIND"
+*//////////////////////////////////////////////////////////////////////////////////////////////////////
+* Model Number 	     : LM5035A PWM Controller with Integrated Half-Bridge and SyncFET Drivers
+* Last Revision Date : July 12, 2010
+* Revision Number    : 1.0
+* E-mail feedback    : http://wwwd.national.com/feedback/
+* Generated from Pspice Plugin Ver. 16.2
+* Modelled by : Eric Lee,  eric.lee@nsc.com
+*////////////////////////////////////////////////////////////////////////////////////////////////////////
+* This model has only been tested with Orcad PSPICE.  
+* Additional modifications maybe required to work with other SPICE packages
+*////////////////////////////////////////////////////////////////////////////////////////////////////////
+*<Introduction >
+*This document contains the PSPICE model and the simulation circuit example for National Semiconductor's 
+*LM5035A.
+*The LM5035A Half-Bridge Controller/Gate Driver contains all of the features necessary to 
+*implement half-bridge topology power converters
+*using voltage mode control with line voltage feed-forward.
+*<LM5035A Model>
+*The LM5035A Model contains all of the basic features including;
+*- Voltage Mode with Line Feed-Forward
+*- Internal Start-up Bias Regulator
+*- Half-Bridge Gate Drivers
+*- Synchronous Rectifier Control Outputs with Programmable Delay
+*- Single Resistor Programmable Switching Frequency
+*- Programmable Soft Start
+*- Programmable UVLO and OVP
+*- Volt-Second Limiting
+*- Cycle-by-Cycle Current Limit
+*- Versatile Hiccup mode Current Limit
+*- Direct Optocoupler Interface
+*- 5V Reference
+*<Assumptions and limitations>
+*Model & Example Assumptions;
+*- The temperature is 25C
+*- ESR and ESL of capacitors are zero.
+*- Wire DCR and leakage inductances of transformer are zero.
+*- No parasitic elements of IC package. 
+*Some functions/characteristics of LM5035A are not included in this model;
+*- Thermal Shutdown 
+*- Oscillator Synchronization
+*Some characteristics of LM5035A are included but not optimized
+*- Gate driver capability/strength
+*- Power consumption of controller  
+*- SS discharging time 
+*- UVLO shutdown hysteresis (0.1V)
+*- 80ns CS delay to output
+*Also AGND and PGND pin of LM5035A are internally tied to GND (node number 0)
+*<Note>
+*- To run the simulation, a simulation profile should be added first. Click 'New Simulation Profile' 
+*- The simulation takes around 4~8min actual time per 1ms simulation on a 1.7GHz machine.
+*- Vsupply should have a slope lower than 1V/us
+*///////////////////////////////////////////////////////////////////////////////////////////////
+.SUBCKT LM5035A RAMP UVLO OVP COMP RT CS SS DLY RES HB HS HO LO VCC SR2 SR1 REF VIN
+VVCC VCC4 VCC5 0
+Rram3_discharge 0 RAM2 1k
+Rres6 RES9 RES11 500
+Cresdum1 RES 0 3p IC=0
+Rcomp1 REF COMPX 5k
+Ccs6 ILIM 0 100p IC=0
+Rdr5 DRVHISIG DR5 500
+Cvcc4 VCC6 0 3p IC=0
+Ecs4 CS7 0 VALUE { if(V(RAMPINT)>3.5 | V(CLK)>2.5 | V(PWMout)>2.5,5,0) }
+Cotr7 OTR10 0 3p IC=0
+Rovdummy 0 OVP 10Meg
+Guvihys1 UVLO 0 VALUE { if(V(NSB)>2.5, 0, 23E-6) }
+Rram2 RAM2 RAM3 500
+Eosc1 OSC1 0 VALUE { if(V(OSC2)>cos(2*3.14*35E-9/(2/(6.25E9*I(VRT))+110E-9)),5,0) }
+Cres6 RES9 0 3p IC=0
+Xuvr1 UVR2 VREFLOW VREFuv uvr1 rsff5k PARAMS:
+Rcs3 CS5 CS7 500
+Cotr8 OTR11 0 3p IC=5
+Tleb LEB1 0 LEB2 0 Z0=1 TD=50n
+Cuvi1 SD 0 3p IC=0
+Ess1 SSRESET 0 VALUE { if(V(DRIVERSoff)>2.5 | V(CLtimerout)>2.5 | V(SD)>2.5,5,0) }
+Edff4 DFF7 0 VALUE { if(V(CLK)>2.5,V(DFF5),0) }
+V1 V5V 0 5
+Rdlydummy DLY 0 10E6
+Ruvb3 UVB2 UVB3 500
+Rdr7 SR1SIG DR7 500
+Rotr1 OTR1 OUTPUTTIMERRESET 500
+Cosc1 CLK 0 5p IC=5
+Rcs4 CS6 CS8 500
+Cres5 RES8 0 3p IC=0
+Cdlo1 ENHOLO 0 3p IC=0
+Edff3 DFF6 0 VALUE { if(V(CLK)>2.5,V(DFF4),0) }
+Rcomp2 COMP2 0 200
+V1V RAMPINT RAMP 1
+Cuvc3 UVC2 0 3p IC=0
+Xdff1 DFF2 DFF3 DFF4 DFF5 rsff5k PARAMS:
+Rosc1 CLK OSC1 500
+Evref2 VREF2 0 VALUE { if(V(VCCuv)>2.5 | V(VCClow)>2.5 | V(SD)>2.5,0,V(VREF1)) }
+Euvc1 UVC3 0 VALUE { if(V(VCC)>7.4,5,0) }
+Rleb1 LEB1 0 1
+Cotr1 OUTPUTTIMERRESET 0 3p IC=0
+Cuvb1 UVB2 0 3p IC=0
+Css7 SS2 0 300p IC=0
+Euvi2 UVI2 0 VALUE { if(V(UVLO)>1.25,5,0) }
+Cvref1 VREF3 0 3p IC=0
+Rcomp3 COMP3 0 200
+Cvcc2 VCC4 0 3p IC=0
+Rdr6 DRVLOSIG DR6  500
+Cdr11 SR1 0 3p IC=0
+Gss2 SS 0 VALUE { if(V(VCCuv)<=2.5 & V(VREFuv)<=2.5,if(V(nSB)<=2.5,110E-6,0),0) }
+Cvcc5 VCC7 0 3p IC=0
+Ruvc3 UVC2 UVC3  500
+Cmon1 MON2 0 10p IC=0
+Cmon2 MON1 0 20p IC=0
+Cmon3 MON3 0 3p IC=0
+Eosc2 OSC3 0 VALUE { if(V(VREFuv)<=2.5,sin(2*3.141592*TIME/(2/(6.25E9*I(VRT))+110E-9)),0) }
+Rosc2 OSC2 OSC3 500
+Cosc2 OSC2 0 3p IC=0
+Eleb2 LEB2 0 LEB3 0 1
+Cuvr1 UVR2 0 3p IC=0
+Ccs3 CS5 0 3p IC=0
+Eotr1 OTR1 0 VALUE { if(V(DRIVERSOFF)>2.5 | V(SSRESTART)>2.5,5,0) }
+Cvcc3 VCC5 0 3p IC=0
+Cdl1 DRVLATCH 0 400p IC=0
+Cuvc4 VCCLOW 0 3p IC=0
+Edrv5 DRVHISIG 0 VALUE { if(V(ENholo)<=2.5,0,if(V(DRVHI)>2.5 & V(DELAYDRVHI)>2.5 & V(VCClow)<=2.5 
++& V(UVb)>2.5,5,0)) }
+Cuvb2 UVB4 0 3p IC=0
+Rdlo2 PENSR1SR2 ENSR1SR2 500
+Euvr1 UVR3 0 VALUE { if(V(REF)>4,5,0) }
+Ruvi2 NSB UVI2 500
+Eov1 OV1 0 VALUE { if(V(OVP)>1.25,5,0) }
+Ccs4 CS6 0 3p IC=0
+VDLY VDLY1 DLY 0
+Xres_sub1 RES5 RES6 RESLATCH res4 rsff5k PARAMS:
+Euvi1 UVI1 0 VALUE { if(V(UVLO)>0.35,0,5) }
+Rmon2 MON3 MON4 500
+Cdr8 DR8 0 3p IC=0
+Xdff2 DFF6 DFF7 SELECTHILO DFF1 rsff5k PARAMS:
+Ggateloss VIN 0 VALUE { I(VVCC) }
+Ecomp1 COMP4 0 VALUE { V(SS) }
+Xuvb1 UVB2 UVB4 uvb1 UVb rsff5k PARAMS:
+Rdl1 DRVLATCH DL1 2
+Rvcc4 VCC7 VCC 1
+Eleb1 CS8 0 VALUE { if(V(LEB1)>2.5 & V(LEB4)>2.5,5,0)  }
+Ruvr1 UVR2 UVR3 500
+Rov1  OVPSIG OV1 500
+Eotr2 OTR6 0 VALUE { if(V(DRVHI)>2.5 | V(DRIVERSOFF)>2.5,5,0) }
+Rpwm3 PWMOUT PWM5 50
+Evcc1 VCC1 0 TABLE { V(VIN) } ( (0,0)(4.5,0)(4.6,0.7)(12,7.6) )
+Edrv7 SR1SIG 0 VALUE { if(V(ENsr1sr2)<=2.5,0,if(V(DRVHI)>2.5 | V(DELAYDRVHI)>2.5,0,if(V(VCClow)<=2.5,5,0))) }
+Cuvi2 NSB 0 3p IC=0
+Eres_sub1 RES5 0 VALUE { if(V(CLK)>2.5,V(RES7),0) }
+Eres_sub2 RES6 0 VALUE { if(V(CLK)>2.5,V(ILIMLATCH),0) }
+Rotr4 OTR5 OTR6 500
+Emon1 MON4 0 VALUE { if(V(RAMPint)>3.5,5,0) }
+Rleb2 LEB3 LEB4 500
+Evdly1 VDLY1 0 TABLE { V(REF,0) } ( (0,0) (2.5,2.5) )
+Cuvr2 VREFLOW 0 3p IC=0
+Rss7 SS1 SS 32
+Cdd1 DELAYDRVHI 0 40p IC=0
+Cdlo2 ENSR1SR2 0 3p IC=0
+Rvccint1 VCC6 VCCINT  100m
+Euvc2 UVC5 0 VALUE { if(V(VCC)<6.2,5,0) }
+Cvref2 REF 0 3p IC=0
+Givcc1 VCC7 0 TABLE { V(VCC) } ( (0,0) (7.5,0.004)  )
+Cdr10 LO 0 3p IC=0
+Cleb1 LEB3 0 3p IC=0
+Cov1 OVPSIG 0 3p IC=0
+Rdrvhi1 DRVHI PDRVHI  500
+Cotr4 OTR5 0 10p IC=0
+Rres1 RES1 RES 32
+Rmon1 MON2 MON3 200
+Xcs1 CS5 CS6 cs4 CSBLANK rsff5k PARAMS:
+Ruvc4 VCCLOW UVC5 500
+Cdrvhi1 DRVHI 0  10p IC=0
+Xotr2 OTR10 OTR11 CLTIMEROUT otr9 rsff5k PARAMS:
+Epwm1 PWM5 0 VALUE { if((V(RAMPINT)>V(COMPX)) | V(maxONlatch)>2.5 | V(ILIMlatch)>2.5 | V(DRIVERSoff)>2.5 
++| V(SSreset)>2.5,5,0) }
+Ruvb2 UVB4 UVB5 500
+Eosc3 NCLK 0 VALUE { {5-V(CLK)} }
+Eleb3 LEB4 0 VALUE { if(V(DRVLOSIG)>2.5 | V(DRVHISIG)>2.5,5,0) }
+Tresd1 DCLK 0 RESD2 0 Z0=1 TD=80n
+Qcomp2 COMPX COMP COMP3 NOMNPN
+Rdr8 SR2SIG DR8 500
+Rvcc3 0 VCC4 5k
+Euvr2 UVR5 0 VALUE { if(V(REF)<3,5,0) }
+Eres1 RES3 0 VALUE { if(V(CLTIMEROUT)>2.5,5,0) }
+Xpwm1 PWMOUT PWM2 PWMOUT2 pwm1 rsff5k PARAMS:
+Evref1 VREF1 0 TABLE { V(VCC) } ( (0,0) (6,5) )
+Ecs2 CS9 0 VALUE { if(V(CLK)>0.1,0,if(V(CS1)>0.25 & V(PWMOUT2)>2.5,5,0)) }
+Cdl2 MAXONLATCH 0 500p IC=0
+Rdrvoff1 PDRIVERSOFF DRIVERSOFF 500
+Rram1 RAM1 RAMP 10
+Edff1 DFF2 0 VALUE { if(V(NCLK)>2.5,V(DFF1),0) }
+RdumRT RT 0 10E6
+Ruvr2 VREFLOW UVR5 500
+Rvindummy1 VIN 0 1.28Meg
+Rresd1 DCLK 0 1
+Rdrvlo1 DRVLO PDRVLO 500
+Rcs5 CS CS1 2k
+Edrv8 SR2SIG 0 VALUE { if(V(ENsr1sr2)<=2.5,0,if(V(DRVLO)>2.5 | V(DELAYDRVLO)>2.5,0,if(V(VCClow)<=2.5,5,0))) }
+Cdrvoff1 DRIVERSOFF 0 3p IC=0
+Xotr1 OTR5 CLTIMEROUT SSRESTART otr4 rsff5k PARAMS:
+Epwm2 PWM4 0 VALUE { if(V(CLK)>4.5, 5, 0) }
+Eram1 RAM3 0 VALUE { if(V(SSRESET)>2.5 | V(CLK)>2.5 | V(maxONlatch)>2.5,5,0) }
+Eres2 RES10 0 VALUE { if(V(DCLK)>2.5,5,0) }
+Eotr3 OTR12 0 VALUE { if(V(RES)<0.1 & V(SS)<0.1,5,0) }
+Cdd2 DELAYDRVLO 0 40p IC=0
+Cdr9 HO HS 3p IC=0
+Rvcc1 VCC2 VCC3 1
+Cdrvlo1 DRVLO 0 10p IC=0
+Ccs5 CS1 0 6p IC=0
+Eresd1 RESD2 0 CLK 0 1
+Rvref3 0 REF 5k
+Edlo1 PENHOLO 0 VALUE { if(V(DRVlatch)>2.5 & V(DRIVERSoff)<=2.5,5,0)}
+Edrv6 DRVLOSIG 0 VALUE { if(V(ENholo)<=2.5,0,if(V(DRVLO)>2.5 & V(DELAYDRVLO)>2.5 & V(VCClow)<=2.5,5,0)) }
+Rotr7 OTR10 OTR12 500
+Rpwm2 PWM2 PWM4 500
+Rvcc2 0 VCC3 2k
+Xres1 RES8 RES9 ILIMLATCH RES7 rsff5k PARAMS:
+Ruvi1 SD UVI1 500
+Cres1 RES2 0 300p IC=0
+VRT VRT1 RT 0
+Cvccint1 0 VCCINT 10p IC=0
+Cdr7 DR7 0 3p IC=0
+Rres5 RES8 RES10 500
+Eotr4 OTR13 0 VALUE { if(V(DRIVERSOFF)>2.5 | V(RES)>2.5,5,0) }
+Gres1 0 RES VALUE { if(V(RESLATCH)>2.5, 22E-6, -12E-6) }
+Edff2 DFF3 0 VALUE { if(V(NCLK)>2.5,V(SELECTHILO),0) }
+Rres2 RES2 RES3 500
+Rresdum1 0 RES 1G
+Rdl2 MAXONLATCH MON1 5
+Evrt1 VRT1 0 TABLE { V(REF,0) } ( (0,0) (2,2) )
+Govhys1 0 OVP VALUE { if(V(OVPSIG)>2.5,23E-6,0) }
+Cvcc1 VCC3 0 3p IC=0
+Qcomp1 COMP COMP COMP2 NOMNPN
+Rotr8 OTR11 OTR13 500
+Css5 SS 0 3p IC=0
+Cpwm1 PWMOUT 0 400p IC=0
+Rcs6 CS9 ILIM 500
+Rdlo1 PENHOLO ENHOLO 500
+Eres3 RES11 0 VALUE { if(V(ILIM)>4.5,5,0) }
+Rvref1 VREF2 VREF3  1
+Xuvc1 UVC2 VCCLOW VCCuv uvc1 rsff5k PARAMS:
+Cram1 RAM2 0 3p IC=0
+Ruvidummy 0 UVLO 10Meg
+Rss8 SS2 SSRESET 500
+Cpwm2 PWM2 0 3p IC=0
+Evcc2 VCC2 0 VALUE { IF(V(SD)>2.5,0,V(VCC1)) }
+Cdr6 DR6 0 3p IC=0
+Ccomp1 COMP 0 1p IC=0
+Rcs7 CS CS2 32
+Ccs7 CS2 0 10p IC=0
+Rvccint2 VCCINT VCC 10m
+Cdr12 SR2 0 3p IC=0
+Cdr5 DR5 0 3p IC=0
+Rvref2 0 VREF3  5k
+Cdl3 DL1 0 10p IC=0
+Gvref1 0 REF TABLE { V(VREF3, REF) } ( (0,0)(0.15,0.02) )
+Dvcc1 vcctemp VIN DNOM 
+Dvcc2 VCC vcctemp DNOM 
+Dvref1 REF VCC DNOM
+*SWITCHs
+Sdiode_vcc1 VCC5 VCC6 VCC5 VCC6 SWCLAMP
+Spwmdiode1 PWM5 PWMOUT PWM5 PWMOUT SWCLAMP
+Scompdiode1 COMPX COMP4 COMPX COMP4 SWCLAMP
+Smondiode1 MON4 MON3 MON4 MON3 SWCLAMP
+Suvi1 0 UVLO 0 UVLO SWCLAMP
+Sresdiode1 RES V5V RES V5V SWCLAMP
+Sresdiode2 0 RES 0 RES SWCLAMP
+Scsdiode1 CS9 ILIM CS9 ILIM SWCLAMP
+Scsdiode2 ILIM V5V ILIM V5V SWCLAMP
+Sssdiode1 SS V5V SS V5V SWCLAMP
+Sssdiode2 0 SS 0 SS SWCLAMP
+Sdd1 DELAYDRVHI V5V DELAYDRVHI V5V SWCLAMP
+Sdd2 0 DELAYDRVHI 0 DELAYDRVHI SWCLAMP
+Sdd3 DELAYDRVLO V5V DELAYDRVLO V5V SWCLAMP
+Sdd4 0 DELAYDRVLO 0 DELAYDRVLO SWCLAMP
+Sres1 RES1 0 RES2 0 S5K
+Sdl1 V5V DL1 DRVLO 0 S5K
+Sss1 SS1 0 SS2 0 S5K
+Sram1 RAM1 0 RAM2 0 S5K
+Scs1 CS2 0 CSBLANK 0 S5K
+Smon1 V5V MON1 MON2 0 S5K
+Smon2 MON1 0 CLK 0 S5K
+Sdriver1 HB HO DR5 0 SdriverT
+Sdriver2 HO HS DR5 0 SdriverB
+Sdriver3 VCC LO DR6 0 SdriverT
+Sdriver4 LO 0 DR6 0 SdriverB
+Sdriver6 SR1 0 DR7 0 SdriverSRB
+Sdriver8 SR2 0 DR8 0 SdriverSRB
+Rgiga1 VCC5 VCC6 1G
+Rgiga2 PWM5 PWMOUT 1G
+Rgiga3 COMPX COMP4 1G
+Rgiga4 MON4 MON3 1G
+Rgiga5 0 UVLO 1G
+Rgiga6 RES V5V 1G
+Rgiga7 0 RES 1G
+Rgiga8 CS9 ILIM 1G
+Rgiga9 ILIM V5V 1G
+Rgiga10 SS V5V 1G
+Rgiga11 0 SS 1G
+Rgiga12 DELAYDRVHI V5V 1G
+Rgiga13 0 DELAYDRVHI 1G
+Rgiga14 DELAYDRVLO V5V 1G
+Rgiga15 0 DELAYDRVLO 1G
+Rgiga16 RES2 0 1G
+Rgiga17 DRVLO 0 1G
+Rgiga18 SS2 0 1G
+Rgiga19 RAM2 0 1G
+Rgiga20 CSBLANK 0 1G
+Rgiga21 MON2 0 1G
+Rgiga22 CLK 0 1G
+Rgiga23 DR5 0 1G
+Rgiga24 DR5 0 1G
+Rgiga25 DR6 0 1G
+Rgiga26 DR6 0 1G
+Rgiga27 DR7 0 1G
+Rgiga28 DR8 0 1G
+Rgiga29	OUTPUTTIMERRESET 0 1G
+Rgiga30 DR7 0 1G
+Rgiga331 DR8 0 1G
+*35A
+Gvcc1 0 VCC4 TABLE { V(VCC3, VCC4) } ( (0,0)(0.3,0.025) )
+Euvb1 UVB3 0 VALUE { if((V(HB)-V(HS))>3.8,5,0) }
+Euvb2 UVB5 0 VALUE { if((V(HB)-V(HS))<3.3,5,0) }
+Gss1 0 SS VALUE { if(V(VCCuv)<=2.5 & V(VREFuv)<=2.5, if(V(nSB)<=2.5 | V(SSrestart)>2.5 | V(SSreset)>2.5
++, 1.2E-6, 110E-6),0) }
+Edriversoff PDRIVERSOFF 0 VALUE { if(V(VREFuv)>2.5 | V(VREFlow)>2.5 | V(ovpsig)>2.5 | V(VCClow)>2.5 
++| V(SD)>2.5,5,0) }
+Edrvhi1 PDRVHI 0 VALUE { if(V(selectHILO)>2.5 & V(PWMout2)>2.5 & V(SSreset)<=2.5 & V(nCLK)>2.5,5,0) }
+Edrvlo1 PDRVLO 0 VALUE { if(V(selectHILO)<=2.5 & V(PWMout2)>2.5 & V(SSreset)<=2.5 & V(nCLK)>2.5,5,0) }
+Edlo2 PENSR1SR2 0 VALUE { if(V(DRVlatch)>2.5 & V(DRIVERSoff)<=2.5,5,0) }
+Gdd1 0 DELAYDRVHI VALUE { if(V(DRVHI)>2.5,I(VDLY)*13.333,-I(VDLY)*57.143) }
+Gdd2 0 DELAYDRVLO VALUE { if(V(DRVLO)>2.5,I(VDLY)*13.333,-I(VDLY)*57.143) }
+Sdl2 DL1 0 DRIVERSoff 0 S5K
+Sdriver5 VCC SR1 DR7 0 SdriverSRT
+Sdriver7 VCC SR2 DR8 0 SdriverSRT
+*subckt
+.MODEL Dnom D IS=100n RS=30m CJO=10p VJ=0.5 EG=0.6
+.MODEL S5K VSWITCH RON=1 ROFF=100E6 VON=1V VOFF=0.0V
+.MODEL SWCLAMP VSWITCH RON=0.001 ROFF=100E6 VON=10m VOFF=0
+.MODEL SdriverT VSWITCH RON=8 ROFF=0.5E6 VON=2.6V VOFF=2.4V
+.MODEL SdriverB VSWITCH RON=0.5E6 ROFF=5 VON=2.6V VOFF=2.4V
+.MODEL SdriverSRT VSWITCH RON=20 ROFF=0.5E6 VON=2.6V VOFF=2.4V
+.MODEL SdriverSRB VSWITCH RON=0.5E6 ROFF=20 VON=2.6V VOFF=2.4V
+.MODEL NOMNPN NPN RB=350 RC=600 RE=20
+.ENDS LM5035A
+
+*///////////////////////////////////////////////////////////////////////////////////////////////////////
+* (C) National Semiconductor, Corporation.
+* Models developed and under copyright by:
+* National Semiconductor, Corporation.  
+*//////////////////////////////////////////////////////////////////////////////////////////////////////
+* Legal Notice:  
+* The model may be copied, and distributed without any modifications;
+* however, reselling or licensing the material is illegal.
+* We reserve the right to make changes to the model without any prior notice.
+* Pspice Models are provided "AS IS, WITH NO WARRANTY OF ANY KIND"
+*//////////////////////////////////////////////////////////////////////////////////////////////////////
+* Model Number 	     : LM5035B PWM Controller with Integrated Half-Bridge and SyncFET Drivers
+* Last Revision Date : July 12, 2010
+* Revision Number    : 1.0
+* E-mail feedback    : http://wwwd.national.com/feedback/
+* Generated from Pspice Plugin Ver. 16.2
+* Modelled by : Eric Lee,  eric.lee@nsc.com
+*//////////////////////////////////////////////////////////////////////////////////////////////////////
+* This model has only been tested with Orcad PSPICE.  
+* Additional modifications maybe required to work with other SPICE packages
+*//////////////////////////////////////////////////////////////////////////////////////////////////////
+*<Introduction >
+*This document contains the PSPICE model and the simulation circuit example for National Semiconductor's 
+*LM5035B.
+*The LM5035B Half-Bridge Controller/Gate Driver contains all of the features necessary to implement 
+*half-bridge topology power converters
+*using voltage mode control with line voltage feed-forward.
+*<LM5035B Model>
+*The LM5035B Model contains all of the basic features including;
+*- Voltage Mode with Line Feed-Forward
+*- Internal Start-up Bias Regulator
+*- Half-Bridge Gate Drivers
+*- Synchronous Rectifier Control Outputs with Programmable Delay
+*- Single Resistor Programmable Switching Frequency
+*- Programmable Soft Start
+*- Programmable UVLO and OVP
+*- Volt-Second Limiting
+*- Cycle-by-Cycle Current Limit
+*- Versatile Hiccup mode Current Limit
+*- Direct Optocoupler Interface
+*- 5V Reference
+*<Assumptions and limitations>
+*Model & Example Assumptions;
+*- The temperature is 25C
+*- ESR and ESL of capacitors are zero.
+*- Wire DCR and leakage inductances of transformer are zero.
+*- No parasitic elements of IC package. 
+*Some functions/characteristics of LM5035B are not included in this model;
+*- Thermal Shutdown 
+*- Oscillator Synchronization
+*Some characteristics of LM5035B are included but not optimized
+*- Gate driver capability/strength
+*- Power consumption of controller  
+*- SS discharging time 
+*- UVLO shutdown hysteresis (0.1V)
+*- 80ns CS delay to output
+*Also AGND and PGND pin of LM5035B are internally tied to GND (node number 0)
+*<Note>
+*- To run the simulation, a simulation profile should be added first. Click 'New Simulation Profile' 
+*- The simulation takes around 5~8min actual time per 1ms simulation on a 1.7GHz machine.
+*- Vsupply should have a slope lower than 1V/us
+*//////////////////////////////////////////////////////////////////////////////////////////////////
+.SUBCKT LM5035B RAMP UVLO OVP COMP RT CS SS DLY RES HB HS HO LO VCC SR2 SR1 REF VIN
+VVCC VCC4 VCC5 0
+Rram3_discharge 0 RAM2 1k
+Rres6 RES9 RES11 500
+Cresdum1 RES 0 3p IC=0
+Rcomp1 REF COMPX 5k
+Ccs6 ILIM 0 100p IC=0
+Rdr5 DRVHISIG DR5 500
+Cvcc4 VCC6 0 3p IC=0
+Ecs4 CS7 0 VALUE { if(V(RAMPINT)>3.5 | V(CLK)>2.5 | V(PWMout)>2.5,5,0) }
+Cotr7 OTR10 0 3p IC=0
+Rovdummy 0 OVP 10Meg
+Guvihys1 UVLO 0 VALUE { if(V(NSB)>2.5, 0, 23E-6) }
+Rram2 RAM2 RAM3 500
+Eosc1 OSC1 0 VALUE { if(V(OSC2)>cos(2*3.14*35E-9/(2/(6.25E9*I(VRT))+110E-9)),5,0) }
+Cres6 RES9 0 3p IC=0
+Xuvr1 UVR2 VREFLOW VREFuv uvr1 rsff5k PARAMS:
+Rcs3 CS5 CS7 500
+Cotr8 OTR11 0 3p IC=5
+Tleb LEB1 0 LEB2 0 Z0=1 TD=50n
+Cuvi1 SD 0 3p IC=0
+Ess1 SSRESET 0 VALUE { if(V(DRIVERSoff)>2.5 | V(CLtimerout)>2.5 | V(SD)>2.5,5,0) }
+Edff4 DFF7 0 VALUE { if(V(CLK)>2.5,V(DFF5),0) }
+V1 V5V 0 5
+Rdlydummy DLY 0 10E6
+Ruvb3 UVB2 UVB3 500
+Rdr7 SR1SIG DR7 500
+Rotr1 OTR1 OUTPUTTIMERRESET 500
+Cosc1 CLK 0 5p IC=5
+Rcs4 CS6 CS8 500
+Cres5 RES8 0 3p IC=0
+Cdlo1 ENHOLO 0 3p IC=0
+Edff3 DFF6 0 VALUE { if(V(CLK)>2.5,V(DFF4),0) }
+Rcomp2 COMP2 0 200
+V1V RAMPINT RAMP 1
+Cuvc3 UVC2 0 3p IC=0
+Xdff1 DFF2 DFF3 DFF4 DFF5 rsff5k PARAMS:
+Rosc1 CLK OSC1 500
+Evref2 VREF2 0 VALUE { if(V(VCCuv)>2.5 | V(VCClow)>2.5 | V(SD)>2.5,0,V(VREF1)) }
+Euvc1 UVC3 0 VALUE { if(V(VCC)>7.4,5,0) }
+Rleb1 LEB1 0 1
+Cotr1 OUTPUTTIMERRESET 0 3p IC=0
+Cuvb1 UVB2 0 3p IC=0
+Css7 SS2 0 300p IC=0
+Euvi2 UVI2 0 VALUE { if(V(UVLO)>1.25,5,0) }
+Cvref1 VREF3 0 3p IC=0
+Rcomp3 COMP3 0 200
+Cvcc2 VCC4 0 3p IC=0
+Rdr6 DRVLOSIG DR6  500
+Cdr11 SR1 0 3p IC=0
+Gss2 SS 0 VALUE { if(V(VCCuv)<=2.5 & V(VREFuv)<=2.5,if(V(nSB)<=2.5,110E-6,0),0) }
+Cvcc5 VCC7 0 3p IC=0
+Ruvc3 UVC2 UVC3  500
+Cmon1 MON2 0 10p IC=0
+Cmon2 MON1 0 20p IC=0
+Cmon3 MON3 0 3p IC=0
+Eosc2 OSC3 0 VALUE { if(V(VREFuv)<=2.5,sin(2*3.141592*TIME/(2/(6.25E9*I(VRT))+110E-9)),0) }
+Rosc2 OSC2 OSC3 500
+Cosc2 OSC2 0 3p IC=0
+Eleb2 LEB2 0 LEB3 0 1
+Cuvr1 UVR2 0 3p IC=0
+Ccs3 CS5 0 3p IC=0
+Eotr1 OTR1 0 VALUE { if(V(DRIVERSOFF)>2.5 | V(SSRESTART)>2.5,5,0) }
+Cvcc3 VCC5 0 3p IC=0
+Cdl1 DRVLATCH 0 400p IC=0
+Cuvc4 VCCLOW 0 3p IC=0
+Edrv5 DRVHISIG 0 VALUE { if(V(ENholo)<=2.5,0,if(V(DRVHI)>2.5 & V(DELAYDRVHI)>2.5 & V(VCClow)<=2.5 
++& V(UVb)>2.5,5,0)) }
+Cuvb2 UVB4 0 3p IC=0
+Rdlo2 PENSR1SR2 ENSR1SR2 500
+Euvr1 UVR3 0 VALUE { if(V(REF)>4,5,0) }
+Ruvi2 NSB UVI2 500
+Eov1 OV1 0 VALUE { if(V(OVP)>1.25,5,0) }
+Ccs4 CS6 0 3p IC=0
+VDLY VDLY1 DLY 0
+Xres_sub1 RES5 RES6 RESLATCH res4 rsff5k PARAMS:
+Euvi1 UVI1 0 VALUE { if(V(UVLO)>0.35,0,5) }
+Rmon2 MON3 MON4 500
+Cdr8 DR8 0 3p IC=0
+Xdff2 DFF6 DFF7 SELECTHILO DFF1 rsff5k PARAMS:
+Ggateloss VIN 0 VALUE { I(VVCC) }
+Ecomp1 COMP4 0 VALUE { V(SS) }
+Xuvb1 UVB2 UVB4 uvb1 UVb rsff5k PARAMS:
+Rdl1 DRVLATCH DL1 2
+Rvcc4 VCC7 VCC 1
+Eleb1 CS8 0 VALUE { if(V(LEB1)>2.5 & V(LEB4)>2.5,5,0)  }
+Ruvr1 UVR2 UVR3 500
+Rov1  OVPSIG OV1 500
+Eotr2 OTR6 0 VALUE { if(V(DRVHI)>2.5 | V(DRIVERSOFF)>2.5,5,0) }
+Rpwm3 PWMOUT PWM5 50
+Evcc1 VCC1 0 TABLE { V(VIN) } ( (0,0)(4.5,0)(4.6,0.7)(12,7.6) )
+Edrv7 SR1SIG 0 VALUE { if(V(ENsr1sr2)<=2.5,0,if(V(DRVHI)>2.5 | V(DELAYDRVHI)>2.5,0,if(V(VCClow)<=2.5,5,0))) }
+Cuvi2 NSB 0 3p IC=0
+Eres_sub1 RES5 0 VALUE { if(V(CLK)>2.5,V(RES7),0) }
+Eres_sub2 RES6 0 VALUE { if(V(CLK)>2.5,V(ILIMLATCH),0) }
+Rotr4 OTR5 OTR6 500
+Emon1 MON4 0 VALUE { if(V(RAMPint)>3.5,5,0) }
+Rleb2 LEB3 LEB4 500
+Evdly1 VDLY1 0 TABLE { V(REF,0) } ( (0,0) (2.5,2.5) )
+Cuvr2 VREFLOW 0 3p IC=0
+Rss7 SS1 SS 32
+Cdd1 DELAYDRVHI 0 40p IC=0
+Cdlo2 ENSR1SR2 0 3p IC=0
+Rvccint1 VCC6 VCCINT  100m
+Euvc2 UVC5 0 VALUE { if(V(VCC)<6.2,5,0) }
+Cvref2 REF 0 3p IC=0
+Givcc1 VCC7 0 TABLE { V(VCC) } ( (0,0) (7.5,0.004)  )
+Cdr10 LO 0 3p IC=0
+Cleb1 LEB3 0 3p IC=0
+Cov1 OVPSIG 0 3p IC=0
+Rdrvhi1 DRVHI PDRVHI  500
+Cotr4 OTR5 0 10p IC=0
+Rres1 RES1 RES 32
+Rmon1 MON2 MON3 200
+Xcs1 CS5 CS6 cs4 CSBLANK rsff5k PARAMS:
+Ruvc4 VCCLOW UVC5 500
+Cdrvhi1 DRVHI 0  10p IC=0
+Xotr2 OTR10 OTR11 CLTIMEROUT otr9 rsff5k PARAMS:
+Epwm1 PWM5 0 VALUE { if((V(RAMPINT)>V(COMPX)) | V(maxONlatch)>2.5 | V(ILIMlatch)>2.5 | V(DRIVERSoff)>2.5 
++| V(SSreset)>2.5,5,0) }
+Ruvb2 UVB4 UVB5 500
+Eosc3 NCLK 0 VALUE { {5-V(CLK)} }
+Eleb3 LEB4 0 VALUE { if(V(DRVLOSIG)>2.5 | V(DRVHISIG)>2.5,5,0) }
+Tresd1 DCLK 0 RESD2 0 Z0=1 TD=80n
+Qcomp2 COMPX COMP COMP3 NOMNPN
+Rdr8 SR2SIG DR8 500
+Rvcc3 0 VCC4 5k
+Euvr2 UVR5 0 VALUE { if(V(REF)<3,5,0) }
+Eres1 RES3 0 VALUE { if(V(CLTIMEROUT)>2.5,5,0) }
+Xpwm1 PWMOUT PWM2 PWMOUT2 pwm1 rsff5k PARAMS:
+Evref1 VREF1 0 TABLE { V(VCC) } ( (0,0) (6,5) )
+Ecs2 CS9 0 VALUE { if(V(CLK)>0.1,0,if(V(CS1)>0.25 & V(PWMOUT2)>2.5,5,0)) }
+Cdl2 MAXONLATCH 0 500p IC=0
+Rdrvoff1 PDRIVERSOFF DRIVERSOFF 500
+Rram1 RAM1 RAMP 10
+Edff1 DFF2 0 VALUE { if(V(NCLK)>2.5,V(DFF1),0) }
+RdumRT RT 0 10E6
+Ruvr2 VREFLOW UVR5 500
+Rvindummy1 VIN 0 1.28Meg
+Rresd1 DCLK 0 1
+Rdrvlo1 DRVLO PDRVLO 500
+Rcs5 CS CS1 2k
+Edrv8 SR2SIG 0 VALUE { if(V(ENsr1sr2)<=2.5,0,if(V(DRVLO)>2.5 | V(DELAYDRVLO)>2.5,0,if(V(VCClow)<=2.5,5,0))) }
+Cdrvoff1 DRIVERSOFF 0 3p IC=0
+Xotr1 OTR5 CLTIMEROUT SSRESTART otr4 rsff5k PARAMS:
+Epwm2 PWM4 0 VALUE { if(V(CLK)>4.5, 5, 0) }
+Eram1 RAM3 0 VALUE { if(V(SSRESET)>2.5 | V(CLK)>2.5 | V(maxONlatch)>2.5,5,0) }
+Eres2 RES10 0 VALUE { if(V(DCLK)>2.5,5,0) }
+Eotr3 OTR12 0 VALUE { if(V(RES)<0.1 & V(SS)<0.1,5,0) }
+Cdd2 DELAYDRVLO 0 40p IC=0
+Cdr9 HO HS 3p IC=0
+Rvcc1 VCC2 VCC3 1
+Cdrvlo1 DRVLO 0 10p IC=0
+Ccs5 CS1 0 6p IC=0
+Eresd1 RESD2 0 CLK 0 1
+Rvref3 0 REF 5k
+Edlo1 PENHOLO 0 VALUE { if(V(DRVlatch)>2.5 & V(DRIVERSoff)<=2.5,5,0)}
+Edrv6 DRVLOSIG 0 VALUE { if(V(ENholo)<=2.5,0,if(V(DRVLO)>2.5 & V(DELAYDRVLO)>2.5 & V(VCClow)<=2.5,5,0)) }
+Rotr7 OTR10 OTR12 500
+Rpwm2 PWM2 PWM4 500
+Rvcc2 0 VCC3 2k
+Xres1 RES8 RES9 ILIMLATCH RES7 rsff5k PARAMS:
+Ruvi1 SD UVI1 500
+Cres1 RES2 0 300p IC=0
+VRT VRT1 RT 0
+Cvccint1 0 VCCINT 10p IC=0
+Cdr7 DR7 0 3p IC=0
+Rres5 RES8 RES10 500
+Eotr4 OTR13 0 VALUE { if(V(DRIVERSOFF)>2.5 | V(RES)>2.5,5,0) }
+Gres1 0 RES VALUE { if(V(RESLATCH)>2.5, 22E-6, -12E-6) }
+Edff2 DFF3 0 VALUE { if(V(NCLK)>2.5,V(SELECTHILO),0) }
+Rres2 RES2 RES3 500
+Rresdum1 0 RES 1G
+Rdl2 MAXONLATCH MON1 5
+Evrt1 VRT1 0 TABLE { V(REF,0) } ( (0,0) (2,2) )
+Govhys1 0 OVP VALUE { if(V(OVPSIG)>2.5,23E-6,0) }
+Cvcc1 VCC3 0 3p IC=0
+Qcomp1 COMP COMP COMP2 NOMNPN
+Rotr8 OTR11 OTR13 500
+Css5 SS 0 3p IC=0
+Cpwm1 PWMOUT 0 400p IC=0
+Rcs6 CS9 ILIM 500
+Rdlo1 PENHOLO ENHOLO 500
+Eres3 RES11 0 VALUE { if(V(ILIM)>4.5,5,0) }
+Rvref1 VREF2 VREF3  1
+Xuvc1 UVC2 VCCLOW VCCuv uvc1 rsff5k PARAMS:
+Cram1 RAM2 0 3p IC=0
+Ruvidummy 0 UVLO 10Meg
+Rss8 SS2 SSRESET 500
+Cpwm2 PWM2 0 3p IC=0
+Evcc2 VCC2 0 VALUE { IF(V(SD)>2.5,0,V(VCC1)) }
+Cdr6 DR6 0 3p IC=0
+Ccomp1 COMP 0 1p IC=0
+Rcs7 CS CS2 32
+Ccs7 CS2 0 10p IC=0
+Rvccint2 VCCINT VCC 10m
+Cdr12 SR2 0 3p IC=0
+Cdr5 DR5 0 3p IC=0
+Rvref2 0 VREF3  5k
+Cdl3 DL1 0 10p IC=0
+Gvref1 0 REF TABLE { V(VREF3, REF) } ( (0,0)(0.15,0.02) )
+Dvcc1 vcctemp VIN DNOM 
+Dvcc2 VCC vcctemp DNOM 
+Dvref1 REF VCC DNOM
+*SWITCHs
+Sdiode_vcc1 VCC5 VCC6 VCC5 VCC6 SWCLAMP
+Spwmdiode1 PWM5 PWMOUT PWM5 PWMOUT SWCLAMP
+Scompdiode1 COMPX COMP4 COMPX COMP4 SWCLAMP
+Smondiode1 MON4 MON3 MON4 MON3 SWCLAMP
+Suvi1 0 UVLO 0 UVLO SWCLAMP
+Sresdiode1 RES V5V RES V5V SWCLAMP
+Sresdiode2 0 RES 0 RES SWCLAMP
+Scsdiode1 CS9 ILIM CS9 ILIM SWCLAMP
+Scsdiode2 ILIM V5V ILIM V5V SWCLAMP
+Sssdiode1 SS V5V SS V5V SWCLAMP
+Sssdiode2 0 SS 0 SS SWCLAMP
+Sdd1 DELAYDRVHI V5V DELAYDRVHI V5V SWCLAMP
+Sdd2 0 DELAYDRVHI 0 DELAYDRVHI SWCLAMP
+Sdd3 DELAYDRVLO V5V DELAYDRVLO V5V SWCLAMP
+Sdd4 0 DELAYDRVLO 0 DELAYDRVLO SWCLAMP
+Sres1 RES1 0 RES2 0 S5K
+Sdl1 V5V DL1 DRVLO 0 S5K
+Sss1 SS1 0 SS2 0 S5K
+Sram1 RAM1 0 RAM2 0 S5K
+Scs1 CS2 0 CSBLANK 0 S5K
+Smon1 V5V MON1 MON2 0 S5K
+Smon2 MON1 0 CLK 0 S5K
+Sdriver1 HB HO DR5 0 SdriverT
+Sdriver2 HO HS DR5 0 SdriverB
+Sdriver3 VCC LO DR6 0 SdriverT
+Sdriver4 LO 0 DR6 0 SdriverB
+Sdriver6 SR1 0 DR7 0 SdriverSRB
+Sdriver8 SR2 0 DR8 0 SdriverSRB
+Rgiga1 VCC5 VCC6 1G
+Rgiga2 PWM5 PWMOUT 1G
+Rgiga3 COMPX COMP4 1G
+Rgiga4 MON4 MON3 1G
+Rgiga5 0 UVLO 1G
+Rgiga6 RES V5V 1G
+Rgiga7 0 RES 1G
+Rgiga8 CS9 ILIM 1G
+Rgiga9 ILIM V5V 1G
+Rgiga10 SS V5V 1G
+Rgiga11 0 SS 1G
+Rgiga12 DELAYDRVHI V5V 1G
+Rgiga13 0 DELAYDRVHI 1G
+Rgiga14 DELAYDRVLO V5V 1G
+Rgiga15 0 DELAYDRVLO 1G
+Rgiga16 RES2 0 1G
+Rgiga17 DRVLO 0 1G
+Rgiga18 SS2 0 1G
+Rgiga19 RAM2 0 1G
+Rgiga20 CSBLANK 0 1G
+Rgiga21 MON2 0 1G
+Rgiga22 CLK 0 1G
+Rgiga23 DR5 0 1G
+Rgiga24 DR5 0 1G
+Rgiga25 DR6 0 1G
+Rgiga26 DR6 0 1G
+Rgiga27 DR7 0 1G
+Rgiga28 DR8 0 1G
+Rgiga29	OUTPUTTIMERRESET 0 1G
+Rgiga30 DR7 0 1G
+Rgiga331 DR8 0 1G
+*35B
+Gvcc1 0 VCC4 TABLE { V(VCC3, VCC4) } ( (0,0)(0.3,0.058) )
+Euvb1 UVB3 0 VALUE { if((V(HB)-V(HS))>3.8,5,0) }
+Euvb2 UVB5 0 VALUE { if((V(HB)-V(HS))<3.3,5,0) }
+Gss1 0 SS VALUE { if(V(VCCuv)<=2.5 & V(VREFuv)<=2.5, if(V(nSB)<=2.5 | V(SSrestart)>2.5 
++| V(SSreset)>2.5, 1.2E-6, 110E-6),0) }
+Edriversoff PDRIVERSOFF 0 VALUE { if(V(VREFuv)>2.5 | V(VREFlow)>2.5 | V(ovpsig)>2.5 | V(VCClow)>2.5 
++| V(SD)>2.5,5,0) }
+Edrvhi1 PDRVHI 0 VALUE { if(V(selectHILO)>2.5 & V(PWMout2)>2.5 & V(SSreset)<=2.5,5,0) }
+Edrvlo1 PDRVLO 0 VALUE { if(V(selectHILO)<=2.5 & V(PWMout2)>2.5 & V(SSreset)<=2.5,5,0) }
+Edlo2 PENSR1SR2 0 VALUE { if(V(DRVlatch)>2.5 & V(nSB)>2.5,5,0) }
+Gdd1 0 DELAYDRVHI VALUE { if(V(DRVHI)>2.5,I(VDLY)*13.333,-I(VDLY)*57.143) }
+Gdd2 0 DELAYDRVLO VALUE { if(V(DRVLO)>2.5,I(VDLY)*13.333,-I(VDLY)*57.143) }
+Sdl2 DL1 0 OUTPUTTIMERRESET 0 S5K
+Sdriver5 VCC SR1 DR7 0 SdriverSRT
+Sdriver7 VCC SR2 DR8 0 SdriverSRT
+*subckt
+.MODEL Dnom D IS=100n RS=30m CJO=10p VJ=0.5 EG=0.6
+.MODEL S5K VSWITCH RON=1 ROFF=100E6 VON=1V VOFF=0.0V
+.MODEL SWCLAMP VSWITCH RON=0.001 ROFF=100E6 VON=10m VOFF=0
+.MODEL SdriverT VSWITCH RON=8 ROFF=0.5E6 VON=2.6V VOFF=2.4V
+.MODEL SdriverB VSWITCH RON=0.5E6 ROFF=5 VON=2.6V VOFF=2.4V
+.MODEL SdriverSRT VSWITCH RON=20 ROFF=0.5E6 VON=2.6V VOFF=2.4V
+.MODEL SdriverSRB VSWITCH RON=0.5E6 ROFF=20 VON=2.6V VOFF=2.4V
+.MODEL NOMNPN NPN RB=350 RC=600 RE=20
+.ENDS LM5035B
+
+*/////////////////////////////////////////////////////////////////////////////////////////////////////
+* (C) National Semiconductor, Corporation.
+* Models developed and under copyright by:
+* National Semiconductor, Corporation.  
+*/////////////////////////////////////////////////////////////////////////////////////////////////////
+* Legal Notice:  
+* The model may be copied, and distributed without any modifications;
+* however, reselling or licensing the material is illegal.
+* We reserve the right to make changes to the model without any prior notice.
+* Pspice Models are provided "AS IS, WITH NO WARRANTY OF ANY KIND"
+*////////////////////////////////////////////////////////////////////////////////////////////////////
+* Model Name 	     : LM5035C PWM Controller with Integrated Half-Bridge and SyncFET Drivers
+* Last Revision Date : July 12, 2010
+* Revision Number    : 1.0
+* E-mail feedback    : http://wwwd.national.com/feedback/
+* Generated from Pspice Plugin Ver. 16.2
+* Modelled by : Eric Lee,  eric.lee@nsc.com
+*/////////////////////////////////////////////////////////////////////////////////////////////////////
+* This model has only been tested with Orcad PSPICE.  
+* Additional modifications maybe required to work with other SPICE packages
+*////////////////////////////////////////////////////////////////////////////////////////////////////
+*<Introduction >
+*This document contains the PSPICE model and the simulation circuit example for National Semiconductor's 
+*LM5035C.
+*The LM5035C Half-Bridge Controller/Gate Driver contains all of the features necessary to implement 
+*half-bridge topology power converters
+*using voltage mode control with line voltage feed-forward.
+*<LM5035C Model>
+*The LM5035C Model contains all of the basic features including;
+*- Voltage Mode with Line Feed-Forward
+*- Internal Start-up Bias Regulator
+*- Half-Bridge Gate Drivers
+*- Synchronous Rectifier Control Outputs with Programmable Delay
+*- Single Resistor Programmable Switching Frequency
+*- Programmable Soft Start
+*- Programmable UVLO and OVP
+*- Volt-Second Limiting
+*- Cycle-by-Cycle Current Limit
+*- Versatile Hiccup mode Current Limit
+*- Direct Optocoupler Interface
+*- 5V Reference
+*<Assumptions and limitations>
+*Model & Example Assumptions;
+*- The temperature is 25C
+*- ESR and ESL of capacitors are zero.
+*- Wire DCR and leakage inductances of transformer are zero.
+*- No parasitic elements of IC package. 
+*Some functions/characteristics of LM5035C are not included in this model;
+*- Thermal Shutdown 
+*- Oscillator Synchronization
+*Some characteristics of LM5035C are included but not optimized
+*- Gate driver capability/strength
+*- Power consumption of controller  
+*- SS discharging time 
+*- UVLO shutdown hysteresis (0.1V)
+*- 80ns CS delay to output
+*Also AGND and PGND pin of LM5035C are internally tied to GND (node number 0)
+*<Note>
+*- To run the simulation, a simulation profile should be added first. Click 'New Simulation Profile' 
+*- The simulation takes around 4~8min actual time per 1ms simulation on a 1.7GHz machine.
+*- Vsupply should have a slope lower than 1V/us
+*//////////////////////////////////////////////////////////////////////////////////////////////////
+.SUBCKT LM5035C RAMP UVLO OVP COMP RT CS SS DLY RES HB HS HO LO VCC SR2 SR1 REF VIN
+VVCC VCC4 VCC5 0
+Rram3_discharge 0 RAM2 1k
+Rres6 RES9 RES11 500
+Cresdum1 RES 0 3p IC=0
+Rcomp1 REF COMPX 5k
+Ccs6 ILIM 0 100p IC=0
+Rdr5 DRVHISIG DR5 500
+Cvcc4 VCC6 0 3p IC=0
+Ecs4 CS7 0 VALUE { if(V(RAMPINT)>3.5 | V(CLK)>2.5 | V(PWMout)>2.5,5,0) }
+Cotr7 OTR10 0 3p IC=0
+Rovdummy 0 OVP 10Meg
+Guvihys1 UVLO 0 VALUE { if(V(NSB)>2.5, 0, 23E-6) }
+Rram2 RAM2 RAM3 500
+Eosc1 OSC1 0 VALUE { if(V(OSC2)>cos(2*3.14*35E-9/(2/(6.25E9*I(VRT))+110E-9)),5,0) }
+Cres6 RES9 0 3p IC=0
+Xuvr1 UVR2 VREFLOW VREFuv uvr1 rsff5k PARAMS:
+Rcs3 CS5 CS7 500
+Cotr8 OTR11 0 3p IC=5
+Tleb LEB1 0 LEB2 0 Z0=1 TD=50n
+Cuvi1 SD 0 3p IC=0
+Ess1 SSRESET 0 VALUE { if(V(DRIVERSoff)>2.5 | V(CLtimerout)>2.5 | V(SD)>2.5,5,0) }
+Edff4 DFF7 0 VALUE { if(V(CLK)>2.5,V(DFF5),0) }
+V1 V5V 0 5
+Rdlydummy DLY 0 10E6
+Ruvb3 UVB2 UVB3 500
+Rdr7 SR1SIG DR7 500
+Rotr1 OTR1 OUTPUTTIMERRESET 500
+Cosc1 CLK 0 5p IC=5
+Rcs4 CS6 CS8 500
+Cres5 RES8 0 3p IC=0
+Cdlo1 ENHOLO 0 3p IC=0
+Edff3 DFF6 0 VALUE { if(V(CLK)>2.5,V(DFF4),0) }
+Rcomp2 COMP2 0 200
+V1V RAMPINT RAMP 1
+Cuvc3 UVC2 0 3p IC=0
+Xdff1 DFF2 DFF3 DFF4 DFF5 rsff5k PARAMS:
+Rosc1 CLK OSC1 500
+Evref2 VREF2 0 VALUE { if(V(VCCuv)>2.5 | V(VCClow)>2.5 | V(SD)>2.5,0,V(VREF1)) }
+Euvc1 UVC3 0 VALUE { if(V(VCC)>7.4,5,0) }
+Rleb1 LEB1 0 1
+Cotr1 OUTPUTTIMERRESET 0 3p IC=0
+Cuvb1 UVB2 0 3p IC=0
+Css7 SS2 0 300p IC=0
+Euvi2 UVI2 0 VALUE { if(V(UVLO)>1.25,5,0) }
+Cvref1 VREF3 0 3p IC=0
+Rcomp3 COMP3 0 200
+Cvcc2 VCC4 0 3p IC=0
+Rdr6 DRVLOSIG DR6  500
+Cdr11 SR1 0 3p IC=0
+Gss2 SS 0 VALUE { if(V(VCCuv)<=2.5 & V(VREFuv)<=2.5,if(V(nSB)<=2.5,110E-6,0),0) }
+Cvcc5 VCC7 0 3p IC=0
+Ruvc3 UVC2 UVC3  500
+Cmon1 MON2 0 10p IC=0
+Cmon2 MON1 0 20p IC=0
+Cmon3 MON3 0 3p IC=0
+Eosc2 OSC3 0 VALUE { if(V(VREFuv)<=2.5,sin(2*3.141592*TIME/(2/(6.25E9*I(VRT))+110E-9)),0) }
+Rosc2 OSC2 OSC3 500
+Cosc2 OSC2 0 3p IC=0
+Eleb2 LEB2 0 LEB3 0 1
+Cuvr1 UVR2 0 3p IC=0
+Ccs3 CS5 0 3p IC=0
+Eotr1 OTR1 0 VALUE { if(V(DRIVERSOFF)>2.5 | V(SSRESTART)>2.5,5,0) }
+Cvcc3 VCC5 0 3p IC=0
+Cdl1 DRVLATCH 0 400p IC=0
+Cuvc4 VCCLOW 0 3p IC=0
+Edrv5 DRVHISIG 0 VALUE { if(V(ENholo)<=2.5,0,if(V(DRVHI)>2.5 & V(DELAYDRVHI)>2.5 & V(VCClow)<=2.5 
++& V(UVb)>2.5,5,0)) }
+Cuvb2 UVB4 0 3p IC=0
+Rdlo2 PENSR1SR2 ENSR1SR2 500
+Euvr1 UVR3 0 VALUE { if(V(REF)>4,5,0) }
+Ruvi2 NSB UVI2 500
+Eov1 OV1 0 VALUE { if(V(OVP)>1.25,5,0) }
+Ccs4 CS6 0 3p IC=0
+VDLY VDLY1 DLY 0
+Xres_sub1 RES5 RES6 RESLATCH res4 rsff5k PARAMS:
+Euvi1 UVI1 0 VALUE { if(V(UVLO)>0.35,0,5) }
+Rmon2 MON3 MON4 500
+Cdr8 DR8 0 3p IC=0
+Xdff2 DFF6 DFF7 SELECTHILO DFF1 rsff5k PARAMS:
+Ggateloss VIN 0 VALUE { I(VVCC) }
+Ecomp1 COMP4 0 VALUE { V(SS) }
+Xuvb1 UVB2 UVB4 uvb1 UVb rsff5k PARAMS:
+Rdl1 DRVLATCH DL1 2
+Rvcc4 VCC7 VCC 1
+Eleb1 CS8 0 VALUE { if(V(LEB1)>2.5 & V(LEB4)>2.5,5,0)  }
+Ruvr1 UVR2 UVR3 500
+Rov1  OVPSIG OV1 500
+Eotr2 OTR6 0 VALUE { if(V(DRVHI)>2.5 | V(DRIVERSOFF)>2.5,5,0) }
+Rpwm3 PWMOUT PWM5 50
+Evcc1 VCC1 0 TABLE { V(VIN) } ( (0,0)(4.5,0)(4.6,0.7)(12,7.6) )
+Edrv7 SR1SIG 0 VALUE { if(V(ENsr1sr2)<=2.5,0,if(V(DRVHI)>2.5 | V(DELAYDRVHI)>2.5,0,if(V(VCClow)<=2.5,5,0))) }
+Cuvi2 NSB 0 3p IC=0
+Eres_sub1 RES5 0 VALUE { if(V(CLK)>2.5,V(RES7),0) }
+Eres_sub2 RES6 0 VALUE { if(V(CLK)>2.5,V(ILIMLATCH),0) }
+Rotr4 OTR5 OTR6 500
+Emon1 MON4 0 VALUE { if(V(RAMPint)>3.5,5,0) }
+Rleb2 LEB3 LEB4 500
+Evdly1 VDLY1 0 TABLE { V(REF,0) } ( (0,0) (2.5,2.5) )
+Cuvr2 VREFLOW 0 3p IC=0
+Rss7 SS1 SS 32
+Cdd1 DELAYDRVHI 0 40p IC=0
+Cdlo2 ENSR1SR2 0 3p IC=0
+Rvccint1 VCC6 VCCINT  100m
+Euvc2 UVC5 0 VALUE { if(V(VCC)<6.2,5,0) }
+Cvref2 REF 0 3p IC=0
+Givcc1 VCC7 0 TABLE { V(VCC) } ( (0,0) (7.5,0.004)  )
+Cdr10 LO 0 3p IC=0
+Cleb1 LEB3 0 3p IC=0
+Cov1 OVPSIG 0 3p IC=0
+Rdrvhi1 DRVHI PDRVHI  500
+Cotr4 OTR5 0 10p IC=0
+Rres1 RES1 RES 32
+Rmon1 MON2 MON3 200
+Xcs1 CS5 CS6 cs4 CSBLANK rsff5k PARAMS:
+Ruvc4 VCCLOW UVC5 500
+Cdrvhi1 DRVHI 0  10p IC=0
+Xotr2 OTR10 OTR11 CLTIMEROUT otr9 rsff5k PARAMS:
+Epwm1 PWM5 0 VALUE { if((V(RAMPINT)>V(COMPX)) | V(maxONlatch)>2.5 | V(ILIMlatch)>2.5 | V(DRIVERSoff)>2.5 
++| V(SSreset)>2.5,5,0) }
+Ruvb2 UVB4 UVB5 500
+Eosc3 NCLK 0 VALUE { {5-V(CLK)} }
+Eleb3 LEB4 0 VALUE { if(V(DRVLOSIG)>2.5 | V(DRVHISIG)>2.5,5,0) }
+Tresd1 DCLK 0 RESD2 0 Z0=1 TD=80n
+Qcomp2 COMPX COMP COMP3 NOMNPN
+Rdr8 SR2SIG DR8 500
+Rvcc3 0 VCC4 5k
+Euvr2 UVR5 0 VALUE { if(V(REF)<3,5,0) }
+Eres1 RES3 0 VALUE { if(V(CLTIMEROUT)>2.5,5,0) }
+Xpwm1 PWMOUT PWM2 PWMOUT2 pwm1 rsff5k PARAMS:
+Evref1 VREF1 0 TABLE { V(VCC) } ( (0,0) (6,5) )
+Ecs2 CS9 0 VALUE { if(V(CLK)>0.1,0,if(V(CS1)>0.25 & V(PWMOUT2)>2.5,5,0)) }
+Cdl2 MAXONLATCH 0 500p IC=0
+Rdrvoff1 PDRIVERSOFF DRIVERSOFF 500
+Rram1 RAM1 RAMP 10
+Edff1 DFF2 0 VALUE { if(V(NCLK)>2.5,V(DFF1),0) }
+RdumRT RT 0 10E6
+Ruvr2 VREFLOW UVR5 500
+Rvindummy1 VIN 0 1.28Meg
+Rresd1 DCLK 0 1
+Rdrvlo1 DRVLO PDRVLO 500
+Rcs5 CS CS1 2k
+Edrv8 SR2SIG 0 VALUE { if(V(ENsr1sr2)<=2.5,0,if(V(DRVLO)>2.5 | V(DELAYDRVLO)>2.5,0,if(V(VCClow)<=2.5,5,0))) }
+Cdrvoff1 DRIVERSOFF 0 3p IC=0
+Xotr1 OTR5 CLTIMEROUT SSRESTART otr4 rsff5k PARAMS:
+Epwm2 PWM4 0 VALUE { if(V(CLK)>4.5, 5, 0) }
+Eram1 RAM3 0 VALUE { if(V(SSRESET)>2.5 | V(CLK)>2.5 | V(maxONlatch)>2.5,5,0) }
+Eres2 RES10 0 VALUE { if(V(DCLK)>2.5,5,0) }
+Eotr3 OTR12 0 VALUE { if(V(RES)<0.1 & V(SS)<0.1,5,0) }
+Cdd2 DELAYDRVLO 0 40p IC=0
+Cdr9 HO HS 3p IC=0
+Rvcc1 VCC2 VCC3 1
+Cdrvlo1 DRVLO 0 10p IC=0
+Ccs5 CS1 0 6p IC=0
+Eresd1 RESD2 0 CLK 0 1
+Rvref3 0 REF 5k
+Edlo1 PENHOLO 0 VALUE { if(V(DRVlatch)>2.5 & V(DRIVERSoff)<=2.5,5,0)}
+Edrv6 DRVLOSIG 0 VALUE { if(V(ENholo)<=2.5,0,if(V(DRVLO)>2.5 & V(DELAYDRVLO)>2.5 & V(VCClow)<=2.5,5,0)) }
+Rotr7 OTR10 OTR12 500
+Rpwm2 PWM2 PWM4 500
+Rvcc2 0 VCC3 2k
+Xres1 RES8 RES9 ILIMLATCH RES7 rsff5k PARAMS:
+Ruvi1 SD UVI1 500
+Cres1 RES2 0 300p IC=0
+VRT VRT1 RT 0
+Cvccint1 0 VCCINT 10p IC=0
+Cdr7 DR7 0 3p IC=0
+Rres5 RES8 RES10 500
+Eotr4 OTR13 0 VALUE { if(V(DRIVERSOFF)>2.5 | V(RES)>2.5,5,0) }
+Gres1 0 RES VALUE { if(V(RESLATCH)>2.5, 22E-6, -12E-6) }
+Edff2 DFF3 0 VALUE { if(V(NCLK)>2.5,V(SELECTHILO),0) }
+Rres2 RES2 RES3 500
+Rresdum1 0 RES 1G
+Rdl2 MAXONLATCH MON1 5
+Evrt1 VRT1 0 TABLE { V(REF,0) } ( (0,0) (2,2) )
+Govhys1 0 OVP VALUE { if(V(OVPSIG)>2.5,23E-6,0) }
+Cvcc1 VCC3 0 3p IC=0
+Qcomp1 COMP COMP COMP2 NOMNPN
+Rotr8 OTR11 OTR13 500
+Css5 SS 0 3p IC=0
+Cpwm1 PWMOUT 0 400p IC=0
+Rcs6 CS9 ILIM 500
+Rdlo1 PENHOLO ENHOLO 500
+Eres3 RES11 0 VALUE { if(V(ILIM)>4.5,5,0) }
+Rvref1 VREF2 VREF3  1
+Xuvc1 UVC2 VCCLOW VCCuv uvc1 rsff5k PARAMS:
+Cram1 RAM2 0 3p IC=0
+Ruvidummy 0 UVLO 10Meg
+Rss8 SS2 SSRESET 500
+Cpwm2 PWM2 0 3p IC=0
+Evcc2 VCC2 0 VALUE { IF(V(SD)>2.5,0,V(VCC1)) }
+Cdr6 DR6 0 3p IC=0
+Ccomp1 COMP 0 1p IC=0
+Rcs7 CS CS2 32
+Ccs7 CS2 0 10p IC=0
+Rvccint2 VCCINT VCC 10m
+Cdr12 SR2 0 3p IC=0
+Cdr5 DR5 0 3p IC=0
+Rvref2 0 VREF3  5k
+Cdl3 DL1 0 10p IC=0
+Gvref1 0 REF TABLE { V(VREF3, REF) } ( (0,0)(0.15,0.02) )
+Dvcc1 vcctemp VIN DNOM 
+Dvcc2 VCC vcctemp DNOM 
+Dvref1 REF VCC DNOM
+*SWITCHs
+Sdiode_vcc1 VCC5 VCC6 VCC5 VCC6 SWCLAMP
+Spwmdiode1 PWM5 PWMOUT PWM5 PWMOUT SWCLAMP
+Scompdiode1 COMPX COMP4 COMPX COMP4 SWCLAMP
+Smondiode1 MON4 MON3 MON4 MON3 SWCLAMP
+Suvi1 0 UVLO 0 UVLO SWCLAMP
+Sresdiode1 RES V5V RES V5V SWCLAMP
+Sresdiode2 0 RES 0 RES SWCLAMP
+Scsdiode1 CS9 ILIM CS9 ILIM SWCLAMP
+Scsdiode2 ILIM V5V ILIM V5V SWCLAMP
+Sssdiode1 SS V5V SS V5V SWCLAMP
+Sssdiode2 0 SS 0 SS SWCLAMP
+Sdd1 DELAYDRVHI V5V DELAYDRVHI V5V SWCLAMP
+Sdd2 0 DELAYDRVHI 0 DELAYDRVHI SWCLAMP
+Sdd3 DELAYDRVLO V5V DELAYDRVLO V5V SWCLAMP
+Sdd4 0 DELAYDRVLO 0 DELAYDRVLO SWCLAMP
+Sres1 RES1 0 RES2 0 S5K
+Sdl1 V5V DL1 DRVLO 0 S5K
+Sss1 SS1 0 SS2 0 S5K
+Sram1 RAM1 0 RAM2 0 S5K
+Scs1 CS2 0 CSBLANK 0 S5K
+Smon1 V5V MON1 MON2 0 S5K
+Smon2 MON1 0 CLK 0 S5K
+Sdriver1 HB HO DR5 0 SdriverT
+Sdriver2 HO HS DR5 0 SdriverB
+Sdriver3 VCC LO DR6 0 SdriverT
+Sdriver4 LO 0 DR6 0 SdriverB
+Sdriver6 SR1 0 DR7 0 SdriverSRB
+Sdriver8 SR2 0 DR8 0 SdriverSRB
+Rgiga1 VCC5 VCC6 1G
+Rgiga2 PWM5 PWMOUT 1G
+Rgiga3 COMPX COMP4 1G
+Rgiga4 MON4 MON3 1G
+Rgiga5 0 UVLO 1G
+Rgiga6 RES V5V 1G
+Rgiga7 0 RES 1G
+Rgiga8 CS9 ILIM 1G
+Rgiga9 ILIM V5V 1G
+Rgiga10 SS V5V 1G
+Rgiga11 0 SS 1G
+Rgiga12 DELAYDRVHI V5V 1G
+Rgiga13 0 DELAYDRVHI 1G
+Rgiga14 DELAYDRVLO V5V 1G
+Rgiga15 0 DELAYDRVLO 1G
+Rgiga16 RES2 0 1G
+Rgiga17 DRVLO 0 1G
+Rgiga18 SS2 0 1G
+Rgiga19 RAM2 0 1G
+Rgiga20 CSBLANK 0 1G
+Rgiga21 MON2 0 1G
+Rgiga22 CLK 0 1G
+Rgiga23 DR5 0 1G
+Rgiga24 DR5 0 1G
+Rgiga25 DR6 0 1G
+Rgiga26 DR6 0 1G
+Rgiga27 DR7 0 1G
+Rgiga28 DR8 0 1G
+Rgiga29	OUTPUTTIMERRESET 0 1G
+Rgiga30 DR7 0 1G
+Rgiga331 DR8 0 1G
+*35C
+Gvcc1 0 VCC4 TABLE { V(VCC3, VCC4) } ( (0,0)(0.3,0.058) )
+Euvb1 UVB3 0 VALUE { if((V(HB)-V(HS))>3.8,5,0) }
+Euvb2 UVB5 0 VALUE { if((V(HB)-V(HS))<3.3,5,0) }
+Gss1 0 SS VALUE { if(V(VCCuv)<=2.5 & V(VREFuv)<=2.5, if(V(nSB)<=2.5 | V(SSrestart)>2.5 
++| V(SSreset)>2.5, 1.2E-6, 110E-6),0) }
+Edriversoff PDRIVERSOFF 0 VALUE { if(V(VREFuv)>2.5 | V(VREFlow)>2.5 | V(ovpsig)>2.5 | V(VCClow)>2.5 
++| V(SD)>2.5 | V(nSB)<=2.5,5,0) }
+Edrvhi1 PDRVHI 0 VALUE { if(V(selectHILO)>2.5 & V(PWMout2)>2.5 & V(SSreset)<=2.5,5,0) }
+Edrvlo1 PDRVLO 0 VALUE { if(V(selectHILO)<=2.5 & V(PWMout2)>2.5 & V(SSreset)<=2.5,5,0) }
+Edlo2 PENSR1SR2 0 VALUE { if(V(DRVlatch)>2.5 & V(nSB)>2.5,5,0) }
+Gdd1 0 DELAYDRVHI VALUE { if(V(DRVHI)>2.5,I(VDLY)*13.333,-I(VDLY)*57.143) }
+Gdd2 0 DELAYDRVLO VALUE { if(V(DRVLO)>2.5,I(VDLY)*13.333,-I(VDLY)*57.143) }
+Sdl2 DL1 0 OUTPUTTIMERRESET 0 S5K
+Sdriver5 REF SR1 DR7 0 SdriverSRT
+Sdriver7 REF SR2 DR8 0 SdriverSRT
+*subckt
+.MODEL Dnom D IS=100n RS=30m CJO=10p VJ=0.5 EG=0.6
+.MODEL S5K VSWITCH RON=1 ROFF=100E6 VON=1V VOFF=0.0V
+.MODEL SWCLAMP VSWITCH RON=0.001 ROFF=100E6 VON=10m VOFF=0
+.MODEL SdriverT VSWITCH RON=8 ROFF=0.5E6 VON=2.6V VOFF=2.4V
+.MODEL SdriverB VSWITCH RON=0.5E6 ROFF=5 VON=2.6V VOFF=2.4V
+.MODEL SdriverSRT VSWITCH RON=20 ROFF=0.5E6 VON=2.6V VOFF=2.4V
+.MODEL SdriverSRB VSWITCH RON=0.5E6 ROFF=20 VON=2.6V VOFF=2.4V
+.MODEL NOMNPN NPN RB=350 RC=600 RE=20
+.ENDS LM5035C
+
+*//////////////////////////////////////////////////////////////////////////////////////////////////
+* This model is Copyright 2010, National Semiconductor. All rights 
+* reserved. Users may not directly or indirectly display, re-sell or
+* re-distribute this model or any derivative work therefrom without the 
+* prior written consent of National Semiconductor.
+* Last Revision Date : April 12, 2011
+* Revision Number    : 1.0
+* E-mail feedback    : http://wwwd.national.com/feedback/
+*//////////////////////////////////////////////////////////////////////////////////////////////////
+
+.SUBCKT LM5026 COMP CS DCL OUTA OUTB REF RES RT SS SYNC TIME UVLO VCC VIN
+C_C_mir_nospike         REF MIRROR  0.4pF  TC=0,0 
+E_Eramp         RAMP0 0 VALUE { V(CS_RAMP, 0) }
+G_I_SStart         REF SS VALUE { if (V(normal_op) > 2, if (V(SS) < V(REF)-50uV
++  , 50uA, V(REF) - V(SS)), 0)    }
+R_R_CSslope         CS_RAMP CS  2K TC=0,0 
+C_Csg         CS_BLANK 0  1n  TC=0,0 
+X_CSgate_gen         OUTADLY OUTA_DIG N4861362 $G_DPWR $G_DGND NAN2
+X_Urst         PWM_DUTY DLMT_RT DLMT_ISENSE DLMT_VIN RESET_LATCH $G_DPWR
++  $G_DGND OR4
+R_RgB         DRVB GATEB  1 TC=0,0 
+R_R_CSg2g         CS_BLANK 0  1G TC=0,0 
+C_CgB         GATEB OUTB  1nF  TC=0,0 
+R_R_SS2gnd         0 SS  1G TC=0,0 
+X_RS1_rst_dly         RS1_LSET_INV RS1_LSET_DLY $G_DPWR $G_DGND DELAY PARAMS:
++ DELAY=1ns TOL=10 IO_LEVEL=0 MNTYMXDLY=0
+X_RS1_Qgen2         RS1_LATCH_O1 RS1_LATCH_O0 PWM_Q $G_DPWR $G_DGND OR2
+X_RS1_Ton_min         RS1_SET_START RS1_SET_END $G_DPWR $G_DGND DELAY PARAMS:
++ DELAY=20ns TOL=10 IO_LEVEL=0 MNTYMXDLY=0
+X_RS1_Qgen1         RS1_QBAR RS1_LATCH_O1  $G_DPWR $G_DGND INV
+X_RS1_U3         RS1_LATCH_SETD RS1_LSET_INV  $G_DPWR $G_DGND INV
+X_RS1_U1         CLK RS1_SET_START $G_DPWR $G_DGND BUF
+X_RS1_U4         RS1_RESET_DIG RS1_LSET_INV RS1_LSET_DLY RS1_LATCH_RSTD $G_DPWR
++  $G_DGND AND3
+X_RS1_U5         PWM_ENABLE RS1_TOGGLE PWM_ENABLE RS1_LATCH_SETD M_UN0001
++  $G_DPWR $G_DGND TFFR
+X_RS1_U2         RESET_LATCH RS1_RESET_DIG $G_DPWR $G_DGND BUF
+X_RS1_latch2         RS1_QB_DLY RS1_INIT_RST RS1_LATCH_RSTD RS1_LATCH_O0
++  $G_DPWR $G_DGND NOR3
+X_RS1_QBgen         PWM_Q PWM_QB  $G_DPWR $G_DGND INV
+X_RS1_toggle_gen         RS1_SET_END RS1_SET_START RS1_TOGGLE $G_DPWR $G_DGND
++  NOR2
+X_RS1_U6         PWM_ENABLE RS1_INIT_RST  $G_DPWR $G_DGND INV
+X_RS1_latch_dly         RS1_QBAR RS1_QB_DLY $G_DPWR $G_DGND DELAY PARAMS:
++ DELAY=5ns TOL=10 IO_LEVEL=0 MNTYMXDLY=0
+X_RS1_latch1         RS1_LATCH_SETD RS1_LATCH_O0 RS1_QBAR $G_DPWR $G_DGND NOR2
+E_EdrvB         DRVB OUTB VALUE { if (V(OUTB_DIG,0) < 0.5, -3, if
++  (V(OUTB_DIG,0) < 3.0 , 2.4*V(OUTB_DIG,0)-4.2, 3)) }
+E_PWM_SSclamp         SSCLMP 0 VALUE { if( V(SS) < 1.4 | V(SS) < V(Mirror),
++  V(SS), V(mirror) )  }
+V_Vrefreg_val         VREFREG_VAL 0 5.0Vdc
+X_stdby_inv         STDBY SHUT_DN  $G_DPWR $G_DGND INV
+R_Rpwm2g         0 PWM_DUTY  1G TC=0,0 
+X_Urst_ssctl         DIS_OUTS_DLY SHUT_DN EN_OUTS $G_DPWR $G_DGND NOR2
+R_R_pwmctl         MIRROR REF  5K TC=0,0 
+X_en_out         VCCREADY VREFREADY UVLOREADY NORMAL_OP $G_DPWR $G_DGND AND3
+C_C_cs_nospike         RAMP 0  3pF  TC=0,0 
+R_RdmyUVLO         0 UVLOREADY  10K TC=0,0 
+G_I_SStop         SS 0 VALUE { if (V(normal_op) > 2,  0,  if(V(en_outs) > 1,if
++  (V(SS) > 50uV, 50uA, V(SS)),0) )    }
+X_stdby_inv1         EN_OUTS DIS_OUTS  $G_DPWR $G_DGND INV
+C_CgA         GATEA OUTA  1nF  TC=0,0 
+V_ref1p25         REF1P25 0 1.25Vdc
+X_Ulatdly1         N488238 DIS_OUTS_DLY $G_DPWR $G_DGND DELAY PARAMS:
++ DELAY=20ns TOL=10 IO_LEVEL=0 MNTYMXDLY=0
+E_EdrvA         DRVA OUTA VALUE { if (V(OUTA_DIG,0) < 0.5, -3, if
++  (V(OUTA_DIG,0) < 3.0 , 2.4*V(OUTA_DIG,0)-4.2, 3)) }
+R_R_cs_nospk         RAMP RAMP0  2K TC=0,0 
+X_OSC1_U3         OSC1_VCO_SQ OSC1_VCO_INV  $G_DPWR $G_DGND INV
+R_OSC1_Rvco2g         OSC1_VCO_SQ 0  10G TC=0,0 
+X_OSC1_U4         OSC1_VCO_SQ OSC1_VCO_SQ_D $G_DPWR $G_DGND BUF
+C_OSC1_C_enrt         OSC1_RTGEN 0  25nF  TC=0,0 
+X_OSC1_clkwidth         OSC1_VCO_INV OSC1_VCO_DLY $G_DPWR $G_DGND DELAY PARAMS:
++ DELAY=15ns TOL=10 IO_LEVEL=0 MNTYMXDLY=0
+X_OSC1_Usawctl2         PWM_ENABLE OSC1_CLK_INV OSC1_SAWCTL  $G_DPWR $G_DGND
++  AND2
+X_OSC1_VCO         OSC1_MHZX10 OSC1_VCO_SIN VCO_sin PARAMS: Fcenter=500k
++  Frange=500K Vmin=0 Vmax=10 Phase=0
+G_OSC1_I_SAW         0 SAWTOOTH VALUE { if(V(OSC1_SAWCTL) > 3,
++  2*I(V_OSC1_IRT)/V(RT), -V(SAWTOOTH)/10)    }
+X_OSC1_U6         CLK OSC1_CLK_INV  $G_DPWR $G_DGND INV
+E_OSC1_pulsgen         OSC1_VCO_SQ 0 VALUE { if (V(OSC1_VCO_SIN)>1u, 0, 5)    }
+C_OSC1_C_saw         SAWTOOTH 0  167pF  TC=0,0 
+V_OSC1_IRT         OSC1_RTGEN RT  
++PULSE 0 0          
+R_OSC1_Rsaw2G         SAWTOOTH 0  10G TC=0,0 
+X_OSC1_U2         OSC1_VCO_SQ_D OSC1_VCO_DLY PWM_ENABLE CLK $G_DPWR $G_DGND
++  AND3
+E_OSC1_VCOctl         OSC1_MHZX10 0 VALUE { if(V(PWM_ENABLE) > 3,
++  60K*I(V_OSC1_IRT)/V(RT), 0)    }
+E_OSC1_ENgen         OSC1_N139503 0 VALUE { if (V(EN_OUTS)>3, 2, 0)    }
+R_OSC1_R_enrt         OSC1_N139503 OSC1_RTGEN  1 TC=0,0 
+R_RdmySTDBY         0 STDBY  10K TC=0,0 
+M_MB_source         VCC GATEB OUTB OUTB MNDRVR_B           
+R_R10         0 RES  1G TC=0,0 
+E_UVDCL         DLMT_VIN 0 VALUE { if(V(PWM_enable)>3,
++  if(V(sawtooth)>1.6-0.24*(V(UVLO)-1.25), 5, 0), 5)    }
+M_MA_source         VCC GATEA OUTA OUTA MNDRVR_A           
+G_CurMirror         MIRROR 0 VALUE { I(V_ICOMP)    }
+R_Rcsg         N4861362 CS_BLANK  1 TC=0,0 
+X_uvlo_cmp_U5         uvlo_cmp_TESTOUT UVLOREADY $G_DPWR $G_DGND BUF
+E_uvlo_cmp_Etest         uvlo_cmp_TESTOUT 0 VALUE { if (V(UVLO,REF1P25) +
++  0.0*V(uvlo_cmp_TESTOUT)/5> 0, 5.0, 0) }
+R_R11         0 SYNC  1G TC=0,0 
+V_ref0p4         REF0P4 0 0.4Vdc
+G_CSgen         REF CS_RAMP VALUE { 45u*V(sawtooth)/2    }
+E_DCL         DLMT_RT 0 VALUE { if(V(PWM_enable)>3, if(V(sawtooth)>
++  1.6*V(DCL)/V(RT), 5, 0), 5)    }
+M_MB_sink         0 GATEB OUTB OUTB MPDRVR_B           
+E_PWMCMP         PWM_DUTY 0 VALUE { if((V(RAMP)>V(pwm_ref)) & (V(OUTA) >
++  0.2*V(Vcc)), 5, 0) }
+X_LEBdly         OUTA_DIG OUTADLY $G_DPWR $G_DGND DELAY PARAMS:
++ DELAY=100ns TOL=10 IO_LEVEL=0 MNTYMXDLY=0
+R_OVRLP_R_ov2g         0 OVRLP_OVRLP  1G TC=0,0 
+E_OVRLP_Eset         TIME 0 REF 0 0.48
+X_OVRLP_dly_Q         PWM_Q OVRLP_Q_DLY $G_DPWR $G_DGND DELAY PARAMS:
++ DELAY=20ns TOL=10 IO_LEVEL=0 MNTYMXDLY=0
+X_OVRLP_Bselect         OVRLP_BDEADTIME OVRLP_BOVRLP OUTB_DIG $G_DPWR $G_DGND
++  OR2
+X_OVRLP_deraceQ         PWM_Q OVRLP_NOQRACE $G_DPWR $G_DGND DELAY PARAMS:
++ DELAY=0.2ns TOL=10 IO_LEVEL=0 MNTYMXDLY=0
+G_OVRLP_ov_dlyval         0 OVRLP_DLYVAL VALUE { if(V(PWM_ENABLE)<3, 0,
++  if(V(OVRLP_OVRLP)>0, -2.8*V(TIME)/(1K*I(E_OVRLP_Eset)) + 2,
++  2.9*V(TIME)/(1K*I(E_OVRLP_Eset)) + 14))    }
+X_OVRLP_QBtimer_U1         OVRLP_QBtimer_CLK2 OVRLP_QBtimer_CLK1
++  OVRLP_QBtimer_RESET_TIMER OVRLP_QBtimer_Q1 OVRLP_QBtimer_CLK2 $G_DPWR $G_DGND
++  DFFR
+X_OVRLP_QBtimer_clken1         OVRLP_QBtimer_TIMER_EN PWM_ENABLE
++  OVRLP_QBtimer_RESET_TIMER  $G_DPWR $G_DGND AND2
+R_OVRLP_QBtimer_A2D6_R_B2G         0 OVRLP_QBtimer_A2D6_BVAL  1G TC=0,0 
+X_OVRLP_QBtimer_A2D6_B_dig         OVRLP_QBtimer_A2D6_BVAL OVRLP_QBtimer_B6
++  $G_DPWR $G_DGND BUF
+R_OVRLP_QBtimer_A2D6_R_tst2G         0 OVRLP_QBtimer_TESTVAL_6  1G TC=0,0 
+E_OVRLP_QBtimer_A2D6_divby2         OVRLP_QBtimer_TESTVAL_6 0 VALUE {0.5 *
++  V(OVRLP_QBtimer_TESTVAL_7)}
+E_OVRLP_QBtimer_A2D6_subtract         OVRLP_QBtimer_RESID_6 0 VALUE {
++  if(V(OVRLP_QBtimer_RESID_7) > V(OVRLP_QBtimer_TESTVAL_6),
++  V(OVRLP_QBtimer_RESID_7)-V(OVRLP_QBtimer_TESTVAL_6), V(OVRLP_QBtimer_RESID_7))
++  }
+E_OVRLP_QBtimer_A2D6_genbit         OVRLP_QBtimer_A2D6_BVAL 0 VALUE {
++  if(V(OVRLP_QBtimer_RESID_7) > V(OVRLP_QBtimer_TESTVAL_6), 5, 0) }
+R_OVRLP_QBtimer_A2D6_R_resid2G         0 OVRLP_QBtimer_RESID_6  1G TC=0,0 
+X_OVRLP_QBtimer_X3         OVRLP_QBtimer_B3 OVRLP_QBtimer_Q3 OVRLP_QBtimer_EX3
++  $G_DPWR $G_DGND XOR
+X_OVRLP_QBtimer_X8         OVRLP_QBtimer_B8 OVRLP_QBtimer_Q8 OVRLP_QBtimer_EX8
++  $G_DPWR $G_DGND XOR
+X_OVRLP_QBtimer_X5         OVRLP_QBtimer_B5 OVRLP_QBtimer_Q5 OVRLP_QBtimer_EX5
++  $G_DPWR $G_DGND XOR
+R_OVRLP_QBtimer_A2D11_R_B2G         0 OVRLP_QBtimer_A2D11_BVAL  1G TC=0,0 
+X_OVRLP_QBtimer_A2D11_B_dig         OVRLP_QBtimer_A2D11_BVAL OVRLP_QBtimer_B11
++  $G_DPWR $G_DGND BUF
+R_OVRLP_QBtimer_A2D11_R_tst2G         0 OVRLP_QBtimer_TESTVAL_11  1G TC=0,0 
+E_OVRLP_QBtimer_A2D11_divby2         OVRLP_QBtimer_TESTVAL_11 0 VALUE {0.5 *
++  V(OVRLP_QBtimer_MAXVAL)}
+E_OVRLP_QBtimer_A2D11_subtract         OVRLP_QBtimer_RESID_11 0 VALUE {
++  if(V(OVRLP_QBtimer_DLY_SCALED) > V(OVRLP_QBtimer_TESTVAL_11),
++  V(OVRLP_QBtimer_DLY_SCALED)-V(OVRLP_QBtimer_TESTVAL_11),
++  V(OVRLP_QBtimer_DLY_SCALED)) }
+E_OVRLP_QBtimer_A2D11_genbit         OVRLP_QBtimer_A2D11_BVAL 0 VALUE {
++  if(V(OVRLP_QBtimer_DLY_SCALED) > V(OVRLP_QBtimer_TESTVAL_11), 5, 0) }
+R_OVRLP_QBtimer_A2D11_R_resid2G         0 OVRLP_QBtimer_RESID_11  1G TC=0,0 
+R_OVRLP_QBtimer_A2D10_R_B2G         0 OVRLP_QBtimer_A2D10_BVAL  1G TC=0,0 
+X_OVRLP_QBtimer_A2D10_B_dig         OVRLP_QBtimer_A2D10_BVAL OVRLP_QBtimer_B10
++  $G_DPWR $G_DGND BUF
+R_OVRLP_QBtimer_A2D10_R_tst2G         0 OVRLP_QBtimer_TESTVAL_10  1G TC=0,0 
+E_OVRLP_QBtimer_A2D10_divby2         OVRLP_QBtimer_TESTVAL_10 0 VALUE {0.5 *
++  V(OVRLP_QBtimer_TESTVAL_11)}
+E_OVRLP_QBtimer_A2D10_subtract         OVRLP_QBtimer_RESID_10 0 VALUE {
++  if(V(OVRLP_QBtimer_RESID_11) > V(OVRLP_QBtimer_TESTVAL_10),
++  V(OVRLP_QBtimer_RESID_11)-V(OVRLP_QBtimer_TESTVAL_10),
++  V(OVRLP_QBtimer_RESID_11)) }
+E_OVRLP_QBtimer_A2D10_genbit         OVRLP_QBtimer_A2D10_BVAL 0 VALUE {
++  if(V(OVRLP_QBtimer_RESID_11) > V(OVRLP_QBtimer_TESTVAL_10), 5, 0) }
+R_OVRLP_QBtimer_A2D10_R_resid2G         0 OVRLP_QBtimer_RESID_10  1G TC=0,0 
+X_OVRLP_QBtimer_U0         OVRLP_QBtimer_CLK1 OVRLP_QBtimer_CLK0
++  OVRLP_QBtimer_RESET_TIMER OVRLP_QBtimer_Q0 OVRLP_QBtimer_CLK1 $G_DPWR $G_DGND
++  DFFR
+X_OVRLP_QBtimer_X2         OVRLP_QBtimer_B2 OVRLP_QBtimer_Q2 OVRLP_QBtimer_EX2
++  $G_DPWR $G_DGND XOR
+U_OVRLP_QBtimer_Dclk         STIM(1,1) $G_DPWR $G_DGND OVRLP_QBtimer_CLK IO_STM
++  IO_LEVEL=0 
++ 0 0
++ +.1ns 1
++REPEAT FOREVER
++ +.1ns 0
++  +.1ns 1
++ ENDREPEAT
+X_OVRLP_QBtimer_U3         OVRLP_QBtimer_CLK4 OVRLP_QBtimer_CLK3
++  OVRLP_QBtimer_RESET_TIMER OVRLP_QBtimer_Q3 OVRLP_QBtimer_CLK4 $G_DPWR $G_DGND
++  DFFR
+X_OVRLP_QBtimer_8nor11         OVRLP_QBtimer_EX11 OVRLP_QBtimer_EX10
++  OVRLP_QBtimer_EX9 OVRLP_QBtimer_EX8 OVRLP_QBtimer_8EX11 $G_DPWR $G_DGND NOR4
+X_OVRLP_QBtimer_U2         OVRLP_QBtimer_CLK3 OVRLP_QBtimer_CLK2
++  OVRLP_QBtimer_RESET_TIMER OVRLP_QBtimer_Q2 OVRLP_QBtimer_CLK3 $G_DPWR $G_DGND
++  DFFR
+X_OVRLP_QBtimer_U9         OVRLP_QBtimer_CLK10 OVRLP_QBtimer_CLK9
++  OVRLP_QBtimer_RESET_TIMER OVRLP_QBtimer_Q9 OVRLP_QBtimer_CLK10 $G_DPWR $G_DGND
++  DFFR
+R_OVRLP_QBtimer_A2D2_R_B2G         0 OVRLP_QBtimer_A2D2_BVAL  1G TC=0,0 
+X_OVRLP_QBtimer_A2D2_B_dig         OVRLP_QBtimer_A2D2_BVAL OVRLP_QBtimer_B2
++  $G_DPWR $G_DGND BUF
+R_OVRLP_QBtimer_A2D2_R_tst2G         0 OVRLP_QBtimer_TESTVAL_2  1G TC=0,0 
+E_OVRLP_QBtimer_A2D2_divby2         OVRLP_QBtimer_TESTVAL_2 0 VALUE {0.5 *
++  V(OVRLP_QBtimer_TESTVAL_3)}
+E_OVRLP_QBtimer_A2D2_subtract         OVRLP_QBtimer_RESID_2 0 VALUE {
++  if(V(OVRLP_QBtimer_RESID_3) > V(OVRLP_QBtimer_TESTVAL_2),
++  V(OVRLP_QBtimer_RESID_3)-V(OVRLP_QBtimer_TESTVAL_2), V(OVRLP_QBtimer_RESID_3))
++  }
+E_OVRLP_QBtimer_A2D2_genbit         OVRLP_QBtimer_A2D2_BVAL 0 VALUE {
++  if(V(OVRLP_QBtimer_RESID_3) > V(OVRLP_QBtimer_TESTVAL_2), 5, 0) }
+R_OVRLP_QBtimer_A2D2_R_resid2G         0 OVRLP_QBtimer_RESID_2  1G TC=0,0 
+E_OVRLP_QBtimer_MAXDLY         OVRLP_QBtimer_MAXVAL 0 VALUE { 2**12    }
+X_OVRLP_QBtimer_U11         OVRLP_QBtimer_D11 OVRLP_QBtimer_CLK11
++  OVRLP_QBtimer_RESET_TIMER OVRLP_QBtimer_Q11 OVRLP_QBtimer_D11 $G_DPWR $G_DGND
++  DFFR
+R_OVRLP_QBtimer_A2D7_R_B2G         0 OVRLP_QBtimer_A2D7_BVAL  1G TC=0,0 
+X_OVRLP_QBtimer_A2D7_B_dig         OVRLP_QBtimer_A2D7_BVAL OVRLP_QBtimer_B7
++  $G_DPWR $G_DGND BUF
+R_OVRLP_QBtimer_A2D7_R_tst2G         0 OVRLP_QBtimer_TESTVAL_7  1G TC=0,0 
+E_OVRLP_QBtimer_A2D7_divby2         OVRLP_QBtimer_TESTVAL_7 0 VALUE {0.5 *
++  V(OVRLP_QBtimer_TESTVAL_8)}
+E_OVRLP_QBtimer_A2D7_subtract         OVRLP_QBtimer_RESID_7 0 VALUE {
++  if(V(OVRLP_QBtimer_RESID_8) > V(OVRLP_QBtimer_TESTVAL_7),
++  V(OVRLP_QBtimer_RESID_8)-V(OVRLP_QBtimer_TESTVAL_7), V(OVRLP_QBtimer_RESID_8))
++  }
+E_OVRLP_QBtimer_A2D7_genbit         OVRLP_QBtimer_A2D7_BVAL 0 VALUE {
++  if(V(OVRLP_QBtimer_RESID_8) > V(OVRLP_QBtimer_TESTVAL_7), 5, 0) }
+R_OVRLP_QBtimer_A2D7_R_resid2G         0 OVRLP_QBtimer_RESID_7  1G TC=0,0 
+X_OVRLP_QBtimer_U5         OVRLP_QBtimer_CLK6 OVRLP_QBtimer_CLK5
++  OVRLP_QBtimer_RESET_TIMER OVRLP_QBtimer_Q5 OVRLP_QBtimer_CLK6 $G_DPWR $G_DGND
++  DFFR
+R_OVRLP_QBtimer_A2D5_R_B2G         0 OVRLP_QBtimer_A2D5_BVAL  1G TC=0,0 
+X_OVRLP_QBtimer_A2D5_B_dig         OVRLP_QBtimer_A2D5_BVAL OVRLP_QBtimer_B5
++  $G_DPWR $G_DGND BUF
+R_OVRLP_QBtimer_A2D5_R_tst2G         0 OVRLP_QBtimer_TESTVAL_5  1G TC=0,0 
+E_OVRLP_QBtimer_A2D5_divby2         OVRLP_QBtimer_TESTVAL_5 0 VALUE {0.5 *
++  V(OVRLP_QBtimer_TESTVAL_6)}
+E_OVRLP_QBtimer_A2D5_subtract         OVRLP_QBtimer_RESID_5 0 VALUE {
++  if(V(OVRLP_QBtimer_RESID_6) > V(OVRLP_QBtimer_TESTVAL_5),
++  V(OVRLP_QBtimer_RESID_6)-V(OVRLP_QBtimer_TESTVAL_5), V(OVRLP_QBtimer_RESID_6))
++  }
+E_OVRLP_QBtimer_A2D5_genbit         OVRLP_QBtimer_A2D5_BVAL 0 VALUE {
++  if(V(OVRLP_QBtimer_RESID_6) > V(OVRLP_QBtimer_TESTVAL_5), 5, 0) }
+R_OVRLP_QBtimer_A2D5_R_resid2G         0 OVRLP_QBtimer_RESID_5  1G TC=0,0 
+X_OVRLP_QBtimer_U7         OVRLP_QBtimer_CLK8 OVRLP_QBtimer_CLK7
++  OVRLP_QBtimer_RESET_TIMER OVRLP_QBtimer_Q7 OVRLP_QBtimer_CLK8 $G_DPWR $G_DGND
++  DFFR
+R_OVRLP_QBtimer_A2D9_R_B2G         0 OVRLP_QBtimer_A2D9_BVAL  1G TC=0,0 
+X_OVRLP_QBtimer_A2D9_B_dig         OVRLP_QBtimer_A2D9_BVAL OVRLP_QBtimer_B9
++  $G_DPWR $G_DGND BUF
+R_OVRLP_QBtimer_A2D9_R_tst2G         0 OVRLP_QBtimer_TESTVAL_9  1G TC=0,0 
+E_OVRLP_QBtimer_A2D9_divby2         OVRLP_QBtimer_TESTVAL_9 0 VALUE {0.5 *
++  V(OVRLP_QBtimer_TESTVAL_10)}
+E_OVRLP_QBtimer_A2D9_subtract         OVRLP_QBtimer_RESID_9 0 VALUE {
++  if(V(OVRLP_QBtimer_RESID_10) > V(OVRLP_QBtimer_TESTVAL_9),
++  V(OVRLP_QBtimer_RESID_10)-V(OVRLP_QBtimer_TESTVAL_9),
++  V(OVRLP_QBtimer_RESID_10)) }
+E_OVRLP_QBtimer_A2D9_genbit         OVRLP_QBtimer_A2D9_BVAL 0 VALUE {
++  if(V(OVRLP_QBtimer_RESID_10) > V(OVRLP_QBtimer_TESTVAL_9), 5, 0) }
+R_OVRLP_QBtimer_A2D9_R_resid2G         0 OVRLP_QBtimer_RESID_9  1G TC=0,0 
+E_OVRLP_QBtimer_dly_scale         OVRLP_QBtimer_DLY_SCALED 0 VALUE {5 *
++  V(OVRLP_DLYVAL)}
+R_OVRLP_QBtimer_A2D4_R_B2G         0 OVRLP_QBtimer_A2D4_BVAL  1G TC=0,0 
+X_OVRLP_QBtimer_A2D4_B_dig         OVRLP_QBtimer_A2D4_BVAL OVRLP_QBtimer_B4
++  $G_DPWR $G_DGND BUF
+R_OVRLP_QBtimer_A2D4_R_tst2G         0 OVRLP_QBtimer_TESTVAL_4  1G TC=0,0 
+E_OVRLP_QBtimer_A2D4_divby2         OVRLP_QBtimer_TESTVAL_4 0 VALUE {0.5 *
++  V(OVRLP_QBtimer_TESTVAL_5)}
+E_OVRLP_QBtimer_A2D4_subtract         OVRLP_QBtimer_RESID_4 0 VALUE {
++  if(V(OVRLP_QBtimer_RESID_5) > V(OVRLP_QBtimer_TESTVAL_4),
++  V(OVRLP_QBtimer_RESID_5)-V(OVRLP_QBtimer_TESTVAL_4), V(OVRLP_QBtimer_RESID_5))
++  }
+E_OVRLP_QBtimer_A2D4_genbit         OVRLP_QBtimer_A2D4_BVAL 0 VALUE {
++  if(V(OVRLP_QBtimer_RESID_5) > V(OVRLP_QBtimer_TESTVAL_4), 5, 0) }
+R_OVRLP_QBtimer_A2D4_R_resid2G         0 OVRLP_QBtimer_RESID_4  1G TC=0,0 
+X_OVRLP_QBtimer_one_clk         OVRLP_QBtimer_RESET_TIMER OVRLP_QBtimer_CLKEN
++  $G_DPWR $G_DGND DELAY PARAMS:
++ DELAY=0.2ns TOL=10 IO_LEVEL=0 MNTYMXDLY=0
+X_OVRLP_QBtimer_U6         OVRLP_QBtimer_CLK7 OVRLP_QBtimer_CLK6
++  OVRLP_QBtimer_RESET_TIMER OVRLP_QBtimer_Q6 OVRLP_QBtimer_CLK7 $G_DPWR $G_DGND
++  DFFR
+X_OVRLP_QBtimer_clken         OVRLP_QBtimer_CLK OVRLP_QBtimer_CLKEN
++  OVRLP_QBtimer_CLK0  $G_DPWR $G_DGND AND2
+X_OVRLP_QBtimer_EorS         OVRLP_QB_END OVRLP_QB_START OVRLP_QBtimer_TGL_0
++  $G_DPWR $G_DGND OR2
+X_OVRLP_QBtimer_X9         OVRLP_QBtimer_B9 OVRLP_QBtimer_Q9 OVRLP_QBtimer_EX9
++  $G_DPWR $G_DGND XOR
+X_OVRLP_QBtimer_4nor7         OVRLP_QBtimer_EX7 OVRLP_QBtimer_EX6
++  OVRLP_QBtimer_EX5 OVRLP_QBtimer_EX4 OVRLP_QBtimer_4EX7 $G_DPWR $G_DGND NOR4
+R_OVRLP_QBtimer_A2D1_R_B2G         0 OVRLP_QBtimer_A2D1_BVAL  1G TC=0,0 
+X_OVRLP_QBtimer_A2D1_B_dig         OVRLP_QBtimer_A2D1_BVAL OVRLP_QBtimer_B1
++  $G_DPWR $G_DGND BUF
+R_OVRLP_QBtimer_A2D1_R_tst2G         0 OVRLP_QBtimer_TESTVAL_1  1G TC=0,0 
+E_OVRLP_QBtimer_A2D1_divby2         OVRLP_QBtimer_TESTVAL_1 0 VALUE {0.5 *
++  V(OVRLP_QBtimer_TESTVAL_2)}
+E_OVRLP_QBtimer_A2D1_subtract         OVRLP_QBtimer_RESID_1 0 VALUE {
++  if(V(OVRLP_QBtimer_RESID_2) > V(OVRLP_QBtimer_TESTVAL_1),
++  V(OVRLP_QBtimer_RESID_2)-V(OVRLP_QBtimer_TESTVAL_1), V(OVRLP_QBtimer_RESID_2))
++  }
+E_OVRLP_QBtimer_A2D1_genbit         OVRLP_QBtimer_A2D1_BVAL 0 VALUE {
++  if(V(OVRLP_QBtimer_RESID_2) > V(OVRLP_QBtimer_TESTVAL_1), 5, 0) }
+R_OVRLP_QBtimer_A2D1_R_resid2G         0 OVRLP_QBtimer_RESID_1  1G TC=0,0 
+X_OVRLP_QBtimer_X4         OVRLP_QBtimer_B4 OVRLP_QBtimer_Q4 OVRLP_QBtimer_EX4
++  $G_DPWR $G_DGND XOR
+X_OVRLP_QBtimer_enable_timer         OVRLP_QBtimer_RST_TMRD OVRLP_QBtimer_TGL_0
++  PWM_ENABLE OVRLP_QBtimer_TIMER_EN OVRLP_QBtimer_RST_TMRD $G_DPWR $G_DGND DFFR
+X_OVRLP_QBtimer_X1         OVRLP_QBtimer_B1 OVRLP_QBtimer_Q1 OVRLP_QBtimer_EX1
++  $G_DPWR $G_DGND XOR
+R_OVRLP_QBtimer_A2D0_R_B2G         0 OVRLP_QBtimer_A2D0_BVAL  1G TC=0,0 
+X_OVRLP_QBtimer_A2D0_B_dig         OVRLP_QBtimer_A2D0_BVAL OVRLP_QBtimer_B0
++  $G_DPWR $G_DGND BUF
+R_OVRLP_QBtimer_A2D0_R_tst2G         0 OVRLP_QBtimer_TESTVAL_0  1G TC=0,0 
+E_OVRLP_QBtimer_A2D0_divby2         OVRLP_QBtimer_TESTVAL_0 0 VALUE {0.5 *
++  V(OVRLP_QBtimer_TESTVAL_1)}
+E_OVRLP_QBtimer_A2D0_subtract         OVRLP_QBtimer_RESID_0 0 VALUE {
++  if(V(OVRLP_QBtimer_RESID_1) > V(OVRLP_QBtimer_TESTVAL_0),
++  V(OVRLP_QBtimer_RESID_1)-V(OVRLP_QBtimer_TESTVAL_0), V(OVRLP_QBtimer_RESID_1))
++  }
+E_OVRLP_QBtimer_A2D0_genbit         OVRLP_QBtimer_A2D0_BVAL 0 VALUE {
++  if(V(OVRLP_QBtimer_RESID_1) > V(OVRLP_QBtimer_TESTVAL_0), 5, 0) }
+R_OVRLP_QBtimer_A2D0_R_resid2G         0 OVRLP_QBtimer_RESID_0  1G TC=0,0 
+R_OVRLP_QBtimer_A2D3_R_B2G         0 OVRLP_QBtimer_A2D3_BVAL  1G TC=0,0 
+X_OVRLP_QBtimer_A2D3_B_dig         OVRLP_QBtimer_A2D3_BVAL OVRLP_QBtimer_B3
++  $G_DPWR $G_DGND BUF
+R_OVRLP_QBtimer_A2D3_R_tst2G         0 OVRLP_QBtimer_TESTVAL_3  1G TC=0,0 
+E_OVRLP_QBtimer_A2D3_divby2         OVRLP_QBtimer_TESTVAL_3 0 VALUE {0.5 *
++  V(OVRLP_QBtimer_TESTVAL_4)}
+E_OVRLP_QBtimer_A2D3_subtract         OVRLP_QBtimer_RESID_3 0 VALUE {
++  if(V(OVRLP_QBtimer_RESID_4) > V(OVRLP_QBtimer_TESTVAL_3),
++  V(OVRLP_QBtimer_RESID_4)-V(OVRLP_QBtimer_TESTVAL_3), V(OVRLP_QBtimer_RESID_4))
++  }
+E_OVRLP_QBtimer_A2D3_genbit         OVRLP_QBtimer_A2D3_BVAL 0 VALUE {
++  if(V(OVRLP_QBtimer_RESID_4) > V(OVRLP_QBtimer_TESTVAL_3), 5, 0) }
+R_OVRLP_QBtimer_A2D3_R_resid2G         0 OVRLP_QBtimer_RESID_3  1G TC=0,0 
+X_OVRLP_QBtimer_endcount         OVRLP_QBtimer_8EX11 OVRLP_QBtimer_4EX7
++  OVRLP_QBtimer_0EX3 OVRLP_QB_END $G_DPWR $G_DGND AND3
+R_OVRLP_QBtimer_A2D8_R_B2G         0 OVRLP_QBtimer_A2D8_BVAL  1G TC=0,0 
+X_OVRLP_QBtimer_A2D8_B_dig         OVRLP_QBtimer_A2D8_BVAL OVRLP_QBtimer_B8
++  $G_DPWR $G_DGND BUF
+R_OVRLP_QBtimer_A2D8_R_tst2G         0 OVRLP_QBtimer_TESTVAL_8  1G TC=0,0 
+E_OVRLP_QBtimer_A2D8_divby2         OVRLP_QBtimer_TESTVAL_8 0 VALUE {0.5 *
++  V(OVRLP_QBtimer_TESTVAL_9)}
+E_OVRLP_QBtimer_A2D8_subtract         OVRLP_QBtimer_RESID_8 0 VALUE {
++  if(V(OVRLP_QBtimer_RESID_9) > V(OVRLP_QBtimer_TESTVAL_8),
++  V(OVRLP_QBtimer_RESID_9)-V(OVRLP_QBtimer_TESTVAL_8), V(OVRLP_QBtimer_RESID_9))
++  }
+E_OVRLP_QBtimer_A2D8_genbit         OVRLP_QBtimer_A2D8_BVAL 0 VALUE {
++  if(V(OVRLP_QBtimer_RESID_9) > V(OVRLP_QBtimer_TESTVAL_8), 5, 0) }
+R_OVRLP_QBtimer_A2D8_R_resid2G         0 OVRLP_QBtimer_RESID_8  1G TC=0,0 
+X_OVRLP_QBtimer_X11         OVRLP_QBtimer_B11 OVRLP_QBtimer_Q11
++  OVRLP_QBtimer_EX11 $G_DPWR $G_DGND XOR
+R_OVRLP_QBtimer_R_max2g         0 OVRLP_QBtimer_MAXVAL  1G TC=0,0 
+X_OVRLP_QBtimer_X10         OVRLP_QBtimer_B10 OVRLP_QBtimer_Q10
++  OVRLP_QBtimer_EX10 $G_DPWR $G_DGND XOR
+X_OVRLP_QBtimer_U8         OVRLP_QBtimer_CLK9 OVRLP_QBtimer_CLK8
++  OVRLP_QBtimer_RESET_TIMER OVRLP_QBtimer_Q8 OVRLP_QBtimer_CLK9 $G_DPWR $G_DGND
++  DFFR
+X_OVRLP_QBtimer_U10         OVRLP_QBtimer_CLK11 OVRLP_QBtimer_CLK10
++  OVRLP_QBtimer_RESET_TIMER OVRLP_QBtimer_Q10 OVRLP_QBtimer_CLK11 $G_DPWR
++  $G_DGND DFFR
+X_OVRLP_QBtimer_X0         OVRLP_QBtimer_B0 OVRLP_QBtimer_Q0 OVRLP_QBtimer_EX0
++  $G_DPWR $G_DGND XOR
+X_OVRLP_QBtimer_0nor3         OVRLP_QBtimer_EX3 OVRLP_QBtimer_EX2
++  OVRLP_QBtimer_EX1 OVRLP_QBtimer_EX0 OVRLP_QBtimer_0EX3 $G_DPWR $G_DGND NOR4
+X_OVRLP_QBtimer_X6         OVRLP_QBtimer_B6 OVRLP_QBtimer_Q6 OVRLP_QBtimer_EX6
++  $G_DPWR $G_DGND XOR
+X_OVRLP_QBtimer_U4         OVRLP_QBtimer_CLK5 OVRLP_QBtimer_CLK4
++  OVRLP_QBtimer_RESET_TIMER OVRLP_QBtimer_Q4 OVRLP_QBtimer_CLK5 $G_DPWR $G_DGND
++  DFFR
+X_OVRLP_QBtimer_X7         OVRLP_QBtimer_B7 OVRLP_QBtimer_Q7 OVRLP_QBtimer_EX7
++  $G_DPWR $G_DGND XOR
+X_OVRLP_deraceQB         PWM_QB OVRLP_NOQBRACE $G_DPWR $G_DGND DELAY PARAMS:
++ DELAY=0.2ns TOL=10 IO_LEVEL=0 MNTYMXDLY=0
+X_OVRLP_dly_QB         PWM_QB OVRLP_QB_DLY $G_DPWR $G_DGND DELAY PARAMS:
++ DELAY=20ns TOL=10 IO_LEVEL=0 MNTYMXDLY=0
+X_OVRLP_toggle_QBpls         OVRLP_QB_END OVRLP_QB_START OVRLP_QBPULSE_TOGGLE
++  $G_DPWR $G_DGND OR2
+X_OVRLP_genOUTA         OVRLP_QPULSEN OVRLP_NOQRACE OUTA_DIG  $G_DPWR $G_DGND
++  AND2
+X_OVRLP_inv_Q         PWM_Q OVRLP_Q_INV  $G_DPWR $G_DGND INV
+X_OVRLP_genBdeadtime         OVRLP_QBPULSEN OVRLP_NOQBRACE OVRLP_OUTB_DEADTIME 
++  $G_DPWR $G_DGND AND2
+X_OVRLP_Qtimer_U1         OVRLP_Qtimer_CLK2 OVRLP_Qtimer_CLK1
++  OVRLP_Qtimer_RESET_TIMER OVRLP_Qtimer_Q1 OVRLP_Qtimer_CLK2 $G_DPWR $G_DGND
++  DFFR
+X_OVRLP_Qtimer_clken1         OVRLP_Qtimer_TIMER_EN PWM_ENABLE
++  OVRLP_Qtimer_RESET_TIMER  $G_DPWR $G_DGND AND2
+R_OVRLP_Qtimer_A2D6_R_B2G         0 OVRLP_Qtimer_A2D6_BVAL  1G TC=0,0 
+X_OVRLP_Qtimer_A2D6_B_dig         OVRLP_Qtimer_A2D6_BVAL OVRLP_Qtimer_B6
++  $G_DPWR $G_DGND BUF
+R_OVRLP_Qtimer_A2D6_R_tst2G         0 OVRLP_Qtimer_TESTVAL_6  1G TC=0,0 
+E_OVRLP_Qtimer_A2D6_divby2         OVRLP_Qtimer_TESTVAL_6 0 VALUE {0.5 *
++  V(OVRLP_Qtimer_TESTVAL_7)}
+E_OVRLP_Qtimer_A2D6_subtract         OVRLP_Qtimer_RESID_6 0 VALUE {
++  if(V(OVRLP_Qtimer_RESID_7) > V(OVRLP_Qtimer_TESTVAL_6),
++  V(OVRLP_Qtimer_RESID_7)-V(OVRLP_Qtimer_TESTVAL_6), V(OVRLP_Qtimer_RESID_7)) }
+E_OVRLP_Qtimer_A2D6_genbit         OVRLP_Qtimer_A2D6_BVAL 0 VALUE {
++  if(V(OVRLP_Qtimer_RESID_7) > V(OVRLP_Qtimer_TESTVAL_6), 5, 0) }
+R_OVRLP_Qtimer_A2D6_R_resid2G         0 OVRLP_Qtimer_RESID_6  1G TC=0,0 
+X_OVRLP_Qtimer_X3         OVRLP_Qtimer_B3 OVRLP_Qtimer_Q3 OVRLP_Qtimer_EX3
++  $G_DPWR $G_DGND XOR
+X_OVRLP_Qtimer_X8         OVRLP_Qtimer_B8 OVRLP_Qtimer_Q8 OVRLP_Qtimer_EX8
++  $G_DPWR $G_DGND XOR
+X_OVRLP_Qtimer_X5         OVRLP_Qtimer_B5 OVRLP_Qtimer_Q5 OVRLP_Qtimer_EX5
++  $G_DPWR $G_DGND XOR
+R_OVRLP_Qtimer_A2D11_R_B2G         0 OVRLP_Qtimer_A2D11_BVAL  1G TC=0,0 
+X_OVRLP_Qtimer_A2D11_B_dig         OVRLP_Qtimer_A2D11_BVAL OVRLP_Qtimer_B11
++  $G_DPWR $G_DGND BUF
+R_OVRLP_Qtimer_A2D11_R_tst2G         0 OVRLP_Qtimer_TESTVAL_11  1G TC=0,0 
+E_OVRLP_Qtimer_A2D11_divby2         OVRLP_Qtimer_TESTVAL_11 0 VALUE {0.5 *
++  V(OVRLP_Qtimer_MAXVAL)}
+E_OVRLP_Qtimer_A2D11_subtract         OVRLP_Qtimer_RESID_11 0 VALUE {
++  if(V(OVRLP_Qtimer_DLY_SCALED) > V(OVRLP_Qtimer_TESTVAL_11),
++  V(OVRLP_Qtimer_DLY_SCALED)-V(OVRLP_Qtimer_TESTVAL_11),
++  V(OVRLP_Qtimer_DLY_SCALED)) }
+E_OVRLP_Qtimer_A2D11_genbit         OVRLP_Qtimer_A2D11_BVAL 0 VALUE {
++  if(V(OVRLP_Qtimer_DLY_SCALED) > V(OVRLP_Qtimer_TESTVAL_11), 5, 0) }
+R_OVRLP_Qtimer_A2D11_R_resid2G         0 OVRLP_Qtimer_RESID_11  1G TC=0,0 
+R_OVRLP_Qtimer_A2D10_R_B2G         0 OVRLP_Qtimer_A2D10_BVAL  1G TC=0,0 
+X_OVRLP_Qtimer_A2D10_B_dig         OVRLP_Qtimer_A2D10_BVAL OVRLP_Qtimer_B10
++  $G_DPWR $G_DGND BUF
+R_OVRLP_Qtimer_A2D10_R_tst2G         0 OVRLP_Qtimer_TESTVAL_10  1G TC=0,0 
+E_OVRLP_Qtimer_A2D10_divby2         OVRLP_Qtimer_TESTVAL_10 0 VALUE {0.5 *
++  V(OVRLP_Qtimer_TESTVAL_11)}
+E_OVRLP_Qtimer_A2D10_subtract         OVRLP_Qtimer_RESID_10 0 VALUE {
++  if(V(OVRLP_Qtimer_RESID_11) > V(OVRLP_Qtimer_TESTVAL_10),
++  V(OVRLP_Qtimer_RESID_11)-V(OVRLP_Qtimer_TESTVAL_10), V(OVRLP_Qtimer_RESID_11))
++  }
+E_OVRLP_Qtimer_A2D10_genbit         OVRLP_Qtimer_A2D10_BVAL 0 VALUE {
++  if(V(OVRLP_Qtimer_RESID_11) > V(OVRLP_Qtimer_TESTVAL_10), 5, 0) }
+R_OVRLP_Qtimer_A2D10_R_resid2G         0 OVRLP_Qtimer_RESID_10  1G TC=0,0 
+X_OVRLP_Qtimer_U0         OVRLP_Qtimer_CLK1 OVRLP_Qtimer_CLK0
++  OVRLP_Qtimer_RESET_TIMER OVRLP_Qtimer_Q0 OVRLP_Qtimer_CLK1 $G_DPWR $G_DGND
++  DFFR
+X_OVRLP_Qtimer_X2         OVRLP_Qtimer_B2 OVRLP_Qtimer_Q2 OVRLP_Qtimer_EX2
++  $G_DPWR $G_DGND XOR
+U_OVRLP_Qtimer_Dclk         STIM(1,1) $G_DPWR $G_DGND OVRLP_Qtimer_CLK IO_STM
++  IO_LEVEL=0 
++ 0 0
++ +.1ns 1
++REPEAT FOREVER
++ +.1ns 0
++  +.1ns 1
++ ENDREPEAT
+X_OVRLP_Qtimer_U3         OVRLP_Qtimer_CLK4 OVRLP_Qtimer_CLK3
++  OVRLP_Qtimer_RESET_TIMER OVRLP_Qtimer_Q3 OVRLP_Qtimer_CLK4 $G_DPWR $G_DGND
++  DFFR
+X_OVRLP_Qtimer_8nor11         OVRLP_Qtimer_EX11 OVRLP_Qtimer_EX10
++  OVRLP_Qtimer_EX9 OVRLP_Qtimer_EX8 OVRLP_Qtimer_8EX11 $G_DPWR $G_DGND NOR4
+X_OVRLP_Qtimer_U2         OVRLP_Qtimer_CLK3 OVRLP_Qtimer_CLK2
++  OVRLP_Qtimer_RESET_TIMER OVRLP_Qtimer_Q2 OVRLP_Qtimer_CLK3 $G_DPWR $G_DGND
++  DFFR
+X_OVRLP_Qtimer_U9         OVRLP_Qtimer_CLK10 OVRLP_Qtimer_CLK9
++  OVRLP_Qtimer_RESET_TIMER OVRLP_Qtimer_Q9 OVRLP_Qtimer_CLK10 $G_DPWR $G_DGND
++  DFFR
+R_OVRLP_Qtimer_A2D2_R_B2G         0 OVRLP_Qtimer_A2D2_BVAL  1G TC=0,0 
+X_OVRLP_Qtimer_A2D2_B_dig         OVRLP_Qtimer_A2D2_BVAL OVRLP_Qtimer_B2
++  $G_DPWR $G_DGND BUF
+R_OVRLP_Qtimer_A2D2_R_tst2G         0 OVRLP_Qtimer_TESTVAL_2  1G TC=0,0 
+E_OVRLP_Qtimer_A2D2_divby2         OVRLP_Qtimer_TESTVAL_2 0 VALUE {0.5 *
++  V(OVRLP_Qtimer_TESTVAL_3)}
+E_OVRLP_Qtimer_A2D2_subtract         OVRLP_Qtimer_RESID_2 0 VALUE {
++  if(V(OVRLP_Qtimer_RESID_3) > V(OVRLP_Qtimer_TESTVAL_2),
++  V(OVRLP_Qtimer_RESID_3)-V(OVRLP_Qtimer_TESTVAL_2), V(OVRLP_Qtimer_RESID_3)) }
+E_OVRLP_Qtimer_A2D2_genbit         OVRLP_Qtimer_A2D2_BVAL 0 VALUE {
++  if(V(OVRLP_Qtimer_RESID_3) > V(OVRLP_Qtimer_TESTVAL_2), 5, 0) }
+R_OVRLP_Qtimer_A2D2_R_resid2G         0 OVRLP_Qtimer_RESID_2  1G TC=0,0 
+E_OVRLP_Qtimer_MAXDLY         OVRLP_Qtimer_MAXVAL 0 VALUE { 2**12    }
+X_OVRLP_Qtimer_U11         OVRLP_Qtimer_D11 OVRLP_Qtimer_CLK11
++  OVRLP_Qtimer_RESET_TIMER OVRLP_Qtimer_Q11 OVRLP_Qtimer_D11 $G_DPWR $G_DGND
++  DFFR
+R_OVRLP_Qtimer_A2D7_R_B2G         0 OVRLP_Qtimer_A2D7_BVAL  1G TC=0,0 
+X_OVRLP_Qtimer_A2D7_B_dig         OVRLP_Qtimer_A2D7_BVAL OVRLP_Qtimer_B7
++  $G_DPWR $G_DGND BUF
+R_OVRLP_Qtimer_A2D7_R_tst2G         0 OVRLP_Qtimer_TESTVAL_7  1G TC=0,0 
+E_OVRLP_Qtimer_A2D7_divby2         OVRLP_Qtimer_TESTVAL_7 0 VALUE {0.5 *
++  V(OVRLP_Qtimer_TESTVAL_8)}
+E_OVRLP_Qtimer_A2D7_subtract         OVRLP_Qtimer_RESID_7 0 VALUE {
++  if(V(OVRLP_Qtimer_RESID_8) > V(OVRLP_Qtimer_TESTVAL_7),
++  V(OVRLP_Qtimer_RESID_8)-V(OVRLP_Qtimer_TESTVAL_7), V(OVRLP_Qtimer_RESID_8)) }
+E_OVRLP_Qtimer_A2D7_genbit         OVRLP_Qtimer_A2D7_BVAL 0 VALUE {
++  if(V(OVRLP_Qtimer_RESID_8) > V(OVRLP_Qtimer_TESTVAL_7), 5, 0) }
+R_OVRLP_Qtimer_A2D7_R_resid2G         0 OVRLP_Qtimer_RESID_7  1G TC=0,0 
+X_OVRLP_Qtimer_U5         OVRLP_Qtimer_CLK6 OVRLP_Qtimer_CLK5
++  OVRLP_Qtimer_RESET_TIMER OVRLP_Qtimer_Q5 OVRLP_Qtimer_CLK6 $G_DPWR $G_DGND
++  DFFR
+R_OVRLP_Qtimer_A2D5_R_B2G         0 OVRLP_Qtimer_A2D5_BVAL  1G TC=0,0 
+X_OVRLP_Qtimer_A2D5_B_dig         OVRLP_Qtimer_A2D5_BVAL OVRLP_Qtimer_B5
++  $G_DPWR $G_DGND BUF
+R_OVRLP_Qtimer_A2D5_R_tst2G         0 OVRLP_Qtimer_TESTVAL_5  1G TC=0,0 
+E_OVRLP_Qtimer_A2D5_divby2         OVRLP_Qtimer_TESTVAL_5 0 VALUE {0.5 *
++  V(OVRLP_Qtimer_TESTVAL_6)}
+E_OVRLP_Qtimer_A2D5_subtract         OVRLP_Qtimer_RESID_5 0 VALUE {
++  if(V(OVRLP_Qtimer_RESID_6) > V(OVRLP_Qtimer_TESTVAL_5),
++  V(OVRLP_Qtimer_RESID_6)-V(OVRLP_Qtimer_TESTVAL_5), V(OVRLP_Qtimer_RESID_6)) }
+E_OVRLP_Qtimer_A2D5_genbit         OVRLP_Qtimer_A2D5_BVAL 0 VALUE {
++  if(V(OVRLP_Qtimer_RESID_6) > V(OVRLP_Qtimer_TESTVAL_5), 5, 0) }
+R_OVRLP_Qtimer_A2D5_R_resid2G         0 OVRLP_Qtimer_RESID_5  1G TC=0,0 
+X_OVRLP_Qtimer_U7         OVRLP_Qtimer_CLK8 OVRLP_Qtimer_CLK7
++  OVRLP_Qtimer_RESET_TIMER OVRLP_Qtimer_Q7 OVRLP_Qtimer_CLK8 $G_DPWR $G_DGND
++  DFFR
+R_OVRLP_Qtimer_A2D9_R_B2G         0 OVRLP_Qtimer_A2D9_BVAL  1G TC=0,0 
+X_OVRLP_Qtimer_A2D9_B_dig         OVRLP_Qtimer_A2D9_BVAL OVRLP_Qtimer_B9
++  $G_DPWR $G_DGND BUF
+R_OVRLP_Qtimer_A2D9_R_tst2G         0 OVRLP_Qtimer_TESTVAL_9  1G TC=0,0 
+E_OVRLP_Qtimer_A2D9_divby2         OVRLP_Qtimer_TESTVAL_9 0 VALUE {0.5 *
++  V(OVRLP_Qtimer_TESTVAL_10)}
+E_OVRLP_Qtimer_A2D9_subtract         OVRLP_Qtimer_RESID_9 0 VALUE {
++  if(V(OVRLP_Qtimer_RESID_10) > V(OVRLP_Qtimer_TESTVAL_9),
++  V(OVRLP_Qtimer_RESID_10)-V(OVRLP_Qtimer_TESTVAL_9), V(OVRLP_Qtimer_RESID_10))
++  }
+E_OVRLP_Qtimer_A2D9_genbit         OVRLP_Qtimer_A2D9_BVAL 0 VALUE {
++  if(V(OVRLP_Qtimer_RESID_10) > V(OVRLP_Qtimer_TESTVAL_9), 5, 0) }
+R_OVRLP_Qtimer_A2D9_R_resid2G         0 OVRLP_Qtimer_RESID_9  1G TC=0,0 
+E_OVRLP_Qtimer_dly_scale         OVRLP_Qtimer_DLY_SCALED 0 VALUE {5 *
++  V(OVRLP_DLYVAL)}
+R_OVRLP_Qtimer_A2D4_R_B2G         0 OVRLP_Qtimer_A2D4_BVAL  1G TC=0,0 
+X_OVRLP_Qtimer_A2D4_B_dig         OVRLP_Qtimer_A2D4_BVAL OVRLP_Qtimer_B4
++  $G_DPWR $G_DGND BUF
+R_OVRLP_Qtimer_A2D4_R_tst2G         0 OVRLP_Qtimer_TESTVAL_4  1G TC=0,0 
+E_OVRLP_Qtimer_A2D4_divby2         OVRLP_Qtimer_TESTVAL_4 0 VALUE {0.5 *
++  V(OVRLP_Qtimer_TESTVAL_5)}
+E_OVRLP_Qtimer_A2D4_subtract         OVRLP_Qtimer_RESID_4 0 VALUE {
++  if(V(OVRLP_Qtimer_RESID_5) > V(OVRLP_Qtimer_TESTVAL_4),
++  V(OVRLP_Qtimer_RESID_5)-V(OVRLP_Qtimer_TESTVAL_4), V(OVRLP_Qtimer_RESID_5)) }
+E_OVRLP_Qtimer_A2D4_genbit         OVRLP_Qtimer_A2D4_BVAL 0 VALUE {
++  if(V(OVRLP_Qtimer_RESID_5) > V(OVRLP_Qtimer_TESTVAL_4), 5, 0) }
+R_OVRLP_Qtimer_A2D4_R_resid2G         0 OVRLP_Qtimer_RESID_4  1G TC=0,0 
+X_OVRLP_Qtimer_one_clk         OVRLP_Qtimer_RESET_TIMER OVRLP_Qtimer_CLKEN
++  $G_DPWR $G_DGND DELAY PARAMS:
++ DELAY=0.2ns TOL=10 IO_LEVEL=0 MNTYMXDLY=0
+X_OVRLP_Qtimer_U6         OVRLP_Qtimer_CLK7 OVRLP_Qtimer_CLK6
++  OVRLP_Qtimer_RESET_TIMER OVRLP_Qtimer_Q6 OVRLP_Qtimer_CLK7 $G_DPWR $G_DGND
++  DFFR
+X_OVRLP_Qtimer_clken         OVRLP_Qtimer_CLK OVRLP_Qtimer_CLKEN
++  OVRLP_Qtimer_CLK0  $G_DPWR $G_DGND AND2
+X_OVRLP_Qtimer_EorS         OVRLP_Q_END OVRLP_Q_START OVRLP_Qtimer_TGL_0
++  $G_DPWR $G_DGND OR2
+X_OVRLP_Qtimer_X9         OVRLP_Qtimer_B9 OVRLP_Qtimer_Q9 OVRLP_Qtimer_EX9
++  $G_DPWR $G_DGND XOR
+X_OVRLP_Qtimer_4nor7         OVRLP_Qtimer_EX7 OVRLP_Qtimer_EX6 OVRLP_Qtimer_EX5
++  OVRLP_Qtimer_EX4 OVRLP_Qtimer_4EX7 $G_DPWR $G_DGND NOR4
+R_OVRLP_Qtimer_A2D1_R_B2G         0 OVRLP_Qtimer_A2D1_BVAL  1G TC=0,0 
+X_OVRLP_Qtimer_A2D1_B_dig         OVRLP_Qtimer_A2D1_BVAL OVRLP_Qtimer_B1
++  $G_DPWR $G_DGND BUF
+R_OVRLP_Qtimer_A2D1_R_tst2G         0 OVRLP_Qtimer_TESTVAL_1  1G TC=0,0 
+E_OVRLP_Qtimer_A2D1_divby2         OVRLP_Qtimer_TESTVAL_1 0 VALUE {0.5 *
++  V(OVRLP_Qtimer_TESTVAL_2)}
+E_OVRLP_Qtimer_A2D1_subtract         OVRLP_Qtimer_RESID_1 0 VALUE {
++  if(V(OVRLP_Qtimer_RESID_2) > V(OVRLP_Qtimer_TESTVAL_1),
++  V(OVRLP_Qtimer_RESID_2)-V(OVRLP_Qtimer_TESTVAL_1), V(OVRLP_Qtimer_RESID_2)) }
+E_OVRLP_Qtimer_A2D1_genbit         OVRLP_Qtimer_A2D1_BVAL 0 VALUE {
++  if(V(OVRLP_Qtimer_RESID_2) > V(OVRLP_Qtimer_TESTVAL_1), 5, 0) }
+R_OVRLP_Qtimer_A2D1_R_resid2G         0 OVRLP_Qtimer_RESID_1  1G TC=0,0 
+X_OVRLP_Qtimer_X4         OVRLP_Qtimer_B4 OVRLP_Qtimer_Q4 OVRLP_Qtimer_EX4
++  $G_DPWR $G_DGND XOR
+X_OVRLP_Qtimer_enable_timer         OVRLP_Qtimer_RST_TMRD OVRLP_Qtimer_TGL_0
++  PWM_ENABLE OVRLP_Qtimer_TIMER_EN OVRLP_Qtimer_RST_TMRD $G_DPWR $G_DGND DFFR
+X_OVRLP_Qtimer_X1         OVRLP_Qtimer_B1 OVRLP_Qtimer_Q1 OVRLP_Qtimer_EX1
++  $G_DPWR $G_DGND XOR
+R_OVRLP_Qtimer_A2D0_R_B2G         0 OVRLP_Qtimer_A2D0_BVAL  1G TC=0,0 
+X_OVRLP_Qtimer_A2D0_B_dig         OVRLP_Qtimer_A2D0_BVAL OVRLP_Qtimer_B0
++  $G_DPWR $G_DGND BUF
+R_OVRLP_Qtimer_A2D0_R_tst2G         0 OVRLP_Qtimer_TESTVAL_0  1G TC=0,0 
+E_OVRLP_Qtimer_A2D0_divby2         OVRLP_Qtimer_TESTVAL_0 0 VALUE {0.5 *
++  V(OVRLP_Qtimer_TESTVAL_1)}
+E_OVRLP_Qtimer_A2D0_subtract         OVRLP_Qtimer_RESID_0 0 VALUE {
++  if(V(OVRLP_Qtimer_RESID_1) > V(OVRLP_Qtimer_TESTVAL_0),
++  V(OVRLP_Qtimer_RESID_1)-V(OVRLP_Qtimer_TESTVAL_0), V(OVRLP_Qtimer_RESID_1)) }
+E_OVRLP_Qtimer_A2D0_genbit         OVRLP_Qtimer_A2D0_BVAL 0 VALUE {
++  if(V(OVRLP_Qtimer_RESID_1) > V(OVRLP_Qtimer_TESTVAL_0), 5, 0) }
+R_OVRLP_Qtimer_A2D0_R_resid2G         0 OVRLP_Qtimer_RESID_0  1G TC=0,0 
+R_OVRLP_Qtimer_A2D3_R_B2G         0 OVRLP_Qtimer_A2D3_BVAL  1G TC=0,0 
+X_OVRLP_Qtimer_A2D3_B_dig         OVRLP_Qtimer_A2D3_BVAL OVRLP_Qtimer_B3
++  $G_DPWR $G_DGND BUF
+R_OVRLP_Qtimer_A2D3_R_tst2G         0 OVRLP_Qtimer_TESTVAL_3  1G TC=0,0 
+E_OVRLP_Qtimer_A2D3_divby2         OVRLP_Qtimer_TESTVAL_3 0 VALUE {0.5 *
++  V(OVRLP_Qtimer_TESTVAL_4)}
+E_OVRLP_Qtimer_A2D3_subtract         OVRLP_Qtimer_RESID_3 0 VALUE {
++  if(V(OVRLP_Qtimer_RESID_4) > V(OVRLP_Qtimer_TESTVAL_3),
++  V(OVRLP_Qtimer_RESID_4)-V(OVRLP_Qtimer_TESTVAL_3), V(OVRLP_Qtimer_RESID_4)) }
+E_OVRLP_Qtimer_A2D3_genbit         OVRLP_Qtimer_A2D3_BVAL 0 VALUE {
++  if(V(OVRLP_Qtimer_RESID_4) > V(OVRLP_Qtimer_TESTVAL_3), 5, 0) }
+R_OVRLP_Qtimer_A2D3_R_resid2G         0 OVRLP_Qtimer_RESID_3  1G TC=0,0 
+X_OVRLP_Qtimer_endcount         OVRLP_Qtimer_8EX11 OVRLP_Qtimer_4EX7
++  OVRLP_Qtimer_0EX3 OVRLP_Q_END $G_DPWR $G_DGND AND3
+R_OVRLP_Qtimer_A2D8_R_B2G         0 OVRLP_Qtimer_A2D8_BVAL  1G TC=0,0 
+X_OVRLP_Qtimer_A2D8_B_dig         OVRLP_Qtimer_A2D8_BVAL OVRLP_Qtimer_B8
++  $G_DPWR $G_DGND BUF
+R_OVRLP_Qtimer_A2D8_R_tst2G         0 OVRLP_Qtimer_TESTVAL_8  1G TC=0,0 
+E_OVRLP_Qtimer_A2D8_divby2         OVRLP_Qtimer_TESTVAL_8 0 VALUE {0.5 *
++  V(OVRLP_Qtimer_TESTVAL_9)}
+E_OVRLP_Qtimer_A2D8_subtract         OVRLP_Qtimer_RESID_8 0 VALUE {
++  if(V(OVRLP_Qtimer_RESID_9) > V(OVRLP_Qtimer_TESTVAL_8),
++  V(OVRLP_Qtimer_RESID_9)-V(OVRLP_Qtimer_TESTVAL_8), V(OVRLP_Qtimer_RESID_9)) }
+E_OVRLP_Qtimer_A2D8_genbit         OVRLP_Qtimer_A2D8_BVAL 0 VALUE {
++  if(V(OVRLP_Qtimer_RESID_9) > V(OVRLP_Qtimer_TESTVAL_8), 5, 0) }
+R_OVRLP_Qtimer_A2D8_R_resid2G         0 OVRLP_Qtimer_RESID_8  1G TC=0,0 
+X_OVRLP_Qtimer_X11         OVRLP_Qtimer_B11 OVRLP_Qtimer_Q11 OVRLP_Qtimer_EX11
++  $G_DPWR $G_DGND XOR
+R_OVRLP_Qtimer_R_max2g         0 OVRLP_Qtimer_MAXVAL  1G TC=0,0 
+X_OVRLP_Qtimer_X10         OVRLP_Qtimer_B10 OVRLP_Qtimer_Q10 OVRLP_Qtimer_EX10
++  $G_DPWR $G_DGND XOR
+X_OVRLP_Qtimer_U8         OVRLP_Qtimer_CLK9 OVRLP_Qtimer_CLK8
++  OVRLP_Qtimer_RESET_TIMER OVRLP_Qtimer_Q8 OVRLP_Qtimer_CLK9 $G_DPWR $G_DGND
++  DFFR
+X_OVRLP_Qtimer_U10         OVRLP_Qtimer_CLK11 OVRLP_Qtimer_CLK10
++  OVRLP_Qtimer_RESET_TIMER OVRLP_Qtimer_Q10 OVRLP_Qtimer_CLK11 $G_DPWR $G_DGND
++  DFFR
+X_OVRLP_Qtimer_X0         OVRLP_Qtimer_B0 OVRLP_Qtimer_Q0 OVRLP_Qtimer_EX0
++  $G_DPWR $G_DGND XOR
+X_OVRLP_Qtimer_0nor3         OVRLP_Qtimer_EX3 OVRLP_Qtimer_EX2 OVRLP_Qtimer_EX1
++  OVRLP_Qtimer_EX0 OVRLP_Qtimer_0EX3 $G_DPWR $G_DGND NOR4
+X_OVRLP_Qtimer_X6         OVRLP_Qtimer_B6 OVRLP_Qtimer_Q6 OVRLP_Qtimer_EX6
++  $G_DPWR $G_DGND XOR
+X_OVRLP_Qtimer_U4         OVRLP_Qtimer_CLK5 OVRLP_Qtimer_CLK4
++  OVRLP_Qtimer_RESET_TIMER OVRLP_Qtimer_Q4 OVRLP_Qtimer_CLK5 $G_DPWR $G_DGND
++  DFFR
+X_OVRLP_Qtimer_X7         OVRLP_Qtimer_B7 OVRLP_Qtimer_Q7 OVRLP_Qtimer_EX7
++  $G_DPWR $G_DGND XOR
+X_OVRLP_Qlim         OVRLP_Q_INV OVRLP_Q_DLY OVRLP_Q_START $G_DPWR $G_DGND NOR2
+X_OVRLP_inv_ovrlp         OVRLP_OVRLP OVRLP_DEADTIME  $G_DPWR $G_DGND INV
+X_OVRLP_genBovrlp         OVRLP_NOQBRACE OVRLP_QBPULSEN OVRLP_OUTB_OVRLP
++  $G_DPWR $G_DGND NAN2
+X_OVRLP_inv_QB         PWM_QB OVRLP_QB_INV  $G_DPWR $G_DGND INV
+X_OVRLP_QBpulse_gen         OVRLP_QBPULSEN OVRLP_QBPULSE_TOGGLE PWM_ENABLE
++  OVRLP_QB_PULSE OVRLP_QBPULSEN $G_DPWR $G_DGND DFFR
+R_OVRLP_R_Iov2g         OVRLP_DLYVAL 0  1 TC=0,0 
+X_OVRLP_toggle_Qpls         OVRLP_Q_END OVRLP_Q_START OVRLP_QPULSE_TOGGLE
++  $G_DPWR $G_DGND OR2
+X_OVRLP_gen_ovrlp         OVRLP_OUTB_OVRLP OVRLP_OVRLP OVRLP_BOVRLP  $G_DPWR
++  $G_DGND AND2
+X_OVRLP_QBlim         OVRLP_QB_INV OVRLP_QB_DLY OVRLP_QB_START $G_DPWR $G_DGND
++  NOR2
+X_OVRLP_Qpulse_gen         OVRLP_QPULSEN OVRLP_QPULSE_TOGGLE PWM_ENABLE
++  OVRLP_Q_PULSE OVRLP_QPULSEN $G_DPWR $G_DGND DFFR
+X_OVRLP_gen_deadtime         OVRLP_DEADTIME OVRLP_OUTB_DEADTIME OVRLP_BDEADTIME
++   $G_DPWR $G_DGND AND2
+E_OVRLP_OVRLP_VS_DDTIME         OVRLP_OVRLP 0 VALUE { if(I(E_OVRLP_Eset) < 0,
++  5, 0)    }
+V_Vccreg_val         VCCREG_VAL 0 7.6Vdc
+R_Rdcl2g         0 DCL  1G TC=0,0 
+V_ICOMP         COMP V_COMP2G  
++PULSE 0 0Vdc          
+E_PWM_scale         PWM_REF 0 VALUE { (V(SSCLMP, 0) - 1.4)/3 }
+G_CS_BLANK         CS 0 VALUE { if (V(CS_BLANK) > 1, V(CS)/1m, 0)    }
+E_PWMenable         PWM_ENABLE 0 VALUE { if(V(en_outs) > 2 & V(SS) > 1.4V, 5,
++  0)    }
+G_Guvlo         0 UVLO VALUE { if (V(UVLOREADY,0) > 1.0, 20uA, 0) }
+M_MA_sink         0 GATEA OUTA OUTA MPDRVR_A           
+R_RgA         DRVA GATEA  1 TC=0,0 
+E_curlim         DLMT_ISENSE 0 VALUE { if(V(PWM_enable)>3, if(V(RAMP)> 0.5, 5,
++  0), 5)    }
+G_SS_short         SS 0 VALUE { if (V(EN_OUTS) > 1.0,V(SS)/1G, max(-500uA,
++  min(500uA,V(SS))))    }
+X_UREG1_Vcc_uvlo_U5         UREG1_Vcc_uvlo_TESTOUT VCCREADY $G_DPWR $G_DGND BUF
+E_UREG1_Vcc_uvlo_Etest         UREG1_Vcc_uvlo_TESTOUT 0 VALUE { if
++  (V(VCC,UREG1_REF_THRESH) + 1.5*V(UREG1_Vcc_uvlo_TESTOUT)/5> 0, 5.0, 0) }
+D_UREG1_Dref2         REF UREG1_N54390 DIDEAL 
+I_UREG1_IVcc         UREG1_VCCLIM VCC DC 25mA  
+E_UREG1_ABM5         UREG1_VCCREG 0 VALUE { IF (V(STDBY) > 1, IF(V(VIN) > 10,
++  V(VCCREG_VAL), IF(V(VIN) > 10 -V(VCCREG_VAL), V(VIN)+V(VCCREG_VAL)-10, 0)), 0)
++     }
+X_UREG1_Vcc_uvlo1_U5         UREG1_Vcc_uvlo1_TESTOUT VREFREADY $G_DPWR $G_DGND
++  BUF
+E_UREG1_Vcc_uvlo1_Etest         UREG1_Vcc_uvlo1_TESTOUT 0 VALUE { if
++  (V(REF,VREFREG_VAL) + 1.5*V(UREG1_Vcc_uvlo1_TESTOUT)/5> 0, 5.0, 0) }
+E_UREG1_ABM4         UREG1_VREFREG 0 VALUE { if( V(VCCREADY) > 1,
++  V(VREFREG_VAL), 0)    }
+D_UREG1_Dref1         UREG1_VREFREG UREG1_N54390 DIDEAL 
+I_UREG1_Iref         UREG1_N54390 REF DC 20mA  
+V_UREG1_Vccuvlo_offs         VCCREG_VAL UREG1_REF_THRESH 120mVdc
+D_UREG1_DVcc1         UREG1_VCCREG UREG1_VCCLIM DIDEAL 
+D_UREG1_DVcc2         VCC UREG1_VCCLIM DIDEAL 
+R_UREG1_Rstdby2G         0 STDBY  1G TC=0,0 
+X_stdby_cmp_U5         stdby_cmp_TESTOUT STDBY $G_DPWR $G_DGND BUF
+E_stdby_cmp_Etest         stdby_cmp_TESTOUT 0 VALUE { if (V(UVLO,REF0P4) +
++  0.1*V(stdby_cmp_TESTOUT)/5> 0, 5.0, 0) }
+X_Uset_ssctl         NORMAL_OP EN_OUTS N488238 $G_DPWR $G_DGND NOR2
+D_D_Comp2G         V_COMP2G 0 Dbreak 
+.model MNDRVR_B nmos
++ kp=0.44
++ rd=5
++ vto=2
+.model MNDRVR_A nmos
++ kp=1.5
++ rd=2
++ vto=2
+.model MPDRVR_B pmos
++ kp=0.44
++ rd=5
++ vto=-2
+.model MPDRVR_A pmos
++ kp=3
++ rd=2
++ vto=-2
+.model DIDEAL d
++ is=1e-014
++ n=0.1
++ cjo=1e-013
++ rs=0.1
+.ENDS LM5026
+
+*//////////////////////////////////////////////////////////////////////////////////////////////////
+* (C) National Semiconductor, Corporation.
+* Models developed and under copyright by:
+* National Semiconductor, Corporation.  
+*//////////////////////////////////////////////////////////////////////////////////////////////////
+* Legal Notice:  
+* The model may be copied, and distributed without any modifications;
+* however, reselling or licensing the material is illegal.
+* We reserve the right to make changes to the model without prior notice. 
+* Pspice Models are provided "AS IS, WITH NO WARRANTY OF ANY KIND" 
+*//////////////////////////////////////////////////////////////////////////////////////////////////
+* Model Number 	  : LM5020-1 
+* Last Revision Date : Mar 19, 2010
+* Revision Number    :1.1
+* E-mail feedback 	  : http://wwwd.national.com/feedback/
+* Generated from OrCAD Pspice Ver. 10.5, compatible with Ver. 9.2
+* Modelled by : Eric Lee,  eric.lee@nsc.com
+*//////////////////////////////////////////////////////////////////////////////////////////////////
+*Assumptions and limitations;
+*1) Model & Example Assumptions;
+*The temperature for this model is 25C
+*ESR and ESL of capacitors are zero
+*Wire DCR and leakage inductances of transformer are zero
+*No parasitic elements of package
+*2)Some functions/characteristics are not included in this model;
+*Thermal shutdown 
+*Oscillator synchronization 
+*3)Some characteristics are included but not optimized;
+*Gate driver capability 
+*Power consumption of controller  
+*VCC regulator current limit 
+*//////////////////////////////////////////////////////////////////////////////////////////////////
+
+.SUBCKT LM50201 VIN FB COMP VCC OUT SS RT CS UVLO
+
+Sdriverl OUT 0 GL1 0 SWdriverL 
+Sdriverh VCC OUT GH1 0 SWdriverH 
+Cq2 GL1 0  3p IC=0 
+Cq3 GH1 0  3p IC=0 
+Rq2 GH1 GH2  500  
+Rq3 GL1 GL2  500  
+E8 GL2 0 VALUE { if(V(uv1)>2.5 & V(uv2)>2.5 & V(err1)>2.5 & V(maxduty)>2.5,0,5) }
+E6 GH2 0 VALUE { if(V(uv1)>2.5 & V(uv2)>2.5 & V(err1)>2.5 & V(maxduty)>2.5,5,0) }
+
+Rq1 UV2 U1  500  
+Cq1 UV2 0  3p IC=0 
+Rqz1 U3 U2  500  
+Cqz1 U3 0  3p IC=5 
+Rq7 U5 U7  500  
+Cq6 U4 0  3p IC=0 
+Rq6 U4 U6  500  
+Cq7 U5 0  3p IC=0 
+Evccuv1 U6 0 VALUE { if(V(VCC)<6,5,0) }
+Evccuv3 U1 0 VALUE { if(V(U4)>2.5 | V(U3)>2.5,0,5) }
+Evccuv4 U2 0 VALUE { if(V(UV2)>2.5 | V(U5)>2.5,0,5) }
+Evccuv2 U7 0 VALUE { if(V(VCC)>7.5,5,0) }
+
+Rq5 UV1 U8  500  
+Cq5 0 UV1  3p IC=0 
+Guvlohys 0 UVLO VALUE { if(V(uv1)>2.5, 20u, 0) }
+Euvlo U8 0 VALUE { if(V(UVLO)>1.25,5,0) }
+
+Rq ERR1 F3  500  
+Cq ERR1 0  3p IC=0 
+Cqz F2 0  3p IC=5 
+Rqz F2 F4  500  
+Cq4 RESET 0  100p IC=0 
+Rq4 RESET F5  500  
+Ereset F3 0 VALUE { if(V(RESET)>2.5 | V(F2)>2.5,0,5) }
+Ecomp F55 0 VALUE { if(V(csramp)>V(comp2) | V(csramp)>0.5 ,5,0) }
+Eset F4 0 VALUE { if(V(ERR1)>2.5 | V(PULSEDCLKLEB)>2.5,0,5) }
+Dhys F55 F5 D5K
+Rhys RESET 0 5k
+
+Rvcc2 VCC2 VCC3  1  
+Cvcc2 VCC3 0  3p IC=0.77 
+Rvdd1 VDD1 VDD  1  
+Cvdd1 VDD 0  3p IC=0 
+Dvcc VCC4 VCC D5K 
+
+Rvcc3 VCC VCC6 1
+Givcc VCC6 0 TABLE { V(VCC) } ( (0,0) (7.5,0.003) )
+ 
+Dss SS vclamp D5K
+EMAX vclamp 0 VALUE {V(vdd)}
+VRT RT1 RT 0
+Gss 0 SS VALUE { if(V(uv1)<2.5 | V(uv2)<2.5,0, V(vdd)*2E-6) }
+Evcc2 VCC2 0 VALUE { if(V(uv1)>1, V(vcc1), 0.77) }
+Evcc1 VCC1 0 TABLE { V(VIN) } ( (0, 0.77) (4.5, 0.77) (10.8, 8.57) )
+Evdd VDD1 0 TABLE { V(VCC) } ( (5.3,0.0) (7.5,5) )
+Ert RT1 0 TABLE { V(vdd) } ( (0,0) (2,2) )
+Rssdis SS SSdis 200
+Sssdis SSdis 0 ssdiscont 0 S5K
+Rssdis1 ssdiscont ssdiscont1 200
+Cssdis2 ssdiscont 0 3p IC=0
+Essdis ssdiscont1 0 VALUE { if(V(uv1)<2.5 | V(uv2)<2.5, 5,0) }
+Rvddp VDD 0 5E3
+
+Ruvlodummy UVLO 0 10Meg
+Rvindummy VIN 0 192k
+
+VVCC VCC5 VCC4 0
+Ggateloss VIN 0 VALUE {I(VVCC)}
+
+Gldo 0 VCC5 TABLE { V(VCC3,VCC4) } ( (0,0) (0.3,0.02) )
+Cvcc3 VCC5 0  3p IC=0.77 
+
+Cic1 COMP2 0  4.8p IC=0 
+Ric2 COMP2 0  5k  
+Ric3 COMP2 C1  10k  
+Dic4 C2 C1 Dcomp 
+Dic5 COMP C2 Dcomp 
+
+Dic7 vclampgnd COMP D5K 
+Dea2 vclampgnd C4 D5K 
+Eclampgnd vclampgnd 0 TABLE { V(vdd) } ( (0,0) (0.77,0.77) ) 
+
+Ric6 VDD COMP  5k  
+Dic8 COMP C3 D5K 
+Ess C3 0 SS 0 1
+Ggnamp COMP 0 C4 0 0.004
+Dea1 C4 vclamp D5K 
+
+Rbw C4 0  1
+Cbw C4 0  0.0796u IC=0 
+Gea 0 C4 VALUE { if(V(Vdd)>4.5, (V(C12)-V(POS))*200,0) }
+Ereference POS 0 TABLE { V(vdd) } ( (0,0) (1.25,1.25) )
+Rfbd1 C12 0  10Meg  
+Rq11 C12 FB  1  
+Radd CSRAMP CSRAMP1 200
+Ric10 CSRAMP1 CS  2k 
+Cq10 PULSEDCLKLEB 0  3p IC=0 
+Ric11 CS 0  43k  
+Rq10 PULSEDCLKLEB C6  500  
+
+Rq12 MAXDUTY C13  500  
+Cq12 MAXDUTY 0  3p IC=0 
+Ric12 C8 0  1  
+Rq9 C7 C9  500  
+Cq9 C7 0  3p IC=0 
+Cramp RAMP 0  7.9p IC=0 
+
+Gramp1 0 CSRAMP VALUE {V(RAMP)*50E-6} 
+
+Gramp2 0 RAMP VALUE { I(VRT)/40 }
+Eramp3 C10 0 MAXDUTY 0 1
+Sramp RAMP 0 C7 0 S5K
+E13 C9 0 VALUE { if( ( V(MAXDUTY)>4.5 & V(PULSEDCLKLEB)<1 ) ,0,5) }
+Sleb CSRAMP1 0 PULSEDCLKLEB 0 Sleb 
+Eosc1 C6 0 VALUE { if(V(C8)<2.5 & V(MAXDUTY)>2.5,5,0) }
+T1 C8 0 C10 0 Z0=1 TD=50n  
+
+E12 C13 0 VALUE { if(V(OSC)>-0.92,5,0) }
+
+Eosc OSC 0 VALUE { if(V(vdd)>4.5,sin(1.988E10*i(VRT)*TIME),0) }
+
+.MODEL D5K D IS=1E-14 CJO=0 VJ=1
+.MODEL SWdriverH VSWITCH RON=5 ROFF=1MEG VON=1V VOFF=0V
+.MODEL SWdriverL VSWITCH RON=2.6 ROFF=1MEG VON=1V VOFF=0V
+.MODEL S5K VSWITCH RON=1 ROFF=1MEG VON=1V VOFF=0V
+.MODEL Dcomp D IS=1E-20 CJO=0 VJ=1.1
+.MODEL Sleb VSWITCH RON=35 ROFF=1MEG VON=1V VOFF=0V
+.ENDS LM50201
+
+*//////////////////////////////////////////////////////////////////////////////////////////////
+* (C) National Semiconductor, Corporation.
+* Models developed and under copyright by:
+* National Semiconductor, Corporation.  
+*//////////////////////////////////////////////////////////////////////////////////////////////
+* Legal Notice:  
+* The model may be copied, and distributed without any modifications;
+* however, reselling or licensing the material is illegal.
+* We reserve the right to make changes to the model without prior notice. 
+* Pspice Models are provided "AS IS, WITH NO WARRANTY OF ANY KIND" 
+*///////////////////////////////////////////////////////////////////////////////////////////////
+* Model Number 	  : LM5020-2 
+* Last Revision Date : Feb 18, 2009
+* Revision Number    :1.0
+* E-mail feedback 	  : http://wwwd.national.com/feedback/
+* Generated from OrCAD Pspice Ver. 10.5, compatible with Ver. 9.2
+* Modelled by : Eric Lee,  eric.lee@nsc.com
+*///////////////////////////////////////////////////////////////////////////////////////////////
+*Assumptions and limitations;
+*1) Model & Example Assumptions;
+*The temperature for this model is 25C
+*ESR and ESL of capacitors are zero
+*Wire DCR and leakage inductances of transformer are zero
+*No parasitic elements of package
+*2)Some functions/characteristics are not included in this model;
+*Thermal shutdown 
+*Oscillator synchronization 
+*3)Some characteristics are included but not optimized;
+*Gate driver capability 
+*Power consumption of controller  
+*VCC regulator current limit 
+*////////////////////////////////////////////////////////////////////////////////////////////////
+
+.SUBCKT LM50202 VIN FB COMP VCC OUT SS RT CS UVLO
+
+Sdriverl OUT 0 GL1 0 SWdriverL 
+Sdriverh VCC OUT GH1 0 SWdriverH 
+Cq2 GL1 0  3p IC=0 
+Cq3 GH1 0  3p IC=0 
+Rq2 GH1 GH2  500  
+Rq3 GL1 GL2  500  
+E8 GL2 0 VALUE { if(V(uv1)>2.5 & V(uv2)>2.5 & V(err1)>2.5 & V(maxduty)>2.5,0,5) }
+E6 GH2 0 VALUE { if(V(uv1)>2.5 & V(uv2)>2.5 & V(err1)>2.5 & V(maxduty)>2.5,5,0) }
+
+Rq1 UV2 U1  500  
+Cq1 UV2 0  3p IC=0 
+Rqz1 U3 U2  500  
+Cqz1 U3 0  3p IC=5 
+Rq7 U5 U7  500  
+Cq6 U4 0  3p IC=0 
+Rq6 U4 U6  500  
+Cq7 U5 0  3p IC=0 
+Evccuv1 U6 0 VALUE { if(V(VCC)<6,5,0) }
+Evccuv3 U1 0 VALUE { if(V(U4)>2.5 | V(U3)>2.5,0,5) }
+Evccuv4 U2 0 VALUE { if(V(UV2)>2.5 | V(U5)>2.5,0,5) }
+Evccuv2 U7 0 VALUE { if(V(VCC)>7.5,5,0) }
+
+Rq5 UV1 U8  500  
+Cq5 0 UV1  3p IC=0 
+Guvlohys 0 UVLO VALUE { if(V(uv1)>2.5, 20u, 0) }
+Euvlo U8 0 VALUE { if(V(UVLO)>1.25,5,0) }
+
+Rq ERR1 F3  500  
+Cq ERR1 0  3p IC=0 
+Cqz F2 0  3p IC=5 
+Rqz F2 F4  500  
+Cq4 RESET 0  100p IC=0 
+Rq4 RESET F5  500  
+Ereset F3 0 VALUE { if(V(RESET)>2.5 | V(F2)>2.5,0,5) }
+Ecomp F55 0 VALUE { if(V(csramp)>V(comp2) | V(csramp)>0.5 ,5,0) }
+Eset F4 0 VALUE { if(V(ERR1)>2.5 | V(PULSEDCLKLEB)>2.5,0,5) }
+Dhys F55 F5 D5K
+Rhys RESET 0 5k
+
+Rvcc2 VCC2 VCC3  1 
+Cvcc2 VCC3 0  3p IC=0.77 
+Rvdd1 VDD1 VDD  1  
+Cvdd1 VDD 0  3p IC=0 
+Dvcc VCC4 VCC D5K 
+
+Rvcc3 VCC VCC6 1
+Givcc VCC6 0 TABLE { V(VCC) } ( (0,0) (7.5,0.003) )
+
+Dss SS vclamp D5K
+EMAX vclamp 0 VALUE {V(vdd)}
+VRT RT1 RT 0
+Gss 0 SS VALUE { if(V(uv1)<2.5 | V(uv2)<2.5,0, V(vdd)*2E-6) }
+Evcc2 VCC2 0 VALUE { if(V(uv1)>1, V(vcc1), 0.77) }
+Evcc1 VCC1 0 TABLE { V(VIN) } ( (0, 0.77) (4.5, 0.77) (10.8, 8.57) )
+Evdd VDD1 0 TABLE { V(VCC) } ( (5.3,0.0) (7.5,5) )
+Ert RT1 0 TABLE { V(vdd) } ( (0,0) (2,2) )
+Rssdis SS SSdis 200
+Sssdis SSdis 0 ssdiscont 0 S5K
+Rssdis1 ssdiscont ssdiscont1 200
+Cssdis2 ssdiscont 0 3p IC=0
+Essdis ssdiscont1 0 VALUE { if(V(uv1)<2.5 | V(uv2)<2.5, 5,0) }
+Rvddp VDD 0 5E3
+
+Ruvlodummy UVLO 0 10Meg
+Rvindummy VIN 0 192k
+
+VVCC VCC5 VCC4 0
+Ggateloss VIN 0 VALUE {I(VVCC)}
+
+Gldo 0 VCC5 TABLE { V(VCC3,VCC4) } ( (0,0) (0.3,0.02) )
+Cvcc3 VCC5 0  3p IC=0.77 
+
+Cic1 COMP2 0  4.8p IC=0 
+Ric2 COMP2 0  5k  
+Ric3 COMP2 C1  10k  
+Dic4 C2 C1 Dcomp 
+Dic5 COMP C2 Dcomp 
+
+Dic7 vclampgnd COMP D5K 
+Dea2 vclampgnd C4 D5K 
+Eclampgnd vclampgnd 0 TABLE { V(vdd) } ( (0,0) (0.77,0.77) ) 
+
+Ric6 VDD COMP  5k  
+Dic8 COMP C3 D5K 
+Ess C3 0 SS 0 1
+Ggnamp COMP 0 C4 0 0.004
+Dea1 C4 vclamp D5K 
+
+Rbw C4 0  1
+Cbw C4 0  0.0796u IC=0 
+Gea 0 C4 VALUE { if(V(Vdd)>4.5, (V(C12)-V(POS))*200,0) }
+Ereference POS 0 TABLE { V(vdd) } ( (0,0) (1.25,1.25) )
+Rfbd1 C12 0  10Meg  
+Rq11 C12 FB  1  
+Radd CSRAMP CSRAMP1 200
+Ric10 CSRAMP1 CS  2k 
+Cq10 PULSEDCLKLEB 0  3p IC=0 
+Ric11 CS 0  43k  
+Rq10 PULSEDCLKLEB C6  500  
+
+Rq12 MAXDUTY C13  500  
+Cq12 MAXDUTY 0  3p IC=0 
+Ric12 C8 0  1  
+Rq9 C7 C9  500  
+Cq9 C7 0  3p IC=0 
+Cramp RAMP 0  7.9p IC=0 
+
+Gramp1 0 CSRAMP VALUE {V(RAMP)*0} 
+
+Gramp2 0 RAMP VALUE { I(VRT)/40 }
+Eramp3 C10 0 MAXDUTY 0 1
+Sramp RAMP 0 C7 0 S5K
+E13 C9 0 VALUE { if( ( V(MAXDUTY)>4.5 & V(PULSEDCLKLEB)<1 ) ,0,5) }
+Sleb CSRAMP1 0 PULSEDCLKLEB 0 Sleb 
+Eosc1 C6 0 VALUE { if(V(C8)<2.5 & V(MAXDUTY)>2.5,5,0) }
+T1 C8 0 C10 0 Z0=1 TD=50n  
+
+E12 C13 0 VALUE { if(V(OSC)>0,5,0) }
+
+Eosc OSC 0 VALUE { if(V(vdd)>4.5,sin(9.936E9*i(VRT)*TIME),0) }
+
+.MODEL D5K D IS=1E-14 CJO=0 VJ=1
+.MODEL SWdriverH VSWITCH RON=5 ROFF=1MEG VON=1V VOFF=0V
+.MODEL SWdriverL VSWITCH RON=2.6 ROFF=1MEG VON=1V VOFF=0V
+.MODEL S5K VSWITCH RON=1 ROFF=1MEG VON=1V VOFF=0V
+.MODEL Dcomp D IS=1E-20 CJO=0 VJ=1.1
+.MODEL Sleb VSWITCH RON=35 ROFF=1MEG VON=1V VOFF=0V
+.ENDS LM50202
+

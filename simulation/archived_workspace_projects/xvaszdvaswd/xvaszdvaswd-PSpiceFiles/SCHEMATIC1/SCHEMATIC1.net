@@ -1,0 +1,13 @@
+* source XVASZDVASWD
+R_R148         N1099998 N1100008  200 TC=0,0 
+C_C268         0 VCC  1n  TC=0,0 
+C_C252         0 VEE  0.1uF  TC=0,0 
+C_C267         0 VEE  1n  TC=0,0 
+X_U1         N1100568 N1099998 VCC VEE N1100008 OPAX277
+C_C253         0 VCC  0.1uF  TC=0,0 
+V_V1         VCC 0 5
+V_V2         0 VEE 5
+R_R149         0 N1099998  200 TC=0,0 
+R_R150         VEE N1100568  1k TC=0,0 
+R_R151         N1100568 VCC  1k TC=0,0 
+.PARAM  set=

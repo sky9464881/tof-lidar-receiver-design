@@ -1,0 +1,851 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/lidar_pcb.brd  |
+|                                                    Tue Apr  8 18:39:47 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  12V          pins ADDED TO this new net
+                                 C1(6.8UF).1    C2(0.47UF).2   C4(10UF).2     
+                                 C5(0.47UF).1   C7(47UF).2     LM2940.1       
+                                 LM2990.2       R12_150B.22    R12_150B.23    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  277IN-/FED   pins ADDED TO this new net
+                                 OPA277_1.2     OPA277_2.2     R16(200).1     
+                                 R22(200).1     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  277OUT/FED   pins ADDED TO this new net
+                                 OPA277_1.6     OPA277_2.6     R16(200).2     
+                                 R17(130).1     R22(200).2     R23(130).1     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  695FED/INTPUT-/855OUT pins ADDED TO this new net
+                                 OPA695.4       R11(360OHM).1  R12(500).1     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  695INTPUT+   pins ADDED TO this new net
+                                 OPA695.3       R14(20).2      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  695OUT       pins ADDED TO this new net
+                                 OPA695.1       R12(500).2     R13(27).1      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  855FED       pins ADDED TO this new net
+                                 C11(0.5PF).2   OPA855.1       R5(500).2      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  855IN-       pins ADDED TO this new net
+                                 OPA855.3       R6(10).1       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  855OUT       pins ADDED TO this new net
+                                 C21(0.1UF).2   C22(1NF).1     OPA855.6       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  3604IN-/POSTBIAS pins ADDED TO this new net
+                                 C30(1NF).2     R17(130).2     TLV3604_1.4    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  3604IN-/TRIGGERBAIS pins ADDED TO this new net
+                                 C37(1NF).2     R23(130).2     TLV3604_2.4    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  0            pins ADDED TO this new net
+                                 C1(6.8UF).2    C2(0.47UF).1   C3(22UF).1     
+                                 C4(10UF).1     C5(0.47UF).2   C6(10UF).1     
+                                 C9(2.2UF).2    C10(0.1UF).1   C12(0.1UF).2   
+                                 C13(6.8UF).2   C14(0.1UF).2   C15(6.8UF).2   
+                                 C16(1NF).1     C17(0.1UF).1   C18(6.8UF).1   
+                                 C19(0.1UF).1   C20(6.8UF).2   C23(0.1UF).1   
+                                 C23(0.1UF).2   C24(0.1UF).1   C25(6.8UF).2   
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/lidar_pcb.brd  |
+|                                                    Tue Apr  8 18:39:47 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 C26(0.1UF).2   C27(6.8UF).2   C28(0.1UF).2   
+                                 C29(6.8UF).2   C30(1NF).1     C31(0.1UF).2   
+                                 C32(6.8UF).2   C33(0.1UF).2   C34(6.8UF).2   
+                                 C35(0.1UF).2   C36(6.8UF).2   C37(1NF).1     
+                                 C38(0.1UF).2   C39(6.8UF).2   LM2940.2       
+                                 LM2990.1       OPA855.5       OPA855.9       
+                                 R1(10).1       R2(10).1       R8(200).1      
+                                 R14(20).1      R24(50OHM).2   TLV3604_1.2    
+                                 TLV3604_2.2    TSW11007GD.2   TSW11007GD.4   
+                                 TSW11007GD.6   TSW11007GD.8   TSW11007GD.10  
+                                 TSW11007GD.12  TSW11007GD.14  TSW11007GD.16  
+                                 TSW11007GD.18  TSW11007GD.20  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  APD_BIAS     pins ADDED TO this new net
+                                 C8(4.7UF).1    C9(2.2UF).1    R4(200K).2     
+                                 R12_150B.12    R12_150B.13    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  APD_IN       pins ADDED TO this new net
+                                 APD.1          C10(0.1UF).2   R4(200K).1     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  APD_OUT/FED  pins ADDED TO this new net
+                                 APD.2          C11(0.5PF).1   R5(500).1      
+                                 R6(10).2       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1154337     pins ADDED TO this new net
+                                 C7(47UF).1     R1(10).2       R12_150B.2     
+                                 R12_150B.3     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1154653     pins ADDED TO this new net
+                                 R19(0).2       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1155357     pins ADDED TO this new net
+                                 R20(0).2       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1156413     pins ADDED TO this new net
+                                 R26(0).2       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1156799     pins ADDED TO this new net
+                                 R27(0).2       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  NON277BIAS   pins ADDED TO this new net
+                                 C16(1NF).2     OPA855.4       R10(130OHM).2  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  NON277IN-/FED pins ADDED TO this new net
+                                 OPA277.2       R8(200).2      R9(200).1      
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/lidar_pcb.brd  |
+|                                                    Tue Apr  8 18:39:47 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  NON277OUT/FED pins ADDED TO this new net
+                                 OPA277.6       R9(200).2      R10(130OHM).1  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  POSTOUT/COMIN pins ADDED TO this new net
+                                 R13(27).2      TLV3604_1.3    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAM_CON      pins ADDED TO this new net
+                                 R24(50OHM).1   TLV3604_2.3    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SERI_CAP     pins ADDED TO this new net
+                                 C21(0.1UF).1   C22(1NF).2     R11(360OHM).2  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TLVPOSTOUT+  pins ADDED TO this new net
+                                 R18(100).2     R19(0).1       TLV3604_1.1    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TLVPOSTOUT-  pins ADDED TO this new net
+                                 R18(100).1     R20(0).1       TLV3604_1.6    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TLVTRIOUT+   pins ADDED TO this new net
+                                 R25(100).2     R26(0).1       TLV3604_2.1    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TLVTRIOUT-   pins ADDED TO this new net
+                                 R25(100).1     R27(0).1       TLV3604_2.6    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TRIGGER_ID_N pins ADDED TO this new net
+                                 TSW11007GD.9   
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TRIGGER_ID_P pins ADDED TO this new net
+                                 TSW11007GD.11  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TRIGGER_TIA_N pins ADDED TO this new net
+                                 TSW11007GD.1   
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TRIGGER_TIA_P pins ADDED TO this new net
+                                 TSW11007GD.3   
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TRIM5K_3/VOUT- pins ADDED TO this new net
+                                 C8(4.7UF).2    R2(10).2       R3(TRIM5KOHM).3 
+                                 R12_150B.10    R12_150B.15    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TRIM5K_1     pins ADDED TO this new net
+                                 R3(TRIM5KOHM).1 R12_150B.9     R12_150B.16    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TRIM5K_IN    pins ADDED TO this new net
+                                 R3(TRIM5KOHM).2 R12_150B.8     R12_150B.17    
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/lidar_pcb.brd  |
+|                                                    Tue Apr  8 18:39:47 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  TRIM20KOUT   pins ADDED TO this new net
+                                 OPA277_1.3     OPA277_2.3     OPA277.3       
+                                 R7(TRIM20KOHM).2 R15(TRIM20KOHM).2 
+                                 R21(TRIM20KOHM).2 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VCC          pins ADDED TO this new net
+                                 C3(22UF).2     C14(0.1UF).1   C15(6.8UF).1   
+                                 C17(0.1UF).2   C18(6.8UF).2   C19(0.1UF).2   
+                                 C20(6.8UF).1   C28(0.1UF).1   C29(6.8UF).1   
+                                 C31(0.1UF).1   C32(6.8UF).1   C35(0.1UF).1   
+                                 C36(6.8UF).1   C38(0.1UF).1   C39(6.8UF).1   
+                                 LM2940.3       OPA277_1.7     OPA277_2.7     
+                                 OPA277.7       OPA695.6       OPA855.7       
+                                 OPA855.8       R7(TRIM20KOHM).1 
+                                 R15(TRIM20KOHM).1 R21(TRIM20KOHM).1 
+                                 TLV3604_1.5    TLV3604_2.5    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VEE          pins ADDED TO this new net
+                                 C6(10UF).2     C12(0.1UF).1   C13(6.8UF).1   
+                                 C24(0.1UF).2   C25(6.8UF).1   C26(0.1UF).1   
+                                 C27(6.8UF).1   C33(0.1UF).1   C34(6.8UF).1   
+                                 LM2990.3       OPA277_1.4     OPA277_2.4     
+                                 OPA277.4       OPA695.2       R7(TRIM20KOHM).3 
+                                 R15(TRIM20KOHM).3 R21(TRIM20KOHM).3 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/lidar_pcb.brd  |
+|                                                    Tue Apr  8 18:39:47 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 02016D475MAT2A_CAPC0603X33N_DISCRETE_02016D475MAT2A
+ 3224W-1-203E_3224W1203E_DISCRETE_3224W-1-203E
+ 22252C225KAT2A_CAPC5764X279N_DISCRETE_22252C225KAT2A_(CAPC5764X279N)
+ C0603G104K5RACT250_C0603_DISCRETE_C0603G104K5RACT250
+ C0603X102KCRAC3316_CAPC1608X90N_DISCRETE_C0603X102KCRAC3316
+ CBR08C508ACGAC_CBR08C_DISCRETE_CBR08C508ACGAC
+ CRCW0603100RFKEC_RESC1608X50N_DISCRETE_CRCW0603100RFKEC
+ ERJ3RED27R0V_RESC1608X55N_DISCRETE_ERJ3RED27R0V
+ ERJS03F1300V_RESC1608X55N_DISCRETE_ERJS03F1300V
+ ERJUP6D1300V_ERJUP6_DISCRETE_ERJUP6D1300V
+ GRM188R60E476ME15J_GRM18X_DISCRETE_GRM188R60E476ME15J
+ KTR03EZPF3600_RESC1608X55N_DISCRETE_KTR03EZPF3600
+ LM2940T-5_0.0_NOPB_TO254P470X1028X1955-3P_LM2940T-5.0_NOPB
+ LM2990T-5_0.0_NOPB_TO254P470X1028X1955-3P_LM2990T-5.0_NOPB
+ MLASE063BB5474MFNB33_CAPC0603X39N_DISCRETE_MLASE063BB5474MFNB33
+ MTAPD-06-013_MTAPD06013_MTAPD-06-013
+ OPA277U_2K5_SOIC127P600X175-8N_OPA277U_2K5_(SOIC127P600X175-8N)
+ OPA277U_2K5_SOIC127P600X175-8N_OPA277U_2K5
+ OPA695IDBVR_SOT95P280X145-6N_OPA695IDBVR
+ OPA855IDSGT_SON50P200X200X80-9N_OPA855IDSGT
+ P0603E50R0BBT_RESC1508X63N_DISCRETE_P0603E50R0BBT
+ PLT0603Z5000AST5_RESC1608X51N_DISCRETE_PLT0603Z5000AST5
+ R12-150B_0_R24150B_DISCRETE_R12-150B
+ RA73F1J200RBTDF_RESC1608X58N_DISCRETE_RA73F1J200RBTDF
+ RC0603JR-070RL_RESC1608X55N_DISCRETE_RC0603JR-070RL
+ RCA060310R0FKEAHP_RESC1608X55N_DISCRETE_RCA060310R0FKEAHP
+ SG73P1JTTD20R0F_RESC1608X55N_DISCRETE_SG73P1JTTD20R0F
+ T491A106K016AT_T491A_DISCRETE_T491A106K016AT
+ TAJA685K020R_CAPPM3216X180N_DISCRETE_TAJA685K020R
+ TLV3604DCKR_SOT65P210X110-6N_TLV3604DCKR
+ TNPW0603200KBEEA_RESC1608X60N_DISCRETE_TNPW0603200KBEEA
+ TPSB226K016R0600_CAPPM3528X210N_DISCRETE_TPSB226K016R0600
+ TS7Y502KR32_TS7Y502KR32_DISCRETE_TS7Y502KR32
+ TSW-110-07-G-D_1_TSW-110-XX-YY-D_TSW-110-07-G-D
+ VJ1210Y104MXCAT_CAPC3225X170N_DISCRETE_VJ1210Y104MXCAT_(CAPC3225X170N)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/lidar_pcb.brd  |
+|                                                    Tue Apr  8 18:39:47 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ APD                 MTAPD-06-013_MTAPD06013_MTAPD-06-013 
+ C1(6.8UF)           TAJA685K020R_CAPPM3216X180N_DISCRETE_TAJA685K020R 
+ C2(0.47UF)          MLASE063BB5474MFNB33_CAPC0603X39N_DISCRETE_MLASE063BB5474MFNB33 
+ C3(22UF)            TPSB226K016R0600_CAPPM3528X210N_DISCRETE_TPSB226K016R0600 
+ C4(10UF)            T491A106K016AT_T491A_DISCRETE_T491A106K016AT 
+ C5(0.47UF)          MLASE063BB5474MFNB33_CAPC0603X39N_DISCRETE_MLASE063BB5474MFNB33 
+ C6(10UF)            T491A106K016AT_T491A_DISCRETE_T491A106K016AT 
+ C7(47UF)            GRM188R60E476ME15J_GRM18X_DISCRETE_GRM188R60E476ME15J 
+ C8(4.7UF)           02016D475MAT2A_CAPC0603X33N_DISCRETE_02016D475MAT2A 
+ C9(2.2UF)           22252C225KAT2A_CAPC5764X279N_DISCRETE_22252C225KAT2A_(CAPC5764X279N) 
+ C10(0.1UF)          VJ1210Y104MXCAT_CAPC3225X170N_DISCRETE_VJ1210Y104MXCAT_(CAPC3225X170N) 
+ C11(0.5PF)          CBR08C508ACGAC_CBR08C_DISCRETE_CBR08C508ACGAC 
+ C12(0.1UF)          C0603G104K5RACT250_C0603_DISCRETE_C0603G104K5RACT250 
+ C13(6.8UF)          TAJA685K020R_CAPPM3216X180N_DISCRETE_TAJA685K020R 
+ C14(0.1UF)          C0603G104K5RACT250_C0603_DISCRETE_C0603G104K5RACT250 
+ C15(6.8UF)          TAJA685K020R_CAPPM3216X180N_DISCRETE_TAJA685K020R 
+ C16(1NF)            C0603X102KCRAC3316_CAPC1608X90N_DISCRETE_C0603X102KCRAC3316 
+ C17(0.1UF)          C0603G104K5RACT250_C0603_DISCRETE_C0603G104K5RACT250 
+ C18(6.8UF)          TAJA685K020R_CAPPM3216X180N_DISCRETE_TAJA685K020R 
+ C19(0.1UF)          C0603G104K5RACT250_C0603_DISCRETE_C0603G104K5RACT250 
+ C20(6.8UF)          TAJA685K020R_CAPPM3216X180N_DISCRETE_TAJA685K020R 
+ C21(0.1UF)          C0603G104K5RACT250_C0603_DISCRETE_C0603G104K5RACT250 
+ C22(1NF)            C0603X102KCRAC3316_CAPC1608X90N_DISCRETE_C0603X102KCRAC3316 
+ C23(0.1UF)          C0603G104K5RACT250_C0603_DISCRETE_C0603G104K5RACT250 
+ C24(0.1UF)          C0603G104K5RACT250_C0603_DISCRETE_C0603G104K5RACT250 
+ C25(6.8UF)          TAJA685K020R_CAPPM3216X180N_DISCRETE_TAJA685K020R 
+ C26(0.1UF)          C0603G104K5RACT250_C0603_DISCRETE_C0603G104K5RACT250 
+ C27(6.8UF)          TAJA685K020R_CAPPM3216X180N_DISCRETE_TAJA685K020R 
+ C28(0.1UF)          C0603G104K5RACT250_C0603_DISCRETE_C0603G104K5RACT250 
+ C29(6.8UF)          TAJA685K020R_CAPPM3216X180N_DISCRETE_TAJA685K020R 
+ C30(1NF)            C0603X102KCRAC3316_CAPC1608X90N_DISCRETE_C0603X102KCRAC3316 
+ C31(0.1UF)          C0603G104K5RACT250_C0603_DISCRETE_C0603G104K5RACT250 
+ C32(6.8UF)          TAJA685K020R_CAPPM3216X180N_DISCRETE_TAJA685K020R 
+ C33(0.1UF)          C0603G104K5RACT250_C0603_DISCRETE_C0603G104K5RACT250 
+ C34(6.8UF)          TAJA685K020R_CAPPM3216X180N_DISCRETE_TAJA685K020R 
+ C35(0.1UF)          C0603G104K5RACT250_C0603_DISCRETE_C0603G104K5RACT250 
+ C36(6.8UF)          TAJA685K020R_CAPPM3216X180N_DISCRETE_TAJA685K020R 
+ C37(1NF)            C0603X102KCRAC3316_CAPC1608X90N_DISCRETE_C0603X102KCRAC3316 
+ C38(0.1UF)          C0603G104K5RACT250_C0603_DISCRETE_C0603G104K5RACT250 
+ C39(6.8UF)          TAJA685K020R_CAPPM3216X180N_DISCRETE_TAJA685K020R 
+ LM2940              LM2940T-5_0.0_NOPB_TO254P470X1028X1955-3P_LM2940T-5.0_NOPB 
+ LM2990              LM2990T-5_0.0_NOPB_TO254P470X1028X1955-3P_LM2990T-5.0_NOPB 
+ OPA277_1            OPA277U_2K5_SOIC127P600X175-8N_OPA277U_2K5 
+ OPA277_2            OPA277U_2K5_SOIC127P600X175-8N_OPA277U_2K5_(SOIC127P600X175-8N) 
+ OPA277              OPA277U_2K5_SOIC127P600X175-8N_OPA277U_2K5 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/lidar_pcb.brd  |
+|                                                    Tue Apr  8 18:39:47 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ OPA695              OPA695IDBVR_SOT95P280X145-6N_OPA695IDBVR 
+ OPA855              OPA855IDSGT_SON50P200X200X80-9N_OPA855IDSGT 
+ R1(10)              RCA060310R0FKEAHP_RESC1608X55N_DISCRETE_RCA060310R0FKEAHP 
+ R2(10)              RCA060310R0FKEAHP_RESC1608X55N_DISCRETE_RCA060310R0FKEAHP 
+ R3(TRIM5KOHM)       TS7Y502KR32_TS7Y502KR32_DISCRETE_TS7Y502KR32 
+ R4(200K)            TNPW0603200KBEEA_RESC1608X60N_DISCRETE_TNPW0603200KBEEA 
+ R5(500)             PLT0603Z5000AST5_RESC1608X51N_DISCRETE_PLT0603Z5000AST5 
+ R6(10)              RCA060310R0FKEAHP_RESC1608X55N_DISCRETE_RCA060310R0FKEAHP 
+ R7(TRIM20KOHM)      3224W-1-203E_3224W1203E_DISCRETE_3224W-1-203E 
+ R8(200)             RA73F1J200RBTDF_RESC1608X58N_DISCRETE_RA73F1J200RBTDF 
+ R9(200)             RA73F1J200RBTDF_RESC1608X58N_DISCRETE_RA73F1J200RBTDF 
+ R10(130OHM)         ERJUP6D1300V_ERJUP6_DISCRETE_ERJUP6D1300V 
+ R11(360OHM)         KTR03EZPF3600_RESC1608X55N_DISCRETE_KTR03EZPF3600 
+ R12(500)            PLT0603Z5000AST5_RESC1608X51N_DISCRETE_PLT0603Z5000AST5 
+ R12_150B            R12-150B_0_R24150B_DISCRETE_R12-150B 
+ R13(27)             ERJ3RED27R0V_RESC1608X55N_DISCRETE_ERJ3RED27R0V 
+ R14(20)             SG73P1JTTD20R0F_RESC1608X55N_DISCRETE_SG73P1JTTD20R0F 
+ R15(TRIM20KOHM)     3224W-1-203E_3224W1203E_DISCRETE_3224W-1-203E 
+ R16(200)            RA73F1J200RBTDF_RESC1608X58N_DISCRETE_RA73F1J200RBTDF 
+ R17(130)            ERJS03F1300V_RESC1608X55N_DISCRETE_ERJS03F1300V 
+ R18(100)            CRCW0603100RFKEC_RESC1608X50N_DISCRETE_CRCW0603100RFKEC 
+ R19(0)              RC0603JR-070RL_RESC1608X55N_DISCRETE_RC0603JR-070RL 
+ R20(0)              RC0603JR-070RL_RESC1608X55N_DISCRETE_RC0603JR-070RL 
+ R21(TRIM20KOHM)     3224W-1-203E_3224W1203E_DISCRETE_3224W-1-203E 
+ R22(200)            RA73F1J200RBTDF_RESC1608X58N_DISCRETE_RA73F1J200RBTDF 
+ R23(130)            ERJS03F1300V_RESC1608X55N_DISCRETE_ERJS03F1300V 
+ R24(50OHM)          P0603E50R0BBT_RESC1508X63N_DISCRETE_P0603E50R0BBT 
+ R25(100)            CRCW0603100RFKEC_RESC1608X50N_DISCRETE_CRCW0603100RFKEC 
+ R26(0)              RC0603JR-070RL_RESC1608X55N_DISCRETE_RC0603JR-070RL 
+ R27(0)              RC0603JR-070RL_RESC1608X55N_DISCRETE_RC0603JR-070RL 
+ TLV3604_1           TLV3604DCKR_SOT65P210X110-6N_TLV3604DCKR 
+ TLV3604_2           TLV3604DCKR_SOT65P210X110-6N_TLV3604DCKR 
+ TSW11007GD          TSW-110-07-G-D_1_TSW-110-XX-YY-D_TSW-110-07-G-D 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/lidar_pcb.brd  |
+|                                                    Tue Apr  8 18:39:47 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ APD.1                          PRIM_FILE      .\pstchip.dat
+ APD.1                          XY             (650,660)
+ C1(6.8UF).2                    PRIM_FILE      .\pstchip.dat
+ C1(6.8UF).2                    XY             (180,160)
+ C2(0.47UF).2                   PRIM_FILE      .\pstchip.dat
+ C2(0.47UF).2                   XY             (300,150)
+ C3(22UF).2                     PRIM_FILE      .\pstchip.dat
+ C3(22UF).2                     XY             (650,190)
+ C4(10UF).2                     PRIM_FILE      .\pstchip.dat
+ C4(10UF).2                     XY             (180,330)
+ C5(0.47UF).2                   PRIM_FILE      .\pstchip.dat
+ C5(0.47UF).2                   XY             (300,340)
+ C6(10UF).2                     PRIM_FILE      .\pstchip.dat
+ C6(10UF).2                     XY             (650,280)
+ C7(47UF).2                     PRIM_FILE      .\pstchip.dat
+ C7(47UF).2                     XY             (890,230)
+ C8(4.7UF).2                    PRIM_FILE      .\pstchip.dat
+ C8(4.7UF).2                    XY             (1150,190)
+ C9(2.2UF).2                    PRIM_FILE      .\pstchip.dat
+ C9(2.2UF).2                    XY             (600,540)
+ C10(0.1UF).2                   PRIM_FILE      .\pstchip.dat
+ C10(0.1UF).2                   XY             (530,730)
+ C11(0.5PF).2                   PRIM_FILE      .\pstchip.dat
+ C11(0.5PF).2                   XY             (800,600)
+ C12(0.1UF).2                   PRIM_FILE      .\pstchip.dat
+ C12(0.1UF).2                   XY             (350,1110)
+ C13(6.8UF).2                   PRIM_FILE      .\pstchip.dat
+ C13(6.8UF).2                   XY             (410,1100)
+ C14(0.1UF).2                   PRIM_FILE      .\pstchip.dat
+ C14(0.1UF).2                   XY             (660,860)
+ C15(6.8UF).2                   PRIM_FILE      .\pstchip.dat
+ C15(6.8UF).2                   XY             (770,850)
+ C16(1NF).2                     PRIM_FILE      .\pstchip.dat
+ C16(1NF).2                     XY             (740,1070)
+ C17(0.1UF).2                   PRIM_FILE      .\pstchip.dat
+ C17(0.1UF).2                   XY             (1190,640)
+ C18(6.8UF).2                   PRIM_FILE      .\pstchip.dat
+ C18(6.8UF).2                   XY             (1250,630)
+ C19(0.1UF).2                   PRIM_FILE      .\pstchip.dat
+ C19(0.1UF).2                   XY             (1360,810)
+ C20(6.8UF).2                   PRIM_FILE      .\pstchip.dat
+ C20(6.8UF).2                   XY             (1460,800)
+ C21(0.1UF).2                   PRIM_FILE      .\pstchip.dat
+ C21(0.1UF).2                   XY             (1350,920)
+ C22(1NF).2                     PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/lidar_pcb.brd  |
+|                                                    Tue Apr  8 18:39:47 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C22(1NF).2                     XY             (1350,970)
+ C23(0.1UF).2                   PRIM_FILE      .\pstchip.dat
+ C23(0.1UF).2                   XY             (1760,900)
+ C24(0.1UF).2                   PRIM_FILE      .\pstchip.dat
+ C24(0.1UF).2                   XY             (2070,820)
+ C25(6.8UF).2                   PRIM_FILE      .\pstchip.dat
+ C25(6.8UF).2                   XY             (2180,810)
+ C26(0.1UF).2                   PRIM_FILE      .\pstchip.dat
+ C26(0.1UF).2                   XY             (2700,810)
+ C27(6.8UF).2                   PRIM_FILE      .\pstchip.dat
+ C27(6.8UF).2                   XY             (2780,800)
+ C28(0.1UF).2                   PRIM_FILE      .\pstchip.dat
+ C28(0.1UF).2                   XY             (3010,560)
+ C29(6.8UF).2                   PRIM_FILE      .\pstchip.dat
+ C29(6.8UF).2                   XY             (3090,550)
+ C30(1NF).2                     PRIM_FILE      .\pstchip.dat
+ C30(1NF).2                     XY             (3090,770)
+ C31(0.1UF).2                   PRIM_FILE      .\pstchip.dat
+ C31(0.1UF).2                   XY             (3510,770)
+ C32(6.8UF).2                   PRIM_FILE      .\pstchip.dat
+ C32(6.8UF).2                   XY             (3640,760)
+ C33(0.1UF).2                   PRIM_FILE      .\pstchip.dat
+ C33(0.1UF).2                   XY             (2670,1360)
+ C34(6.8UF).2                   PRIM_FILE      .\pstchip.dat
+ C34(6.8UF).2                   XY             (2750,1350)
+ C35(0.1UF).2                   PRIM_FILE      .\pstchip.dat
+ C35(0.1UF).2                   XY             (2980,1090)
+ C36(6.8UF).2                   PRIM_FILE      .\pstchip.dat
+ C36(6.8UF).2                   XY             (3100,1090)
+ C37(1NF).2                     PRIM_FILE      .\pstchip.dat
+ C37(1NF).2                     XY             (3060,1300)
+ C38(0.1UF).2                   PRIM_FILE      .\pstchip.dat
+ C38(0.1UF).2                   XY             (3620,1300)
+ C39(6.8UF).2                   PRIM_FILE      .\pstchip.dat
+ C39(6.8UF).2                   XY             (3750,1290)
+ LM2940.3                       PRIM_FILE      .\pstchip.dat
+ LM2940.3                       XY             (550,120)
+ LM2990.3                       PRIM_FILE      .\pstchip.dat
+ LM2990.3                       XY             (540,340)
+ OPA277_1.4                     PRIM_FILE      .\pstchip.dat
+ OPA277_1.4                     XY             (2730,680)
+ OPA277_2.4                     PRIM_FILE      .\pstchip.dat
+ OPA277_2.4                     XY             (2700,1210)
+ OPA277.4                       PRIM_FILE      .\pstchip.dat
+ OPA277.4                       XY             (380,980)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/lidar_pcb.brd  |
+|                                                    Tue Apr  8 18:39:47 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ OPA695.1                       PRIM_FILE      .\pstchip.dat
+ OPA695.1                       XY             (1720,780)
+ OPA855.5                       PRIM_FILE      .\pstchip.dat
+ OPA855.5                       XY             (950,660)
+ R1(10).2                       PRIM_FILE      .\pstchip.dat
+ R1(10).2                       XY             (890,330)
+ R2(10).2                       PRIM_FILE      .\pstchip.dat
+ R2(10).2                       XY             (1320,200)
+ R3(TRIM5KOHM).2                 PRIM_FILE      .\pstchip.dat
+ R3(TRIM5KOHM).2                 XY             (1000,60)
+ R4(200K).2                     PRIM_FILE      .\pstchip.dat
+ R4(200K).2                     XY             (530,570)
+ R5(500).2                      PRIM_FILE      .\pstchip.dat
+ R5(500).2                      XY             (780,660)
+ R6(10).2                       PRIM_FILE      .\pstchip.dat
+ R6(10).2                       XY             (780,690)
+ R7(TRIM20KOHM).2                 PRIM_FILE      .\pstchip.dat
+ R7(TRIM20KOHM).2                 XY             (180,990)
+ R8(200).2                      PRIM_FILE      .\pstchip.dat
+ R8(200).2                      XY             (280,900)
+ R9(200).2                      PRIM_FILE      .\pstchip.dat
+ R9(200).2                      XY             (460,890)
+ R10(130OHM).2                  PRIM_FILE      .\pstchip.dat
+ R10(130OHM).2                  XY             (640,1000)
+ R11(360OHM).2                  PRIM_FILE      .\pstchip.dat
+ R11(360OHM).2                  XY             (1540,940)
+ R12(500).2                     PRIM_FILE      .\pstchip.dat
+ R12(500).2                     XY             (1890,690)
+ R12_150B.16                    PRIM_FILE      .\pstchip.dat
+ R12_150B.16                    XY             (960,190)
+ R13(27).2                      PRIM_FILE      .\pstchip.dat
+ R13(27).2                      XY             (2140,690)
+ R14(20).2                      PRIM_FILE      .\pstchip.dat
+ R14(20).2                      XY             (1890,880)
+ R15(TRIM20KOHM).2                 PRIM_FILE      .\pstchip.dat
+ R15(TRIM20KOHM).2                 XY             (2520,690)
+ R16(200).2                     PRIM_FILE      .\pstchip.dat
+ R16(200).2                     XY             (2720,590)
+ R17(130).2                     PRIM_FILE      .\pstchip.dat
+ R17(130).2                     XY             (2990,700)
+ R18(100).2                     PRIM_FILE      .\pstchip.dat
+ R18(100).2                     XY             (3600,610)
+ R19(0).2                       PRIM_FILE      .\pstchip.dat
+ R19(0).2                       XY             (3700,540)
+ R20(0).2                       PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  11  |
+|------------------------------------------------------------------------------|
+|  C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/lidar_pcb.brd  |
+|                                                    Tue Apr  8 18:39:47 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R20(0).2                       XY             (3700,700)
+ R21(TRIM20KOHM).2                 PRIM_FILE      .\pstchip.dat
+ R21(TRIM20KOHM).2                 XY             (2510,1220)
+ R22(200).2                     PRIM_FILE      .\pstchip.dat
+ R22(200).2                     XY             (2730,1120)
+ R23(130).2                     PRIM_FILE      .\pstchip.dat
+ R23(130).2                     XY             (2960,1230)
+ R24(50OHM).2                   PRIM_FILE      .\pstchip.dat
+ R24(50OHM).2                   XY             (3430,1030)
+ R25(100).2                     PRIM_FILE      .\pstchip.dat
+ R25(100).2                     XY             (3710,1140)
+ R26(0).2                       PRIM_FILE      .\pstchip.dat
+ R26(0).2                       XY             (3810,1070)
+ R27(0).2                       PRIM_FILE      .\pstchip.dat
+ R27(0).2                       XY             (3810,1230)
+ TLV3604_1.2                    PRIM_FILE      .\pstchip.dat
+ TLV3604_1.2                    XY             (3420,580)
+ TLV3604_2.2                    PRIM_FILE      .\pstchip.dat
+ TLV3604_2.2                    XY             (3530,1110)
+ TSW11007GD.9                   PRIM_FILE      .\pstchip.dat
+ TSW11007GD.9                   XY             (1590,160)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  12  |
+|------------------------------------------------------------------------------|
+|  C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/lidar_pcb.brd  |
+|                                                    Tue Apr  8 18:39:47 2025  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ APD.1                          CDS_PINID      \APD-\
+ APD.2                          CDS_PINID      \APD+\
+ C1(6.8UF).1                    CDS_PINID      \+\
+ C1(6.8UF).2                    CDS_PINID      \-\
+ C2(0.47UF).1                   CDS_PINID      \1\
+ C2(0.47UF).2                   CDS_PINID      \2\
+ C3(22UF).1                     CDS_PINID      \1\
+ C3(22UF).2                     CDS_PINID      \2\
+ C4(10UF).1                     CDS_PINID      \+\
+ C4(10UF).2                     CDS_PINID      \-\
+ C5(0.47UF).1                   CDS_PINID      \1\
+ C5(0.47UF).2                   CDS_PINID      \2\
+ C6(10UF).1                     CDS_PINID      \+\
+ C6(10UF).2                     CDS_PINID      \-\
+ C7(47UF).1                     CDS_PINID      \1\
+ C7(47UF).2                     CDS_PINID      \2\
+ C8(4.7UF).1                    CDS_PINID      \1\
+ C8(4.7UF).2                    CDS_PINID      \2\
+ C9(2.2UF).1                    CDS_PINID      \1\
+ C9(2.2UF).2                    CDS_PINID      \2\
+ C10(0.1UF).1                   CDS_PINID      \1\
+ C10(0.1UF).2                   CDS_PINID      \2\
+ C11(0.5PF).1                   CDS_PINID      \1\
+ C11(0.5PF).2                   CDS_PINID      \2\
+ C12(0.1UF).1                   CDS_PINID      \1\
+ C12(0.1UF).2                   CDS_PINID      \2\
+ C13(6.8UF).1                   CDS_PINID      \+\
+ C13(6.8UF).2                   CDS_PINID      \-\
+ C14(0.1UF).1                   CDS_PINID      \1\
+ C14(0.1UF).2                   CDS_PINID      \2\
+ C15(6.8UF).1                   CDS_PINID      \+\
+ C15(6.8UF).2                   CDS_PINID      \-\
+ C16(1NF).1                     CDS_PINID      \1\
+ C16(1NF).2                     CDS_PINID      \2\
+ C17(0.1UF).1                   CDS_PINID      \1\
+ C17(0.1UF).2                   CDS_PINID      \2\
+ C18(6.8UF).1                   CDS_PINID      \+\
+ C18(6.8UF).2                   CDS_PINID      \-\
+ C19(0.1UF).1                   CDS_PINID      \1\
+ C19(0.1UF).2                   CDS_PINID      \2\
+ C20(6.8UF).1                   CDS_PINID      \+\
+ C20(6.8UF).2                   CDS_PINID      \-\
+ C21(0.1UF).1                   CDS_PINID      \1\
+ C21(0.1UF).2                   CDS_PINID      \2\
+ C22(1NF).1                     CDS_PINID      \1\
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  13  |
+|------------------------------------------------------------------------------|
+|  C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/lidar_pcb.brd  |
+|                                                    Tue Apr  8 18:39:47 2025  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C22(1NF).2                     CDS_PINID      \2\
+ C23(0.1UF).1                   CDS_PINID      \1\
+ C23(0.1UF).2                   CDS_PINID      \2\
+ C24(0.1UF).1                   CDS_PINID      \1\
+ C24(0.1UF).2                   CDS_PINID      \2\
+ C25(6.8UF).1                   CDS_PINID      \+\
+ C25(6.8UF).2                   CDS_PINID      \-\
+ C26(0.1UF).1                   CDS_PINID      \1\
+ C26(0.1UF).2                   CDS_PINID      \2\
+ C27(6.8UF).1                   CDS_PINID      \+\
+ C27(6.8UF).2                   CDS_PINID      \-\
+ C28(0.1UF).1                   CDS_PINID      \1\
+ C28(0.1UF).2                   CDS_PINID      \2\
+ C29(6.8UF).1                   CDS_PINID      \+\
+ C29(6.8UF).2                   CDS_PINID      \-\
+ C30(1NF).1                     CDS_PINID      \1\
+ C30(1NF).2                     CDS_PINID      \2\
+ C31(0.1UF).1                   CDS_PINID      \1\
+ C31(0.1UF).2                   CDS_PINID      \2\
+ C32(6.8UF).1                   CDS_PINID      \+\
+ C32(6.8UF).2                   CDS_PINID      \-\
+ C33(0.1UF).1                   CDS_PINID      \1\
+ C33(0.1UF).2                   CDS_PINID      \2\
+ C34(6.8UF).1                   CDS_PINID      \+\
+ C34(6.8UF).2                   CDS_PINID      \-\
+ C35(0.1UF).1                   CDS_PINID      \1\
+ C35(0.1UF).2                   CDS_PINID      \2\
+ C36(6.8UF).1                   CDS_PINID      \+\
+ C36(6.8UF).2                   CDS_PINID      \-\
+ C37(1NF).1                     CDS_PINID      \1\
+ C37(1NF).2                     CDS_PINID      \2\
+ C38(0.1UF).1                   CDS_PINID      \1\
+ C38(0.1UF).2                   CDS_PINID      \2\
+ C39(6.8UF).1                   CDS_PINID      \+\
+ C39(6.8UF).2                   CDS_PINID      \-\
+ LM2940.1                       CDS_PINID      \IN\
+ LM2940.2                       CDS_PINID      \GND\
+ LM2940.3                       CDS_PINID      \OUT\
+ LM2990.1                       CDS_PINID      \GND\
+ LM2990.2                       CDS_PINID      \IN\
+ LM2990.3                       CDS_PINID      \OUT\
+ OPA277_1.1                     CDS_PINID      \OFFSET_TRIM_1\
+ OPA277_1.2                     CDS_PINID      \-IN\
+ OPA277_1.3                     CDS_PINID      \+IN\
+ OPA277_1.4                     CDS_PINID      \V-\
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  14  |
+|------------------------------------------------------------------------------|
+|  C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/lidar_pcb.brd  |
+|                                                    Tue Apr  8 18:39:47 2025  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ OPA277_1.5                     CDS_PINID      \NC\
+ OPA277_1.6                     CDS_PINID      \OUTPUT\
+ OPA277_1.7                     CDS_PINID      \V+\
+ OPA277_1.8                     CDS_PINID      \OFFSET_TRIM_2\
+ OPA277_2.1                     CDS_PINID      \OFFSET_TRIM_1\
+ OPA277_2.2                     CDS_PINID      \-IN\
+ OPA277_2.3                     CDS_PINID      \+IN\
+ OPA277_2.4                     CDS_PINID      \V-\
+ OPA277_2.5                     CDS_PINID      \NC\
+ OPA277_2.6                     CDS_PINID      \OUTPUT\
+ OPA277_2.7                     CDS_PINID      \V+\
+ OPA277_2.8                     CDS_PINID      \OFFSET_TRIM_2\
+ OPA277.1                       CDS_PINID      \OFFSET_TRIM_1\
+ OPA277.2                       CDS_PINID      \-IN\
+ OPA277.3                       CDS_PINID      \+IN\
+ OPA277.4                       CDS_PINID      \V-\
+ OPA277.5                       CDS_PINID      \NC\
+ OPA277.6                       CDS_PINID      \OUTPUT\
+ OPA277.7                       CDS_PINID      \V+\
+ OPA277.8                       CDS_PINID      \OFFSET_TRIM_2\
+ OPA695.1                       CDS_PINID      \OUTPUT\
+ OPA695.2                       CDS_PINID      \-V_S\
+ OPA695.3                       CDS_PINID      \NONINVERTING_INPUT\
+ OPA695.4                       CDS_PINID      \INVERTING_INPUT\
+ OPA695.5                       CDS_PINID      \D\\I\\S\\\
+ OPA695.6                       CDS_PINID      \+V_S\
+ OPA855.1                       CDS_PINID      \FB\
+ OPA855.2                       CDS_PINID      \NC\
+ OPA855.3                       CDS_PINID      \IN-\
+ OPA855.4                       CDS_PINID      \IN+\
+ OPA855.5                       CDS_PINID      \VS-\
+ OPA855.6                       CDS_PINID      \OUT\
+ OPA855.7                       CDS_PINID      \VS+\
+ OPA855.8                       CDS_PINID      \P\\D\\\
+ OPA855.9                       CDS_PINID      \THERMAL_PAD\
+ R1(10).1                       CDS_PINID      \1\
+ R1(10).2                       CDS_PINID      \2\
+ R2(10).1                       CDS_PINID      \1\
+ R2(10).2                       CDS_PINID      \2\
+ R3(TRIM5KOHM).1                 CDS_PINID      \CCW\
+ R3(TRIM5KOHM).2                 CDS_PINID      \WIPER\
+ R3(TRIM5KOHM).3                 CDS_PINID      \CW\
+ R4(200K).1                     CDS_PINID      \1\
+ R4(200K).2                     CDS_PINID      \2\
+ R5(500).1                      CDS_PINID      \1\
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  15  |
+|------------------------------------------------------------------------------|
+|  C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/lidar_pcb.brd  |
+|                                                    Tue Apr  8 18:39:47 2025  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R5(500).2                      CDS_PINID      \2\
+ R6(10).1                       CDS_PINID      \1\
+ R6(10).2                       CDS_PINID      \2\
+ R7(TRIM20KOHM).1                 CDS_PINID      \CCW\
+ R7(TRIM20KOHM).2                 CDS_PINID      \WIPER\
+ R7(TRIM20KOHM).3                 CDS_PINID      \CW\
+ R8(200).1                      CDS_PINID      \1\
+ R8(200).2                      CDS_PINID      \2\
+ R9(200).1                      CDS_PINID      \1\
+ R9(200).2                      CDS_PINID      \2\
+ R10(130OHM).1                  CDS_PINID      \1\
+ R10(130OHM).2                  CDS_PINID      \2\
+ R11(360OHM).1                  CDS_PINID      \1\
+ R11(360OHM).2                  CDS_PINID      \2\
+ R12(500).1                     CDS_PINID      \1\
+ R12(500).2                     CDS_PINID      \2\
+ R12_150B.2                     CDS_PINID      \-VIN_1\
+ R12_150B.3                     CDS_PINID      \-VIN_2\
+ R12_150B.8                     CDS_PINID      \VADJ._1\
+ R12_150B.9                     CDS_PINID      \V_REF_1\
+ R12_150B.10                    CDS_PINID      \-VOUT_1\
+ R12_150B.12                    CDS_PINID      \+VOUT_1\
+ R12_150B.13                    CDS_PINID      \+VOUT_2\
+ R12_150B.15                    CDS_PINID      \-VOUT_2\
+ R12_150B.16                    CDS_PINID      \V_REF_2\
+ R12_150B.17                    CDS_PINID      \VADJ._2\
+ R12_150B.22                    CDS_PINID      \+VIN_1\
+ R12_150B.23                    CDS_PINID      \+VIN_2\
+ R13(27).1                      CDS_PINID      \1\
+ R13(27).2                      CDS_PINID      \2\
+ R14(20).1                      CDS_PINID      \1\
+ R14(20).2                      CDS_PINID      \2\
+ R15(TRIM20KOHM).1                 CDS_PINID      \CCW\
+ R15(TRIM20KOHM).2                 CDS_PINID      \WIPER\
+ R15(TRIM20KOHM).3                 CDS_PINID      \CW\
+ R16(200).1                     CDS_PINID      \1\
+ R16(200).2                     CDS_PINID      \2\
+ R17(130).1                     CDS_PINID      \1\
+ R17(130).2                     CDS_PINID      \2\
+ R18(100).1                     CDS_PINID      \1\
+ R18(100).2                     CDS_PINID      \2\
+ R19(0).1                       CDS_PINID      \1\
+ R19(0).2                       CDS_PINID      \2\
+ R20(0).1                       CDS_PINID      \1\
+ R20(0).2                       CDS_PINID      \2\
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  16  |
+|------------------------------------------------------------------------------|
+|  C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/lidar_pcb.brd  |
+|                                                    Tue Apr  8 18:39:47 2025  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R21(TRIM20KOHM).1                 CDS_PINID      \CCW\
+ R21(TRIM20KOHM).2                 CDS_PINID      \WIPER\
+ R21(TRIM20KOHM).3                 CDS_PINID      \CW\
+ R22(200).1                     CDS_PINID      \1\
+ R22(200).2                     CDS_PINID      \2\
+ R23(130).1                     CDS_PINID      \1\
+ R23(130).2                     CDS_PINID      \2\
+ R24(50OHM).1                   CDS_PINID      \1\
+ R24(50OHM).2                   CDS_PINID      \2\
+ R25(100).1                     CDS_PINID      \1\
+ R25(100).2                     CDS_PINID      \2\
+ R26(0).1                       CDS_PINID      \1\
+ R26(0).2                       CDS_PINID      \2\
+ R27(0).1                       CDS_PINID      \1\
+ R27(0).2                       CDS_PINID      \2\
+ TLV3604_1.1                    CDS_PINID      \OUT+\
+ TLV3604_1.2                    CDS_PINID      \VEE\
+ TLV3604_1.3                    CDS_PINID      \IN+\
+ TLV3604_1.4                    CDS_PINID      \IN-\
+ TLV3604_1.5                    CDS_PINID      \VCCI/VCCO\
+ TLV3604_1.6                    CDS_PINID      \OUT-\
+ TLV3604_2.1                    CDS_PINID      \OUT+\
+ TLV3604_2.2                    CDS_PINID      \VEE\
+ TLV3604_2.3                    CDS_PINID      \IN+\
+ TLV3604_2.4                    CDS_PINID      \IN-\
+ TLV3604_2.5                    CDS_PINID      \VCCI/VCCO\
+ TLV3604_2.6                    CDS_PINID      \OUT-\
+ TSW11007GD.1                   CDS_PINID      \1\
+ TSW11007GD.2                   CDS_PINID      \2\
+ TSW11007GD.3                   CDS_PINID      \3\
+ TSW11007GD.4                   CDS_PINID      \4\
+ TSW11007GD.5                   CDS_PINID      \5\
+ TSW11007GD.6                   CDS_PINID      \6\
+ TSW11007GD.7                   CDS_PINID      \7\
+ TSW11007GD.8                   CDS_PINID      \8\
+ TSW11007GD.9                   CDS_PINID      \9\
+ TSW11007GD.10                  CDS_PINID      \10\
+ TSW11007GD.11                  CDS_PINID      \11\
+ TSW11007GD.12                  CDS_PINID      \12\
+ TSW11007GD.13                  CDS_PINID      \13\
+ TSW11007GD.14                  CDS_PINID      \14\
+ TSW11007GD.15                  CDS_PINID      \15\
+ TSW11007GD.16                  CDS_PINID      \16\
+ TSW11007GD.17                  CDS_PINID      \17\
+ TSW11007GD.18                  CDS_PINID      \18\
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  17  |
+|------------------------------------------------------------------------------|
+|  C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/lidar_pcb.brd  |
+|                                                    Tue Apr  8 18:39:47 2025  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ TSW11007GD.19                  CDS_PINID      \19\
+ TSW11007GD.20                  CDS_PINID      \20\
+|------------------------------------------------------------------------------|
+|       Nets changed          :     210                                        |
+|       Comp definitions added:      35                                        |
+|       Components added      :      78                                        |
+|       Pin property added    :     227                                        |
+|       Slot property added   :     156                                        |
+|                                                                              |
+|   Total ECO changes reported:     706                                        |
+|------------------------------------------------------------------------------|

@@ -1,0 +1,135 @@
+* Copyright: INFINEON Technologies AG / AI PS DD HV3
+*****************************************************************
+* Models provided by INFINEON are not warranted by INFINEON as	*
+* fully representing all of the specifications and operating    *
+* characteristics of the semiconductor product to which the     *
+* model relates. The model describe the characteristics of a    * 
+* typical device.                                               * 
+* In all cases, the current data sheet information for a given  *
+* device is the final design guideline and the only actual      *
+* performance garantee.                                         *
+* Altough models can be a useful tool in evaluating device      *
+* performance, they cannot model exact device performance under *
+* all conditions, nor are they intended to replace bread-       *
+* boarding for final verification. INFINEON reserves the right  *
+* to change models without prior notice.                        *
+*                                                               * 
+* content:							*
+* SDP06S60							*
+* SDP04S60							*
+* SDB10S30							*
+* SDT12S60							*
+* release April/03/2003						*
+* This level 2 model requires the parameter tj to define       	*
+* the device temperature					*
+* the global parameter tnom has no influence			*
+* in order to change the device temperature of the devices,	*
+* the parameter tj of the device can be changed to the required	*
+* value								*
+*								*
+* Example:							*
+* XDIO	anode	cathode	SDP06S60 PARAMS: TJ = 180		*
+*****************************************************************
+* version 1.5	03.04.2003					*
+* model based on publications:					*
+* S.M. SZE	Physics of Semiconductors (Wiley)		*
+* Kneifel et al Predictive modeling of SiC diodes .....		*
+* Ruff et al    SiC devices: physics and modelling		*
+*								*
+*****************************************************************
+* Pins are labeled according to standard	+ -> -		*
+* Xdio  plus minus SXXxxx PARAMS: TJ = my_temperature (PSPICE)	*
+*---------------------------------------------------------------*
+****************************************************************
+*$
+.SUBCKT SDP04S60_L2   ANODE    KATODE    PARAMS:  TJ= 25
+LA	ANODE AL	5n
+RLA	ANODE AL	10
+LK	KL  KATODE	7n 
+RLK	KL  KATODE	10
+XSDP   AL    KL    SIC_BASE_600_L2     PARAMS: AREA= 0.0116 V=0.75  TJ= {TJ}
+.ENDS
+*$
+.SUBCKT SDP06S60_L2   ANODE    KATODE    PARAMS:  TJ= 25
+LA	ANODE AL	5n
+RLA	ANODE AL	10
+LK	KL  KATODE	7n 
+RLK	KL  KATODE	10
+XSDP   AL    KL    SIC_BASE_600_L2     PARAMS: AREA= 0.0196 V=0.779 TJ= {TJ}
+.ENDS
+*$
+.SUBCKT SDT12S60_L2   ANODE    KATODE    PARAMS:  TJ= 25
+LA	ANODE AL	5n
+RLA	ANODE AL	10
+LK	KL  KATODE	7n 
+RLK	KL  KATODE	10
+XSDPA   AL    KL    SIC_BASE_600_L2     PARAMS: AREA= 0.0196 V=0.779 TJ= {TJ}
+XSDPB   AL    KL    SIC_BASE_600_L2     PARAMS: AREA= 0.0196 V=0.779 TJ= {TJ}
+.ENDS
+*$
+.SUBCKT SDB10S30_L2   ANODE    KATODE    PARAMS:  TJ= 25 
+LA	ANODE AL	5n
+RLA	ANODE AL	10
+LK	KL  KATODE	7n 
+RLK	KL  KATODE	10
+XSDB   AL    KL    SIC_BASE_300_L2     PARAMS: AREA= 0.0242  V=0.863  TJ= {TJ}
+.ENDS
+*$
+.SUBCKT SIC_BASE_600_L2   ANODE    KATODE    PARAMS: AREA= 0.0116 V=0.708 TJ= 25 
+.PARAM
++q = 1.602e-19		eps0 = 8.85e-14		epsic = 9.66
++kb = 1.38e-23		T0 = 273	
++A0 = 110
++phi_SiC = 1.3	R0SQ = 0.90m
++F1= -6.8e7	F2= 6.64e-10
++AA= -1.5	AB= -12.95m	AC= 91u
++alpha1 = 3.8
+.PARAM VPT = 400
+.PARAM EPT = 1.05e6
+.PARAM Cjo = {AREA*V*V*2.709e-8}
+GSCHOTTKY	ANODE	MID	VALUE = {limit(exp(I_fw(TJ,V(ANODE,MID)))- I_bw(TJ,V(ANODE,MID)),-1e6,1e6)}
+GJCT		MID	ANODE	VALUE = {-ICAP(V(ANODE,MID))}
+ERSCHOTTKY	MID	KAT 	VALUE = {LIMIT(I(VIA) * RSER(TJ),-1e6,1e6)}
+VIA		KAT	KATODE	0
+*ECJ		jct	0	VALUE = {LIMIT(V(MID,ANODE),0,VPT)}
+*VIJCT		jct 	cp	0
+*DJCT		0   	cp	DXXX
+.MODEL  DXXX	D (is = 1p, CJO= {Cjo})
+.FUNC EFLD(V)	{if(V < 0,if ( -V < VPT,sqrt(2.811e9*limit(-V,0,VPT)), EPT - 5.33e5*(V/VPT +1)),0)}
+.FUNC ALFA(T,V)	{MAX(AA + AB*(T - 127) + AC*(T - 127)**2  + alpha1*EFLD(V)/EFLD(-VPT/5),0)}
+.FUNC phils(V,T) {limit(q/kb/(T + T0)*sqrt(1.49e-8*EFLD(V)),0,10)}
+.FUNC I_bw(T,V)	{AREA*A0*(T0 + T)**2*exp(-q*phi_SiC/kb/(T0 + T) + phils(V,T)  + log(0.5*(1 + exp(ALFA(T,V)))) )}
+.FUNC I_fw(T,V)	{log(I_bw(T,V)) + V*q/kb/(T0 + T)}
+.FUNC RSER(T)	{R0SQ/AREA/V/V*((T0 + T)/T0)**1.5}
+.FUNC Icap(V)	{if( time > 0, DDT(V)*Cjo/sqrt(limit(-V,0,VPT)/0.7+1),0)}
+.ENDS
+*$
+.SUBCKT SIC_BASE_300_L2   ANODE    KATODE    PARAMS: AREA= 0.0116 V=0.708 TJ= 25  
+.PARAM
++q = 1.602e-19		eps0 = 8.85e-14		epsic = 9.66
++kb = 1.38e-23		T0 = 273	
++A0 = 110
++phi_SiC = 1.3	R0SQ = 0.747m
++F1= -6.8e7	F2= 6.64e-10
++AA= -1.5	AB= -12.95m	AC= 91u
++alpha1 = 3.8
+.PARAM VPT = 200
+.PARAM EPT = 1.06e6
+.PARAM Cjo = {AREA*V*V*3.831e-8}
+GSCHOTTKY	ANODE	MID	VALUE = {limit(exp(I_fw(TJ,V(ANODE,MID)))- I_bw(TJ,V(ANODE,MID)) ,-1e6,1e6)}
+GJCT		MID	ANODE	VALUE = {-ICAP(V(ANODE,MID))}
+ERSCHOTTKY	MID	KAT 	VALUE = {LIMIT(I(VIA) * RSER(TJ),-1e6,1e6)}
+VIA		KAT	KATODE	0
+*ECJ		jct	0	VALUE = {LIMIT(V(MID,ANODE),0,VPT)}
+*VIJCT		jct 	cp	0
+*DJCT		0   	cp	DXXX
+.MODEL  DXXX	D (is = 1p, CJO= {Cjo})
+.FUNC EFLD(V)	{if(V < 0,if ( -V < VPT,sqrt(5.622e9*limit(-V,0,VPT)), EPT - 5.33e5*(V/VPT +1)),0)}
+.FUNC ALFA(T,V)	{MAX(AA + AB*(T - 127) + AC*(T - 127)**2  + alpha1*EFLD(V)/EFLD(-VPT/5),0)}
+.FUNC phils(V,T) {limit(q/kb/(T + T0)*sqrt(1.49e-8*EFLD(V)),0,10)}
+.FUNC I_bw(T,V)	{AREA*A0*(T0 + T)**2*exp(-q*phi_SiC/kb/(T0 + T) + phils(V,T)  + log(0.5*(1 + exp(ALFA(T,V)))) )}
+.FUNC I_fw(T,V)	{log(I_bw(T,V)) + V*q/kb/(T0 + T)}
+.FUNC RSER(T)	{R0SQ/AREA/V/V*((T0 + T)/T0)**0.9}
+.FUNC Icap(V)	{if( time > 0, DDT(V)*Cjo/sqrt(limit(-V,0,VPT)/0.7+1),0)}
+.ENDS
+*$

@@ -1,0 +1,17 @@
+;*********************************************************
+;                                                        *
+; OrCAD Backannotation File                              *
+; Using  PSTWRITER 24.1.0 d001                            *
+; Apr-08-2025 at 05:47:54                                *
+;                                                        *
+;*********************************************************
+
+
+.Section1 Flags
+DesignName=C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\WORKSPACE\PROJECTS\LIDAR_PCB\LIDAR_PCB.DSN
+.End
+
+.Section2 GateAndPinSwap
+	CHANGEREF OPA855 IC2
+.End
+

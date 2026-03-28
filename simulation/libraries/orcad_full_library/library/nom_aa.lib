@@ -1,0 +1,62 @@
+* Library of Advanced Analysis Devices
+
+*  Copyright Cadence Design Systems, Inc. 2000 All Rights Reserved.
+*
+*
+* $Revision:   1.0  $
+* $Author:   HARI ASURI$
+* $Date:     3 March 2001 10:26:32  $
+* This file was updated by Mahednra Vedulla on 10 April, 2001.
+
+* This library file calls out the other advanced analysis libraries which we supply.
+* It takes time for PSpice to scan each library file.  PSpice creates an
+* index file, called <filename>.IND, to speed up the search process.
+* The index file is re-created whenever PSpice senses that it might be invalid.
+
+* If the library search times are too long, you may want to "comment out"
+* references to device libraries which you are not using.  Also, you can always
+* bypass the library approach and simply copy the model or subcircuit which you
+* need directly into your circuit file.
+*
+* 
+.lib "aa_igbt.lib"	;
+.lib "aa_misc.lib"	;
+.lib "asw.lib"	;
+.lib "bjn.lib"	;
+.lib "bjnd.lib"	;
+.lib "bjp.lib"	;
+.lib "bjpd.lib"	;
+.lib "buf.lib"	;
+.lib "cores.lib"		;Added 4/2/01
+.lib "di.lib"	;
+.lib "dif.lib"	;
+.lib "dih.lib"	;
+.lib "div.lib"	;
+.lib "diz.lib"	;
+.lib "dri.lib"	;
+.lib "jfn.lib"	;
+.lib "jfp.lib"	;
+.lib "mfn.lib"	;
+.lib "mfp.lib"	;
+.lib "opa.lib"	;
+.lib "opt.lib"	;
+.lib "rfdio.lib"	;
+.lib "sah.lib"	;
+.lib "spe.lib"	;
+.lib "thy1.lib"	;
+.lib "tzb.lib"	;
+.lib "vd.lib"	;
+.lib "vr.lib"	;
+.lib "rfbjn.lib" 		;Mohi Okayed this library 3/15.
+.lib "rfbjp.lib"		;Mohi Okayed this library 3/15.
+.lib "contrllr.lib"		;Added on 4/4/01
+
+.lib "pspice_elem.lib" ;	;Does not contain any model. Added only for .prp search.
+
+.lib "function.lib" 	;Added for B-device
+.lib "spice_elem.lib" 	;Added for B-device
+
+.lib "sac.lib" 		;Added Sac library
+.lib "zener.lib"	;Added zener.lib Nov 16, 2011
+.lib "evalp.lib"	; Added in 17.2
+* end of library file

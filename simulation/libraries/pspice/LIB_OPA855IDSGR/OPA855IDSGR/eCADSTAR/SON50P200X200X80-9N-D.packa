@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "OPA855IDSGR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-03-04-04:10:04)
+    (mountForm default
+        (footprintRef "SON50P200X200X80-9N-D")
+        (spec "System")
+    )
+)

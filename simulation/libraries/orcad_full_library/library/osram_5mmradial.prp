@@ -1,0 +1,294 @@
+("LV_543C-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:25:35 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "20m")
+		(VD "5")
+		(PDM "90m")
+		(TJ "100")
+	)
+)
+("LO_541B-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:25:35 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "40m")
+		(VD "12")
+		(PDM "110m")
+		(TJ "100")
+	)
+)
+("LY_5436-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:25:35 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "30m")
+		(VD "12")
+		(PDM "80m")
+		(TJ "100")
+	)
+)
+("LB_543C-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:25:35 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "20m")
+		(VD "5")
+		(PDM "90m")
+		(TJ "100")
+	)
+)
+("LO_5436-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:25:35 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "30m")
+		(VD "12")
+		(PDM "80m")
+		(TJ "100")
+	)
+)
+("LS_5436-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:25:35 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "30m")
+		(VD "12")
+		(PDM "80m")
+		(TJ "100")
+	)
+)
+("LW_541C-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:25:35 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "20m")
+		(VD "5")
+		(PDM "85m")
+		(TJ "100")
+	)
+)
+("LT_543C-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:25:35 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "20m")
+		(VD "5")
+		(PDM "90m")
+		(TJ "100")
+	)
+)
+("LU_5351-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:25:36 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "40m")
+		(VD "5")
+		(PDM "130m")
+		(TJ "100")
+	)
+)
+("LA_543B-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:25:36 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "40m")
+		(VD "12")
+		(PDM "110m")
+		(TJ "100")
+	)
+)
+("LY_543B-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:25:36 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "40m")
+		(VD "12")
+		(PDM "110m")
+		(TJ "100")
+	)
+)
+("LO_543B-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:25:36 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "40m")
+		(VD "12")
+		(PDM "110m")
+		(TJ "100")
+	)
+)
+("LY_541B-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:25:36 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "40m")
+		(VD "12")
+		(PDM "110m")
+		(TJ "100")
+	)
+)
+("LA_541B-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:25:36 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "40m")
+		(VD "12")
+		(PDM "110m")
+		(TJ "100")
+	)
+)

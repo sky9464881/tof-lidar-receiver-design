@@ -1,0 +1,94 @@
+
+**** 04/05/25 20:27:24 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-asdf"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\asfq23wcasdcd\asfq23wcasdcd-pspi
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "asdf.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa855_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPA858.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa695_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa856_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\tlv3604.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPAx277.LIB" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.STEP LIN PARAM SET 0.1 0.9 0.1 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source ASFQ23WCASDCD
+V_V1         VCC 0 5
+V_V2         0 VEE 0
+C_C269         N1105448 0  1n  TC=0,0 
+R_R153         N1105448 N1105246  130 TC=0,0 
+C_C253         0 VCC  0.1uF  TC=0,0 
+C_C268         0 VCC  1n  TC=0,0 
+C_C252         0 VEE  0.1uF  TC=0,0 
+X_U1         N1106863 N1105230 VCC VEE N1105246 OPAX277
+C_C267         0 VEE  1n  TC=0,0 
+R_R154         N1105246 N1105230  200 TC=0,0 
+R_R155         N1105230 0  150 TC=0,0 
+C_C261         0 N1106863  1n  TC=0,0 
+C_C262         0 N1106863  0.1u  TC=0,0 
+V_V3         N1108298 0 5
+X_R156         0 N1106863 N1108298 POT PARAMS: SET={SET} VALUE=20k
+.PARAM  set=0.5
+
+**** RESUMING asdf.cir ****
+.END
+
+WARNING(ORPSIM-15223): Library file C:\Cadence\OrCADX_24.1\tools\capture\library\opa855_a.lib has changed since index file opa855_a.ind was created.
+
+WARNING(ORPSIM-15227): The timestamp changed from Fri Apr  4 00:06:33 2025 to Fri Apr  4 00:06:32 2025.
+
+INFO(ORPSIM-15422): Making new index file opa855_a.ind for library file opa855_a.lib.
+
+Index has 15 entries from 1 file(s).
+
+WARNING(ORPSIM-15223): Library file C:\Cadence\OrCADX_24.1\tools\capture\library\opa856_a.lib has changed since index file opa856_a.ind was created.
+
+WARNING(ORPSIM-15227): The timestamp changed from Wed Mar 19 17:33:25 2025 to Wed Mar 19 17:33:24 2025.
+
+INFO(ORPSIM-15422): Making new index file opa856_a.ind for library file opa856_a.lib.
+
+Index has 20 entries from 1 file(s).
+
+WARNING(ORPSIM-15223): Library file C:\Cadence\OrCADX_24.1\tools\capture\library\tlv3604.lib has changed since index file tlv3604.ind was created.
+
+WARNING(ORPSIM-15227): The timestamp changed from Mon Mar 17 23:23:17 2025 to Mon Mar 17 23:23:16 2025.
+
+INFO(ORPSIM-15422): Making new index file tlv3604.ind for library file tlv3604.lib.
+
+Index has 21 entries from 1 file(s).
+
+WARNING(ORPSIM-15223): Library file C:\Cadence\OrCADX_24.1\tools\capture\library\OPAx277.LIB has changed since index file OPAx277.ind was created.
+
+WARNING(ORPSIM-15227): The timestamp changed from Mon Mar 17 23:22:03 2025 to Mon Mar 17 23:22:02 2025.
+
+INFO(ORPSIM-15422): Making new index file OPAx277.ind for library file OPAx277.LIB.
+
+Index has 26 entries from 1 file(s).
+
+
+ERROR(ORPSIM-15108): Subcircuit POT used by X_R156 is undefined
+

@@ -1,0 +1,399 @@
+* Library of on_zener "zener diodes",
+*
+****************************************************************************
+*
+* WARNING : please consider following remarks before usage
+*
+* 1) All models are a tradeoff between accuracy and complexity (ie. simulation
+*    time).
+* 2) Macromodels are not a substitute to breadboarding, they rather confirm the
+*    validity of a design approach and help to select surrounding component values.
+*
+* 3) A macromodel emulates the NOMINAL performance of a TYPICAL device within
+*    SPECIFIED OPERATING CONDITIONS (ie. temperature, supply voltage, etc.).
+*    Thus the macromodel is often not as exhaustive as the datasheet, its goal
+*    is to illustrate the main parameters of the product.
+*
+* 4) Data issued from macromodels used outside of its specified conditions
+*    (Vcc, Temperature, etc) or even worse: outside of the device operating
+*    conditions (Vcc, Vicm, etc) are not reliable in any way.
+*
+**************************************************************************** 
+* $Author:   RAGHUBEER  $
+* $Date:   Sept 25/2007 $
+***************************************
+*$
+.SUBCKT mmsz5221bt1 2 1  
+*anode cathode
+D_fwd 2 1 FWD_DIO
+.MODEL FWD_DIO D IS=6.57933e-10 N=1.84949 XTI=1 RS=1.02
++ CJO=2.1e-10 TT=2e-09
+R 1 2 MDR 2e+07	
+.MODEL MDR RES TC1=0 TC2=0
+R_brkdn 2 3 3.03263
+I1 4 3 3.6
+RXX 4 3 400
+D_REV 3 4 MD_REV
+.MODEL MD_REV D IS=2.5e-12 N=0.500 XTI=0 EG=0.1     
+D_REV2 5 4 MD_REV2
+.MODEL MD_REV2 D IS=2.5e-12 N=0.650 XTI=0 EG=0.1     
+Ediv1 1 5 6 0 1
+IBrkovr 0 6 0.001
+RBRK_SIg 6 0 MDRBRK_SIg 2410.88
+.MODEL MDRBRK_SIg RES TC1=-0.00036934
+.ENDS mmsz5221bt1
+*******************************************
+*$
+.SUBCKT mmsz5225bt1 2 1    
+*  anode cathode
+D_fwd 2 1 FWD_DIO
+.MODEL FWD_DIO D IS=1.77828e-12 N=1.34509 XTI=1 RS=2.288
++ CJO=3e-10 TT=1e-08
+R 1 2 MDR 50000	
+.MODEL MDR RES TC1=0 TC2=0
+R_brkdn 2 3 8.36295
+I1 4 3 0.12
+RXX 4 3 1100
+D_REV 3 4 MD_REV
+.MODEL MD_REV D IS=2.5e-12 N=0.80 XTI=0 EG=0.1   
+D_REV2 5 4 MD_REV2
+.MODEL MD_REV2 D IS=2.5e-12 N=1.1000 XTI=0 EG=0.1   
+Ediv1 1 5 6 0 1
+IBrkovr 0 6 0.001
+RBRK_SIg 6 0 MDRBRK_SIg 3000.631      ;980.631
+.MODEL MDRBRK_SIg RES TC1=0.00191203
+.ENDS mmsz5225bt1
+********************************************
+*$
+.SUBCKT mmsz5226bt1 2 1
+*node: 2      1
+D_fwd 2 1 FWD_DIO
+.MODEL FWD_DIO D IS=1.77828e-12 N=1.34509 XTI=1 RS=2.288
++ CJO=3e-10 TT=1e-08
+R 1 2 MDR 285714	
+.MODEL MDR RES TC1=0 TC2=0
+R_brkdn 2 3 8.36295
+I1 4 3 0.12
+RXX 4 3 1100
+D_REV 3 4 MD_REV
+.MODEL MD_REV D IS=2.5e-12 N=0.37556 XTI=0 EG=0.1    
+D_REV2 5 4 MD_REV2
+.MODEL MD_REV2 D IS=2.5e-12 N=0.39000 XTI=0 EG=0.1   
+Ediv1 1 5 6 0 1
+IBrkovr 0 6 0.001
+RBRK_SIg 6 0 MDRBRK_SIg  3270.63
+.MODEL MDRBRK_SIg RES TC1=0.00161053
+.ENDS mmsz5226bt1
+*********************************************
+*$
+.SUBCKT mmsz5228bt1 2 1
+*    anode cathode
+D_fwd 2 1 FWD_DIO
+.MODEL FWD_DIO D IS=6.57933e-10 N=1.84949 XTI=1 RS=1.02
++ CJO=2.1e-10 TT=2e-09
+R 1 2 MDR 2e+07	
+.MODEL MDR RES TC1=0 TC2=0
+R_brkdn 2 3 3.03263
+I1 4 3 3.6
+RXX 4 3 400
+D_REV 3 4 MD_REV
+.MODEL MD_REV D IS=2.5e-12 N=0.740655 XTI=0 EG=0.1     
+D_REV2 5 4 MD_REV2
+.MODEL MD_REV2 D IS=2.5e-12 N=3.84206 XTI=0 EG=0.1      
+Ediv1 1 5 6 0 1
+IBrkovr 0 6 0.001
+RBRK_SIg 6 0 MDRBRK_SIg 2440.88
+.MODEL MDRBRK_SIg RES TC1=-0.00036934
+.ENDS 
+**********************************************
+*$
+.SUBCKT mmsz5231bt1 2 1  
+*    cathode=1 anode=2
+D_fwd 2 1 FWD_DIO
+.MODEL FWD_DIO D IS=1.78415e-09 N=2.00311 XTI=1 RS=0.409
++ CJO=1.7e-10 TT=1e-08
+R 1 2 MDR 3.33333e+07	
+.MODEL MDR RES TC1=0 TC2=0
+R_brkdn 2 3 1.63212
+I1 4 3 0.24
+RXX 4 3 100
+D_REV 3 4 MD_REV
+.MODEL MD_REV D IS=2.5e-12 N=0.114452 XTI=0 EG=0.1
+D_REV2 5 4 MD_REV2
+.MODEL MD_REV2 D IS=2.5e-12 N=0.274444 XTI=0 EG=0.1
+Ediv1 1 5 6 0 1
+IBrkovr 0 6 0.001
+RBRK_SIg 6 0 MDRBRK_SIg 4980.21
+.MODEL MDRBRK_SIg RES TC1=0.000235532
+.ENDS 
+**********************************************
+*$
+.SUBCKT mmsz5233bt1 2 1
+*     anode cathode
+D_fwd 2 1 FWD_DIO
+.MODEL FWD_DIO D IS=6.57933e-10 N=1.84949 XTI=1 RS=1.02
++ CJO=1.4e-10 TT=2e-09
+R 1 2 MDR 2e+07	
+.MODEL MDR RES TC1=0 TC2=0
+I1 4 2 3.6
+RXX 4 2 150
+D_REV 2 4 MD_REV
+.MODEL MD_REV D IS=2.5e-12 N=0.939045 XTI=0 EG=0.1   
+D_REV2 5 4 MD_REV2
+.MODEL MD_REV2 D IS=2.5e-12 N=1.57119 XTI=0 EG=0.1    
+Ediv1 1 5 6 0 1
+IBrkovr 0 6 0.001 
+RBRK_SIg 6 0 MDRBRK_SIg 5850.77         
+.MODEL MDRBRK_SIg RES TC1=-0.000304237
+.ENDS 
+********************************************
+*$
+.SUBCKT mmsz5234bt1 2 1
+*     anode cathode
+D_fwd 2 1 FWD_DIO
+.MODEL FWD_DIO D IS=6.57933e-10 N=1.84949 XTI=1 RS=1.02
++ CJO=1.4e-10 TT=2e-09
+R 1 2 MDR 2e+07	
+.MODEL MDR RES TC1=0 TC2=0
+I1 4 2 3.6
+RXX 4 2 150
+D_REV 2 4 MD_REV
+.MODEL MD_REV D IS=2.5e-12 N=0.990 XTI=0 EG=0.1    
+D_REV2 5 4 MD_REV2
+.MODEL MD_REV2 D IS=2.5e-12 N=1.6 XTI=0 EG=0.1    
+Ediv1 1 5 6 0 1
+IBrkovr 0 6 0.001 
+RBRK_SIg 6 0 MDRBRK_SIg 6110         
+.MODEL MDRBRK_SIg RES TC1=-0.000304237
+.ENDS
+*******************************************
+*$
+.SUBCKT mmsz5235bt1 2 1
+D_fwd 2 1 FWD_DIO                                              
+.MODEL FWD_DIO D IS=1.78415e-09 N=2.00311 XTI=1 RS=0.409
++ CJO=7e-11 TT=1e-08
+R 1 2 MDR 1.42857e+09 	
+.MODEL MDR RES TC1=0 TC2=0
+R_brkdn 2 3 1.44088                                        
+I1 4 3 0.24
+RXX 4 3 75
+D_REV 3 4 MD_REV                                              
+.MODEL MD_REV D IS=2.5e-12 N=0.0183000 XTI=0 EG=0.1      
+D_REV2 5 4 MD_REV2                                              
+.MODEL MD_REV2 D IS=2.5e-12 N=0.044000 XTI=0 EG=0.1     
+Ediv1 1 5 6 0 1
+IBrkovr 0 6 0.001
+RBRK_SIg 6 0 MDRBRK_SIg 6790                                  
+.MODEL MDRBRK_SIg RES TC1=0.000513232
+.ENDS 
+******************************************
+*$
+.SUBCKT mmsz5236bt1 2 1
+*     anode cathode
+D_fwd 2 1 FWD_DIO
+.MODEL FWD_DIO D IS=6.57933e-10 N=1.84949 XTI=1 RS=1.02
++ CJO=1.05e-10 TT=2e-09
+R 1 2 MDR 8.57143e+07	
+.MODEL MDR RES TC1=0 TC2=0
+R_brkdn 2 3 3.41647
+I1 4 3 2.04
+RXX 4 3 200
+D_REV 3 4 MD_REV
+.MODEL MD_REV D IS=2.5e-12 N=0.0976907 XTI=0 EG=0.1
+D_REV2 5 4 MD_REV2
+.MODEL MD_REV2 D IS=2.5e-12 N=0.450855 XTI=0 EG=0.1
+Ediv1 1 5 6 0 1
+IBrkovr 0 6 0.001
+RBRK_SIg 6 0 MDRBRK_SIg 7235.3
+.MODEL MDRBRK_SIg RES TC1=0.000549389
+.ENDS 
+******************************************
+*$
+.SUBCKT mmsz5239bt1 2 1
+*     anode cathode
+D_fwd 2 1 FWD_DIO
+.MODEL FWD_DIO D IS=6.57933e-10 N=1.84949 XTI=1 RS=1.02
++ CJO=8.8e-11 TT=2e-09
+R 1 2 MDR 2.33333e+08	
+.MODEL MDR RES TC1=0 TC2=0
+R_brkdn 2 3 2.40344
+I1 4 3 1.68
+RXX 4 3 150
+D_REV 3 4 MD_REV
+.MODEL MD_REV D IS=2.5e-12 N=0.162348 XTI=0 EG=0.1  
+D_REV2 5 4 MD_REV2
+.MODEL MD_REV2 D IS=2.5e-12 N=0.410000 XTI=0 EG=0.1  
+Ediv1 1 5 6 0 1
+IBrkovr 0 6 0.001
+RBRK_SIg 6 0 MDRBRK_SIg 8999.91
+.MODEL MDRBRK_SIg RES TC1=0.000616677
+.ENDS 
+********************************************
+*$
+.SUBCKT mmsz5240bt1 2 1
+*     anode cathode
+D_fwd 2 1 FWD_DIO
+.MODEL FWD_DIO D IS=6.57933e-10 N=1.84949 XTI=1 RS=1.02
++ CJO=8.8e-11 TT=2e-09
+R 1 2 MDR 2.33333e+08	
+.MODEL MDR RES TC1=0 TC2=0
+R_brkdn 2 3 2.40344
+I1 4 3 1.68
+RXX 4 3 150
+D_REV 3 4 MD_REV
+.MODEL MD_REV D IS=2.5e-12 N=0.162348 XTI=0 EG=0.1  
+D_REV2 5 4 MD_REV2
+.MODEL MD_REV2 D IS=2.5e-12 N=0.410000 XTI=0 EG=0.1 
+Ediv1 1 5 6 0 1
+IBrkovr 0 6 0.001
+RBRK_SIg 6 0 MDRBRK_SIg 9900.91
+.MODEL MDRBRK_SIg RES TC1=0.000616677
+.ENDS
+*********************************************
+*$
+.SUBCKT mmsz5243bt1 2 1
+*     anode cathode
+D_fwd 2 1 FWD_DIO
+.MODEL FWD_DIO D IS=6.57933e-10 N=1.84949 XTI=1 RS=1.02
++ CJO=1e-10 TT=2e-09
+R 1 2 MDR 4.125e+08	
+.MODEL MDR RES TC1=0 TC2=0
+R_brkdn 2 3 2.13371
+I1 4 3 1.2
+RXX 4 3 150
+D_REV 3 4 MD_REV
+.MODEL MD_REV D IS=2.5e-12 N=0.0658454 XTI=0 EG=0.1
+D_REV2 5 4 MD_REV2
+.MODEL MD_REV2 D IS=2.5e-12 N=0.318088 XTI=0 EG=0.1
+Ediv1 1 5 6 0 1
+IBrkovr 0 6 0.001
+RBRK_SIg 6 0 MDRBRK_SIg 12844.2
+.MODEL MDRBRK_SIg RES TC1=0.000663956
+.ENDS
+********************************************
+*$
+.SUBCKT mmsz5250bt1 2 1
+*     anode cathode
+D_fwd 2 1 FWD_DIO
+.MODEL FWD_DIO D IS=1.3268e-09 N=1.91675 XTI=1 RS=1.103
++ CJO=4e-11 TT=1e-08
+R 1 2 MDR 3e+10	
+.MODEL MDR RES TC1=0 TC2=0
+R_brkdn 2 3 5.87247
+I1 4 3 0.42
+RXX 4 3 550
+D_REV 3 4 MD_REV
+.MODEL MD_REV D IS=2.5e-12 N=0.502281 XTI=0 EG=0.1     
+D_REV2 5 4 MD_REV2
+.MODEL MD_REV2 D IS=2.5e-12 N=0.980909 XTI=0 EG=0.1     
+Ediv1 1 5 6 0 1
+IBrkovr 0 6 0.001
+RBRK_SIg 6 0 MDRBRK_SIg 19690                                  
+.MODEL MDRBRK_SIg RES TC1=0.000558144
+.ENDS 
+********************************************
+*$
+.SUBCKT mmsz5254bt1 2 1
+*     anode cathode
+D_fwd 2 1 FWD_DIO
+.MODEL FWD_DIO D IS=1.3268e-09 N=1.91675 XTI=1 RS=1.103
++ CJO=4e-11 TT=1e-08
+R 1 2 MDR 3e+10	
+.MODEL MDR RES TC1=0 TC2=0
+R_brkdn 2 3 5.87247
+I1 4 3 0.42
+RXX 4 3 550
+D_REV 3 4 MD_REV
+.MODEL MD_REV D IS=2.5e-12 N=0.202281 XTI=0 EG=0.1     
+D_REV2 5 4 MD_REV2
+.MODEL MD_REV2 D IS=2.5e-12 N=0.910909 XTI=0 EG=0.1     
+Ediv1 1 5 6 0 1
+IBrkovr 0 6 0.001
+RBRK_SIg 6 0 MDRBRK_SIg 26606                                 
+.MODEL MDRBRK_SIg RES TC1=0.000558144
+.ENDS 
+******************************************
+*$
+.SUBCKT mmsz5256bt1 2 1
+*     anode cathode
+D_fwd 2 1 FWD_DIO
+.MODEL FWD_DIO D IS=1.3268e-09 N=1.91675 XTI=1 RS=1.103
++ CJO=4e-11 TT=1e-08
+R 1 2 MDR 3e+10	
+.MODEL MDR RES TC1=0 TC2=0
+R_brkdn 2 3 5.87247
+I1 4 3 0.42
+RXX 4 3 550
+D_REV 3 4 MD_REV
+.MODEL MD_REV D IS=2.5e-12 N=0.202281 XTI=0 EG=0.1     
+D_REV2 5 4 MD_REV2
+.MODEL MD_REV2 D IS=2.5e-12 N=0.900909 XTI=0 EG=0.1     
+Ediv1 1 5 6 0 1
+IBrkovr 0 6 0.001
+RBRK_SIg 6 0 MDRBRK_SIg 29800                                 
+.MODEL MDRBRK_SIg RES TC1=0.000558144
+.ENDS 
+*********************************************
+*$
+.SUBCKT mmsz5260bt1 2 1
+*     anode cathode
+D_fwd 2 1 FWD_DIO
+.MODEL FWD_DIO D IS=1.3268e-09 N=1.91675 XTI=1 RS=1.103
++ CJO=4e-11 TT=1e-08
+R 1 2 MDR 2.2e+09
+.MODEL MDR RES TC1=0 TC2=0
+R_brkdn 2 3 49.0569
+I1 4 3 0.384
+RXX 4 3 3500
+D_REV 3 4 MD_REV
+.MODEL MD_REV D IS=2.5e-12 N=0.801316 XTI=0 EG=0.1     
+D_REV2 5 4 MD_REV2
+.MODEL MD_REV2 D IS=2.5e-12 N=2.49847 XTI=0 EG=0.1     
+Ediv1 1 5 6 0 1
+IBrkovr 0 6 0.001
+RBRK_SIg 6 0 MDRBRK_SIg 42000.9
+.MODEL MDRBRK_SIg RES TC1=0.000564777
+.ENDS mmsz5260bt1
+*************************************************
+*$
+.SUBCKT mmsz5262bt1 2 1
+*     anode cathode
+D_fwd 2 1 FWD_DIO
+.MODEL FWD_DIO D IS=1.3268e-09 N=1.91675 XTI=1 RS=1.103
++ CJO=4e-11 TT=1e-08
+R 1 2 MDR 2.6e+09
+.MODEL MDR RES TC1=0 TC2=0
+R_brkdn 2 3 55.4782
+I1 4 3 0.246
+RXX 4 3 4500
+D_REV 3 4 MD_REV
+.MODEL MD_REV D IS=2.5e-12 N=0.728084 XTI=0 EG=0.1
+D_REV2 5 4 MD_REV2
+.MODEL MD_REV2 D IS=2.5e-12 N=3.33377 XTI=0 EG=0.1
+Ediv1 1 5 6 0 1
+IBrkovr 0 6 0.001
+RBRK_SIg 6 0 MDRBRK_SIg 49552.6
+.MODEL MDRBRK_SIg RES TC1=0.000566065
+.ENDS mmsz5262bt1
+*$
+.SUBCKT mmsz5272bt1 2 1
+*     anode cathode
+D_fwd 2 1 FWD_DIO
+.MODEL FWD_DIO D IS=1.3268e-09 N=1.91675 XTI=1 RS=1.103
++ CJO=4e-11 TT=1e-08
+R 1 2 MDR 2.6e+09
+.MODEL MDR RES TC1=0 TC2=0
+R_brkdn 2 3 55.4782
+I1 4 3 0.246
+RXX 4 3 4500
+D_REV 3 4 MD_REV
+.MODEL MD_REV D IS=2.5e-12 N=0.928084 XTI=0 EG=0.1
+D_REV2 5 4 MD_REV2
+.MODEL MD_REV2 D IS=2.5e-12 N=7.33377 XTI=0 EG=0.1
+Ediv1 1 5 6 0 1
+IBrkovr 0 6 0.001
+RBRK_SIg 6 0 MDRBRK_SIg 104500.6
+.MODEL MDRBRK_SIg RES TC1=0.000566065
+.ENDS mmsz5272bt1
+*************************************************
+*$

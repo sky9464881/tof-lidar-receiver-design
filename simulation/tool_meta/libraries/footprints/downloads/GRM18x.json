@@ -1,0 +1,135 @@
+{
+ "design" : {
+	"comps" : [
+{
+	"points" : [
+		 {"x" : 20000, "y" : -14000},
+		 {"x" : -20000, "y" : 14000}],
+	"type" : 1,
+	"text" : "",
+	"orientation" : 3,
+	"radius" : 1,
+	"width" : 0.000000,
+	"color" : [{"r" : 99, "g" : 139, "b" : 58, "a" : 255}],
+	"class" : "PACKAGE GEOMETRY",
+	"subclass" : "PLACE_BOUND_TOP"
+},
+{
+	"points" : [
+		 {"x" : -3500, "y" : -3500},
+		 {"x" : -10000, "y" : 3500}],
+	"type" : 1,
+	"text" : "1",
+	"orientation" : 3,
+	"radius" : 0,
+	"width" : 0.000000,
+	"color" : [{"r" : 99, "g" : 139, "b" : 58, "a" : 255}],
+	"bgcolor" : [{"r" : 38, "g" : 255, "b" : 38, "a" : 127 }],
+	"class" : "PIN",
+	"subclass" : "TOP"
+},
+{
+	"points" : [
+		 {"x" : 0, "y" : -4000},
+		 {"x" : 0, "y" : 4000}],
+	"type" : 2,
+	"text" : "",
+	"orientation" : 1,
+	"radius" : 0,
+	"width" : 0.000000,
+	"color" : [{"r" : 99, "g" : 139, "b" : 58, "a" : 255}],
+	"class" : "PACKAGE GEOMETRY",
+	"subclass" : "SILKSCREEN_TOP"
+},
+{
+	"points" : [
+		 {"x" : -8000, "y" : -4000},
+		 {"x" : -8000, "y" : 4000}],
+	"type" : 2,
+	"text" : "",
+	"orientation" : 1,
+	"radius" : 0,
+	"width" : 0.000000,
+	"color" : [{"r" : 117, "g" : 255, "b" : 217, "a" : 255}],
+	"class" : "PACKAGE GEOMETRY",
+	"subclass" : "ASSEMBLY_TOP"
+},
+{
+	"points" : [
+		 {"x" : -8000, "y" : -4000},
+		 {"x" : 8000, "y" : -4000}],
+	"type" : 2,
+	"text" : "",
+	"orientation" : 2,
+	"radius" : 0,
+	"width" : 0.000000,
+	"color" : [{"r" : 117, "g" : 255, "b" : 217, "a" : 255}],
+	"class" : "PACKAGE GEOMETRY",
+	"subclass" : "ASSEMBLY_TOP"
+},
+{
+	"points" : [
+		 {"x" : 8000, "y" : -4000},
+		 {"x" : 8000, "y" : 4000}],
+	"type" : 2,
+	"text" : "",
+	"orientation" : 1,
+	"radius" : 0,
+	"width" : 0.000000,
+	"color" : [{"r" : 117, "g" : 255, "b" : 217, "a" : 255}],
+	"class" : "PACKAGE GEOMETRY",
+	"subclass" : "ASSEMBLY_TOP"
+},
+{
+	"points" : [
+		 {"x" : -8000, "y" : 4000},
+		 {"x" : 8000, "y" : 4000}],
+	"type" : 2,
+	"text" : "",
+	"orientation" : 2,
+	"radius" : 0,
+	"width" : 0.000000,
+	"color" : [{"r" : 117, "g" : 255, "b" : 217, "a" : 255}],
+	"class" : "PACKAGE GEOMETRY",
+	"subclass" : "ASSEMBLY_TOP"
+},
+{
+	"points" : [
+		 {"x" : 6858, "y" : 0},
+		 {"x" : 7400, "y" : 4780}],
+	"type" : "text",
+	"text" : "C*",
+	"color" : [		{"r" : 0, "g" : 151, "b" : 183, "a" : 255}],
+	"class" : "REF DES",
+	"subclass" : "ASSEMBLY_TOP"
+},
+{
+	"points" : [
+		 {"x" : 10000, "y" : -3500},
+		 {"x" : 3500, "y" : 3500}],
+	"type" : 1,
+	"text" : "2",
+	"orientation" : 3,
+	"radius" : 0,
+	"width" : 0.000000,
+	"color" : [{"r" : 99, "g" : 139, "b" : 58, "a" : 255}],
+	"bgcolor" : [{"r" : 38, "g" : 255, "b" : 38, "a" : 127 }],
+	"class" : "PIN",
+	"subclass" : "TOP"
+},{}
+	]
+},
+
+
+"text" : {
+	"comps" : [
+	{
+		"name" : "R_72",
+		"type" : "Package",
+		"units" : "Millimeters",
+		"accuracy" : 4,
+		"pins" : 2
+	}
+	]
+}
+}

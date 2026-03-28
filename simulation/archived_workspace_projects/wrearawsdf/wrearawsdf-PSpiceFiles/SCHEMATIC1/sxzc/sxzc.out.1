@@ -1,0 +1,248 @@
+
+**** 04/03/25 21:33:11 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sxzc"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\wrearawsdf\wrearawsdf-PSpiceFile
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sxzc.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "C:\Users\user\Desktop\sbomb43d\opa855_pspice\opa855_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPA858.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa695_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa856_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\tlv3604.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPAx277.LIB" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1m 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source WREARAWSDF
+I_I1         0 N1077940 DC 3m  
+R_R156         N1077966 N1078212  1 TC=0,0 
+R_R154         0 N1077940  1 TC=0,0 
+C_C265         0 N1077940  1.2p  TC=0,0 
+C_C254         0 N1078280  1n  TC=0,0 
+C_C263         0 N1077966  1n  TC=0,0 
+C_C264         0 N1077966  0.1u  TC=0,0 
+R_R155         N1077966 N1077940  1 TC=0,0 
+R_R151         N1077966 N1078152  500 TC=0,0 
+V_V1         5 0 5
+V_V2         0 -5 5
+X_U3         N1078280 N1078212 N1078152 5 0 OPA855
+
+**** RESUMING sxzc.cir ****
+.END
+
+**** 04/03/25 21:33:11 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sxzc"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\wrearawsdf\wrearawsdf-PSpiceFile
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U3.X_E_N.DVN  X_U3.X_I_NP1.DNVF               X_U3.X_U1.DNVF  
+          IS  100.000000E-18  100.000000E-18                  100.000000E-18 
+          KF  316.227800E-12  316.227800E-12                  316.227800E-12 
+
+
+**** 04/03/25 21:33:11 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sxzc"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\wrearawsdf\wrearawsdf-PSpiceFile
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U3.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+**** 04/03/25 21:33:11 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sxzc"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\wrearawsdf\wrearawsdf-PSpiceFile
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U3.X_ESD_OUT.ESD_SW           X_U3.X_S1._S1   X_U3.X_S2._S2   
+         RON   50                               1.000000E-03    1.000000E-03 
+        ROFF    1.000000E+12                   20.000000E+03   20.000000E+03 
+         VON     .5                              .8              .8          
+        VOFF     .45                            -.6             -.4          
+
+
+**** 04/03/25 21:33:11 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sxzc"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\wrearawsdf\wrearawsdf-PSpiceFile
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    5)    5.0000  (   -5)   -5.0000  (X_U3.ZO)    4.0785                       
+
+(N1077940)     .0111                  (N1077966)     .0192                      
+
+(N1078152)    4.0785                  (N1078212)     .0192                      
+
+(N1078280)    -.0353                  (X_U3.MID)    2.5000                      
+
+(X_U3.CMRR)    2.5000                 (X_U3.ESDN)     .0192                     
+
+(X_U3.ESDP)    -.0353                 (X_U3.CLAMP)    4.4569                    
+
+(X_U3.PSRRN)    2.5002                (X_U3.PSRRP)    2.5001                    
+
+(X_U3.VCC_B)    5.0000                (X_U3.VEE_B) 2.501E-06                    
+
+(X_U3.VIMON)   10.6190                (X_U3.AOLNET)    2.0000                   
+
+(X_U3.N06456)    -.0353               (X_U3.N10561)    -.0357                   
+
+(X_U3.N10570)    -.0357               (X_U3.N11984)    -.0357                   
+
+(X_U3.N11991)     .0192               (X_U3.N25816)    -.0358                   
+
+(X_U3.N28602)    1.1000               (X_U3.N30136)    4.6000                   
+
+(X_U3.N30913)    1.1000               (X_U3.N31014)    1.1000                   
+
+(X_U3.N35675)    4.1131               (X_U3.N35813)    4.1131                   
+
+(X_U3.N38050)    1.0873               (X_U3.N38096)    1.0873                   
+
+(X_U3.VOUT_S)    4.0785               (X_U3.X_U1.3)    0.0000                   
+
+(X_U3.X_U1.4)    0.0000               (X_U3.X_U1.5)    0.0000                   
+
+(X_U3.X_U1.6)    0.0000               (X_U3.X_U1.7)     .8338                   
+
+(X_U3.X_U1.8)     .8338               (X_U3.N110431)   10.6190                  
+
+(X_U3.N112292)    4.0785              (X_U3.N317950)    2.5000                  
+
+(X_U3.N406634)    5.0000              (X_U3.N406794) 2.504E-06                  
+
+(X_U3.N749288)    -.0357              (X_U3.VCC_CLP)    4.1131                  
+
+(X_U3.VEE_CLP)    1.0873              (X_U3.X_E_N.3)    0.0000                  
+
+(X_U3.X_E_N.4)    0.0000              (X_U3.X_E_N.5)    0.0000                  
+
+(X_U3.X_E_N.6)    0.0000              (X_U3.X_E_N.7)     .8338                  
+
+(X_U3.X_E_N.8)     .8338              (X_U3.N1254860)   31.2300                 
+
+(X_U3.N1446199)    4.3937             (X_U3.N1446217)    4.3937                 
+
+(X_U3.N1461236)    2.7966             (X_U3.N1461246)    2.5000                 
+
+(X_U3.N1461252)    2.4916             (X_U3.N1481243)     .7102                 
+
+(X_U3.N1481253)    2.4999             (X_U3.N1481259)    2.5005                 
+
+(X_U3.N1483677)    6.4446             (X_U3.N1483687)    2.5002                 
+
+(X_U3.N1483693)    2.4954             (X_U3.N1483703)    2.4998                 
+
+(X_U3.N1483713)    2.5046             (X_U3.N1490067)    2.5001                 
+
+(X_U3.N1492098)    2.9728             (X_U3.N1492108)    2.8152                 
+
+(X_U3.N1492118)    2.8152             (X_U3.N1492126)    2.8152                 
+
+(X_U3.N1492376)    2.8152             (X_U3.N1534615)   10.5490                 
+
+(X_U3.N1534625)    2.7819             (X_U3.N1534635)    2.7819                 
+
+(X_U3.N1534645)    2.7819             (X_U3.N1534887)    2.7819                 
+
+(X_U3.N1541593)    9.6995             (X_U3.N1541603)    2.7522                 
+
+(X_U3.X_I_NP1.3)    0.0000            (X_U3.X_I_NP1.4)    0.0000                
+
+(X_U3.X_I_NP1.5)    0.0000            (X_U3.X_I_NP1.6)    0.0000                
+
+(X_U3.X_I_NP1.7)     .8338            (X_U3.X_I_NP1.8)     .8338                
+
+(X_U3.X_VOS_VS_VCM.1)    -.0357       
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.563E-02
+    V_V2         0.000E+00
+    X_U3.V_VCM_MAX  -2.100E-09
+    X_U3.V_VCM_MIN   1.400E-09
+    X_U3.X_H3.VH_H3  -8.119E-03
+    X_U3.X_VOS_VS_VCM.V1  -3.499E-15
+
+    TOTAL POWER DISSIPATION   1.28E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 04/03/25 21:33:11 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sxzc"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\wrearawsdf\wrearawsdf-PSpiceFile
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .09
+

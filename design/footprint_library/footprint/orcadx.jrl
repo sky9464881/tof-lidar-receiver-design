@@ -1,0 +1,39 @@
+\t (00:13:47) orcadx 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:13:47)     Journal start - Mon Mar 31 18:48:09 2025
+\t (00:13:47)         Host=DESKTOP-TSB5932 User=sky94 Pid=11700 CPUs=8
+\t (00:13:47) CmdLine= C:\Cadence\OrCADX_24.1\tools\bin\unison.exe -layout -orcadx
+\t (00:13:47) 
+\d (00:13:47) Design opened: C:/Users/sky94/OneDrive/Desktop/대학/lidar/80dB_LiDAR/footprint/LM2940_TO220.dra
+\i (00:13:47) trapsize 394
+\i (00:13:47) trapsize 502
+\i (00:13:47) trapsize 512
+\i (00:13:48) QtSignal ucp_shape_create_dyn_dim UCPAddShape_Type CurrentIndexChanged 1
+\i (00:13:48) updateport VisibilityPane
+\i (00:13:48) updateport PropPane
+\i (00:13:48) ucpedit 
+\i (00:13:48) updateport VisibilityPane
+\i (00:13:51) drag_start grid -435.82 773.80
+\i (00:13:51) drag_stop 728.86 -168.60
+\i (00:13:51) updateport ReportsPane
+\i (00:13:51) updateport SearchPane
+\i (00:13:51) updateport PropPane
+\i (00:13:52) pick grid 80.45 82.36
+\t (00:13:52) last pick:  80.45 82.36
+\i (00:13:52) updateport ReportsPane
+\i (00:13:52) updateport SearchPane
+\i (00:13:52) updateport PropPane
+\i (00:13:53) pick grid 52.79 266.75
+\t (00:13:53) last pick:  52.79 266.75
+\i (00:13:54) pick grid 49.72 392.74
+\t (00:13:54) last pick:  49.72 392.74
+\i (00:13:54) pick grid 73.28 460.35
+\t (00:13:54) last pick:  73.28 460.35
+\i (00:13:56) pick grid 129.62 408.11
+\t (00:13:56) last pick:  129.62 408.11
+\i (00:14:07) pick grid 286.34 555.61
+\t (00:14:07) last pick:  286.34 555.61
+\i (00:16:58) opencd_reload C:/Users/sky94/OneDrive/Desktop/대학/lidar/80dB_LiDAR/allegro/80DB_LIDAR.brd 
+\t (00:16:58) Opening existing design...
+\i (00:17:00) fillin yes 
+\i (00:17:01) trapsize 18033
+\t (00:17:01)     Journal end - Mon Mar 31 18:51:23 2025

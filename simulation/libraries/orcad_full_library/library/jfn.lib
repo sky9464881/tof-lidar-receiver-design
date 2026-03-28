@@ -1,0 +1,3670 @@
+*$ model description: "awb2n3438"
+*b Device model created by analog_uprev for 2n3438 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n3438 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-0.426363
++ BETA=1.3183E-3
++ LAMBDA=0.030593
++ RD=34.7507772
++ RS=34.8506442
++ CGD=8.159E-12
++ CGS=8.1589E-12
++ PB=0.9193951
++ IS=1.5439E-14
++ FC=0.4
++ MODE=1
+J2n3438_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  fc={FC}
++ 
+.ends  awb2n3438
+*$ end model description: "awb2n3438"
+*
+*
+*$ model description: "awb2n3823"
+*b Device model created by analog_uprev for 2n3823 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n3823 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-4.0
++ BETA=625E-6
++ LAMBDA=2.0E-3
++ RD=10
++ RS=10
++ CGD=3.3E-12
++ CGS=3.3E-12
++ PB=3.05
++ IS=10E-12
++ KF=2.0E-18
++ AF=0.287
++ FC=0.5
++ MODE=1
+J2n3823_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n3823
+*$ end model description: "awb2n3823"
+*
+*
+*$ model description: "awb2n3955"
+*b Device model created by analog_uprev for 2n3955 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n3955 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ STATE_FACTOR=0
++ VTO=-3.5
++ BETA=.61m
++ LAMBDA=4.7m
++ RD=1
++ RS=1
++ CGD=2p
++ CGS=4.5p
++ PB=1
++ MODE=1
+J2n3955_0 D G S model10  ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++ 
+.ends  awb2n3955
+*$ end model description: "awb2n3955"
+*
+*
+*$ model description: "awb2n4093"
+*b Device model created by analog_uprev for 2n4093 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4093 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ STATE_FACTOR=0
++ VTO=-4.2
++ BETA=2.37e-3
++ LAMBDA=1e-5
++ RD=6
++ RS=3
++ CGD=2p
++ CGS=9p
++ PB=3.05
++ IS=1e-11
++ KF=2e-18
++ AF=0.289
++ FC=0.5
++ MODE=1
+J2n4093_0 D G S model10  ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4093
+*$ end model description: "awb2n4093"
+*
+*
+*$ model description: "awb2n4117"
+*b Device model created by analog_uprev for 2n4117 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4117 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-1.2
++ BETA=42E-6
++ LAMBDA=0.02
++ RD=0
++ RS=0
++ CGD=3E-12
++ CGS=3E-12
++ PB=1
++ IS=1E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4117_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4117
+*$ end model description: "awb2n4117"
+*
+*
+*$ model description: "awb2n4117a"
+*b Device model created by analog_uprev for 2n4117a on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4117a D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-1.2
++ BETA=42E-6
++ LAMBDA=0.02
++ RD=0
++ RS=0
++ CGD=3E-12
++ CGS=3E-12
++ PB=1
++ IS=1E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4117a_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4117a
+*$ end model description: "awb2n4117a"
+*
+*
+*$ model description: "awb2n4118"
+*b Device model created by analog_uprev for 2n4118 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4118 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-2.0
++ BETA=37.5E-6
++ LAMBDA=15.384E-3
++ RD=0
++ RS=0
++ CGD=3E-12
++ CGS=3E-12
++ PB=1
++ IS=1E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4118_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4118
+*$ end model description: "awb2n4118"
+*
+*
+*$ model description: "awb2n4118a"
+*b Device model created by analog_uprev for 2n4118a on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4118a D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-2.0
++ BETA=37.5E-6
++ LAMBDA=15.384E-3
++ RD=0
++ RS=0
++ CGD=3E-12
++ CGS=3E-12
++ PB=1
++ IS=50E-15
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4118a_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4118a
+*$ end model description: "awb2n4118a"
+*
+*
+*$ model description: "awb2n4119"
+*b Device model created by analog_uprev for 2n4119 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4119 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-3.0
++ BETA=44.44E-6
++ LAMBDA=33.33E-3
++ RD=0
++ RS=0
++ CGD=3E-12
++ CGS=3E-12
++ PB=1
++ IS=1E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4119_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4119
+*$ end model description: "awb2n4119"
+*
+*
+*$ model description: "awb2n4119a"
+*b Device model created by analog_uprev for 2n4119a on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4119a D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-3.0
++ BETA=44.44E-6
++ LAMBDA=33.33E-3
++ RD=0
++ RS=0
++ CGD=3E-12
++ CGS=3E-12
++ PB=1
++ IS=50E-15
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4119a_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4119a
+*$ end model description: "awb2n4119a"
+*
+*
+*$ model description: "awb2n4223"
+*b Device model created by analog_uprev for 2n4223 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4223 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-4.2
++ BETA=567E-6
++ LAMBDA=10E-6
++ RD=10
++ RS=10
++ CGD=3.3E-12
++ CGS=3.3E-12
++ PB=3.05
++ IS=10E-12
++ KF=2.0E-18
++ AF=0.287
++ FC=0.5
++ MODE=1
+J2n4223_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4223
+*$ end model description: "awb2n4223"
+*
+*
+*$ model description: "awb2n4338"
+*b Device model created by analog_uprev for 2n4338 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4338 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-0.5
++ BETA=2.0E-3
++ LAMBDA=2.42E-3
++ RD=100.0
++ RS=100.0
++ CGD=3.5E-12
++ CGS=3.5E-12
++ PB=0.9
++ IS=10E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4338_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4338
+*$ end model description: "awb2n4338"
+*
+*
+*$ model description: "awb2n4339"
+*b Device model created by analog_uprev for 2n4339 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4339 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-1.0
++ BETA=1.0E-3
++ LAMBDA=2.73E-3
++ RD=75.0
++ RS=75.0
++ CGD=3.5E-12
++ CGS=3.5E-12
++ PB=0.9
++ IS=10E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4339_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4339
+*$ end model description: "awb2n4339"
+*
+*
+*$ model description: "awb2n4340"
+*b Device model created by analog_uprev for 2n4340 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4340 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-2.0
++ BETA=625E-6
++ LAMBDA=3.57E-3
++ RD=50.0
++ RS=50.0
++ CGD=3.5E-12
++ CGS=3.5E-12
++ PB=0.9
++ IS=10E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4340_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4340
+*$ end model description: "awb2n4340"
+*
+*
+*$ model description: "awb2n4341"
+*b Device model created by analog_uprev for 2n4341 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4341 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-4.0
++ BETA=437.5E-6
++ LAMBDA=3.0E-3
++ RD=22.0
++ RS=22.0
++ CGD=3.5E-12
++ CGS=3.5E-12
++ PB=0.9
++ IS=10E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4341_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4341
+*$ end model description: "awb2n4341"
+*
+*
+*$ model description: "awb2n4391"
+*b Device model created by analog_uprev for 2n4391 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4391 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-7.0
++ BETA=2.041E-3
++ LAMBDA=5.55E-3
++ RD=2
++ RS=2
++ CGD=8.5E-12
++ CGS=12E-12
++ PB=0.8
++ IS=20E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4391_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4391
+*$ end model description: "awb2n4391"
+*
+*
+*$ model description: "awb2n4392"
+*b Device model created by analog_uprev for 2n4392 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4392 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-3.5
++ BETA=4.082E-3
++ LAMBDA=5.55E-3
++ RD=2
++ RS=2
++ CGD=8.5E-12
++ CGS=12E-12
++ PB=0.8
++ IS=20E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4392_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4392
+*$ end model description: "awb2n4392"
+*
+*
+*$ model description: "awb2n4393"
+*b Device model created by analog_uprev for 2n4393 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4393 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-1.75
++ BETA=5.714E-3
++ LAMBDA=4.545E-3
++ RD=2
++ RS=2
++ CGD=8.5E-12
++ CGS=12E-12
++ PB=0.8
++ IS=20E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4393_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4393
+*$ end model description: "awb2n4393"
+*
+*
+*$ model description: "awb2n4416"
+*b Device model created by analog_uprev for 2n4416 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4416 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-3.1
++ BETA=1.0E-3
++ LAMBDA=1.22E-3
++ RD=4.0
++ RS=4.0
++ CGD=2.0E-12
++ CGS=2.0E-12
++ PB=0.8
++ IS=10E-12
++ KF=1.88E-18
++ AF=0.287
++ FC=0.5
++ MODE=1
+J2n4416_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4416
+*$ end model description: "awb2n4416"
+*
+*
+*$ model description: "awb2n4416a"
+*b Device model created by analog_uprev for 2n4416a on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4416a D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-3.1
++ BETA=1.0E-3
++ LAMBDA=1.22E-3
++ RD=4.0
++ RS=4.0
++ CGD=2.0E-12
++ CGS=2.0E-12
++ PB=0.8
++ IS=10E-12
++ KF=1.88E-18
++ AF=0.287
++ FC=0.5
++ MODE=1
+J2n4416a_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4416a
+*$ end model description: "awb2n4416a"
+*
+*
+*$ model description: "awb2n4856"
+*b Device model created by analog_uprev for 2n4856 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4856 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-8.0
++ BETA=2.344E-3
++ LAMBDA=1.424E-3
++ RD=1.0
++ RS=1.0
++ CGD=20E-12
++ CGS=5E-12
++ PB=0.9
++ IS=75E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4856_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4856
+*$ end model description: "awb2n4856"
+*
+*
+*$ model description: "awb2n4856a"
+*b Device model created by analog_uprev for 2n4856a on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4856a D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-8.0
++ BETA=2.344E-3
++ LAMBDA=1.424E-3
++ RD=1.0
++ RS=1.0
++ CGD=10E-12
++ CGS=15E-12
++ PB=0.9
++ IS=75E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4856a_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4856a
+*$ end model description: "awb2n4856a"
+*
+*
+*$ model description: "awb2n4857"
+*b Device model created by analog_uprev for 2n4857 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4857 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-4.0
++ BETA=5.0E-3
++ LAMBDA=1.5076E-3
++ RD=1.0
++ RS=1.0
++ CGD=20E-12
++ CGS=5E-12
++ PB=0.9
++ IS=75E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4857_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4857
+*$ end model description: "awb2n4857"
+*
+*
+*$ model description: "awb2n4857a"
+*b Device model created by analog_uprev for 2n4857a on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4857a D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-4.0
++ BETA=5.0E-3
++ LAMBDA=1.5076E-3
++ RD=1.0
++ RS=1.0
++ CGD=6E-12
++ CGS=18E-12
++ PB=0.9
++ IS=75E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4857a_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4857a
+*$ end model description: "awb2n4857a"
+*
+*
+*$ model description: "awb2n4858"
+*b Device model created by analog_uprev for 2n4858 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4858 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-2.0
++ BETA=5.0E-3
++ LAMBDA=3.5714E-3
++ RD=1.0
++ RS=1.0
++ CGD=20E-12
++ CGS=5E-12
++ PB=0.9
++ IS=75E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4858_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4858
+*$ end model description: "awb2n4858"
+*
+*
+*$ model description: "awb2n4858a"
+*b Device model created by analog_uprev for 2n4858a on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4858a D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-2.0
++ BETA=5.0E-3
++ LAMBDA=3.5714E-3
++ RD=1.0
++ RS=1.0
++ CGD=6E-12
++ CGS=18E-12
++ PB=0.9
++ IS=75E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4858a_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4858a
+*$ end model description: "awb2n4858a"
+*
+*
+*$ model description: "awb2n4859"
+*b Device model created by analog_uprev for 2n4859 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4859 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-8.0
++ BETA=2.344E-3
++ LAMBDA=1.424E-3
++ RD=1.0
++ RS=1.0
++ CGD=20E-12
++ CGS=5E-12
++ PB=0.9
++ IS=75E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4859_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4859
+*$ end model description: "awb2n4859"
+*
+*
+*$ model description: "awb2n4859a"
+*b Device model created by analog_uprev for 2n4859a on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4859a D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-8.0
++ BETA=2.344E-3
++ LAMBDA=1.424E-3
++ RD=1.0
++ RS=1.0
++ CGD=10E-12
++ CGS=15E-12
++ PB=0.9
++ IS=75E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4859a_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4859a
+*$ end model description: "awb2n4859a"
+*
+*
+*$ model description: "awb2n4860"
+*b Device model created by analog_uprev for 2n4860 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4860 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-4.0
++ BETA=5.0E-3
++ LAMBDA=1.5076E-3
++ RD=1.0
++ RS=1.0
++ CGD=20E-12
++ CGS=5E-12
++ PB=0.9
++ IS=75E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4860_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4860
+*$ end model description: "awb2n4860"
+*
+*
+*$ model description: "awb2n4860a"
+*b Device model created by analog_uprev for 2n4860a on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4860a D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-4.0
++ BETA=5.0E-3
++ LAMBDA=1.5076E-3
++ RD=1.0
++ RS=1.0
++ CGD=6E-12
++ CGS=18E-12
++ PB=0.9
++ IS=75E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4860a_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4860a
+*$ end model description: "awb2n4860a"
+*
+*
+*$ model description: "awb2n4861"
+*b Device model created by analog_uprev for 2n4861 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4861 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-2.0
++ BETA=5.0E-3
++ LAMBDA=3.5714E-3
++ RD=1.0
++ RS=1.0
++ CGD=20E-12
++ CGS=5E-12
++ PB=0.9
++ IS=75E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4861_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4861
+*$ end model description: "awb2n4861"
+*
+*
+*$ model description: "awb2n4861a"
+*b Device model created by analog_uprev for 2n4861a on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n4861a D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-2.0
++ BETA=5.0E-3
++ LAMBDA=3.5714E-3
++ RD=1.0
++ RS=1.0
++ CGD=6E-12
++ CGS=18E-12
++ PB=0.9
++ IS=75E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n4861a_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n4861a
+*$ end model description: "awb2n4861a"
+*
+*
+*$ model description: "awb2n5397"
+*b Device model created by analog_uprev for 2n5397 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n5397 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-4.0
++ BETA=1.23E-3
++ LAMBDA=5.26E-3
++ RD=13
++ RS=13
++ CGD=3.3E-12
++ CGS=3.3E-12
++ PB=0.66
++ IS=10E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n5397_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n5397
+*$ end model description: "awb2n5397"
+*
+*
+*$ model description: "awb2n5457"
+*b Device model created by analog_uprev for 2n5457 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n5457 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-1.5
++ BETA=1.33E-3
++ LAMBDA=7.857E-3
++ RD=107.1
++ RS=107.1
++ CGD=6.0E-12
++ CGS=3.0E-12
++ PB=0.8
++ IS=500E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n5457_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n5457
+*$ end model description: "awb2n5457"
+*
+*
+*$ model description: "awb2n5458"
+*b Device model created by analog_uprev for 2n5458 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n5458 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-3.0
++ BETA=0.666E-3
++ LAMBDA=7.5E-3
++ RD=7.4
++ RS=7.4
++ CGD=6.0E-12
++ CGS=3.0E-12
++ PB=0.8
++ IS=500E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n5458_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n5458
+*$ end model description: "awb2n5458"
+*
+*
+*$ model description: "awb2n5459"
+*b Device model created by analog_uprev for 2n5459 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n5459 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-4.0
++ BETA=0.5625E-3
++ LAMBDA=7.2E-3
++ RD=3.0
++ RS=3.0
++ CGD=6.0E-12
++ CGS=3.0E-12
++ PB=0.8
++ IS=500E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2n5459_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n5459
+*$ end model description: "awb2n5459"
+*
+*
+*$ model description: "awb2n5484"
+*b Device model created by analog_uprev for 2n5484 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n5484 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-0.9993217
++ BETA=2.16311E-3
++ LAMBDA=0.0174371
++ RD=17.042944
++ RS=6.4157725
++ CGD=4.93771E-12
++ CGS=4.81179E-12
++ PB=0.8252988
++ IS=1.23188E-15
++ FC=0.8
++ MODE=1
+J2n5484_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  fc={FC}
++ 
+.ends  awb2n5484
+*$ end model description: "awb2n5484"
+*
+*
+*$ model description: "awb2n5486"
+*b Device model created by analog_uprev for 2n5486 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n5486 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-2.6810373
++ BETA=1.19185E-3
++ LAMBDA=0.0161599
++ RD=4.7125983
++ RS=5.6133132
++ CGD=2.64143E-12
++ CGS=4.21546E-12
++ PB=0.443788
++ IS=4.24375E-16
++ FC=0.6198398
++ MODE=1
+J2n5486_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  fc={FC}
++ 
+.ends  awb2n5486
+*$ end model description: "awb2n5486"
+*
+*
+*$ model description: "awb2n5639"
+*b Device model created by analog_uprev for 2n5639 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n5639 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-3.2680826
++ BETA=3.68282E-3
++ LAMBDA=0.0150496
++ RD=0.1
++ RS=3.0902286
++ CGD=1.94282E-11
++ CGS=1.89456E-11
++ PB=1.0565328
++ IS=5.47779E-15
++ FC=0.8
++ MODE=1
+J2n5639_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  fc={FC}
++ 
+.ends  awb2n5639
+*$ end model description: "awb2n5639"
+*
+*
+*$ model description: "awb2n5911"
+*b Device model created by analog_uprev for 2n5911 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n5911 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-3.0
++ BETA=1.22E-3
++ LAMBDA=5.26E-3
++ RD=20.0
++ RS=20.0
++ CGD=4.0E-12
++ CGS=2.8E-12
++ PB=0.667
++ IS=10E-12
++ KF=0
++ AF=1.0
++ FC=0.5
++ MODE=1
+J2n5911_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n5911
+*$ end model description: "awb2n5911"
+*
+*
+*$ model description: "awb2n5912"
+*b Device model created by analog_uprev for 2n5912 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n5912 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ STATE_FACTOR=0
++ VTO=-3
++ BETA=1.78m
++ LAMBDA=6.7m
++ RD=93
++ RS=7
++ CGD=1.7p
++ CGS=2.8p
++ PB=1
++ IS=15p
++ MODE=1
+J2n5912_0 D G S model10  ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++ 
+.ends  awb2n5912
+*$ end model description: "awb2n5912"
+*
+*
+*$ model description: "awb2n6449"
+*b Device model created by analog_uprev for 2n6449 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2n6449 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ STATE_FACTOR=0
++ VTO=-4
++ BETA=.238m
++ LAMBDA=21m
++ RD=1
++ RS=1
++ CGD=2p
++ CGS=5.5p
++ IS=.35n
++ MODE=1
+J2n6449_0 D G S model10  ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  is={IS}
++ 
+.ends  awb2n6449
+*$ end model description: "awb2n6449"
+*
+*
+*$ model description: "awb2sk121"
+*b Device model created by analog_uprev for 2sk121 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2sk121 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-0.9669
++ BETA=10.19E-3
++ LAMBDA=0
++ RD=21.94
++ RS=0
++ CGD=7.0E-12
++ CGS=7.0E-12
++ PB=0.8
++ IS=10E-15
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2sk121_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2sk121
+*$ end model description: "awb2sk121"
+*
+*
+*$ model description: "awb2sk125"
+*b Device model created by analog_uprev for 2sk125 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2sk125 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-4.0
++ BETA=3.125E-3
++ LAMBDA=25E-3
++ RD=10
++ RS=10
++ CGD=10.17E-12
++ CGS=6.75E-12
++ PB=0.7
++ IS=1E-9
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2sk125_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2sk125
+*$ end model description: "awb2sk125"
+*
+*
+*$ model description: "awb2sk12"
+*b Device model created by analog_uprev for 2sk12 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2sk12 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-2.3
++ BETA=378.1E-3
++ LAMBDA=2.94E-3
++ RD=12
++ RS=12
++ CGD=9.0E-12
++ CGS=9.0E-12
++ PB=0.7
++ IS=40E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2sk12_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2sk12
+*$ end model description: "awb2sk12"
+*
+*
+*$ model description: "awb2sk141"
+*b Device model created by analog_uprev for 2sk141 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2sk141 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-1.6
++ BETA=1.953E-3
++ LAMBDA=10E-3
++ RD=30
++ RS=30
++ CGD=3.0E-12
++ CGS=3.0E-12
++ PB=1.1
++ IS=50E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2sk141_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2sk141
+*$ end model description: "awb2sk141"
+*
+*
+*$ model description: "awb2sk141a"
+*b Device model created by analog_uprev for 2sk141a on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2sk141a D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-1.6
++ BETA=1.953E-3
++ LAMBDA=10E-3
++ RD=30
++ RS=30
++ CGD=3.0E-12
++ CGS=3.0E-12
++ PB=1.1
++ IS=2E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2sk141a_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2sk141a
+*$ end model description: "awb2sk141a"
+*
+*
+*$ model description: "awb2sk152"
+*b Device model created by analog_uprev for 2sk152 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2sk152 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-1.2
++ BETA=17.4E-3
++ LAMBDA=40E-3
++ RD=10
++ RS=10
++ CGD=2.0E-12
++ CGS=6.0E-12
++ PB=0.7
++ IS=100E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2sk152_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2sk152
+*$ end model description: "awb2sk152"
+*
+*
+*$ model description: "awb2sk156j"
+*a Device model created by analog_uprev for 2sk156j on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2sk156j   3 2 1
+JQ5 3 2 1 M1M2SK156J
+.MODEL M1M2SK156J NJF VTO=-414.836980m BETA=891.000000u LAMBDA=
++ 43.742000m RD=200 RS=100 CGS=1e-17 CGD=1e-17 IS=340.000000p
+DD2 1 2 M2M2SK156_diode
+.MODEL M2M2SK156_diode D IS=1e-18 RS=100.000000m N=1 TT=1.000000n CJO=
++ 1.000000p VJ=499.999970m M=230.000000m
+.ends
+*$ end model description: "awb2sk156j"
+*
+*
+*$ model description: "awb2sk156l"
+*a Device model created by analog_uprev for 2sk156l on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2sk156l   3 2 1
+JQ6 3 2 1 M1M2SK156L
+.MODEL M1M2SK156L NJF VTO=-678.693970m BETA=1.362000m LAMBDA=
++ 15.910000m RD=2.102000K RS=84 CGS=4.000000p CGD=4.000000p IS=
++ 340.000000p
+DD2 1 2 M2M2SK156_diode
+.MODEL M2M2SK156_diode D IS=1e-18 RS=100.000000m N=1 TT=1.000000n CJO=
++ 1.000000p VJ=499.999970m M=230.000000m
+.ends
+*$ end model description: "awb2sk156l"
+*
+*
+*$ model description: "awb2sk30a"
+*b Device model created by analog_uprev for 2sk30a on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2sk30a D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-1.336
++ BETA=976.4E-6
++ LAMBDA=0
++ RD=442.2
++ RS=0
++ CGD=8.2E-12
++ CGS=8.2E-12
++ PB=0.8
++ IS=10E-15
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2sk30a_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2sk30a
+*$ end model description: "awb2sk30a"
+*
+*
+*$ model description: "awb2sk316"
+*b Device model created by analog_uprev for 2sk316 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2sk316 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-1.6
++ BETA=5.47E-3
++ LAMBDA=25E-3
++ RD=10
++ RS=10
++ CGD=3.45E-12
++ CGS=8.05E-12
++ PB=0.7
++ IS=100E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2sk316_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2sk316
+*$ end model description: "awb2sk316"
+*
+*
+*$ model description: "awb2sk520"
+*b Device model created by analog_uprev for 2sk520 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2sk520 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-4.0
++ BETA=3.75E-3
++ LAMBDA=4.31E-3
++ RD=3.33
++ RS=3.33
++ CGD=7.32E-12
++ CGS=7.35E-12
++ PB=0.996
++ IS=100E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2sk520_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2sk520
+*$ end model description: "awb2sk520"
+*
+*
+*$ model description: "awb2sk94_x3"
+*b Device model created by analog_uprev for 2sk94_x3 on Wed Feb  7 12:22:45 IST 2001
+.subckt awb2sk94_x3 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-0.9669
++ BETA=10.19E-3
++ LAMBDA=0
++ RD=21.94
++ RS=0
++ CGD=7.0E-12
++ CGS=7.0E-12
++ PB=0.8
++ IS=10E-15
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+J2sk94_x3_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2sk94_x3
+*$ end model description: "awb2sk94_x3"
+*
+*
+*$ model description: "awbbfw11"
+*b Device model created by analog_uprev for bfw11 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbbfw11 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-4.2
++ BETA=567E-6
++ LAMBDA=10E-6
++ RD=10
++ RS=10
++ CGD=3.3E-12
++ CGS=3.3E-12
++ PB=3.05
++ IS=10E-12
++ KF=2.0E-18
++ AF=0.287
++ FC=0.5
++ MODE=1
+Jbfw11_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbbfw11
+*$ end model description: "awbbfw11"
+*
+*
+*$ model description: "awbbfw12"
+*b Device model created by analog_uprev for bfw12 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbbfw12 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-2.0
++ BETA=625E-6
++ LAMBDA=3.57E-3
++ RD=50.0
++ RS=50.0
++ CGD=3.5E-12
++ CGS=3.5E-12
++ PB=0.9
++ IS=10E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jbfw12_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbbfw12
+*$ end model description: "awbbfw12"
+*
+*
+*$ model description: "awbbfw13"
+*b Device model created by analog_uprev for bfw13 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbbfw13 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-0.5
++ BETA=2.0E-3
++ LAMBDA=2.42E-3
++ RD=100.0
++ RS=100.0
++ CGD=3.5E-12
++ CGS=3.5E-12
++ PB=0.9
++ IS=10E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jbfw13_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbbfw13
+*$ end model description: "awbbfw13"
+*
+*
+*$ model description: "awbbsv79"
+*b Device model created by analog_uprev for bsv79 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbbsv79 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-3.2680826
++ BETA=3.68282E-3
++ LAMBDA=0.0150496
++ RD=0.1
++ RS=3.0902286
++ CGD=1.94282E-11
++ CGS=1.89456E-11
++ PB=1.0565328
++ IS=5.47779E-15
++ FC=0.8
++ MODE=1
+Jbsv79_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  fc={FC}
++ 
+.ends  awbbsv79
+*$ end model description: "awbbsv79"
+*
+*
+*$ model description: "awbdn324"
+*b Device model created by analog_uprev for dn324 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbdn324 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-2.105
++ BETA=673.6E-6
++ LAMBDA=0
++ RD=0
++ RS=0
++ CGD=6.5E-12
++ CGS=7E-12
++ PB=1.0
++ IS=10E-15
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jdn324_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbdn324
+*$ end model description: "awbdn324"
+*
+*
+*$ model description: "awbe2131"
+*b Device model created by analog_uprev for e2131 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbe2131 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-2.169
++ BETA=1.822E-3
++ LAMBDA=10E-6
++ RD=0
++ RS=0
++ CGD=4.5E-12
++ CGS=4.5E-12
++ PB=1.0
++ IS=10E-15
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Je2131_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbe2131
+*$ end model description: "awbe2131"
+*
+*
+*$ model description: "awbfn4117"
+*b Device model created by analog_uprev for fn4117 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbfn4117 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-1.2
++ BETA=42E-6
++ LAMBDA=0.02
++ RD=0
++ RS=0
++ CGD=3E-12
++ CGS=3E-12
++ PB=1
++ IS=1E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jfn4117_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbfn4117
+*$ end model description: "awbfn4117"
+*
+*
+*$ model description: "awbfn4118"
+*b Device model created by analog_uprev for fn4118 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbfn4118 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-2.0
++ BETA=37.5E-6
++ LAMBDA=15.384E-3
++ RD=0
++ RS=0
++ CGD=3E-12
++ CGS=3E-12
++ PB=1
++ IS=1E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jfn4118_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbfn4118
+*$ end model description: "awbfn4118"
+*
+*
+*$ model description: "awbfn4119"
+*b Device model created by analog_uprev for fn4119 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbfn4119 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-3.0
++ BETA=44.44E-6
++ LAMBDA=33.33E-3
++ RD=0
++ RS=0
++ CGD=3E-12
++ CGS=3E-12
++ PB=1
++ IS=1E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jfn4119_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbfn4119
+*$ end model description: "awbfn4119"
+*
+*
+*$ model description: "awbfn4392"
+*b Device model created by analog_uprev for fn4392 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbfn4392 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-3.5
++ BETA=4.082E-3
++ LAMBDA=5.55E-3
++ RD=2
++ RS=2
++ CGD=8.5E-12
++ CGS=12E-12
++ PB=0.8
++ IS=20E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jfn4392_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbfn4392
+*$ end model description: "awbfn4392"
+*
+*
+*$ model description: "awbfn4393"
+*b Device model created by analog_uprev for fn4393 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbfn4393 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-1.75
++ BETA=5.714E-3
++ LAMBDA=4.545E-3
++ RD=2
++ RS=2
++ CGD=8.5E-12
++ CGS=12E-12
++ PB=0.8
++ IS=20E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jfn4393_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbfn4393
+*$ end model description: "awbfn4393"
+*
+*
+*$ model description: "awbidealnch"
+*b Device model created by analog_uprev for idealnch on Wed Feb  7 12:22:45 IST 2001
+.subckt awbidealnch D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-2.0
++ MODE=1
+Jidealnch_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++ 
+.ends  awbidealnch
+*$ end model description: "awbidealnch"
+*
+*
+*$ model description: "awbj110"
+*b Device model created by analog_uprev for j110 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbj110 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-1.8336628
++ BETA=0.0460062
++ LAMBDA=0.0263895
++ RD=4.3551696
++ RS=1.7229191
++ CGD=9.60305E-11
++ CGS=9.1602E-11
++ PB=0.9279508
++ IS=3.79956E-14
++ FC=0.4
++ MODE=1
+Jj110_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  fc={FC}
++ 
+.ends  awbj110
+*$ end model description: "awbj110"
+*
+*
+*$ model description: "awbj112"
+*b Device model created by analog_uprev for j112 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbj112 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-3.29735
++ BETA=4.9105E-3
++ LAMBDA=0.0183507
++ RD=1.5698736
++ RS=10.5409944
++ CGD=1.6008E-11
++ CGS=1.6031E-12
++ PB=1.0622
++ IS=1.8484E-15
++ FC=0.4
++ MODE=1
+Jj112_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  fc={FC}
++ 
+.ends  awbj112
+*$ end model description: "awbj112"
+*
+*
+*$ model description: "awbj309"
+*b Device model created by analog_uprev for j309 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbj309 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-2.5
++ BETA=2.375E-3
++ LAMBDA=19E-3
++ RD=0.5
++ RS=0.5
++ CGD=6.5E-12
++ CGS=5.8E-12
++ PB=1.667
++ IS=50E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jj309_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbj309
+*$ end model description: "awbj309"
+*
+*
+*$ model description: "awbj310"
+*b Device model created by analog_uprev for j310 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbj310 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-2.8031764
++ BETA=4.24411E-3
++ LAMBDA=0.0186244
++ RD=1
++ RS=3.862096
++ CGD=1.13093E-11
++ CGS=7.76159E-12
++ PB=1.0537915
++ IS=1.49088E-15
++ FC=0.4
++ MODE=1
+Jj310_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  fc={FC}
++ 
+.ends  awbj310
+*$ end model description: "awbj310"
+*
+*
+*$ model description: "awbmmbf5459"
+*b Device model created by analog_uprev for mmbf5459 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbmmbf5459 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-4.4513013
++ BETA=4.0927E-4
++ LAMBDA=2.45819E-3
++ RD=38.4358172
++ RS=6.2380629
++ CGD=8.5241E-12
++ CGS=8.6709E-12
++ PB=2
++ IS=2.10127E-15
++ FC=0.4
++ MODE=1
+Jmmbf5459_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  fc={FC}
++ 
+.ends  awbmmbf5459
+*$ end model description: "awbmmbf5459"
+*
+*
+*$ model description: "awbmp844"
+*b Device model created by analog_uprev for mp844 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbmp844 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-2.0
++ BETA=1.3E-3
++ LAMBDA=10E-3
++ RD=10
++ RS=10
++ CGD=23.7E-12
++ CGS=16.5E-12
++ PB=0.8
++ IS=15E-12
++ KF=0
++ AF=1.0
++ FC=0.5
++ MODE=1
+Jmp844_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbmp844
+*$ end model description: "awbmp844"
+*
+*
+*$ model description: "awbmpf820"
+*b Device model created by analog_uprev for mpf820 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbmpf820 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-2.6827535
++ BETA=4.32408E-3
++ LAMBDA=0.0182895
++ RD=2.6265258
++ RS=3.1016058
++ CGD=1.84136E-11
++ CGS=1.79128E-11
++ PB=0.9826529
++ IS=1.83679E-15
++ FC=0.8
++ MODE=1
+Jmpf820_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  fc={FC}
++ 
+.ends  awbmpf820
+*$ end model description: "awbmpf820"
+*
+*
+*$ model description: "awbpn4117"
+*b Device model created by analog_uprev for pn4117 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbpn4117 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-1.2
++ BETA=42E-6
++ LAMBDA=0.02
++ RD=0
++ RS=0
++ CGD=3E-12
++ CGS=3E-12
++ PB=1
++ IS=1E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jpn4117_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbpn4117
+*$ end model description: "awbpn4117"
+*
+*
+*$ model description: "awbpn4118"
+*b Device model created by analog_uprev for pn4118 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbpn4118 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-2.0
++ BETA=37.5E-6
++ LAMBDA=15.384E-3
++ RD=0
++ RS=0
++ CGD=3E-12
++ CGS=3E-12
++ PB=1
++ IS=1E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jpn4118_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbpn4118
+*$ end model description: "awbpn4118"
+*
+*
+*$ model description: "awbpn4119"
+*b Device model created by analog_uprev for pn4119 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbpn4119 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-3.0
++ BETA=44.44E-6
++ LAMBDA=33.33E-3
++ RD=0
++ RS=0
++ CGD=3E-12
++ CGS=3E-12
++ PB=1
++ IS=1E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jpn4119_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbpn4119
+*$ end model description: "awbpn4119"
+*
+*
+*$ model description: "awbpn4416"
+*b Device model created by analog_uprev for pn4416 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbpn4416 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-3.1
++ BETA=1.0E-3
++ LAMBDA=1.22E-3
++ RD=4.0
++ RS=4.0
++ CGD=2.0E-12
++ CGS=2.0E-12
++ PB=0.8
++ IS=10E-12
++ KF=1.88E-18
++ AF=0.287
++ FC=0.5
++ MODE=1
+Jpn4416_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbpn4416
+*$ end model description: "awbpn4416"
+*
+*
+*$ model description: "awbsst201"
+*b Device model created by analog_uprev for sst201 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbsst201 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-0.5
++ BETA=2.0E-3
++ LAMBDA=2.42E-3
++ RD=100.0
++ RS=100.0
++ CGD=3.5E-12
++ CGS=3.5E-12
++ PB=0.9
++ IS=10E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jsst201_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbsst201
+*$ end model description: "awbsst201"
+*
+*
+*$ model description: "awbsst202"
+*b Device model created by analog_uprev for sst202 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbsst202 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-1.0
++ BETA=1.0E-3
++ LAMBDA=2.73E-3
++ RD=75.0
++ RS=75.0
++ CGD=3.5E-12
++ CGS=3.5E-12
++ PB=0.9
++ IS=10E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jsst202_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbsst202
+*$ end model description: "awbsst202"
+*
+*
+*$ model description: "awbsst203"
+*b Device model created by analog_uprev for sst203 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbsst203 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-2.0
++ BETA=625E-6
++ LAMBDA=3.57E-3
++ RD=50.0
++ RS=50.0
++ CGD=3.5E-12
++ CGS=3.5E-12
++ PB=0.9
++ IS=10E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jsst203_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbsst203
+*$ end model description: "awbsst203"
+*
+*
+*$ model description: "awbsst204"
+*b Device model created by analog_uprev for sst204 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbsst204 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-4.0
++ BETA=437.5E-6
++ LAMBDA=3.0E-3
++ RD=22.0
++ RS=22.0
++ CGD=3.5E-12
++ CGS=3.5E-12
++ PB=0.9
++ IS=10E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jsst204_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbsst204
+*$ end model description: "awbsst204"
+*
+*
+*$ model description: "awbsst4856"
+*b Device model created by analog_uprev for sst4856 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbsst4856 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-8.0
++ BETA=2.344E-3
++ LAMBDA=1.424E-3
++ RD=1.0
++ RS=1.0
++ CGD=20E-12
++ CGS=5E-12
++ PB=0.9
++ IS=75E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jsst4856_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbsst4856
+*$ end model description: "awbsst4856"
+*
+*
+*$ model description: "awbsst4857"
+*b Device model created by analog_uprev for sst4857 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbsst4857 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-4.0
++ BETA=5.0E-3
++ LAMBDA=1.5076E-3
++ RD=1.0
++ RS=1.0
++ CGD=20E-12
++ CGS=5E-12
++ PB=0.9
++ IS=75E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jsst4857_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbsst4857
+*$ end model description: "awbsst4857"
+*
+*
+*$ model description: "awbsst4858"
+*b Device model created by analog_uprev for sst4858 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbsst4858 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-2.0
++ BETA=5.0E-3
++ LAMBDA=3.5714E-3
++ RD=1.0
++ RS=1.0
++ CGD=20E-12
++ CGS=5E-12
++ PB=0.9
++ IS=75E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jsst4858_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbsst4858
+*$ end model description: "awbsst4858"
+*
+*
+*$ model description: "awbsst4859"
+*b Device model created by analog_uprev for sst4859 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbsst4859 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-8.0
++ BETA=2.344E-3
++ LAMBDA=1.424E-3
++ RD=1.0
++ RS=1.0
++ CGD=20E-12
++ CGS=5E-12
++ PB=0.9
++ IS=75E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jsst4859_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbsst4859
+*$ end model description: "awbsst4859"
+*
+*
+*$ model description: "awbsst4860"
+*b Device model created by analog_uprev for sst4860 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbsst4860 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-4.0
++ BETA=5.0E-3
++ LAMBDA=1.5076E-3
++ RD=1.0
++ RS=1.0
++ CGD=20E-12
++ CGS=5E-12
++ PB=0.9
++ IS=75E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jsst4860_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbsst4860
+*$ end model description: "awbsst4860"
+*
+*
+*$ model description: "awbsst4861"
+*b Device model created by analog_uprev for sst4861 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbsst4861 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-2.0
++ BETA=5.0E-3
++ LAMBDA=3.5714E-3
++ RD=1.0
++ RS=1.0
++ CGD=20E-12
++ CGS=5E-12
++ PB=0.9
++ IS=75E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jsst4861_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbsst4861
+*$ end model description: "awbsst4861"
+*
+*
+*$ model description: "awbsst5457"
+*b Device model created by analog_uprev for sst5457 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbsst5457 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-1.5
++ BETA=1.33E-3
++ LAMBDA=7.857E-3
++ RD=107.1
++ RS=107.1
++ CGD=6.0E-12
++ CGS=3.0E-12
++ PB=0.8
++ IS=500E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jsst5457_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbsst5457
+*$ end model description: "awbsst5457"
+*
+*
+*$ model description: "awbsst5458"
+*b Device model created by analog_uprev for sst5458 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbsst5458 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-3.0
++ BETA=0.666E-3
++ LAMBDA=7.5E-3
++ RD=7.4
++ RS=7.4
++ CGD=6.0E-12
++ CGS=3.0E-12
++ PB=0.8
++ IS=500E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jsst5458_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbsst5458
+*$ end model description: "awbsst5458"
+*
+*
+*$ model description: "awbsst5459"
+*b Device model created by analog_uprev for sst5459 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbsst5459 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-4.0
++ BETA=0.5625E-3
++ LAMBDA=7.2E-3
++ RD=3.0
++ RS=3.0
++ CGD=6.0E-12
++ CGS=3.0E-12
++ PB=0.8
++ IS=500E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Jsst5459_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbsst5459
+*$ end model description: "awbsst5459"
+*
+*
+*$ model description: "awbu308"
+*b Device model created by analog_uprev for u308 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbu308 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-4.0
++ BETA=2.375E-3
++ LAMBDA=19E-3
++ RD=0.5
++ RS=0.5
++ CGD=6.5E-12
++ CGS=5.8E-12
++ PB=1.667
++ IS=50E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Ju308_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbu308
+*$ end model description: "awbu308"
+*
+*
+*$ model description: "awbu309"
+*b Device model created by analog_uprev for u309 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbu309 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-4.0
++ BETA=2.375E-3
++ LAMBDA=19E-3
++ RD=0.5
++ RS=0.5
++ CGD=6.5E-12
++ CGS=5.8E-12
++ PB=1.667
++ IS=50E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Ju309_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbu309
+*$ end model description: "awbu309"
+*
+*
+*$ model description: "awbu310"
+*b Device model created by analog_uprev for u310 on Wed Feb  7 12:22:45 IST 2001
+.subckt awbu310 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ VTO=-4.0
++ BETA=2.375E-3
++ LAMBDA=19E-3
++ RD=0.5
++ RS=0.5
++ CGD=6.5E-12
++ CGS=5.8E-12
++ PB=1.667
++ IS=50E-12
++ KF=0
++ AF=1
++ FC=0.5
++ MODE=1
+Ju310_0 D G S model10 {area} ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model10 njf
++  vto={VTO}
++  beta={BETA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  cgd={CGD}
++  cgs={CGS}
++  pb={PB}
++  is={IS}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbu310
+*$ end model description: "awbu310"
+*
+*

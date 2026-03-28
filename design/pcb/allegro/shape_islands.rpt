@@ -1,0 +1,18 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Island Report                                              )
+(                                                                     )
+(    Drawing          : 80DB_LIDAR_1.brd                              )
+(    Software Version : 17.2P028                                      )
+(    Date/Time        : Wed Dec 04 10:48:35 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total islands on design: 1
+
+
+  <<<  ETCH  >>>
+
+    Layer = BOTTOM
+	Point on shape: (81.5318 49.8822)  Net: GND

@@ -1,0 +1,25 @@
+\t (00:00:14) orcadx 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:14)     Journal start - Fri Apr  4 19:34:47 2025
+\t (00:00:14)         Host=BOOK-QTRCVV9COM User=user Pid=12836 CPUs=12
+\t (00:00:14) CmdLine= C:\Cadence\OrCADX_24.1\tools\bin\unison.exe -layout -orcadx -mpssession user -proj c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\testpcb\testpcb.opj C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/testpcb/allegro/testpcb.brd
+\t (00:00:14) 
+\d (00:00:14) Design opened: C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/testpcb/allegro/testpcb.brd
+\i (00:00:15) trapsize 6155
+\i (00:00:19) trapsize 7859
+\t (00:00:38) Loading consmgr.cxt 
+\t (00:00:38) Loading acns_formula.cxt 
+\i (00:00:38) trapsize 7848
+\i (00:00:38) trapsize 7997
+\t (00:00:44) nayunwoo159@kw.ac.kr user logged in.
+
+\i (00:00:46) trapsize 6888
+\i (00:00:46) updateport VisibilityPane
+\i (00:00:46) updateport PropPane
+\i (00:00:47) ucpedit 
+\i (00:00:47) updateport VisibilityPane
+\i (00:03:50) QtSignal MainCanvas CplPrefDialog closed
+\i (00:03:50) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:03:50) QtSignal MainCanvas CplGrpSel closed
+\i (00:03:50) QtSignal MainCanvas ImpPrefDialog closed
+\i (00:03:50) QtSignal MainCanvas ImpGrpSel closed
+\t (00:03:56)     Journal end - Fri Apr  4 19:38:29 2025

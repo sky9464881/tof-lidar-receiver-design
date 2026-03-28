@@ -1,0 +1,13 @@
+\t (00:00:03) orcadx 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Fri Apr 11 20:47:38 2025
+\t (00:00:03)         Host=DESKTOP-TSB5932 User=sky94 Pid=14876 CPUs=8
+\t (00:00:03) CmdLine= C:\Cadence\OrCADX_24.1\tools\bin\unison.exe -layout -orcadx -mpssession sky94 -proj c:\users\sky94\appdata\roaming\spb_data\cdssetup\workspace\projects\lidar_pcb\lidar_pcb.opj c:/users/sky94/appdata/roaming/spb_data/cdssetup/workspace/projects/lidar_pcb/allegro/lidar_pcb.brd
+\t (00:00:03) 
+\t (00:00:10) Loading axlcore.cxt 
+\t (00:00:10) Starting new design...
+\i (00:00:12) trapsize 10500
+\i (00:00:13) opencd c:/users/sky94/appdata/roaming/spb_data/cdssetup/workspace/projects/lidar_pcb/allegro/lidar_pcb.brd 
+\t (00:00:13) Opening existing design...
+\i (00:00:13) trapsize 1325610
+\t (00:00:13) > Sending response DoneOpenBoard
+\t (00:00:13)     Journal end - Fri Apr 11 20:47:49 2025

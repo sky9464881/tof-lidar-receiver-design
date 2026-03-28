@@ -1,0 +1,224 @@
+\t (00:00:13) orcadx 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:13)     Journal start - Wed Apr  2 21:31:11 2025
+\t (00:00:13)         Host=BOOK-QTRCVV9COM User=user Pid=2848 CPUs=12
+\t (00:00:13) CmdLine= C:\Cadence\OrCADX_24.1\tools\bin\unison.exe -layout -orcadx -mpssession user -proj c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\test1231123123\test1231123123.opj C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/test1231123123/allegro/test1231123123.brd
+\t (00:00:13) 
+\d (00:00:13) Design opened: C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/test1231123123/allegro/test1231123123.brd
+\i (00:00:14) trapsize 6836
+\i (00:00:15) trapsize 9005
+\t (00:00:21) Loading consmgr.cxt 
+\t (00:00:21) Loading acns_formula.cxt 
+\i (00:00:21) trapsize 8990
+\i (00:00:21) trapsize 9186
+\t (00:00:22) nayunwoo159@kw.ac.kr user logged in.
+
+\i (00:00:23) trapsize 9659
+\i (00:00:23) updateport VisibilityPane
+\i (00:00:23) updateport PropPane
+\i (00:00:23) ucpedit 
+\i (00:00:23) updateport VisibilityPane
+\i (00:00:29) design sync eco 
+\t (00:00:29) > Requesting Capture to open design
+\t (00:00:29) > Response received OpenDesign is done by remote tool
+\t (00:00:29) Design opened successfully
+\t (00:00:29) > Requesting Capture to generate logical netlist
+\t (00:00:29) > Requesting Capture to open design
+\t (00:00:30) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:00:30) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\test1231123123\allegro
+\t (00:00:30) > Requesting Capture to generate logical netlist
+\t (00:00:30) > Response received OpenDesign is done by remote tool
+\t (00:00:30) Design opened successfully
+\t (00:00:30) > Generating Physical Netlist
+\t (00:00:30) Starting genfeedformat...
+\t (00:00:30) > Generating Physical Netlist successful
+\t (00:00:30) > Generating Differences
+\t (00:00:30) > Generating Differences successful
+\t (00:00:30) > Displaying differences output
+\t (00:00:30) > Displaying differences output successful
+\t (00:00:30) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:00:30) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\test1231123123\allegro
+\i (00:00:30) updateport ReportsPane
+\i (00:00:30) updateport SearchPane
+\i (00:00:30) updateport PropPane
+\i (00:00:31) QtSignal DesignSyncDialog sync_button clicked
+\t (00:00:31) > Sending response DoneOpenBoard
+\t (00:00:31) Starting Cadence Logic Import...
+\w (00:00:32) WARNING(SPMHGE-795): netrev had warnings.
+\t (00:00:32) Opening existing design...
+\i (00:00:33) trapsize 9659
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:33) trapsize 9659
+\t (00:00:33) Placed 68 of 78 symbols.
+\i (00:00:33) QtSignal DesignSyncDialog sch_comboBox EditingFinished "C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/test1231123123/test1231123123.opj"
+\i (00:00:33) QtSignal MainCanvas DesignSyncDialog closed
+\i (00:00:33) updateport ReportsPane
+\i (00:00:33) updateport SearchPane
+\i (00:00:33) updateport VisibilityPane
+\i (00:00:33) updateport PropPane
+\i (00:00:33) ucpedit 
+\i (00:00:33) updateport VisibilityPane
+\i (00:00:36) zoom in 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom in 7244.32 13542.04
+\i (00:00:36) trapsize 4830
+\i (00:00:36) zoom in 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom in 7244.32 13542.04
+\i (00:00:36) trapsize 2415
+\i (00:00:36) zoom in 1 
+\i (00:00:36) setwindow pcb
+\i (00:00:36) zoom in 7244.32 13542.04
+\i (00:00:36) trapsize 1207
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out 7343.33 13126.71
+\i (00:00:37) trapsize 2415
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow pcb
+\i (00:00:37) zoom out 7343.32 13126.71
+\i (00:00:37) trapsize 4830
+\i (00:00:37) roam start
+\i (00:00:37) roam y -2
+\i (00:00:37) roam y -1
+\i (00:00:37) roam y -1
+\i (00:00:37) roam y -1
+\i (00:00:37) roam y -9
+\i (00:00:37) roam y -6
+\i (00:00:37) roam y -2
+\i (00:00:38) roam x 2
+\i (00:00:38) roam y -7
+\i (00:00:38) roam x 4
+\i (00:00:38) roam y -8
+\i (00:00:38) roam x 4
+\i (00:00:38) roam y -6
+\i (00:00:38) roam x 2
+\i (00:00:38) roam y -6
+\i (00:00:38) roam x 13
+\i (00:00:38) roam y -24
+\i (00:00:38) roam x 6
+\i (00:00:38) roam y -12
+\i (00:00:38) roam x 10
+\i (00:00:38) roam y -15
+\i (00:00:38) roam x 6
+\i (00:00:38) roam y -10
+\i (00:00:38) roam x 9
+\i (00:00:38) roam y -15
+\i (00:00:38) roam x 9
+\i (00:00:38) roam y -15
+\i (00:00:38) roam x 16
+\i (00:00:38) roam y -19
+\i (00:00:38) roam x 11
+\i (00:00:38) roam y -16
+\i (00:00:38) roam x 13
+\i (00:00:38) roam y -14
+\i (00:00:38) roam x 10
+\i (00:00:38) roam y -10
+\i (00:00:38) roam x 10
+\i (00:00:38) roam y -10
+\i (00:00:38) roam x 6
+\i (00:00:38) roam y -5
+\i (00:00:38) roam x 19
+\i (00:00:38) roam y -13
+\i (00:00:38) roam x 10
+\i (00:00:38) roam y -5
+\i (00:00:38) roam x 10
+\i (00:00:38) roam y -5
+\i (00:00:38) roam x 9
+\i (00:00:38) roam y -2
+\i (00:00:38) roam x 13
+\i (00:00:38) roam y -4
+\i (00:00:38) roam x 8
+\i (00:00:38) roam y -2
+\i (00:00:38) roam x 7
+\i (00:00:38) roam y -3
+\i (00:00:38) roam x 8
+\i (00:00:38) roam y -4
+\i (00:00:38) roam x 10
+\i (00:00:38) roam y -3
+\i (00:00:38) roam x 19
+\i (00:00:38) roam y -8
+\i (00:00:38) roam x 6
+\i (00:00:38) roam y -1
+\i (00:00:38) roam x 1
+\i (00:00:38) roam end
+\i (00:00:38) roam start
+\i (00:00:38) roam x 5
+\i (00:00:38) roam y -3
+\i (00:00:38) roam x 17
+\i (00:00:38) roam y -8
+\i (00:00:38) roam x 10
+\i (00:00:38) roam y -4
+\i (00:00:38) roam x 3
+\i (00:00:38) roam y -1
+\i (00:00:38) roam x 5
+\i (00:00:38) roam y -4
+\i (00:00:38) roam x 15
+\i (00:00:38) roam y -6
+\i (00:00:38) roam x 7
+\i (00:00:38) roam y -4
+\i (00:00:39) roam y -1
+\i (00:00:39) roam end
+\i (00:00:47) setwindow text
+\i (00:00:47) close
+\i (00:00:48) setwindow pcb
+\i (00:00:48) roam start
+\i (00:00:48) roam x 1
+\i (00:00:48) roam x 16
+\i (00:00:48) roam y 9
+\i (00:00:48) roam x 11
+\i (00:00:48) roam y 11
+\i (00:00:48) roam x 5
+\i (00:00:48) roam y 5
+\i (00:00:48) roam x 3
+\i (00:00:48) roam y 3
+\i (00:00:48) roam y 1
+\i (00:00:48) roam y 1
+\i (00:00:48) roam y 1
+\i (00:00:48) roam y 2
+\i (00:00:48) roam y 1
+\i (00:00:48) roam x -3
+\i (00:00:48) roam y 5
+\i (00:00:48) roam x -1
+\i (00:00:48) roam x -1
+\i (00:00:48) roam end
+\i (00:16:09) pick grid 19231.30 13059.12
+\t (00:16:09) last pick:  19231.30 13059.12
+\i (00:20:51) xname_flush 
+\i (00:20:51) xname_flush '!' 
+\i (00:20:54) xname_flush 
+\i (00:20:54) xname_flush '!' 
+\i (00:20:56) xname_flush 
+\i (00:20:56) xname_flush '!' 
+\i (00:20:57) xname_flush 
+\i (00:20:57) xname_flush '!' 
+\i (00:21:09) xname_flush '!' 
+\e (00:21:09) Command not found: xdehilite
+\i (00:21:09) xname_flush 
+\e (00:21:09) Command not found: done
+\i (00:21:16) QtSignal MainCanvas ImpGrpSel closed
+\i (00:21:16) QtSignal MainCanvas ImpPrefDialog closed
+\i (00:21:16) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:21:16) QtSignal MainCanvas CplPrefDialog closed
+\i (00:21:16) QtSignal MainCanvas CplGrpSel closed
+\i (00:21:16) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\t (00:21:22)     Journal end - Wed Apr  2 21:52:19 2025

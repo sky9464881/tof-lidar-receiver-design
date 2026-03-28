@@ -1,0 +1,10 @@
+.ALIASES
+X_U1            U1(+=N04153 -=N04047 Vo=OUT VS+=VCC VS-=VEE ) CN @TWRAWR.SCHEMATIC1(sch_1):INS4091@OPA855_A.OPA855.Normal(chips)
+R_R1            R1(1=N04047 2=OUT ) CN @TWRAWR.SCHEMATIC1(sch_1):INS4013@ANALOG.R.Normal(chips)
+R_R3            R3(1=0 2=OUT ) CN @TWRAWR.SCHEMATIC1(sch_1):INS4161@ANALOG.R.Normal(chips)
+R_R2            R2(1=0 2=N04047 ) CN @TWRAWR.SCHEMATIC1(sch_1):INS3991@ANALOG.R.Normal(chips)
+V_V3            V3(+=N04153 -=0 ) CN @TWRAWR.SCHEMATIC1(sch_1):INS4183@SOURCE.VAC.Normal(chips)
+_    _(OUT=OUT)
+_    _(Vcc=VCC)
+_    _(Vee=VEE)
+.ENDALIASES

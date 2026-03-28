@@ -1,0 +1,404 @@
+* PSpice Model Editor - Version 9.2.1
+
+*$
+*a Device model created by analog_uprev for ba582 on Thu Feb  8 18:09:20 IST 2001
+.subckt awbba582   100 200
+LAI 1 10 0.76nH
+CAC 10 2 120fF
+LAO 10 100 0.65nH
+LCO 2 200 0.60nH
+D1 1 2 M1BA582
+.MODEL M1BA582 D
++   TT=125N VJ=.12 BV=70 IBV=.1N CJO=1.17P
++   IS=185F M=.096 RS=.30 N=1.305 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for ba592 on Thu Feb  8 18:09:20 IST 2001
+.subckt awbba592   100 200
+LAI 1 10 0.55nH
+CAC 10 2 110fF
+LAO 10 100 0.67nH
+LCO 2 200 0.55nH
+D1 1 2 M1BA592
+.MODEL M1BA592 D
++   TT=125N VJ=.12 BV=70 IBV=.1N CJO=1.17P
++   IS=185F M=.096 RS=.30 N=1.305 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for ba892 on Thu Feb  8 18:09:20 IST 2001
+.subckt awbba892   100 200
+LAI 1 10 0.45nH
+CAC 10 2 90fF
+LAO 10 100 0.15nH
+LCO 2 200 0.1nH
+D1 1 2 M1BA892
+.MODEL M1BA892 D
++   TT=125N VJ=.12 BV=70 IBV=.1N CJO=1.17P
++   IS=185F M=.096 RS=.30 N=1.305 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bar6302w on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbar6302w   100 200
+LAI 1 10 0.45nH
+CAC 10 2 90fF
+LAO 10 100 0.15nH
+LCO 2 200 0.1nH
+D1 1 2 M1BAR63-02W
+.MODEL M1BAR63-02W D
++   Vj=.25 Ibv=5u Xti=3 Rs=.45 Tt=75n
++   Bv=50 Fc=.5 Is=60E-18 Eg=1.11 Cjo=.19p
++   M=.15 N=1.02 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bar6303w on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbar6303w   100 200
+LAI 1 10 0.55nH
+CAC 10 2 110fF
+LAO 10 100 0.67nH
+LCO 2 200 0.55nH
+D1 1 2 M1BAR63-03W
+.MODEL M1BAR63-03W D
++   Vj=.25 Ibv=5u Xti=3 Rs=.45 Tt=75n
++   Bv=50 Fc=.5 Is=60E-18 Eg=1.11 Cjo=.19p
++   M=.15 N=1.02 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bar63 on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbar63   100 200
+LAI 1 10 0.67nH
+CAC 10 2 140fF
+LAO 10 100 0.63nH
+LCO 2 200 0.51nH
+D1 1 2 M1BAR63
+.MODEL M1BAR63 D
++   Vj=.25 Ibv=5u Xti=3 Rs=.45 Tt=75n
++   Bv=50 Fc=.5 Is=60E-18 Eg=1.11 Cjo=.19p
++   M=.15 N=1.02 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bas140w on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbas140w   100 200
+LAI 1 10 0.55nH
+CAC 10 2 110fF
+LAO 10 100 0.67nH
+LCO 2 200 0.55nH
+D1 1 2 M1BAS140W
+.MODEL M1BAS140W D
++   VJ=.4 IBV=100n XTI=1.8 RS=7.8 TT=25P
++   BV=40 FC=.5 IS=8N EG=.68 CJO=3P
++   M=.42 N=1.04 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bas170w on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbas170w   100 200
+LAI 1 10 0.55nH
+CAC 10 2 110fF
+LAO 10 100 0.67nH
+LCO 2 200 0.55nH
+D1 1 2 M1BAS170W
+.MODEL M1BAS170W D
++   VJ=.36 IBV=100n XTI=1.8 RS=29 TT=25P
++   BV=70 FC=.5 IS=3N EG=.68 CJO=1.55P
++   M=.29 N=1.06 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bas40 on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbas40   100 200
+LAI 1 10 0.67nH
+CAC 10 2 140fF
+LAO 10 100 0.63nH
+LCO 2 200 0.51nH
+D1 1 2 M1BAS40
+.MODEL M1BAS40 D
++   VJ=.4 IBV=100n XTI=1.8 RS=7.8 TT=25P
++   BV=40 FC=.5 IS=8N EG=.68 CJO=3P
++   M=.42 N=1.04 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bas70 on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbas70   100 200
+LAI 1 10 0.67nH
+CAC 10 2 140fF
+LAO 10 100 0.63nH
+LCO 2 200 0.51nH
+D1 1 2 M1BAS70
+.MODEL M1BAS70 D
++   VJ=.36 IBV=100n XTI=1.8 RS=29 TT=25P
++   BV=70 FC=.5 IS=3N EG=.68 CJO=1.55P
++   M=.29 N=1.06 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bat1503w on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbat1503w   100 200
+LAI 1 10 0.55nH
+CAC 10 2 110fF
+LAO 10 100 0.67nH
+LCO 2 200 0.55nH
+D1 1 2 M1BAT15-03W
+.MODEL M1BAT15-03W D
++   Vj=.13 Ibv=10u Xti=1.8 Rs=5 Tt=25p
++   Bv=4 Is=95n Fc=.5 Eg=.68 Cjo=170f
++   M=.09 N=1.05 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bat15098 on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbat15098   100 200
+LAI 1 10 0.76nH
+CAC 10 2 120fF
+LAO 10 100 0.65nH
+LCO 2 200 0.60nH
+D1 1 2 M1BAT15-098
+.MODEL M1BAT15-098 D
++   Vj=.13 Ibv=10u Xti=1.8 Rs=5 Tt=25p
++   Bv=4 Is=95n Fc=.5 Eg=.68 Cjo=170f
++   M=.09 N=1.05 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bat17w on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbat17w   100 200
+LAI 1 10 0.50nH
+CAC 10 2 150fF
+LAO 10 100 0.45nH
+LCO 2 200 0.41nH
+D1 1 2 M1BAT17W
+.MODEL M1BAT17W D
++   VJ=.115 IBV=5U XTI=2 RS=3.3 TT=25p
++   BV=12 FC=.5 IS=4n EG=.65 CJO=415f
++   M=.156 N=1.03 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bat18 on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbat18   100 200
+LAI 1 10 0.67nH
+CAC 10 2 140fF
+LAO 10 100 0.63nH
+LCO 2 200 0.51nH
+D1 1 2 M1BAT18
+.MODEL M1BAT18 D
++   TT=125N VJ=.12 BV=70 IBV=.1N CJO=1.17P
++   IS=185F M=.096 RS=.30 N=1.305 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bb515 on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbb515   100 200
+LAI 1 10 0.76nH
+CAC 10 2 120fF
+LAO 10 100 0.65nH
+LCO 2 200 0.60nH
+D1 1 2 M1BB515
+.MODEL M1BB515 D
++   VJ=2.90 IBV=100E-9 (IS=2.276E-15 XTI=3 RS=.2099
++   TT=120E-9 BV=32 FC=.5 EG=1.11 CJO=24.4E-12
++   M=1.064 N=1.063 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bb535 on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbb535   100 200
+LAI 1 10 0.55nH
+CAC 10 2 110fF
+LAO 10 100 0.67nH
+LCO 2 200 0.55nH
+D1 1 2 M1BB535
+.MODEL M1BB535 D
++   VJ=2.90 IBV=100E-9 (IS=2.276E-15 XTI=3 RS=.2099
++   TT=120E-9 BV=32 FC=.5 EG=1.11 CJO=24.4E-12
++   M=1.064 N=1.063 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bb555 on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbb555   100 200
+LAI 1 10 0.45nH
+CAC 10 2 90fF
+LAO 10 100 0.15nH
+LCO 2 200 0.1nH
+D1 1 2 M1BB555
+.MODEL M1BB555 D
++   VJ=2.90 IBV=100E-9 (IS=2.276E-15 XTI=3 RS=.2099
++   TT=120E-9 BV=32 FC=.5 EG=1.11 CJO=24.4E-12
++   M=1.064 N=1.063 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bb619c on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbb619c   100 200
+LAI 1 10 0.76nH
+CAC 10 2 120fF
+LAO 10 100 0.65nH
+LCO 2 200 0.60nH
+D1 1 2 M1BB619C
+.MODEL M1BB619C D
++   VJ=2.2 IBV=100E-9 XTI=3 RS=.09364 TT=160E-9
++   BV=35 FC=.5 IS=2.148E-15 EG=1.11 CJO=60.35E-12
++   M=1.23 N=1.035 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bb639c on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbb639c   100 200
+LAI 1 10 0.55nH
+CAC 10 2 110fF
+LAO 10 100 0.67nH
+LCO 2 200 0.55nH
+D1 1 2 M1BB639C
+.MODEL M1BB639C D
++   VJ=2.2 IBV=100E-9 XTI=3 RS=.09364 TT=160E-9
++   BV=35 FC=.5 IS=2.148E-15 EG=1.11 CJO=60.35E-12
++   M=1.23 N=1.035 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bb659c on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbb659c   100 200
+LAI 1 10 0.45nH
+CAC 10 2 90fF
+LAO 10 100 0.15nH
+LCO 2 200 0.1nH
+D1 1 2 M1BB659C
+.MODEL M1BB659C D
++   VJ=2.2 IBV=100E-9 XTI=3 RS=.09364 TT=160E-9
++   BV=35 FC=.5 IS=2.148E-15 EG=1.11 CJO=60.35E-12
++   M=1.23 N=1.035 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bb835 on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbb835   100 200
+LAI 1 10 0.55nH
+CAC 10 2 110fF
+LAO 10 100 0.67nH
+LCO 2 200 0.55nH
+D1 1 2 M1BB835
+.MODEL M1BB835 D
++   Vj=2.85 IBV=5E-6 XTI=1 RS=0.07705 TT=80N
++   BV=30 FC=0.5 IS=115.11E-15 EG=1.11 M=1.407
++   N=1.22 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bby5102w on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbby5102w   100 200
+LAI 1 10 0.45nH
+CAC 10 2 90fF
+LAO 10 100 0.15nH
+LCO 2 200 0.1nH
+D1 1 2 M1BBY51-02W
+.MODEL M1BBY51-02W D
++   VJ=2.34 IBV=1E-6 XTI=3 RS=0.06 TT=5E-9
++   BV=10 FC=.5 IS=3.3E-15 EG=1.11 CJO=7.32E-12
++   M=0.914 N=1.115 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bby5103w on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbby5103w   100 200
+LAI 1 10 0.55nH
+CAC 10 2 110fF
+LAO 10 100 0.67nH
+LCO 2 200 0.55nH
+D1 1 2 M1BBY51-03W
+.MODEL M1BBY51-03W D
++   VJ=2.34 IBV=1E-6 XTI=3 RS=0.06 TT=5E-9
++   BV=10 FC=.5 IS=3.3E-15 EG=1.11 CJO=7.32E-12
++   M=0.914 N=1.115 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bby5202w on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbby5202w   100 200
+LAI 1 10 0.45nH
+CAC 10 2 90fF
+LAO 10 100 0.15nH
+LCO 2 200 0.1nH
+D1 1 2 M1BBY52-02W
+.MODEL M1BBY52-02W D
++   VJ=0.8 IBV=1E-6 XTI=3 RS=0.4893 TT=120E-9
++   BV=10 FC=.5 IS=219E-18 EG=1.11 CJO=2.6E-12
++   M=0.452 N=1.021 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bby5203w on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbby5203w   100 200
+LAI 1 10 0.55nH
+CAC 10 2 110fF
+LAO 10 100 0.67nH
+LCO 2 200 0.55nH
+D1 1 2 M1BBY52-03W
+.MODEL M1BBY52-03W D
++   VJ=0.8 IBV=1E-6 XTI=3 RS=0.4893 TT=120E-9
++   BV=10 FC=.5 IS=219E-18 EG=1.11 CJO=2.6E-12
++   M=0.452 N=1.021 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bby5302w on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbby5302w   100 200
+LAI 1 10 0.45nH
+CAC 10 2 90fF
+LAO 10 100 0.15nH
+LCO 2 200 0.1nH
+D1 1 2 M1BBY53-02W
+.MODEL M1BBY53-02W D
++   VJ=0.8 IBV=1E-6 XTI=3 RS=0.4883 TT=120E-9
++   BV=6 FC=.5 IS=200E-18 EG=1.11 CJO=9.2E-12
++   M=0.74 N=1.021 
+.ends
+*
+*
+*$
+*a Device model created by analog_uprev for bby5303w on Thu Feb  8 18:09:20 IST 2001
+.subckt awbbby5303w   100 200
+LAI 1 10 0.55nH
+CAC 10 2 110fF
+LAO 10 100 0.67nH
+LCO 2 200 0.55nH
+D1 1 2 M1BBY53-03W
+.MODEL M1BBY53-03W D
++   VJ=0.8 IBV=1E-6 XTI=3 RS=0.4883 TT=120E-9
++   BV=6 FC=.5 IS=200E-18 EG=1.11 CJO=9.2E-12
++   M=0.74 N=1.021 
+.ends
+*
+*
+*$

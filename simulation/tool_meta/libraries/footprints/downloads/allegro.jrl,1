@@ -1,0 +1,214 @@
+\t (00:00:03) allegro 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Fri Apr  4 19:12:46 2025
+\t (00:00:03)         Host=BOOK-QTRCVV9COM User=user Pid=4212 CPUs=12
+\t (00:00:03) CmdLine= c:\cadence\orcadx_24.1\tools\bin\allegro.exe C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\workspace\libraries\footprints\downloads\C3216_Commercial.dra
+\t (00:00:03) 
+\t (00:00:03) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "C3216_Commercial"
+\d (00:00:06) Design opened: C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/libraries/footprints/downloads/C3216_Commercial.dra
+\i (00:00:06) trapsize 14808
+\i (00:00:06) trapsize 15301
+\i (00:00:06) trapsize 15828
+\i (00:00:06) trapsize 15301
+\i (00:00:06) trapsize 12583
+\i (00:00:06) trapsize 14480
+\i (00:00:06) generaledit 
+\t (00:00:06) [19:12:50.212000] Periodic Lic check successful
+[19:12:50.212000] Feature usage summary:
+
+\i (00:00:07) drag_start grid 26.8467 23.0818
+\i (00:00:07) drag_stop -27.0197 -24.1237
+\i (00:00:08) pick grid -0.3761 0.4927
+\t (00:00:08) last pick:  0.0000 0.0000
+\i (00:00:12) prepopup -23.2549 19.0274
+\i (00:00:14) drag_start grid 39.2997 5.1264
+\i (00:00:14) drag_stop -8.7746 -35.1286
+\i (00:00:14) pick grid -7.0370 -18.3316
+\t (00:00:14) last pick:  -7.6200 -17.7800
+\i (00:00:15) zoom in 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom in -5.2994 -16.8836
+\i (00:00:15) trapsize 7240
+\i (00:00:15) zoom in 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom in -5.2994 -16.8836
+\i (00:00:15) trapsize 3620
+\i (00:00:15) zoom in 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom in -5.2993 -16.8836
+\i (00:00:15) trapsize 1810
+\i (00:00:15) zoom in 1 
+\i (00:00:15) setwindow pcb
+\i (00:00:15) zoom in -5.2993 -16.8835
+\i (00:00:15) trapsize 905
+\i (00:00:16) zoom in 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom in -5.2993 -16.8835
+\i (00:00:16) trapsize 453
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out -2.7110 -15.2997
+\i (00:00:16) trapsize 905
+\i (00:00:16) zoom out 1 
+\i (00:00:16) setwindow pcb
+\i (00:00:16) zoom out -2.7110 -15.2998
+\i (00:00:16) trapsize 1810
+\i (00:00:17) roam start
+\i (00:00:17) roam y 16
+\i (00:00:17) roam x 48
+\i (00:00:17) roam y 160
+\i (00:00:18) roam x 48
+\i (00:00:18) roam y 128
+\i (00:00:18) roam x 32
+\i (00:00:18) roam y 48
+\i (00:00:18) roam x 64
+\i (00:00:18) roam y 144
+\i (00:00:18) roam y 48
+\i (00:00:18) roam y 16
+\i (00:00:18) roam x 16
+\i (00:00:18) roam end
+\i (00:00:18) roam start
+\i (00:00:18) roam y 16
+\i (00:00:18) roam x 64
+\i (00:00:18) roam y 144
+\i (00:00:18) roam x 64
+\i (00:00:18) roam y 96
+\i (00:00:18) roam x 48
+\i (00:00:18) roam y 48
+\i (00:00:18) roam x 80
+\i (00:00:18) roam y 128
+\i (00:00:19) roam x 32
+\i (00:00:19) roam y 80
+\i (00:00:19) roam x 32
+\i (00:00:19) roam y 64
+\i (00:00:19) roam x 64
+\i (00:00:19) roam y 160
+\i (00:00:19) roam x 32
+\i (00:00:19) roam y 80
+\i (00:00:19) roam x 80
+\i (00:00:19) roam y 80
+\i (00:00:19) roam y 16
+\i (00:00:19) roam y -16
+\i (00:00:19) roam y -80
+\i (00:00:19) roam end
+\i (00:00:19) zoom in 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom in 22.3214 -43.1291
+\i (00:00:19) trapsize 905
+\i (00:00:19) zoom in 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom in 22.2852 -43.2196
+\i (00:00:19) trapsize 453
+\i (00:00:19) zoom in 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom in 22.2852 -43.2195
+\i (00:00:19) trapsize 226
+\i (00:00:19) zoom in 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom in 22.2851 -43.2195
+\i (00:00:19) trapsize 113
+\i (00:00:19) zoom out 1 
+\i (00:00:19) setwindow pcb
+\i (00:00:19) zoom out 22.2852 -43.2195
+\i (00:00:19) trapsize 226
+\i (00:00:19) zoom out 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom out 22.2850 -43.2195
+\i (00:00:20) trapsize 453
+\i (00:00:20) zoom out 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom out 22.2850 -43.2194
+\i (00:00:20) trapsize 905
+\i (00:00:20) zoom out 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom out 22.2850 -43.2194
+\i (00:00:20) trapsize 1810
+\i (00:00:20) zoom out 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom out 22.2850 -43.2193
+\i (00:00:20) trapsize 3620
+\i (00:00:20) zoom out 1 
+\i (00:00:20) setwindow pcb
+\i (00:00:20) zoom out 22.2850 -22.8919
+\i (00:00:20) trapsize 7240
+\i (00:00:21) roam start
+\i (00:00:21) roam x 16
+\i (00:00:21) roam x 80
+\i (00:00:21) roam x 16
+\i (00:00:21) roam y -16
+\i (00:00:21) roam x 32
+\i (00:00:21) roam x 112
+\i (00:00:21) roam x 32
+\i (00:00:21) roam end
+\i (00:00:22) roam start
+\i (00:00:22) roam x -16
+\i (00:00:22) roam x -160
+\i (00:00:22) roam y 16
+\i (00:00:22) roam x -160
+\i (00:00:22) roam x -160
+\i (00:00:22) roam x -32
+\i (00:00:22) roam y -16
+\i (00:00:22) roam x 16
+\i (00:00:22) roam x 32
+\i (00:00:22) roam x 144
+\i (00:00:22) roam x 144
+\i (00:00:22) roam x 16
+\i (00:00:22) roam x 16
+\i (00:00:22) roam x 32
+\i (00:00:23) roam y 16
+\i (00:00:23) roam x -64
+\i (00:00:23) roam x -96
+\i (00:00:23) roam x -32
+\i (00:00:23) roam x -48
+\i (00:00:23) roam x 16
+\i (00:00:23) roam x 16
+\i (00:00:24) roam x 16
+\i (00:00:24) roam x 16
+\i (00:00:24) roam x 16
+\i (00:00:24) roam x -16
+\i (00:00:24) roam x -16
+\i (00:00:24) roam x -64
+\i (00:00:24) roam x -64
+\i (00:00:24) roam x -48
+\i (00:00:24) roam x -32
+\i (00:00:25) roam y -16
+\i (00:00:25) roam y -16
+\i (00:00:25) roam y -16
+\i (00:00:25) roam y -16
+\i (00:00:25) roam y 16
+\i (00:00:25) roam end
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in -1.2437 -5.8774
+\i (00:00:26) trapsize 3620
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in -0.7368 -4.1398
+\i (00:00:26) trapsize 1810
+\i (00:00:26) zoom in 1 
+\i (00:00:26) setwindow pcb
+\i (00:00:26) zoom in -0.7730 -3.9588
+\i (00:00:26) trapsize 905
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) zoom in -0.4291 -3.0357
+\i (00:00:27) trapsize 453
+\i (00:00:28) pick grid -0.1847 -0.0581
+\t (00:00:28) last pick:  0.0000 0.0000
+\i (00:00:30) prepopup -0.4652 -0.9993
+\i (00:00:34) pop dyn_option_select 'Quick Utilities@:@Design Parameters...' 
+\i (00:00:34) prmed 
+\i (00:00:40) setwindow form.prmedit
+\i (00:00:40) FORM prmedit cancel  
+\i (00:00:40) setwindow pcb
+\i (00:00:40) generaledit 
+\i (00:00:40) prepopup 0.1773 1.3809
+\i (00:00:50) pick grid 4.7206 -0.3115
+\t (00:00:50) last pick:  5.0800 0.0000
+\i (00:00:53) exit 
+\t (00:00:54) Lic Summary:
+[19:13:37.427000] Cdslmd servers:C:\Users\user\AppData\Roaming\Cadence\VBL\SPB\license\license.txt
+[19:13:37.430000] Feature usage summary:
+
+\t (00:00:54)     Journal end - Fri Apr  4 19:13:37 2025

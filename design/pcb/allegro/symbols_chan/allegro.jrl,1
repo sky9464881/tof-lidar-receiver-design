@@ -1,0 +1,17 @@
+\t (00:00:00) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Mon Dec 02 03:24:22 2024
+\t (00:00:00)         Host=DESKTOP-H90EQRS User=MSDL3 Pid=86312 CPUs=24
+\t (00:00:00) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:03) Starting new design...
+\i (00:00:03) trapsize 676
+\i (00:00:03) trapsize 691
+\i (00:00:03) trapsize 1136
+\i (00:00:03) trapsize 1053
+\i (00:00:03) trapsize 11053
+\i (00:00:03) placementedit 
+\i (00:00:07) exit 
+\e (00:00:07) Do you want to save the changes you made to unnamed.brd?
+\i (00:00:08) fillin no 
+\t (00:00:08)     Journal end - Mon Dec 02 03:24:30 2024

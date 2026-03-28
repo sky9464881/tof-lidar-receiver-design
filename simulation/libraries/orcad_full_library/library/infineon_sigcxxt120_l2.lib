@@ -1,0 +1,227 @@
+* Fixed PCR-800550: modified this file for Reserved Keywords, ramant
+*****************************************************************
+* Level2 Version of 1200V IGBT3 chips (Trenchstopp-FieldStopp) 	*
+* Models july 2002						*
+*****************************************************************
+* INFINEON TECHNOLOGIES AG      	SIGCXXT120_L2.LIB	*
+*								*
+*  (V2.6)     	11/03  						*
+*                                                               *
+* Models provided by INFINEON are not warranted by INFINEON as  *
+* fully representing all of the specifications and operating    *
+* characteristics of the semiconductor product to which the     *
+* model relates. The model describe the characteristics of a    * 
+* typical device.                                               * 
+* In all cases, the current data sheet information for a given  *
+* device is the final design guideline and the only actual      *
+* performance specification.                                    *
+* Altough models can be a useful tool in evaluating device      *
+* performance, they cannot model exact device performance under *
+* all conditions, nor are they intended to replace bread-       *
+* boarding for final verification. INFINEON therefore does not  *
+* assume any liability arising from their use.                  *
+* INFINEON reserves the right to change models without prior    * 
+* notice.                                                       *
+*                                                               *
+* This library contains Level 2 models for the following	* 
+* INFINEON Technologies 1200 V IGBT3				*
+* chip-models without package related parasitic inductances	*
+*								*
+* 								*
+* type				BV/V	Ice/A			*	
+* SIGC12T120			1200	8			*
+* SIGC20T120			1200	15			*	
+* SIGC32T120R3			1200	25			*	
+* SIGC41T120R3			1200	35			*	
+* SIGC57T120R3			1200	50			*	
+* SIGC84T120R3			1200	75			*	
+* SIGC109T120R3			1200	100			*	
+* SIGC108T120R3			1200	100			*	
+* SIGC158T120R3			1200	150			*		
+* 								*
+* the model is based on the publication:			*
+* 								*
+* R.Kraus, P.Türkes, J.Sigg					*
+* Physics-based Models Of Power Semiconductor Devices 		*
+* For The Circuit Simulator Spice				*
+* 								*
+* Power Electronics Specialists Conference, 1998.		* 
+* PESC 98 Record. 29th Annual IEEE				*
+*								*
+* SUPPORTemail:	simulate@infineon.com				*
+*****************************************************************
+*$
+.SUBCKT SIGC12T120_L2 ano gate kat PARAMS:	TJ = 27
+* 
+XL76xxA ano	gate	kat	L76xxA_L2	PARAMS:  TJ = {TJ} Atotal = 0.124	A = 0.069 Rg = 1m
+.ENDS
+*$
+.SUBCKT SIGC20T120_L2 ano gate kat PARAMS:	TJ = 27
+* 
+XL76xxA ano	gate	kat	L76xxA_L2	PARAMS:  TJ = {TJ} Atotal = 0.197	A = 0.128 Rg = 1m
+.ENDS
+*$
+.SUBCKT SIGC32T120R3_L2 ano gate kat PARAMS:	TJ = 27
+* 
+XL76xxA ano	gate	kat	L76xxA_L2	PARAMS:  TJ = {TJ} Atotal = 0.316	A = 0.215 Rg = 8
+.ENDS
+*$
+.SUBCKT SIGC41T120R3_L2 ano gate kat PARAMS:	TJ = 27
+* 
+XL76xxA ano	gate	kat	L76xxA_L2	PARAMS:  TJ = {TJ} Atotal = 0.414	A = 0.301 Rg = 6
+.ENDS
+*$
+.SUBCKT SIGC57T120R3_L2 ano gate kat PARAMS:	TJ = 27
+* 
+XL76xxA ano	gate	kat	L76xxA_L2	PARAMS:  TJ = {TJ} Atotal = 0.572	A = 0.428 Rg = 4
+.ENDS
+*$
+.SUBCKT SIGC84T120R3_L2 ano gate kat PARAMS:	TJ = 27
+* 
+XL76xxA ano	gate	kat	L76xxA_L2	PARAMS:  TJ = {TJ} Atotal = 0.835	A = 0.636 Rg = 10
+.ENDS
+*$
+.SUBCKT SIGC109T120R3_L2 ano gate kat PARAMS:	TJ = 27
+* 
+XL76xxA ano	gate	kat	L76xxA_L2	PARAMS:  TJ = {TJ} Atotal = 1.093	A = 0.858 Rg = 7.5
+.ENDS
+*$
+.SUBCKT SIGC108T120R3_L2 ano gate kat PARAMS:	TJ = 27
+* 
+XL76xxA ano	gate	kat	L76xxA_L2	PARAMS:  TJ = {TJ} Atotal = 1.08	A = 0.854 Rg = 7.5
+.ENDS
+*$
+.SUBCKT SIGC158T120R3_L2 ano gate kat PARAMS:	TJ = 27
+* 
+XL76xxA ano	gate	kat	L76xxA_L2	PARAMS:  TJ = {TJ} Atotal = 1.578	A = 1.281 Rg = 5
+.ENDS
+*$
+.SUBCKT L76xxA_L2 ano gate kat PARAMS: TJ = 27 Atotal = 1.5 A = 1.2 Rg = 1
+.PARAM 
++q = 1.6E-19	eps0 = 8.85E-14	epsi = 11.8	eox= 2.8  
++t0= 273	k=1.381e-23	
++un = 1350      up = 450	u_surf= 600	ni0=1.45e10
++vlimit = 20e6 mod_pi = 3.1416 mv= .5
+.PARAM
++tox = 100e-7	ttox = 1.5e-4	tfox= 1.2e-4
++Nak = 1.75e17 	Nbuf=1e15	wbuf= 20e-4	
++Nb = 3.4E13   taub = 0.6u	ETAUB = 2       wb0 = 114E-4 EMU = -2
++BV_FW=1400	BV_RW=28  
+.PARAM wb = 134e-4  lchann3=2.5e-6 Lspec = {mv*wbuf/tan(mod_pi*(0.5 - Nb/Nbuf))}
+.PARAM vsw = -.5 Rs = 0.896m
+.PARAM nzell = 		{A*206611}
+.PARAM Ads =		{nzell*5.329e-7}
+.PARAM wchann=		{nzell*2.92e-5}
+.PARAM Cox_d = 		{nzell*1.9537e-14}
+.PARAM Cox1 = 		{nzell*1.071e-13}
+.PARAM Cox2 =		{nzell*7.496e-15}
+.PARAM Cox_fp =		{(Cox1 + Cox2)}
+.PARAM Cgs = 		{nzell*1.921e-14}
+.PARAM Cjs =		{A * 2.678n}
+.PARAM Cje =		{Atotal * 2.678n}	
+.PARAM Agd_d  =		{Cox_d*4.036e7}
+.PARAM Agd_fp  =	{A - nzell*1.21e-6}
+.PARAM  D  =		17.55
+.PARAM  L  =		3.245m  
+.PARAM Ise0 =		{A*26.86p}
+.PARAM Isbs2=		{A*6.267p} 
+.PARAM Isbs2_g=		{A*4e-15} 
+.PARAM Isbs1=		{A*1.675e-5} 
+.PARAM Isbs1_g=		{A*2.136e-19} 
+.PARAM  Q0 =		{A*62.09n}
+MFET    dx	g	s	s	MOS W={wchann},L={lchann3},IC=OFF
+GMFET_T	dn	kat	VALUE = {LIMIT(I(VIMOS)*((TJ+t0)/300)**EMU,-1e6,1e6) }
+GDE1	ano	e1	VALUE = 
++ {LIMIT(TANH(1e3*I(VDE1))*(((Isx1(TJ,V(xj1,0))**((t0 + TJ)/(t0 + 27)))/Isx1(27,V(xj1,0)))**((t0 + 27)/(t0 + TJ)) 
++ * ABS(I(VDE1))**((t0 + 27)/(t0 + TJ)) - ABS(I(VDE1))),-1e6,1e6)}
+GDE2	ano	e1	VALUE = 
++ {LIMIT(TANH(1e3*I(VDE2))*(((Isx2(TJ)**((t0 + TJ)/(t0 + 27)))/Isx2(27))**((t0 + 27)/(t0 + TJ)) 
++ * ABS(I(VDE2))**((t0 + 27)/(t0 + TJ)) - ABS(I(VDE2))),-1e6,1e6)}
+GJCAP	d	kat	VALUE = {I(VIJCT)}
+VDE1	ano	anx1	0
+VDE2	ano	anx2	0
+DE1	anx1	e1	D11
+DE2	anx2	e1	D12
+DS      kat	d	D2  
+.MODEL  MOS     NMOS    (LEVEL=3,nsub={Nak},tox={tox/100},vmax={vlimit},uo={u_surf},cgso=1p,cgdo=1p,THETA = 0.025)
+.MODEL	D11	D	(IS = {Isbs1}, N = 2)
+.MODEL	D12	D	(IS = {Isbs2}, N = 1.2)
+.MODEL  D2      D       (IS={ISE0},BV={BV_FW})
+RG1	g_t	g	{(Rg + .25)/(((TJ + t0)/300)**EMU)}
+RS	s	kat	{Rs/A}
+ETHERM  gate	g_t	VALUE = {DVt(TJ)}
+EVGCOX	vgcox	0	VALUE { V(ox_d,kat)-{vsw} }
+GICOX_fp  g	ox_fp	VALUE = {LIMIT(((Cox_fp)/100 + 99*Cox_fp*(1+ tanh(100*V(vgcox)) )/200)* 1e9*I(VDUGD_fp),-1000,1000)}
+GICOX_d  g	ox_d	VALUE = {LIMIT(((Cox_d)/100 + 99*Cox_d*(1+ tanh(100*V(vgcox,0)) )/200)* 1e9*I(VDUGD_d),-1000,1000)}
+GICGS	g	s	VALUE = {LIMIT((Cgs + 99*(Cox_fp)*(1 + tanh(-100*V(vgcox)) )/200)* 1e9*I(VDUGS),-1000,1000)}
+ECOX_fp  cox_fp	0	VALUE = {(Cox_fp)/100 + 99*Cox_fp*(1+ tanh(100*V(vgcox,0)) )/200}
+ECOX_d  cox_d	0	VALUE = {(Cox_d)/100 + 99*Cox_d*(1+ tanh(100*V(vgcox,0)) )/200}
+ECGS	cgs	0	VALUE = {Cgs + 99*(Cox_fp+Cox_d)*(1 + tanh(-100*V(vgcox,0)) )/200}
+VIA	e1	e	0
+EDEP_fp	d	ox_fp	VALUE = {MAX(Vdep_fp(V(d,g),V(xj1,0)),0)}
+EDEP_d	d	ox_d	VALUE = {MAX(Vdep_d(V(d,g),V(xj1,0)),0)}
+EGIA	e	d	VALUE = {I(VIA)*Rb(V(b,0),TJ)}
+VINC	d	dn	0
+EAUX1	dxv 	kat	VALUE = {V(d,kat)}
+VIMOS	dxv	dx	0
+GIC	ds	s	VALUE = {LIMIT(IPC(I(VINC),V(b,0),V(xj1,0),I(VDXJ),TJ),-1e6,1e6)}
+VIPC	d	ds	0
+CQB	b 0	1u
+RHELP	b 0	1meg
+GRQB	b 0	VALUE   {LIMIT(1u*V(b,0)*(1/(TAU_X(TJ,V(xj1,0)) )),-1e6,1e6) }
+GINC	0 b	VALUE	{LIMIT(I(VINC),-1e6,1e6)}
+GINE	b 0	VALUE	{LIMIT(INE(I(VINC),V(b,0),V(xj1,0),I(VDXJ),TJ),-1e6,1e6)}
+EXJ	xj1 0	VALUE	{LIMIT(xj(V(d,kat),I(VIPC),MAX(V(xj1,0),.1e-4)), .1e-4,wb - .5e-4)}
+CXJ	xj  0	1n
+VDXJ	xj1 xj	0
+EDUGS	du1	0	VALUE {V(g,s)}
+VDUGS	du1	du1c	0	
+CDUGS	du1c	0	1n
+EDUGD_d	du2	0	VALUE {V(g,ox_d)}
+VDUGD_d	du2	du2c	0	
+CDUGD_d	du2c	0	1n
+EDUGD_fp	du3	0	VALUE {V(g,ox_fp)}
+VDUGD_fp	du3	du3c	0	
+CDUGD_fp	du3c	0	1n
+EJUNCT	jct 0	VALUE = {MAX(QTOT(V(xj1,0)),0)}
+VIJCT	jct cp	0
+CJCT	0   cp	1
+.FUNC  N1(X)		{(2*Nb + Nbuf)*mod_pi*X}
+.FUNC  N2(X)		{Nbuf*Lspec*log(1+((X-wb0)/Lspec)**2)}
+.FUNC  N3(X)		{2*Nbuf*arctan((-X+wb0)/Lspec)*(wb0-X)}
+.FUNC  QTOT(X)	{q*A/2/mod_pi*(N1(X)-N2(X)+N3(X)+Nbuf*(Lspec*log((Lspec**2+wb0**2)/Lspec**2)-2*wb0*arctan(wb0/Lspec)))}
+.FUNC  QCOX(X)	{q/2/mod_pi*(N1(X)-N2(X)+N3(X)+Nbuf*(Lspec*log((Lspec**2+wb0**2)/Lspec**2)-2*wb0*arctan(wb0/Lspec)))}
+.FUNC	TAU_X(T,V)	{(Taub*((T+t0)/300)**{ETAUB})/(1+1*Nbuf/Nb*(0.5+1/mod_pi*arctan((V-wb0)/Lspec)))}
+.FUNC   VXX(T)		{psi2(T) + tox*sqrt(2*eps0*epsi*q*Nak*psi2(T))/eps0/eox}
+.FUNC   EG(T)		{1.16 - 7.02e-4*(T+t0)**2/(T+t0 + 1108)}
+.FUNC   ni(T)		{ni0*((T+t0)/300)**1.5*exp(1/(2*8.61e-5)*(-300*EG(T)+(t0+T)*EG(300))/(T+t0)/300)}
+.FUNC	psi2(T)		{2*k/q*(T + t0)*(log(Nak/ni(T)))}
+.FUNC	DVt(T)		{psi2(T) - psi2(27) + tox*(sqrt(2*eps0*epsi*q*Nak*psi2(T)) 
++ - sqrt(2*eps0*epsi*q*Nak*psi2(27)))/eps0/eox}
+.FUNC   VTX(T)		{psi2(T) + tox*sqrt(2*eps0*epsi*q*Nak*psi2(T))/eps0/eox}
+.FUNC	DA(T)		{2*k*un*up/q/(un + up)*(T + t0)*(((T + t0)/300)**EMU)}
+.FUNC	LA(T,V)		{sqrt(DA(T) * TAU_X(T,V)) }
+.FUNC   Isx2(T)		{LIMIT(Isbs2_g*k*(t0+T)*(up + un)*(((T + t0)/300)**EMU)*ni(T)*ni(T),-1e6,1e6)} 
+.FUNC   Isx1(T,V)	{LIMIT(Isbs1_g * sqrt(DA(T)/(TAU_X(T,V)))*ni(T),-1e6,1e6)} 
+.FUNC   Vdep_fp(V,X)	{LIMIT(V - Agd_fp/Cox_fp*QCOX(X),0,1e8)}
+.FUNC   Vdep_d(V,X)	{LIMIT(V - Agd_d/Cox_d*QCOX(X),0,1e8)}
+.FUNC	ATX1(X)		{(MAX(X,.1m)**2 - wb0**2 +Lspec**2)*arctan((-MAX(X,.1m)+wb0)/Lspec)
++ - (Lspec**2 - wb0**2)*arctan(wb0/Lspec)}
+.FUNC	ATX2(X)		{Lspec*MAX(X,.1m) + Lspec*wb0*log((Lspec**2 +(MAX(X,.1m) -wb0)**2)/(Lspec**2 +wb0**2))}
+.FUNC	xj(V,Y2,X) {0.5*(MAX(X,.1m) + (2*eps0*epsi*MAX(V,0)/q/MAX(X,.1m)+Nbuf/mod_pi/MAX(X,.01m)*(ATX1(X) + ATX2(X)) )/
++ (Nb + MAX(Y2,0)/q/A/vlimit + Nbuf/2))}
+.FUNC	Rb(X,T)		{(wb)*(wb)/(un*(Q0)*(((T + t0)/300)**EMU) + (un + up)*MAX(X,1m*Q0)*1e-6*(((T + t0)/300)**EMU))}
+.FUNC	FDX(V,X,T)	{TANH(MAX(wb-V,.1m)*1e9*MAX(X,0)/(24*DA(T)))}
+.FUNC	Td(V,X,T)	{LIMIT((0.1/DA(T))*MAX(wb-V,.1m)*MAX(wb-V,.1m)*(1-FDX(V,X,T)),-1e6,1e6)}
+.FUNC	F1(V,T)		{LIMIT(TAU_X(T,V)*(COSH(MAX(wb-V,.1m)/LA(T,V))-1),-1e6,1e6)}
+.FUNC	F2(V,X,T)	{LIMIT(0.5*(1+2*FDX(V,X,T)/(1+FDX(V,X,T)*FDX(V,X,T))),-1e6,1e6)}
+.FUNC	F3(V,X,T)	{LIMIT(1+Td(V,X,T)/(TAU_X(T,V)),-1e6,1e6)}
+.FUNC	QS0(V,T)	{LIMIT(q*A*LA(T,V)*ni(T)*TANH(0.5*MAX(wb-V,.1m)/LA(T,V)),0,1e6)}
+.FUNC	Qbd(Y,Z,V,X,T)	{LIMIT(MAX(Z,1m*Q0)*1e-6+Td(V,X,T)*Y,0,1e6)}
+.FUNC	Qb0(Y,Z,V,X,T)	{LIMIT(2*Qbd(Y,Z,V,X,T)/(F3(V,X,T)+SQRT(F3(V,X,T)*F3(V,X,T) 
++ + Td(V,X,T)*3*Isx2(T)*Qbd(Y,Z,V,X,T)/(QS0(V,T) * QS0(V,T)))),0,1e6)}
+.FUNC	INE(Y,Z,V,X,T)	{LIMIT(0.75*Isx2(T)*(Qb0(Y,Z,V,X,T)/QS0(V,T))*(Qb0(Y,Z,V,X,T)/QS0(V,T)),0,1e6)}
+.FUNC	IPC(Y,Z,V,X,T)	{LIMIT((1/3)*Y+(4/3)*(Qb0(Y,Z,V,X,T)/F1(V,T)
++ +MAX(Qb0(Y,Z,V,X,T)/TAU_X(T,V)+INE(Y,Z,V,X,T)-Y,0)*F2(V,X,T)),0,1e6)}
+.ENDS
+*$

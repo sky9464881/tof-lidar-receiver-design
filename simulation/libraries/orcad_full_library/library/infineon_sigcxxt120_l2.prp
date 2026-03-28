@@ -1,0 +1,192 @@
+("SIGC57T120R3_L2"
+	(Creator "Device property file created by prp_generator on Wed Mar 02 17:18:04 IST 05")
+	("device_info"
+		(SYMBOL_NAME "nigbt")
+		(MODEL_TYPE "613")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IC "C")
+		(TERM_IG "G")
+		(NODE_VC "C")
+		(NODE_VG "G")
+		(NODE_VE "E")
+		(DERATE_TYPE "IGBT")
+	)
+	("device_max_ops"
+		(ICM "150.0")
+		(VCE "1200")
+		(VGEF "20")
+		(VGER "20")
+		(TJ "150")
+	)
+)
+("SIGC109T120R3_L2"
+	(Creator "Device property file created by prp_generator on Wed Mar 02 17:18:04 IST 05")
+	("device_info"
+		(SYMBOL_NAME "nigbt")
+		(MODEL_TYPE "613")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IC "C")
+		(TERM_IG "G")
+		(NODE_VC "C")
+		(NODE_VG "G")
+		(NODE_VE "E")
+		(DERATE_TYPE "IGBT")
+	)
+	("device_max_ops"
+		(ICM "300.0")
+		(VCE "1200")
+		(VGEF "20")
+		(VGER "20")
+		(TJ "150")
+	)
+)
+("SIGC158T120R3_L2"
+	(Creator "Device property file created by prp_generator on Wed Mar 02 17:18:04 IST 05")
+	("device_info"
+		(SYMBOL_NAME "nigbt")
+		(MODEL_TYPE "613")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IC "C")
+		(TERM_IG "G")
+		(NODE_VC "C")
+		(NODE_VG "G")
+		(NODE_VE "E")
+		(DERATE_TYPE "IGBT")
+	)
+	("device_max_ops"
+		(ICM "450.0")
+		(VCE "1200")
+		(VGEF "20")
+		(VGER "20")
+		(TJ "150")
+	)
+)
+("SIGC84T120R3_L2"
+	(Creator "Device property file created by prp_generator on Wed Mar 02 17:18:04 IST 05")
+	("device_info"
+		(SYMBOL_NAME "nigbt")
+		(MODEL_TYPE "613")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IC "C")
+		(TERM_IG "G")
+		(NODE_VC "C")
+		(NODE_VG "G")
+		(NODE_VE "E")
+		(DERATE_TYPE "IGBT")
+	)
+	("device_max_ops"
+		(ICM "225.0")
+		(VCE "1200")
+		(VGEF "20")
+		(VGER "20")
+		(TJ "150")
+	)
+)
+("SIGC32T120R3_L2"
+	(Creator "Device property file created by prp_generator on Wed Mar 02 17:18:04 IST 05")
+	("device_info"
+		(SYMBOL_NAME "nigbt")
+		(MODEL_TYPE "613")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IC "C")
+		(TERM_IG "G")
+		(NODE_VC "C")
+		(NODE_VG "G")
+		(NODE_VE "E")
+		(DERATE_TYPE "IGBT")
+	)
+	("device_max_ops"
+		(ICM "75.0")
+		(VCE "1200")
+		(VGEF "20")
+		(VGER "20")
+		(TJ "150")
+	)
+)
+("SIGC12T120_L2"
+	(Creator "Device property file created by prp_generator on Wed Mar 02 17:18:04 IST 05")
+	("device_info"
+		(SYMBOL_NAME "nigbt")
+		(MODEL_TYPE "613")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IC "C")
+		(TERM_IG "G")
+		(NODE_VC "C")
+		(NODE_VG "G")
+		(NODE_VE "E")
+		(DERATE_TYPE "IGBT")
+	)
+	("device_max_ops"
+		(ICM "24.0")
+		(VCE "1200")
+		(VGEF "20")
+		(VGER "20")
+		(TJ "150")
+	)
+)
+("SIGC20T120_L2"
+	(Creator "Device property file created by prp_generator on Wed Mar 02 17:18:04 IST 05")
+	("device_info"
+		(SYMBOL_NAME "nigbt")
+		(MODEL_TYPE "613")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IC "C")
+		(TERM_IG "G")
+		(NODE_VC "C")
+		(NODE_VG "G")
+		(NODE_VE "E")
+		(DERATE_TYPE "IGBT")
+	)
+	("device_max_ops"
+		(ICM "45.0")
+		(VCE "1200")
+		(VGEF "20")
+		(VGER "20")
+		(TJ "150")
+	)
+)
+("SIGC41T120R3_L2"
+	(Creator "Device property file created by prp_generator on Wed Mar 02 17:18:04 IST 05")
+	("device_info"
+		(SYMBOL_NAME "nigbt")
+		(MODEL_TYPE "613")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IC "C")
+		(TERM_IG "G")
+		(NODE_VC "C")
+		(NODE_VG "G")
+		(NODE_VE "E")
+		(DERATE_TYPE "IGBT")
+	)
+	("device_max_ops"
+		(ICM "105.0")
+		(VCE "1200")
+		(VGEF "20")
+		(VGER "20")
+		(TJ "150")
+	)
+)

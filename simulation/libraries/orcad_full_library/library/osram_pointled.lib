@@ -1,0 +1,496 @@
+*****************************************************************************************
+* LW_P473-typ D, OSRAM Point LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LW_P473-typ D
++ IS=8.6990E-18
++ N=3.1999
++ RS=22.257
+*$
+*
+*****************************************************************************************
+* LB_P473-typ D, OSRAM Point LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LB_P473-typ D
++ IS=8.6990E-18
++ N=3.1999
++ RS=22.257
+*$
+*
+*****************************************************************************************
+* LG_P47K-typ D, OSRAM Point LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LG_P47K-typ D
++ IS=572.00E-24
++ N=1.6303
++ RS=1.6709
+*$
+*
+*****************************************************************************************
+* LY_P47F-typ D, OSRAM Point LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LY_P47F-typ D
++ IS=9.7791E-21
++ N=1.7717
++ RS=3.4183
+*$
+*
+*****************************************************************************************
+* LR_P47F-typ D, OSRAM Point LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LR_P47F-typ D
++ IS=646.95E-24
++ N=1.5675
++ RS=5.8135
+*$
+*
+*****************************************************************************************
+* LS_P47F-typ D, OSRAM Point LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LS_P47F-typ D
++ IS=646.95E-24
++ N=1.5675
++ RS=5.8135
+*$
+*
+*****************************************************************************************
+* LY_P47B-typ D, OSRAM Point LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LY_P47B-typ D
++ IS=11.445E-18
++ N=2.0704
++ RS=5.3355
+*$
+*
+*****************************************************************************************
+* LA_P47F-typ D, OSRAM Point LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LA_P47F-typ D
++ IS=5.6202E-24
++ N=1.4622
++ RS=4.6719
+*$
+*
+*****************************************************************************************
+* LY_P47K-typ D, OSRAM Point LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LY_P47K-typ D
++ IS=5.0505E-21
++ N=1.7234
++ RS=2.6512
+*$
+*
+*****************************************************************************************
+* LS_P47K-typ D, OSRAM Point LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LS_P47K-typ D
++ IS=5.0505E-21
++ N=1.7234
++ RS=2.6512
+*$
+*
+*****************************************************************************************
+* LW_P4SG-typ D, OSRAM Point LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LW_P4SG-typ D
++ IS=106.87E-21
++ N=2.8013
++ RS=15.851
+*$
+*
+*****************************************************************************************
+* LY_P476-typ D, OSRAM Point LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LY_P476-typ D
++ IS=2.6432E-24
++ N=1.4571
++ RS=2.0918
++ IKF=3.9036E-3
+*$
+*
+*****************************************************************************************
+* LA_P47B-typ D, OSRAM Point LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LA_P47B-typ D
++ IS=11.445E-18
++ N=2.0704
++ RS=5.3355
+*$
+*
+*****************************************************************************************

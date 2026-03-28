@@ -1,0 +1,7219 @@
+("awb2n6849"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.386E+00" )
+		)
+		( "KP"
+			( "val" "3.939E+00" )
+		)
+		( "LAMBDA"
+			( "val" "1.000E-04" )
+		)
+		( "CGSO"
+			( "val" "4.000E-10" )
+		)
+		( "CGDO"
+			( "val" "2.000E-10" )
+		)
+		( "RG"
+			( "val" "2.000E+01" )
+		)
+		( "RG2"
+			( "val" "2.245E+01" )
+		)
+		( "RD"
+			( "val" "7.651E-02" )
+		)
+		( "RS"
+			( "val" "1.265E-01" )
+		)
+		( "RDS"
+			( "val" "5.000E+08" )
+		)
+		( "LD"
+			( "val" "5.000E-09" )
+		)
+		( "LS"
+			( "val" "1.250E-08" )
+		)
+		( "CJOC"
+			( "val" "1.100E-09" )
+		)
+		( "VJC"
+			( "val" "4.107E-01" )
+		)
+		( "MC"
+			( "val" "5.714E-01" )
+		)
+		( "XJC"
+			( "val" "0" )
+		)
+		( "CGDC"
+			( "val" "1.000E-13" )
+		)
+		( "ISD"
+			( "val" "2.322E-08" )
+		)
+		( "RSD"
+			( "val" "1.331E-02" )
+		)
+		( "ND"
+			( "val" "1.633E+00" )
+		)
+		( "CJOD2"
+			( "val" "6.834E-10" )
+		)
+		( "VJD2"
+			( "val" "9.000E-01" )
+		)
+		( "MD2"
+			( "val" "3.741E-01" )
+		)
+		( "EGD"
+			( "val" "1.010E+00" )
+		)
+		( "BVD"
+			( "val" "1.100E+02" )
+		)
+		( "IBVD"
+			( "val" "5.000E-01" )
+		)
+		( "TTD"
+			( "val" "3.283E-07" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "6.5" )
+		( VDG "100" )
+		( VDS "100" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "30" )
+		( TJ "150" )
+		( RJC "5" )
+		( RCA "170" )
+	)
+)
+("awb2sj130"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.045" )
+		)
+		( "KP"
+			( "val" "0.460" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "219p" )
+		)
+		( "CGDO"
+			( "val" "16p" )
+		)
+		( "RG"
+			( "val" "126" )
+		)
+		( "RD"
+			( "val" "4.775" )
+		)
+		( "RS"
+			( "val" "0.1118" )
+		)
+		( "RDS"
+			( "val" "1E6" )
+		)
+		( "LD"
+			( "val" "0.1n" )
+		)
+		( "LS"
+			( "val" "0.1n" )
+		)
+		( "ISD"
+			( "val" "1.0E-12" )
+		)
+		( "RSD"
+			( "val" "0.054" )
+		)
+		( "ND"
+			( "val" "1.0" )
+		)
+		( "CJOD"
+			( "val" "162.5p" )
+		)
+		( "BVD"
+			( "val" "330" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "16n" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "1" )
+		( VDG "300" )
+		( VDS "300" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "24" )
+		( TJ "150" )
+		( RJC "6.25" )
+		( RCA "110" )
+	)
+)
+("awb2sj142"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.599501" )
+		)
+		( "KP"
+			( "val" "842.9791" )
+		)
+		( "LAMBDA"
+			( "val" "0.008941" )
+		)
+		( "CGSO"
+			( "val" "3050p" )
+		)
+		( "CGDO"
+			( "val" "150p" )
+		)
+		( "RG"
+			( "val" "2.59" )
+		)
+		( "RD"
+			( "val" "0.091552" )
+		)
+		( "RS"
+			( "val" "0.0893" )
+		)
+		( "RDS"
+			( "val" "20meg" )
+		)
+		( "LD"
+			( "val" "4.5n" )
+		)
+		( "LS"
+			( "val" "6.5n" )
+		)
+		( "ISD"
+			( "val" "9997.5f" )
+		)
+		( "RSD"
+			( "val" "0.0241" )
+		)
+		( "ND"
+			( "val" "1.0574" )
+		)
+		( "CJOD"
+			( "val" "3398.5p" )
+		)
+		( "VJD"
+			( "val" "0.5" )
+		)
+		( "MD"
+			( "val" "0.6704" )
+		)
+		( "BVD"
+			( "val" "110" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "23.4n" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( IG "100n" )
+		( ID "52" )
+		( VDG "100" )
+		( VDS "100" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "35" )
+		( RJC "4.28" )
+		( RCA "70.72" )
+		( TJ "150" )
+	)
+)
+("awbbss84"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-9.924E-01" )
+		)
+		( "KP"
+			( "val" "2.6753E-01" )
+		)
+		( "CGSO"
+			( "val" "44p" )
+		)
+		( "CGDO"
+			( "val" "6p" )
+		)
+		( "RG"
+			( "val" "5.4387E+01" )
+		)
+		( "RD"
+			( "val" "-3.4348E+00" )
+		)
+		( "RS"
+			( "val" "8.8368E+00" )
+		)
+		( "RDS"
+			( "val" "5.0000E+07" )
+		)
+		( "LD"
+			( "val" "1.0000E-12" )
+		)
+		( "LS"
+			( "val" "1.0000E-11" )
+		)
+		( "ISD"
+			( "val" "1.0000E-08" )
+		)
+		( "RSD"
+			( "val" "1.3670E+00" )
+		)
+		( "ND"
+			( "val" "1.4540E+00" )
+		)
+		( "CJOD"
+			( "val" "8.6940E-11" )
+		)
+		( "VJD"
+			( "val" "9.0000E-01" )
+		)
+		( "MD"
+			( "val" "7.0380E-01" )
+		)
+		( "BVD"
+			( "val" "55" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "4.8830E-09" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "0.13" )
+		( VDG "50" )
+		( VDS "50" )
+		( VGSF "20" )
+		( VGSR "-20" )
+		( PDM "0.6" )
+		( TJ "150" )
+		( RJC "260" )
+		( RCA "90" )
+	)
+)
+("awbbst120"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.7334E+00" )
+		)
+		( "KP"
+			( "val" "2.7782E-01" )
+		)
+		( "LAMBDA"
+			( "val" "2.5000E-02" )
+		)
+		( "CGSO"
+			( "val" "47p" )
+		)
+		( "CGDO"
+			( "val" "8p" )
+		)
+		( "RG"
+			( "val" "30.473" )
+		)
+		( "RD"
+			( "val" "1.3557E+00" )
+		)
+		( "RS"
+			( "val" "2.8336E+00" )
+		)
+		( "RDS"
+			( "val" "7.5000E+05" )
+		)
+		( "LD"
+			( "val" "1.0000E-12" )
+		)
+		( "RLD"
+			( "val" "1.0000E-03" )
+		)
+		( "LS"
+			( "val" "1.0000E-12" )
+		)
+		( "RLS"
+			( "val" "1.0000E+02" )
+		)
+		( "CJOD"
+			( "val" "8.3291E-11" )
+		)
+		( "VJD"
+			( "val" "0.75" )
+		)
+		( "MD"
+			( "val" "0.5" )
+		)
+		( "BVD"
+			( "val" "66" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "0.3" )
+		( VDG "60" )
+		( VDS "60" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "3.75" )
+		( TJ "150" )
+		( RJC "40" )
+		( RCA "85" )
+	)
+)
+("awbidealpmos"
+	(Creator "Device property file created by analog_uprev: idealpmos on Tue Feb  6 03:29:22 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "PMOSFET4" )
+		( MODEL_TYPE 19 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S")
+ 			("SUB") )
+	)
+	("model_params"
+	("level_0"
+		( "LEVEL"
+			( "val" "1" )
+		)
+		( "KP"
+			( "val" "1E-5" )
+		)
+		( "VTO"
+			( "val" "-1.0" )
+		)
+		( "CGSO"
+			( "val" "0.8E-8" )
+		)
+		( "CGDO"
+			( "val" "0.8E-8" )
+		)
+	)
+	("symbol"
+			( "IC_VBS" )
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "TEMP" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbifp5p12"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.484" )
+		)
+		( "KP"
+			( "val" "1.270" )
+		)
+		( "GAMMA"
+			( "val" "2.5" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "485p" )
+		)
+		( "CGDO"
+			( "val" "115p" )
+		)
+		( "RG"
+			( "val" "173" )
+		)
+		( "RD"
+			( "val" "0.569" )
+		)
+		( "RS"
+			( "val" "0.2009" )
+		)
+		( "RDS"
+			( "val" "100E6" )
+		)
+		( "LD"
+			( "val" "0.1n" )
+		)
+		( "LS"
+			( "val" "0.1n" )
+		)
+		( "ISD"
+			( "val" "1n" )
+		)
+		( "RSD"
+			( "val" "0.054" )
+		)
+		( "ND"
+			( "val" "6.6" )
+		)
+		( "CJOD"
+			( "val" "635p" )
+		)
+		( "VJD"
+			( "val" "0.35" )
+		)
+		( "MD"
+			( "val" "0.4747" )
+		)
+		( "BVD"
+			( "val" "198" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4u" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "5" )
+		( VDG "180" )
+		( VDS "180" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "90" )
+		( TJ "150" )
+		( RJC "1.67" )
+		( RCA "30" )
+	)
+)
+("awbirf9130"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.485" )
+		)
+		( "KP"
+			( "val" "5.02" )
+		)
+		( "GAMMA"
+			( "val" "2.5" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "640E-12" )
+		)
+		( "CGDO"
+			( "val" "160E-12" )
+		)
+		( "RG"
+			( "val" "153" )
+		)
+		( "RD"
+			( "val" "0.0817" )
+		)
+		( "RS"
+			( "val" "0.1377" )
+		)
+		( "RDS"
+			( "val" "400E3" )
+		)
+		( "LD"
+			( "val" "5n" )
+		)
+		( "LS"
+			( "val" "12.5n" )
+		)
+		( "ISD"
+			( "val" "1n" )
+		)
+		( "RSD"
+			( "val" ".0541" )
+		)
+		( "ND"
+			( "val" "6.605" )
+		)
+		( "CJOD"
+			( "val" "1600E-12" )
+		)
+		( "VJD"
+			( "val" "0.5" )
+		)
+		( "MD"
+			( "val" "0.4316" )
+		)
+		( "BVD"
+			( "val" "110" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4u" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "12" )
+		( VDG "100" )
+		( VDS "100" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "90" )
+		( TJ "150" )
+		( RJC "1.67" )
+		( RCA "30" )
+	)
+)
+("awbirf9131"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.485" )
+		)
+		( "KP"
+			( "val" "5.02" )
+		)
+		( "GAMMA"
+			( "val" "2.5" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "640p" )
+		)
+		( "CGDO"
+			( "val" "160p" )
+		)
+		( "RG"
+			( "val" "153" )
+		)
+		( "RD"
+			( "val" "0.0817" )
+		)
+		( "RS"
+			( "val" "0.1377" )
+		)
+		( "RDS"
+			( "val" "1.667E6" )
+		)
+		( "LD"
+			( "val" "5n" )
+		)
+		( "LS"
+			( "val" "12.5n" )
+		)
+		( "ISD"
+			( "val" "1n" )
+		)
+		( "RSD"
+			( "val" ".0541" )
+		)
+		( "ND"
+			( "val" "6.605" )
+		)
+		( "CJOD"
+			( "val" "1600p" )
+		)
+		( "VJD"
+			( "val" "0.5" )
+		)
+		( "MD"
+			( "val" "0.4316" )
+		)
+		( "BVD"
+			( "val" "66" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4u" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "12" )
+		( VDG "60" )
+		( VDS "60" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "90" )
+		( TJ "150" )
+		( RJC "1.67" )
+		( RCA "30" )
+	)
+)
+("awbirf9132"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.485" )
+		)
+		( "KP"
+			( "val" "5.02" )
+		)
+		( "GAMMA"
+			( "val" "2.5" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "640p" )
+		)
+		( "CGDO"
+			( "val" "160p" )
+		)
+		( "RG"
+			( "val" "153" )
+		)
+		( "RD"
+			( "val" "0.0817" )
+		)
+		( "RS"
+			( "val" "0.1377" )
+		)
+		( "RDS"
+			( "val" "1.667E6" )
+		)
+		( "ISD"
+			( "val" "1n" )
+		)
+		( "RSD"
+			( "val" ".0541" )
+		)
+		( "ND"
+			( "val" "6.605" )
+		)
+		( "CJOD"
+			( "val" "1600p" )
+		)
+		( "VJD"
+			( "val" "0.5" )
+		)
+		( "MD"
+			( "val" "0.4316" )
+		)
+		( "BVD"
+			( "val" "110" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "LD"
+			( "val" "5E-9" )
+		)
+		( "LS"
+			( "val" "12.5E-9" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "10" )
+		( VDG "100" )
+		( VDS "100" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "90" )
+		( TJ "150" )
+		( RJC "1.67" )
+		( RCA "30" )
+	)
+)
+("awbirf9133"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.485" )
+		)
+		( "KP"
+			( "val" "5.02" )
+		)
+		( "GAMMA"
+			( "val" "2.5" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "640p" )
+		)
+		( "CGDO"
+			( "val" "160p" )
+		)
+		( "RG"
+			( "val" "153" )
+		)
+		( "RD"
+			( "val" "0.0817" )
+		)
+		( "RS"
+			( "val" "0.1377" )
+		)
+		( "RDS"
+			( "val" "1.667E6" )
+		)
+		( "ISD"
+			( "val" "1n" )
+		)
+		( "RSD"
+			( "val" ".0541" )
+		)
+		( "ND"
+			( "val" "6.605" )
+		)
+		( "CJOD"
+			( "val" "1600p" )
+		)
+		( "VJD"
+			( "val" "0.5" )
+		)
+		( "MD"
+			( "val" "0.4316" )
+		)
+		( "BVD"
+			( "val" "66" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "LD"
+			( "val" "5E-9" )
+		)
+		( "LS"
+			( "val" "12.5E-9" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "10" )
+		( VDG "60" )
+		( VDS "60" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "90" )
+		( TJ "150" )
+		( RJC "1.67" )
+		( RCA "30" )
+	)
+)
+("awbirf9140"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 519 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("device_max_ops"
+	)
+)
+("awbirf9214"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.549" )
+		)
+		( "KP"
+			( "val" "3.168" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "20p" )
+		)
+		( "CGDO"
+			( "val" "3p" )
+		)
+		( "RG"
+			( "val" "1.862" )
+		)
+		( "RD"
+			( "val" "0.2336" )
+		)
+		( "RS"
+			( "val" "0.0249" )
+		)
+		( "RDS"
+			( "val" "0.8E6" )
+		)
+		( "LD"
+			( "val" "5n" )
+		)
+		( "LS"
+			( "val" "12.5n" )
+		)
+		( "ISD"
+			( "val" "1p" )
+		)
+		( "RSD"
+			( "val" "0.056" )
+		)
+		( "ND"
+			( "val" "1.5" )
+		)
+		( "CJOD"
+			( "val" "2000p" )
+		)
+		( "VJD"
+			( "val" "1.4" )
+		)
+		( "MD"
+			( "val" "0.605" )
+		)
+		( "BVD"
+			( "val" "165" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4u" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "11" )
+		( VDG "150" )
+		( VDS "150" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "150" )
+		( TJ "150" )
+		( RJC "1" )
+		( RCA "30" )
+	)
+)
+("awbirf9240"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.549" )
+		)
+		( "KP"
+			( "val" "3.168" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "20p" )
+		)
+		( "CGDO"
+			( "val" "3p" )
+		)
+		( "RG"
+			( "val" "1.862" )
+		)
+		( "RD"
+			( "val" "0.2336" )
+		)
+		( "RS"
+			( "val" "0.0249" )
+		)
+		( "RDS"
+			( "val" "0.8E6" )
+		)
+		( "LD"
+			( "val" "5n" )
+		)
+		( "LS"
+			( "val" "12.5n" )
+		)
+		( "ISD"
+			( "val" "1p" )
+		)
+		( "RSD"
+			( "val" "0.056" )
+		)
+		( "ND"
+			( "val" "1.5" )
+		)
+		( "CJOD"
+			( "val" "2000p" )
+		)
+		( "VJD"
+			( "val" "1.4" )
+		)
+		( "MD"
+			( "val" "0.605" )
+		)
+		( "BVD"
+			( "val" "220" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4u" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "11" )
+		( VDG "200" )
+		( VDS "200" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "150" )
+		( TJ "150" )
+		( RJC "1" )
+		( RCA "30" )
+	)
+)
+("awbirf9242"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.549" )
+		)
+		( "KP"
+			( "val" "3.168" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "20p" )
+		)
+		( "CGDO"
+			( "val" "3p" )
+		)
+		( "RG"
+			( "val" "1.862" )
+		)
+		( "RD"
+			( "val" "0.2336" )
+		)
+		( "RS"
+			( "val" "0.0249" )
+		)
+		( "RDS"
+			( "val" "0.8E6" )
+		)
+		( "LD"
+			( "val" "5n" )
+		)
+		( "LS"
+			( "val" "12.5n" )
+		)
+		( "ISD"
+			( "val" "1p" )
+		)
+		( "RSD"
+			( "val" "0.056" )
+		)
+		( "ND"
+			( "val" "1.5" )
+		)
+		( "CJOD"
+			( "val" "2000p" )
+		)
+		( "VJD"
+			( "val" "1.4" )
+		)
+		( "MD"
+			( "val" "0.605" )
+		)
+		( "BVD"
+			( "val" "220" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4u" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "9" )
+		( VDG "200" )
+		( VDS "200" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "150" )
+		( TJ "150" )
+		( RJC "1" )
+		( RCA "30" )
+	)
+)
+("awbirf9243"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.549" )
+		)
+		( "KP"
+			( "val" "3.168" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "20p" )
+		)
+		( "CGDO"
+			( "val" "3p" )
+		)
+		( "RG"
+			( "val" "1.862" )
+		)
+		( "RD"
+			( "val" "0.2336" )
+		)
+		( "RS"
+			( "val" "0.0249" )
+		)
+		( "RDS"
+			( "val" "0.8E6" )
+		)
+		( "LD"
+			( "val" "5n" )
+		)
+		( "LS"
+			( "val" "12.5n" )
+		)
+		( "ISD"
+			( "val" "1p" )
+		)
+		( "RSD"
+			( "val" "0.056" )
+		)
+		( "ND"
+			( "val" "1.5" )
+		)
+		( "CJOD"
+			( "val" "2000p" )
+		)
+		( "VJD"
+			( "val" "1.4" )
+		)
+		( "MD"
+			( "val" "0.605" )
+		)
+		( "BVD"
+			( "val" "165" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4u" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "9" )
+		( VDG "150" )
+		( VDS "150" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "150" )
+		( TJ "150" )
+		( RJC "1" )
+		( RCA "30" )
+	)
+)
+("awbirf9510"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.961" )
+		)
+		( "KP"
+			( "val" "0.613" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "150p" )
+		)
+		( "CGDO"
+			( "val" "30p" )
+		)
+		( "RG"
+			( "val" "118.2" )
+		)
+		( "RD"
+			( "val" "0.001" )
+		)
+		( "RS"
+			( "val" "0.3709" )
+		)
+		( "RDS"
+			( "val" "0.4E6" )
+		)
+		( "LD"
+			( "val" "5.0n" )
+		)
+		( "LS"
+			( "val" "15.0n" )
+		)
+		( "ISD"
+			( "val" "25.40E-15" )
+		)
+		( "RSD"
+			( "val" "272.4E-3" )
+		)
+		( "ND"
+			( "val" "4.0" )
+		)
+		( "CJOD"
+			( "val" "390.45p" )
+		)
+		( "VJD"
+			( "val" "0.6" )
+		)
+		( "MD"
+			( "val" "0.4246" )
+		)
+		( "BVD"
+			( "val" "110" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4u" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "3" )
+		( VDG "100" )
+		( VDS "100" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "23.4" )
+		( TJ "150" )
+		( RJC "6.4" )
+		( RCA "75" )
+	)
+)
+("awbirf9511"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.961" )
+		)
+		( "KP"
+			( "val" "0.613" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "150p" )
+		)
+		( "CGDO"
+			( "val" "30p" )
+		)
+		( "RG"
+			( "val" "118.2" )
+		)
+		( "RD"
+			( "val" "0.001" )
+		)
+		( "RS"
+			( "val" "0.3709" )
+		)
+		( "RDS"
+			( "val" "0.4E6" )
+		)
+		( "LD"
+			( "val" "5.0n" )
+		)
+		( "LS"
+			( "val" "15n" )
+		)
+		( "ISD"
+			( "val" "25.40E-15" )
+		)
+		( "RSD"
+			( "val" "272.4E-3" )
+		)
+		( "ND"
+			( "val" "4.0" )
+		)
+		( "CJOD"
+			( "val" "390.45p" )
+		)
+		( "VJD"
+			( "val" "0.6" )
+		)
+		( "MD"
+			( "val" "0.4264" )
+		)
+		( "BVD"
+			( "val" "66" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "3" )
+		( VDG "60" )
+		( VDS "60" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "23.4" )
+		( TJ "150" )
+		( RJC "6.4" )
+		( RCA "75" )
+	)
+)
+("awbirf9512"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.961" )
+		)
+		( "KP"
+			( "val" "0.613" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "150p" )
+		)
+		( "CGDO"
+			( "val" "30p" )
+		)
+		( "RG"
+			( "val" "118.2" )
+		)
+		( "RD"
+			( "val" "0.001" )
+		)
+		( "RS"
+			( "val" "0.3709" )
+		)
+		( "RDS"
+			( "val" "0.4E6" )
+		)
+		( "LD"
+			( "val" "5.0n" )
+		)
+		( "LS"
+			( "val" "15n" )
+		)
+		( "ISD"
+			( "val" "25.40E-15" )
+		)
+		( "RSD"
+			( "val" "272.4E-3" )
+		)
+		( "ND"
+			( "val" "4.0" )
+		)
+		( "CJOD"
+			( "val" "390.45p" )
+		)
+		( "VJD"
+			( "val" "0.6" )
+		)
+		( "MD"
+			( "val" "0.4246" )
+		)
+		( "BVD"
+			( "val" "110" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4u" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "2.5" )
+		( VDG "100" )
+		( VDS "100" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "23.4" )
+		( TJ "150" )
+		( RJC "6.4" )
+		( RCA "75" )
+	)
+)
+("awbirf9513"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.961" )
+		)
+		( "KP"
+			( "val" "0.613" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "150p" )
+		)
+		( "CGDO"
+			( "val" "30p" )
+		)
+		( "RG"
+			( "val" "118.2" )
+		)
+		( "RD"
+			( "val" "0.001" )
+		)
+		( "RS"
+			( "val" "0.3709" )
+		)
+		( "RDS"
+			( "val" "0.4E6" )
+		)
+		( "LD"
+			( "val" "5.0n" )
+		)
+		( "LS"
+			( "val" "15n" )
+		)
+		( "ISD"
+			( "val" "25.40E-15" )
+		)
+		( "RSD"
+			( "val" "272.4E-3" )
+		)
+		( "ND"
+			( "val" "4.0" )
+		)
+		( "CJOD"
+			( "val" "390.45p" )
+		)
+		( "VJD"
+			( "val" "0.6" )
+		)
+		( "MD"
+			( "val" "0.4246" )
+		)
+		( "BVD"
+			( "val" "66" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4u" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "2.5" )
+		( VDG "60" )
+		( VDS "60" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "23.4" )
+		( TJ "150" )
+		( RJC "6.4" )
+		( RCA "75" )
+	)
+)
+("awbirf9520"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.095" )
+		)
+		( "KP"
+			( "val" "11.779" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "150p" )
+		)
+		( "CGDO"
+			( "val" "20p" )
+		)
+		( "RG"
+			( "val" "133.2" )
+		)
+		( "RD"
+			( "val" "0.0928" )
+		)
+		( "RS"
+			( "val" "0.3779" )
+		)
+		( "RDS"
+			( "val" "400E3" )
+		)
+		( "LD"
+			( "val" "5.0n" )
+		)
+		( "LS"
+			( "val" "15n" )
+		)
+		( "ISD"
+			( "val" "1n" )
+		)
+		( "RSD"
+			( "val" ".0541" )
+		)
+		( "ND"
+			( "val" "6.605" )
+		)
+		( "CJOD"
+			( "val" "700.8p" )
+		)
+		( "VJD"
+			( "val" "1.4" )
+		)
+		( "MD"
+			( "val" "0.4548" )
+		)
+		( "BVD"
+			( "val" "110" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4u" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "6" )
+		( VDG "100" )
+		( VDS "100" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "48" )
+		( TJ "150" )
+		( RJC "3.12" )
+		( RCA "75.0" )
+	)
+)
+("awbirf9521"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.095" )
+		)
+		( "KP"
+			( "val" "11.779" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "150p" )
+		)
+		( "CGDO"
+			( "val" "20p" )
+		)
+		( "RG"
+			( "val" "133.2" )
+		)
+		( "RD"
+			( "val" "0.0928" )
+		)
+		( "RS"
+			( "val" "0.3779" )
+		)
+		( "RDS"
+			( "val" "400E3" )
+		)
+		( "LD"
+			( "val" "5E-9" )
+		)
+		( "LS"
+			( "val" "15E-9" )
+		)
+		( "ISD"
+			( "val" "1n" )
+		)
+		( "RSD"
+			( "val" ".0541" )
+		)
+		( "ND"
+			( "val" "6.605" )
+		)
+		( "CJOD"
+			( "val" "700.8E-12" )
+		)
+		( "VJD"
+			( "val" "1.4" )
+		)
+		( "MD"
+			( "val" "0.4548" )
+		)
+		( "BVD"
+			( "val" "66" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4E-6" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "6" )
+		( VDG "60" )
+		( VDS "60" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "48" )
+		( TJ "150" )
+		( RJC "3.12" )
+		( RCA "75" )
+	)
+)
+("awbirf9522"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.095" )
+		)
+		( "KP"
+			( "val" "11.779" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "150p" )
+		)
+		( "CGDO"
+			( "val" "20p" )
+		)
+		( "RG"
+			( "val" "133.2" )
+		)
+		( "RD"
+			( "val" "0.0928" )
+		)
+		( "RS"
+			( "val" "0.3779" )
+		)
+		( "RDS"
+			( "val" "400E3" )
+		)
+		( "LD"
+			( "val" "5.0n" )
+		)
+		( "LS"
+			( "val" "15n" )
+		)
+		( "ISD"
+			( "val" "1n" )
+		)
+		( "RSD"
+			( "val" ".0541" )
+		)
+		( "ND"
+			( "val" "6.605" )
+		)
+		( "CJOD"
+			( "val" "700.8E-12" )
+		)
+		( "VJD"
+			( "val" "1.4" )
+		)
+		( "MD"
+			( "val" "0.4548" )
+		)
+		( "BVD"
+			( "val" "110" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4E-6" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "5" )
+		( VDG "100" )
+		( VDS "100" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "48" )
+		( TJ "150" )
+		( RJC "3.12" )
+		( RCA "75" )
+	)
+)
+("awbirf9523"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.095" )
+		)
+		( "KP"
+			( "val" "11.779" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "150p" )
+		)
+		( "CGDO"
+			( "val" "20p" )
+		)
+		( "RG"
+			( "val" "133.2" )
+		)
+		( "RD"
+			( "val" "0.0928" )
+		)
+		( "RS"
+			( "val" "0.3779" )
+		)
+		( "RDS"
+			( "val" "400E3" )
+		)
+		( "LD"
+			( "val" "5.0n" )
+		)
+		( "LS"
+			( "val" "15n" )
+		)
+		( "ISD"
+			( "val" "1n" )
+		)
+		( "RSD"
+			( "val" ".0541" )
+		)
+		( "ND"
+			( "val" "6.605" )
+		)
+		( "CJOD"
+			( "val" "700.8E-12" )
+		)
+		( "VJD"
+			( "val" "1.4" )
+		)
+		( "MD"
+			( "val" "0.4548" )
+		)
+		( "BVD"
+			( "val" "66" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4E-6" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "5" )
+		( VDG "60" )
+		( VDS "60" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "48" )
+		( TJ "150" )
+		( RJC "3.12" )
+		( RCA "75" )
+	)
+)
+("awbirf9540"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.943614" )
+		)
+		( "KP"
+			( "val" "10.481591" )
+		)
+		( "CGSO"
+			( "val" "850p" )
+		)
+		( "CGDO"
+			( "val" "250p" )
+		)
+		( "RG"
+			( "val" "10" )
+		)
+		( "RD"
+			( "val" "55m" )
+		)
+		( "RS"
+			( "val" ".073803" )
+		)
+		( "RDS"
+			( "val" ".24meg" )
+		)
+		( "LD"
+			( "val" "3.5n" )
+		)
+		( "LS"
+			( "val" "7.5n" )
+		)
+		( "ISD"
+			( "val" ".13p" )
+		)
+		( "RSD"
+			( "val" "37.9187m" )
+		)
+		( "ND"
+			( "val" "2.9" )
+		)
+		( "CJOD"
+			( "val" "1965.55p" )
+		)
+		( "VJD"
+			( "val" "0.5" )
+		)
+		( "MD"
+			( "val" ".5355" )
+		)
+		( "BVD"
+			( "val" "110" )
+		)
+		( "IBVD"
+			( "val" "250" )
+		)
+		( "TTD"
+			( "val" "40n" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "60" )
+		( VDG "100" )
+		( VDS "100" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "150" )
+		( TJ "150" )
+		( RJC "1" )
+		( RCA "79" )
+	)
+)
+("awbirf9541"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.943614" )
+		)
+		( "KP"
+			( "val" "10.481591" )
+		)
+		( "CGSO"
+			( "val" "850p" )
+		)
+		( "CGDO"
+			( "val" "250p" )
+		)
+		( "RG"
+			( "val" "10" )
+		)
+		( "RD"
+			( "val" "55m" )
+		)
+		( "RS"
+			( "val" ".073803" )
+		)
+		( "RDS"
+			( "val" ".24meg" )
+		)
+		( "LD"
+			( "val" "3.5n" )
+		)
+		( "LS"
+			( "val" "7.5n" )
+		)
+		( "ISD"
+			( "val" ".13p" )
+		)
+		( "RSD"
+			( "val" "37.9187m" )
+		)
+		( "ND"
+			( "val" "2.9" )
+		)
+		( "CJOD"
+			( "val" "1965.55p" )
+		)
+		( "VJD"
+			( "val" "0.5" )
+		)
+		( "MD"
+			( "val" ".5355" )
+		)
+		( "BVD"
+			( "val" "66" )
+		)
+		( "IBVD"
+			( "val" "250" )
+		)
+		( "TTD"
+			( "val" "40n" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "60" )
+		( VDG "60" )
+		( VDS "60" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "150" )
+		( TJ "150" )
+		( RJC "1" )
+		( RCA "79" )
+	)
+)
+("awbirf9542"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.943614" )
+		)
+		( "KP"
+			( "val" "10.481591" )
+		)
+		( "CGSO"
+			( "val" "850p" )
+		)
+		( "CGDO"
+			( "val" "250p" )
+		)
+		( "RG"
+			( "val" "10" )
+		)
+		( "RD"
+			( "val" ".130444" )
+		)
+		( "RS"
+			( "val" ".073803" )
+		)
+		( "RDS"
+			( "val" ".24meg" )
+		)
+		( "LD"
+			( "val" "3.5n" )
+		)
+		( "LS"
+			( "val" "7.5n" )
+		)
+		( "ISD"
+			( "val" ".13p" )
+		)
+		( "RSD"
+			( "val" "37.9187m" )
+		)
+		( "ND"
+			( "val" "2.9" )
+		)
+		( "CJOD"
+			( "val" "1965.55p" )
+		)
+		( "VJD"
+			( "val" "0.5" )
+		)
+		( "MD"
+			( "val" ".5355" )
+		)
+		( "BVD"
+			( "val" "110" )
+		)
+		( "IBVD"
+			( "val" "250" )
+		)
+		( "TTD"
+			( "val" "40n" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "60" )
+		( VDG "100" )
+		( VDS "100" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "150" )
+		( TJ "150" )
+		( RJC "1" )
+		( RCA "79" )
+	)
+)
+("awbirf9543"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.943614" )
+		)
+		( "KP"
+			( "val" "10.481591" )
+		)
+		( "CGSO"
+			( "val" "850p" )
+		)
+		( "CGDO"
+			( "val" "250p" )
+		)
+		( "RG"
+			( "val" "10" )
+		)
+		( "RD"
+			( "val" ".130444" )
+		)
+		( "RS"
+			( "val" ".073803" )
+		)
+		( "RDS"
+			( "val" ".24meg" )
+		)
+		( "LD"
+			( "val" "3.5n" )
+		)
+		( "LS"
+			( "val" "7.5n" )
+		)
+		( "ISD"
+			( "val" ".13p" )
+		)
+		( "RSD"
+			( "val" "37.9187m" )
+		)
+		( "ND"
+			( "val" "2.9" )
+		)
+		( "CJOD"
+			( "val" "1965.55p" )
+		)
+		( "VJD"
+			( "val" "0.5" )
+		)
+		( "MD"
+			( "val" ".5355" )
+		)
+		( "BVD"
+			( "val" "66" )
+		)
+		( "IBVD"
+			( "val" "250" )
+		)
+		( "TTD"
+			( "val" "40n" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "60" )
+		( VDG "60" )
+		( VDS "60" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "150" )
+		( TJ "150" )
+		( RJC "1" )
+		( RCA "79" )
+	)
+)
+("awbirf9620"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.8348E+00" )
+		)
+		( "KP"
+			( "val" "4.9637E+00" )
+		)
+		( "GAMMA"
+			( "val" "1.14794E-41" )
+		)
+		( "LAMBDA"
+			( "val" "0.0000E+00" )
+		)
+		( "CGSO"
+			( "val" "3.2000E-10" )
+		)
+		( "CGDO"
+			( "val" "3.0000E-11" )
+		)
+		( "RG"
+			( "val" "4.3270E-01" )
+		)
+		( "RD"
+			( "val" "7.4542E-01" )
+		)
+		( "RS"
+			( "val" "3.6438E-01" )
+		)
+		( "RDS"
+			( "val" "9.4117E+05" )
+		)
+		( "LD"
+			( "val" "4.5000E-09" )
+		)
+		( "LS"
+			( "val" "7.5000E-09" )
+		)
+		( "ISD"
+			( "val" "2.0500E-06" )
+		)
+		( "RSD"
+			( "val" "7.4220E-02" )
+		)
+		( "ND"
+			( "val" "1.8130E+01" )
+		)
+		( "CJOD"
+			( "val" "5.1640E-10" )
+		)
+		( "VJD"
+			( "val" "3.3460E+00" )
+		)
+		( "MD"
+			( "val" "9.0000E-01" )
+		)
+		( "BVD"
+			( "val" "2.2000E+02" )
+		)
+		( "IBVD"
+			( "val" "1.0000E+00" )
+		)
+		( "TTD"
+			( "val" "2.5710E-07" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "3.5" )
+		( VDG "200" )
+		( VDS "200" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "48" )
+		( TJ "150" )
+		( RJC "3.12" )
+		( RCA "76.88" )
+	)
+)
+("awbirf9621"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.8348E+00" )
+		)
+		( "KP"
+			( "val" "4.9637E+00" )
+		)
+		( "GAMMA"
+			( "val" "1.14794E-41" )
+		)
+		( "LAMBDA"
+			( "val" "0.0000E+00" )
+		)
+		( "CGSO"
+			( "val" "3.2000E-10" )
+		)
+		( "CGDO"
+			( "val" "3.0000E-11" )
+		)
+		( "RG"
+			( "val" "4.3270E-01" )
+		)
+		( "RD"
+			( "val" "7.4542E-01" )
+		)
+		( "RS"
+			( "val" "3.6438E-01" )
+		)
+		( "RDS"
+			( "val" "9.4117E+05" )
+		)
+		( "LD"
+			( "val" "4.5000E-09" )
+		)
+		( "LS"
+			( "val" "7.5000E-09" )
+		)
+		( "ISD"
+			( "val" "2.0500E-06" )
+		)
+		( "RSD"
+			( "val" "7.4220E-02" )
+		)
+		( "ND"
+			( "val" "1.8130E+01" )
+		)
+		( "CJOD"
+			( "val" "5.1640E-10" )
+		)
+		( "VJD"
+			( "val" "3.3460E+00" )
+		)
+		( "MD"
+			( "val" "9.0000E-01" )
+		)
+		( "BVD"
+			( "val" "1.6500E+02" )
+		)
+		( "IBVD"
+			( "val" "1.0000E+00" )
+		)
+		( "TTD"
+			( "val" "2.5710E-07" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "3.5" )
+		( VDG "150" )
+		( VDS "150" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "48" )
+		( TJ "150" )
+		( RJC "3.12" )
+		( RCA "76.88" )
+	)
+)
+("awbirf9622"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.8348E+00" )
+		)
+		( "KP"
+			( "val" "4.9637E+00" )
+		)
+		( "GAMMA"
+			( "val" "1.14794E-41" )
+		)
+		( "LAMBDA"
+			( "val" "0.0000E+00" )
+		)
+		( "CGSO"
+			( "val" "3.2000E-10" )
+		)
+		( "CGDO"
+			( "val" "3.0000E-11" )
+		)
+		( "RG"
+			( "val" "4.3270E-01" )
+		)
+		( "RD"
+			( "val" "7.4542E-01" )
+		)
+		( "RS"
+			( "val" "3.6438E-01" )
+		)
+		( "RDS"
+			( "val" "9.4117E+05" )
+		)
+		( "LD"
+			( "val" "4.5000E-09" )
+		)
+		( "LS"
+			( "val" "7.5000E-09" )
+		)
+		( "ISD"
+			( "val" "2.0500E-06" )
+		)
+		( "RSD"
+			( "val" "7.4220E-02" )
+		)
+		( "ND"
+			( "val" "1.8130E+01" )
+		)
+		( "CJOD"
+			( "val" "5.1640E-10" )
+		)
+		( "VJD"
+			( "val" "3.3460E+00" )
+		)
+		( "MD"
+			( "val" "9.0000E-01" )
+		)
+		( "BVD"
+			( "val" "2.2000E+02" )
+		)
+		( "IBVD"
+			( "val" "1.0000E+00" )
+		)
+		( "TTD"
+			( "val" "2.5710E-07" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "3.0" )
+		( VDG "200" )
+		( VDS "200" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "48" )
+		( TJ "150" )
+		( RJC "3.12" )
+		( RCA "76.88" )
+	)
+)
+("awbirf9623"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.8348E+00" )
+		)
+		( "KP"
+			( "val" "4.9637E+00" )
+		)
+		( "GAMMA"
+			( "val" "1.14794E-41" )
+		)
+		( "LAMBDA"
+			( "val" "0.0000E+00" )
+		)
+		( "CGSO"
+			( "val" "3.2000E-10" )
+		)
+		( "CGDO"
+			( "val" "3.0000E-11" )
+		)
+		( "RG"
+			( "val" "4.3270E-01" )
+		)
+		( "RD"
+			( "val" "7.4542E-01" )
+		)
+		( "RS"
+			( "val" "3.6438E-01" )
+		)
+		( "RDS"
+			( "val" "9.4117E+05" )
+		)
+		( "LD"
+			( "val" "4.5000E-09" )
+		)
+		( "LS"
+			( "val" "7.5000E-09" )
+		)
+		( "ISD"
+			( "val" "2.0500E-06" )
+		)
+		( "RSD"
+			( "val" "7.4220E-02" )
+		)
+		( "ND"
+			( "val" "1.8130E+01" )
+		)
+		( "CJOD"
+			( "val" "5.1640E-10" )
+		)
+		( "VJD"
+			( "val" "3.3460E+00" )
+		)
+		( "MD"
+			( "val" "9.0000E-01" )
+		)
+		( "BVD"
+			( "val" "1.6500E+02" )
+		)
+		( "IBVD"
+			( "val" "1.0000E+00" )
+		)
+		( "TTD"
+			( "val" "2.5710E-07" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "3.0" )
+		( VDG "150" )
+		( VDS "150" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "48" )
+		( TJ "150" )
+		( RJC "3.12" )
+		( RCA "76.88" )
+	)
+)
+("awbirf9630"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.597" )
+		)
+		( "KP"
+			( "val" "3.35" )
+		)
+		( "LAMBDA"
+			( "val" "7.104e-3" )
+		)
+		( "CGSO"
+			( "val" "500p" )
+		)
+		( "CGDO"
+			( "val" "50p" )
+		)
+		( "RG"
+			( "val" "41" )
+		)
+		( "RD"
+			( "val" "0.338422" )
+		)
+		( "RS"
+			( "val" "0.1266" )
+		)
+		( "RDS"
+			( "val" "2.4e5" )
+		)
+		( "LD"
+			( "val" "3.5n" )
+		)
+		( "LS"
+			( "val" "7.5n" )
+		)
+		( "ISD"
+			( "val" "0.0023329" )
+		)
+		( "RSD"
+			( "val" ".0517153" )
+		)
+		( "ND"
+			( "val" "25.4145" )
+		)
+		( "CJOD"
+			( "val" "1217p" )
+		)
+		( "VJD"
+			( "val" "0.5" )
+		)
+		( "MD"
+			( "val" "0.4946" )
+		)
+		( "BVD"
+			( "val" "220" )
+		)
+		( "IBVD"
+			( "val" "30" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "6.5" )
+		( VDG "200" )
+		( VDS "200" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "90" )
+		( TJ "150" )
+		( RJC "1.67" )
+		( RCA "79.33" )
+	)
+)
+("awbirf9z30"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.392985" )
+		)
+		( "KP"
+			( "val" "3.140635" )
+		)
+		( "LAMBDA"
+			( "val" ".00064" )
+		)
+		( "CGSO"
+			( "val" "760p" )
+		)
+		( "CGDO"
+			( "val" "140p" )
+		)
+		( "RG"
+			( "val" "7.17" )
+		)
+		( "RD"
+			( "val" ".1m" )
+		)
+		( "RS"
+			( "val" ".089072" )
+		)
+		( "RDS"
+			( "val" ".2meg" )
+		)
+		( "LD"
+			( "val" "4.5n" )
+		)
+		( "LS"
+			( "val" "7.5n" )
+		)
+		( "ISD"
+			( "val" "16.66843m" )
+		)
+		( "RSD"
+			( "val" ".491" )
+		)
+		( "ND"
+			( "val" "21.3032" )
+		)
+		( "CJOD"
+			( "val" "4618.15p" )
+		)
+		( "VJD"
+			( "val" "0.5" )
+		)
+		( "MD"
+			( "val" "0.9" )
+		)
+		( "BVD"
+			( "val" "55" )
+		)
+		( "IBVD"
+			( "val" "50" )
+		)
+		( "TTD"
+			( "val" "12n" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "18" )
+		( VDG "50" )
+		( VDS "50" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "88" )
+		( TJ "150" )
+		( RJC "1.7" )
+		( RCA "78.3" )
+	)
+)
+("awbirf9z32"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.392985" )
+		)
+		( "KP"
+			( "val" "3.140635" )
+		)
+		( "LAMBDA"
+			( "val" ".00064" )
+		)
+		( "CGSO"
+			( "val" "760p" )
+		)
+		( "CGDO"
+			( "val" "140p" )
+		)
+		( "RG"
+			( "val" "7.17" )
+		)
+		( "RD"
+			( "val" "2.6m" )
+		)
+		( "RS"
+			( "val" ".089072" )
+		)
+		( "RDS"
+			( "val" ".2meg" )
+		)
+		( "LD"
+			( "val" "4.5n" )
+		)
+		( "LS"
+			( "val" "7.5n" )
+		)
+		( "ISD"
+			( "val" "16.66843m" )
+		)
+		( "RSD"
+			( "val" ".491" )
+		)
+		( "ND"
+			( "val" "21.3032" )
+		)
+		( "CJOD"
+			( "val" "4618.15p" )
+		)
+		( "VJD"
+			( "val" "0.5" )
+		)
+		( "MD"
+			( "val" "0.9" )
+		)
+		( "BVD"
+			( "val" "55" )
+		)
+		( "IBVD"
+			( "val" "50" )
+		)
+		( "TTD"
+			( "val" "12n" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "50" )
+		( VDG "50" )
+		( VDS "50" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "88" )
+		( TJ "150" )
+		( RJC "1.7" )
+		( RCA "78.3" )
+	)
+)
+("awbirfd9120"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "PMOSFET3" )
+		( MODEL_TYPE 518 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "RS"
+			( "val" "0.3779" )
+		)
+		( "RD"
+			( "val" "0.0928" )
+		)
+		( "RDS"
+			( "val" "400E3" )
+		)
+		( "RG"
+			( "val" "133.2" )
+		)
+		( "LD"
+			( "val" "5E-9" )
+		)
+		( "LS"
+			( "val" "15E-9" )
+		)
+		( "VTO"
+			( "val" "-4.095" )
+		)
+		( "KP"
+			( "val" "11.779" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "150p" )
+		)
+		( "CGDO"
+			( "val" "20p" )
+		)
+		( "ND"
+			( "val" "6.605" )
+		)
+		( "TTD"
+			( "val" "0.4E-6" )
+		)
+		( "CJOD"
+			( "val" "764.8E-12" )
+		)
+		( "BVD"
+			( "val" "110" )
+		)
+		( "ISD"
+			( "val" "1E-9" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "RSD"
+			( "val" ".0541" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( VDS "100" )
+		( VDG "100" )
+		( ID "1" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "3.75" )
+		( TJ "150" )
+		( RJC "40" )
+		( RCA "80" )
+	)
+)
+("awbirfd9123"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "PMOSFET3" )
+		( MODEL_TYPE 518 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "RS"
+			( "val" "0.3779" )
+		)
+		( "RD"
+			( "val" "0.0928" )
+		)
+		( "RDS"
+			( "val" "400E3" )
+		)
+		( "RG"
+			( "val" "133.2" )
+		)
+		( "LD"
+			( "val" "5E-9" )
+		)
+		( "LS"
+			( "val" "15E-9" )
+		)
+		( "VTO"
+			( "val" "-4.095" )
+		)
+		( "KP"
+			( "val" "11.779" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "150p" )
+		)
+		( "CGDO"
+			( "val" "20p" )
+		)
+		( "ND"
+			( "val" "6.605" )
+		)
+		( "TTD"
+			( "val" "0.4E-6" )
+		)
+		( "CJOD"
+			( "val" "764.8E-12" )
+		)
+		( "BVD"
+			( "val" "66" )
+		)
+		( "ISD"
+			( "val" "1E-9" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "RSD"
+			( "val" ".0541" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( VDS "60" )
+		( VDG "60" )
+		( ID "1" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "3.75" )
+		( TJ "150" )
+		( RJC "40" )
+		( RCA "80" )
+	)
+)
+("awbirff9110"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.961" )
+		)
+		( "KP"
+			( "val" "0.613" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "150p" )
+		)
+		( "CGDO"
+			( "val" "30p" )
+		)
+		( "RG"
+			( "val" "118.2" )
+		)
+		( "RD"
+			( "val" "0.001" )
+		)
+		( "RS"
+			( "val" "0.3709" )
+		)
+		( "RDS"
+			( "val" "0.4E6" )
+		)
+		( "LD"
+			( "val" "5E-9" )
+		)
+		( "LS"
+			( "val" "15E-9" )
+		)
+		( "ISD"
+			( "val" "25.40E-15" )
+		)
+		( "RSD"
+			( "val" "272.4E-3" )
+		)
+		( "ND"
+			( "val" "4.0" )
+		)
+		( "CJOD"
+			( "val" "390.45p" )
+		)
+		( "VJD"
+			( "val" "0.6" )
+		)
+		( "MD"
+			( "val" "0.4246" )
+		)
+		( "BVD"
+			( "val" "110" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4u" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "2.6" )
+		( VDG "100" )
+		( VDS "100" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "18" )
+		( TJ "150" )
+		( RJC "8.33" )
+		( RCA "170" )
+	)
+)
+("awbirff9111"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.961" )
+		)
+		( "KP"
+			( "val" "0.613" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "150p" )
+		)
+		( "CGDO"
+			( "val" "30p" )
+		)
+		( "RG"
+			( "val" "118.2" )
+		)
+		( "RD"
+			( "val" "0.001" )
+		)
+		( "RS"
+			( "val" "0.3709" )
+		)
+		( "RDS"
+			( "val" "0.4E6" )
+		)
+		( "LD"
+			( "val" "5E-9" )
+		)
+		( "LS"
+			( "val" "15E-9" )
+		)
+		( "ISD"
+			( "val" "25.40E-15" )
+		)
+		( "RSD"
+			( "val" "272.4E-3" )
+		)
+		( "ND"
+			( "val" "4.0" )
+		)
+		( "CJOD"
+			( "val" "390.45p" )
+		)
+		( "VJD"
+			( "val" "0.6" )
+		)
+		( "MD"
+			( "val" "0.4264" )
+		)
+		( "BVD"
+			( "val" "66" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "2.6" )
+		( VDG "60" )
+		( VDS "60" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "18" )
+		( TJ "150" )
+		( RJC "8.33" )
+		( RCA "170" )
+	)
+)
+("awbirff9112"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.961" )
+		)
+		( "KP"
+			( "val" "0.613" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "150p" )
+		)
+		( "CGDO"
+			( "val" "30p" )
+		)
+		( "RG"
+			( "val" "118.2" )
+		)
+		( "RD"
+			( "val" "0.001" )
+		)
+		( "RS"
+			( "val" "0.3709" )
+		)
+		( "RDS"
+			( "val" "0.4E6" )
+		)
+		( "LD"
+			( "val" "5E-9" )
+		)
+		( "LS"
+			( "val" "15E-9" )
+		)
+		( "ISD"
+			( "val" "25.40E-15" )
+		)
+		( "RSD"
+			( "val" "272.4E-3" )
+		)
+		( "ND"
+			( "val" "4.0" )
+		)
+		( "CJOD"
+			( "val" "390.45p" )
+		)
+		( "VJD"
+			( "val" "0.6" )
+		)
+		( "MD"
+			( "val" "0.4246" )
+		)
+		( "BVD"
+			( "val" "110" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4u" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "2.3" )
+		( VDG "100" )
+		( VDS "100" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "18" )
+		( TJ "150" )
+		( RJC "8.33" )
+		( RCA "170" )
+	)
+)
+("awbirff9113"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.961" )
+		)
+		( "KP"
+			( "val" "0.613" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "150p" )
+		)
+		( "CGDO"
+			( "val" "30p" )
+		)
+		( "RG"
+			( "val" "118.2" )
+		)
+		( "RD"
+			( "val" "0.001" )
+		)
+		( "RS"
+			( "val" "0.3709" )
+		)
+		( "RDS"
+			( "val" "0.4E6" )
+		)
+		( "LD"
+			( "val" "5E-9" )
+		)
+		( "LS"
+			( "val" "15E-9" )
+		)
+		( "ISD"
+			( "val" "25.40E-15" )
+		)
+		( "RSD"
+			( "val" "272.4E-3" )
+		)
+		( "ND"
+			( "val" "4.0" )
+		)
+		( "CJOD"
+			( "val" "390.45p" )
+		)
+		( "VJD"
+			( "val" "0.6" )
+		)
+		( "MD"
+			( "val" "0.4246" )
+		)
+		( "BVD"
+			( "val" "66" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4u" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "2.3" )
+		( VDG "60" )
+		( VDS "60" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "18" )
+		( TJ "150" )
+		( RJC "8.33" )
+		( RCA "170" )
+	)
+)
+("awbirff9120"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.095" )
+		)
+		( "KP"
+			( "val" "11.779" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "150p" )
+		)
+		( "CGDO"
+			( "val" "20p" )
+		)
+		( "RG"
+			( "val" "133.2" )
+		)
+		( "RD"
+			( "val" "0.0928" )
+		)
+		( "RS"
+			( "val" "0.3779" )
+		)
+		( "RDS"
+			( "val" "400E3" )
+		)
+		( "LD"
+			( "val" "5E-9" )
+		)
+		( "LS"
+			( "val" "15E-9" )
+		)
+		( "ISD"
+			( "val" "1n" )
+		)
+		( "RSD"
+			( "val" ".0541" )
+		)
+		( "ND"
+			( "val" "6.605" )
+		)
+		( "CJOD"
+			( "val" "700.8p" )
+		)
+		( "VJD"
+			( "val" "1.4" )
+		)
+		( "MD"
+			( "val" "0.4548" )
+		)
+		( "BVD"
+			( "val" "110" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4u" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "4" )
+		( VDG "100" )
+		( VDS "100" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "24" )
+		( TJ "150" )
+		( RJC "6.25" )
+		( RCA "170" )
+	)
+)
+("awbirff9121"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.095" )
+		)
+		( "KP"
+			( "val" "11.779" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "150p" )
+		)
+		( "CGDO"
+			( "val" "20p" )
+		)
+		( "RG"
+			( "val" "133.2" )
+		)
+		( "RD"
+			( "val" "0.0928" )
+		)
+		( "RS"
+			( "val" "0.3779" )
+		)
+		( "RDS"
+			( "val" "400E3" )
+		)
+		( "LD"
+			( "val" "5E-9" )
+		)
+		( "LS"
+			( "val" "15E-9" )
+		)
+		( "ISD"
+			( "val" "1n" )
+		)
+		( "RSD"
+			( "val" ".0541" )
+		)
+		( "ND"
+			( "val" "6.605" )
+		)
+		( "CJOD"
+			( "val" "700.8p" )
+		)
+		( "VJD"
+			( "val" "1.4" )
+		)
+		( "MD"
+			( "val" "0.4548" )
+		)
+		( "BVD"
+			( "val" "66" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4E-6" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "4" )
+		( VDG "60" )
+		( VDS "60" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "24" )
+		( TJ "150" )
+		( RJC "6.25" )
+		( RCA "170" )
+	)
+)
+("awbirff9122"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.095" )
+		)
+		( "KP"
+			( "val" "11.779" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "150p" )
+		)
+		( "CGDO"
+			( "val" "20p" )
+		)
+		( "RG"
+			( "val" "133.2" )
+		)
+		( "RD"
+			( "val" "0.0928" )
+		)
+		( "RS"
+			( "val" "0.3779" )
+		)
+		( "RDS"
+			( "val" "400E3" )
+		)
+		( "LD"
+			( "val" "5E-9" )
+		)
+		( "LS"
+			( "val" "15E-9" )
+		)
+		( "ISD"
+			( "val" "1n" )
+		)
+		( "RSD"
+			( "val" ".0541" )
+		)
+		( "ND"
+			( "val" "6.605" )
+		)
+		( "CJOD"
+			( "val" "700.8E-12" )
+		)
+		( "VJD"
+			( "val" "1.4" )
+		)
+		( "MD"
+			( "val" "0.4548" )
+		)
+		( "BVD"
+			( "val" "110" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4E-6" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "3.5" )
+		( VDG "100" )
+		( VDS "100" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "24" )
+		( TJ "150" )
+		( RJC "6.25" )
+		( RCA "170" )
+	)
+)
+("awbirff9123"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.095" )
+		)
+		( "KP"
+			( "val" "11.779" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "150p" )
+		)
+		( "CGDO"
+			( "val" "20p" )
+		)
+		( "RG"
+			( "val" "133.2" )
+		)
+		( "RD"
+			( "val" "0.0928" )
+		)
+		( "RS"
+			( "val" "0.3779" )
+		)
+		( "RDS"
+			( "val" "400E3" )
+		)
+		( "LD"
+			( "val" "5E-9" )
+		)
+		( "LS"
+			( "val" "15E-9" )
+		)
+		( "ISD"
+			( "val" "1n" )
+		)
+		( "RSD"
+			( "val" ".0541" )
+		)
+		( "ND"
+			( "val" "6.605" )
+		)
+		( "CJOD"
+			( "val" "700.8E-12" )
+		)
+		( "VJD"
+			( "val" "1.4" )
+		)
+		( "MD"
+			( "val" "0.4548" )
+		)
+		( "BVD"
+			( "val" "66" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4E-6" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "3.5" )
+		( VDG "60" )
+		( VDS "60" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "24" )
+		( TJ "150" )
+		( RJC "6.25" )
+		( RCA "170" )
+	)
+)
+("awbirff9220"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.18" )
+		)
+		( "KP"
+			( "val" "817.99994m" )
+		)
+		( "CGSO"
+			( "val" "380.00000p" )
+		)
+		( "CGDO"
+			( "val" "60.000000p" )
+		)
+		( "RG"
+			( "val" "94" )
+		)
+		( "RD"
+			( "val" "0.72" )
+		)
+		( "RS"
+			( "val" "79.999940m" )
+		)
+		( "RDS"
+			( "val" "100.00000K" )
+		)
+		( "LD"
+			( "val" "5n" )
+		)
+		( "LS"
+			( "val" "15n" )
+		)
+		( "ISD"
+			( "val" "1n" )
+		)
+		( "RSD"
+			( "val" "28.700000m" )
+		)
+		( "ND"
+			( "val" "1" )
+		)
+		( "CJOD"
+			( "val" "600.00003p" )
+		)
+		( "VJD"
+			( "val" "1.4" )
+		)
+		( "MD"
+			( "val" ".627" )
+		)
+		( "BVD"
+			( "val" "220" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4u" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "2.5" )
+		( VDG "200" )
+		( VDS "200" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "24" )
+		( TJ "150" )
+		( RJC "6.25" )
+		( RCA "170" )
+	)
+)
+("awbirff9221"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.18" )
+		)
+		( "KP"
+			( "val" "817.99994m" )
+		)
+		( "CGSO"
+			( "val" "380.00000p" )
+		)
+		( "CGDO"
+			( "val" "60.000000p" )
+		)
+		( "RG"
+			( "val" "94" )
+		)
+		( "RD"
+			( "val" "0.72" )
+		)
+		( "RS"
+			( "val" "79.999940m" )
+		)
+		( "RDS"
+			( "val" "100.00000K" )
+		)
+		( "LD"
+			( "val" "5n" )
+		)
+		( "LS"
+			( "val" "15n" )
+		)
+		( "ISD"
+			( "val" "1n" )
+		)
+		( "RSD"
+			( "val" "28.700000m" )
+		)
+		( "ND"
+			( "val" "1" )
+		)
+		( "CJOD"
+			( "val" "600.00003p" )
+		)
+		( "VJD"
+			( "val" "1.4" )
+		)
+		( "MD"
+			( "val" ".627" )
+		)
+		( "BVD"
+			( "val" "165" )
+		)
+		( "IBVD"
+			( "val" "21" )
+		)
+		( "TTD"
+			( "val" "0.4u" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "2.5" )
+		( VDG "150" )
+		( VDS "150" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "24" )
+		( TJ "150" )
+		( RJC "6.25" )
+		( RCA "170" )
+	)
+)
+("awbirff9222"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.18" )
+		)
+		( "KP"
+			( "val" "817.99994m" )
+		)
+		( "CGSO"
+			( "val" "380.00000p" )
+		)
+		( "CGDO"
+			( "val" "60.000000p" )
+		)
+		( "RG"
+			( "val" "94" )
+		)
+		( "RD"
+			( "val" "0.72" )
+		)
+		( "RS"
+			( "val" "79.999940m" )
+		)
+		( "RDS"
+			( "val" "100.00000K" )
+		)
+		( "LD"
+			( "val" "5n" )
+		)
+		( "LS"
+			( "val" "15n" )
+		)
+		( "ISD"
+			( "val" "1n" )
+		)
+		( "RSD"
+			( "val" "28.700000m" )
+		)
+		( "ND"
+			( "val" "1" )
+		)
+		( "CJOD"
+			( "val" "600.00003p" )
+		)
+		( "VJD"
+			( "val" "1.4" )
+		)
+		( "MD"
+			( "val" ".627" )
+		)
+		( "BVD"
+			( "val" "220" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4u" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "2.0" )
+		( VDG "200" )
+		( VDS "200" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "24" )
+		( TJ "150" )
+		( RJC "6.25" )
+		( RCA "170" )
+	)
+)
+("awbirff9223"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.18" )
+		)
+		( "KP"
+			( "val" "817.99994m" )
+		)
+		( "CGSO"
+			( "val" "380.00000p" )
+		)
+		( "CGDO"
+			( "val" "60.000000p" )
+		)
+		( "RG"
+			( "val" "94" )
+		)
+		( "RD"
+			( "val" "0.72" )
+		)
+		( "RS"
+			( "val" "79.999940m" )
+		)
+		( "RDS"
+			( "val" "100.00000K" )
+		)
+		( "LD"
+			( "val" "5n" )
+		)
+		( "LS"
+			( "val" "15n" )
+		)
+		( "ISD"
+			( "val" "1n" )
+		)
+		( "RSD"
+			( "val" "28.700000m" )
+		)
+		( "ND"
+			( "val" "1" )
+		)
+		( "CJOD"
+			( "val" "600.00003p" )
+		)
+		( "VJD"
+			( "val" "1.4" )
+		)
+		( "MD"
+			( "val" ".627" )
+		)
+		( "BVD"
+			( "val" "165" )
+		)
+		( "IBVD"
+			( "val" "21" )
+		)
+		( "TTD"
+			( "val" "0.4u" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "2.0" )
+		( VDG "150" )
+		( VDS "150" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "24" )
+		( TJ "150" )
+		( RJC "6.25" )
+		( RCA "170" )
+	)
+)
+("awbirff9230"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.21" )
+		)
+		( "KP"
+			( "val" "2.08" )
+		)
+		( "LAMBDA"
+			( "val" "3.2m" )
+		)
+		( "CGSO"
+			( "val" "550p" )
+		)
+		( "CGDO"
+			( "val" "50p" )
+		)
+		( "RG"
+			( "val" "15" )
+		)
+		( "RD"
+			( "val" "586m" )
+		)
+		( "RS"
+			( "val" "87m" )
+		)
+		( "RDS"
+			( "val" "10meg" )
+		)
+		( "LD"
+			( "val" "5n" )
+		)
+		( "LS"
+			( "val" "15n" )
+		)
+		( "ISD"
+			( "val" "1.9n" )
+		)
+		( "RSD"
+			( "val" "0.06" )
+		)
+		( "ND"
+			( "val" "1" )
+		)
+		( "CJOD"
+			( "val" "1150p" )
+		)
+		( "VJD"
+			( "val" "0.5" )
+		)
+		( "MD"
+			( "val" "0.653" )
+		)
+		( "BVD"
+			( "val" "220" )
+		)
+		( "IBVD"
+			( "val" "2" )
+		)
+		( "TTD"
+			( "val" "400n" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "4" )
+		( VDG "200" )
+		( VDS "200" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "30" )
+		( TJ "150" )
+		( RJC "5" )
+		( RCA "170" )
+	)
+)
+("awbirff9231"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.21" )
+		)
+		( "KP"
+			( "val" "2.08" )
+		)
+		( "LAMBDA"
+			( "val" "3.2m" )
+		)
+		( "CGSO"
+			( "val" "550p" )
+		)
+		( "CGDO"
+			( "val" "50p" )
+		)
+		( "RG"
+			( "val" "15" )
+		)
+		( "RD"
+			( "val" "586m" )
+		)
+		( "RS"
+			( "val" "87m" )
+		)
+		( "RDS"
+			( "val" "10meg" )
+		)
+		( "LD"
+			( "val" "5n" )
+		)
+		( "LS"
+			( "val" "15n" )
+		)
+		( "ISD"
+			( "val" "1.9n" )
+		)
+		( "RSD"
+			( "val" "0.06" )
+		)
+		( "ND"
+			( "val" "1" )
+		)
+		( "CJOD"
+			( "val" "1150p" )
+		)
+		( "VJD"
+			( "val" "0.5" )
+		)
+		( "MD"
+			( "val" "0.653" )
+		)
+		( "BVD"
+			( "val" "165" )
+		)
+		( "IBVD"
+			( "val" "40" )
+		)
+		( "TTD"
+			( "val" "400n" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "4" )
+		( VDG "150" )
+		( VDS "150" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "30" )
+		( TJ "150" )
+		( RJC "5" )
+		( RCA "170" )
+	)
+)
+("awbirff9232"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.21" )
+		)
+		( "KP"
+			( "val" "2.08" )
+		)
+		( "LAMBDA"
+			( "val" "3.2m" )
+		)
+		( "CGSO"
+			( "val" "550p" )
+		)
+		( "CGDO"
+			( "val" "50p" )
+		)
+		( "RG"
+			( "val" "15" )
+		)
+		( "RD"
+			( "val" "586m" )
+		)
+		( "RS"
+			( "val" "87m" )
+		)
+		( "RDS"
+			( "val" "10meg" )
+		)
+		( "LD"
+			( "val" "5n" )
+		)
+		( "LS"
+			( "val" "15n" )
+		)
+		( "ISD"
+			( "val" "1.9n" )
+		)
+		( "RSD"
+			( "val" "0.06" )
+		)
+		( "ND"
+			( "val" "1" )
+		)
+		( "CJOD"
+			( "val" "1150p" )
+		)
+		( "VJD"
+			( "val" "0.5" )
+		)
+		( "MD"
+			( "val" "0.653" )
+		)
+		( "BVD"
+			( "val" "220" )
+		)
+		( "IBVD"
+			( "val" "2" )
+		)
+		( "TTD"
+			( "val" "400n" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "3.5" )
+		( VDG "200" )
+		( VDS "200" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "30" )
+		( TJ "150" )
+		( RJC "5" )
+		( RCA "170" )
+	)
+)
+("awbirff9233"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.21" )
+		)
+		( "KP"
+			( "val" "2.08" )
+		)
+		( "LAMBDA"
+			( "val" "3.2m" )
+		)
+		( "CGSO"
+			( "val" "550p" )
+		)
+		( "CGDO"
+			( "val" "50p" )
+		)
+		( "RG"
+			( "val" "15" )
+		)
+		( "RD"
+			( "val" "586m" )
+		)
+		( "RS"
+			( "val" "87m" )
+		)
+		( "RDS"
+			( "val" "10meg" )
+		)
+		( "LD"
+			( "val" "5n" )
+		)
+		( "LS"
+			( "val" "15n" )
+		)
+		( "ISD"
+			( "val" "1.9n" )
+		)
+		( "RSD"
+			( "val" "0.06" )
+		)
+		( "ND"
+			( "val" "1" )
+		)
+		( "CJOD"
+			( "val" "1150p" )
+		)
+		( "VJD"
+			( "val" "0.5" )
+		)
+		( "MD"
+			( "val" "0.653" )
+		)
+		( "BVD"
+			( "val" "165" )
+		)
+		( "IBVD"
+			( "val" "2" )
+		)
+		( "TTD"
+			( "val" "400n" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "3.5" )
+		( VDG "150" )
+		( VDS "150" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "30" )
+		( TJ "150" )
+		( RJC "5" )
+		( RCA "170" )
+	)
+)
+("awbirfp9140"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.314575" )
+		)
+		( "KP"
+			( "val" "11.431406" )
+		)
+		( "LAMBDA"
+			( "val" "0.487805m" )
+		)
+		( "CGSO"
+			( "val" "1040p" )
+		)
+		( "CGDO"
+			( "val" "160p" )
+		)
+		( "RG"
+			( "val" "70" )
+		)
+		( "RD"
+			( "val" "0.06788" )
+		)
+		( "RS"
+			( "val" "0.059035" )
+		)
+		( "RDS"
+			( "val" "3.5e6" )
+		)
+		( "LD"
+			( "val" "5n" )
+		)
+		( "LS"
+			( "val" "13n" )
+		)
+		( "ISD"
+			( "val" "0.177m" )
+		)
+		( "RSD"
+			( "val" "0.72737" )
+		)
+		( "ND"
+			( "val" "6.5694" )
+		)
+		( "CJOD"
+			( "val" "1640p" )
+		)
+		( "VJD"
+			( "val" "1.0" )
+		)
+		( "MD"
+			( "val" "0.4993" )
+		)
+		( "BVD"
+			( "val" "110" )
+		)
+		( "IBVD"
+			( "val" "25" )
+		)
+		( "TTD"
+			( "val" "1e-7" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "19" )
+		( VDG "100" )
+		( VDS "100" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "150" )
+		( TJ "150" )
+		( RJC "0.83" )
+		( RCA "39.17" )
+	)
+)
+("awbmpm3002p"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.795571" )
+		)
+		( "KP"
+			( "val" "2.146904" )
+		)
+		( "LAMBDA"
+			( "val" "7.4945e-3" )
+		)
+		( "CGSO"
+			( "val" "850p" )
+		)
+		( "CGDO"
+			( "val" "110p" )
+		)
+		( "RG"
+			( "val" "50" )
+		)
+		( "RD"
+			( "val" "0.001" )
+		)
+		( "RS"
+			( "val" "0.161008" )
+		)
+		( "RDS"
+			( "val" "1e3" )
+		)
+		( "ISD"
+			( "val" "0.346883p" )
+		)
+		( "RSD"
+			( "val" "0.4" )
+		)
+		( "ND"
+			( "val" "1" )
+		)
+		( "CJOD"
+			( "val" "1050p" )
+		)
+		( "VJD"
+			( "val" "29" )
+		)
+		( "MD"
+			( "val" "2.95634" )
+		)
+		( "BVD"
+			( "val" "110" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "1e-9" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "8" )
+		( VDG "100" )
+		( VDS "100" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "62.5" )
+		( TJ "150" )
+		( RJC "2" )
+		( RCA "33" )
+	)
+)
+("awbmtp23p06"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.892" )
+		)
+		( "KP"
+			( "val" "15.525" )
+		)
+		( "CGSO"
+			( "val" "700p" )
+		)
+		( "RD"
+			( "val" "19.374m" )
+		)
+		( "RS"
+			( "val" "0.0672" )
+		)
+		( "RDS"
+			( "val" "0.937e6" )
+		)
+		( "LD"
+			( "val" "3.5n" )
+		)
+		( "LS"
+			( "val" "5.5p" )
+		)
+		( "RLS"
+			( "val" "45.733" )
+		)
+		( "CJOC"
+			( "val" "2620p" )
+		)
+		( "VJC"
+			( "val" "0.35" )
+		)
+		( "MC"
+			( "val" "0.9" )
+		)
+		( "XJC"
+			( "val" "0" )
+		)
+		( "CGDC"
+			( "val" "190p" )
+		)
+		( "ISD"
+			( "val" "1e-10" )
+		)
+		( "RSD"
+			( "val" "10m" )
+		)
+		( "ND"
+			( "val" "2.896" )
+		)
+		( "CJOD2"
+			( "val" "450p" )
+		)
+		( "VJD2"
+			( "val" "0.2" )
+		)
+		( "MD2"
+			( "val" "0.22" )
+		)
+		( "BVD"
+			( "val" "66" )
+		)
+		( "IBVD"
+			( "val" "150u" )
+		)
+		( "TTD"
+			( "val" "67.5n" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "23" )
+		( VDG "60" )
+		( VDS "60" )
+		( VGSF "15" )
+		( VGSR "15" )
+		( PDM "120" )
+		( TJ "150" )
+		( RJC "1.25" )
+		( RCA "61.25" )
+	)
+)
+("awbrfm5p12"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.484" )
+		)
+		( "KP"
+			( "val" "1.270" )
+		)
+		( "GAMMA"
+			( "val" "2.5" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "485p" )
+		)
+		( "CGDO"
+			( "val" "115p" )
+		)
+		( "RG"
+			( "val" "173" )
+		)
+		( "RD"
+			( "val" "0.569" )
+		)
+		( "RS"
+			( "val" "0.2009" )
+		)
+		( "RDS"
+			( "val" "100E6" )
+		)
+		( "LD"
+			( "val" "0.1n" )
+		)
+		( "LS"
+			( "val" "0.1n" )
+		)
+		( "ISD"
+			( "val" "1n" )
+		)
+		( "RSD"
+			( "val" "0.054" )
+		)
+		( "ND"
+			( "val" "6.6" )
+		)
+		( "CJOD"
+			( "val" "635p" )
+		)
+		( "VJD"
+			( "val" "0.35" )
+		)
+		( "MD"
+			( "val" "0.4747" )
+		)
+		( "BVD"
+			( "val" "198" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4u" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "5" )
+		( VDG "180" )
+		( VDS "180" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "90" )
+		( TJ "150" )
+		( RJC "1.67" )
+		( RCA "30" )
+	)
+)
+("awbrfm5p15"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.484" )
+		)
+		( "KP"
+			( "val" "1.270" )
+		)
+		( "GAMMA"
+			( "val" "2.5" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "485p" )
+		)
+		( "CGDO"
+			( "val" "115p" )
+		)
+		( "RG"
+			( "val" "173" )
+		)
+		( "RD"
+			( "val" "0.569" )
+		)
+		( "RS"
+			( "val" "0.2009" )
+		)
+		( "RDS"
+			( "val" "100E6" )
+		)
+		( "LD"
+			( "val" "0.1n" )
+		)
+		( "LS"
+			( "val" "0.1n" )
+		)
+		( "ISD"
+			( "val" "1n" )
+		)
+		( "RSD"
+			( "val" "0.054" )
+		)
+		( "ND"
+			( "val" "6.6" )
+		)
+		( "CJOD"
+			( "val" "635p" )
+		)
+		( "VJD"
+			( "val" "0.35" )
+		)
+		( "MD"
+			( "val" "0.4747" )
+		)
+		( "BVD"
+			( "val" "198" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4u" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "5" )
+		( VDG "180" )
+		( VDS "180" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "90" )
+		( TJ "150" )
+		( RJC "1.67" )
+		( RCA "30" )
+	)
+)
+("awbrfm6p08"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.971" )
+		)
+		( "KP"
+			( "val" "2.798" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "390p" )
+		)
+		( "CGDO"
+			( "val" "60p" )
+		)
+		( "RG"
+			( "val" "149.7" )
+		)
+		( "RD"
+			( "val" "0.2984" )
+		)
+		( "RS"
+			( "val" "0.1837" )
+		)
+		( "RDS"
+			( "val" "80E6" )
+		)
+		( "LD"
+			( "val" "4.5n" )
+		)
+		( "LS"
+			( "val" "7.5n" )
+		)
+		( "ISD"
+			( "val" "1.306E-9" )
+		)
+		( "RSD"
+			( "val" ".0541" )
+		)
+		( "ND"
+			( "val" "1.605" )
+		)
+		( "CJOD"
+			( "val" "1080p" )
+		)
+		( "VJD"
+			( "val" "0.35" )
+		)
+		( "MD"
+			( "val" "0.44" )
+		)
+		( "BVD"
+			( "val" "88" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.2E-6" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "6" )
+		( VDG "80" )
+		( VDS "80" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "75" )
+		( TJ "150" )
+		( RJC "1.67" )
+		( RCA "75" )
+	)
+)
+("awbrfm6p10"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.971" )
+		)
+		( "KP"
+			( "val" "2.798" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "390p" )
+		)
+		( "CGDO"
+			( "val" "60p" )
+		)
+		( "RG"
+			( "val" "149.7" )
+		)
+		( "RD"
+			( "val" "0.2984" )
+		)
+		( "RS"
+			( "val" "0.1837" )
+		)
+		( "RDS"
+			( "val" "80E6" )
+		)
+		( "LD"
+			( "val" "4.5n" )
+		)
+		( "LS"
+			( "val" "7.5n" )
+		)
+		( "ISD"
+			( "val" "1.306E-9" )
+		)
+		( "RSD"
+			( "val" ".0541" )
+		)
+		( "ND"
+			( "val" "1.605" )
+		)
+		( "CJOD"
+			( "val" "1080p" )
+		)
+		( "VJD"
+			( "val" "0.35" )
+		)
+		( "MD"
+			( "val" "0.44" )
+		)
+		( "BVD"
+			( "val" "88" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.2E-6" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "6" )
+		( VDG "80" )
+		( VDS "80" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "75" )
+		( TJ "150" )
+		( RJC "1.67" )
+		( RCA "75" )
+	)
+)
+("awbrfp2p08"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "PMOSFET3" )
+		( MODEL_TYPE 518 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "RS"
+			( "val" "0.9225" )
+		)
+		( "RD"
+			( "val" "1.0938" )
+		)
+		( "RDS"
+			( "val" "80E6" )
+		)
+		( "RG"
+			( "val" "392.6" )
+		)
+		( "LD"
+			( "val" "4.5E-9" )
+		)
+		( "LS"
+			( "val" "7.5E-9" )
+		)
+		( "VTO"
+			( "val" "-3.391" )
+		)
+		( "KP"
+			( "val" "0.338" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "72p" )
+		)
+		( "CGDO"
+			( "val" "12p" )
+		)
+		( "ND"
+			( "val" "1.605" )
+		)
+		( "TTD"
+			( "val" "0.2E-6" )
+		)
+		( "CJOD"
+			( "val" "254.95E-12" )
+		)
+		( "BVD"
+			( "val" "88" )
+		)
+		( "ISD"
+			( "val" "1.306E-9" )
+		)
+		( "RSD"
+			( "val" ".0541" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( VDS "80" )
+		( VDG "80" )
+		( ID "2" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "25" )
+		( TJ "150" )
+		( RJC "6" )
+		( RCA "75" )
+	)
+)
+("awbrfp5p15"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.484" )
+		)
+		( "KP"
+			( "val" "1.270" )
+		)
+		( "GAMMA"
+			( "val" "2.5" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "485p" )
+		)
+		( "CGDO"
+			( "val" "115p" )
+		)
+		( "RG"
+			( "val" "173" )
+		)
+		( "RD"
+			( "val" "0.569" )
+		)
+		( "RS"
+			( "val" "0.2009" )
+		)
+		( "RDS"
+			( "val" "100E6" )
+		)
+		( "LD"
+			( "val" "0.1n" )
+		)
+		( "LS"
+			( "val" "0.1n" )
+		)
+		( "ISD"
+			( "val" "1n" )
+		)
+		( "RSD"
+			( "val" "0.054" )
+		)
+		( "ND"
+			( "val" "6.6" )
+		)
+		( "CJOD"
+			( "val" "635p" )
+		)
+		( "VJD"
+			( "val" "0.35" )
+		)
+		( "MD"
+			( "val" "0.4747" )
+		)
+		( "BVD"
+			( "val" "198" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.4u" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "5" )
+		( VDG "180" )
+		( VDS "180" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "75" )
+		( TJ "150" )
+		( RJC "1.67" )
+		( RCA "30" )
+	)
+)
+("awbrfp6p08"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.971" )
+		)
+		( "KP"
+			( "val" "2.798" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "390p" )
+		)
+		( "CGDO"
+			( "val" "60p" )
+		)
+		( "RG"
+			( "val" "149.7" )
+		)
+		( "RD"
+			( "val" "0.2984" )
+		)
+		( "RS"
+			( "val" "0.1837" )
+		)
+		( "RDS"
+			( "val" "80E6" )
+		)
+		( "LD"
+			( "val" "4.5n" )
+		)
+		( "LS"
+			( "val" "7.5n" )
+		)
+		( "ISD"
+			( "val" "1.306E-9" )
+		)
+		( "RSD"
+			( "val" ".0541" )
+		)
+		( "ND"
+			( "val" "1.605" )
+		)
+		( "CJOD"
+			( "val" "1080p" )
+		)
+		( "VJD"
+			( "val" "0.35" )
+		)
+		( "MD"
+			( "val" "0.44" )
+		)
+		( "BVD"
+			( "val" "88" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "0.2E-6" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "6" )
+		( VDG "80" )
+		( VDS "80" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "60" )
+		( TJ "150" )
+		( RJC "2.083" )
+		( RCA "75" )
+	)
+)
+("awbvp0300m"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.272" )
+		)
+		( "KP"
+			( "val" "0.128" )
+		)
+		( "LAMBDA"
+			( "val" "0.00" )
+		)
+		( "CGSO"
+			( "val" "100p" )
+		)
+		( "CGDO"
+			( "val" "25p" )
+		)
+		( "RG"
+			( "val" "108.2" )
+		)
+		( "RD"
+			( "val" "0.001" )
+		)
+		( "RS"
+			( "val" "1.102" )
+		)
+		( "RDS"
+			( "val" "30E6" )
+		)
+		( "LD"
+			( "val" "0.5E-9" )
+		)
+		( "LS"
+			( "val" "0.5E-9" )
+		)
+		( "ISD"
+			( "val" "25.40E-15" )
+		)
+		( "RSD"
+			( "val" "72.4E-3" )
+		)
+		( "ND"
+			( "val" "1.0" )
+		)
+		( "CJOD"
+			( "val" "880.0p" )
+		)
+		( "VJD"
+			( "val" "0.8" )
+		)
+		( "MD"
+			( "val" "0.847" )
+		)
+		( "BVD"
+			( "val" "33" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "0.5" )
+		( VDG "30" )
+		( VDS "30" )
+		( VGSF "40" )
+		( VGSR "40" )
+		( PDM "6" )
+		( TJ "150" )
+		( RJC "25" )
+		( RCA "100" )
+	)
+)
+("awbvp03d"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.466509" )
+		)
+		( "KP"
+			( "val" "1.795962" )
+		)
+		( "LAMBDA"
+			( "val" "0" )
+		)
+		( "CGSO"
+			( "val" "530p" )
+		)
+		( "CGDO"
+			( "val" "20p" )
+		)
+		( "RG"
+			( "val" "100" )
+		)
+		( "RD"
+			( "val" "4.75869" )
+		)
+		( "RS"
+			( "val" "0.478214" )
+		)
+		( "RDS"
+			( "val" "1e7" )
+		)
+		( "LD"
+			( "val" "5n" )
+		)
+		( "LS"
+			( "val" "13n" )
+		)
+		( "ISD"
+			( "val" "150.357u" )
+		)
+		( "RSD"
+			( "val" "1e-5" )
+		)
+		( "ND"
+			( "val" "11.8217" )
+		)
+		( "CJOD"
+			( "val" "70p" )
+		)
+		( "VJD"
+			( "val" "0.2112754" )
+		)
+		( "MD"
+			( "val" "0.104607" )
+		)
+		( "BVD"
+			( "val" "385" )
+		)
+		( "IBVD"
+			( "val" "400" )
+		)
+		( "TTD"
+			( "val" "2.1e-8" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "5" )
+		( VDG "350" )
+		( VDS "350" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "100" )
+		( TJ "150" )
+		( RJC "1.25" )
+		( RCA "28.75" )
+	)
+)
+("awbvp03e"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.27921" )
+		)
+		( "KP"
+			( "val" "2.25" )
+		)
+		( "LAMBDA"
+			( "val" "2.9e-2" )
+		)
+		( "CGSO"
+			( "val" "460p" )
+		)
+		( "CGDO"
+			( "val" "20p" )
+		)
+		( "RG"
+			( "val" "50" )
+		)
+		( "RD"
+			( "val" "8.6693" )
+		)
+		( "RS"
+			( "val" "1.465377" )
+		)
+		( "RDS"
+			( "val" "5e5" )
+		)
+		( "ISD"
+			( "val" "4.947e-18" )
+		)
+		( "RSD"
+			( "val" "1e-2" )
+		)
+		( "ND"
+			( "val" "1" )
+		)
+		( "CJOD"
+			( "val" "480p" )
+		)
+		( "VJD"
+			( "val" "0.356" )
+		)
+		( "MD"
+			( "val" "0.45" )
+		)
+		( "BVD"
+			( "val" "550" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "1e-15" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "1" )
+		( VDG "500" )
+		( VDS "500" )
+		( TJ "150" )
+		( PDM "50" )
+		( RJC "2.5" )
+		( RCA "37.5" )
+	)
+)
+("awbvp0545"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.8875E+00" )
+		)
+		( "KP"
+			( "val" "4.02453E-01" )
+		)
+		( "LAMBDA"
+			( "val" "2.0000E-02" )
+		)
+		( "CGSO"
+			( "val" "37p" )
+		)
+		( "CGDO"
+			( "val" "3p" )
+		)
+		( "RG"
+			( "val" "2.5000E+02" )
+		)
+		( "RD"
+			( "val" "6.8334E+01" )
+		)
+		( "RS"
+			( "val" "1.6042E+01" )
+		)
+		( "RDS"
+			( "val" "7.5000E+08" )
+		)
+		( "LD"
+			( "val" "1.0000E-14" )
+		)
+		( "RLD"
+			( "val" "1.0000E+00" )
+		)
+		( "LS"
+			( "val" "1.0000E-14" )
+		)
+		( "CJOD"
+			( "val" "4.2720E-11" )
+		)
+		( "VJD"
+			( "val" "6.5320E-01" )
+		)
+		( "MD"
+			( "val" "4.7980E-01" )
+		)
+		( "BVD"
+			( "val" "495" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "2.6500E-07" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "0.25" )
+		( VDG "450" )
+		( VDS "450" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "1" )
+		( TJ "150" )
+		( RJC "125" )
+		( RCA "50" )
+	)
+)
+("awbvp0545n2"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.8875E+00" )
+		)
+		( "KP"
+			( "val" "4.02453E-01" )
+		)
+		( "LAMBDA"
+			( "val" "2.0000E-02" )
+		)
+		( "CGSO"
+			( "val" "37p" )
+		)
+		( "CGDO"
+			( "val" "3p" )
+		)
+		( "RG"
+			( "val" "2.5000E+02" )
+		)
+		( "RD"
+			( "val" "6.8334E+01" )
+		)
+		( "RS"
+			( "val" "1.6042E+01" )
+		)
+		( "RDS"
+			( "val" "7.5000E+08" )
+		)
+		( "LD"
+			( "val" "1.0000E-14" )
+		)
+		( "RLD"
+			( "val" "1.0000E+00" )
+		)
+		( "LS"
+			( "val" "1.0000E-14" )
+		)
+		( "CJOD"
+			( "val" "4.2720E-11" )
+		)
+		( "VJD"
+			( "val" "6.5320E-01" )
+		)
+		( "MD"
+			( "val" "4.7980E-01" )
+		)
+		( "BVD"
+			( "val" "495" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "2.6500E-07" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "0.25" )
+		( VDG "450" )
+		( VDS "450" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "3.5" )
+		( TJ "150" )
+		( RJC "35" )
+		( RCA "90" )
+	)
+)
+("awbvp0545n3"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.8875E+00" )
+		)
+		( "KP"
+			( "val" "4.02453E-01" )
+		)
+		( "LAMBDA"
+			( "val" "2.0000E-02" )
+		)
+		( "CGSO"
+			( "val" "37p" )
+		)
+		( "CGDO"
+			( "val" "3p" )
+		)
+		( "RG"
+			( "val" "2.5000E+02" )
+		)
+		( "RD"
+			( "val" "6.8334E+01" )
+		)
+		( "RS"
+			( "val" "1.6042E+01" )
+		)
+		( "RDS"
+			( "val" "7.5000E+08" )
+		)
+		( "LD"
+			( "val" "1.0000E-14" )
+		)
+		( "RLD"
+			( "val" "1.0000E+00" )
+		)
+		( "LS"
+			( "val" "1.0000E-14" )
+		)
+		( "CJOD"
+			( "val" "4.2720E-11" )
+		)
+		( "VJD"
+			( "val" "6.5320E-01" )
+		)
+		( "MD"
+			( "val" "4.7980E-01" )
+		)
+		( "BVD"
+			( "val" "495" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "2.6500E-07" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "0.25" )
+		( VDG "450" )
+		( VDS "450" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "1" )
+		( TJ "150" )
+		( RJC "125" )
+		( RCA "45" )
+	)
+)
+("awbvp0550"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.8875E+00" )
+		)
+		( "KP"
+			( "val" "4.02453E-01" )
+		)
+		( "LAMBDA"
+			( "val" "2.0000E-02" )
+		)
+		( "CGSO"
+			( "val" "37p" )
+		)
+		( "CGDO"
+			( "val" "3p" )
+		)
+		( "RG"
+			( "val" "2.5000E+02" )
+		)
+		( "RD"
+			( "val" "6.8334E+01" )
+		)
+		( "RS"
+			( "val" "1.6042E+01" )
+		)
+		( "RDS"
+			( "val" "7.5000E+08" )
+		)
+		( "LD"
+			( "val" "1.0000E-14" )
+		)
+		( "RLD"
+			( "val" "1.0000E+00" )
+		)
+		( "LS"
+			( "val" "1.0000E-14" )
+		)
+		( "CJOD"
+			( "val" "4.2720E-11" )
+		)
+		( "VJD"
+			( "val" "6.5320E-01" )
+		)
+		( "MD"
+			( "val" "4.7980E-01" )
+		)
+		( "BVD"
+			( "val" "550" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "2.6500E-07" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "0.25" )
+		( VDG "500" )
+		( VDS "500" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "1" )
+		( TJ "150" )
+		( RJC "125" )
+		( RCA "45" )
+	)
+)
+("awbvp0550n2"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.8875E+00" )
+		)
+		( "KP"
+			( "val" "4.02453E-01" )
+		)
+		( "LAMBDA"
+			( "val" "2.0000E-02" )
+		)
+		( "CGSO"
+			( "val" "37p" )
+		)
+		( "CGDO"
+			( "val" "3p" )
+		)
+		( "RG"
+			( "val" "2.5000E+02" )
+		)
+		( "RD"
+			( "val" "6.8334E+01" )
+		)
+		( "RS"
+			( "val" "1.6042E+01" )
+		)
+		( "RDS"
+			( "val" "7.5000E+08" )
+		)
+		( "LD"
+			( "val" "1.0000E-14" )
+		)
+		( "RLD"
+			( "val" "1.0000E+00" )
+		)
+		( "LS"
+			( "val" "1.0000E-14" )
+		)
+		( "CJOD"
+			( "val" "4.2720E-11" )
+		)
+		( "VJD"
+			( "val" "6.5320E-01" )
+		)
+		( "MD"
+			( "val" "4.7980E-01" )
+		)
+		( "BVD"
+			( "val" "550" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "2.6500E-07" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "0.25" )
+		( VDG "500" )
+		( VDS "500" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "3.5" )
+		( TJ "150" )
+		( RJC "35" )
+		( RCA "90" )
+	)
+)
+("awbvp0550n3"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.8875E+00" )
+		)
+		( "KP"
+			( "val" "4.02453E-01" )
+		)
+		( "LAMBDA"
+			( "val" "2.0000E-02" )
+		)
+		( "CGSO"
+			( "val" "37p" )
+		)
+		( "CGDO"
+			( "val" "3p" )
+		)
+		( "RG"
+			( "val" "2.5000E+02" )
+		)
+		( "RD"
+			( "val" "6.8334E+01" )
+		)
+		( "RS"
+			( "val" "1.6042E+01" )
+		)
+		( "RDS"
+			( "val" "7.5000E+08" )
+		)
+		( "LD"
+			( "val" "1.0000E-14" )
+		)
+		( "RLD"
+			( "val" "1.0000E+00" )
+		)
+		( "LS"
+			( "val" "1.0000E-14" )
+		)
+		( "CJOD"
+			( "val" "4.2720E-11" )
+		)
+		( "VJD"
+			( "val" "6.5320E-01" )
+		)
+		( "MD"
+			( "val" "4.7980E-01" )
+		)
+		( "BVD"
+			( "val" "550" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "2.6500E-07" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "0.25" )
+		( VDG "500" )
+		( VDS "500" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "1" )
+		( TJ "150" )
+		( RJC "125" )
+		( RCA "45" )
+	)
+)
+("awbvp0645"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.5822E+00" )
+		)
+		( "KP"
+			( "val" "5.2685E-01" )
+		)
+		( "LAMBDA"
+			( "val" "0.02" )
+		)
+		( "CGSO"
+			( "val" "85p" )
+		)
+		( "CGDO"
+			( "val" "10p" )
+		)
+		( "RG"
+			( "val" "1.4850E+01" )
+		)
+		( "RD"
+			( "val" "2.2034E+01" )
+		)
+		( "RS"
+			( "val" "7.7323E+00" )
+		)
+		( "RDS"
+			( "val" "6.9231E+07" )
+		)
+		( "LD"
+			( "val" "1.0000E-12" )
+		)
+		( "RLD"
+			( "val" "10" )
+		)
+		( "LS"
+			( "val" "1.0000E-12" )
+		)
+		( "RLS"
+			( "val" "55" )
+		)
+		( "ISD"
+			( "val" "1.0000E-12" )
+		)
+		( "RSD"
+			( "val" "0.02" )
+		)
+		( "ND"
+			( "val" "1" )
+		)
+		( "CJOD"
+			( "val" "2.4980E-11" )
+		)
+		( "VJD"
+			( "val" "4.0000E-01" )
+		)
+		( "MD"
+			( "val" "5.1560E-02" )
+		)
+		( "BVD"
+			( "val" "495" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "4.2850E-07" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "0.3" )
+		( VDG "450" )
+		( VDS "450" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "1" )
+		( TJ "150" )
+		( RJC "125" )
+		( RCA "45" )
+	)
+)
+("awbvp0645n2"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.5822E+00" )
+		)
+		( "KP"
+			( "val" "5.2685E-01" )
+		)
+		( "LAMBDA"
+			( "val" "0.02" )
+		)
+		( "CGSO"
+			( "val" "85p" )
+		)
+		( "CGDO"
+			( "val" "10p" )
+		)
+		( "RG"
+			( "val" "1.4850E+01" )
+		)
+		( "RD"
+			( "val" "2.2034E+01" )
+		)
+		( "RS"
+			( "val" "7.7323E+00" )
+		)
+		( "RDS"
+			( "val" "6.9231E+07" )
+		)
+		( "LD"
+			( "val" "1.0000E-12" )
+		)
+		( "RLD"
+			( "val" "10" )
+		)
+		( "LS"
+			( "val" "1.0000E-12" )
+		)
+		( "RLS"
+			( "val" "55" )
+		)
+		( "ISD"
+			( "val" "1.0000E-12" )
+		)
+		( "RSD"
+			( "val" "0.02" )
+		)
+		( "ND"
+			( "val" "1" )
+		)
+		( "CJOD"
+			( "val" "2.4980E-11" )
+		)
+		( "VJD"
+			( "val" "4.0000E-01" )
+		)
+		( "MD"
+			( "val" "5.1560E-02" )
+		)
+		( "BVD"
+			( "val" "495" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "4.2850E-07" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "0.5" )
+		( VDG "450" )
+		( VDS "450" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "6" )
+		( TJ "150" )
+		( RJC "21" )
+		( RCA "104" )
+	)
+)
+("awbvp0645n3"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.5822E+00" )
+		)
+		( "KP"
+			( "val" "5.2685E-01" )
+		)
+		( "LAMBDA"
+			( "val" "0.02" )
+		)
+		( "CGSO"
+			( "val" "85p" )
+		)
+		( "CGDO"
+			( "val" "10p" )
+		)
+		( "RG"
+			( "val" "1.4850E+01" )
+		)
+		( "RD"
+			( "val" "2.2034E+01" )
+		)
+		( "RS"
+			( "val" "7.7323E+00" )
+		)
+		( "RDS"
+			( "val" "6.9231E+07" )
+		)
+		( "LD"
+			( "val" "1.0000E-12" )
+		)
+		( "RLD"
+			( "val" "10" )
+		)
+		( "LS"
+			( "val" "1.0000E-12" )
+		)
+		( "RLS"
+			( "val" "55" )
+		)
+		( "ISD"
+			( "val" "1.0000E-12" )
+		)
+		( "RSD"
+			( "val" "0.02" )
+		)
+		( "ND"
+			( "val" "1" )
+		)
+		( "CJOD"
+			( "val" "2.4980E-11" )
+		)
+		( "VJD"
+			( "val" "4.0000E-01" )
+		)
+		( "MD"
+			( "val" "5.1560E-02" )
+		)
+		( "BVD"
+			( "val" "495" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "4.2850E-07" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "0.3" )
+		( VDG "450" )
+		( VDS "450" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "1" )
+		( TJ "150" )
+		( RJC "125" )
+		( RCA "45" )
+	)
+)
+("awbvp0645n5"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.5822E+00" )
+		)
+		( "KP"
+			( "val" "5.2685E-01" )
+		)
+		( "LAMBDA"
+			( "val" "0.02" )
+		)
+		( "CGSO"
+			( "val" "85p" )
+		)
+		( "CGDO"
+			( "val" "10p" )
+		)
+		( "RG"
+			( "val" "1.4850E+01" )
+		)
+		( "RD"
+			( "val" "2.2034E+01" )
+		)
+		( "RS"
+			( "val" "7.7323E+00" )
+		)
+		( "RDS"
+			( "val" "6.9231E+07" )
+		)
+		( "LD"
+			( "val" "1.0000E-12" )
+		)
+		( "RLD"
+			( "val" "10" )
+		)
+		( "LS"
+			( "val" "1.0000E-12" )
+		)
+		( "RLS"
+			( "val" "55" )
+		)
+		( "ISD"
+			( "val" "1.0000E-12" )
+		)
+		( "RSD"
+			( "val" "0.02" )
+		)
+		( "ND"
+			( "val" "1" )
+		)
+		( "CJOD"
+			( "val" "2.4980E-11" )
+		)
+		( "VJD"
+			( "val" "4.0000E-01" )
+		)
+		( "MD"
+			( "val" "5.1560E-02" )
+		)
+		( "BVD"
+			( "val" "495" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "4.2850E-07" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "0.5" )
+		( VDG "450" )
+		( VDS "450" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "45" )
+		( TJ "150" )
+		( RJC "2.7" )
+		( RCA "67.3" )
+	)
+)
+("awbvp0650"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.5822E+00" )
+		)
+		( "KP"
+			( "val" "5.2685E-01" )
+		)
+		( "LAMBDA"
+			( "val" "0.02" )
+		)
+		( "CGSO"
+			( "val" "85p" )
+		)
+		( "CGDO"
+			( "val" "10p" )
+		)
+		( "RG"
+			( "val" "1.4850E+01" )
+		)
+		( "RD"
+			( "val" "2.2034E+01" )
+		)
+		( "RS"
+			( "val" "7.7323E+00" )
+		)
+		( "RDS"
+			( "val" "6.9231E+07" )
+		)
+		( "LD"
+			( "val" "1.0000E-12" )
+		)
+		( "RLD"
+			( "val" "10" )
+		)
+		( "LS"
+			( "val" "1.0000E-12" )
+		)
+		( "RLS"
+			( "val" "55" )
+		)
+		( "ISD"
+			( "val" "1.0000E-12" )
+		)
+		( "RSD"
+			( "val" "0.02" )
+		)
+		( "ND"
+			( "val" "1" )
+		)
+		( "CJOD"
+			( "val" "2.4980E-11" )
+		)
+		( "VJD"
+			( "val" "4.0000E-01" )
+		)
+		( "MD"
+			( "val" "5.1560E-02" )
+		)
+		( "BVD"
+			( "val" "550" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "4.2850E-07" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "0.3" )
+		( VDG "500" )
+		( VDS "500" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "1" )
+		( TJ "150" )
+		( RJC "125" )
+		( RCA "45" )
+	)
+)
+("awbvp0650n2"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.5822E+00" )
+		)
+		( "KP"
+			( "val" "5.2685E-01" )
+		)
+		( "LAMBDA"
+			( "val" "0.02" )
+		)
+		( "CGSO"
+			( "val" "85p" )
+		)
+		( "CGDO"
+			( "val" "10p" )
+		)
+		( "RG"
+			( "val" "1.4850E+01" )
+		)
+		( "RD"
+			( "val" "2.2034E+01" )
+		)
+		( "RS"
+			( "val" "7.7323E+00" )
+		)
+		( "RDS"
+			( "val" "6.9231E+07" )
+		)
+		( "LD"
+			( "val" "1.0000E-12" )
+		)
+		( "RLD"
+			( "val" "10" )
+		)
+		( "LS"
+			( "val" "1.0000E-12" )
+		)
+		( "RLS"
+			( "val" "55" )
+		)
+		( "ISD"
+			( "val" "1.0000E-12" )
+		)
+		( "RSD"
+			( "val" "0.02" )
+		)
+		( "ND"
+			( "val" "1" )
+		)
+		( "CJOD"
+			( "val" "2.4980E-11" )
+		)
+		( "VJD"
+			( "val" "4.0000E-01" )
+		)
+		( "MD"
+			( "val" "5.1560E-02" )
+		)
+		( "BVD"
+			( "val" "550" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "4.2850E-07" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "0.5" )
+		( VDG "500" )
+		( VDS "500" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "6" )
+		( TJ "150" )
+		( RJC "21" )
+		( RCA "104" )
+	)
+)
+("awbvp0650n3"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.5822E+00" )
+		)
+		( "KP"
+			( "val" "5.2685E-01" )
+		)
+		( "LAMBDA"
+			( "val" "0.02" )
+		)
+		( "CGSO"
+			( "val" "85p" )
+		)
+		( "CGDO"
+			( "val" "10p" )
+		)
+		( "RG"
+			( "val" "1.4850E+01" )
+		)
+		( "RD"
+			( "val" "2.2034E+01" )
+		)
+		( "RS"
+			( "val" "7.7323E+00" )
+		)
+		( "RDS"
+			( "val" "6.9231E+07" )
+		)
+		( "LD"
+			( "val" "1.0000E-12" )
+		)
+		( "RLD"
+			( "val" "10" )
+		)
+		( "LS"
+			( "val" "1.0000E-12" )
+		)
+		( "RLS"
+			( "val" "55" )
+		)
+		( "ISD"
+			( "val" "1.0000E-12" )
+		)
+		( "RSD"
+			( "val" "0.02" )
+		)
+		( "ND"
+			( "val" "1" )
+		)
+		( "CJOD"
+			( "val" "2.4980E-11" )
+		)
+		( "VJD"
+			( "val" "4.0000E-01" )
+		)
+		( "MD"
+			( "val" "5.1560E-02" )
+		)
+		( "BVD"
+			( "val" "550" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "4.2850E-07" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "0.3" )
+		( VDG "500" )
+		( VDS "500" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "1" )
+		( TJ "150" )
+		( RJC "125" )
+		( RCA "45" )
+	)
+)
+("awbvp0650n5"
+	(Creator "Device property file created by analog_uprev on Thu Apr  5 12:09:10 IST 2001")
+	("device_info"
+		( MODEL_TYPE 518 )
+		( SYMBOL_NAME "PMOSFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.5822E+00" )
+		)
+		( "KP"
+			( "val" "5.2685E-01" )
+		)
+		( "LAMBDA"
+			( "val" "0.02" )
+		)
+		( "CGSO"
+			( "val" "85p" )
+		)
+		( "CGDO"
+			( "val" "10p" )
+		)
+		( "RG"
+			( "val" "1.4850E+01" )
+		)
+		( "RD"
+			( "val" "2.2034E+01" )
+		)
+		( "RS"
+			( "val" "7.7323E+00" )
+		)
+		( "RDS"
+			( "val" "6.9231E+07" )
+		)
+		( "LD"
+			( "val" "1.0000E-12" )
+		)
+		( "RLD"
+			( "val" "10" )
+		)
+		( "LS"
+			( "val" "1.0000E-12" )
+		)
+		( "RLS"
+			( "val" "55" )
+		)
+		( "ISD"
+			( "val" "1.0000E-12" )
+		)
+		( "RSD"
+			( "val" "0.02" )
+		)
+		( "ND"
+			( "val" "1" )
+		)
+		( "CJOD"
+			( "val" "2.4980E-11" )
+		)
+		( "VJD"
+			( "val" "4.0000E-01" )
+		)
+		( "MD"
+			( "val" "5.1560E-02" )
+		)
+		( "BVD"
+			( "val" "550" )
+		)
+		( "IBVD"
+			( "val" "1" )
+		)
+		( "TTD"
+			( "val" "4.2850E-07" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "BYPASS_L" )
+			( "MTYPE" )
+	)
+	)
+	("device_max_ops"
+		( ID "0.5" )
+		( VDG "500" )
+		( VDS "500" )
+		( VGSF "20" )
+		( VGSR "20" )
+		( PDM "45" )
+		( TJ "150" )
+		( RJC "2.7" )
+		( RCA "67.3" )
+	)
+)

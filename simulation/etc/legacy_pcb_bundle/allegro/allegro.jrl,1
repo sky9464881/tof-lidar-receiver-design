@@ -1,0 +1,65 @@
+\t (00:00:06) allegro 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:07)     Journal start - Tue Apr  8 10:20:03 2025
+\t (00:00:07)         Host=BOOK-QTRCVV9COM User=user Pid=14608 CPUs=12
+\t (00:00:07) CmdLine= c:\cadence\orcadx_24.1\tools\bin\allegro.exe C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\lidar_pcb\allegro\lidar_pcb.brd
+\t (00:00:07) 
+\t (00:00:07) Loading axlcore.cxt 
+\t (00:00:07) Opening existing design...
+\w (00:00:07) WARNING(SPMHDB-213): DRC set to "out of date". The current product selection supports a different DRC capability than what is saved in the design.
+\i (00:00:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "lidar_pcb"
+\d (00:00:08) Design opened: C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/lidar_pcb/allegro/lidar_pcb.brd
+\i (00:00:08) trapsize 5669
+\i (00:00:08) trapsize 5820
+\i (00:00:08) trapsize 5669
+\i (00:00:08) trapsize 4662
+\i (00:00:08) trapsize 4662
+\t (00:00:08) > Sending response DoneOpenBoard
+\i (00:00:09) generaledit 
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 575.9640 326.7686
+\i (00:00:10) trapsize 2331
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 575.4978 326.2091
+\i (00:00:10) trapsize 1166
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 575.6143 326.2325
+\i (00:00:10) trapsize 583
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 575.6377 326.2208
+\i (00:00:10) trapsize 291
+\i (00:00:10) zoom in 1 
+\i (00:00:10) setwindow pcb
+\i (00:00:10) zoom in 575.6377 326.2209
+\i (00:00:10) trapsize 146
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 575.5824 326.2180
+\i (00:00:11) trapsize 291
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 575.5824 326.2181
+\i (00:00:11) trapsize 583
+\i (00:00:11) zoom out 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom out 575.5824 326.2180
+\i (00:00:11) trapsize 1166
+\i (00:00:12) roam start
+\i (00:00:12) roam x 16
+\i (00:00:12) roam x 576
+\i (00:00:12) roam x 384
+\i (00:00:12) roam end
+\i (00:00:13) prepopup 592.3596 323.9336
+\i (00:00:14) pick grid 590.2849 323.5606
+\t (00:00:14) last pick:  590.2750 323.5500
+\i (00:00:15) exit 
+\t (00:00:18) Lic Summary:
+[10:20:14.438712] Cdslmd servers:C:\Users\user\AppData\Roaming\Cadence\VBL\SPB\license\license.txt
+[10:20:14.967000] Feature usage summary:
+[10:20:14.967000] OrCAD_X_PCB_Professional_Plus
+[10:20:14.967000] OrCAD_X_Professional_Plus
+
+\t (00:00:18)     Journal end - Tue Apr  8 10:20:14 2025

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : header4.dra                                   )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Wed Jun 14 16:56:27 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/project/pulsed_Lidar/design/version1/footprint
+    Name      = header4.psm
+    User      = hans
+    Machine   = DESKTOP-I7FV0E6
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

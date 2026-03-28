@@ -1,0 +1,239 @@
+*$ model description: "awbha2420"
+*b Device model created by analog_uprev for ha2420 on Tue Feb 27 17:32:17 IST 2001
+.subckt awbha2420   50 11 21 4 8 60 12 9 2 19
++ params:
++ AVOL=80
++ IB=4.0e-8
++ IBOS=1.0e-8
++ IDR=.6e-12
++ KDR=7e-2
++ SR=5.0
++ VOS=2.0e-3
+xinstha2420   50 11 21 4 8 60 12 9 2 19 model708_ha2420    params:  avol={AVOL}
++  ib={IB}
++  ibos={IBOS}
++  idr={IDR}
++  kdr={KDR}
++  sr={SR}
++  vos={VOS}
++ 
+.ends  awbha2420
+*$ end model description: "awbha2420"
+*
+*
+*$ model description: "awbha5320"
+*a Device model created by analog_uprev for ha5320 on Tue Feb 27 17:32:17 IST 2001
+
+
+.subckt awbha5320   2 5 4 9 8 6 99 11 13 10
+* .SUBCKT HA5320 2 99 4 5 6 8 9 10 11 13
+*                A  G C B F E D  J  H  I
+* A    CP    2         * E    SIG GND  8
+* G    GND   99        * D    S_H      9
+* C    IN+   4         * J    V+       10
+* B    IN-   5         * H    V-       11
+* F    INT   6         * I    VOUT     13
+*
+*  BUFFER
+RDIN1    9    10             1.5E6
+RB1D     10   22             100K
+MB1      22   9    99   99   NM1 L=1U W=2M
+*  FOR APERTURE TIME
+RAP      22   23             250K
+CAP      23   99             0.1P
+EB2G     25   99   POLY(2) 10 99 23 99
++                    0 1 -1
+MB2      7    25   99   99   MSW L=1U W=2
+RB2D     26   7              100K
+DZO      7    27             DZO
+RZO      27   99             1MEG
+VB2D     26   99             11
+*  AMP1
+CIN      4    5              1P
+EVOFF    4    31   34   0    -0.48M
+IVOFFT   0    34             1E-2
+RVOFFT   0    34             1E2 TC=0.025 0
+Q1       16   31   18        TA1
+Q2       33   5    19        TA2
+IEE      17   11             156U
+DVINRG   35   17             D
+VINRGN   35   11             3
+VINRGP   10   36             2.3
+DINP     5    36             D
+DINN     4    36             D
+RC1      36   16             22.951K
+RC2      36   33             22.951K
+RE1      18   17             22.619K
+RE2      19   17             22.619K
+GAMP1    12   99   33  16    1.4767E-3
+RAMP1    12   99             10K
+GCMMR    99   12   POLY(2)   4 99 5 99
++                   0 0.633E-8 -0.633E-8
+*  SWITCH
+GSW      12   2    POLY(2) 12 2  27 99
++                        0 0 0 0 1
+RLEAK    99   2              100MEG
+CH       13   2              100P
+*   CP IS FOR CHARGE TRANSFER
+CP       2    22             0.028P
+*   C_HDFD IS FOR HOLD MODE FEEDTHROUGH
+CHDFD    2    12             2.135F
+*  AMP2
+RA2IN    8    99             1
+IA2IN    99   8              100P
+RAMP2    6    99             100K
+GAMP2    6    99   2   8     1.3544
+CAMP2    6    99             89.1N
+EVOP2    54   99   10  99    -2.42    
+EVON2    55   99   11  99    2.42     
+*DCLP2    6    54             D
+DCLP2    54    6             D
+DCLN2    55   6              D
+ROUT     57   99             1
+GOUT     99   57   6   99    1
+VIOUT    13   57             0
+RL       13   99             1MEG
+RWER     10   11             2727.3
+FPWER    10   99   VIOUT     1
+.MODEL  NM1  NMOS  VTO=0.8
+.MODEL  MSW  NMOS  VTO=7.5
+.MODEL  D    D     IS=1.0E-10 N=0.66667
+* SPECTRE: + IMAX=1000
+.MODEL  DZO  D     IS=1.0E-14
+* SPECTRE: + IMAX=1000
+.MODEL  TA1  NPN   IS=8.0E-16 BF=917.65
+.MODEL  TA2  NPN   IS=8.0E-16 BF=1418.18
+.ends
+*$ end model description: "awbha5320"
+*
+*
+*$ model description: "awblf398h"
+*a Device model created by analog_uprev for lf398h on Tue Feb 27 17:32:17 IST 2001
+
+
+.subckt awblf398h   3 8 7 4 6 5 1
+*  INPUT STAGE
+VOS 10 3 DC 2E-3
+EPR 11 10 1 4 3.162E-6
+RIN 11 100 1E+10
+GIB 100 3 16 0 1E-9
+IIB 0 16 1
+RIB 16 0 3.5 TC=-.02762 3.81E-5
+*  INTERMEDIATE STAGE
+EA 12 100 11 100 1
+MSD 12 13 14 15 SDS
+RMS 15 100 1MEG
+ES 13 100 21 22 500
+RC 14 6 300
+RCC 6 100 5E+11
+CF 3 14 0.32P
+* LOGIC CONTROL
+RL 8 7 1.5E+6
+EL 20 0 8 7 1
+RE 20 21 70
+DL 24 20 DMOD
+RDL 21 24 3.5
+VE 23 0 1
+CC 21 6 2P
+CE 21 22 0.1U
+DE 21 23 DMOD
+VL 22 0 1.4
+* OUTPUT STAGE
+ERF 1 100 1 4 .5
+DD1 31 32 MID
+DD2 33 31 MID
+VF2 32 100 0
+VF3 100 33 0
+FF1 100 31 VF1 1
+GOT 100 34 45 100 2
+ROT 100 34 0.5
+RO1 1 5 200MEG
+RO2 5 4 200MEG
+RAC 34 35 0.1
+VF1 35 5 0
+RP1 1 100 3.5K
+RP2 4 100 3.5K
+FF2 100 1 VF2 -1
+FF3 4 100 VF3 -1
+* OUTPUT SHORT CIRCUIT CURRENT
+GR 100 45 6 100 1E-3
+RR 100 45 1K
+MD1 45 42 100 43 SDS
+MD2 45 44 100 43 SDS
+RNM 43 100 1MEG
+HF1 42 100 POLY(1) VF1 -65 5000
+HF2 44 100 POLY(1) VF1 -32.5 -5000
+.MODEL SDS NMOS KP=1
+.MODEL DMOD D
+* SPECTRE: + IMAX=1000
+.MODEL MID D
+* SPECTRE: + IMAX=1000
+.ends
+*$ end model description: "awblf398h"
+*
+*
+*$ model description: "awblf398j"
+*a Device model created by analog_uprev for lf398j on Tue Feb 27 17:32:17 IST 2001
+
+
+.subckt awblf398j   3 8 7 4 6 5 1
+*  INPUT STAGE
+VOS 10 3 DC 2E-3
+EPR 11 10 1 4 3.162E-6
+RIN 11 100 1E+10
+GIB 100 3 16 0 1E-9
+IIB 0 16 1
+RIB 16 0 3.5 TC=-.02762 3.81E-5
+*  INTERMEDIATE STAGE
+EA 12 100 11 100 1
+MSD 12 13 14 15 SDS
+RMS 15 100 1MEG
+ES 13 100 21 22 500
+RC 14 6 300
+RCC 6 100 5E+11
+CF 3 14 0.32P
+* LOGIC CONTROL
+RL 8 7 1.5E+6
+EL 20 0 8 7 1
+RE 20 21 70
+DL 24 20 DMOD
+RDL 21 24 3.5
+VE 23 0 1
+CC 21 6 2P
+CE 21 22 0.1U
+DE 21 23 DMOD
+VL 22 0 1.4
+* OUTPUT STAGE
+ERF 1 100 1 4 .5
+DD1 31 32 MID
+DD2 33 31 MID
+VF2 32 100 0
+VF3 100 33 0
+FF1 100 31 VF1 1
+GOT 100 34 45 100 2
+ROT 100 34 0.5
+RO1 1 5 200MEG
+RO2 5 4 200MEG
+RAC 34 35 0.1
+VF1 35 5 0
+RP1 1 100 3.5K
+RP2 4 100 3.5K
+FF2 100 1 VF2 -1
+FF3 4 100 VF3 -1
+* OUTPUT SHORT CIRCUIT CURRENT
+GR 100 45 6 100 1E-3
+RR 100 45 1K
+MD1 45 42 100 43 SDS
+MD2 45 44 100 43 SDS
+RNM 43 100 1MEG
+HF1 42 100 POLY(1) VF1 -65 5000
+HF2 44 100 POLY(1) VF1 -32.5 -5000
+.MODEL SDS NMOS KP=1
+.MODEL DMOD D
+* SPECTRE: + IMAX=1000
+.MODEL MID D
+* SPECTRE: + IMAX=1000
+.ends
+*$ end model description: "awblf398j"
+*
+*

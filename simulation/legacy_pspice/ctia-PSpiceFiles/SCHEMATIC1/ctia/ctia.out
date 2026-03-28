@@ -1,0 +1,95 @@
+
+**** 12/24/24 02:05:33 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-ctia"  [ c:\users\msdl3\desktop\orcad file\80db_lidar\ctia-pspicefiles\schematic1\ctia.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "ctia.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\MSDL3\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "C:\Cadence\SPB_17.2\tools\capture\library\pspice\opa855_pspice\opa855_a.lib" 
+.lib "C:\Cadence\SPB_17.2\tools\capture\library\pspice\sboc036d\opa695_a.lib" 
+.lib "C:\Cadence\SPB_17.2\tools\capture\library\pspice\opa892\opa892.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 20.ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source CTIA
+E_U2         N14604 0 VALUE {LIMIT(V(0,N14560)*1E6,-15V,+15V)}
+E_U3         N14868 0 VALUE {LIMIT(V(0,N14638)*1E6,-15V,+15V)}
+C_C1         N14604 N14638  1n  TC=0,0 
+R_R1         N14604 N14638  1k TC=0,0 
+R_R2         N14560 N14604  5Meg TC=0,0 
+C_C2         N14560 N14604  0.2p  TC=0,0 
+R_R3         N14638 N14868  1k TC=0,0 
+R_R4         0 N14868  1 TC=0,0 
+V_V1         N14560 0  
++PULSE 0 200mV 1ns 1.4ns 1.4ns 3ns 10ns
+
+**** RESUMING ctia.cir ****
+.END
+
+**** 12/24/24 02:05:33 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-ctia"  [ c:\users\msdl3\desktop\orcad file\80db_lidar\ctia-pspicefiles\schematic1\ctia.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N14560)    0.0000 (N14604)    0.0000 (N14638)    0.0000 (N14868)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 12/24/24 02:05:33 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-ctia"  [ c:\users\msdl3\desktop\orcad file\80db_lidar\ctia-pspicefiles\schematic1\ctia.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =        0.00
+

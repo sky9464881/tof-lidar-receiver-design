@@ -1,0 +1,20 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : Untitled.brd                                  )
+(    Software Version : 24.1S003                                      )
+(    Date/Time        : Wed Apr  9 21:24:41 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Placing page "1"
+	Placed symbol:  R12(402) / MCT06030C4020FP500_RESC1608X55N_DISCRETE_MCT06030C4020FP500_(RESC1608X55N) / RESC1608X55N at (57.7450 173.6279)
+	Placed symbol:  C40(6.8UF) / TAJA685K020R_CAPPM3216X180N_DISCRETE_TAJA685K020R / CAPPM3216X180N at (16.6450 161.7279)
+	Placed symbol:  C41(0.1UF) / C0603G104K5RACT250_C0603_DISCRETE_C0603G104K5RACT250 / C0603 at (31.1950 160.6700)
+	Placed symbol:  R8(200) / RA73F1J200RBTDF_RESC1608X58N_DISCRETE_RA73F1J200RBTDF / RESC1608X58N at (2.7200 148.5200)
+	Placed symbol:  R11(50OHM) / P0603E50R0BBT_RESC1508X63N_DISCRETE_P0603E50R0BBT / RESC1508X63N at (44.7450 137.0200)
+
+Placed 5 of 5 symbols.

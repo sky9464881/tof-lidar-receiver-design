@@ -1,0 +1,490 @@
+*
+.subckt awb494_sac 5 2 13 10
++ params:
++ SWITCHTIME=0.5e-6
++ DEAD_TIME=1e-6
++ PERIOD=25e-6
++ VC_MAX_DTY=0.7
++ VC_MIN_DTY=3.5
++ INDUCTANCE=100E-6
+xinst494_sac 5 2 13 10 model591_494_sac
++ params:
++ SWITCHTIME={SWITCHTIME}
++ DEAD_TIME={DEAD_TIME}
++ PERIOD={PERIOD}
++ VC_MAX_DTY={VC_MAX_DTY}
++ VC_MIN_DTY={VC_MIN_DTY}
++ INDUCTANCE={INDUCTANCE}
+.ends awb494_sac
+
+*b Device model created by analog_uprev for 1524_sac on Wed Aug  1 19:41:55 IST 2007
+.subckt awb1524_sac   2 6 5 69
++ params:
++ AVMAX=80
++ DEAD_TIME=1E-6
++ GBW=3E+6
++ GM=2E-3
++ MAX_V=3.5
++ MIN_V=1
++ PERIOD=20E-6
++ SWITCHTIME=.5E-6
+xinst1524_sac   2 6 5 69 model591_1524_sac    params:  avmax={AVMAX}
++  dead_time={DEAD_TIME}
++  gbw={GBW}
++  gm={GM}
++  max_v={MAX_V}
++  min_v={MIN_V}
++  period={PERIOD}
++  switchtime={SWITCHTIME}
++ 
+.ends  awb1524_sac
+
+*b Device model created by analog_uprev for 1524a_sac on Wed Aug  1 19:41:55 IST 2007
+.subckt awb1524a_sac   17 13 7 2 4 6 25 26
++ params:
++ AVMAX=80
++ DEAD_TIME=1E-6
++ GBW=3E+6
++ GM=2.3E-3
++ MAX_V=3.5
++ MIN_V=0.8
++ PERIOD=20E-6
++ SWITCHTIME=0.1E-6
++ UVLO_ON_OFF=0
+xinst1524a_sac   17 13 7 2 4 6 25 26 model591_1524a_sac    params:  avmax={AVMAX}
++  dead_time={DEAD_TIME}
++  gbw={GBW}
++  gm={GM}
++  max_v={MAX_V}
++  min_v={MIN_V}
++  period={PERIOD}
++  switchtime={SWITCHTIME}
++  uvlo_on_off={UVLO_ON_OFF}
+.ends  awb1524a_sac
+
+*b Device model created by analog_uprev for 1525a_sac on Wed Aug  1 19:41:55 IST 2007
+.subckt awb1525a_sac   10 1 2 6
++ params:
++ DEAD_TIME=1E-6
++ MAX_V=3.3
++ MIN_V=0.9
++ PERIOD=50E-6
++ SWITCHTIME=0.5E-6
+xinst1525a_sac   10 1 2 6 model591_1525a_sac    params:  dead_time={DEAD_TIME}
++  max_v={MAX_V}
++  min_v={MIN_V}
++  period={PERIOD}
++  switchtime={SWITCHTIME}
+.ends  awb1525a_sac
+
+*b Device model created by analog_uprev for 1526_sac on Wed Aug  1 19:41:55 IST 2007
+.subckt awb1526_sac   7 3 5 9
++ params:
++ DEAD_TIME=5E-6
++ MAX_V=3
++ MIN_V=1
++ PERIOD=50E-6
++ SWITCHTIME=0.5E-6
+xinst1526_sac   7 3 5 9 model591_1526_sac    params:  dead_time={DEAD_TIME}
++  max_v={MAX_V}
++  min_v={MIN_V}
++  period={PERIOD}
++  switchtime={SWITCHTIME}
+.ends  awb1526_sac
+
+*b Device model created by analog_uprev for 1527a_sac on Wed Aug  1 19:41:55 IST 2007
+.subckt awb1527a_sac   6 2 1 10
++ params:
++ DEAD_TIME=1E-6
++ MAX_V=3.3
++ MIN_V=0.9
++ PERIOD=50E-6
++ SWITCHTIME=0.5E-6
+xinst1527a_sac   6 2 1 10 model591_1527a_sac    params:  dead_time={DEAD_TIME}
++  max_v={MAX_V}
++  min_v={MIN_V}
++  period={PERIOD}
++  switchtime={SWITCHTIME}
+.ends  awb1527a_sac
+
+*
+.subckt awb1577_sac 39 37 47 50 6 11 7 23 3 55 2	 params:
++ STRG_TIME=.1e-6
++ INDUCTANCE=100e-6
++ DEAD_TIME=1e-9
++ IND_LEAK=1e-6
++ TRNS_RATIO=1
++ T_METER=0
++ T_RJA=55
++ T_AMBNT=26
++ T_S_UF=1
++ T_FBK_BST=1
+
+xinst1577_sac 39 37 47 50 6 11 7 23 3 55 2 model591_1577_sac
++ params:
++ STRG_TIME={STRG_TIME}
++ INDUCTANCE={INDUCTANCE}
++ DEAD_TIME={DEAD_TIME}
++ IND_LEAK={IND_LEAK}
++ TRNS_RATIO={TRNS_RATIO}
++ T_METER={T_METER}
++ T_RJA={T_RJA}
++ T_AMBNT={T_AMBNT}
++ T_S_UF={T_S_UF}
++ T_FBK_BST={T_FBK_BST}
+
+.ends awb1577_sac
+
+
+
+*b Device model created by analog_uprev for 1825_sac on Thu Aug  2 09:49:19 IST 2007
+.subckt awb1825_sac   42 4 3 63 29 28 18 19 10 12 17 24 30 31 60
++ params:
++ COMP_SLOPE=0
++ DEAD_TIME=1E-6
++ ILIM_GAIN=0
++ INDUCTANCE=100E-6
++ ISENS_GAIN=1
++ N_FWD_MODE=1
++ PERIOD=1E-5
++ T_STORAGE=0
++ VF_DIODE=0
+xinst1825_sac   42 4 3 63 29 28 18 19 10 12 17 24 30 31 60 model591_1825_sac    params:  comp_slope={COMP_SLOPE}
++  dead_time={DEAD_TIME}
++  ilim_gain={ILIM_GAIN}
++  inductance={INDUCTANCE}
++  isens_gain={ISENS_GAIN}
++  n_fwd_mode={N_FWD_MODE}
++  period={PERIOD}
++  t_storage={T_STORAGE}
++  vf_diode={VF_DIODE}
+.ends  awb1825_sac
+
+*
+.subckt awb1842_sac 6 32 8 17 25 9 30 34 2 5 1
++ params: 
++  VF_DIODE=0
++  T_STORAGE=0
++  PERIOD=10e-6
++  N_FWD_MODE=1
++  COMP_SLOPE=0
++  INDUCTANCE=100e-6
++  ISENS_GAIN=1
++  DEAD_TIME=1e-6
+xinst1842_sac 6 32 8 17 25 9 30 34 2 5 1 model591_1842_sac
++ params:
++  VF_DIODE={VF_DIODE}
++  T_STORAGE={T_STORAGE}
++  PERIOD={PERIOD}
++  N_FWD_MODE={N_FWD_MODE}
++  COMP_SLOPE={COMP_SLOPE}
++  INDUCTANCE={INDUCTANCE}
++  ISENS_GAIN={ISENS_GAIN}
++  DEAD_TIME={DEAD_TIME}
+.ends awb1842_sac
+
+*b Device model created by analog_uprev for 1843_sac on Mon Jul 30 15:27:52 IST 2007
+.subckt awb1843_sac   6 32 8 17 25 9 30 34 2 5 1
++ params:
++ COMP_SLOPE=0
++ DEAD_TIME=1E-6
++ INDUCTANCE=100E-6
++ ISENS_GAIN=1
++ N_FWD_MODE=1
++ PERIOD=10E-6
++ T_STORAGE=0
++ VF_DIODE=0
+xinst1843_sac   6 32 8 17 25 9 30 34 2 5 1 model591_1843_sac    params:  comp_slope={COMP_SLOPE}
++  dead_time={DEAD_TIME}
++  inductance={INDUCTANCE}
++  isens_gain={ISENS_GAIN}
++  n_fwd_mode={N_FWD_MODE}
++  period={PERIOD}
++  t_storage={T_STORAGE}
++  vf_diode={VF_DIODE}
+.ends  awb1843_sac
+
+
+*b Device model created by analog_uprev for 1844_sac on Wed Aug  1 18:56:38 IST 2007
+.subckt awb1844_sac   6 32 8 17 25 9 30 34 2 5 1
++ params:
++ COMP_SLOPE=0
++ DEAD_TIME=1E-6
++ INDUCTANCE=100E-6
++ ISENS_GAIN=1
++ N_FWD_MODE=1
++ PERIOD=10E-6
++ T_STORAGE=0
++ VF_DIODE=0
+xinst1844_sac   6 32 8 17 25 9 30 34 2 5 1 model591_1844_sac    params:  comp_slope={COMP_SLOPE}
++  dead_time={DEAD_TIME}
++  inductance={INDUCTANCE}
++  isens_gain={ISENS_GAIN}
++  n_fwd_mode={N_FWD_MODE}
++  period={PERIOD}
++  t_storage={T_STORAGE}
++  vf_diode={VF_DIODE}
+.ends  awb1844_sac
+
+*
+.subckt awb1845_sac 6 32 8 17 25 9 30 34 2 5 1
++  params: 
++  VF_DIODE=0
++  T_STORAGE=0
++  PERIOD=10e-6
++  N_FWD_MODE=1
++  COMP_SLOPE=0
++  INDUCTANCE=100e-6
++  ISENS_GAIN=1
++  DEAD_TIME=1e-6
+xinst1845_sac 6 32 8 17 25 9 30 34 2 5 1 model591_1845_sac
++ params:
++  VF_DIODE={VF_DIODE}
++  T_STORAGE={T_STORAGE}
++  PERIOD={PERIOD}
++  N_FWD_MODE={N_FWD_MODE}
++  COMP_SLOPE={COMP_SLOPE}
++  INDUCTANCE={INDUCTANCE}
++  ISENS_GAIN={ISENS_GAIN}
++  DEAD_TIME={DEAD_TIME}
+.ends awb1845_sac
+
+*b Device model created by analog_uprev for 1846_sac on Mon Jul 30 15:16:23 IST 2007
+.subckt awb1846_sac   28 39 1 5 21 33 35 40 23 24 17 8 36 30
++ params:
++ COMP_SLOPE=0
++ DEAD_TIME=1E-6
++ INDUCTANCE=100E-6
++ ISENS_GAIN=1
++ N_FWD_MODE=1
++ PERIOD=1E-5
++ T_STORAGE=0
++ VF_DIODE=0
+xinst1846_sac   28 39 1 5 21 33 35 40 23 24 17 8 36 30 model591_1846_sac    params:  comp_slope={COMP_SLOPE}
++  dead_time={DEAD_TIME}
++  inductance={INDUCTANCE}
++  isens_gain={ISENS_GAIN}
++  n_fwd_mode={N_FWD_MODE}
++  period={PERIOD}
++  t_storage={T_STORAGE}
++  vf_diode={VF_DIODE}
+.ends  awb1846_sac
+
+*b Device model created by analog_uprev for 1847_sac on Thu Aug  2 09:49:19 IST 2007
+.subckt awb1847_sac   30 36 8 17 24 23 40 35 33 21 5 1 39 28
++ params:
++ COMP_SLOPE=0
++ DEAD_TIME=1E-6
++ INDUCTANCE=100E-6
++ ISENS_GAIN=1
++ N_FWD_MODE=1
++ PERIOD=10E-6
++ T_STORAGE=0
++ VF_DIODE=0
+xinst1847_sac   30 36 8 17 24 23 40 35 33 21 5 1 39 28 model591_1847_sac    params:  comp_slope={COMP_SLOPE}
++  dead_time={DEAD_TIME}
++  inductance={INDUCTANCE}
++  isens_gain={ISENS_GAIN}
++  n_fwd_mode={N_FWD_MODE}
++  period={PERIOD}
++  t_storage={T_STORAGE}
++  vf_diode={VF_DIODE}
+.ends  awb1847_sac
+
+*b Device model created by analog_uprev for pwmbck on Thu Aug  2 10:02:24 IST 2007
+.subckt awbpwmbck   1 2 3 4 5
++ params:
++ R_OUT=0.01
++ TRNS_RATIO=1
+xinstpwmbck   1 2 3 4 5 model591_pwmbck    params:  r_out={R_OUT}
++  trns_ratio={TRNS_RATIO}
+.ends  awbpwmbck
+
+*b Device model created by analog_uprev for pwmbckd on Thu Aug  2 10:02:24 IST 2007
+.subckt awbpwmbckd   19 17 8 15 3 18 13
++ params:
++ INDUCTANCE=1E-3
++ PERIOD=1E-5
++ R_INPUT=1E-4
++ R_SENSE=1E-4
++ TRNS_RATIO=1
+xinstpwmbckd   19 17 8 15 3 18 13 model591_pwmbckd    params:  inductance={INDUCTANCE}
++  period={PERIOD}
++  r_input={R_INPUT}
++  r_sense={R_SENSE}
++  trns_ratio={TRNS_RATIO}
+.ends  awbpwmbckd
+
+*b Device model created by analog_uprev for pwmbst on Thu Aug  2 10:02:24 IST 2007
+.subckt awbpwmbst   1 2 3 4 5
++ params:
++ R_IN=0.01
++ TRNS_RATIO=1
+xinstpwmbst   1 2 3 4 5 model591_pwmbst    params:  r_in={R_IN}
++  trns_ratio={TRNS_RATIO}
+.ends  awbpwmbst
+
+*b Device model created by analog_uprev for pwmbstd on Thu Aug  2 10:02:24 IST 2007
+.subckt awbpwmbstd   16 15 12 10 11 3 8
++ params:
++ INDUCTANCE=100E-6
++ PERIOD=10E-6
++ TRNS_RATIO=1
+xinstpwmbstd   16 15 12 10 11 3 8 model591_pwmbstd    params:  inductance={INDUCTANCE}
++  period={PERIOD}
++  trns_ratio={TRNS_RATIO}
+.ends  awbpwmbstd
+
+*b Device model created by analog_uprev for pwmflyd on Thu Aug  2 10:02:24 IST 2007
+.subckt awbpwmflyd   17 16 8 6 14 3 19
++ params:
++ INDUCTANCE=1E-3
++ PERIOD=1E-5
++ R_INPUT=1E-4
++ R_SENSE=1E-4
++ TRNS_RATIO=1
+xinstpwmflyd   17 16 8 6 14 3 19 model591_pwmflyd    params:  inductance={INDUCTANCE}
++  period={PERIOD}
++  r_input={R_INPUT}
++  r_sense={R_SENSE}
++  trns_ratio={TRNS_RATIO}
+.ends  awbpwmflyd
+
+*b Device model created by analog_uprev for pwmxfm on Thu Aug  2 10:02:24 IST 2007
+.subckt awbpwmxfm   1 2 3 4 5
++ params:
++ R_OUT=0.01
++ TRNS_RATIO=1
+xinstpwmxfm   1 2 3 4 5 model591_pwmxfm    params:  r_out={R_OUT}
++  trns_ratio={TRNS_RATIO}
+.ends  awbpwmxfm
+
+*b Device model created by analog_uprev for uc1854_sac on Thu Aug  2 14:19:58 IST 2007
+.subckt awbuc1854_sac   43 33 59 27 5 4 7 67 1 72 44 55 9 56 53 57
++ params:
++ AVCA=110
++ AVVA=100
++ DEAD_TIME=100N
++ GBWCA=900K
++ GBWVA=500K
++ ICCOFF=1.5M
++ ICCON=10M
++ PERIOD=10U
++ SRCA=2MEG
++ SRVA=2MEG
++ SS_ON_OFF=1
++ UVLO_ON_OFF=0
++ VMAXVA=5.75
++ VOSCA=2M
++ VOSVA=4M
++ VREF=7.5
++ VSAWMAX=6.3
++ VSAWMIN=1.1
++ VTPKLMT=0
+xinstuc1854_sac   43 33 59 27 5 4 7 67 1 72 44 55 9 56 53 57 model591_uc1854_sac    params:  avca={AVCA}
++  avva={AVVA}
++  dead_time={DEAD_TIME}
++  gbwca={GBWCA}
++  gbwva={GBWVA}
++  iccoff={ICCOFF}
++  iccon={ICCON}
++  period={PERIOD}
++  srca={SRCA}
++  srva={SRVA}
++  ss_on_off={SS_ON_OFF}
++  uvlo_on_off={UVLO_ON_OFF}
++  vmaxva={VMAXVA}
++  vosca={VOSCA}
++  vosva={VOSVA}
++  vref={VREF}
++  vsawmax={VSAWMAX}
++  vsawmin={VSAWMIN}
++  vtpklmt={VTPKLMT}
+.ends  awbuc1854_sac
+
+*b Device model created by analog_uprev for uc2854_sac on Thu Aug  2 14:19:58 IST 2007
+.subckt awbuc2854_sac   43 33 59 27 5 4 7 67 1 72 44 55 9 56 53 57
++ params:
++ AVCA=110
++ AVVA=100
++ DEAD_TIME=100N
++ GBWCA=900K
++ GBWVA=500K
++ ICCOFF=1.5M
++ ICCON=10M
++ PERIOD=10U
++ SRCA=2MEG
++ SRVA=2MEG
++ SS_ON_OFF=1
++ UVLO_ON_OFF=0
++ VMAXVA=5.75
++ VOSCA=2M
++ VOSVA=4M
++ VREF=7.5
++ VSAWMAX=6.3
++ VSAWMIN=1.1
++ VTPKLMT=0
+xinstuc2854_sac   43 33 59 27 5 4 7 67 1 72 44 55 9 56 53 57 model591_uc2854_sac    params:  avca={AVCA}
++  avva={AVVA}
++  dead_time={DEAD_TIME}
++  gbwca={GBWCA}
++  gbwva={GBWVA}
++  iccoff={ICCOFF}
++  iccon={ICCON}
++  period={PERIOD}
++  srca={SRCA}
++  srva={SRVA}
++  ss_on_off={SS_ON_OFF}
++  uvlo_on_off={UVLO_ON_OFF}
++  vmaxva={VMAXVA}
++  vosca={VOSCA}
++  vosva={VOSVA}
++  vref={VREF}
++  vsawmax={VSAWMAX}
++  vsawmin={VSAWMIN}
++  vtpklmt={VTPKLMT}
+.ends  awbuc2854_sac
+
+*b Device model created by analog_uprev for uc3854_sac on Thu Aug  2 14:19:58 IST 2007
+.subckt awbuc3854_sac   43 33 59 27 5 4 7 67 1 72 44 55 9 56 53 57
++ params:
++ AVCA=110
++ AVVA=100
++ DEAD_TIME=100N
++ GBWCA=900K
++ GBWVA=500K
++ ICCOFF=1.5M
++ ICCON=10M
++ PERIOD=10U
++ SRCA=2MEG
++ SRVA=2MEG
++ SS_ON_OFF=1
++ UVLO_ON_OFF=0
++ VMAXVA=5.75
++ VOSCA=2M
++ VOSVA=4M
++ VREF=7.5
++ VSAWMAX=6.3
++ VSAWMIN=1.1
++ VTPKLMT=0
+xinstuc3854_sac   43 33 59 27 5 4 7 67 1 72 44 55 9 56 53 57 model591_uc3854_sac    params:  avca={AVCA}
++  avva={AVVA}
++  dead_time={DEAD_TIME}
++  gbwca={GBWCA}
++  gbwva={GBWVA}
++  iccoff={ICCOFF}
++  iccon={ICCON}
++  period={PERIOD}
++  srca={SRCA}
++  srva={SRVA}
++  ss_on_off={SS_ON_OFF}
++  uvlo_on_off={UVLO_ON_OFF}
++  vmaxva={VMAXVA}
++  vosca={VOSCA}
++  vosva={VOSVA}
++  vref={VREF}
++  vsawmax={VSAWMAX}
++  vsawmin={VSAWMIN}
++  vtpklmt={VTPKLMT}
+.ends  awbuc3854_sac
+

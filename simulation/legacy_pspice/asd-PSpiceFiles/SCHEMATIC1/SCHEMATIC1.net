@@ -1,0 +1,15 @@
+* source ASD
+R_R1         N00094 N00106  10k TC=0,0 
+R_R2         N00694 0  200 TC=0,0 
+C_C1         N00106 N00694  1n  TC=0,0 
+X_U2         N00209 N00094 N01018 0 N00106 OPA855
+V_V4         N01018 0 5Vdc
+R_R3         N02483 N00094  100 TC=0,0 
+R_R4         0 N02075  10k TC=0,0 
+R_R5         N02129 0  10k TC=0,0 
+R_R6         0 N00209  10k TC=0,0 
+R_R7         N02497 N00209  100 TC=0,0 
+C_C2         N02129 N02483  1n  TC=0,0 
+C_C3         N02075 N02497  1n  TC=0,0 
+I_I1         N02075 N02129 DC 0Adc AC 0Aac
++PULSE 0 10u 1ns 1.4ns 1.4ns 4ns 20ns

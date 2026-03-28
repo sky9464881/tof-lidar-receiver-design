@@ -1,0 +1,18 @@
+.MAX3267CSA-plus- :1 ;The MAX3266 is a transimpedance preamplifier for 1.25Gbps local area network (LAN) fiber optic receivers. The circuit features 200nA input-referred noise, 920MHz bandwidth, and 1mA input overload.
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="VCC" 2="N.C." 3="IN" 4="FILTER" 5="GND_1" 6="OUT-" 7="OUT+" 8="GND_2"
+*MXP 8
+*DFN MAX3267CSA-plus-
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (MAX3267CSA+)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.analog.com/media/en/technical-documentation/data-sheets/MAX3266-MAX3267.pdf)
+~!Height (1.75mm)
+~!3D_Model (MAX3267CSA+)
+MAX3267CSA-plus-
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

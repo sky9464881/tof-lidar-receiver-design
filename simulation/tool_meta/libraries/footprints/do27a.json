@@ -1,0 +1,96 @@
+{
+ "design" : {
+	"comps" : [
+{
+	"points" : [
+		 {"x" : -2750, "y" : -61350},
+		 {"x" : 2750, "y" : -55850}],
+	"type" : 3,
+	"text" : "1",
+	"orientation" : 3,
+	"radius" : 2750,
+	"width" : 0.000000,
+	"color" : [{"r" : 255, "g" : 121, "b" : 203, "a" : 255}],
+	"bgcolor" : [{"r" : 255, "g" : 121, "b" : 203, "a" : 127 }],
+	"class" : "PIN",
+	"subclass" : "TOP"
+},
+{
+	"points" : [
+		 {"x" : 10100, "y" : -63200},
+		 {"x" : -10100, "y" : 5000}],
+	"type" : 1,
+	"text" : "",
+	"orientation" : 3,
+	"radius" : 1,
+	"width" : 0.000000,
+	"color" : [{"r" : 255, "g" : 255, "b" : 255, "a" : 255}],
+	"class" : "PACKAGE GEOMETRY",
+	"subclass" : "PLACE_BOUND_TOP"
+},
+{
+	"points" : [
+		 {"x" : 10000, "y" : -48600},
+		 {"x" : -10000, "y" : -10000}],
+	"type" : 1,
+	"text" : "",
+	"orientation" : 3,
+	"radius" : 1,
+	"width" : 0.000000,
+	"color" : [{"r" : 0, "g" : 255, "b" : 106, "a" : 255}],
+	"class" : "PACKAGE GEOMETRY",
+	"subclass" : "ASSEMBLY_TOP"
+},
+{
+	"points" : [
+		 {"x" : 10000, "y" : -48600},
+		 {"x" : -10000, "y" : -10000}],
+	"type" : 1,
+	"text" : "",
+	"orientation" : 3,
+	"radius" : 1,
+	"width" : 0.000000,
+	"color" : [{"r" : 255, "g" : 255, "b" : 0, "a" : 255}],
+	"class" : "PACKAGE GEOMETRY",
+	"subclass" : "SILKSCREEN_TOP"
+},
+{
+	"points" : [
+		 {"x" : -800, "y" : -23700},
+		 {"x" : 2613, "y" : 2272}],
+	"type" : "text",
+	"text" : "D*",
+	"color" : [		{"r" : 255, "g" : 121, "b" : 203, "a" : 255}],
+	"class" : "REF DES",
+	"subclass" : "ASSEMBLY_TOP"
+},
+{
+	"points" : [
+		 {"x" : -2750, "y" : -2750},
+		 {"x" : 2750, "y" : 2750}],
+	"type" : 3,
+	"text" : "2",
+	"orientation" : 3,
+	"radius" : 2750,
+	"width" : 0.000000,
+	"color" : [{"r" : 255, "g" : 121, "b" : 203, "a" : 255}],
+	"bgcolor" : [{"r" : 255, "g" : 121, "b" : 203, "a" : 127 }],
+	"class" : "PIN",
+	"subclass" : "TOP"
+},{}
+	]
+},
+
+
+"text" : {
+	"comps" : [
+	{
+		"name" : "do27a",
+		"type" : "Package",
+		"units" : "Mils",
+		"accuracy" : 2,
+		"pins" : 2
+	}
+	]
+}
+}

@@ -1,0 +1,2163 @@
+("J2SK146"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:56 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "30m")
+		(IG "10m")
+		(VDG "40")
+		(PDM "600m")
+	)
+)
+("J2SK444"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:56 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "50m")
+		(IG "10m")
+		(VDG "15")
+		(VDS "15")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("J2SK370"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:56 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "40")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("J2SK242"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:56 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "20")
+		(PDM "150m")
+		(TJ "125")
+		(RJA "667.67")
+	)
+)
+("J2SK334"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:56 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID ".8m")
+		(IG "10m")
+		(VDG "20")
+		(PDM "100m")
+		(TJ "125")
+		(RJA "1000")
+	)
+)
+("J2SK715"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "50m")
+		(IG "10m")
+		(VDG "15")
+		(VDS "15")
+		(PDM "300m")
+		(TJ "125")
+		(RJA "333.33")
+	)
+)
+("J2SJ103"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "pjf")
+		(MODEL_TYPE "12")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "P-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "14m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "300m")
+		(TJ "125")
+		(RJA "333.33")
+	)
+)
+("J2SJ104"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "pjf")
+		(MODEL_TYPE "12")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "P-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "25")
+		(PDM "400m")
+		(TJ "125")
+		(RJA "250")
+	)
+)
+("J2SK147"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "30m")
+		(IG "10m")
+		(VDG "40")
+		(PDM "600m")
+	)
+)
+("J2SK445"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "50m")
+		(IG "10m")
+		(VDG "15")
+		(VDS "15")
+		(PDM "300m")
+		(TJ "125")
+		(RJA "333.33")
+	)
+)
+("J2SK371"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "30m")
+		(IG "10m")
+		(VDG "40")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("J2SK246"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "14m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "300m")
+		(TJ "125")
+		(RJA "333.33")
+	)
+)
+("J2SK362"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "14m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "300m")
+		(TJ "125")
+		(RJA "333.33")
+	)
+)
+("J2SK771"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "40")
+		(VDS "40")
+		(PDM "200m")
+		(TJ "150")
+		(RJA "625")
+	)
+)
+("J2SJ105"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "pjf")
+		(MODEL_TYPE "12")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "P-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "14m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("J2SK152"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "50m")
+		(IG "5m")
+		(VDG "15")
+		(VGS "15")
+		(PDM "300m")
+		(TJ "100")
+		(RJA "250")
+	)
+)
+("J2SK456"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "0.5m")
+		(IG "10m")
+		(VDG "20")
+		(PDM "100m")
+	)
+)
+("J2SK372"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "30m")
+		(IG "10m")
+		(VDG "40")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("J2SK266"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "0.6m")
+		(IG "10m")
+		(VDG "15")
+		(PDM "100m")
+	)
+)
+("J2SK117"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "14m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "300m")
+		(TJ "125")
+		(RJA "333.33")
+	)
+)
+("J2SK363"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "30m")
+		(IG "10m")
+		(VDG "40")
+		(PDM "400m")
+		(TJ "125")
+		(RJA "250")
+	)
+)
+("J2SK772"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "40")
+		(VDS "40")
+		(PDM "300m")
+		(TJ "150")
+		(RJA "416.67")
+	)
+)
+("J2SJ107"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "pjf")
+		(MODEL_TYPE "12")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "P-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "25")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("J2SK170"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "40")
+		(PDM "400m")
+		(TJ "125")
+		(RJA "250")
+	)
+)
+("J2SK121"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "5m")
+		(VDG "30")
+		(VGS "30")
+		(PDM "300m")
+		(TJ "100")
+		(RJA "250")
+	)
+)
+("J2SK365"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "14m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("J2SK880"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "14m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "100m")
+		(TJ "125")
+		(RJA "1000")
+	)
+)
+("J2SK436"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "15")
+		(VDS "15")
+		(PDM "150m")
+		(TJ "125")
+		(RJA "666.67")
+	)
+)
+("J2SJ108"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "pjf")
+		(MODEL_TYPE "12")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "P-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "25")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("J2SK184"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "14m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("J2SJ72"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "pjf")
+		(MODEL_TYPE "12")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "P-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "30m")
+		(IG "10m")
+		(VDG "25")
+		(PDM "600m")
+	)
+)
+("J2SK303"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "30")
+		(VDS "30")
+		(PDM "200m")
+		(TJ "150")
+		(RJA "625")
+	)
+)
+("J2SK366"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "40")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("J2SJ109"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "pjf")
+		(MODEL_TYPE "12")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "P-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "30")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("J2SK198"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "30")
+		(VDS "30")
+		(PDM "150m")
+		(TJ "150")
+		(RJA "800")
+	)
+)
+("J2SK389"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("J2SJ74"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "pjf")
+		(MODEL_TYPE "12")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "P-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "25")
+		(PDM "400m")
+		(TJ "125")
+		(RJA "250")
+	)
+)
+("J2SK304"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "30")
+		(VDS "30")
+		(PDM "150m")
+		(TJ "125")
+		(RJA "666.67")
+	)
+)
+("J2SK367"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "6.5m")
+		(IG "10m")
+		(VDG "100")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("J2SJ144"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "pjf")
+		(MODEL_TYPE "12")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "P-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "14m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "100m")
+		(TJ "125")
+		(RJA "1000")
+	)
+)
+("J2SK208"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "6.5m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "100m")
+		(TJ "125")
+		(RJA "1000")
+	)
+)
+("J2SK427"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "15")
+		(VDS "15")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("J2SK123"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "2m")
+		(VDG "20")
+		(VDS "20")
+	)
+)
+("J2SK368"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "6.5m")
+		(IG "10m")
+		(VDG "100")
+		(PDM "150m")
+		(TJ "125")
+		(RJA "666.67")
+	)
+)
+("J2SK333"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "80")
+		(VDS "80")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("J2SJ106"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "pjf")
+		(MODEL_TYPE "12")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "P-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "14m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "150m")
+		(TJ "125")
+		(RJA "666.67")
+	)
+)
+("J2SK373"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "6.5m")
+		(IG "10m")
+		(VDG "100")
+		(PDM "400m")
+		(TJ "125")
+		(RJA "250")
+	)
+)
+("J2SK300"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "50m")
+		(IG "5m")
+		(VDG "15")
+		(VGS "15")
+		(PDM "150m")
+		(TJ "150")
+		(RJA "833.33")
+	)
+)
+("J2SK613"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "50m")
+		(IG "5m")
+		(VDG "15")
+		(VGS "15")
+		(PDM "150m")
+		(TJ "150")
+		(RJA "833.33")
+	)
+)
+("J2SK118"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "6.5m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "100m")
+		(TJ "125")
+		(RJA "1000")
+	)
+)
+("J2SK364"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "40")
+		(PDM "400m")
+		(TJ "125")
+		(RJA "250")
+	)
+)
+("J2SK879"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "6.5m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "100m")
+		(TJ "125")
+		(RJA "1000")
+	)
+)
+("J2SK443"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "50m")
+		(IG "10m")
+		(VDG "15")
+		(VDS "15")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("J2SK212"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "20")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("J2SK330"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "14m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("J2SK125"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "100m")
+		(IG "10m")
+		(VDG "35")
+		(VGS "35")
+		(PDM "300m")
+		(TJ "120")
+		(RJA "190")
+	)
+)
+("J2SK369"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "30m")
+		(IG "10m")
+		(VDG "40")
+		(PDM "400m")
+		(TJ "125")
+		(RJA "250")
+	)
+)
+("J2SK223"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "24m")
+		(IG "10m")
+		(VDG "80")
+		(VDS "80")
+		(PDM "400m")
+		(TJ "125")
+		(RJA "250")
+	)
+)
+("J2SK332"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "40")
+		(VDS "40")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("J2SK1875"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "32m")
+		(IG "10m")
+		(VDG "20")
+		(PDM "100m")
+		(TJ "125")
+		(RJA "1000")
+	)
+)
+("J2SK192A"
+	(Creator "Device property file created by prp_generator on Sun May 12 19:38:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "24m")
+		(IG "10m")
+		(VDG "18")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("J2SJ125"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "pjf")
+		(MODEL_TYPE "12")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "P-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "12m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "150m")
+		(TJ "125")
+		(RJA "666.67")
+	)
+)
+("J2SJ145"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "pjf")
+		(MODEL_TYPE "12")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "P-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "12m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "150m")
+		(TJ "125")
+		(RJA "666.67")
+	)
+)
+("J2SJ163"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "pjf")
+		(MODEL_TYPE "12")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "P-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "65")
+		(PDM "150m")
+		(TJ "150")
+		(RJA "833.33")
+	)
+)
+("J2SJ164"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "pjf")
+		(MODEL_TYPE "12")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "P-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "65")
+		(PDM "300m")
+		(TJ "150")
+		(RJA "416.67")
+	)
+)
+("J2SJ40"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "pjf")
+		(MODEL_TYPE "12")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "P-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "12m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "300m")
+		(TJ "125")
+		(RJA "333.33")
+	)
+)
+("J2SJ44"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "pjf")
+		(MODEL_TYPE "12")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "P-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "30m")
+		(IG "10m")
+		(VDG "40")
+		(VDS "40")
+		(VGS "40")
+		(PDM "400m")
+		(TJ "125")
+		(RJA "250")
+	)
+)
+("J2SJ45"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "pjf")
+		(MODEL_TYPE "12")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "P-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "30m")
+		(IG "10m")
+		(VDG "40")
+		(VDS "40")
+		(VGS "40")
+		(PDM "400m")
+		(TJ "125")
+		(RJA "250")
+	)
+)
+("J2SK104"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "30")
+		(VDS "30")
+		(VGS "30")
+		(PDM "250m")
+		(TJ "125")
+		(RJA "400")
+	)
+)
+("J2SK105"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "50")
+		(VDS "50")
+		(VGS "50")
+		(PDM "250m")
+		(TJ "125")
+		(RJA "400")
+	)
+)
+("J2SK108"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "12m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "300m")
+		(TJ "125")
+		(RJA "333.33")
+	)
+)
+("J2SK1103"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "65")
+		(PDM "150m")
+		(TJ "150")
+		(RJA "833.33")
+	)
+)
+("J2SK1104"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "65")
+		(PDM "300m")
+		(TJ "150")
+		(RJA "416.67")
+	)
+)
+("J2SK1216"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "50m")
+		(VDG "10")
+	)
+)
+("J2SK163"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "30m")
+		(IG "10m")
+		(VDG "50")
+		(VDS "50")
+		(VGS "50")
+		(PDM "400m")
+		(TJ "125")
+		(RJA "250")
+	)
+)
+("J2SK301"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "30m")
+		(IG "10m")
+		(VDG "55")
+		(VDS "55")
+		(VGS "55")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("J2SK316"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "50m")
+		(VDG "10")
+	)
+)
+("J2SK374"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "30m")
+		(IG "10m")
+		(VDG "55")
+		(VDS "55")
+		(VGS "55")
+		(PDM "200m")
+		(TJ "150")
+		(RJA "625")
+	)
+)
+("J2SK381"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "12m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "300m")
+		(TJ "125")
+		(RJA "333.33")
+	)
+)
+("J2SK433"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "12m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "150m")
+		(TJ "125")
+		(RJA "666.67")
+	)
+)
+("J2SK492"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "12m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "150m")
+		(TJ "125")
+		(RJA "666.67")
+	)
+)
+("J2SK608"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(VDG "30")
+	)
+)
+("J2SK660"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "10m")
+		(IG "10m")
+		(VDG "20")
+		(VDS "20")
+		(PDM "100m")
+		(TJ "125")
+		(RJA "1000")
+	)
+)
+("J2SK662"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "20m")
+		(IG "10m")
+		(VDG "30")
+		(VDS "30")
+		(PDM "150m")
+		(TJ "125")
+		(RJA "666.67")
+	)
+)
+("J2SK663"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "30m")
+		(IG "10m")
+		(VDG "55")
+		(VDS "55")
+		(VGS "55")
+		(PDM "150m")
+		(TJ "125")
+		(RJA "666.67")
+	)
+)
+("J2SK930"
+	(Creator "Device property file created by prp_generator on Fri Aug 09 17:34:42 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "njf")
+		(MODEL_TYPE "10")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_ID "D")
+		(TERM_IG "G")
+		(NODE_VD "D")
+		(NODE_VG "G")
+		(NODE_VS "S")
+		(DERATE_TYPE "N-CHANNEL")
+	)
+	("device_max_ops"
+		(ID "12m")
+		(IG "10m")
+		(VDG "50")
+		(PDM "150m")
+		(TJ "125")
+		(RJA "666.67")
+	)
+)
+

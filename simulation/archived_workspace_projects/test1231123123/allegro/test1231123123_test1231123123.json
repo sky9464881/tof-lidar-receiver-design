@@ -1,0 +1,55 @@
+{
+	"Gate Swap" : [],
+	"Ref Des" : [],
+	"Pin Swap" : [],
+	"Component Property" : [],
+	"Net Property" : [],
+	"Pin Property" : [],
+	"Component" : [
+		{
+			"Name" : "C11(0.7PF)",
+			"C_PATH" : "@test1231123123.schematic1(sch_1):ins1078929@grm1555c1hr70wa01d.\\grm1555c1hr70wa01d.normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "C11(0.7PF)"
+		},
+		{
+			"Name" : "C11(0.7PF)",
+			"C_PATH" : "@test1231123123.schematic1(sch_1):ins1087181@templates.\\capacitor.normal\\(chips)",
+			"Logical" : "C11(0.7PF)",
+			"Physical" : null
+		},
+		{
+			"Name" : "C247",
+			"C_PATH" : "@test1231123123.schematic1(sch_1):ins1087197@templates.\\capacitor.normal\\(chips)",
+			"Logical" : "C247",
+			"Physical" : null
+		}
+	],
+	"Net" : [],
+	"Connection" : [
+		{
+			"Name" : "C11(0.7PF).1",
+			"C_PATH" : "@test1231123123.schematic1(sch_1):ins1087181@templates.\\capacitor.normal\\(chips):\\1\\",
+			"Logical" : "N1078951",
+			"Physical" : null
+		},
+		{
+			"Name" : "C11(0.7PF).2",
+			"C_PATH" : "@test1231123123.schematic1(sch_1):ins1087181@templates.\\capacitor.normal\\(chips):\\2\\",
+			"Logical" : "N1078959",
+			"Physical" : null
+		},
+		{
+			"Name" : "C247.1",
+			"C_PATH" : "@test1231123123.schematic1(sch_1):ins1087197@templates.\\capacitor.normal\\(chips):\\1\\",
+			"Logical" : "N1078951",
+			"Physical" : null
+		},
+		{
+			"Name" : "C247.2",
+			"C_PATH" : "@test1231123123.schematic1(sch_1):ins1087197@templates.\\capacitor.normal\\(chips):\\2\\",
+			"Logical" : "N1078959",
+			"Physical" : null
+		}
+	]
+}

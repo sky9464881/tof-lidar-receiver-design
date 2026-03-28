@@ -1,0 +1,883 @@
+*****************************************************************************************
+* LB_M47C-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LB_M47C-typ D
++ IS=414.44E-15
++ N=5
++ RS=22.499
+*$
+*
+*****************************************************************************************
+* LW_M67C-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LW_M67C-typ D
++ IS=414.48E-15
++ N=5
++ RS=22.499
+*$
+*
+*****************************************************************************************
+* LP_M675-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LP_M675-typ D
++ IS=10.000E-21
++ N=1.8194
++ RS=1.2765
+*$
+*
+*****************************************************************************************
+* LG_M47K-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LG_M47K-typ D
++ IS=572.00E-24
++ N=1.6303
++ RS=1.6709
+*$
+*
+*****************************************************************************************
+* LP_M67K-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LP_M67K-typ D
++ IS=572.00E-24
++ N=1.6303
++ RS=1.6709
+*$
+*
+*****************************************************************************************
+* LG_M67K-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LG_M67K-typ D
++ IS=572.00E-24
++ N=1.6303
++ RS=1.6709
+*$
+*
+*****************************************************************************************
+* LW_M673-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LW_M673-typ D
++ IS=186.89E-12
++ N=6.4813
++ RS=12.842
+*$
+*
+*****************************************************************************************
+* LS_M47K-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LS_M47K-typ D
++ IS=5.0505E-21
++ N=1.7234
++ RS=2.6512
+*$
+*
+*****************************************************************************************
+* LY_M47K-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LY_M47K-typ D
++ IS=5.0505E-21
++ N=1.7234
++ RS=2.6512
+*$
+*
+*****************************************************************************************
+* LO_M47K-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LO_M47K-typ D
++ IS=5.0505E-21
++ N=1.7234
++ RS=2.6512
+*$
+*
+*****************************************************************************************
+* LO_M67K-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LO_M67K-typ D
++ IS=5.0505E-21
++ N=1.7234
++ RS=2.6512
+*$
+*
+*****************************************************************************************
+* LY_M67K-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LY_M67K-typ D
++ IS=5.0505E-21
++ N=1.7234
++ RS=2.6512
+*$
+*
+*****************************************************************************************
+* LS_M67K-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LS_M67K-typ D
++ IS=5.0505E-21
++ N=1.7234
++ RS=2.6512
+*$
+*
+*****************************************************************************************
+* LA_M67B-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LA_M67B-typ D
++ IS=5.7141E-15
++ N=2.5294
++ RS=5.8149
+*$
+*
+*****************************************************************************************
+* LP_M676-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LP_M676-typ D
++ IS=980.13E-24
++ N=1.6749
++ RS=1.6217
++ IKF=7.1402E-3
+*$
+*
+*****************************************************************************************
+* LG_M676-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LG_M676-typ D
++ IS=980.13E-24
++ N=1.6749
++ RS=1.6217
++ IKF=7.1402E-3
+*$
+*
+*****************************************************************************************
+* LB_M676-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LB_M676-typ D
++ IS=25.211E-18
++ N=3.8017
++ RS=17.304
++ IKF=13.108E-3
+*$
+*
+*****************************************************************************************
+* LY_M676-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LY_M676-typ D
++ IS=980.13E-24
++ N=1.6749
++ RS=1.6217
++ IKF=7.1402E-3
+*$
+*
+*****************************************************************************************
+* LT_M673-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LT_M673-typ D
++ IS=6.2538E-12
++ N=5
++ RS=7.9741
++ IKF=2.0891E-3
+*$
+*
+*****************************************************************************************
+* LS_M676-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LS_M676-typ D
++ IS=980.13E-24
++ N=1.6749
++ RS=1.6217
++ IKF=7.1402E-3
+*$
+*
+*****************************************************************************************
+* LO_M676-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LO_M676-typ D
++ IS=980.13E-24
++ N=1.6749
++ RS=1.6217
++ IKF=7.1402E-3
+*$
+*
+*****************************************************************************************
+* LB_M673-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LB_M673-typ D
++ IS=540.34E-15
++ N=5
++ RS=14.690
+*$
+*
+*****************************************************************************************
+* LA_M676-typ D, OSRAM Mini TOP LED
+* PSpice model
+*
+*  Rev. A    26 April 2006, by Hofmann, Markus (OS LED AE I)
+*  Copyright 2006 by Osram
+*
+* For model-related questions please contact Markus.Hofmann@osram-os.com
+**** Model Limitations ****************************************************************
+*
+* - Only the typical forward characteristic (Vf-If diagram) of each LED 
+*   has been modelled.
+*
+* - The typical forward characteristic can vary slightly in reality.
+*
+* - All other Pspice parameters have not been modelled (e.g. reverse characteristic,
+*   transient behaviour).
+*
+* - For this reason, transient simulations and simulations in reverse direction do not
+*   make sense.
+*
+* - The models only work at a Ambient Temperature of 25°C.
+*   The PSpice parameters are calculated from measured forward voltage values. 
+*   Forward voltages are tested at a current pulse duration of 1 ms and 
+*   a tolerance of +- 0.1V.
+*   Simulations at different temperatures and drive conditions will give 
+*   WRONG simulation results!!
+*
+* - The provided PSpice parameters are calculated values. They might not be identical
+*   with the real physical values.
+*
+*****************************************************************************************
+.MODEL LA_M676-typ D
++ IS=980.13E-24
++ N=1.6749
++ RS=1.6217
++ IKF=7.1402E-3
+*$
+*
+*****************************************************************************************

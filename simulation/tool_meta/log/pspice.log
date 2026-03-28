@@ -1,0 +1,87 @@
+[15:08:12.107000] Periodic Lic check successful
+[15:08:12.107000] Feature usage summary:
+[15:08:12.107000] OrCAD_X_Professional_Plus
+
+PATH VARIABLE
+
+C:\Cadence\OrCADX_24.1/tools/jre/bin/client
+C:\Cadence\OrCADX_24.1\share\orApps\OrCaptureApp\..\..\..\tools\bin
+C:\Cadence\OrCADX_24.1/tools/jre/bin/client
+C:\Cadence\OrCADX_24.1\tools\bin\
+C:\Program Files\Microsoft\jdk-11.0.16.101-hotspot\bin
+C:\WINDOWS\system32
+C:\WINDOWS
+C:\WINDOWS\System32\Wbem
+C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+C:\WINDOWS\System32\OpenSSH\
+C:\Program Files\Microsoft SQL Server\150\Tools\Binn\
+C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\
+C:\Program Files\dotnet\
+C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\
+C:\Program Files\Git\cmd
+C:\Program Files\Bandizip\
+C:\Program Files\gs\gs10.05.0\bin
+C:\Users\sky94\AppData\Local\Microsoft\WindowsApps
+C:\Users\sky94\.dotnet\tools
+C:\Users\sky94\AppData\Local\Programs\Microsoft VS Code\bin
+C:\intelFPGA_lite\23.1std\questa_fse\win64
+C:\Users\sky94\AppData\Local\GitHubDesktop\bin
+C:\intelFPGA\20.1\modelsim_ase\win32aloem
+
+SESSION LOG
+
+--------------- INFO(ORPROBE-3209): Simulation Profile:  SCHEMATIC1-test123 ---------------
+INFO(ORPROBE-3183): Simulation running...
+** Profile: "SCHEMATIC1-test123"  [ C:\Users\sky94\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\opa695\opa695-pspicefiles\sc
+Reading and checking circuit
+Circuit read in and checked, no errors
+Calculating bias point for Transient Analysis
+Bias point calculated
+Transient Analysis
+Transient Analysis finished
+  Total job time (using Solver 1)   =         .03
+
+INFO(ORPROBE-3190): Simulation complete
+
+COMMAND WINDOW
+
+Initializing Scripting...
+Loading C:/Cadence/OrCADX_24.1/tools/pspice/tclscripts/pspAutoLoad/pspAutoSoftwareUpdateUI.tcl
+Loading C:/Cadence/OrCADX_24.1/tools/pspice/tclscripts/pspAutoLoad/pspAutoTISupport.tcl
+Loading C:/Cadence/OrCADX_24.1/tools/pspice/tclscripts/pspAutoLoad/pspCEFInit.tcl
+Loading C:/Cadence/OrCADX_24.1/tools/pspice/tclscripts/pspAutoLoad/pspCoreLossAppinit.tcl
+Loading C:/Cadence/OrCADX_24.1/tools/pspice/tclscripts/pspAutoLoad/pspMatlabMenu.tcl
+Loading C:/Cadence/OrCADX_24.1/tools/pspice/tclscripts/pspAutoLoad/pspinit.tcl
+
+
+Lic Summary:
+[15:08:12.342712] Cdslmd servers:C:\Users\sky94\AppData\Roaming\Cadence\VBL\SPB\license\license.txt
+[15:08:12.873000] Feature usage summary:
+[15:08:12.873000] OrCAD_X_Professional_Plus
+
+SESSION LOG
+
+--------------- INFO(ORPROBE-3209): Simulation Profile:  SCHEMATIC1-test123 ---------------
+INFO(ORPROBE-3183): Simulation running...
+** Profile: "SCHEMATIC1-test123"  [ C:\Users\sky94\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\opa695\opa695-pspicefiles\sc
+Reading and checking circuit
+Circuit read in and checked, no errors
+Calculating bias point for Transient Analysis
+Bias point calculated
+Transient Analysis
+Transient Analysis finished
+  Total job time (using Solver 1)   =         .03
+
+INFO(ORPROBE-3190): Simulation complete
+
+COMMAND WINDOW
+
+Initializing Scripting...
+Loading C:/Cadence/OrCADX_24.1/tools/pspice/tclscripts/pspAutoLoad/pspAutoSoftwareUpdateUI.tcl
+Loading C:/Cadence/OrCADX_24.1/tools/pspice/tclscripts/pspAutoLoad/pspAutoTISupport.tcl
+Loading C:/Cadence/OrCADX_24.1/tools/pspice/tclscripts/pspAutoLoad/pspCEFInit.tcl
+Loading C:/Cadence/OrCADX_24.1/tools/pspice/tclscripts/pspAutoLoad/pspCoreLossAppinit.tcl
+Loading C:/Cadence/OrCADX_24.1/tools/pspice/tclscripts/pspAutoLoad/pspMatlabMenu.tcl
+Loading C:/Cadence/OrCADX_24.1/tools/pspice/tclscripts/pspAutoLoad/pspinit.tcl
+
+

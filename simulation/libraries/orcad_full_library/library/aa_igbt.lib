@@ -1,0 +1,570 @@
+*$ model description: "awbhgtd6n40e1"
+*b Device model created by analog_uprev for hgtd6n40e1 on Wed Feb  7 11:38:21 IST 2001
+.subckt awbhgtd6n40e1   1 2 3
++ params:
++ VTO=3.8685E+00
++ KP=5.6343E-01
++ LAMBDA=0.002
++ CGSO=155p
++ RG=54.23
++ RD=1.9737E+01m
++ RS=2.1602E-01
++ CJGD=2.173E-10
++ VJGD=4.774E+00
++ MJGD=2.278E+00
++ XJGD=0.52
++ LE=5n
++ RLE=100
++ RER=0.1m
++ IS=1n
++ BF=1
++ XTB=0
++ XTI=0
++ EG=0.75
++ NF=1.25
++ CJC=1.043e-10
++ VJC=1.709E+00
++ MJC=5.964E-01
++ CJE=1.25e-8
++ TF=0.695u
+xinsthgtd6n40e1   1 2 3 model613     params:   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  rg={RG}
++  rd={RD}
++  rs={RS}
++  cjgd={CJGD}
++  vjgd={VJGD}
++  mjgd={MJGD}
++  xjgd={XJGD}
++  le={LE}
++  rle={RLE}
++  rer={RER}
++  is={IS}
++  bf={BF}
++  xtb={XTB}
++  xti={XTI}
++  eg={EG}
++  nf={NF}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  cje={CJE}
++  tf={TF}
++ 
+.ends  awbhgtd6n40e1
+*$ end model description: "awbhgtd6n40e1"
+*
+*
+*$ model description: "awbhgtd6n40e1s"
+*b Device model created by analog_uprev for hgtd6n40e1s on Wed Feb  7 11:38:21 IST 2001
+.subckt awbhgtd6n40e1s   1 2 3
++ params:
++ VTO=3.8685E+00
++ KP=5.6343E-01
++ LAMBDA=0.002
++ CGSO=155p
++ RG=54.23
++ RD=1.9737E+01m
++ RS=2.1602E-01
++ CJGD=2.173E-10
++ VJGD=4.774E+00
++ MJGD=2.278E+00
++ XJGD=0.52
++ LE=5n
++ RLE=100
++ RER=0.1m
++ IS=1n
++ BF=1
++ XTB=0
++ XTI=0
++ EG=0.75
++ NF=1.25
++ CJC=1.043e-10
++ VJC=1.709E+00
++ MJC=5.964E-01
++ CJE=1.25e-8
++ TF=0.695u
+xinsthgtd6n40e1s   1 2 3 model613     params:   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  rg={RG}
++  rd={RD}
++  rs={RS}
++  cjgd={CJGD}
++  vjgd={VJGD}
++  mjgd={MJGD}
++  xjgd={XJGD}
++  le={LE}
++  rle={RLE}
++  rer={RER}
++  is={IS}
++  bf={BF}
++  xtb={XTB}
++  xti={XTI}
++  eg={EG}
++  nf={NF}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  cje={CJE}
++  tf={TF}
++ 
+.ends  awbhgtd6n40e1s
+*$ end model description: "awbhgtd6n40e1s"
+*
+*
+*$ model description: "awbhgtd6n50e1"
+*b Device model created by analog_uprev for hgtd6n50e1 on Wed Feb  7 11:38:21 IST 2001
+.subckt awbhgtd6n50e1   1 2 3
++ params:
++ VTO=3.8685E+00
++ KP=5.6343E-01
++ LAMBDA=0.002
++ CGSO=155p
++ RG=54.23
++ RD=1.9737E+01m
++ RS=2.1602E-01
++ CJGD=2.173E-10
++ VJGD=4.774E+00
++ MJGD=2.278E+00
++ XJGD=0.52
++ LE=5n
++ RLE=100
++ RER=0.1m
++ IS=1n
++ BF=1
++ XTB=0
++ XTI=0
++ EG=0.75
++ NF=1.25
++ CJC=1.043e-10
++ VJC=1.709E+00
++ MJC=5.964E-01
++ CJE=1.25e-8
++ TF=0.695u
+xinsthgtd6n50e1   1 2 3 model613     params:   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  rg={RG}
++  rd={RD}
++  rs={RS}
++  cjgd={CJGD}
++  vjgd={VJGD}
++  mjgd={MJGD}
++  xjgd={XJGD}
++  le={LE}
++  rle={RLE}
++  rer={RER}
++  is={IS}
++  bf={BF}
++  xtb={XTB}
++  xti={XTI}
++  eg={EG}
++  nf={NF}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  cje={CJE}
++  tf={TF}
++ 
+.ends  awbhgtd6n50e1
+*$ end model description: "awbhgtd6n50e1"
+*
+*
+*$ model description: "awbhgtd6n50e1s"
+*b Device model created by analog_uprev for hgtd6n50e1s on Wed Feb  7 11:38:21 IST 2001
+.subckt awbhgtd6n50e1s   1 2 3
++ params:
++ VTO=3.8685E+00
++ KP=5.6343E-01
++ LAMBDA=0.002
++ CGSO=155p
++ RG=54.23
++ RD=1.9737E+01m
++ RS=2.1602E-01
++ CJGD=2.173E-10
++ VJGD=4.774E+00
++ MJGD=2.278E+00
++ XJGD=0.52
++ LE=5n
++ RLE=100
++ RER=0.1m
++ IS=1n
++ BF=1
++ XTB=0
++ XTI=0
++ EG=0.75
++ NF=1.25
++ CJC=1.043e-10
++ VJC=1.709E+00
++ MJC=5.964E-01
++ CJE=1.25e-8
++ TF=0.695u
+xinsthgtd6n50e1s   1 2 3 model613     params:   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  rg={RG}
++  rd={RD}
++  rs={RS}
++  cjgd={CJGD}
++  vjgd={VJGD}
++  mjgd={MJGD}
++  xjgd={XJGD}
++  le={LE}
++  rle={RLE}
++  rer={RER}
++  is={IS}
++  bf={BF}
++  xtb={XTB}
++  xti={XTI}
++  eg={EG}
++  nf={NF}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  cje={CJE}
++  tf={TF}
++ 
+.ends  awbhgtd6n50e1s
+*$ end model description: "awbhgtd6n50e1s"
+*
+*
+*$ model description: "awbigt4d10"
+*b Device model created by analog_uprev for igt4d10 on Wed Feb  7 11:38:21 IST 2001
+.subckt awbigt4d10   1 2 3
++ params:
++ VTO=2.741E+00
++ KP=121.4m
++ LAMBDA=1E-10
++ CGSO=1.05n
++ RG=0.45
++ RD=0.236
++ RS=192.3m
++ CJGD=4.528E-10
++ VJGD=1.087E+00
++ MJGD=1.209E+00
++ XJGD=0.87
++ LE=12.5E-9
++ RLE=100
++ RER=1E-4
++ IS=1n
++ BF=9
++ XTB=0
++ XTI=0
++ CJC=7.541E-10
++ VJC=1.000E-01
++ MJC=1.478E-01
++ CJE=5E-8
++ TF=1.875E-07
+xinstigt4d10   1 2 3 model613     params:   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  rg={RG}
++  rd={RD}
++  rs={RS}
++  cjgd={CJGD}
++  vjgd={VJGD}
++  mjgd={MJGD}
++  xjgd={XJGD}
++  le={LE}
++  rle={RLE}
++  rer={RER}
++  is={IS}
++  bf={BF}
++  xtb={XTB}
++  xti={XTI}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  cje={CJE}
++  tf={TF}
++ 
+.ends  awbigt4d10
+*$ end model description: "awbigt4d10"
+*
+*
+*$ model description: "awbigt4e10"
+*b Device model created by analog_uprev for igt4e10 on Wed Feb  7 11:38:21 IST 2001
+.subckt awbigt4e10   1 2 3
++ params:
++ VTO=2.741E+00
++ KP=121.4m
++ LAMBDA=1E-10
++ CGSO=1.05n
++ RG=0.45
++ RD=0.236
++ RS=192.3m
++ CJGD=4.528E-10
++ VJGD=1.087E+00
++ MJGD=1.209E+00
++ XJGD=0.87
++ LE=12.5E-9
++ RLE=100
++ RER=1E-4
++ IS=1n
++ BF=9
++ XTB=0
++ XTI=0
++ CJC=7.541E-10
++ VJC=1.000E-01
++ MJC=1.478E-01
++ CJE=5E-8
++ TF=1.875E-07
+xinstigt4e10   1 2 3 model613     params:   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  rg={RG}
++  rd={RD}
++  rs={RS}
++  cjgd={CJGD}
++  vjgd={VJGD}
++  mjgd={MJGD}
++  xjgd={XJGD}
++  le={LE}
++  rle={RLE}
++  rer={RER}
++  is={IS}
++  bf={BF}
++  xtb={XTB}
++  xti={XTI}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  cje={CJE}
++  tf={TF}
++ 
+.ends  awbigt4e10
+*$ end model description: "awbigt4e10"
+*
+*
+*$ model description: "awbigt6d10"
+*b Device model created by analog_uprev for igt6d10 on Wed Feb  7 11:38:21 IST 2001
+.subckt awbigt6d10   1 2 3
++ params:
++ VTO=2.741E+00
++ KP=121.4m
++ LAMBDA=1E-10
++ CGSO=1.05n
++ RG=0.45
++ RD=0.236
++ RS=192.3m
++ CJGD=4.528E-10
++ VJGD=1.087E+00
++ MJGD=1.209E+00
++ XJGD=0.87
++ LE=12.5E-9
++ RLE=100
++ RER=1E-4
++ IS=1n
++ BF=9
++ XTB=0
++ XTI=0
++ CJC=7.541E-10
++ VJC=1.000E-01
++ MJC=1.478E-01
++ CJE=5E-8
++ TF=1.875E-07
+xinstigt6d10   1 2 3 model613     params:   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  rg={RG}
++  rd={RD}
++  rs={RS}
++  cjgd={CJGD}
++  vjgd={VJGD}
++  mjgd={MJGD}
++  xjgd={XJGD}
++  le={LE}
++  rle={RLE}
++  rer={RER}
++  is={IS}
++  bf={BF}
++  xtb={XTB}
++  xti={XTI}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  cje={CJE}
++  tf={TF}
++ 
+.ends  awbigt6d10
+*$ end model description: "awbigt6d10"
+*
+*
+*$ model description: "awbigt6e10"
+*b Device model created by analog_uprev for igt6e10 on Wed Feb  7 11:38:21 IST 2001
+.subckt awbigt6e10   1 2 3
++ params:
++ VTO=2.741E+00
++ KP=121.4m
++ LAMBDA=1E-10
++ CGSO=1.05n
++ RG=0.45
++ RD=0.236
++ RS=192.3m
++ CJGD=4.528E-10
++ VJGD=1.087E+00
++ MJGD=1.209E+00
++ XJGD=0.87
++ LE=12.5E-9
++ RLE=100
++ RER=1E-4
++ IS=1n
++ BF=9
++ XTB=0
++ XTI=0
++ CJC=7.541E-10
++ VJC=1.000E-01
++ MJC=1.478E-01
++ CJE=5E-8
++ TF=1.875E-07
+xinstigt6e10   1 2 3 model613     params:   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  rg={RG}
++  rd={RD}
++  rs={RS}
++  cjgd={CJGD}
++  vjgd={VJGD}
++  mjgd={MJGD}
++  xjgd={XJGD}
++  le={LE}
++  rle={RLE}
++  rer={RER}
++  is={IS}
++  bf={BF}
++  xtb={XTB}
++  xti={XTI}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  cje={CJE}
++  tf={TF}
++ 
+.ends  awbigt6e10
+*$ end model description: "awbigt6e10"
+*
+*
+*$ model description: "awbirgbc30u"
+*b Device model created by analog_uprev for irgbc30u on Wed Feb  7 11:38:21 IST 2001
+.subckt awbirgbc30u   1 2 3
++ params:
++ VTO=4.22704
++ KP=0.0635277
++ LAMBDA=1e-06
++ CGSO=6.30024e-10
++ RG=0.2432
++ RD=0.471808
++ RS=2m
++ CJGD=6.13328e-10
++ VJGD=7.99666
++ MJGD=1.96587
++ XJGD=0.25
++ LE=4.5n
++ RLE=100
++ RER=0.000421742
++ IS=3.19466e-16
++ BF=31.5505
++ NF=1.13935
++ RB=2m
++ CJC=6.83081e-10
++ VJC=3.8623
++ MJC=0.85
++ CJE=6.83081e-09
++ VJE=50
++ MJE=0.2
++ TF=2e-09
+xinstirgbc30u   1 2 3 model613     params:   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  rg={RG}
++  rd={RD}
++  rs={RS}
++  cjgd={CJGD}
++  vjgd={VJGD}
++  mjgd={MJGD}
++  xjgd={XJGD}
++  le={LE}
++  rle={RLE}
++  rer={RER}
++  is={IS}
++  bf={BF}
++  nf={NF}
++  rb={RB}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  tf={TF}
++ 
+.ends  awbirgbc30u
+*$ end model description: "awbirgbc30u"
+*
+*
+*$ model description: "awbbsm25gd100d"
+*b Device model created by analog_uprev for bsm25gd100d on Wed Feb  7 12:17:34 IST 2001
+.subckt awbbsm25gd100d   1 2 3 4
++ params:
++ VTO=6.0429
++ KP=936.597m
++ LAMBDA=1E-10
++ CGSO=4.0n
++ RG=15
++ RD=0.8104
++ RS=258.5128m
++ CJGD=2.083E-9
++ VJGD=0.1137
++ MJGD=0.5219
++ XJGD=0.965
++ LE=5n
++ RLE=100
++ RER=0.1m
++ IS=1n
++ BF=9
++ NF=1.5
++ RB=0.1
++ CJC=6.075e-10
++ VJC=1.6
++ MJC=0.4
++ CJE=2e-7
++ TF=0.96e-8
+xinstbsm25gd100d   1 2 3 4 model614     params:   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  rg={RG}
++  rd={RD}
++  rs={RS}
++  cjgd={CJGD}
++  vjgd={VJGD}
++  mjgd={MJGD}
++  xjgd={XJGD}
++  le={LE}
++  rle={RLE}
++  rer={RER}
++  is={IS}
++  bf={BF}
++  nf={NF}
++  rb={RB}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  cje={CJE}
++  tf={TF}
++ 
+.ends  awbbsm25gd100d
+*$ end model description: "awbbsm25gd100d"
+*
+*

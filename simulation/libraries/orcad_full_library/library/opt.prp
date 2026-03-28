@@ -1,0 +1,3760 @@
+("awb3c91"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"704")
+        ("SYMBOL_NAME"	"MCT6")
+        ("PORT_ORDER"
+            ("A")
+            ("B")
+            ("C")
+            ("D")
+        )
+    )
+    ("device_max_ops")
+    ("device_pre_smoke")
+)
+("awb3c92"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"704")
+        ("SYMBOL_NAME"	"MCT6")
+        ("PORT_ORDER"
+            ("A")
+            ("B")
+            ("C")
+            ("D")
+        )
+    )
+    ("device_max_ops")
+    ("device_pre_smoke")
+)
+("awb4n24"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"580")
+        ("symbol_name"	"OCNPN")
+        ("PORT_ORDER"
+            ("AN")
+            ("CAT")
+            ("C")
+            ("B")
+            ("E")
+        )
+    )
+    ("device_max_ops")
+    ("device_pre_smoke"
+        ("TERM_IFD"	"-1")
+        ("TERM_IC"	"-3")
+        ("NODE_VC"	"D")
+        ("NODE_VE"	"C")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"B")
+        ("DERATE_TYPE"	"OCNN")
+    )
+)
+("awb4n25"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"680")
+        ("SYMBOL_NAME"	"OCNPN")
+        ("PORT_ORDER"
+            ("AN")
+            ("CAT")
+            ("C")
+            ("B")
+            ("E")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("CJO"
+                ("val"	"18.5p")
+                ("description"	"LED junction cap")
+                ("units"	"F")
+            )
+            ("VJ"
+                ("val"	"0.54")
+                ("description"	"LED contact pot")
+                ("units"	"V")
+            )
+            ("MJ"
+                ("val"	"0.26772")
+                ("description"	"LED CJ exponent")
+                ("units"	"")
+            )
+            ("BV"
+                ("val"	"3")
+                ("description"	"LED V breakdown")
+                ("units"	"V")
+            )
+            ("ISD"
+                ("val"	"7f")
+                ("description"	"LED Isat")
+                ("units"	"A")
+            )
+            ("ND"
+                ("val"	"1.575")
+                ("description"	"LED emission coef")
+                ("units"	"")
+            )
+            ("XTI"
+                ("val"	"20")
+                ("description"	"LED Isat temp exp")
+                ("units"	"")
+            )
+            ("IR"
+                ("val"	"80u")
+                ("description"	"LED reverse current")
+                ("units"	"A")
+            )
+            ("VR"
+                ("val"	"3")
+                ("description"	"LED IR test voltage")
+                ("units"	"V")
+            )
+            ("RSD"
+                ("val"	"2")
+                ("description"	"LED series res")
+                ("units"	"Ohm")
+            )
+            ("CIO"
+                ("val"	"0.2p")
+                ("description"	"Input to output cap")
+                ("units"	"F")
+            )
+            ("CC1"
+                ("val"	"4m")
+                ("description"	"Linear coupling coef")
+                ("units"	"")
+            )
+            ("CC2"
+                ("val"	"-4m")
+                ("description"	"Quad coupling coef")
+                ("units"	"")
+            )
+            ("IST"
+                ("val"	"9.72f")
+                ("description"	"NPN Isat")
+                ("units"	"A")
+            )
+            ("BF"
+                ("val"	"600")
+                ("description"	"NPN fwd beta")
+                ("units"	"")
+            )
+            ("NF"
+                ("val"	"1.15")
+                ("description"	"NPN fwd emission")
+                ("units"	"")
+            )
+            ("IKF"
+                ("val"	"0.05")
+                ("description"	"NPN fwd knee")
+                ("units"	"A")
+            )
+            ("ISE"
+                ("val"	"1f")
+                ("description"	"NPN B-E leak cur")
+                ("units"	"A")
+            )
+            ("NE"
+                ("val"	"1.5")
+                ("description"	"NPN B-E emission")
+                ("units"	"")
+            )
+            ("ISC"
+                ("val"	"5p")
+                ("description"	"NPN B-C leakage")
+                ("units"	"A")
+            )
+            ("NC"
+                ("val"	"5")
+                ("description"	"NPN B-C emission")
+                ("units"	"")
+            )
+            ("RC"
+                ("val"	"0.1")
+                ("description"	"NPN collector res")
+                ("units"	"Ohm")
+            )
+            ("CJC"
+                ("val"	"19p")
+                ("description"	"NPN B-C dep cap.")
+                ("units"	"F")
+            )
+            ("VJC"
+                ("val"	"1")
+                ("description"	"NPN B-C potential")
+                ("units"	"V")
+            )
+            ("MJC"
+                ("val"	"0.57")
+                ("description"	"NPN CJC exponent")
+                ("units"	"")
+            )
+            ("XTB"
+                ("val"	"3")
+                ("description"	"NPN beta tmp exp")
+                ("units"	"")
+            )
+            ("TF"
+                ("val"	"0.9n")
+                ("description"	"NPN fwd transit time")
+                ("units"	"S")
+            )
+            ("TR"
+                ("val"	"1u")
+                ("description"	"NPN rev transit time")
+                ("units"	"S")
+            )
+            ("CJE"
+                ("val"	"9p")
+                ("description"	"NPN B-E dep cap.")
+                ("units"	"F")
+            )
+            ("VJE"
+                ("val"	"0.8")
+                ("description"	"NPN B-E potential")
+                ("units"	"V")
+            )
+            ("MJE"
+                ("val"	"0.2")
+                ("description"	"NPN CJE exponent")
+                ("units"	"")
+            )
+            ("VAF"
+                ("val"	"100")
+                ("description"	"NPN Early voltage")
+                ("units"	"V")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("IFD"	"500m")
+        ("VD"	"3")
+        ("VCBO"	"70")
+        ("VECO"	"7")
+        ("VCEO"	"30")
+        ("IC"	"150m")
+        ("PDM"	"150m")
+    )
+    ("device_pre_smoke"
+        ("TERM_IFD"	"-1")
+        ("TERM_IC"	"-3")
+        ("NODE_VC"	"C")
+        ("NODE_VB"	"B")
+        ("NODE_VE"	"E")
+        ("NODE_AN"	"AN")
+        ("NODE_CAT"	"CAT")
+        ("DERATE_TYPE"	"OCNPN")
+    )
+)
+("awb4n26"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"680")
+        ("SYMBOL_NAME"	"OCNPN")
+        ("PORT_ORDER"
+            ("AN")
+            ("CAT")
+            ("C")
+            ("B")
+            ("E")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("CJO"
+                ("val"	"18.5p")
+                ("description"	"LED junction cap")
+                ("units"	"F")
+            )
+            ("VJ"
+                ("val"	"0.54")
+                ("description"	"LED contact pot")
+                ("units"	"V")
+            )
+            ("MJ"
+                ("val"	"0.26772")
+                ("description"	"LED CJ exponent")
+                ("units"	"")
+            )
+            ("BV"
+                ("val"	"3")
+                ("description"	"LED V breakdown")
+                ("units"	"V")
+            )
+            ("ISD"
+                ("val"	"7f")
+                ("description"	"LED Isat")
+                ("units"	"A")
+            )
+            ("ND"
+                ("val"	"1.575")
+                ("description"	"LED emission coef")
+                ("units"	"")
+            )
+            ("XTI"
+                ("val"	"20")
+                ("description"	"LED Isat temp exp")
+                ("units"	"")
+            )
+            ("IR"
+                ("val"	"80u")
+                ("description"	"LED reverse current")
+                ("units"	"A")
+            )
+            ("VR"
+                ("val"	"3")
+                ("description"	"LED IR test voltage")
+                ("units"	"V")
+            )
+            ("RSD"
+                ("val"	"2")
+                ("description"	"LED series res")
+                ("units"	"Ohm")
+            )
+            ("CIO"
+                ("val"	"0.2p")
+                ("description"	"Input to output cap")
+                ("units"	"F")
+            )
+            ("CC1"
+                ("val"	"4m")
+                ("description"	"Linear coupling coef")
+                ("units"	"")
+            )
+            ("CC2"
+                ("val"	"-4m")
+                ("description"	"Quad coupling coef")
+                ("units"	"")
+            )
+            ("IST"
+                ("val"	"9.72f")
+                ("description"	"NPN Isat")
+                ("units"	"A")
+            )
+            ("BF"
+                ("val"	"600")
+                ("description"	"NPN fwd beta")
+                ("units"	"")
+            )
+            ("NF"
+                ("val"	"1.15")
+                ("description"	"NPN fwd emission")
+                ("units"	"")
+            )
+            ("IKF"
+                ("val"	"0.05")
+                ("description"	"NPN fwd knee")
+                ("units"	"A")
+            )
+            ("ISE"
+                ("val"	"1f")
+                ("description"	"NPN B-E leak cur")
+                ("units"	"A")
+            )
+            ("NE"
+                ("val"	"1.5")
+                ("description"	"NPN B-E emission")
+                ("units"	"")
+            )
+            ("ISC"
+                ("val"	"5p")
+                ("description"	"NPN B-C leakage")
+                ("units"	"A")
+            )
+            ("NC"
+                ("val"	"5")
+                ("description"	"NPN B-C emission")
+                ("units"	"")
+            )
+            ("RC"
+                ("val"	"0.1")
+                ("description"	"NPN collector res")
+                ("units"	"Ohm")
+            )
+            ("CJC"
+                ("val"	"19p")
+                ("description"	"NPN B-C dep cap.")
+                ("units"	"F")
+            )
+            ("VJC"
+                ("val"	"1")
+                ("description"	"NPN B-C potential")
+                ("units"	"V")
+            )
+            ("MJC"
+                ("val"	"0.57")
+                ("description"	"NPN CJC exponent")
+                ("units"	"")
+            )
+            ("XTB"
+                ("val"	"3")
+                ("description"	"NPN beta tmp exp")
+                ("units"	"")
+            )
+            ("TF"
+                ("val"	"0.9n")
+                ("description"	"NPN fwd transit time")
+                ("units"	"S")
+            )
+            ("TR"
+                ("val"	"1u")
+                ("description"	"NPN rev transit time")
+                ("units"	"S")
+            )
+            ("CJE"
+                ("val"	"9p")
+                ("description"	"NPN B-E dep cap.")
+                ("units"	"F")
+            )
+            ("VJE"
+                ("val"	"0.8")
+                ("description"	"NPN B-E potential")
+                ("units"	"V")
+            )
+            ("MJE"
+                ("val"	"0.2")
+                ("description"	"NPN CJE exponent")
+                ("units"	"")
+            )
+            ("VAF"
+                ("val"	"100")
+                ("description"	"NPN Early voltage")
+                ("units"	"V")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("IFD"	"500m")
+        ("VD"	"3")
+        ("VCBO"	"70")
+        ("VECO"	"7")
+        ("VCEO"	"30")
+        ("IC"	"150m")
+        ("PDM"	"150m")
+    )
+    ("device_pre_smoke"
+        ("TERM_IFD"	"-1")
+        ("TERM_IC"	"-3")
+        ("NODE_VC"	"C")
+        ("NODE_VB"	"B")
+        ("NODE_VE"	"E")
+        ("NODE_AN"	"AN")
+        ("NODE_CAT"	"CAT")
+        ("DERATE_TYPE"	"OCNPN")
+    )
+)
+("awb4n27"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"680")
+        ("SYMBOL_NAME"	"OCNPN")
+        ("PORT_ORDER"
+            ("AN")
+            ("CAT")
+            ("C")
+            ("B")
+            ("E")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("CJO"
+                ("val"	"18.5p")
+            )
+            ("VJ"
+                ("val"	"0.54")
+            )
+            ("MJ"
+                ("val"	"0.26772")
+            )
+            ("BV"
+                ("val"	"3")
+            )
+            ("ISD"
+                ("val"	"7f")
+            )
+            ("ND"
+                ("val"	"1.575")
+            )
+            ("XTI"
+                ("val"	"20")
+            )
+            ("IR"
+                ("val"	"80u")
+            )
+            ("VR"
+                ("val"	"3")
+            )
+            ("RSD"
+                ("val"	"2")
+            )
+            ("CIO"
+                ("val"	"0.2p")
+            )
+            ("CC1"
+                ("val"	"4m")
+            )
+            ("CC2"
+                ("val"	"-4m")
+            )
+            ("IST"
+                ("val"	"9.72f")
+            )
+            ("BF"
+                ("val"	"600")
+            )
+            ("NF"
+                ("val"	"1.15")
+            )
+            ("IKF"
+                ("val"	"0.05")
+            )
+            ("ISE"
+                ("val"	"1f")
+            )
+            ("NE"
+                ("val"	"1.5")
+            )
+            ("ISC"
+                ("val"	"5p")
+            )
+            ("NC"
+                ("val"	"5")
+            )
+            ("RC"
+                ("val"	"0.1")
+            )
+            ("CJC"
+                ("val"	"19p")
+            )
+            ("VJC"
+                ("val"	"1")
+            )
+            ("MJC"
+                ("val"	"0.57")
+            )
+            ("XTB"
+                ("val"	"3")
+            )
+            ("TF"
+                ("val"	"0.9n")
+            )
+            ("TR"
+                ("val"	"1u")
+            )
+            ("CJE"
+                ("val"	"9p")
+            )
+            ("VJE"
+                ("val"	"0.8")
+            )
+            ("MJE"
+                ("val"	"0.2")
+            )
+            ("VAF"
+                ("val"	"100")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("VCBO"	"70")
+        ("VECO"	"7")
+        ("VCEO"	"30")
+        ("PDM"	"150m")
+        ("IC"	"150m")
+        ("IFD"	"500m")
+        ("VD"	"3")
+    )
+)
+("awb4n28"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"680")
+        ("SYMBOL_NAME"	"OCNPN")
+        ("PORT_ORDER"
+            ("AN")
+            ("CAT")
+            ("C")
+            ("B")
+            ("E")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("CJO"
+                ("val"	"18.5p")
+            )
+            ("VJ"
+                ("val"	"0.54")
+            )
+            ("MJ"
+                ("val"	"0.26772")
+            )
+            ("BV"
+                ("val"	"3")
+            )
+            ("ISD"
+                ("val"	"7f")
+            )
+            ("ND"
+                ("val"	"1.575")
+            )
+            ("XTI"
+                ("val"	"20")
+            )
+            ("IR"
+                ("val"	"80u")
+            )
+            ("VR"
+                ("val"	"3")
+            )
+            ("RSD"
+                ("val"	"2")
+            )
+            ("CIO"
+                ("val"	"0.2p")
+            )
+            ("CC1"
+                ("val"	"4m")
+            )
+            ("CC2"
+                ("val"	"-4m")
+            )
+            ("IST"
+                ("val"	"9.72f")
+            )
+            ("BF"
+                ("val"	"600")
+            )
+            ("NF"
+                ("val"	"1.15")
+            )
+            ("IKF"
+                ("val"	"0.05")
+            )
+            ("ISE"
+                ("val"	"1f")
+            )
+            ("NE"
+                ("val"	"1.5")
+            )
+            ("ISC"
+                ("val"	"5p")
+            )
+            ("NC"
+                ("val"	"5")
+            )
+            ("RC"
+                ("val"	"0.1")
+            )
+            ("CJC"
+                ("val"	"19p")
+            )
+            ("VJC"
+                ("val"	"1")
+            )
+            ("MJC"
+                ("val"	"0.57")
+            )
+            ("XTB"
+                ("val"	"3")
+            )
+            ("TF"
+                ("val"	"0.9n")
+            )
+            ("TR"
+                ("val"	"1u")
+            )
+            ("CJE"
+                ("val"	"9p")
+            )
+            ("VJE"
+                ("val"	"0.8")
+            )
+            ("MJE"
+                ("val"	"0.2")
+            )
+            ("VAF"
+                ("val"	"100")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("VCBO"	"70")
+        ("VECO"	"7")
+        ("VCEO"	"30")
+        ("PDM"	"150m")
+        ("IC"	"150m")
+        ("IFD"	"500m")
+        ("VD"	"3")
+    )
+)
+("awb4n32"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"680")
+        ("SYMBOL_NAME"	"OCNPN")
+        ("PORT_ORDER"
+            ("AN")
+            ("CAT")
+            ("C")
+            ("B")
+            ("E")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("CJO"
+                ("val"	"18p")
+            )
+            ("BV"
+                ("val"	"3")
+            )
+            ("ISD"
+                ("val"	"77f")
+            )
+            ("ND"
+                ("val"	"1.76")
+            )
+            ("XTI"
+                ("val"	"20")
+            )
+            ("IR"
+                ("val"	"0.05u")
+            )
+            ("VR"
+                ("val"	"3")
+            )
+            ("RSD"
+                ("val"	"2")
+            )
+            ("CIO"
+                ("val"	"0.2p")
+            )
+            ("CC1"
+                ("val"	"0.54m")
+            )
+            ("CC2"
+                ("val"	"160m")
+            )
+            ("IST"
+                ("val"	"20f")
+            )
+            ("BF"
+                ("val"	"20000")
+            )
+            ("NF"
+                ("val"	"1.05")
+            )
+            ("IKF"
+                ("val"	"0.06")
+            )
+            ("ISE"
+                ("val"	"0.2f")
+            )
+            ("NE"
+                ("val"	"1.4")
+            )
+            ("ISC"
+                ("val"	"10p")
+            )
+            ("NC"
+                ("val"	"0.51")
+            )
+            ("RC"
+                ("val"	"8")
+            )
+            ("RE"
+                ("val"	"1")
+            )
+            ("CJC"
+                ("val"	"15.8p")
+            )
+            ("VJC"
+                ("val"	"0.25")
+            )
+            ("MJC"
+                ("val"	"0.31")
+            )
+            ("XTB"
+                ("val"	"3")
+            )
+            ("TF"
+                ("val"	"1n")
+            )
+            ("TR"
+                ("val"	"0.5u")
+            )
+            ("CJE"
+                ("val"	"5.5p")
+            )
+            ("VJE"
+                ("val"	"11.5")
+            )
+            ("MJE"
+                ("val"	"1.21")
+            )
+            ("VAF"
+                ("val"	"70")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("VCBO"	"30")
+        ("VECO"	"5")
+        ("VCEO"	"70")
+        ("PDM"	"120m")
+        ("IC"	"150m")
+        ("IFD"	"60m")
+        ("VD"	"6")
+    )
+)
+("awb4n35"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"680")
+        ("SYMBOL_NAME"	"OCNPN")
+        ("PORT_ORDER"
+            ("AN")
+            ("CAT")
+            ("C")
+            ("B")
+            ("E")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("CJO"
+                ("val"	"18p")
+            )
+            ("VJ"
+                ("val"	"0.67")
+            )
+            ("MJ"
+                ("val"	"0.275171")
+            )
+            ("BV"
+                ("val"	"6")
+            )
+            ("ISD"
+                ("val"	"7f")
+            )
+            ("ND"
+                ("val"	"1.55")
+            )
+            ("XTI"
+                ("val"	"20")
+            )
+            ("IR"
+                ("val"	"8u")
+            )
+            ("VR"
+                ("val"	"6")
+            )
+            ("RSD"
+                ("val"	"2")
+            )
+            ("CIO"
+                ("val"	"0.2p")
+            )
+            ("CC1"
+                ("val"	"0.7m")
+            )
+            ("CC2"
+                ("val"	"1.08")
+            )
+            ("IST"
+                ("val"	"20f")
+            )
+            ("BF"
+                ("val"	"600")
+            )
+            ("NF"
+                ("val"	"1.15")
+            )
+            ("IKF"
+                ("val"	"0.0305")
+            )
+            ("ISE"
+                ("val"	"0.2f")
+            )
+            ("NE"
+                ("val"	"1.28")
+            )
+            ("ISC"
+                ("val"	"0.1p")
+            )
+            ("NC"
+                ("val"	"6")
+            )
+            ("RC"
+                ("val"	"0.05")
+            )
+            ("CJC"
+                ("val"	"19p")
+            )
+            ("VJC"
+                ("val"	"1")
+            )
+            ("MJC"
+                ("val"	"0.57")
+            )
+            ("XTB"
+                ("val"	"3")
+            )
+            ("TF"
+                ("val"	"0.9n")
+            )
+            ("TR"
+                ("val"	"1u")
+            )
+            ("CJE"
+                ("val"	"9p")
+            )
+            ("VJE"
+                ("val"	"0.8")
+            )
+            ("MJE"
+                ("val"	"0.2")
+            )
+            ("VAF"
+                ("val"	"200")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("VCBO"	"70")
+        ("VEBO"	"7")
+        ("VCEO"	"30")
+        ("PDM"	"150m")
+        ("IC"	"150m")
+        ("IFD"	"60m")
+        ("VD"	"6")
+    )
+)
+("awb4n36"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"680")
+        ("SYMBOL_NAME"	"OCNPN")
+        ("PORT_ORDER"
+            ("AN")
+            ("CAT")
+            ("C")
+            ("B")
+            ("E")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("CJO"
+                ("val"	"18p")
+            )
+            ("VJ"
+                ("val"	"0.67")
+            )
+            ("MJ"
+                ("val"	"0.275171")
+            )
+            ("BV"
+                ("val"	"6")
+            )
+            ("ISD"
+                ("val"	"7f")
+            )
+            ("ND"
+                ("val"	"1.55")
+            )
+            ("XTI"
+                ("val"	"20")
+            )
+            ("IR"
+                ("val"	"8u")
+            )
+            ("VR"
+                ("val"	"6")
+            )
+            ("RSD"
+                ("val"	"2")
+            )
+            ("CIO"
+                ("val"	"0.2p")
+            )
+            ("CC1"
+                ("val"	"0.7m")
+            )
+            ("CC2"
+                ("val"	"1.08")
+            )
+            ("IST"
+                ("val"	"20f")
+            )
+            ("BF"
+                ("val"	"600")
+            )
+            ("NF"
+                ("val"	"1.15")
+            )
+            ("IKF"
+                ("val"	"0.0305")
+            )
+            ("ISE"
+                ("val"	"0.2f")
+            )
+            ("NE"
+                ("val"	"1.28")
+            )
+            ("ISC"
+                ("val"	"0.1p")
+            )
+            ("NC"
+                ("val"	"6")
+            )
+            ("RC"
+                ("val"	"0.05")
+            )
+            ("CJC"
+                ("val"	"19p")
+            )
+            ("VJC"
+                ("val"	"1")
+            )
+            ("MJC"
+                ("val"	"0.57")
+            )
+            ("XTB"
+                ("val"	"3")
+            )
+            ("TF"
+                ("val"	"0.9n")
+            )
+            ("TR"
+                ("val"	"1u")
+            )
+            ("CJE"
+                ("val"	"9p")
+            )
+            ("VJE"
+                ("val"	"0.8")
+            )
+            ("MJE"
+                ("val"	"0.2")
+            )
+            ("VAF"
+                ("val"	"200")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("VCBO"	"70")
+        ("VEBO"	"7")
+        ("VCEO"	"30")
+        ("PDM"	"150m")
+        ("IC"	"150m")
+        ("IFD"	"60m")
+        ("VD"	"6")
+    )
+)
+("awb4n37"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"680")
+        ("SYMBOL_NAME"	"OCNPN")
+        ("PORT_ORDER"
+            ("AN")
+            ("CAT")
+            ("C")
+            ("B")
+            ("E")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("CJO"
+                ("val"	"18p")
+            )
+            ("VJ"
+                ("val"	"0.67")
+            )
+            ("MJ"
+                ("val"	"0.275171")
+            )
+            ("BV"
+                ("val"	"6")
+            )
+            ("ISD"
+                ("val"	"7f")
+            )
+            ("ND"
+                ("val"	"1.55")
+            )
+            ("XTI"
+                ("val"	"20")
+            )
+            ("IR"
+                ("val"	"8u")
+            )
+            ("VR"
+                ("val"	"6")
+            )
+            ("RSD"
+                ("val"	"2")
+            )
+            ("CIO"
+                ("val"	"0.2p")
+            )
+            ("CC1"
+                ("val"	"0.7m")
+            )
+            ("CC2"
+                ("val"	"1.08")
+            )
+            ("IST"
+                ("val"	"20f")
+            )
+            ("BF"
+                ("val"	"600")
+            )
+            ("NF"
+                ("val"	"1.15")
+            )
+            ("IKF"
+                ("val"	"0.0305")
+            )
+            ("ISE"
+                ("val"	"0.2f")
+            )
+            ("NE"
+                ("val"	"1.28")
+            )
+            ("ISC"
+                ("val"	"0.1p")
+            )
+            ("NC"
+                ("val"	"6")
+            )
+            ("RC"
+                ("val"	"0.05")
+            )
+            ("CJC"
+                ("val"	"19p")
+            )
+            ("VJC"
+                ("val"	"1")
+            )
+            ("MJC"
+                ("val"	"0.57")
+            )
+            ("XTB"
+                ("val"	"3")
+            )
+            ("TF"
+                ("val"	"0.9n")
+            )
+            ("TR"
+                ("val"	"1u")
+            )
+            ("CJE"
+                ("val"	"9p")
+            )
+            ("VJE"
+                ("val"	"0.8")
+            )
+            ("MJE"
+                ("val"	"0.2")
+            )
+            ("VAF"
+                ("val"	"200")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("VCBO"	"70")
+        ("VEBO"	"7")
+        ("VCEO"	"30")
+        ("PDM"	"150m")
+        ("IC"	"150m")
+        ("IFD"	"60m")
+        ("VD"	"6")
+    )
+)
+("awb4n45"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"680")
+        ("SYMBOL_NAME"	"OCNPN")
+        ("PORT_ORDER"
+            ("AN")
+            ("CAT")
+            ("C")
+            ("B")
+            ("E")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("CJO"
+                ("val"	"60p")
+            )
+            ("BV"
+                ("val"	"100")
+            )
+            ("ISD"
+                ("val"	"0.4e-18")
+            )
+            ("ND"
+                ("val"	"1.53")
+            )
+            ("XTI"
+                ("val"	"32")
+            )
+            ("IR"
+                ("val"	"8f")
+            )
+            ("VR"
+                ("val"	"5")
+            )
+            ("RSD"
+                ("val"	"1m")
+            )
+            ("CIO"
+                ("val"	"0.6p")
+            )
+            ("CC1"
+                ("val"	"6.9m")
+            )
+            ("CC2"
+                ("val"	"0")
+            )
+            ("IST"
+                ("val"	"24.5f")
+            )
+            ("BF"
+                ("val"	"5000")
+            )
+            ("NF"
+                ("val"	"1.1")
+            )
+            ("IKF"
+                ("val"	"0.015")
+            )
+            ("ISE"
+                ("val"	"550n")
+            )
+            ("NE"
+                ("val"	"17.5")
+            )
+            ("ISC"
+                ("val"	"1p")
+            )
+            ("NC"
+                ("val"	"2")
+            )
+            ("RC"
+                ("val"	"9")
+            )
+            ("RE"
+                ("val"	"0.8")
+            )
+            ("CJC"
+                ("val"	"50p")
+            )
+            ("VJC"
+                ("val"	"1")
+            )
+            ("MJC"
+                ("val"	"0.57")
+            )
+            ("XTB"
+                ("val"	"0")
+            )
+            ("TF"
+                ("val"	"100n")
+            )
+            ("TR"
+                ("val"	"1000n")
+            )
+            ("CJE"
+                ("val"	"200p")
+            )
+            ("VJE"
+                ("val"	"0.8")
+            )
+            ("MJE"
+                ("val"	"0.2")
+            )
+            ("VAF"
+                ("val"	"100")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("VECO"	"0.5")
+        ("VEBO"	"0.5")
+        ("VCEO"	"7")
+        ("PDM"	"100m")
+        ("IC"	"60m")
+        ("IFD"	"1")
+        ("VD"	"5")
+    )
+)
+("awb4n46"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"680")
+        ("SYMBOL_NAME"	"OCNPN")
+        ("PORT_ORDER"
+            ("AN")
+            ("CAT")
+            ("C")
+            ("B")
+            ("E")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("CJO"
+                ("val"	"60p")
+            )
+            ("BV"
+                ("val"	"100")
+            )
+            ("ISD"
+                ("val"	"0.4e-18")
+            )
+            ("ND"
+                ("val"	"1.53")
+            )
+            ("XTI"
+                ("val"	"32")
+            )
+            ("IR"
+                ("val"	"8f")
+            )
+            ("VR"
+                ("val"	"5")
+            )
+            ("RSD"
+                ("val"	"1m")
+            )
+            ("CIO"
+                ("val"	"0.6p")
+            )
+            ("CC1"
+                ("val"	"7.4m")
+            )
+            ("CC2"
+                ("val"	"2")
+            )
+            ("IST"
+                ("val"	"24.5f")
+            )
+            ("BF"
+                ("val"	"5000")
+            )
+            ("NF"
+                ("val"	"1.1")
+            )
+            ("IKF"
+                ("val"	"0.015")
+            )
+            ("ISE"
+                ("val"	"550n")
+            )
+            ("NE"
+                ("val"	"17.5")
+            )
+            ("ISC"
+                ("val"	"0.5p")
+            )
+            ("NC"
+                ("val"	"2")
+            )
+            ("RC"
+                ("val"	"9")
+            )
+            ("RE"
+                ("val"	"1")
+            )
+            ("CJC"
+                ("val"	"50p")
+            )
+            ("VJC"
+                ("val"	"1")
+            )
+            ("MJC"
+                ("val"	"0.57")
+            )
+            ("XTB"
+                ("val"	"2.05")
+            )
+            ("TF"
+                ("val"	"100n")
+            )
+            ("TR"
+                ("val"	"1000n")
+            )
+            ("CJE"
+                ("val"	"200p")
+            )
+            ("VJE"
+                ("val"	"0.8")
+            )
+            ("MJE"
+                ("val"	"0.2")
+            )
+            ("VAF"
+                ("val"	"100")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("VECO"	"0.5")
+        ("VEBO"	"0.5")
+        ("VCEO"	"7")
+        ("PDM"	"100m")
+        ("IC"	"60m")
+        ("IFD"	"1")
+        ("VD"	"5")
+    )
+)
+("awb6n134"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"6n134")
+        ("MODEL_TYPE"	"708")
+        ("PORT_ORDER"
+            ("A")
+            ("B")
+            ("C")
+            ("D")
+            ("E")
+            ("F")
+            ("G")
+            ("H")
+        )
+    )
+    ("device_max_ops")
+)
+("awb6n138"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"706")
+        ("SYMBOL_NAME"	"6N138")
+        ("PORT_ORDER"
+            ("A")
+            ("B")
+            ("C")
+            ("D")
+            ("E")
+            ("F")
+        )
+    )
+    ("device_max_ops")
+)
+("awbh11ag1"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"680")
+        ("SYMBOL_NAME"	"OCNPN")
+        ("PORT_ORDER"
+            ("AN")
+            ("CAT")
+            ("C")
+            ("B")
+            ("E")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("CJO"
+                ("val"	"50p")
+            )
+            ("BV"
+                ("val"	"6")
+            )
+            ("ISD"
+                ("val"	"80f")
+            )
+            ("ND"
+                ("val"	"1.99")
+            )
+            ("XTI"
+                ("val"	"23")
+            )
+            ("IR"
+                ("val"	"5u")
+            )
+            ("VR"
+                ("val"	"5")
+            )
+            ("RSD"
+                ("val"	"2.3")
+            )
+            ("CIO"
+                ("val"	"1p")
+            )
+            ("CC1"
+                ("val"	"9.2m")
+            )
+            ("CC2"
+                ("val"	"158.7m")
+            )
+            ("IKF"
+                ("val"	"5m")
+            )
+            ("ISE"
+                ("val"	"5f")
+            )
+            ("NE"
+                ("val"	"1.5")
+            )
+            ("ISC"
+                ("val"	"24n")
+            )
+            ("NC"
+                ("val"	"3.7")
+            )
+            ("CJC"
+                ("val"	"300p")
+            )
+            ("VJC"
+                ("val"	"0.65")
+            )
+            ("MJC"
+                ("val"	"0.4")
+            )
+            ("CJE"
+                ("val"	"10p")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("VCBO"	"70")
+        ("VECO"	"7")
+        ("VCEO"	"30")
+        ("PDM"	"150m")
+        ("IC"	"50m")
+        ("IFD"	"50m")
+        ("VD"	"6")
+    )
+)
+("awbhcc242"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"679")
+        ("SYMBOL_NAME"	"MCT6")
+        ("PORT_ORDER"
+            ("A")
+            ("B")
+            ("D")
+            ("C")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("ISD"
+                ("val"	"0.8f")
+            )
+            ("RSD"
+                ("val"	"50m")
+            )
+            ("ND"
+                ("val"	"1.45")
+            )
+            ("XTI"
+                ("val"	"10")
+            )
+            ("IR"
+                ("val"	"80u")
+            )
+            ("VR"
+                ("val"	"2")
+            )
+            ("BV"
+                ("val"	"2")
+            )
+            ("CJO"
+                ("val"	"18.8p")
+            )
+            ("MJ"
+                ("val"	"370m")
+            )
+            ("CIO"
+                ("val"	"4p")
+            )
+            ("CC1"
+                ("val"	"7.5m")
+            )
+            ("IST"
+                ("val"	"0.8f")
+            )
+            ("BF"
+                ("val"	"590")
+            )
+            ("VAF"
+                ("val"	"100")
+            )
+            ("IKF"
+                ("val"	"0.25")
+            )
+            ("ISE"
+                ("val"	"3.0f")
+            )
+            ("NE"
+                ("val"	"1.3")
+            )
+            ("ISC"
+                ("val"	"200p")
+            )
+            ("RE"
+                ("val"	"100m")
+            )
+            ("RC"
+                ("val"	"100m")
+            )
+            ("XTB"
+                ("val"	"1")
+            )
+            ("CJE"
+                ("val"	"2.2p")
+            )
+            ("CJC"
+                ("val"	"5.2p")
+            )
+            ("TF"
+                ("val"	"30n")
+            )
+            ("TR"
+                ("val"	"500n")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("IFD"	"40m")
+        ("VD"	"2")
+        ("VECO"	"5")
+        ("VCEO"	"30")
+        ("IC"	"50m")
+        ("PDM"	"300m")
+    )
+)
+("awbhcpl2602"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"2602")
+        ("MODEL_TYPE"	"708")
+        ("PORT_ORDER"
+            ("A")
+            ("B")
+            ("C")
+            ("D")
+            ("E")
+            ("F")
+            ("G")
+            ("H")
+        )
+    )
+    ("device_max_ops")
+)
+("awbhcpl6730"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"705")
+        ("SYMBOL_NAME"	"HCPL6730")
+        ("PORT_ORDER"
+            ("B")
+            ("A")
+            ("C")
+            ("D")
+            ("E")
+        )
+    )
+    ("device_max_ops")
+)
+("awbhcpl6731"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"705")
+        ("SYMBOL_NAME"	"HCPL6730")
+        ("PORT_ORDER"
+            ("B")
+            ("A")
+            ("C")
+            ("D")
+            ("E")
+        )
+    )
+    ("device_max_ops")
+)
+("awbhcpl_m453"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"681")
+        ("SYMBOL_NAME"	"OCNPN")
+        ("PORT_ORDER"
+            ("AN")
+            ("CAT")
+            ("C")
+            ("B")
+            ("E")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("CJO"
+                ("value"	"60p")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED junction cap")
+                ("units"	"F")
+            )
+            ("VJ"
+                ("value"	"0.67")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED contact pot")
+                ("units"	"V")
+            )
+            ("MJ"
+                ("value"	"0.45")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED CJ exponent")
+                ("units"	"")
+            )
+            ("BV"
+                ("value"	"5")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED V breakdown")
+                ("units"	"V")
+            )
+            ("ISD"
+                ("value"	"6.682E-14")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED Isat")
+                ("units"	"A")
+            )
+            ("ND"
+                ("value"	"2")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED emission coef")
+                ("units"	"")
+            )
+            ("XTI"
+                ("value"	"20")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED Isat temp exp")
+                ("units"	"")
+            )
+            ("IR"
+                ("value"	"10u")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED reverse current")
+                ("units"	"A")
+            )
+            ("VR"
+                ("value"	"5")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED IR test voltage")
+                ("units"	"V")
+            )
+            ("RSD"
+                ("value"	"10")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED series res")
+                ("units"	"Ohm")
+            )
+            ("CIO"
+                ("value"	"0.6p")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"Input to output cap")
+                ("units"	"F")
+            )
+            ("CC1"
+                ("value"	"4m")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"Linear coupling coef")
+                ("units"	"")
+            )
+            ("CC2"
+                ("value"	"-4m")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"Quad coupling coef")
+                ("units"	"")
+            )
+            ("IST"
+                ("value"	"9.72f")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN Isat")
+                ("units"	"A")
+            )
+            ("BF"
+                ("value"	"64")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN fwd beta")
+                ("units"	"")
+            )
+            ("NF"
+                ("value"	"1.15")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN fwd emission")
+                ("units"	"")
+            )
+            ("IKF"
+                ("value"	"0.05")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN fwd knee")
+                ("units"	"A")
+            )
+            ("ISE"
+                ("value"	"1f")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-E leak cur")
+                ("units"	"A")
+            )
+            ("NE"
+                ("value"	"1.5")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-E emission")
+                ("units"	"")
+            )
+            ("ISC"
+                ("value"	"5p")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-C leakage")
+                ("units"	"A")
+            )
+            ("NC"
+                ("value"	"5")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-C emission")
+                ("units"	"")
+            )
+            ("RC"
+                ("value"	"0.1")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN collector res")
+                ("units"	"Ohm")
+            )
+            ("CJC"
+                ("value"	"0.25p")
+                ("postol"	"5%")
+                ("negtol"	"10%")
+                ("distrib"	"FLAT")
+                ("description"	"NPN B-C dep cap.")
+                ("units"	"F")
+            )
+            ("VJC"
+                ("value"	"1")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-C potential")
+                ("units"	"V")
+            )
+            ("MJC"
+                ("value"	"0.57")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN CJC exponent")
+                ("units"	"")
+            )
+            ("XTB"
+                ("value"	"3")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN beta tmp exp")
+                ("units"	"")
+            )
+            ("TF"
+                ("value"	"2.6170n")
+                ("postol"	"90%")
+                ("negtol"	"0")
+                ("distrib"	"FLAT")
+                ("description"	"NPN fwd transit time")
+                ("units"	"S")
+            )
+            ("TR"
+                ("value"	"15.3526u")
+                ("postol"	"10%")
+                ("negtol"	"10%")
+                ("distrib"	"FLAT")
+                ("description"	"NPN rev transit time")
+                ("units"	"S")
+            )
+            ("CJE"
+                ("value"	"1.62p")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-E dep cap.")
+                ("units"	"F")
+            )
+            ("VJE"
+                ("value"	"0.8")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-E potential")
+                ("units"	"V")
+            )
+            ("MJE"
+                ("value"	"0.2")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN CJE exponent")
+                ("units"	"")
+            )
+            ("VAF"
+                ("value"	"100")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN Early voltage")
+                ("units"	"V")
+            )
+            ("RE"
+                ("value"	"10m")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN emitter res")
+                ("units"	"Ohm")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("IFD"	"25m")
+        ("VD"	"5")
+        ("VCBO"	"20")
+        ("VECO"	"5")
+        ("VEBO"	"5")
+        ("VCEO"	"20")
+        ("IC"	"8m")
+        ("PDM"	"100m")
+    )
+    ("device_pre_smoke"
+        ("TERM_IFD"	"AN")
+        ("TERM_IC"	"C")
+        ("NODE_VC"	"C")
+        ("NODE_VB"	"B")
+        ("NODE_VE"	"E")
+        ("NODE_AN"	"AN")
+        ("NODE_CAT"	"CAT")
+        ("DERATE_TYPE"	"OCNPN")
+    )
+)
+("awbil221"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"680")
+        ("SYMBOL_NAME"	"OCNPN")
+        ("PORT_ORDER"
+            ("AN")
+            ("CAT")
+            ("C")
+            ("B")
+            ("E")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("ISD"
+                ("val"	"1.4513e-15")
+            )
+            ("RSD"
+                ("val"	"5.4511e-01")
+            )
+            ("ND"
+                ("val"	"1.4478e+00")
+            )
+            ("XTI"
+                ("val"	"1.7989e+01")
+            )
+            ("IR"
+                ("val"	"1.0000e-07")
+            )
+            ("VR"
+                ("val"	"6.0000e+00")
+            )
+            ("BV"
+                ("val"	"1.2000e+01")
+            )
+            ("CJO"
+                ("val"	"1.0000e-10")
+            )
+            ("CIO"
+                ("val"	"5.0000e-13")
+            )
+            ("CC1"
+                ("val"	"4.5226e-04")
+            )
+            ("CC2"
+                ("val"	"1.4957e-02")
+            )
+            ("IST"
+                ("val"	"2.7211e-15")
+            )
+            ("BF"
+                ("val"	"1.5512e+04")
+            )
+            ("NF"
+                ("val"	"1.5000e+00")
+            )
+            ("VAF"
+                ("val"	"1.0000e+00")
+            )
+            ("IKF"
+                ("val"	"5.0000e-03")
+            )
+            ("ISE"
+                ("val"	"3.0253e-11")
+            )
+            ("NE"
+                ("val"	"4.0000e+00")
+            )
+            ("ISC"
+                ("val"	"3.0253e-11")
+            )
+            ("NC"
+                ("val"	"3.2241e+00")
+            )
+            ("RE"
+                ("val"	"7.3674e-04")
+            )
+            ("RC"
+                ("val"	"9.2448e+01")
+            )
+            ("XTB"
+                ("val"	"3.0000e+00")
+            )
+            ("CJC"
+                ("val"	"9.7583e-12")
+            )
+            ("VJC"
+                ("val"	"7.4000e-01")
+            )
+            ("MJC"
+                ("val"	"3.9396e-01")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("IFD"	"60m")
+        ("VD"	"6")
+        ("VECO"	"5")
+        ("VCEO"	"30")
+        ("PDM"	"150m")
+    )
+)
+("awbil222"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"680")
+        ("SYMBOL_NAME"	"OCNPN")
+        ("PORT_ORDER"
+            ("AN")
+            ("CAT")
+            ("C")
+            ("B")
+            ("E")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("ISD"
+                ("val"	"1.4513e-15")
+            )
+            ("RSD"
+                ("val"	"5.4511e-01")
+            )
+            ("ND"
+                ("val"	"1.4478e+00")
+            )
+            ("XTI"
+                ("val"	"1.7989e+01")
+            )
+            ("IR"
+                ("val"	"1.0000e-07")
+            )
+            ("VR"
+                ("val"	"6.0000e+00")
+            )
+            ("BV"
+                ("val"	"1.2000e+01")
+            )
+            ("CJO"
+                ("val"	"1.0000e-10")
+            )
+            ("CIO"
+                ("val"	"5.0000e-13")
+            )
+            ("CC1"
+                ("val"	"4.5226e-04")
+            )
+            ("CC2"
+                ("val"	"1.4957e-02")
+            )
+            ("IST"
+                ("val"	"1.7492e-15")
+            )
+            ("BF"
+                ("val"	"3.8964e+04")
+            )
+            ("NF"
+                ("val"	"8.5000e-01")
+            )
+            ("VAF"
+                ("val"	"1.0000e+00")
+            )
+            ("IKF"
+                ("val"	"3.7015e-02")
+            )
+            ("ISE"
+                ("val"	"1.0447e-12")
+            )
+            ("NE"
+                ("val"	"1.7353e+00")
+            )
+            ("ISC"
+                ("val"	"1.0447e-12")
+            )
+            ("NC"
+                ("val"	"3.0765e+00")
+            )
+            ("RE"
+                ("val"	"7.1268e-04")
+            )
+            ("RC"
+                ("val"	"6.8479e+01")
+            )
+            ("XTB"
+                ("val"	"3.0000e+00")
+            )
+            ("CJC"
+                ("val"	"9.7583e-12")
+            )
+            ("VJC"
+                ("val"	"7.4000e-01")
+            )
+            ("MJC"
+                ("val"	"3.9396e-01")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("IFD"	"60m")
+        ("VD"	"6")
+        ("VECO"	"5")
+        ("VCEO"	"30")
+        ("PDM"	"150m")
+    )
+)
+("awbil223"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"680")
+        ("SYMBOL_NAME"	"OCNPN")
+        ("PORT_ORDER"
+            ("AN")
+            ("CAT")
+            ("C")
+            ("B")
+            ("E")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("ISD"
+                ("val"	"1.4513e-15")
+            )
+            ("RSD"
+                ("val"	"5.4511e-01")
+            )
+            ("ND"
+                ("val"	"1.4478e+00")
+            )
+            ("XTI"
+                ("val"	"1.7989e+01")
+            )
+            ("IR"
+                ("val"	"1.0000e-07")
+            )
+            ("VR"
+                ("val"	"6.0000e+00")
+            )
+            ("BV"
+                ("val"	"1.2000e+01")
+            )
+            ("CJO"
+                ("val"	"1.0000e-10")
+            )
+            ("CIO"
+                ("val"	"5.0000e-13")
+            )
+            ("CC1"
+                ("val"	"4.5226e-04")
+            )
+            ("CC2"
+                ("val"	"1.4957e-02")
+            )
+            ("IST"
+                ("val"	"3.3868e-17")
+            )
+            ("BF"
+                ("val"	"3.8085e+04")
+            )
+            ("NF"
+                ("val"	"8.5000e-01")
+            )
+            ("VAF"
+                ("val"	"1.0000e+00")
+            )
+            ("IKF"
+                ("val"	"9.5837e+00")
+            )
+            ("ISE"
+                ("val"	"2.8230e-13")
+            )
+            ("NE"
+                ("val"	"1.8603e+00")
+            )
+            ("ISC"
+                ("val"	"2.8230e-13")
+            )
+            ("NC"
+                ("val"	"3.0951e+00")
+            )
+            ("RE"
+                ("val"	"6.4579e-04")
+            )
+            ("RC"
+                ("val"	"3.7813e+01")
+            )
+            ("XTB"
+                ("val"	"3.0000e+00")
+            )
+            ("CJC"
+                ("val"	"9.7583e-12")
+            )
+            ("VJC"
+                ("val"	"7.4000e-01")
+            )
+            ("MJC"
+                ("val"	"3.9396e-01")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("IFD"	"60m")
+        ("VD"	"6")
+        ("VECO"	"5")
+        ("VCEO"	"30")
+        ("PDM"	"150m")
+    )
+)
+("awbmct6"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"679")
+        ("SYMBOL_NAME"	"MCT6")
+        ("PORT_ORDER"
+            ("A")
+            ("B")
+            ("D")
+            ("C")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("CJO"
+                ("val"	"50p")
+            )
+            ("BV"
+                ("val"	"100")
+            )
+            ("ISD"
+                ("val"	"6f")
+            )
+            ("ND"
+                ("val"	"1.67")
+            )
+            ("XTI"
+                ("val"	"10")
+            )
+            ("IR"
+                ("val"	"1n")
+            )
+            ("VR"
+                ("val"	"3")
+            )
+            ("RSD"
+                ("val"	"0.2")
+            )
+            ("CIO"
+                ("val"	"0.4p")
+            )
+            ("CC1"
+                ("val"	"0.6")
+            )
+            ("CC2"
+                ("val"	"0.6")
+            )
+            ("IST"
+                ("val"	"10f")
+            )
+            ("BF"
+                ("val"	"40")
+            )
+            ("NF"
+                ("val"	"1")
+            )
+            ("IKF"
+                ("val"	"10m")
+            )
+            ("ISE"
+                ("val"	"320f")
+            )
+            ("NE"
+                ("val"	"1.1")
+            )
+            ("ISC"
+                ("val"	"2.7n")
+            )
+            ("NC"
+                ("val"	"1.1")
+            )
+            ("RC"
+                ("val"	"1")
+            )
+            ("CJC"
+                ("val"	"10n")
+            )
+            ("TF"
+                ("val"	"1u")
+            )
+            ("TR"
+                ("val"	"1u")
+            )
+            ("CJE"
+                ("val"	"8p")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("PDM"	"150m")
+        ("IC"	"30m")
+        ("IFD"	"3")
+        ("VD"	"25")
+    )
+)
+("awbmct61"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"679")
+        ("SYMBOL_NAME"	"MCT6")
+        ("PORT_ORDER"
+            ("A")
+            ("B")
+            ("D")
+            ("C")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("CJO"
+                ("val"	"50p")
+            )
+            ("BV"
+                ("val"	"100")
+            )
+            ("ISD"
+                ("val"	"6f")
+            )
+            ("ND"
+                ("val"	"1.67")
+            )
+            ("XTI"
+                ("val"	"10")
+            )
+            ("IR"
+                ("val"	"1n")
+            )
+            ("VR"
+                ("val"	"3")
+            )
+            ("RSD"
+                ("val"	"0.2")
+            )
+            ("CIO"
+                ("val"	"0.4p")
+            )
+            ("CC1"
+                ("val"	"0.8")
+            )
+            ("CC2"
+                ("val"	"0.6")
+            )
+            ("IST"
+                ("val"	"10f")
+            )
+            ("BF"
+                ("val"	"40")
+            )
+            ("NF"
+                ("val"	"1")
+            )
+            ("IKF"
+                ("val"	"10m")
+            )
+            ("ISE"
+                ("val"	"320f")
+            )
+            ("NE"
+                ("val"	"1.1")
+            )
+            ("ISC"
+                ("val"	"2.7n")
+            )
+            ("NC"
+                ("val"	"1.076")
+            )
+            ("RC"
+                ("val"	"1")
+            )
+            ("CJC"
+                ("val"	"10n")
+            )
+            ("TF"
+                ("val"	"1u")
+            )
+            ("TR"
+                ("val"	"1u")
+            )
+            ("CJE"
+                ("val"	"8p")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("PDM"	"150m")
+        ("IC"	"30m")
+        ("IFD"	"3")
+        ("VD"	"25")
+    )
+)
+("awbmct62"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"679")
+        ("SYMBOL_NAME"	"MCT6")
+        ("PORT_ORDER"
+            ("A")
+            ("B")
+            ("D")
+            ("C")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("CJO"
+                ("val"	"50p")
+            )
+            ("BV"
+                ("val"	"100")
+            )
+            ("ISD"
+                ("val"	"6f")
+            )
+            ("ND"
+                ("val"	"1.67")
+            )
+            ("XTI"
+                ("val"	"10")
+            )
+            ("IR"
+                ("val"	"1n")
+            )
+            ("VR"
+                ("val"	"3")
+            )
+            ("RSD"
+                ("val"	"0.2")
+            )
+            ("CIO"
+                ("val"	"0.4p")
+            )
+            ("CC1"
+                ("val"	"1")
+            )
+            ("CC2"
+                ("val"	"0.7")
+            )
+            ("IST"
+                ("val"	"10f")
+            )
+            ("BF"
+                ("val"	"40")
+            )
+            ("NF"
+                ("val"	"1")
+            )
+            ("IKF"
+                ("val"	"15m")
+            )
+            ("ISE"
+                ("val"	"320f")
+            )
+            ("NE"
+                ("val"	"1.1")
+            )
+            ("ISC"
+                ("val"	"2.7n")
+            )
+            ("NC"
+                ("val"	"1.05")
+            )
+            ("RC"
+                ("val"	"1")
+            )
+            ("CJC"
+                ("val"	"10n")
+            )
+            ("TF"
+                ("val"	"1u")
+            )
+            ("TR"
+                ("val"	"1u")
+            )
+            ("CJE"
+                ("val"	"8p")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("PDM"	"150m")
+        ("IC"	"30m")
+        ("IFD"	"3")
+        ("VD"	"25")
+    )
+)
+("awbmct66"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"679")
+        ("SYMBOL_NAME"	"MCT6")
+        ("PORT_ORDER"
+            ("A")
+            ("B")
+            ("D")
+            ("C")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("CJO"
+                ("val"	"50p")
+            )
+            ("BV"
+                ("val"	"100")
+            )
+            ("ISD"
+                ("val"	"6f")
+            )
+            ("ND"
+                ("val"	"1.67")
+            )
+            ("XTI"
+                ("val"	"10")
+            )
+            ("IR"
+                ("val"	"1n")
+            )
+            ("VR"
+                ("val"	"3")
+            )
+            ("RSD"
+                ("val"	"0.2")
+            )
+            ("CIO"
+                ("val"	"0.4p")
+            )
+            ("CC1"
+                ("val"	"0.3")
+            )
+            ("CC2"
+                ("val"	"0.2")
+            )
+            ("IST"
+                ("val"	"10f")
+            )
+            ("BF"
+                ("val"	"40")
+            )
+            ("NF"
+                ("val"	"1")
+            )
+            ("IKF"
+                ("val"	"6m")
+            )
+            ("ISE"
+                ("val"	"320f")
+            )
+            ("NE"
+                ("val"	"1.1")
+            )
+            ("ISC"
+                ("val"	"2.5n")
+            )
+            ("NC"
+                ("val"	"1.07")
+            )
+            ("RC"
+                ("val"	"1")
+            )
+            ("CJC"
+                ("val"	"10n")
+            )
+            ("TF"
+                ("val"	"1u")
+            )
+            ("TR"
+                ("val"	"1u")
+            )
+            ("CJE"
+                ("val"	"8p")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("PDM"	"150m")
+        ("IC"	"30m")
+        ("IFD"	"3")
+        ("VD"	"25")
+    )
+)
+("awbpc410"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"681")
+        ("SYMBOL_NAME"	"OCNPN")
+        ("PORT_ORDER"
+            ("AN")
+            ("CAT")
+            ("C")
+            ("B")
+            ("E")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("CJO"
+                ("value"	"145p")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED junction cap")
+                ("units"	"F")
+            )
+            ("VJ"
+                ("value"	"0.67")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED contact pot")
+                ("units"	"V")
+            )
+            ("MJ"
+                ("value"	"0.45")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED CJ exponent")
+                ("units"	"")
+            )
+            ("BV"
+                ("value"	"5")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED V breakdown")
+                ("units"	"V")
+            )
+            ("ISD"
+                ("value"	"4.682E-17")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED Isat")
+                ("units"	"A")
+            )
+            ("ND"
+                ("value"	"2")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED emission coef")
+                ("units"	"")
+            )
+            ("XTI"
+                ("value"	"20")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED Isat temp exp")
+                ("units"	"")
+            )
+            ("IR"
+                ("value"	"10u")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED reverse current")
+                ("units"	"A")
+            )
+            ("VR"
+                ("value"	"5")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED IR test voltage")
+                ("units"	"V")
+            )
+            ("RSD"
+                ("value"	"39")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED series res")
+                ("units"	"Ohm")
+            )
+            ("CIO"
+                ("value"	"5p")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"Input to output cap")
+                ("units"	"F")
+            )
+            ("CC1"
+                ("value"	"4.38m")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"Linear coupling coef")
+                ("units"	"")
+            )
+            ("CC2"
+                ("value"	"-4m")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"Quad coupling coef")
+                ("units"	"")
+            )
+            ("IST"
+                ("value"	"9.72f")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN Isat")
+                ("units"	"A")
+            )
+            ("BF"
+                ("value"	"240")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN fwd beta")
+                ("units"	"")
+            )
+            ("NF"
+                ("value"	"1.14")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN fwd emission")
+                ("units"	"")
+            )
+            ("IKF"
+                ("value"	"0.05")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN fwd knee")
+                ("units"	"A")
+            )
+            ("ISE"
+                ("value"	"1f")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-E leak cur")
+                ("units"	"A")
+            )
+            ("NE"
+                ("value"	"1.5")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-E emission")
+                ("units"	"")
+            )
+            ("ISC"
+                ("value"	"5p")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-C leakage")
+                ("units"	"A")
+            )
+            ("NC"
+                ("value"	"5")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-C emission")
+                ("units"	"")
+            )
+            ("RC"
+                ("value"	"2")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN collector res")
+                ("units"	"Ohm")
+            )
+            ("CJC"
+                ("value"	"60f")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-C dep cap.")
+                ("units"	"F")
+            )
+            ("VJC"
+                ("value"	"1")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-C potential")
+                ("units"	"V")
+            )
+            ("MJC"
+                ("value"	"0.57")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN CJC exponent")
+                ("units"	"")
+            )
+            ("XTB"
+                ("value"	"3")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN beta tmp exp")
+                ("units"	"")
+            )
+            ("TF"
+                ("value"	"90p")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN fwd transit time")
+                ("units"	"S")
+            )
+            ("TR"
+                ("value"	"102p")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN rev transit time")
+                ("units"	"S")
+            )
+            ("CJE"
+                ("value"	"10f")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-E dep cap.")
+                ("units"	"F")
+            )
+            ("VJE"
+                ("value"	"0.8")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-E potential")
+                ("units"	"V")
+            )
+            ("MJE"
+                ("value"	"0.2")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN CJE exponent")
+                ("units"	"")
+            )
+            ("VAF"
+                ("value"	"100")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN Early voltage")
+                ("units"	"V")
+            )
+            ("RE"
+                ("value"	"10m")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN emitter res")
+                ("units"	"Ohm")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("IFD"	"20m")
+        ("VD"	"5")
+        ("VCBO"	"20")
+        ("VECO"	"5")
+        ("VEBO"	"5")
+        ("VCEO"	"20")
+        ("IC"	"8m")
+        ("PDM"	"125m")
+    )
+    ("device_pre_smoke"
+        ("TERM_IFD"	"AN")
+        ("TERM_IC"	"C")
+        ("NODE_VC"	"C")
+        ("NODE_VB"	"B")
+        ("NODE_VE"	"E")
+        ("NODE_AN"	"AN")
+        ("NODE_CAT"	"CAT")
+        ("DERATE_TYPE"	"OCNPN")
+    )
+)
+("awbpc457"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"681")
+        ("SYMBOL_NAME"	"OCNPN")
+        ("PORT_ORDER"
+            ("AN")
+            ("CAT")
+            ("C")
+            ("B")
+            ("E")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("CJO"
+                ("value"	"100p")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED junction cap")
+                ("units"	"F")
+            )
+            ("VJ"
+                ("value"	"0.67")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED contact pot")
+                ("units"	"V")
+            )
+            ("MJ"
+                ("value"	"0.45")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED CJ exponent")
+                ("units"	"")
+            )
+            ("BV"
+                ("value"	"5")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED V breakdown")
+                ("units"	"V")
+            )
+            ("ISD"
+                ("value"	"4.682E-17")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED Isat")
+                ("units"	"A")
+            )
+            ("ND"
+                ("value"	"2")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED emission coef")
+                ("units"	"")
+            )
+            ("XTI"
+                ("value"	"20")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED Isat temp exp")
+                ("units"	"")
+            )
+            ("IR"
+                ("value"	"10u")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED reverse current")
+                ("units"	"A")
+            )
+            ("VR"
+                ("value"	"5")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED IR test voltage")
+                ("units"	"V")
+            )
+            ("RSD"
+                ("value"	"22")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED series res")
+                ("units"	"Ohm")
+            )
+            ("CIO"
+                ("value"	"0.6p")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"Input to output cap")
+                ("units"	"F")
+            )
+            ("CC1"
+                ("value"	"4m")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"Linear coupling coef")
+                ("units"	"")
+            )
+            ("CC2"
+                ("value"	"-4m")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"Quad coupling coef")
+                ("units"	"")
+            )
+            ("IST"
+                ("value"	"9.72f")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN Isat")
+                ("units"	"A")
+            )
+            ("BF"
+                ("value"	"70")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN fwd beta")
+                ("units"	"")
+            )
+            ("NF"
+                ("value"	"1.15")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN fwd emission")
+                ("units"	"")
+            )
+            ("IKF"
+                ("value"	"0.05")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN fwd knee")
+                ("units"	"A")
+            )
+            ("ISE"
+                ("value"	"1f")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-E leak cur")
+                ("units"	"A")
+            )
+            ("NE"
+                ("value"	"1.5")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-E emission")
+                ("units"	"")
+            )
+            ("ISC"
+                ("value"	"5p")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-C leakage")
+                ("units"	"A")
+            )
+            ("NC"
+                ("value"	"5")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-C emission")
+                ("units"	"")
+            )
+            ("RC"
+                ("value"	"0.1")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN collector res")
+                ("units"	"Ohm")
+            )
+            ("CJC"
+                ("value"	"0.25p")
+                ("postol"	"5%")
+                ("negtol"	"10%")
+                ("distrib"	"FLAT")
+                ("description"	"NPN B-C dep cap.")
+                ("units"	"F")
+            )
+            ("VJC"
+                ("value"	"1")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-C potential")
+                ("units"	"V")
+            )
+            ("MJC"
+                ("value"	"0.57")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN CJC exponent")
+                ("units"	"")
+            )
+            ("XTB"
+                ("value"	"3")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN beta tmp exp")
+                ("units"	"")
+            )
+            ("TF"
+                ("value"	"2.6170n")
+                ("postol"	"90%")
+                ("negtol"	"0")
+                ("distrib"	"FLAT")
+                ("description"	"NPN fwd transit time")
+                ("units"	"S")
+            )
+            ("TR"
+                ("value"	"8.3526u")
+                ("postol"	"10%")
+                ("negtol"	"10%")
+                ("distrib"	"FLAT")
+                ("description"	"NPN rev transit time")
+                ("units"	"S")
+            )
+            ("CJE"
+                ("value"	"1.62p")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-E dep cap.")
+                ("units"	"F")
+            )
+            ("VJE"
+                ("value"	"0.8")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-E potential")
+                ("units"	"V")
+            )
+            ("MJE"
+                ("value"	"0.2")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN CJE exponent")
+                ("units"	"")
+            )
+            ("VAF"
+                ("value"	"100")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN Early voltage")
+                ("units"	"V")
+            )
+            ("RE"
+                ("value"	"10m")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN emitter res")
+                ("units"	"Ohm")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("IFD"	"25m")
+        ("VD"	"5")
+        ("VCBO"	"20")
+        ("VECO"	"5")
+        ("VEBO"	"5")
+        ("VCEO"	"20")
+        ("IC"	"8m")
+        ("PDM"	"100m")
+    )
+    ("device_pre_smoke"
+        ("TERM_IFD"	"AN")
+        ("TERM_IC"	"C")
+        ("NODE_VC"	"C")
+        ("NODE_VB"	"B")
+        ("NODE_VE"	"E")
+        ("NODE_AN"	"AN")
+        ("NODE_CAT"	"CAT")
+        ("DERATE_TYPE"	"OCNPN")
+    )
+)
+("awbpc725"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"706")
+        ("SYMBOL_NAME"	"PC725")
+        ("PORT_ORDER"
+            ("A")
+            ("B")
+            ("C")
+            ("D")
+            ("E")
+            ("F")
+        )
+    )
+    ("device_max_ops")
+)
+("awbpc733h"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"PC733H")
+        ("MODEL_TYPE"	"706")
+        ("PORT_ORDER"
+            ("A")
+            ("B")
+            ("C")
+            ("D")
+            ("E")
+            ("F")
+        )
+    )
+    ("device_max_ops")
+)
+("awbpc816"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"679")
+        ("SYMBOL_NAME"	"MCT6")
+        ("PORT_ORDER"
+            ("A")
+            ("B")
+            ("D")
+            ("C")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("CJO"
+                ("val"	"30p")
+            )
+            ("VJ"
+                ("val"	"0.9")
+            )
+            ("MJ"
+                ("val"	"0.5")
+            )
+            ("BV"
+                ("val"	"6")
+            )
+            ("ISD"
+                ("val"	"3f")
+            )
+            ("ND"
+                ("val"	"1.50")
+            )
+            ("XTI"
+                ("val"	"12")
+            )
+            ("IR"
+                ("val"	"8u")
+            )
+            ("VR"
+                ("val"	"4")
+            )
+            ("RSD"
+                ("val"	"2.8")
+            )
+            ("CIO"
+                ("val"	"0.6p")
+            )
+            ("CC1"
+                ("val"	"19.6m")
+            )
+            ("CC2"
+                ("val"	"0")
+            )
+            ("IST"
+                ("val"	"100f")
+            )
+            ("BF"
+                ("val"	"150")
+            )
+            ("NF"
+                ("val"	"1")
+            )
+            ("IKF"
+                ("val"	"50m")
+            )
+            ("ISE"
+                ("val"	"320p")
+            )
+            ("NE"
+                ("val"	"2.1")
+            )
+            ("ISC"
+                ("val"	"700p")
+            )
+            ("NC"
+                ("val"	"1.47")
+            )
+            ("RC"
+                ("val"	"2")
+            )
+            ("RE"
+                ("val"	"100m")
+            )
+            ("CJC"
+                ("val"	"60p")
+            )
+            ("VJC"
+                ("val"	"0.75")
+            )
+            ("MJC"
+                ("val"	"0.33")
+            )
+            ("XTB"
+                ("val"	"3")
+            )
+            ("TF"
+                ("val"	"20n")
+            )
+            ("TR"
+                ("val"	"0n")
+            )
+            ("CJE"
+                ("val"	"54.5p")
+            )
+            ("VJE"
+                ("val"	"0.9")
+            )
+            ("MJE"
+                ("val"	"0.5")
+            )
+            ("VAF"
+                ("val"	"100")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("VECO"	"6")
+        ("VCEO"	"70")
+        ("PDM"	"150m")
+        ("IC"	"50m")
+        ("IFD"	"1")
+        ("VD"	"6")
+    )
+)
+("awbps8101"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("MODEL_TYPE"	"681")
+        ("SYMBOL_NAME"	"OCNPN")
+        ("PORT_ORDER"
+            ("AN")
+            ("CAT")
+            ("C")
+            ("B")
+            ("E")
+        )
+    )
+    ("model_params"
+        ("level_0"
+            ("CJO"
+                ("value"	"30p")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED junction cap")
+                ("units"	"F")
+            )
+            ("VJ"
+                ("value"	"0.67")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED contact pot")
+                ("units"	"V")
+            )
+            ("MJ"
+                ("value"	"0.45")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED CJ exponent")
+                ("units"	"")
+            )
+            ("BV"
+                ("value"	"5")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED V breakdown")
+                ("units"	"V")
+            )
+            ("ISD"
+                ("value"	"4.682E-17")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED Isat")
+                ("units"	"A")
+            )
+            ("ND"
+                ("value"	"2")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED emission coef")
+                ("units"	"")
+            )
+            ("XTI"
+                ("value"	"24")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED Isat temp exp")
+                ("units"	"")
+            )
+            ("IR"
+                ("value"	"12u")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED reverse current")
+                ("units"	"A")
+            )
+            ("VR"
+                ("value"	"6")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED IR test voltage")
+                ("units"	"V")
+            )
+            ("RSD"
+                ("value"	"18")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"LED series res")
+                ("units"	"Ohm")
+            )
+            ("CIO"
+                ("value"	"0.6p")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"Input to output cap")
+                ("units"	"F")
+            )
+            ("CC1"
+                ("value"	"4m")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"Linear coupling coef")
+                ("units"	"")
+            )
+            ("CC2"
+                ("value"	"-4m")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"Quad coupling coef")
+                ("units"	"")
+            )
+            ("IST"
+                ("value"	"9.72f")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN Isat")
+                ("units"	"A")
+            )
+            ("BF"
+                ("value"	"70")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN fwd beta")
+                ("units"	"")
+            )
+            ("NF"
+                ("value"	"1.15")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN fwd emission")
+                ("units"	"")
+            )
+            ("IKF"
+                ("value"	"0.05")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN fwd knee")
+                ("units"	"A")
+            )
+            ("ISE"
+                ("value"	"1f")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-E leak cur")
+                ("units"	"A")
+            )
+            ("NE"
+                ("value"	"1.5")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-E emission")
+                ("units"	"")
+            )
+            ("ISC"
+                ("value"	"5p")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-C leakage")
+                ("units"	"A")
+            )
+            ("NC"
+                ("value"	"5")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-C emission")
+                ("units"	"")
+            )
+            ("RC"
+                ("value"	"0.1")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN collector res")
+                ("units"	"Ohm")
+            )
+            ("CJC"
+                ("value"	"1.4p")
+                ("postol"	"5%")
+                ("negtol"	"10%")
+                ("distrib"	"FLAT")
+                ("description"	"NPN B-C dep cap.")
+                ("units"	"F")
+            )
+            ("VJC"
+                ("value"	"1")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-C potential")
+                ("units"	"V")
+            )
+            ("MJC"
+                ("value"	"0.57")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN CJC exponent")
+                ("units"	"")
+            )
+            ("XTB"
+                ("value"	"3")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN beta tmp exp")
+                ("units"	"")
+            )
+            ("TF"
+                ("value"	"6.270n")
+                ("postol"	"90%")
+                ("negtol"	"0")
+                ("distrib"	"FLAT")
+                ("description"	"NPN fwd transit time")
+                ("units"	"S")
+            )
+            ("TR"
+                ("value"	"8.026u")
+                ("postol"	"10%")
+                ("negtol"	"10%")
+                ("distrib"	"FLAT")
+                ("description"	"NPN rev transit time")
+                ("units"	"S")
+            )
+            ("CJE"
+                ("value"	"1.62p")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-E dep cap.")
+                ("units"	"F")
+            )
+            ("VJE"
+                ("value"	"0.8")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN B-E potential")
+                ("units"	"V")
+            )
+            ("MJE"
+                ("value"	"0.2")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN CJE exponent")
+                ("units"	"")
+            )
+            ("VAF"
+                ("value"	"100")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN Early voltage")
+                ("units"	"V")
+            )
+            ("RE"
+                ("value"	"10m")
+                ("postol"	"")
+                ("negtol"	"")
+                ("distrib"	"")
+                ("description"	"NPN emitter res")
+                ("units"	"Ohm")
+            )
+        )
+    )
+    ("device_max_ops"
+        ("IFD"	"25m")
+        ("VD"	"5")
+        ("VCBO"	"35")
+        ("VECO"	"5")
+        ("VEBO"	"5")
+        ("VCEO"	"35")
+        ("IC"	"8m")
+        ("PDM"	"100m")
+    )
+    ("device_pre_smoke"
+        ("TERM_IFD"	"AN")
+        ("TERM_IC"	"C")
+        ("NODE_VC"	"C")
+        ("NODE_VB"	"B")
+        ("NODE_VE"	"E")
+        ("NODE_AN"	"AN")
+        ("NODE_CAT"	"CAT")
+        ("DERATE_TYPE"	"OCNPN")
+    )
+)
+("awbtlp112"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("SYMBOL_NAME"	"TLP112")
+        ("MODEL_TYPE"	"580")
+        ("PORT_ORDER"
+            ("AN")
+            ("CAT")
+            ("C")
+            ("B")
+            ("E")
+        )
+    )
+    ("device_max_ops")
+)

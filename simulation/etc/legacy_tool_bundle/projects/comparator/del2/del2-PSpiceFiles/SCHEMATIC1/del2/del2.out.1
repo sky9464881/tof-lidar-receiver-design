@@ -1,0 +1,62 @@
+
+**** 03/27/25 04:20:59 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-del2"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\del2\del2-PSpiceFiles\SCHEMATIC1
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "del2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa695_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa856_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\tlv3604.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPAx277.LIB" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa855_a.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 3m 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source DEL2
+C_C258         N1068345 N1068355  1n  TC=0,0 
+R_R156         N1068621 N1068379  20 TC=0,0 
+C_C255         0 -5  0.1uF  TC=0,0 
+R_R152         N1068365 N1068379  500 TC=0,0 
+R_R155         N1068355 N1068365  360 TC=0,0 
+V_V2         0 -5 5
+C_C254         0 5  6.8uF  TC=0,0 
+C_C253         0 5  0.1uF  TC=0,0 
+X_U73         0 N1068365 N1068379 5 -5 OPA695
+V_V3         5 0 5
+C_C257         N1068345 N1068355  0.1u  TC=0,0 
+C_C256         0 -5  6.8uF  TC=0,0 
+V_V4         N1068345 0  
++SIN 4 4 1k 0 0 0
+C_C259         N1072005 N1072001  0.1uF  TC=0,0 
+C_C260         N1072005 N1072001  1n  TC=0,0 
+R_R158         N1072001 0  20 TC=0,0 
+R_R159         N1068621 0  1 TC=0,0 
+
+**** RESUMING del2.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node N1072005 is floating
+

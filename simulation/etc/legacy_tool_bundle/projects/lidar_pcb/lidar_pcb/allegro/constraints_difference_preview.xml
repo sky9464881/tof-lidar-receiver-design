@@ -1,0 +1,4435 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="file:///c:/cadence/orcadx_24.1/share/pcb/consmgr/VDD/report/treeview.xsl"?>
+<ConstraintDifferenceReport Path="file:///c:/cadence/orcadx_24.1/share/pcb/consmgr/VDD/report/rc" Type="Constraint Difference Report">
+
+  <RptSummary Col1="Layout" Col2="Schematic">
+    <Entry Name="Report time">Fri Apr 11 15:12:09 2025
+</Entry>
+    <Entry Name="Software version">24.1 (S003)</Entry>
+    <Entry Name="Layout">C:\Users\sky94\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\lidar_pcb\allegro\Untitled.brd</Entry>
+    <Entry Name="Schematic">C:\Users\sky94\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\lidar_pcb\allegro\pstcmdb.dat</Entry>
+    <Entry Name="Baseline File">C:\Users\sky94\AppData\Local\Temp\Tmp00000812.dcf</Entry>
+    <Entry Name="Destination design updated">No</Entry>
+    <Entry Name="Update Mode">Diff3</Entry>
+    <Entry Name="Constraint Information">CrossSection, Electrical, Physical, Spacing, Same Net Spacing, NetClasses, Properties</Entry>
+    <Entry Name="White list">c:\cadence\orcadx_24.1\share\local\consmgr\cds_flow_config.txt - No valid filters found.</Entry>
+    <Entry Name="Objects with conflicts">0</Entry>
+  </RptSummary>
+
+  <Tree>
+    <Item Filter="0x13b" Name="Summary" Ref="main-summary">
+      <Item Filter="0x30" Name="Constraint Sets [2]" Ref="e">
+        <Item Filter="0x20" Name="SameNetSpacingCSets [1]" Ref="f">
+          <Item Filter="0x20" Name="DEFAULT" Ref="9"/>
+        </Item>
+        <Item Filter="0x10" Name="SpacingCSets [1]" Ref="d">
+          <Item Filter="0x10" Name="DEFAULT" Ref="3"/>
+        </Item>
+      </Item>
+      <Item Filter="0x100" Name="Layers [1]" Ref="c">
+        <Item Filter="0x100" Name="Dielectric (2)" Ref="2"/>
+      </Item>
+      <Item Filter="0x18" Name="Nets [1]" Ref="b">
+        <Item Filter="0x18" Name="855OUT" Ref="6"/>
+      </Item>
+      <Item Filter="0x2" Name="Xnets [1]" Ref="a">
+        <Item Filter="0x2" Name="APD_BIAS" Ref="4"/>
+      </Item>
+    </Item>
+  </Tree>
+
+  <Summaries>
+    <MainSummary ID="main-summary">
+      <ChangedObject Filter="0x30" Name="Constraint Sets" ObjNumber="SpacingCSet: 1, SameNetSpacingCSet: 1" Ref="e"/>
+      <ChangedObject Filter="0x100" Name="Layers" ObjNumber="1" Ref="c"/>
+      <ChangedObject Filter="0x18" Name="Nets" ObjNumber="1" Ref="b"/>
+      <ChangedObject Filter="0x2" Name="Xnets" ObjNumber="1" Ref="a"/>
+    </MainSummary>
+    <GroupSummary ID="a" Name="Xnets">
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="1" Name="APD_BIAS" Notes="0" Other="0" Ref="4" Reference="0"/>
+    </GroupSummary>
+    <ObjectSummary ID="4" Kind="Xnet" Name="APD_BIAS">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="TRIM5K_3/VOUT-"/>
+      </Associations>
+    </ObjectSummary>
+    <GroupSummary ID="b" Name="Nets">
+      <ChangedObject Attributes="0" Child="0" Filter="0x18" Membership="0" Name="855OUT" Notes="0" Other="0" Ref="6" Reference="2"/>
+    </GroupSummary>
+    <ObjectSummary ID="6" Kind="Net" Name="855OUT">
+      <Associations Filter="0x18" Type="Reference">
+        <Reference Add="1" Filter="0x8" Kind="PhysicalCSet" Name="POWER"/>
+        <Reference Add="1" Filter="0x10" Kind="SpacingCSet" Name="POWER"/>
+      </Associations>
+    </ObjectSummary>
+    <GroupSummary ID="c" Name="Layers">
+      <ChangedObject Attributes="1" Child="0" Filter="0x100" Membership="0" Name="Dielectric (2)" Notes="0" Other="0" Ref="2" Reference="0"/>
+    </GroupSummary>
+    <ObjectSummary ID="2" Kind="Layer" Name="Dielectric (2)" Type="Dielectric">
+      <Attributes Filter="0x100" Type="Attributes">
+        <Attribute Filter="0x100" Name="CDS_LAYER_FUNCTION" Status="" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst>DIELECTRIC_CORE</Dst>
+            <Src>DIELECTRIC</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <GroupSummary ID="e" Name="Constraint Sets">
+      <ChangedObject Filter="0x20" Name="SameNetSpacingCSets" ObjNumber="1" Ref="f"/>
+      <ChangedObject Filter="0x10" Name="SpacingCSets" ObjNumber="1" Ref="d"/>
+    </GroupSummary>
+    <GroupSummary ID="d" Name="SpacingCSets">
+      <ChangedObject Attributes="60" Child="0" Filter="0x10" Membership="0" Name="DEFAULT" Notes="0" Other="0" Ref="3" Reference="0"/>
+    </GroupSummary>
+    <ObjectSummary ID="3" Kind="SpacingCSet" Name="DEFAULT">
+      <Attributes Filter="0x10" Type="Attributes">
+        <Attribute Filter="0x10" Name="BBV_TO_BBV_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BBV_TO_LINE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BBV_TO_SHAPE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BBV_TO_SMDPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BBV_TO_TESTPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BBV_TO_TESTVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BBV_TO_THRUPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BBV_TO_THRUVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BONDPAD_TO_BBV_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BONDPAD_TO_BONDPAD_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BONDPAD_TO_LINE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BONDPAD_TO_MVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BONDPAD_TO_SHAPE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BONDPAD_TO_TESTPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BONDPAD_TO_TESTVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BONDPAD_TO_THRUVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="HOLE_TO_HOLE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.2032</Src>
+              <Base>0.2032</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.2032</Src>
+              <Base Inherited="1">0.2032</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.2032</Src>
+              <Base Inherited="1">0.2032</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="HOLE_TO_LINE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.2032</Src>
+              <Base>0.2032</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.2032</Src>
+              <Base Inherited="1">0.2032</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.2032</Src>
+              <Base Inherited="1">0.2032</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="HOLE_TO_PIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.2032</Src>
+              <Base>0.2032</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.2032</Src>
+              <Base Inherited="1">0.2032</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.2032</Src>
+              <Base Inherited="1">0.2032</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="HOLE_TO_SHAPE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.2032</Src>
+              <Base>0.2032</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.2032</Src>
+              <Base Inherited="1">0.2032</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.2032</Src>
+              <Base Inherited="1">0.2032</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="HOLE_TO_VIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.2032</Src>
+              <Base>0.2032</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.2032</Src>
+              <Base Inherited="1">0.2032</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.2032</Src>
+              <Base Inherited="1">0.2032</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="LINE_TO_LINE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="LINE_TO_SHAPE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="LINE_TO_SMDPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="LINE_TO_TESTPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="LINE_TO_TESTVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="LINE_TO_THRUPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="LINE_TO_THRUVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MVIA_TO_BBV_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MVIA_TO_LINE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MVIA_TO_MVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MVIA_TO_SHAPE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MVIA_TO_SMDPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MVIA_TO_TESTPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MVIA_TO_TESTVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MVIA_TO_THRUPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MVIA_TO_THRUVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SHAPE_TO_SHAPE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SHAPE_TO_SMDPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SHAPE_TO_TESTPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SHAPE_TO_TESTVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SHAPE_TO_THRUVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SMDPIN_TO_BONDPAD_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SMDPIN_TO_SMDPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SMDPIN_TO_TESTPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SMDPIN_TO_TESTVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SMDPIN_TO_THRUVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="TESTPIN_TO_TESTPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="TESTPIN_TO_TESTVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="TESTPIN_TO_THRUPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="TESTPIN_TO_THRUVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="TESTVIA_TO_TESTVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="TESTVIA_TO_THRUPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="TESTVIA_TO_THRUVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="THRUPIN_TO_BONDPAD_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="THRUPIN_TO_SHAPE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="THRUPIN_TO_SMDPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="THRUPIN_TO_THRUPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="THRUPIN_TO_THRUVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x10" Name="THRUVIA_TO_THRUVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <GroupSummary ID="f" Name="SameNetSpacingCSets">
+      <ChangedObject Attributes="60" Child="0" Filter="0x20" Membership="0" Name="DEFAULT" Notes="0" Other="0" Ref="9" Reference="0"/>
+    </GroupSummary>
+    <ObjectSummary ID="9" Kind="SameNetSpacingCSet" Name="DEFAULT">
+      <Attributes Filter="0x20" Type="Attributes">
+        <Attribute Filter="0x20" Name="SN_BBV_TO_BBV_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BBV_TO_LINE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BBV_TO_SHAPE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BBV_TO_SMDPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BBV_TO_TESTPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BBV_TO_TESTVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BBV_TO_THRUPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BBV_TO_THRUVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BONDPAD_TO_BBV_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BONDPAD_TO_BONDPAD_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BONDPAD_TO_LINE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BONDPAD_TO_MVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BONDPAD_TO_SHAPE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BONDPAD_TO_TESTPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BONDPAD_TO_TESTVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BONDPAD_TO_THRUVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_HOLE_TO_HOLE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.2032</Src>
+              <Base>0.2032</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.2032</Src>
+              <Base Inherited="1">0.2032</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.2032</Src>
+              <Base Inherited="1">0.2032</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_HOLE_TO_LINE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.2032</Src>
+              <Base>0.2032</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.2032</Src>
+              <Base Inherited="1">0.2032</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.2032</Src>
+              <Base Inherited="1">0.2032</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_HOLE_TO_PIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.2032</Src>
+              <Base>0.2032</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.2032</Src>
+              <Base Inherited="1">0.2032</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.2032</Src>
+              <Base Inherited="1">0.2032</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_HOLE_TO_SHAPE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src>0.2032</Src>
+              <Base>0.2032</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.2032</Src>
+              <Base Inherited="1">0.2032</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.2032</Src>
+              <Base Inherited="1">0.2032</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_HOLE_TO_VIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.2032</Src>
+              <Base>0.2032</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.2032</Src>
+              <Base Inherited="1">0.2032</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.2032</Src>
+              <Base Inherited="1">0.2032</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_LINE_TO_LINE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_LINE_TO_SHAPE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_LINE_TO_SMDPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_LINE_TO_TESTPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_LINE_TO_TESTVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_LINE_TO_THRUPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_LINE_TO_THRUVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_MVIA_TO_BBV_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_MVIA_TO_LINE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_MVIA_TO_MVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_MVIA_TO_SHAPE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_MVIA_TO_SMDPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_MVIA_TO_TESTPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_MVIA_TO_TESTVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_MVIA_TO_THRUPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_MVIA_TO_THRUVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_SHAPE_TO_SHAPE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_SHAPE_TO_SMDPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_SHAPE_TO_TESTPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_SHAPE_TO_TESTVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_SHAPE_TO_THRUVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_SMDPIN_TO_BONDPAD_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_SMDPIN_TO_SMDPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_SMDPIN_TO_TESTPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_SMDPIN_TO_TESTVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_SMDPIN_TO_THRUVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_TESTPIN_TO_TESTPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_TESTPIN_TO_TESTVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_TESTPIN_TO_THRUPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_TESTPIN_TO_THRUVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_TESTVIA_TO_TESTVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_TESTVIA_TO_THRUPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_TESTVIA_TO_THRUVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_THRUPIN_TO_BONDPAD_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_THRUPIN_TO_SHAPE_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.5000</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.5000</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_THRUPIN_TO_SMDPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_THRUPIN_TO_THRUPIN_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_THRUPIN_TO_THRUVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_THRUVIA_TO_THRUVIA_SPACING" Status="" Taken="Dst" Type="Layers">
+          <ValueGrp Type="GenericLayers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src>0.1270</Src>
+              <Base>0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+          </ValueGrp>
+          <ValueGrp Type="Layers">
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value Type="noChange">
+              <Dst>0.2540</Dst>
+              <Src></Src>
+              <Base></Base>
+            </Value>
+            <Value>
+              <Dst>0.2540</Dst>
+              <Src Inherited="1">0.1270</Src>
+              <Base Inherited="1">0.1270</Base>
+            </Value>
+          </ValueGrp>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+  </Summaries>
+
+  <Notes>
+    <Note Text="Baseline file(s) are invalid so Changes-only may make incorrect changes." Type="Warning"/>
+  </Notes>
+
+  <Layers>
+    <Layer Name="TOP" Type="Conductor"/>
+    <Layer Name="LAYER_1" Type="Plane"/>
+    <Layer Name="LAYER_2" Type="Plane"/>
+    <Layer Name="BOTTOM" Type="Conductor"/>
+  </Layers>
+
+  <GenericLayers>
+    <Layer Name="Conductor"/>
+    <Layer Name="Plane"/>
+  </GenericLayers>
+
+</ConstraintDifferenceReport>

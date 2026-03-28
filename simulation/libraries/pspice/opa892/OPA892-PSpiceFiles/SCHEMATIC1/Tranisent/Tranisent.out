@@ -1,0 +1,260 @@
+
+**** 12/15/23 11:34:25 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Tranisent"  [ C:\Users\a0488507\Documents\TI_Models\PSpiceFiles\OPA892-PSpiceFiles\SCHEMATIC1\Tranisent.sim 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Tranisent.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../OPA892.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 5u 0 5E-11 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 N([N00357])
+.PROBE64 N([N00673])
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source OPA892
+X_U1         N00673 N00378 N00357 VCC VEE OPA892
+V_V1         VCC 0 15
+V_V2         VEE 0 -15
+R_R1         N00378 N00357  220 TC=0,0 
+R_R2         0 N00378  24.44 TC=0,0 
+R_R3         0 N00357  150 TC=0,0 
+V_V4         N00673 0  AC 1
++SIN 0 100m 1E6 0 0 0
+
+**** RESUMING Tranisent.cir ****
+.END
+
+**** 12/15/23 11:34:25 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Tranisent"  [ C:\Users\a0488507\Documents\TI_Models\PSpiceFiles\OPA892-PSpiceFiles\SCHEMATIC1\Tranisent.sim 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_I_NP.DNVF 
+          IS  100.000000E-18 
+          KF   31.622780E-12 
+
+
+               X_U1.X_I_NP1.DNVF               X_U1.X_U5.DVN   
+          IS  100.000000E-18                  100.000000E-18 
+          KF   31.622780E-12                   31.622780E-12 
+
+
+**** 12/15/23 11:34:25 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Tranisent"  [ C:\Users\a0488507\Documents\TI_Models\PSpiceFiles\OPA892-PSpiceFiles\SCHEMATIC1\Tranisent.sim 
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+**** 12/15/23 11:34:25 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Tranisent"  [ C:\Users\a0488507\Documents\TI_Models\PSpiceFiles\OPA892-PSpiceFiles\SCHEMATIC1\Tranisent.sim 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VCC)   15.0000  (  VEE)  -15.0000  (N00357)     .0040 (N00378) 200.0E-06     
+
+(N00673)    0.0000 (X_U1.MID)-99.59E-21                  (X_U1.CMRR)-90.00E-09  
+
+(X_U1.CLAMP)     .0048                (X_U1.CMRR+)-131.7E-15                    
+
+(X_U1.PSRRN)-38.54E-06                (X_U1.PSRRP) 8.815E-06                    
+
+(X_U1.VCC_B)   15.0000                (X_U1.VEE_B)  -15.0000                    
+
+(X_U1.VIMON)     .0436                (X_U1.VOUT_S)     .0040                   
+
+(X_U1.VSENSE)     .0048               (X_U1.X_U5.3)    0.0000                   
+
+(X_U1.X_U5.4)    0.0000               (X_U1.X_U5.5)    0.0000                   
+
+(X_U1.X_U5.6)    0.0000               (X_U1.X_U5.7)     .8338                   
+
+(X_U1.X_U5.8)     .8338               (X_U1.VCC_CLP)   13.6000                  
+
+(X_U1.VEE_CLP)  -13.6000              (X_U1.CL_CLAMP)     .0048                 
+
+(X_U1.N2590487)-32.90E-12             (X_U1.N2590497)-131.6E-15                 
+
+(X_U1.N2590507)-131.6E-15             (X_U1.N2590517)-1.128E-15                 
+
+(X_U1.N2590527)-131.6E-15             (X_U1.N2590537)-64.21E-15                 
+
+(X_U1.N2590547)-131.6E-15             (X_U1.N2590557)-112.8E-15                 
+
+(X_U1.N2590643)   13.6000             (X_U1.N2590665)   13.6000                 
+
+(X_U1.N2590953)-131.6E-15             (X_U1.N2590995)-131.6E-15                 
+
+(X_U1.N2591659)-99.59E-21             (X_U1.N2591687)-99.59E-21                 
+
+(X_U1.N2591907)  -13.6000             (X_U1.N2592101)  -13.6000                 
+
+(X_U1.N2592147)-99.59E-21             (X_U1.N2592161)-99.59E-21                 
+
+(X_U1.N2592449)     .0436             (X_U1.N2592571)     .0040                 
+
+(X_U1.N2592695)     .0768             (X_U1.N2592705)     .0768                 
+
+(X_U1.N2592809)     .0767             (X_U1.N2592819)     .0435                 
+
+(X_U1.N2592839)     .0768             (X_U1.N2592849)     .0768                 
+
+(X_U1.N2592869)     .0768             (X_U1.N2592879) 230.3E-06                 
+
+(X_U1.N2593077)     .0040             (X_U1.N2593173)     .0767                 
+
+(X_U1.N2593327)     .0768             (X_U1.N2593345)     .0768                 
+
+(X_U1.N2593445)     .0048             (X_U1.N2593453)     .0048                 
+
+(X_U1.N2593619)   14.3000             (X_U1.N2593723)-90.00E-09                 
+
+(X_U1.N2593825)     .0048             (X_U1.N2593855)     .0048                 
+
+(X_U1.N2593885)     .0048             (X_U1.N2593915)     .0048                 
+
+(X_U1.N2594243) 152.6E-06             (X_U1.N2594279) 152.6E-06                 
+
+(X_U1.N2594313) 152.6E-06             (X_U1.N2594329) 199.9E-06                 
+
+(X_U1.N2594551) 4.818E-06             (X_U1.N2594701) 199.9E-06                 
+
+(X_U1.N2594715) 199.9E-06             (X_U1.N2594863)     .0048                 
+
+(X_U1.N2595517) 199.9E-06             (X_U1.N2595581) 199.9E-06                 
+
+(X_U1.N2595785)  -14.3000             (X_U1.N2596213)-9.176E-06                 
+
+(X_U1.N2596223)-38.54E-06             (X_U1.N2596233)-16.52E-06                 
+
+(X_U1.N2596243)-38.55E-06             (X_U1.N2596253)-38.55E-06                 
+
+(X_U1.N2596263)    -.3855             (X_U1.N2596351)     .1776                 
+
+(X_U1.N2596361) 8.816E-06             (X_U1.N2596371) 8.816E-06                 
+
+(X_U1.N2596381) 1.763E-06             (X_U1.N2596391) 8.816E-06                 
+
+(X_U1.N2596401) 2.449E-06             (X_U1.N2596531)-38.54E-06                 
+
+(X_U1.N2597037) 8.816E-06             (X_U1.N2597659)-99.59E-21                 
+
+(X_U1.N2597987)   15.0000             (X_U1.N2598025)  -15.0000                 
+
+(X_U1.N2598333)  202.0000             (X_U1.N2598337)-99.59E-21                 
+
+(X_U1.N2598455)-99.59E-21             (X_U1.N2598575) -176.0000                 
+
+(X_U1.N2598609)-99.59E-21             (X_U1.N2598685)-99.59E-21                 
+
+(X_U1.N2598975)   40.0000             (X_U1.N2598979)-99.59E-21                 
+
+(X_U1.N2599019)-99.59E-21             (X_U1.N2599095)  -40.0000                 
+
+(X_U1.N2599179)     .0048             (X_U1.N2599191)-99.59E-21                 
+
+(X_U1.N2599217)-99.59E-21             (X_U1.X_I_NP.3)    0.0000                 
+
+(X_U1.X_I_NP.4)    0.0000             (X_U1.X_I_NP.5)    0.0000                 
+
+(X_U1.X_I_NP.6)    0.0000             (X_U1.X_I_NP.7)     .8338                 
+
+(X_U1.X_I_NP.8)     .8338             (X_U1.X_I_NP1.3)    0.0000                
+
+(X_U1.X_I_NP1.4)    0.0000            (X_U1.X_I_NP1.5)    0.0000                
+
+(X_U1.X_I_NP1.6)    0.0000            (X_U1.X_I_NP1.7)     .8338                
+
+(X_U1.X_I_NP1.8)     .8338            (X_U1.CLAW_CLAMP)     .0048           
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -7.544E-03
+    V_V2         7.500E-03
+    V_V4        -9.000E-06
+    X_U1.V_V3   -2.020E-10
+    X_U1.V_V5    1.760E-10
+    X_U1.V_V6   -4.000E-11
+    X_U1.V_V7    4.000E-11
+    X_U1.V_VCM_MAX1  -1.430E-11
+    X_U1.V_VCM_MIN   1.430E-11
+    X_U1.X_H7.VH_H7  -4.364E-05
+
+    TOTAL POWER DISSIPATION   2.26E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 12/15/23 11:34:25 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Tranisent"  [ C:\Users\a0488507\Documents\TI_Models\PSpiceFiles\OPA892-PSpiceFiles\SCHEMATIC1\Tranisent.sim 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =      135.59
+  Total job time (using Solver 1)   =       12.92
+

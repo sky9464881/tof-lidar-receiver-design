@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=MAX3267CSA+
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2024-11-21 12:47:26
+Downloaded=2024-11-27 05:53:12
+3D=Y

@@ -1,0 +1,233 @@
+
+**** 04/01/25 23:17:11 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-twt2"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\twtstwtw\twtstwtw-PSpiceFiles\SC
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "twt2.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa695_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa856_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\tlv3604.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPAx277.LIB" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa855_a.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1u 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TWTSTWTW
+R_R2         N1086048 N1086058  1.4k TC=0,0 
+X_U1         0 N1086048 N1086230 0 N1086058 OPA855
+V_V1         N1086230 0 1
+
+**** RESUMING twt2.cir ****
+.END
+
+**** 04/01/25 23:17:11 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-twt2"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\twtstwtw\twtstwtw-PSpiceFiles\SC
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_E_N.DVN  X_U1.X_I_NP1.DNVF               X_U1.X_U1.DNVF  
+          IS  100.000000E-18  100.000000E-18                  100.000000E-18 
+          KF  316.227800E-12  316.227800E-12                  316.227800E-12 
+
+
+**** 04/01/25 23:17:11 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-twt2"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\twtstwtw\twtstwtw-PSpiceFiles\SC
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+**** 04/01/25 23:17:11 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-twt2"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\twtstwtw\twtstwtw-PSpiceFiles\SC
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_ESD_OUT.ESD_SW           X_U1.X_S1._S1   X_U1.X_S2._S2   
+         RON   50                               1.000000E-03    1.000000E-03 
+        ROFF    1.000000E+12                   20.000000E+03   20.000000E+03 
+         VON     .5                              .8              .8          
+        VOFF     .45                            -.6             -.4          
+
+
+**** 04/01/25 23:17:11 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-twt2"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\twtstwtw\twtstwtw-PSpiceFiles\SC
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(X_U1.ZO)    1.0000                   (N1086048)    1.4890                      
+
+(N1086058)    1.9232                  (N1086230)    1.0000                      
+
+(X_U1.MID)     .9616                  (X_U1.CMRR)     .9616                     
+
+(X_U1.ESDN)    1.4890                 (X_U1.ESDP) 2.862E-06                     
+
+(X_U1.CLAMP)     .9616                (X_U1.PSRRN)     .9615                    
+
+(X_U1.PSRRP)     .9616                (X_U1.VCC_B) 963.0E-09                    
+
+(X_U1.VEE_B)    1.9232                (X_U1.VIMON)   -1.8404                    
+
+(X_U1.AOLNET)    1.4616               (X_U1.N06456) 2.862E-06                   
+
+(X_U1.N10561) 52.86E-06               (X_U1.N10570) 43.31E-06                   
+
+(X_U1.N11984) 43.31E-06               (X_U1.N11991)    1.4890                   
+
+(X_U1.N25816) 75.56E-06               (X_U1.N28602)    3.0232                   
+
+(X_U1.N30136)    -.4000               (X_U1.N30913) 75.56E-06                   
+
+(X_U1.N31014) 75.56E-06               (X_U1.N35675)    -.8247                   
+
+(X_U1.N35813)    -.8247               (X_U1.N38050)    2.9665                   
+
+(X_U1.N38096)    2.9665               (X_U1.VOUT_S)    1.0000                   
+
+(X_U1.X_U1.3)    0.0000               (X_U1.X_U1.4)    0.0000                   
+
+(X_U1.X_U1.5)    0.0000               (X_U1.X_U1.6)    0.0000                   
+
+(X_U1.X_U1.7)     .8338               (X_U1.X_U1.8)     .8338                   
+
+(X_U1.N110431)   -1.8404              (X_U1.N112292)    1.0000                  
+
+(X_U1.N317950)     .9616              (X_U1.N406634) 963.9E-09                  
+
+(X_U1.N406794)    1.9232              (X_U1.N749288)-397.1E-06                  
+
+(X_U1.VCC_CLP)    -.8247              (X_U1.VEE_CLP)    2.9665                  
+
+(X_U1.X_E_N.3)    0.0000              (X_U1.X_E_N.4)    0.0000                  
+
+(X_U1.X_E_N.5)    0.0000              (X_U1.X_E_N.6)    0.0000                  
+
+(X_U1.X_E_N.7)     .8338              (X_U1.X_E_N.8)     .8338                  
+
+(X_U1.N1254860)   -2.5389             (X_U1.N1446199)     .9616                 
+
+(X_U1.N1446217)     .9616             (X_U1.N1461236)    1.0741                 
+
+(X_U1.N1461246)     .9616             (X_U1.N1461252)     .9584                 
+
+(X_U1.N1481243)    1.6501             (X_U1.N1481253)     .9617                 
+
+(X_U1.N1481259)     .9614             (X_U1.N1483677)    -.5557                 
+
+(X_U1.N1483687)     .9615             (X_U1.N1483693)     .9634                 
+
+(X_U1.N1483703)     .9617             (X_U1.N1483713)     .9598                 
+
+(X_U1.N1490067)     .9616             (X_U1.N1492098)     .9040                 
+
+(X_U1.N1492108)     .9232             (X_U1.N1492118)     .9232                 
+
+(X_U1.N1492126)     .9232             (X_U1.N1492376)     .9232                 
+
+(X_U1.N1534615)    -.0191             (X_U1.N1534625)     .9273                 
+
+(X_U1.N1534635)     .9273             (X_U1.N1534645)     .9273                 
+
+(X_U1.N1534887)     .9273             (X_U1.N1541593)     .0844                 
+
+(X_U1.N1541603)     .9309             (X_U1.X_I_NP1.3)    0.0000                
+
+(X_U1.X_I_NP1.4)    0.0000            (X_U1.X_I_NP1.5)    0.0000                
+
+(X_U1.X_I_NP1.6)    0.0000            (X_U1.X_I_NP1.7)     .8338                
+
+(X_U1.X_I_NP1.8)     .8338            (X_U1.X_VOS_VS_VCM.1)-397.1E-06       
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -4.338E-03
+    X_U1.V_VCM_MAX   1.362E-09
+    X_U1.V_VCM_MIN  -2.062E-09
+    X_U1.X_H3.VH_H3   2.802E-03
+    X_U1.X_VOS_VS_VCM.V1   1.730E-18
+
+    TOTAL POWER DISSIPATION   4.34E-03  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 04/01/25 23:17:11 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-twt2"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\twtstwtw\twtstwtw-PSpiceFiles\SC
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .05
+

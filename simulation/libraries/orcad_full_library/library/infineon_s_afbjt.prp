@@ -1,0 +1,5116 @@
+("BC327_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC327")
+	)
+)
+("BC328_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC328")
+	)
+)
+("BC337_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC337")
+	)
+)
+("BC338_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC338")
+	)
+)
+("BC368_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC368")
+	)
+)
+("BC369_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC369")
+	)
+)
+("BC635_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC635")
+	)
+)
+("BC636_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC636")
+	)
+)
+("BC637_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC637")
+	)
+)
+("BC638_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC638")
+	)
+)
+("BC639_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC639")
+	)
+)
+("BC640_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC640")
+	)
+)
+("BC807_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC807")
+	)
+)
+("BC808_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC808")
+	)
+)
+("BC817_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC817")
+	)
+)
+("BC818_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC818")
+	)
+)
+("BC846_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC846")
+	)
+)
+("BC847_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC847")
+	)
+)
+("BC848_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC848")
+	)
+)
+("BC849_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC849")
+	)
+)
+("BC850_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC850")
+	)
+)
+("BC850C_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC850C")
+	)
+)
+("BC856_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC856")
+	)
+)
+("BC857_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC857")
+	)
+)
+("BC857C_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC857C")
+	)
+)
+("BC858_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC858")
+	)
+)
+("BC859_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC859")
+	)
+)
+("BC860_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BC860")
+	)
+)
+("BCP51_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCP51")
+	)
+)
+("BCP52_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCP52")
+	)
+)
+("BCP53_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCP53")
+	)
+)
+("BCP54_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCP54")
+	)
+)
+("BCP55_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCP55")
+	)
+)
+("BCP68_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCP68")
+	)
+)
+("BCP69_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCP69")
+	)
+)
+("BCP70_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCP70")
+	)
+)
+("BCP72_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCP72")
+	)
+)
+("BCV47_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCV47")
+	)
+)
+("BCV49_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCV49")
+	)
+)
+("BCV61_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCV61")
+	)
+)
+("BCV62_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCV62")
+	)
+)
+("BCV62C_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCV62C")
+	)
+)
+("BCW60_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCW60")
+	)
+)
+("BCW61_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCW61")
+	)
+)
+("BCW65_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCW65")
+	)
+)
+("BCW67_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCW67")
+	)
+)
+("BCW68_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCW68")
+	)
+)
+("BCX41_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCX41")
+	)
+)
+("BCX42_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCX42")
+	)
+)
+("BCX51_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCX51")
+	)
+)
+("BCX52_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCX52")
+	)
+)
+("BCX53_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCX53")
+	)
+)
+("BCX54_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCX54")
+	)
+)
+("BCX55_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCX55")
+	)
+)
+("BCX56_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCX56")
+	)
+)
+("BCX58_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCX58")
+	)
+)
+("BCX59_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCX59")
+	)
+)
+("BCX68_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCX68")
+	)
+)
+("BCX69_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCX69")
+	)
+)
+("BCX70_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCX70")
+	)
+)
+("BCX71_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCX71")
+	)
+)
+("BCX78_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCX78")
+	)
+)
+("BCX79_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BCX79")
+	)
+)
+("BDP947_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BDP947")
+	)
+)
+("BDP948_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BDP948")
+	)
+)
+("BDP949_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BDP949")
+	)
+)
+("BDP950_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BDP950")
+	)
+)
+("BDP951_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BDP951")
+	)
+)
+("BDP952_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BDP952")
+	)
+)
+("BDP953_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BDP953")
+	)
+)
+("BDP954_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BDP954")
+	)
+)
+("BDP955_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BDP955")
+	)
+)
+("BDP956_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BDP956")
+	)
+)
+("BF420_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BF420")
+	)
+)
+("BF421_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BF421")
+	)
+)
+("BF422_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BF422")
+	)
+)
+("BF423_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BF423")
+	)
+)
+("BF517_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BF517")
+	)
+)
+("BF622_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BF622")
+	)
+)
+("BF623_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BF623")
+	)
+)
+("BF720_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BF720")
+	)
+)
+("BF721_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BF721")
+	)
+)
+("BF722_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BF722")
+	)
+)
+("BF723_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BF723")
+	)
+)
+("BF799_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BF799")
+	)
+)
+("BFN16_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BFN16")
+	)
+)
+("BFN17_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BFN17")
+	)
+)
+("BFN18_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BFN18")
+	)
+)
+("BFN19_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BFN19")
+	)
+)
+("BFN21_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BFN21")
+	)
+)
+("BFN22_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BFN22")
+	)
+)
+("BFN23_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BFN23")
+	)
+)
+("BFN24_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BFN24")
+	)
+)
+("BFN25_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BFN25")
+	)
+)
+("BFN26_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BFN26")
+	)
+)
+("BFN27_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BFN27")
+	)
+)
+("BFN36_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BFN36")
+	)
+)
+("BFN37_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BFN37")
+	)
+)
+("BFN39_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BFN39")
+	)
+)
+("BFP22_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BFP22")
+	)
+)
+("BFP23_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BFP23")
+	)
+)
+("BFP25_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BFP25")
+	)
+)
+("BFP26_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BFP26")
+	)
+)
+("BFS17_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BFS17")
+	)
+)
+("BSS63_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BSS63")
+	)
+)
+("BSS64_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BSS64")
+	)
+)
+("BSS79_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BSS79")
+	)
+)
+("BSS80_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BSS80")
+	)
+)
+("BSS81_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BSS81")
+	)
+)
+("BSS82_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("BSS82")
+	)
+)
+("MPSA42_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("MPSA42")
+	)
+)
+("MPSA43_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("MPSA43")
+	)
+)
+("MPSA92_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("MPSA92")
+	)
+)
+("MPSA93_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("MPSA93")
+	)
+)
+("PZT2222_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("PZT2222")
+	)
+)
+("PZT2222A_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("PZT2222A")
+	)
+)
+("PZT2907_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("PZT2907")
+	)
+)
+("PZT2907A_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("PZT2907A")
+	)
+)
+("PZT3904_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("PZT3904")
+	)
+)
+("PZT3906_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("PZT3906")
+	)
+)
+("PZTA42_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("PZTA42")
+	)
+)
+("PZTA92_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("PZTA92")
+	)
+)
+("PZTA93_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("PZTA93")
+	)
+)
+("SMBT2222A_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SMBT2222A")
+	)
+)
+("SMBT2907_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SMBT2907")
+	)
+)
+("SMBT2907A_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SMBT2907A")
+	)
+)
+("SMBT3904_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SMBT3904")
+	)
+)
+("SMBT3906_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SMBT3906")
+	)
+)
+("SMBT4124_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SMBT4124")
+	)
+)
+("SMBT4126_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SMBT4126")
+	)
+)
+("SMBT5086_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SMBT5086")
+	)
+)
+("SMBT5087_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SMBT5087")
+	)
+)
+("SMBT6428_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SMBT6428")
+	)
+)
+("SMBT6429_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SMBT6429")
+	)
+)
+("SMBTA05_2"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SMBTA05")
+	)
+)
+("SMBTA06_2"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SMBTA06")
+	)
+)
+("SMBTA20_2"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SMBTA20")
+	)
+)
+("SMBTA42_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SMBTA42")
+	)
+)
+("SMBTA43_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SMBTA43")
+	)
+)
+("SMBTA55_2"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SMBTA55")
+	)
+)
+("SMBTA56_2"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SMBTA56")
+	)
+)
+("SMBTA70_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SMBTA70")
+	)
+)
+("SMBTA92_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SMBTA92")
+	)
+)
+("SMBTA93_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SMBTA93")
+	)
+)
+("SXT2222A_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SXT2222A")
+	)
+)
+("SXT2907A_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SXT2907A")
+	)
+)
+("SXT3904_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SXT3904")
+	)
+)
+("SXT3906_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SXT3906")
+	)
+)
+("SXTA42_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SXTA42")
+	)
+)
+("SXTA43_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SXTA43")
+	)
+)
+("SXTA92_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SXTA92")
+	)
+)
+("SXTA93_1"
+	("Creator" "Device property file created by Property Controller")
+	("Hierarchical"	"yes")
+	("Implementation"
+		("SXTA93")
+	)
+)
+("BCX78"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "100m")
+		(VCB "32")
+		(PDM "500m")
+	)
+)
+("SMBT6429"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(VCB "55")
+		(VCE "45")
+		(VEB "6")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "310")
+	)
+)
+("BCV62C"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "2")
+		(TERM_IC "1")
+		(NODE_VB "2")
+		(NODE_VC "1")
+		(NODE_VE "3")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "100m")
+		(IC_PEAK "200m")
+		(VCB "30")
+		(VCE "30")
+		(VEB "6")
+		(PDM "300m")
+		(TJ "150")
+		(RJA "240")
+	)
+)
+("SXT2222A"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "600m")
+		(VCB "75")
+		(VCE "40")
+		(VEB "6")
+		(PDM "1")
+		(TJ "150")
+		(RJA "90")
+	)
+)
+("PZT2222A"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "600m")
+		(VCB "75")
+		(VCE "40")
+		(VEB "6")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "87")
+	)
+)
+("BCX56"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "1")
+		(IB "100m")
+		(IC_PEAK "1.5")
+		(VCB "100")
+		(VCE "80")
+		(VEB "5")
+		(PDM "1")
+		(TJ "150")
+		(RJA "75")
+	)
+)
+("BCP70"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "3")
+		(IB "200m")
+		(IC_PEAK "6")
+		(VCB "25")
+		(VCE "25")
+		(VEB "5")
+		(PDM "1.7")
+		(TJ "150")
+		(RJA "88")
+	)
+)
+("BC327"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "800m")
+		(IB "100m")
+		(IC_PEAK "1")
+		(VCB "50")
+		(VCE "45")
+		(VEB "5")
+		(PDM "625m")
+		(TJ "150")
+		(RJA "200")
+		(RJC "135")
+		(RCA "65")
+	)
+)
+("BC338"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "800m")
+		(IB "100m")
+		(IC_PEAK "1")
+		(VCB "30")
+		(VCE "25")
+		(VEB "5")
+		(PDM "625m")
+		(TJ "150")
+		(RJA "200")
+		(RJC "135")
+		(RCA "65")
+	)
+)
+("BCX79"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "100m")
+		(VCB "45")
+		(PDM "500m")
+	)
+)
+("SMBTA70"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "100m")
+		(IC_PEAK "200m")
+		(VCE "40")
+		(VEB "4")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "310")
+	)
+)
+("BF517"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "25m")
+		(IC_PEAK "50m")
+		(VCB "20")
+		(VCE "15")
+		(VEB "2.5")
+		(PDM "280m")
+		(TJ "150")
+		(RJA "410.7")
+	)
+)
+("SMBT2222A"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "600m")
+		(VCB "75")
+		(VCE "40")
+		(VEB "6")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "290")
+	)
+)
+("SMBTA92"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "500m")
+		(IB "100m")
+		(VCB "300")
+		(VCE "300")
+		(VEB "5")
+		(PDM "360m")
+		(TJ "150")
+		(RJA "280")
+		(SBINT "1.7m")
+	)
+)
+("BCX68"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "1")
+		(IB "100m")
+		(IC_PEAK "2")
+		(VCB "25")
+		(VCE "20")
+		(VEB "5")
+		(PDM "1")
+		(TJ "150")
+		(RJA "75")
+	)
+)
+("BC635"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "1")
+		(IB "100m")
+		(IC_PEAK "1.5")
+		(VCB "45")
+		(VCE "45")
+		(VEB "5")
+		(PDM "800m")
+		(TJ "150")
+		(RJA "156")
+		(RJC "75")
+		(RCA "81")
+	)
+)
+("BC328"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "800m")
+		(IB "100m")
+		(IC_PEAK "1")
+		(VCB "30")
+		(VCE "25")
+		(VEB "5")
+		(PDM "625m")
+		(TJ "150")
+		(RJA "200")
+		(RJC "135")
+		(RCA "65")
+	)
+)
+("BC856"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC_PEAK "200m")
+		(VCE "65")
+		(PDM "330m")
+	)
+)
+("BCX58"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "100m")
+		(VCB "32")
+		(PDM "500m")
+	)
+)
+("BC636"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "1000m")
+		(VCB "45")
+		(VCE "45")
+		(VEB "5")
+		(PDM "800m")
+		(TJ "150")
+		(RJA "156")
+	)
+)
+("SMBTA93"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "500m")
+		(IB "100m")
+		(VCB "200")
+		(VCE "200")
+		(VEB "5")
+		(PDM "360m")
+		(TJ "150")
+		(RJA "280")
+		(SBINT "2.2m")
+	)
+)
+("BCX69"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "1")
+		(IB "100m")
+		(IC_PEAK "2")
+		(VCB "25")
+		(VCE "20")
+		(VEB "5")
+		(PDM "1")
+		(TJ "150")
+		(RJA "75")
+	)
+)
+("BFN21"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "50m")
+		(IC_PEAK "100m")
+		(VCB "300")
+		(VCE "300")
+		(VEB "5")
+		(PDM "1")
+		(TJ "150")
+		(RJA "90")
+	)
+)
+("BCV49"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "2")
+		(TERM_IC "1")
+		(NODE_VB "2")
+		(NODE_VC "1")
+		(NODE_VE "3")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "500m")
+		(IB "100m")
+		(IC_PEAK "800m")
+		(VCB "80")
+		(VCE "60")
+		(VEB "10")
+		(PDM "1")
+		(TJ "150")
+	)
+)
+("BCP72"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "3")
+		(IB "200m")
+		(IC_PEAK "6")
+		(VCB "10")
+		(VCE "10")
+		(VEB "5")
+		(PDM "1.7")
+		(TJ "150")
+		(RJA "88")
+	)
+)
+("BC846"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "100m")
+		(IB "200m")
+		(IC_PEAK "200m")
+		(VCB "80")
+		(VCE "65")
+		(VEB "6")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "375")
+	)
+)
+("BC857"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC_PEAK "200m")
+		(VCE "45")
+		(PDM "330m")
+	)
+)
+("BCX59"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "100m")
+		(VCB "45")
+		(PDM "500m")
+	)
+)
+("PZTA42"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "500m")
+		(IB "100m")
+		(VCB "300")
+		(VCE "300")
+		(VEB "6")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "72")
+	)
+)
+("PZT2907A"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "600m")
+		(VCB "60")
+		(VCE "60")
+		(VEB "5")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "87")
+	)
+)
+("SXT2907A"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "600m")
+		(VCB "60")
+		(VCE "60")
+		(VEB "5")
+		(PDM "1")
+		(TJ "150")
+		(RJA "90")
+	)
+)
+("BC637"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "1000m")
+		(VCB "60")
+		(VCE "60")
+		(VEB "5")
+		(PDM "800m")
+		(TJ "150")
+		(RJA "156")
+	)
+)
+("BFN22"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "50m")
+		(IC_PEAK "100m")
+		(VCB "250")
+		(VCE "250")
+		(VEB "5")
+		(PDM "360m")
+		(TJ "150")
+		(RJA "290")
+	)
+)
+("BC847"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "100m")
+		(IC_PEAK "200m")
+		(VCB "50")
+		(VCE "45")
+		(VEB "6")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "375")
+	)
+)
+("BC858"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC_PEAK "200m")
+		(VCE "30")
+		(PDM "330m")
+	)
+)
+("BC638"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "1000m")
+		(VCB "60")
+		(VCE "60")
+		(VEB "5")
+		(PDM "800m")
+		(TJ "150")
+		(RJA "156")
+	)
+)
+("BCP51"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "1")
+		(IB "100m")
+		(IC_PEAK "1.5")
+		(VCB "45")
+		(VCE "45")
+		(VEB "5")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "83.3")
+	)
+)
+("SMBT2907A"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "600m")
+		(VCB "60")
+		(VCE "60")
+		(VEB "5")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "290")
+	)
+)
+("BSS80"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC_PEAK "1")
+		(VCE "40")
+		(PDM "330m")
+	)
+)
+("BFN23"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "50m")
+		(IC_PEAK "100m")
+		(VCB "250")
+		(VCE "250")
+		(VEB "5")
+		(PDM "360m")
+		(TJ "150")
+		(RJA "290")
+	)
+)
+("BDP950"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "3")
+		(IB "200m")
+		(IC_PEAK "5")
+		(VCB "60")
+		(VCE "60")
+		(VEB "5")
+		(PDM "3")
+		(TJ "150")
+		(RJA "42")
+	)
+)
+("BC848"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "100m")
+		(IC_PEAK "200m")
+		(VCB "30")
+		(VCE "30")
+		(VEB "5")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "375")
+	)
+)
+("BC859"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC_PEAK "200m")
+		(VCE "30")
+		(PDM "330m")
+	)
+)
+("SMBT5086"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "50m")
+		(VCB "50")
+		(VCE "50")
+		(VEB "3")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "310")
+	)
+)
+("BSS81"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC_PEAK "1")
+		(VCE "35")
+		(PDM "330m")
+	)
+)
+("BDP948"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "3")
+		(IB "200m")
+		(IC_PEAK "5")
+		(VCB "45")
+		(VCE "45")
+		(VEB "5")
+		(PDM "3")
+		(TJ "150")
+		(RJA "42")
+	)
+)
+("BCW65"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC_PEAK "1")
+		(VCE "32")
+		(PDM "330m")
+	)
+)
+("BC850C"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "2")
+		(TERM_IC "1")
+		(NODE_VB "2")
+		(NODE_VC "1")
+		(NODE_VE "3")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "100m")
+		(IB "200m")
+		(IC_PEAK "200m")
+		(VCB "50")
+		(VCE "45")
+		(VEB "6")
+		(PDM "330m")
+		(TJ "150")
+	)
+)
+("BFS17"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "25m")
+		(IC_PEAK "50m")
+		(VCB "25")
+		(VCE "15")
+		(VEB "2.5")
+		(PDM "280m")
+		(TJ "150")
+	)
+)
+("SMBTA06"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "500m")
+		(IB "100m")
+		(IC_PEAK "1")
+		(VCB "80")
+		(VCE "80")
+		(VEB "4")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "285")
+	)
+)
+("BSS79"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC_PEAK "1")
+		(VCE "40")
+		(PDM "330m")
+	)
+)
+("BCX53"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "1")
+		(IB "100m")
+		(IC_PEAK "1.5")
+		(VCB "100")
+		(VCE "80")
+		(VEB "5")
+		(PDM "1")
+		(TJ "150")
+		(RJA "75")
+	)
+)
+("MPSA42"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "500m")
+		(IB "100m")
+		(VCB "300")
+		(VCE "300")
+		(VEB "6")
+		(PDM "625m")
+		(TJ "150")
+		(RJA "200")
+		(RJC "135")
+		(RCA "65")
+		(SBINT "1.8m")
+	)
+)
+("BF799"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "35m")
+		(IC_PEAK "50m")
+		(VCB "30")
+		(VCE "20")
+		(VEB "3")
+		(PDM "280m")
+		(TJ "150")
+		(RJA "450")
+	)
+)
+("BF722"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "50m")
+		(IC_PEAK "100m")
+		(VCB "250")
+		(VCE "250")
+		(VEB "5")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "87")
+	)
+)
+("BF623"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "50m")
+		(IC_PEAK "100m")
+		(VCB "250")
+		(VCE "250")
+		(VEB "5")
+		(PDM "1")
+		(TJ "150")
+		(RJA "90")
+	)
+)
+("BCX42"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "800m")
+		(IB "100m")
+		(IC_PEAK "1")
+		(VCB "125")
+		(VCE "125")
+		(VEB "5")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "285")
+	)
+)
+("BDP949"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "3")
+		(IB "200m")
+		(IC_PEAK "5")
+		(VCB "60")
+		(VCE "60")
+		(VEB "5")
+		(PDM "3")
+		(TJ "150")
+		(RJA "42")
+	)
+)
+("SXTA42"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "500m")
+		(VCB "300")
+		(VCE "300")
+		(VEB "6")
+		(PDM "1")
+		(TJ "150")
+		(RJA "75")
+		(SBINT "1.7m")
+	)
+)
+("MPSA43"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "500m")
+		(IB "100m")
+		(VCB "200")
+		(VCE "200")
+		(VEB "6")
+		(PDM "625m")
+		(TJ "150")
+		(RJA "200")
+		(RJC "135")
+		(RCA "65")
+		(SBINT "2.5m")
+	)
+)
+("PZTA92"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "500m")
+		(IB "100m")
+		(VCB "300")
+		(VCE "300")
+		(VEB "5")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "72")
+	)
+)
+("BC368"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "1")
+		(IB "100m")
+		(IC_PEAK "2")
+		(VCB "25")
+		(VCE "20")
+		(VEB "5")
+		(PDM "800m")
+		(TJ "150")
+		(RJA "156")
+		(RJC "75")
+		(RCA "81")
+	)
+)
+("BCX54"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "1")
+		(IB "100m")
+		(IC_PEAK "1.5")
+		(VCB "45")
+		(VCE "45")
+		(VEB "5")
+		(PDM "1")
+		(TJ "150")
+		(RJA "75")
+	)
+)
+("BF723"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "50m")
+		(IC_PEAK "100m")
+		(VCB "250")
+		(VCE "250")
+		(VEB "5")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "87")
+	)
+)
+("BCW67"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC_PEAK "1")
+		(VCB "45")
+		(PDM "330m")
+	)
+)
+("SMBT6428"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(VCB "60")
+		(VCE "50")
+		(VEB "6")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "310")
+	)
+)
+("SXTA43"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "500m")
+		(VCB "200")
+		(VCE "200")
+		(VEB "6")
+		(PDM "1")
+		(TJ "150")
+		(RJA "75")
+		(SBINT "2.1m")
+	)
+)
+("PZTA93"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "500m")
+		(IB "100m")
+		(VCB "200")
+		(VCE "200")
+		(VEB "5")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "72")
+	)
+)
+("BCX55"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "1")
+		(IB "100m")
+		(IC_PEAK "1.5")
+		(VCB "60")
+		(VCE "60")
+		(VEB "5")
+		(PDM "1")
+		(TJ "150")
+		(RJA "75")
+	)
+)
+("BC369"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "1")
+		(IB "100m")
+		(IC_PEAK "2")
+		(VCB "25")
+		(VCE "20")
+		(VEB "5")
+		(PDM "800m")
+		(TJ "150")
+		(RJA "156")
+		(RJC "75")
+		(RCA "81")
+	)
+)
+("BCW68"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC_PEAK "1")
+		(VCE "45")
+		(PDM "330m")
+	)
+)
+("BC337"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "800m")
+		(IB "1")
+		(IC_PEAK "1")
+		(VCB "50")
+		(VCE "45")
+		(VEB "5")
+		(PDM "625m")
+		(TJ "150")
+		(RJA "200")
+		(RJC "135")
+		(RCA "65")
+	)
+)
+("BCP52"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "1")
+		(IB "100m")
+		(IC_PEAK "1.5")
+		(VCB "60")
+		(VCE "60")
+		(VEB "5")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "83.3")
+	)
+)
+("BFN24"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(IB "100m")
+		(IC_PEAK "500m")
+		(VCB "250")
+		(VCE "250")
+		(VEB "5")
+		(PDM "360m")
+		(TJ "150")
+		(RJA "280")
+		(SBINT "2m")
+	)
+)
+("BFP22"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(IB "100m")
+		(IC_PEAK "500m")
+		(VCB "200")
+		(VCE "200")
+		(VEB "6")
+		(PDM "625m")
+		(TJ "150")
+		(RJA "200")
+		(SBINT "2.5m")
+	)
+)
+("SMBT3904"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(VCB "60")
+		(VCE "40")
+		(VEB "6")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "315")
+	)
+)
+("BC639"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "1000m")
+		(VCB "100")
+		(VCE "80")
+		(VEB "5")
+		(PDM "800m")
+		(TJ "150")
+		(RJA "156")
+	)
+)
+("BDP951"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "3")
+		(IB "200m")
+		(IC_PEAK "5")
+		(VCB "100")
+		(VCE "80")
+		(VEB "5")
+		(PDM "3")
+		(TJ "150")
+		(RJA "42")
+	)
+)
+("SMBTA20"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "100m")
+		(IC_PEAK "200m")
+		(VCE "40")
+		(VEB "4")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "310")
+	)
+)
+("BC849"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "100m")
+		(IC_PEAK "200m")
+		(VCB "30")
+		(VCE "30")
+		(VEB "5")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "375")
+	)
+)
+("SMBT5087"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "50m")
+		(VCB "50")
+		(VCE "50")
+		(VEB "3")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "310")
+	)
+)
+("BCP53"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "1")
+		(IB "100m")
+		(IC_PEAK "1.5")
+		(VCB "100")
+		(VCE "80")
+		(VEB "5")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "83.3")
+	)
+)
+("SMBTA42"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "500m")
+		(IB "100m")
+		(VCB "300")
+		(VCE "300")
+		(VEB "6")
+		(PDM "360m")
+		(TJ "150")
+		(RJA "280")
+		(SBINT "1.7m")
+	)
+)
+("BFN36"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(IB "100m")
+		(IC_PEAK "500m")
+		(VCB "250")
+		(VCE "250")
+		(VEB "5")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "72")
+	)
+)
+("BFN25"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(IB "100m")
+		(IC_PEAK "500m")
+		(VCB "250")
+		(VCE "250")
+		(VEB "5")
+		(PDM "360m")
+		(TJ "150")
+		(RJA "280")
+	)
+)
+("BFP23"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(IB "100m")
+		(IC_PEAK "500m")
+		(VCB "200")
+		(VCE "200")
+		(VEB "6")
+		(PDM "625m")
+		(TJ "150")
+		(RJA "200")
+		(RJC "135")
+		(RCA "65")
+		(SBINT "2.8m")
+	)
+)
+("BSS82"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC_PEAK "1")
+		(VCE "60")
+		(PDM "330m")
+	)
+)
+("PZT3904"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(VCB "60")
+		(VCE "40")
+		(VEB "6")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "122")
+	)
+)
+("BDP952"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "3")
+		(IB "200m")
+		(IC_PEAK "5")
+		(VCB "100")
+		(VCE "80")
+		(VEB "5")
+		(PDM "3")
+		(TJ "150")
+		(RJA "42")
+	)
+)
+("BC817"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC_PEAK "1")
+		(VCE "45")
+		(PDM "330m")
+	)
+)
+("BC857C"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "2")
+		(TERM_IC "1")
+		(NODE_VB "2")
+		(NODE_VC "1")
+		(NODE_VE "3")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "100m")
+		(IB "200m")
+		(IC_PEAK "200m")
+		(VCB "50")
+		(VCE "45")
+		(VEB "5")
+		(PDM "330m")
+		(TJ "150")
+	)
+)
+("BFN26"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(IB "100m")
+		(IC_PEAK "500m")
+		(VCB "300")
+		(VCE "300")
+		(VEB "5")
+		(PDM "360m")
+		(TJ "150")
+		(RJA "280")
+		(SBINT "1.8m")
+	)
+)
+("SMBTA43"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "500m")
+		(IB "100m")
+		(VCB "200")
+		(VCE "200")
+		(VEB "6")
+		(PDM "360m")
+		(TJ "150")
+		(RJA "280")
+		(SBINT "2.1m")
+	)
+)
+("BFN37"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(IB "100m")
+		(IC_PEAK "500m")
+		(VCB "250")
+		(VCE "250")
+		(VEB "5")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "72")
+	)
+)
+("SMBT3906"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(VCB "40")
+		(VCE "40")
+		(VEB "5")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "310")
+	)
+)
+("BCP54"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "1")
+		(IB "100m")
+		(IC_PEAK "1.5")
+		(VCB "45")
+		(VCE "45")
+		(VEB "5")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "83.3")
+	)
+)
+("BDP953"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "3")
+		(IB "200m")
+		(IC_PEAK "5")
+		(VCB "120")
+		(VCE "100")
+		(VEB "5")
+		(PDM "3")
+		(TJ "150")
+		(RJA "42")
+	)
+)
+("BC807"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC_PEAK "1")
+		(VCE "45")
+		(PDM "330m")
+	)
+)
+("BC818"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC_PEAK "1")
+		(VCE "25")
+		(PDM "330m")
+	)
+)
+("SMBTA55"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "500m")
+		(IB "100m")
+		(IC_PEAK "1")
+		(VCB "60")
+		(VCE "60")
+		(VEB "4")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "285")
+	)
+)
+("BFN16"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(IB "100m")
+		(IC_PEAK "500m")
+		(VCB "250")
+		(VCE "250")
+		(VEB "5")
+		(PDM "1")
+		(TJ "150")
+		(RJA "75")
+		(SBINT "4m")
+	)
+)
+("BFP25"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(IB "100m")
+		(IC_PEAK "500m")
+		(VCB "300")
+		(VCE "300")
+		(VEB "6")
+		(PDM "625m")
+		(TJ "150")
+		(RJA "200")
+		(RJC "135")
+		(RCA "65")
+		(SBINT "1.8m")
+	)
+)
+("BFN27"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(IB "100m")
+		(IC_PEAK "500m")
+		(VCB "300")
+		(VCE "300")
+		(VEB "5")
+		(PDM "360m")
+		(TJ "150")
+		(RJA "280")
+	)
+)
+("PZT3906"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:58 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(VCB "40")
+		(VCE "40")
+		(VEB "5")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "117")
+	)
+)
+("BCP55"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "1")
+		(IB "100m")
+		(IC_PEAK "1.5")
+		(VCB "60")
+		(VCE "60")
+		(VEB "5")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "83.3")
+	)
+)
+("BDP954"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "3")
+		(IB "200m")
+		(IC_PEAK "5")
+		(VCB "120")
+		(VCE "100")
+		(VEB "5")
+		(PDM "3")
+		(TJ "150")
+		(RJA "42")
+	)
+)
+("BC808"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC_PEAK "1")
+		(VCE "25")
+		(PDM "330m")
+	)
+)
+("BCV61"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC_PEAK "200m")
+		(VCE "30")
+		(PDM "300m")
+	)
+)
+("BCW60"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC_PEAK "200m")
+		(VCE "32")
+		(PDM "330m")
+	)
+)
+("BCX70"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC_PEAK "200m")
+		(VCE "45")
+		(PDM "330m")
+	)
+)
+("SMBTA56"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "500m")
+		(IB "100m")
+		(IC_PEAK "1")
+		(VCB "80")
+		(VCE "80")
+		(VEB "4")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "285")
+	)
+)
+("BFN17"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(IB "100m")
+		(IC_PEAK "500m")
+		(VCB "250")
+		(VCE "250")
+		(VEB "5")
+		(PDM "1")
+		(TJ "150")
+		(RJA "75")
+		(SBINT "3.5m")
+	)
+)
+("BFN39"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(IB "100m")
+		(IC_PEAK "500m")
+		(VCB "300")
+		(VCE "300")
+		(VEB "5")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "72")
+	)
+)
+("BFP26"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(IB "100m")
+		(IC_PEAK "500m")
+		(VCB "300")
+		(VCE "300")
+		(VEB "6")
+		(PDM "625m")
+		(TJ "150")
+		(RJA "200")
+		(RJC "135")
+		(RCA "65")
+		(SBINT "1.8m")
+	)
+)
+("MPSA92"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "500m")
+		(IB "100m")
+		(VCB "300")
+		(VCE "300")
+		(VEB "5")
+		(PDM "625m")
+		(TJ "150")
+		(RJA "200")
+		(RJC "135")
+		(RCA "65")
+		(SBINT "1.8m")
+	)
+)
+("SMBT2907"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "600m")
+		(VCB "60")
+		(VCE "40")
+		(VEB "5")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "290")
+	)
+)
+("BF420"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "50m")
+		(VCB "300")
+		(VCE "300")
+		(VEB "5")
+		(PDM "830m")
+		(TJ "150")
+		(RJA "150")
+		(RJC "75")
+		(RCA "75")
+	)
+)
+("BSS63"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "800m")
+		(IB "100m")
+		(IC_PEAK "1")
+		(VCB "110")
+		(VCE "100")
+		(VEB "5")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "285")
+	)
+)
+("BDP955"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "3")
+		(IB "200m")
+		(IC_PEAK "5")
+		(VCB "140")
+		(VCE "120")
+		(VEB "5")
+		(PDM "3")
+		(TJ "150")
+		(RJA "42")
+	)
+)
+("BCV62"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC_PEAK "200m")
+		(VCE "30")
+		(PDM "300m")
+	)
+)
+("BCW61"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC_PEAK "200m")
+		(VCE "32")
+		(PDM "330m")
+	)
+)
+("BCX71"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC_PEAK "200m")
+		(VCE "45")
+		(PDM "330m")
+	)
+)
+("BFN18"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(IB "100m")
+		(IC_PEAK "500m")
+		(VCB "300")
+		(VCE "300")
+		(VEB "5")
+		(PDM "1")
+		(TJ "150")
+		(RJA "75")
+		(SBINT "3.5m")
+	)
+)
+("SXTA92"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "500m")
+		(VCB "300")
+		(VCE "300")
+		(VEB "5")
+		(PDM "1")
+		(TJ "150")
+		(RJA "75")
+		(SBINT "1.7m")
+	)
+)
+("MPSA93"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "500m")
+		(IB "100m")
+		(VCB "200")
+		(VCE "200")
+		(VEB "5")
+		(PDM "625m")
+		(TJ "150")
+		(RJA "200")
+		(RJC "135")
+		(RCA "65")
+		(SBINT "2.5m")
+	)
+)
+("BCP68"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "1")
+		(IB "100m")
+		(IC_PEAK "2")
+		(VCB "25")
+		(VCE "20")
+		(VEB "5")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "83.3")
+	)
+)
+("PZT2907"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "600m")
+		(VCB "60")
+		(VCE "40")
+		(VEB "5")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "87")
+	)
+)
+("SXT3904"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(VCB "60")
+		(VCE "40")
+		(VEB "6")
+		(PDM "1")
+		(TJ "150")
+		(RJA "125")
+	)
+)
+("BF421"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "50m")
+		(VCB "300")
+		(VCE "300")
+		(VEB "5")
+		(PDM "830m")
+		(TJ "150")
+		(RJA "150")
+		(RJC "75")
+		(RCA "75")
+	)
+)
+("BSS64"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "800m")
+		(IB "100m")
+		(IC_PEAK "1")
+		(VCB "120")
+		(VCE "80")
+		(VEB "5")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "285")
+	)
+)
+("BDP956"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "3")
+		(IB "200m")
+		(IC_PEAK "5")
+		(VCB "140")
+		(VCE "120")
+		(VEB "5")
+		(PDM "3")
+		(TJ "150")
+		(RJA "42")
+	)
+)
+("SXTA93"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "500m")
+		(VCB "200")
+		(VCE "200")
+		(VEB "5")
+		(PDM "1")
+		(TJ "150")
+		(RJA "75")
+		(SBINT "2.3m")
+	)
+)
+("BFN19"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(IB "100m")
+		(IC_PEAK "500m")
+		(VCB "300")
+		(VCE "300")
+		(VEB "5")
+		(PDM "1")
+		(TJ "150")
+		(RJA "75")
+		(SBINT "3m")
+	)
+)
+("SMBT4124"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(VCB "30")
+		(VCE "25")
+		(VEB "5")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "315")
+	)
+)
+("BCP69"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "1")
+		(IB "100m")
+		(IC_PEAK "2")
+		(VCB "25")
+		(VCE "20")
+		(VEB "5")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "83.3")
+	)
+)
+("BF422"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "50m")
+		(VCB "250")
+		(VCE "250")
+		(VEB "5")
+		(PDM "830m")
+		(TJ "150")
+		(RJA "150")
+		(RJC "75")
+		(RCA "75")
+	)
+)
+("BC860"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC_PEAK "200m")
+		(VCE "45")
+		(PDM "330m")
+	)
+)
+("BC640"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "1")
+		(IB "100m")
+		(IC_PEAK "1.5")
+		(VCB "100")
+		(VCE "80")
+		(VEB "5")
+		(PDM "800m")
+		(TJ "150")
+		(RJA "156")
+		(RJC "55")
+		(RCA "101")
+	)
+)
+("BCX51"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "1")
+		(IB "100m")
+		(IC_PEAK "1.5")
+		(VCB "45")
+		(VCE "45")
+		(VEB "5")
+		(PDM "1")
+		(TJ "150")
+		(RJA "75")
+	)
+)
+("SXT3906"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(VCB "40")
+		(VCE "40")
+		(VEB "5")
+		(PDM "1")
+		(TJ "150")
+		(RJA "120")
+	)
+)
+("BF720"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "50m")
+		(IC_PEAK "100m")
+		(VCB "300")
+		(VCE "300")
+		(VEB "5")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "87")
+	)
+)
+("BF423"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "50m")
+		(VCB "250")
+		(VCE "250")
+		(VEB "5")
+		(PDM "830m")
+		(TJ "150")
+		(RJA "150")
+		(RJC "75")
+		(RCA "75")
+	)
+)
+("BDP947"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "3")
+		(IB "200m")
+		(IC_PEAK "5")
+		(VCB "45")
+		(VCE "45")
+		(VEB "5")
+		(PDM "3")
+		(TJ "150")
+		(RJA "42")
+	)
+)
+("BC850"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC_PEAK "200m")
+		(VCE "45")
+		(PDM "330m")
+	)
+)
+("SMBTA05"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "500m")
+		(IB "100m")
+		(IC_PEAK "1")
+		(VCB "60")
+		(VCE "60")
+		(VEB "4")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "285")
+	)
+)
+("PZT2222"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "600m")
+		(VCB "60")
+		(VCE "30")
+		(VEB "5")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "87")
+	)
+)
+("BCX52"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "1")
+		(IB "100m")
+		(IC_PEAK "1.5")
+		(VCB "60")
+		(VCE "60")
+		(VEB "5")
+		(PDM "1")
+		(TJ "150")
+		(RJA "75")
+	)
+)
+("SMBT4126"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "200m")
+		(VCB "25")
+		(VCE "25")
+		(VEB "4")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "310")
+	)
+)
+("BF622"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "50m")
+		(IC_PEAK "100m")
+		(VCB "250")
+		(VCE "250")
+		(VEB "5")
+		(PDM "1")
+		(TJ "150")
+		(RJA "90")
+	)
+)
+("BF721"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "pnp")
+		(MODEL_TYPE "7")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "PNP")
+	)
+	("device_max_ops"
+		(IC "50m")
+		(IC_PEAK "100m")
+		(VCB "300")
+		(VCE "300")
+		(VEB "5")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "87")
+	)
+)
+("BCX41"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "B")
+		(TERM_IC "C")
+		(NODE_VB "B")
+		(NODE_VC "C")
+		(NODE_VE "E")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "800m")
+		(IB "100m")
+		(IC_PEAK "1")
+		(VCB "125")
+		(VCE "125")
+		(VEB "5")
+		(PDM "330m")
+		(TJ "150")
+		(RJA "285")
+	)
+)
+("BCV47"
+	(Creator "Device property file created by prp_generator on Sat Apr 16 17:12:59 IST 05")
+	("device_info"
+		(SYMBOL_NAME "npn")
+		(MODEL_TYPE "4")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_IB "2")
+		(TERM_IC "1")
+		(NODE_VB "2")
+		(NODE_VC "1")
+		(NODE_VE "3")
+		(DERATE_TYPE "NPN")
+	)
+	("device_max_ops"
+		(IC "500m")
+		(IB "100m")
+		(IC_PEAK "800m")
+		(VCB "80")
+		(VCE "60")
+		(VEB "10")
+		(PDM "360m")
+		(TJ "150")
+	)
+)

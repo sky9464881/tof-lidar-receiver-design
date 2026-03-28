@@ -1,0 +1,2519 @@
+("BAS116/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:54 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "215m")
+		(IFM "500m")
+		(VRRM "85")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BAS16/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:54 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "215m")
+		(IFM "500m")
+		(VRRM "85")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BAS216/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:55 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "250m")
+		(IFM "500m")
+		(VRRM "85")
+		(PDM "400m")
+		(TJ "150")
+		(RJA "315")
+	)
+)
+("BAS221/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:55 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "300m")
+		(IFM "1")
+		(VRRM "250")
+		(PDM "400m")
+		(TJ "150")
+		(RJA "315")
+	)
+)
+("BAS240/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:55 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "120m")
+		(IFM "120m")
+		(PDM "397m")
+		(TJ "150")
+		(RJA "315")
+	)
+)
+("BAS28/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:55 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "215m")
+		(IFM "500m")
+		(VRRM "85")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BAS321/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:55 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "250m")
+		(IFM "625m")
+		(VRRM "250")
+		(PDM "300m")
+		(TJ "150")
+		(RJA "366")
+	)
+)
+("BAS32L/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:55 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "200m")
+		(IFM "450m")
+		(VRRM "100")
+		(PDM "500m")
+		(TJ "200")
+		(RJA "350")
+	)
+)
+("BAS40/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:56 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "120m")
+		(IFM "120m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BAS40W/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:56 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "120m")
+		(IFM "120m")
+		(PDM "200m")
+		(TJ "150")
+		(RJA "625")
+	)
+)
+("BAS45A/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:56 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "250m")
+		(IFM "625m")
+		(VRRM "125")
+		(PDM "300m")
+		(TJ "175")
+		(RJA "500")
+	)
+)
+("BAS56/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:56 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "200m")
+		(IFM "600m")
+		(VRRM "60")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BAS70/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:56 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "70m")
+		(IFM "70m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BAS70W/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:56 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "70m")
+		(IFM "70m")
+		(PDM "200m")
+		(TJ "150")
+		(RJA "625")
+	)
+)
+("BAT54/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:57 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "200m")
+		(IFM "300m")
+		(PDM "230m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("BAT720/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:57 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "500m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("BAT721/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:57 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("BAT85/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:57 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "200m")
+		(IFM "300m")
+		(PDM "312m")
+		(TJ "125")
+		(RJA "320")
+	)
+)
+("BAT854W/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:57 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "200m")
+		(IFM "300m")
+		(PDM "200m")
+		(TJ "150")
+		(RJA "625")
+	)
+)
+("BAV10/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:58 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "300m")
+		(IFM "600m")
+		(VRRM "60")
+		(PDM "350m")
+		(TJ "200")
+		(RJA "500")
+	)
+)
+("BAV103/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:58 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "250m")
+		(IFM "625m")
+		(VRRM "250")
+		(PDM "400m")
+		(TJ "175")
+		(RJA "375")
+	)
+)
+("BAV23/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:58 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "225m")
+		(IFM "625m")
+		(VRRM "250")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BAV45/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:58 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "50m")
+		(IFM "100m")
+		(VRRM "35")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("D1ps70sb10/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:58 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "200m")
+		(IFM "300m")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "625")
+	)
+)
+("D1PS70SB40/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:58 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "120m")
+		(IFM "120m")
+		(PDM "200m")
+		(TJ "150")
+		(RJA "625")
+	)
+)
+("D1PS70SB82/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:58 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "30m")
+		(PDM "160m")
+		(TJ "125")
+		(RJA "625")
+	)
+)
+("D1PS74SB23/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:59 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "1")
+		(PDM "400m")
+		(TJ "125")
+		(RJA "250")
+	)
+)
+("D1PS74SB43/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:59 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "1")
+		(PDM "500m")
+		(TJ "125")
+		(RJA "200")
+	)
+)
+("D1PS76SB10/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:59 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "200m")
+		(IFM "300m")
+		(PDM "220m")
+		(TJ "125")
+		(RJA "450")
+	)
+)
+("D1PS76SB21/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:59 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "200m")
+		(TJ "125")
+		(RJA "450")
+	)
+)
+("D1PS76SB40/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:59 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "120m")
+		(IFM "120m")
+		(PDM "277m")
+		(TJ "150")
+		(RJA "450")
+	)
+)
+("D1PS76SB62/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:32:59 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "20m")
+		(PDM "222m")
+		(TJ "125")
+		(RJA "450")
+	)
+)
+("D1PS76SB70/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:33:00 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "70m")
+		(IFM "70m")
+		(PDM "277m")
+		(TJ "150")
+		(RJA "450")
+	)
+)
+("D1PS79SB10/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:33:00 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "200m")
+		(IFM "300m")
+		(PDM "222m")
+		(TJ "125")
+		(RJA "450")
+	)
+)
+("D1PS79SB30/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:33:00 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "200m")
+		(IFM "300m")
+		(PDM "277m")
+		(TJ "150")
+		(RJA "450")
+	)
+)
+("D1PS79SB40/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:33:00 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "120m")
+		(IFM "120m")
+		(PDM "277m")
+		(TJ "150")
+		(RJA "450")
+	)
+)
+("D1PS79SB62/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:33:00 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "20m")
+		(PDM "222m")
+		(TJ "125")
+		(RJA "450")
+	)
+)
+("PMBD6050/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:33:00 IST 04")
+	("device_info"
+		(SYMBOL_NAME "diode")
+		(MODEL_TYPE "22")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "215m")
+		(IFM "500m")
+		(VRRM "85")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BAS40-04/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:58:59 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "495")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_NDC "2")
+		(TERM_PDC "1")
+		(NODE_NDC "2")
+		(NODE_PDC "1")
+		(NODE_AC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "120m")
+		(IF2 "120m")
+		(IFM "120m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BAS40-04W/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:00 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "495")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_NDC "2")
+		(TERM_PDC "1")
+		(NODE_NDC "2")
+		(NODE_PDC "1")
+		(NODE_AC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "120m")
+		(IF2 "120m")
+		(IFM "120m")
+		(PDM "200m")
+		(TJ "150")
+		(RJA "625")
+	)
+)
+("BAS40-05/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:00 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "497")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AC1 "1")
+		(TERM_AC2 "2")
+		(NODE_AC1 "1")
+		(NODE_AC2 "2")
+		(NODE_DC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "120m")
+		(IF2 "120m")
+		(IFM "120m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BAS40-05W/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:00 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "497")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AC1 "1")
+		(TERM_AC2 "2")
+		(NODE_AC1 "1")
+		(NODE_AC2 "2")
+		(NODE_DC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "120m")
+		(IF2 "120m")
+		(IFM "120m")
+		(PDM "200m")
+		(TJ "150")
+		(RJA "625")
+	)
+)
+("BAS40-06/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:00 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "496")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AC1 "1")
+		(TERM_AC2 "2")
+		(NODE_AC1 "1")
+		(NODE_AC2 "2")
+		(NODE_DC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "120m")
+		(IF2 "120m")
+		(IFM "120m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BAS40-06W/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:00 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "496")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AC1 "1")
+		(TERM_AC2 "2")
+		(NODE_AC1 "1")
+		(NODE_AC2 "2")
+		(NODE_DC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "120m")
+		(IF2 "120m")
+		(IFM "120m")
+		(PDM "200m")
+		(TJ "150")
+		(RJA "625")
+	)
+)
+("BAS70-04/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:01 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "495")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_NDC "2")
+		(TERM_PDC "1")
+		(NODE_NDC "2")
+		(NODE_PDC "1")
+		(NODE_AC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "70m")
+		(IF2 "70m")
+		(IFM "70m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BAS70-04W/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:01 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "495")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_NDC "2")
+		(TERM_PDC "1")
+		(NODE_NDC "2")
+		(NODE_PDC "1")
+		(NODE_AC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "70m")
+		(IF2 "70m")
+		(IFM "70m")
+		(PDM "200m")
+		(TJ "150")
+		(RJA "625")
+	)
+)
+("BAS70-05W/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:01 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "497")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AC1 "1")
+		(TERM_AC2 "2")
+		(NODE_AC1 "1")
+		(NODE_AC2 "2")
+		(NODE_DC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "70m")
+		(IF2 "70m")
+		(IFM "70m")
+		(PDM "200m")
+		(TJ "150")
+		(RJA "625")
+	)
+)
+("BAS70-06/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:01 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "496")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AC1 "1")
+		(TERM_AC2 "2")
+		(NODE_AC1 "1")
+		(NODE_AC2 "2")
+		(NODE_DC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "70m")
+		(IF2 "70m")
+		(IFM "70m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BAS70-06W/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:01 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "496")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AC1 "1")
+		(TERM_AC2 "2")
+		(NODE_AC1 "1")
+		(NODE_AC2 "2")
+		(NODE_DC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "70m")
+		(IF2 "70m")
+		(IFM "70m")
+		(PDM "200m")
+		(TJ "150")
+		(RJA "625")
+	)
+)
+("BAT120A/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:01 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "496")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AC1 "1")
+		(TERM_AC2 "2")
+		(NODE_AC1 "1")
+		(NODE_AC2 "2")
+		(NODE_DC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "1")
+		(IF2 "1")
+		(PDM "1")
+		(TJ "125")
+		(RJA "100")
+	)
+)
+("BAT120C/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:02 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "497")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AC1 "1")
+		(TERM_AC2 "2")
+		(NODE_AC1 "1")
+		(NODE_AC2 "2")
+		(NODE_DC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "1")
+		(IF2 "1")
+		(PDM "1")
+		(TJ "125")
+		(RJA "100")
+	)
+)
+("BAT120S/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:02 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "495")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_NDC "2")
+		(TERM_PDC "1")
+		(NODE_NDC "2")
+		(NODE_PDC "1")
+		(NODE_AC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "1")
+		(IF2 "1")
+		(PDM "1")
+		(TJ "125")
+		(RJA "100")
+	)
+)
+("BAT54A/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:02 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "496")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AC1 "1")
+		(TERM_AC2 "2")
+		(NODE_AC1 "1")
+		(NODE_AC2 "2")
+		(NODE_DC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "200m")
+		(IF2 "200m")
+		(IFM "300m")
+		(PDM "230m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("BAT54C/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:02 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "497")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AC1 "1")
+		(TERM_AC2 "2")
+		(NODE_AC1 "1")
+		(NODE_AC2 "2")
+		(NODE_DC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "200m")
+		(IF2 "200m")
+		(IFM "300m")
+		(PDM "230m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("BAT54S/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:02 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "495")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_NDC "2")
+		(TERM_PDC "1")
+		(NODE_NDC "2")
+		(NODE_PDC "1")
+		(NODE_AC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "200m")
+		(IF2 "200m")
+		(IFM "300m")
+		(PDM "230m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("BAT721A/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:03 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "496")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AC1 "1")
+		(TERM_AC2 "2")
+		(NODE_AC1 "1")
+		(NODE_AC2 "2")
+		(NODE_DC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "200m")
+		(IF2 "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("BAT721C/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:03 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "497")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AC1 "1")
+		(TERM_AC2 "2")
+		(NODE_AC1 "1")
+		(NODE_AC2 "2")
+		(NODE_DC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "200m")
+		(IF2 "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("BAT721S/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:03 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "495")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_NDC "2")
+		(TERM_PDC "1")
+		(NODE_NDC "2")
+		(NODE_PDC "1")
+		(NODE_AC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "200m")
+		(IF2 "200m")
+		(TJ "125")
+		(RJA "500")
+	)
+)
+("BAT854AW/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:03 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "496")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AC1 "1")
+		(TERM_AC2 "2")
+		(NODE_AC1 "1")
+		(NODE_AC2 "2")
+		(NODE_DC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "200m")
+		(IF2 "200m")
+		(IFM "300m")
+		(PDM "200m")
+		(TJ "150")
+		(RJA "625")
+	)
+)
+("BAT854CW/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:03 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "497")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AC1 "1")
+		(TERM_AC2 "2")
+		(NODE_AC1 "1")
+		(NODE_AC2 "2")
+		(NODE_DC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "200m")
+		(IF2 "200m")
+		(IFM "300m")
+		(PDM "200m")
+		(TJ "150")
+		(RJA "625")
+	)
+)
+("BAT854SW/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:03 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "495")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_NDC "2")
+		(TERM_PDC "1")
+		(NODE_NDC "2")
+		(NODE_PDC "1")
+		(NODE_AC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "200m")
+		(IF2 "200m")
+		(IFM "300m")
+		(PDM "200m")
+		(TJ "150")
+		(RJA "625")
+	)
+)
+("D1ps70sb14/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:04 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "495")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_NDC "2")
+		(TERM_PDC "1")
+		(NODE_NDC "2")
+		(NODE_PDC "1")
+		(NODE_AC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "200m")
+		(IF2 "200m")
+		(IFM "300m")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "625")
+	)
+)
+("D1ps70sb15/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:04 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "497")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AC1 "1")
+		(TERM_AC2 "2")
+		(NODE_AC1 "1")
+		(NODE_AC2 "2")
+		(NODE_DC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "200m")
+		(IF2 "200m")
+		(IFM "300m")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "625")
+	)
+)
+("D1ps70sb16/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:04 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "496")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AC1 "1")
+		(TERM_AC2 "2")
+		(NODE_AC1 "1")
+		(NODE_AC2 "2")
+		(NODE_DC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "200m")
+		(IF2 "200m")
+		(IFM "300m")
+		(PDM "200m")
+		(TJ "125")
+		(RJA "625")
+	)
+)
+("D1PS70SB44/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:04 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "495")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_NDC "2")
+		(TERM_PDC "1")
+		(NODE_NDC "2")
+		(NODE_PDC "1")
+		(NODE_AC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "120m")
+		(IF2 "120m")
+		(IFM "120m")
+		(PDM "200m")
+		(TJ "150")
+		(RJA "625")
+	)
+)
+("D1PS70SB45/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:04 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "497")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AC1 "1")
+		(TERM_AC2 "2")
+		(NODE_AC1 "1")
+		(NODE_AC2 "2")
+		(NODE_DC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "120m")
+		(IF2 "120m")
+		(IFM "120m")
+		(PDM "200m")
+		(TJ "150")
+		(RJA "625")
+	)
+)
+("D1PS70SB46/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:05 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "496")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AC1 "1")
+		(TERM_AC2 "2")
+		(NODE_AC1 "1")
+		(NODE_AC2 "2")
+		(NODE_DC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "120m")
+		(IF2 "120m")
+		(IFM "120m")
+		(PDM "200m")
+		(TJ "150")
+		(RJA "625")
+	)
+)
+("D1PS70SB84/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:05 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "495")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_NDC "2")
+		(TERM_PDC "1")
+		(NODE_NDC "2")
+		(NODE_PDC "1")
+		(NODE_AC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "30m")
+		(IF2 "30m")
+		(PDM "160m")
+		(TJ "125")
+		(RJA "625")
+	)
+)
+("D1PS70SB85/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:05 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "497")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AC1 "1")
+		(TERM_AC2 "2")
+		(NODE_AC1 "1")
+		(NODE_AC2 "2")
+		(NODE_DC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "30m")
+		(IF2 "30m")
+		(PDM "160m")
+		(TJ "125")
+		(RJA "625")
+	)
+)
+("D1PS70SB86/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:05 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "496")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AC1 "1")
+		(TERM_AC2 "2")
+		(NODE_AC1 "1")
+		(NODE_AC2 "2")
+		(NODE_DC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "30m")
+		(IF2 "30m")
+		(PDM "160m")
+		(TJ "125")
+		(RJA "625")
+	)
+)
+("D1PS75SB45/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 09:59:05 IST 04")
+	("device_info"
+		(SYMBOL_NAME "hwrect")
+		(MODEL_TYPE "497")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AC1 "1")
+		(TERM_AC2 "2")
+		(NODE_AC1 "1")
+		(NODE_AC2 "2")
+		(NODE_DC "3")
+		(DERATE_TYPE "DIODE_BRIDGE")
+	)
+	("device_max_ops"
+		(IF1 "120m")
+		(IF2 "120m")
+		(IFM "120m")
+		(PDM "150m")
+		(TJ "150")
+		(RJA "833")
+	)
+)
+("BZV85C3V6/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:49 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "500m")
+		(IRMX "264.5m")
+		(PDM "1")
+		(TJ "200")
+		(RJA "175")
+	)
+)
+("BZV90C30/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:49 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "400m")
+		(IRMX "47.62m")
+		(PDM "1.5")
+		(TJ "150")
+		(RJA "83.3")
+	)
+)
+("BZX284B6V2/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:49 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "250m")
+		(IRMX "63.25m")
+		(PDM "400m")
+		(TJ "150")
+		(RJA "315")
+	)
+)
+("BZX284C7V5/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:50 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "50.8m")
+		(PDM "400m")
+		(TJ "150")
+		(RJA "315")
+	)
+)
+("BZX284C8V2/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:50 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "46.45m")
+		(PDM "400m")
+		(TJ "150")
+		(RJA "315")
+	)
+)
+("BZX79C6V8/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:50 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "250m")
+		(IRMX "56m")
+		(PDM "400m")
+		(TJ "200")
+		(RJA "380")
+	)
+)
+("BZX84C10V/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:50 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "200m")
+		(IRMX "23.80m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C11V/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:50 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "21.64m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C12V/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:50 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "19.84m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C13V/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:50 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "18.31m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C15V/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:51 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "15.87m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C16V/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:51 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "14.88m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C18V/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:51 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "13.22m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C20V/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:51 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "11.9m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C22V/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:51 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "10.82m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C24V/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:51 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "9.92m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C27V/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:52 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "8.81m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C2V4/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:52 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "99.2m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C2V7/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:52 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "88.18m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C30V/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:52 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "7.93m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C33V/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:52 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "7.21m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C36V/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:52 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "6.61m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C39V/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:52 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "6.1m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C3V0/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:52 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "79.36m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C3V6/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:53 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "66.13m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C3V9/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:53 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "61.05m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C43V/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:53 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "5.53m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C47V/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:53 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "5.06m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C4V7/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:53 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "50.65m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C51V/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:53 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "4.66m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C56V/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:54 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "4.25m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C5V1/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:54 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "46.68m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C5V6/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:54 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "42.51m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C62V/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:54 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "3.84m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C68V/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:54 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "3.5m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C6V2/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:54 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "38.4m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C6V8/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:54 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "35m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C7V5/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:55 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "31.74m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C8V2/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:55 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "29.03m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("BZX84C9V1/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:55 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IRMX "26.16m")
+		(PDM "250m")
+		(TJ "150")
+		(RJA "500")
+	)
+)
+("D1N5259B/PLP"
+	(Creator "Device property file created by prp_generator on Tue Jun 15 10:18:55 IST 04")
+	("device_info"
+		(SYMBOL_NAME "zener")
+		(MODEL_TYPE "434")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_AN "1")
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(IF "250m")
+		(IRMX "20m")
+		(PDM "400m")
+		(TJ "200")
+		(RJA "380")
+	)
+)

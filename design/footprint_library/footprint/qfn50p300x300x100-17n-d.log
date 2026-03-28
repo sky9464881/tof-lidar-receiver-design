@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : QFN50P300X300X100-17N-D.dra                   )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Mon Dec 02 09:33:49 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Users/MSDL3/Desktop/OrCAD File/80dB_LiDAR/footprint
+    Name      = qfn50p300x300x100-17n-d.psm
+    User      = MSDL3
+    Machine   = DESKTOP-H90EQRS
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

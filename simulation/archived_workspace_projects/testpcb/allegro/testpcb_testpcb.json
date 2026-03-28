@@ -1,0 +1,788 @@
+{
+	"Gate Swap" : [],
+	"Ref Des" : [],
+	"Pin Swap" : [],
+	"Component Property" : [],
+	"Net Property" : [],
+	"Pin Property" : [],
+	"Component" : [
+		{
+			"Name" : "JP1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1087847@lidar_readout_ver1.\\4 header_0.normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "JP1"
+		},
+		{
+			"Name" : "C18(0.1UF)",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095802@c0603g104k5ract250.\\c0603g104k5ract250.normal\\(chips)",
+			"Logical" : "C18(0.1UF)",
+			"Physical" : null
+		},
+		{
+			"Name" : "C19(1NF)",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095902@c3216x5r2j102m115aa.\\c3216x5r2j102m115aa.normal\\(chips)",
+			"Logical" : "C19(1NF)",
+			"Physical" : null
+		},
+		{
+			"Name" : "C20(0.1UF)",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095778@c0603g104k5ract250.\\c0603g104k5ract250.normal\\(chips)",
+			"Logical" : "C20(0.1UF)",
+			"Physical" : null
+		},
+		{
+			"Name" : "C21(0.1UF)",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095676@c0603g104k5ract250.\\c0603g104k5ract250.normal\\(chips)",
+			"Logical" : "C21(0.1UF)",
+			"Physical" : null
+		},
+		{
+			"Name" : "C22(6.8UF)",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095652@taja685k020r.\\taja685k020r.normal\\(chips)",
+			"Logical" : "C22(6.8UF)",
+			"Physical" : null
+		},
+		{
+			"Name" : "C22(6.8UF)1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097441@taja685k020r.\\taja685k020r.normal\\(chips)",
+			"Logical" : "C22(6.8UF)1",
+			"Physical" : null
+		},
+		{
+			"Name" : "C23(0.1UF)1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095398@c0603g104k5ract250.\\c0603g104k5ract250.normal\\(chips)",
+			"Logical" : "C23(0.1UF)1",
+			"Physical" : null
+		},
+		{
+			"Name" : "C25(0.1UF)",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095616@c0603g104k5ract250.\\c0603g104k5ract250.normal\\(chips)",
+			"Logical" : "C25(0.1UF)",
+			"Physical" : null
+		},
+		{
+			"Name" : "C26(6.8UF)1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095584@taja685k020r.\\taja685k020r.normal\\(chips)",
+			"Logical" : "C26(6.8UF)1",
+			"Physical" : null
+		},
+		{
+			"Name" : "C32(10NF)",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097465@c3216c0g2j103g160ae.\\c3216c0g2j103g160ae.normal\\(chips)",
+			"Logical" : "C32(10NF)",
+			"Physical" : null
+		},
+		{
+			"Name" : "C39(10NF)",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097777@c3216c0g2j103g160ae.\\c3216c0g2j103g160ae.normal\\(chips)",
+			"Logical" : "C39(10NF)",
+			"Physical" : null
+		},
+		{
+			"Name" : "C40(6.8UF)",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097753@taja685k020r.\\taja685k020r.normal\\(chips)",
+			"Logical" : "C40(6.8UF)",
+			"Physical" : null
+		},
+		{
+			"Name" : "IC13",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095554@opa695idbvr.\\opa695idbvr.normal\\(chips)",
+			"Logical" : "IC13",
+			"Physical" : null
+		},
+		{
+			"Name" : "IC14",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097323@tlv3604dckr.\\tlv3604dckr.normal\\(chips)",
+			"Logical" : "IC14",
+			"Physical" : null
+		},
+		{
+			"Name" : "IC15",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097635@tlv3604dckr.\\tlv3604dckr.normal\\(chips)",
+			"Logical" : "IC15",
+			"Physical" : null
+		},
+		{
+			"Name" : "J2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1099899@new_lidar.\\tsw-110-07-g-d_1.normal\\(chips)",
+			"Logical" : "J2",
+			"Physical" : null
+		},
+		{
+			"Name" : "R10(20OHM)",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095754@crcw120620r0fkeahp.\\crcw120620r0fkeahp.normal\\(chips)",
+			"Logical" : "R10(20OHM)",
+			"Physical" : null
+		},
+		{
+			"Name" : "R11(500OHM)1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095486@mca12060d5000bp500.\\mca12060d5000bp500.normal\\(chips)",
+			"Logical" : "R11(500OHM)1",
+			"Physical" : null
+		},
+		{
+			"Name" : "R12(27OHM)",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095438@wsc251527r00fea.\\wsc251527r00fea.normal\\(chips)",
+			"Logical" : "R12(27OHM)",
+			"Physical" : null
+		},
+		{
+			"Name" : "R17(0OHM)",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097283@\\rc0603jr-070rl\\.\\rc0603jr-070rl.normal\\(chips)",
+			"Logical" : "R17(0OHM)",
+			"Physical" : null
+		},
+		{
+			"Name" : "R18(100OHM)",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097351@\\erj-1gjf1000c\\.\\erj-1gjf1000c.normal\\(chips)",
+			"Logical" : "R18(100OHM)",
+			"Physical" : null
+		},
+		{
+			"Name" : "R19(0OHM)",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097399@\\rc0603jr-070rl\\.\\rc0603jr-070rl.normal\\(chips)",
+			"Logical" : "R19(0OHM)",
+			"Physical" : null
+		},
+		{
+			"Name" : "R23(50OHM)",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097525@p0603e50r0bbt.\\p0603e50r0bbt.normal\\(chips)",
+			"Logical" : "R23(50OHM)",
+			"Physical" : null
+		},
+		{
+			"Name" : "R24(0OHM)",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097591@\\rc0603jr-070rl\\.\\rc0603jr-070rl.normal\\(chips)",
+			"Logical" : "R24(0OHM)",
+			"Physical" : null
+		},
+		{
+			"Name" : "R25(100OHM)1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097663@\\erj-1gjf1000c\\.\\erj-1gjf1000c.normal\\(chips)",
+			"Logical" : "R25(100OHM)1",
+			"Physical" : null
+		},
+		{
+			"Name" : "R26(0OHM)",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097711@\\rc0603jr-070rl\\.\\rc0603jr-070rl.normal\\(chips)",
+			"Logical" : "R26(0OHM)",
+			"Physical" : null
+		},
+		{
+			"Name" : "R9(360OHM)",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095874@ktr03ezpf3600.\\ktr03ezpf3600.normal\\(chips)",
+			"Logical" : "R9(360OHM)",
+			"Physical" : null
+		},
+		{
+			"Name" : "C24(1NF)1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095534@c3216x5r2j102m115aa.\\c3216x5r2j102m115aa.normal\\(chips)",
+			"Logical" : "C24(1NF)1",
+			"Physical" : null
+		}
+	],
+	"Net" : [
+		{
+			"Name" : "N1095428",
+			"C_PATH" : "@testpcb.schematic1(sch_1):n1095428",
+			"Logical" : "N1095428",
+			"Physical" : null
+		},
+		{
+			"Name" : "N1095472",
+			"C_PATH" : "@testpcb.schematic1(sch_1):n1095472",
+			"Logical" : "N1095472",
+			"Physical" : null
+		},
+		{
+			"Name" : "N1095610",
+			"C_PATH" : "@testpcb.schematic1(sch_1):n1095610",
+			"Logical" : "N1095610",
+			"Physical" : null
+		},
+		{
+			"Name" : "POST_OUTPUT",
+			"C_PATH" : "@testpcb.schematic1(sch_1):post_output",
+			"Logical" : "POST_OUTPUT",
+			"Physical" : null
+		},
+		{
+			"Name" : "N1095578",
+			"C_PATH" : "@testpcb.schematic1(sch_1):n1095578",
+			"Logical" : "N1095578",
+			"Physical" : null
+		},
+		{
+			"Name" : "N1095650",
+			"C_PATH" : "@testpcb.schematic1(sch_1):n1095650",
+			"Logical" : "N1095650",
+			"Physical" : null
+		},
+		{
+			"Name" : "N1095424",
+			"C_PATH" : "@testpcb.schematic1(sch_1):n1095424",
+			"Logical" : "N1095424",
+			"Physical" : null
+		},
+		{
+			"Name" : "N1095840",
+			"C_PATH" : "@testpcb.schematic1(sch_1):n1095840",
+			"Logical" : "N1095840",
+			"Physical" : null
+		},
+		{
+			"Name" : "N1097265",
+			"C_PATH" : "@testpcb.schematic1(sch_1):n1097265",
+			"Logical" : "N1097265",
+			"Physical" : null
+		},
+		{
+			"Name" : "5VDD",
+			"C_PATH" : "@testpcb.schematic1(sch_1):\\5vdd\\",
+			"Logical" : "5VDD",
+			"Physical" : null
+		},
+		{
+			"Name" : "N1097617",
+			"C_PATH" : "@testpcb.schematic1(sch_1):n1097617",
+			"Logical" : "N1097617",
+			"Physical" : null
+		},
+		{
+			"Name" : "N1097425",
+			"C_PATH" : "@testpcb.schematic1(sch_1):n1097425",
+			"Logical" : "N1097425",
+			"Physical" : null
+		},
+		{
+			"Name" : "N1097377",
+			"C_PATH" : "@testpcb.schematic1(sch_1):n1097377",
+			"Logical" : "N1097377",
+			"Physical" : null
+		},
+		{
+			"Name" : "N1097737",
+			"C_PATH" : "@testpcb.schematic1(sch_1):n1097737",
+			"Logical" : "N1097737",
+			"Physical" : null
+		},
+		{
+			"Name" : "N1097689",
+			"C_PATH" : "@testpcb.schematic1(sch_1):n1097689",
+			"Logical" : "N1097689",
+			"Physical" : null
+		},
+		{
+			"Name" : "N1097573",
+			"C_PATH" : "@testpcb.schematic1(sch_1):n1097573",
+			"Logical" : "N1097573",
+			"Physical" : null
+		},
+		{
+			"Name" : "SAM_CON",
+			"C_PATH" : "@testpcb.schematic1(sch_1):sam_con",
+			"Logical" : "SAM_CON",
+			"Physical" : null
+		},
+		{
+			"Name" : "N1097309",
+			"C_PATH" : "@testpcb.schematic1(sch_1):n1097309",
+			"Logical" : "N1097309",
+			"Physical" : null
+		},
+		{
+			"Name" : "TRIGGER_ID_N",
+			"C_PATH" : "@testpcb.schematic1(sch_1):trigger_id_n",
+			"Logical" : "TRIGGER_ID_N",
+			"Physical" : null
+		},
+		{
+			"Name" : "TRIGGER_TIA_N",
+			"C_PATH" : "@testpcb.schematic1(sch_1):trigger_tia_n",
+			"Logical" : "TRIGGER_TIA_N",
+			"Physical" : null
+		},
+		{
+			"Name" : "TRIGGER_ID_P",
+			"C_PATH" : "@testpcb.schematic1(sch_1):trigger_id_p",
+			"Logical" : "TRIGGER_ID_P",
+			"Physical" : null
+		},
+		{
+			"Name" : "TRIGGER_TIA_P",
+			"C_PATH" : "@testpcb.schematic1(sch_1):trigger_tia_p",
+			"Logical" : "TRIGGER_TIA_P",
+			"Physical" : null
+		}
+	],
+	"Connection" : [
+		{
+			"Name" : "C18(0.1UF).1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095802@c0603g104k5ract250.\\c0603g104k5ract250.normal\\(chips):\\1\\",
+			"Logical" : "N1095840",
+			"Physical" : null
+		},
+		{
+			"Name" : "C18(0.1UF).2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095802@c0603g104k5ract250.\\c0603g104k5ract250.normal\\(chips):\\2\\",
+			"Logical" : "TIA_OUTPUT",
+			"Physical" : null
+		},
+		{
+			"Name" : "C19(1NF).2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095902@c3216x5r2j102m115aa.\\c3216x5r2j102m115aa.normal\\(chips):\\2\\",
+			"Logical" : "N1095840",
+			"Physical" : null
+		},
+		{
+			"Name" : "C19(1NF).1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095902@c3216x5r2j102m115aa.\\c3216x5r2j102m115aa.normal\\(chips):\\1\\",
+			"Logical" : "TIA_OUTPUT",
+			"Physical" : null
+		},
+		{
+			"Name" : "C20(0.1UF).2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095778@c0603g104k5ract250.\\c0603g104k5ract250.normal\\(chips):\\2\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "C20(0.1UF).1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095778@c0603g104k5ract250.\\c0603g104k5ract250.normal\\(chips):\\1\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "C21(0.1UF).2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095676@c0603g104k5ract250.\\c0603g104k5ract250.normal\\(chips):\\2\\",
+			"Logical" : "N1095610",
+			"Physical" : null
+		},
+		{
+			"Name" : "C21(0.1UF).1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095676@c0603g104k5ract250.\\c0603g104k5ract250.normal\\(chips):\\1\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "C22(6.8UF).1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095652@taja685k020r.\\taja685k020r.normal\\(chips):\\+\\",
+			"Logical" : "N1095610",
+			"Physical" : null
+		},
+		{
+			"Name" : "C22(6.8UF).2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095652@taja685k020r.\\taja685k020r.normal\\(chips):\\-\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "C22(6.8UF)1.2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097441@taja685k020r.\\taja685k020r.normal\\(chips):\\-\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "C22(6.8UF)1.1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097441@taja685k020r.\\taja685k020r.normal\\(chips):\\+\\",
+			"Logical" : "5VDD",
+			"Physical" : null
+		},
+		{
+			"Name" : "C23(0.1UF)1.1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095398@c0603g104k5ract250.\\c0603g104k5ract250.normal\\(chips):\\1\\",
+			"Logical" : "N1095428",
+			"Physical" : null
+		},
+		{
+			"Name" : "C23(0.1UF)1.2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095398@c0603g104k5ract250.\\c0603g104k5ract250.normal\\(chips):\\2\\",
+			"Logical" : "N1095424",
+			"Physical" : null
+		},
+		{
+			"Name" : "C25(0.1UF).2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095616@c0603g104k5ract250.\\c0603g104k5ract250.normal\\(chips):\\2\\",
+			"Logical" : "N1095578",
+			"Physical" : null
+		},
+		{
+			"Name" : "C25(0.1UF).1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095616@c0603g104k5ract250.\\c0603g104k5ract250.normal\\(chips):\\1\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "C26(6.8UF)1.1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095584@taja685k020r.\\taja685k020r.normal\\(chips):\\+\\",
+			"Logical" : "N1095578",
+			"Physical" : null
+		},
+		{
+			"Name" : "C26(6.8UF)1.2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095584@taja685k020r.\\taja685k020r.normal\\(chips):\\-\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "C32(10NF).1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097465@c3216c0g2j103g160ae.\\c3216c0g2j103g160ae.normal\\(chips):\\1\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "C32(10NF).2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097465@c3216c0g2j103g160ae.\\c3216c0g2j103g160ae.normal\\(chips):\\2\\",
+			"Logical" : "5VDD",
+			"Physical" : null
+		},
+		{
+			"Name" : "C39(10NF).1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097777@c3216c0g2j103g160ae.\\c3216c0g2j103g160ae.normal\\(chips):\\1\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "C39(10NF).2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097777@c3216c0g2j103g160ae.\\c3216c0g2j103g160ae.normal\\(chips):\\2\\",
+			"Logical" : "5VDD",
+			"Physical" : null
+		},
+		{
+			"Name" : "C40(6.8UF).2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097753@taja685k020r.\\taja685k020r.normal\\(chips):\\-\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "C40(6.8UF).1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097753@taja685k020r.\\taja685k020r.normal\\(chips):\\+\\",
+			"Logical" : "5VDD",
+			"Physical" : null
+		},
+		{
+			"Name" : "IC1.4",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1088686@opa855idsgr.\\opa855idsgr.normal\\(chips):\\in+\\",
+			"Logical" : "N1086004",
+			"Physical" : "NC"
+		},
+		{
+			"Name" : "IC13.4",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095554@opa695idbvr.\\opa695idbvr.normal\\(chips):INVERTING_INPUT",
+			"Logical" : "N1095472",
+			"Physical" : null
+		},
+		{
+			"Name" : "IC13.2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095554@opa695idbvr.\\opa695idbvr.normal\\(chips):\\-v_s\\",
+			"Logical" : "N1095610",
+			"Physical" : null
+		},
+		{
+			"Name" : "IC13.6",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095554@opa695idbvr.\\opa695idbvr.normal\\(chips):\\+v_s\\",
+			"Logical" : "N1095578",
+			"Physical" : null
+		},
+		{
+			"Name" : "IC13.3",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095554@opa695idbvr.\\opa695idbvr.normal\\(chips):NONINVERTING_INPUT",
+			"Logical" : "N1095650",
+			"Physical" : null
+		},
+		{
+			"Name" : "IC13.1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095554@opa695idbvr.\\opa695idbvr.normal\\(chips):OUTPUT",
+			"Logical" : "N1095424",
+			"Physical" : null
+		},
+		{
+			"Name" : "IC14.3",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097323@tlv3604dckr.\\tlv3604dckr.normal\\(chips):\\in+\\",
+			"Logical" : "POST_OUTPUT",
+			"Physical" : null
+		},
+		{
+			"Name" : "IC14.2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097323@tlv3604dckr.\\tlv3604dckr.normal\\(chips):VEE",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "IC14.1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097323@tlv3604dckr.\\tlv3604dckr.normal\\(chips):\\out+\\",
+			"Logical" : "N1097265",
+			"Physical" : null
+		},
+		{
+			"Name" : "IC14.5",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097323@tlv3604dckr.\\tlv3604dckr.normal\\(chips):\\vcci\/vcco\\",
+			"Logical" : "5VDD",
+			"Physical" : null
+		},
+		{
+			"Name" : "IC14.6",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097323@tlv3604dckr.\\tlv3604dckr.normal\\(chips):\\out-\\",
+			"Logical" : "N1097377",
+			"Physical" : null
+		},
+		{
+			"Name" : "IC15.2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097635@tlv3604dckr.\\tlv3604dckr.normal\\(chips):VEE",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "IC15.5",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097635@tlv3604dckr.\\tlv3604dckr.normal\\(chips):\\vcci\/vcco\\",
+			"Logical" : "5VDD",
+			"Physical" : null
+		},
+		{
+			"Name" : "IC15.6",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097635@tlv3604dckr.\\tlv3604dckr.normal\\(chips):\\out-\\",
+			"Logical" : "N1097689",
+			"Physical" : null
+		},
+		{
+			"Name" : "IC15.1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097635@tlv3604dckr.\\tlv3604dckr.normal\\(chips):\\out+\\",
+			"Logical" : "N1097573",
+			"Physical" : null
+		},
+		{
+			"Name" : "IC15.3",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097635@tlv3604dckr.\\tlv3604dckr.normal\\(chips):\\in+\\",
+			"Logical" : "SAM_CON",
+			"Physical" : null
+		},
+		{
+			"Name" : "J2.12",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1099899@new_lidar.\\tsw-110-07-g-d_1.normal\\(chips):\\12\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "J2.10",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1099899@new_lidar.\\tsw-110-07-g-d_1.normal\\(chips):\\10\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "J2.14",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1099899@new_lidar.\\tsw-110-07-g-d_1.normal\\(chips):\\14\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "J2.8",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1099899@new_lidar.\\tsw-110-07-g-d_1.normal\\(chips):\\8\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "J2.6",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1099899@new_lidar.\\tsw-110-07-g-d_1.normal\\(chips):\\6\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "J2.4",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1099899@new_lidar.\\tsw-110-07-g-d_1.normal\\(chips):\\4\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "J2.2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1099899@new_lidar.\\tsw-110-07-g-d_1.normal\\(chips):\\2\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "J2.20",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1099899@new_lidar.\\tsw-110-07-g-d_1.normal\\(chips):\\20\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "J2.18",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1099899@new_lidar.\\tsw-110-07-g-d_1.normal\\(chips):\\18\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "J2.16",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1099899@new_lidar.\\tsw-110-07-g-d_1.normal\\(chips):\\16\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "J2.9",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1099899@new_lidar.\\tsw-110-07-g-d_1.normal\\(chips):\\9\\",
+			"Logical" : "TRIGGER_ID_N",
+			"Physical" : null
+		},
+		{
+			"Name" : "J2.1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1099899@new_lidar.\\tsw-110-07-g-d_1.normal\\(chips):\\1\\",
+			"Logical" : "TRIGGER_TIA_N",
+			"Physical" : null
+		},
+		{
+			"Name" : "J2.11",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1099899@new_lidar.\\tsw-110-07-g-d_1.normal\\(chips):\\11\\",
+			"Logical" : "TRIGGER_ID_P",
+			"Physical" : null
+		},
+		{
+			"Name" : "J2.3",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1099899@new_lidar.\\tsw-110-07-g-d_1.normal\\(chips):\\3\\",
+			"Logical" : "TRIGGER_TIA_P",
+			"Physical" : null
+		},
+		{
+			"Name" : "R10(20OHM).2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095754@crcw120620r0fkeahp.\\crcw120620r0fkeahp.normal\\(chips):\\2\\",
+			"Logical" : "N1095650",
+			"Physical" : null
+		},
+		{
+			"Name" : "R10(20OHM).1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095754@crcw120620r0fkeahp.\\crcw120620r0fkeahp.normal\\(chips):\\1\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "R11(500OHM)1.1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095486@mca12060d5000bp500.\\mca12060d5000bp500.normal\\(chips):\\1\\",
+			"Logical" : "N1095472",
+			"Physical" : null
+		},
+		{
+			"Name" : "R11(500OHM)1.2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095486@mca12060d5000bp500.\\mca12060d5000bp500.normal\\(chips):\\2\\",
+			"Logical" : "N1095424",
+			"Physical" : null
+		},
+		{
+			"Name" : "R12(27OHM).1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095438@wsc251527r00fea.\\wsc251527r00fea.normal\\(chips):\\1\\",
+			"Logical" : "N1095428",
+			"Physical" : null
+		},
+		{
+			"Name" : "R12(27OHM).2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095438@wsc251527r00fea.\\wsc251527r00fea.normal\\(chips):\\2\\",
+			"Logical" : "POST_OUTPUT",
+			"Physical" : null
+		},
+		{
+			"Name" : "R17(0OHM).1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097283@\\rc0603jr-070rl\\.\\rc0603jr-070rl.normal\\(chips):\\1\\",
+			"Logical" : "N1097265",
+			"Physical" : null
+		},
+		{
+			"Name" : "R17(0OHM).2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097283@\\rc0603jr-070rl\\.\\rc0603jr-070rl.normal\\(chips):\\2\\",
+			"Logical" : "N1097309",
+			"Physical" : null
+		},
+		{
+			"Name" : "R18(100OHM).2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097351@\\erj-1gjf1000c\\.\\erj-1gjf1000c.normal\\(chips):\\2\\",
+			"Logical" : "N1097265",
+			"Physical" : null
+		},
+		{
+			"Name" : "R18(100OHM).1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097351@\\erj-1gjf1000c\\.\\erj-1gjf1000c.normal\\(chips):\\1\\",
+			"Logical" : "N1097377",
+			"Physical" : null
+		},
+		{
+			"Name" : "R19(0OHM).2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097399@\\rc0603jr-070rl\\.\\rc0603jr-070rl.normal\\(chips):\\2\\",
+			"Logical" : "N1097425",
+			"Physical" : null
+		},
+		{
+			"Name" : "R19(0OHM).1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097399@\\rc0603jr-070rl\\.\\rc0603jr-070rl.normal\\(chips):\\1\\",
+			"Logical" : "N1097377",
+			"Physical" : null
+		},
+		{
+			"Name" : "R23(50OHM).2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097525@p0603e50r0bbt.\\p0603e50r0bbt.normal\\(chips):\\2\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "R23(50OHM).1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097525@p0603e50r0bbt.\\p0603e50r0bbt.normal\\(chips):\\1\\",
+			"Logical" : "SAM_CON",
+			"Physical" : null
+		},
+		{
+			"Name" : "R24(0OHM).2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097591@\\rc0603jr-070rl\\.\\rc0603jr-070rl.normal\\(chips):\\2\\",
+			"Logical" : "N1097617",
+			"Physical" : null
+		},
+		{
+			"Name" : "R24(0OHM).1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097591@\\rc0603jr-070rl\\.\\rc0603jr-070rl.normal\\(chips):\\1\\",
+			"Logical" : "N1097573",
+			"Physical" : null
+		},
+		{
+			"Name" : "R25(100OHM)1.1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097663@\\erj-1gjf1000c\\.\\erj-1gjf1000c.normal\\(chips):\\1\\",
+			"Logical" : "N1097689",
+			"Physical" : null
+		},
+		{
+			"Name" : "R25(100OHM)1.2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097663@\\erj-1gjf1000c\\.\\erj-1gjf1000c.normal\\(chips):\\2\\",
+			"Logical" : "N1097573",
+			"Physical" : null
+		},
+		{
+			"Name" : "R26(0OHM).2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097711@\\rc0603jr-070rl\\.\\rc0603jr-070rl.normal\\(chips):\\2\\",
+			"Logical" : "N1097737",
+			"Physical" : null
+		},
+		{
+			"Name" : "R26(0OHM).1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1097711@\\rc0603jr-070rl\\.\\rc0603jr-070rl.normal\\(chips):\\1\\",
+			"Logical" : "N1097689",
+			"Physical" : null
+		},
+		{
+			"Name" : "R9(360OHM).1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095874@ktr03ezpf3600.\\ktr03ezpf3600.normal\\(chips):\\1\\",
+			"Logical" : "N1095472",
+			"Physical" : null
+		},
+		{
+			"Name" : "R9(360OHM).2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095874@ktr03ezpf3600.\\ktr03ezpf3600.normal\\(chips):\\2\\",
+			"Logical" : "N1095840",
+			"Physical" : null
+		},
+		{
+			"Name" : "C24(1NF)1.2",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095534@c3216x5r2j102m115aa.\\c3216x5r2j102m115aa.normal\\(chips):\\2\\",
+			"Logical" : "N1095428",
+			"Physical" : null
+		},
+		{
+			"Name" : "C24(1NF)1.1",
+			"C_PATH" : "@testpcb.schematic1(sch_1):ins1095534@c3216x5r2j102m115aa.\\c3216x5r2j102m115aa.normal\\(chips):\\1\\",
+			"Logical" : "N1095424",
+			"Physical" : null
+		}
+	]
+}

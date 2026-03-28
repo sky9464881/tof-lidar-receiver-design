@@ -1,0 +1,35 @@
+\t (00:00:00) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Mon Dec 02 04:22:32 2024
+\t (00:00:00)         Host=DESKTOP-H90EQRS User=MSDL3 Pid=46592 CPUs=24
+\t (00:00:00) CmdLine= c:\cadence\spb_17.2\tools\bin\allegro.exe C:\Users\MSDL3\Desktop\OrCAD File\80dB_LiDAR\allegro\symbols_chan\lcc3_smd.dra
+\t (00:00:00) 
+   (00:00:00) Loading axlcore.cxt 
+\t (00:00:00) Opening existing design...
+\d (00:00:00) Design opened: C:/Users/MSDL3/Desktop/OrCAD File/80dB_LiDAR/allegro/symbols_chan/lcc3_smd.dra
+\i (00:00:00) trapsize 273
+\i (00:00:00) trapsize 279
+\i (00:00:00) trapsize 566
+\i (00:00:00) etchedit 
+\i (00:00:03) pick grid -0.0816 -0.1948
+\t (00:00:03) last pick:  0.0000 0.0000
+\i (00:00:03) pick grid dbl -0.0816 -0.1948
+\t (00:00:03) last pick:  0.0000 0.0000
+\i (00:00:03) prepopup -0.0702 -0.0249
+\i (00:00:04) pick grid 3.2033 0.8133
+\t (00:00:04) last pick:  3.1750 0.6350
+\i (00:00:04) zoom out 1 
+\i (00:00:04) setwindow pcb
+\i (00:00:04) zoom out 3.2033 0.7453
+\i (00:00:04) trapsize 566
+\i (00:00:05) zoom out 1 
+\i (00:00:05) setwindow pcb
+\i (00:00:05) zoom out 3.1919 0.6887
+\i (00:00:05) trapsize 566
+\i (00:00:06) zoom out 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom out 1.8893 0.2922
+\i (00:00:06) trapsize 566
+\i (00:00:09) exit 
+\e (00:00:09) Do you want to save the changes you made to lcc3_smd.dra?
+\i (00:00:10) fillin no 
+\t (00:00:10)     Journal end - Mon Dec 02 04:22:43 2024

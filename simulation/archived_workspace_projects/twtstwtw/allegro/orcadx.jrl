@@ -1,0 +1,1000 @@
+\t (00:00:13) orcadx 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:13)     Journal start - Tue Apr  1 23:18:57 2025
+\t (00:00:13)         Host=BOOK-QTRCVV9COM User=user Pid=11848 CPUs=12
+\t (00:00:13) CmdLine= C:\Cadence\OrCADX_24.1\tools\bin\unison.exe -layout -orcadx -mpssession user -proj c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\twtstwtw\twtstwtw.opj C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/twtstwtw/allegro/twtstwtw.brd
+\t (00:00:13) 
+\d (00:00:13) Design opened: C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/twtstwtw/allegro/twtstwtw.brd
+\i (00:00:13) trapsize 6155
+\i (00:00:14) trapsize 7859
+\t (00:00:18) Loading consmgr.cxt 
+\t (00:00:18) Loading acns_formula.cxt 
+\i (00:00:18) trapsize 7853
+\i (00:00:20) trapsize 8003
+\t (00:00:23) nayunwoo159@kw.ac.kr user logged in.
+
+\i (00:00:23) trapsize 6888
+\i (00:00:23) updateport VisibilityPane
+\i (00:00:23) updateport PropPane
+\i (00:00:23) ucpedit 
+\i (00:00:23) updateport VisibilityPane
+\i (00:06:53) trapsize 4427
+\i (00:07:05) QtSignal PropertyStatusWidget unplaced_Components_cnt linkActivated unplacedComponentsLink
+\i (00:07:05) updateport SearchPane
+\i (00:07:06) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:07:06) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:07:06) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:07:06) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:07:06) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:07:09) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:07:09) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:07:09) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:07:09) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:07:09) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:07:09) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 3
+\i (00:07:10) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:07:10) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 3
+\i (00:07:10) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:07:12) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:07:13) QtSignal ADTableContainerWidget ComponentsTable dataChanged 0 1 "USER LOCKED"
+\i (00:07:13) updateport ReportsPane
+\i (00:07:13) updateport SearchPane
+\i (00:07:13) updateport PropPane
+\i (00:07:13) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:07:13) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 1
+\i (00:07:14) QtSignal ADTableContainerWidget ComponentsTable dataChanged 0 1
+\i (00:07:14) updateport ReportsPane
+\i (00:07:14) updateport SearchPane
+\i (00:07:14) updateport PropPane
+\i (00:07:14) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:07:14) QtSignal ADTableContainerWidget ComponentsTable dataChanged 0 1 "USER LOCKED"
+\i (00:07:14) updateport ReportsPane
+\i (00:07:14) updateport SearchPane
+\i (00:07:14) updateport PropPane
+\i (00:07:14) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:07:14) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 1
+\i (00:07:15) QtSignal ADTableContainerWidget ComponentsTable dataChanged 0 1
+\i (00:07:15) updateport ReportsPane
+\i (00:07:15) updateport SearchPane
+\i (00:07:15) updateport PropPane
+\i (00:07:15) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:07:16) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:07:17) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:07:17) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:07:17) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:07:17) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:07:21) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:07:21) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:07:21) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:07:22) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 2 3
+\i (00:07:22) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 2 3
+\i (00:07:22) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 2 3
+\i (00:07:22) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 2 3
+\i (00:07:22) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 2 3
+\i (00:07:22) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 2 3
+\i (00:07:23) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 2 3
+\i (00:07:23) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 2 3
+\i (00:07:24) QtSignal ADTableContainerWidget ComponentsTable customContextMenuRequest 2 3
+\i (00:07:25) QtFillin ""
+\i (00:07:44) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:08:51) design sync eco 
+\t (00:08:51) > Requesting Capture to open design
+\t (00:08:51) > Response received OpenDesign is done by remote tool
+\t (00:08:51) Design opened successfully
+\t (00:08:51) > Requesting Capture to generate logical netlist
+\t (00:08:51) > Requesting Capture to open design
+\t (00:08:51) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:08:51) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\twtstwtw\allegro
+\t (00:08:51) > Requesting Capture to generate logical netlist
+\t (00:08:51) > Response received OpenDesign is done by remote tool
+\t (00:08:51) Design opened successfully
+\t (00:08:51) > Generating Physical Netlist
+\t (00:08:51) Starting genfeedformat...
+\t (00:08:52) > Generating Physical Netlist successful
+\t (00:08:52) > Generating Differences
+\t (00:08:52) > Generating Differences successful
+\t (00:08:52) > Displaying differences output
+\t (00:08:52) > Displaying differences output successful
+\t (00:08:52) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:08:52) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\twtstwtw\allegro
+\i (00:08:52) updateport ReportsPane
+\i (00:08:52) updateport SearchPane
+\i (00:08:52) updateport PropPane
+\i (00:08:53) QtSignal DesignSyncDialog sch_comboBox EditingFinished "C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/twtstwtw/twtstwtw.opj"
+\i (00:09:01) QtSignal DesignSyncDialog sync_button clicked
+\t (00:09:01) > Sending response DoneOpenBoard
+\t (00:09:01) Starting Cadence Logic Import...
+\w (00:09:01) WARNING(SPMHGE-795): netrev had warnings.
+\t (00:09:02) Opening existing design...
+\i (00:09:03) trapsize 4427
+\t (00:09:03) Placed 2 of 3 symbols.
+\i (00:09:03) QtSignal MainCanvas DesignSyncDialog closed
+\i (00:09:04) updateport ReportsPane
+\i (00:09:04) updateport SearchPane
+\i (00:09:04) updateport VisibilityPane
+\i (00:09:04) updateport PropPane
+\i (00:09:04) ucpedit 
+\i (00:09:04) updateport VisibilityPane
+\i (00:09:10) setwindow text
+\i (00:09:10) close
+\i (00:09:10) setwindow pcb
+\i (00:09:10) zoom out 1 
+\i (00:09:10) setwindow pcb
+\i (00:09:10) zoom out 10864.06 3072.40
+\i (00:09:10) trapsize 4427
+\i (00:09:10) zoom out 1 
+\i (00:09:10) setwindow pcb
+\i (00:09:10) zoom out 10864.06 3098.96
+\i (00:09:10) trapsize 4427
+\i (00:09:10) zoom out 1 
+\i (00:09:10) setwindow pcb
+\i (00:09:10) zoom out 10864.06 3222.92
+\i (00:09:10) trapsize 4427
+\i (00:09:10) zoom out 1 
+\i (00:09:10) setwindow pcb
+\i (00:09:10) zoom out 10864.06 3338.02
+\i (00:09:10) trapsize 4427
+\i (00:09:10) zoom out 1 
+\i (00:09:10) setwindow pcb
+\i (00:09:10) zoom out 10846.36 3630.21
+\i (00:09:10) trapsize 4427
+\i (00:09:11) prepopup 9110.94 12599.48
+\i (00:09:12) prepopup 5206.25 9713.02
+\i (00:09:12) prepopup 6056.25 11731.77
+\i (00:09:13) drag_start grid 9465.10 12121.36
+\i (00:09:14) drag_stop 4391.67 8942.71
+\i (00:09:14) pick grid 6782.29 11058.86
+\t (00:09:14) last pick:  6782.29 11058.86
+\i (00:09:15) zoom in 1 
+\i (00:09:15) setwindow pcb
+\i (00:09:15) zoom in 7304.69 11492.71
+\i (00:09:15) trapsize 2214
+\i (00:09:15) zoom in 1 
+\i (00:09:15) setwindow pcb
+\i (00:09:15) zoom in 7304.69 11492.71
+\i (00:09:15) trapsize 1107
+\i (00:09:15) zoom in 1 
+\i (00:09:15) setwindow pcb
+\i (00:09:15) zoom in 7304.69 11492.72
+\i (00:09:15) trapsize 553
+\i (00:09:15) zoom in 1 
+\i (00:09:15) setwindow pcb
+\i (00:09:15) zoom in 7601.31 11375.40
+\i (00:09:15) trapsize 277
+\i (00:09:17) zoom out 1 
+\i (00:09:17) setwindow pcb
+\i (00:09:17) zoom out 7899.59 11269.71
+\i (00:09:17) trapsize 553
+\i (00:09:18) zoom out 1 
+\i (00:09:18) setwindow pcb
+\i (00:09:18) zoom out 7783.37 10658.77
+\i (00:09:18) trapsize 1107
+\i (00:09:18) zoom out 1 
+\i (00:09:18) setwindow pcb
+\i (00:09:18) zoom out 7783.37 10658.77
+\i (00:09:18) trapsize 2214
+\i (00:09:18) zoom out 1 
+\i (00:09:18) setwindow pcb
+\i (00:09:18) zoom out 7783.37 10487.76
+\i (00:09:18) trapsize 4427
+\i (00:09:19) zoom out 1 
+\i (00:09:19) setwindow pcb
+\i (00:09:19) zoom out 12882.81 4081.77
+\i (00:09:19) trapsize 4427
+\i (00:09:19) zoom out 1 
+\i (00:09:19) setwindow pcb
+\i (00:09:19) zoom out 12882.81 4081.77
+\i (00:09:19) trapsize 4427
+\i (00:09:19) zoom out 1 
+\i (00:09:19) setwindow pcb
+\i (00:09:19) zoom out 12882.81 4081.77
+\i (00:09:19) trapsize 4427
+\i (00:09:19) zoom in 1 
+\i (00:09:19) setwindow pcb
+\i (00:09:19) zoom in 11324.48 4444.79
+\i (00:09:19) trapsize 2214
+\i (00:09:20) zoom in 1 
+\i (00:09:20) setwindow pcb
+\i (00:09:20) zoom in 11297.92 4449.22
+\i (00:09:20) trapsize 1107
+\i (00:09:20) roam start
+\i (00:09:20) roam y -4
+\i (00:09:20) roam x -7
+\i (00:09:20) roam y -9
+\i (00:09:20) roam x -21
+\i (00:09:20) roam y -29
+\i (00:09:20) roam x -53
+\i (00:09:20) roam y -61
+\i (00:09:21) roam x -15
+\i (00:09:21) roam y -36
+\i (00:09:21) roam x -4
+\i (00:09:21) roam y -8
+\i (00:09:21) roam x -81
+\i (00:09:21) roam y -117
+\i (00:09:21) roam x -17
+\i (00:09:21) roam y -16
+\i (00:09:21) roam x -13
+\i (00:09:21) roam y -12
+\i (00:09:21) roam x -12
+\i (00:09:21) roam y -18
+\i (00:09:21) roam x -12
+\i (00:09:21) roam y -18
+\i (00:09:21) roam x -23
+\i (00:09:21) roam y -29
+\i (00:09:21) roam x -162
+\i (00:09:21) roam y -214
+\i (00:09:21) roam x -75
+\i (00:09:21) roam y -81
+\i (00:09:21) roam x -46
+\i (00:09:21) roam y -42
+\i (00:09:21) roam x -50
+\i (00:09:21) roam y -36
+\i (00:09:21) roam x -19
+\i (00:09:21) roam y -14
+\i (00:09:21) roam x -114
+\i (00:09:21) roam y -81
+\i (00:09:21) roam x -6
+\i (00:09:21) roam y -4
+\i (00:09:21) roam end
+\i (00:09:21) roam start
+\i (00:09:21) roam x -1
+\i (00:09:21) roam y -6
+\i (00:09:21) roam x -3
+\i (00:09:21) roam y -17
+\i (00:09:21) roam x -24
+\i (00:09:21) roam y -76
+\i (00:09:21) roam x -33
+\i (00:09:21) roam y -90
+\i (00:09:22) roam x -59
+\i (00:09:22) roam y -162
+\i (00:09:22) roam x -36
+\i (00:09:22) roam y -149
+\i (00:09:22) roam x -49
+\i (00:09:22) roam y -172
+\i (00:09:22) roam x -17
+\i (00:09:22) roam y -45
+\i (00:09:22) roam x -22
+\i (00:09:22) roam y -185
+\i (00:09:22) roam x -21
+\i (00:09:22) roam y -115
+\i (00:09:22) roam x 1
+\i (00:09:22) roam y -69
+\i (00:09:22) roam x 8
+\i (00:09:22) roam y -62
+\i (00:09:22) roam y -13
+\i (00:09:22) roam x 4
+\i (00:09:22) roam y -42
+\i (00:09:22) roam x 2
+\i (00:09:22) roam y -9
+\i (00:09:22) roam x 3
+\i (00:09:22) roam y -14
+\i (00:09:22) roam x 3
+\i (00:09:22) roam y -10
+\i (00:09:22) roam x 1
+\i (00:09:22) roam x 2
+\i (00:09:22) roam end
+\i (00:09:22) roam start
+\i (00:09:22) roam x -2
+\i (00:09:22) roam y -8
+\i (00:09:22) roam x -16
+\i (00:09:22) roam y -102
+\i (00:09:22) roam x -23
+\i (00:09:22) roam y -136
+\i (00:09:22) roam x -15
+\i (00:09:22) roam y -95
+\i (00:09:22) roam x -6
+\i (00:09:22) roam y -25
+\i (00:09:22) roam x -16
+\i (00:09:22) roam y -66
+\i (00:09:22) roam y 3
+\i (00:09:22) roam x 1
+\i (00:09:22) roam y 4
+\i (00:09:22) roam x 2
+\i (00:09:22) roam y 2
+\i (00:09:23) roam end
+\i (00:09:23) drag_start grid 8190.11 11616.67
+\i (00:09:23) ucp_move 
+\t (00:09:23) last pick:  8272.50 11591.50
+\t (00:09:23) Pick new location for the element(s).
+\i (00:09:24) drag_stop grid 9265.89 10950.39
+\i (00:09:24) updateport ReportsPane
+\i (00:09:24) updateport SearchPane
+\i (00:09:24) updateport PropPane
+\i (00:09:24) ucpedit 
+\i (00:09:24) updateport VisibilityPane
+\i (00:09:24) drag_start grid 7736.33 11607.81
+\i (00:09:25) ucp_move 
+\t (00:09:25) last pick:  7737.50 11591.50
+\t (00:09:25) Pick new location for the element(s).
+\i (00:09:25) drag_stop 8130.34 11005.73
+\i (00:09:25) updateport ReportsPane
+\i (00:09:25) updateport SearchPane
+\i (00:09:25) updateport PropPane
+\i (00:09:25) ucpedit 
+\i (00:09:26) updateport VisibilityPane
+\i (00:09:26) pick grid 8163.54 10627.22
+\t (00:09:26) last pick:  8163.54 10627.22
+\i (00:09:49) pick grid 11503.78 12201.04
+\t (00:09:49) last pick:  11503.78 12201.04
+\i (00:09:51) QtSignal PropertyStatusWidget unplaced_Components_cnt linkActivated unplacedComponentsLink
+\i (00:09:51) updateport SearchPane
+\i (00:09:52) QtSignal PropertyStatusWidget unplaced_Components_cnt linkActivated unplacedComponentsLink
+\i (00:09:52) updateport SearchPane
+\i (00:09:52) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:09:52) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:09:53) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:09:53) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:09:53) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 3
+\i (00:09:53) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:09:54) drag_start grid 6753.52 10175.65
+\i (00:09:54) drag_stop 6640.63 10627.22
+\i (00:09:55) roam start
+\i (00:09:55) roam y 3
+\i (00:09:55) roam y 3
+\i (00:09:55) roam y 4
+\i (00:09:55) roam x 1
+\i (00:09:55) roam y 5
+\i (00:09:55) roam x 9
+\i (00:09:55) roam y 30
+\i (00:09:55) roam x 6
+\i (00:09:55) roam y 24
+\i (00:09:55) roam x 5
+\i (00:09:55) roam y 25
+\i (00:09:55) roam x 6
+\i (00:09:55) roam y 17
+\i (00:09:55) roam x 3
+\i (00:09:55) roam y 27
+\i (00:09:55) roam x 3
+\i (00:09:55) roam y 18
+\i (00:09:55) roam x 1
+\i (00:09:55) roam y 24
+\i (00:09:55) roam x 3
+\i (00:09:55) roam y 18
+\i (00:09:55) roam x 2
+\i (00:09:55) roam y 9
+\i (00:09:55) roam y 7
+\i (00:09:55) roam y 8
+\i (00:09:55) roam y 6
+\i (00:09:55) roam y 12
+\i (00:09:55) roam x 4
+\i (00:09:55) roam y 13
+\i (00:09:55) roam x 2
+\i (00:09:55) roam y 11
+\i (00:09:55) roam x 1
+\i (00:09:55) roam y 3
+\i (00:09:55) roam y 4
+\i (00:09:55) roam x 2
+\i (00:09:55) roam y 2
+\i (00:09:55) roam end
+\i (00:09:56) roam start
+\i (00:09:56) roam x 4
+\i (00:09:56) roam y -3
+\i (00:09:56) roam x 5
+\i (00:09:56) roam y -5
+\i (00:09:56) roam x 9
+\i (00:09:56) roam y -9
+\i (00:09:56) roam x 7
+\i (00:09:56) roam y -7
+\i (00:09:56) roam x 6
+\i (00:09:56) roam y -8
+\i (00:09:56) roam x 3
+\i (00:09:56) roam y -4
+\i (00:09:56) roam x 2
+\i (00:09:56) roam y -2
+\i (00:09:56) roam y -1
+\i (00:09:56) roam end
+\i (00:09:59) QtSignal PropertyStatusWidget unplaced_Components_cnt linkActivated unplacedComponentsLink
+\i (00:09:59) updateport SearchPane
+\i (00:09:59) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:09:59) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:09:59) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:10:00) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:10:00) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:10:00) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:10:00) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:10:00) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 3
+\i (00:10:00) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:10:00) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:10:01) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 4
+\i (00:10:01) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 4
+\i (00:10:01) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 4
+\i (00:10:01) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 4
+\i (00:10:01) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:10:01) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 3
+\i (00:10:01) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:10:02) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 3
+\i (00:10:02) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:10:02) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 3
+\i (00:10:02) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:10:02) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 3
+\i (00:10:02) QtSignal ADTableContainerWidget ComponentsTable customContextMenuRequest 0 3
+\i (00:10:03) QtFillin ""
+\i (00:10:03) pick grid 8161.33 10405.86
+\t (00:10:03) last pick:  8161.33 10405.86
+\i (00:10:04) zoom out 1 
+\i (00:10:04) setwindow pcb
+\i (00:10:04) zoom out 9017.97 10359.38
+\i (00:10:04) trapsize 2214
+\i (00:10:04) zoom out 1 
+\i (00:10:04) setwindow pcb
+\i (00:10:04) zoom out 9017.97 10323.95
+\i (00:10:04) trapsize 4427
+\i (00:10:04) zoom out 1 
+\i (00:10:04) setwindow pcb
+\i (00:10:04) zoom out 10660.42 8066.15
+\i (00:10:04) trapsize 4427
+\i (00:10:04) zoom out 1 
+\i (00:10:04) setwindow pcb
+\i (00:10:04) zoom out 10660.42 8066.15
+\i (00:10:04) trapsize 4427
+\i (00:10:04) zoom out 1 
+\i (00:10:04) setwindow pcb
+\i (00:10:04) zoom out 10660.42 8066.15
+\i (00:10:04) trapsize 4427
+\i (00:10:04) zoom out 1 
+\i (00:10:04) setwindow pcb
+\i (00:10:04) zoom out 10660.42 8066.15
+\i (00:10:04) trapsize 4427
+\i (00:10:05) zoom in 1 
+\i (00:10:05) setwindow pcb
+\i (00:10:05) zoom in 10253.13 8544.27
+\i (00:10:05) trapsize 2214
+\i (00:10:12) drag_start grid 10067.19 11054.43
+\i (00:10:13) drag_stop 7773.97 10509.90
+\i (00:10:14) drag_start grid 8384.90 10571.88
+\i (00:10:14) drag_stop 8398.18 10563.02
+\i (00:10:14) zoom in 1 
+\i (00:10:14) setwindow pcb
+\i (00:10:14) zoom in 8433.60 10425.78
+\i (00:10:14) trapsize 1107
+\i (00:10:14) zoom in 1 
+\i (00:10:14) setwindow pcb
+\i (00:10:14) zoom in 8433.61 10394.79
+\i (00:10:14) trapsize 553
+\i (00:10:14) zoom in 1 
+\i (00:10:14) setwindow pcb
+\i (00:10:14) zoom in 8430.29 10384.84
+\i (00:10:14) trapsize 277
+\i (00:10:14) zoom in 1 
+\i (00:10:14) setwindow pcb
+\i (00:10:14) zoom in 8430.84 10383.18
+\i (00:10:14) trapsize 138
+\i (00:10:14) pick grid 8448.28 10369.90
+\t (00:10:14) last pick:  8448.28 10369.90
+\i (00:10:15) zoom out 1 
+\i (00:10:15) setwindow pcb
+\i (00:10:15) zoom out 8448.83 10369.62
+\i (00:10:15) trapsize 277
+\i (00:10:15) zoom out 1 
+\i (00:10:15) setwindow pcb
+\i (00:10:15) zoom out 8449.39 10369.62
+\i (00:10:15) trapsize 553
+\i (00:10:15) zoom out 1 
+\i (00:10:15) setwindow pcb
+\i (00:10:15) zoom out 8449.38 10369.62
+\i (00:10:15) trapsize 1107
+\i (00:10:15) roam start
+\i (00:10:15) roam x -2
+\i (00:10:15) roam y -2
+\i (00:10:15) roam x -1
+\i (00:10:15) roam y -1
+\i (00:10:15) roam y -2
+\i (00:10:15) roam y -10
+\i (00:10:15) roam x -3
+\i (00:10:15) roam y -9
+\i (00:10:15) roam x -6
+\i (00:10:15) roam y -15
+\i (00:10:15) roam x -11
+\i (00:10:15) roam y -12
+\i (00:10:15) roam x -18
+\i (00:10:15) roam y -15
+\i (00:10:15) roam x -10
+\i (00:10:15) roam y -9
+\i (00:10:15) roam x -8
+\i (00:10:15) roam y -3
+\i (00:10:15) roam x -58
+\i (00:10:15) roam y -36
+\i (00:10:15) roam x -33
+\i (00:10:15) roam y -23
+\i (00:10:15) roam x -23
+\i (00:10:15) roam y -13
+\i (00:10:15) roam x -12
+\i (00:10:15) roam y -9
+\i (00:10:15) roam x -10
+\i (00:10:15) roam y -12
+\i (00:10:15) roam x -12
+\i (00:10:15) roam y -20
+\i (00:10:15) roam x -9
+\i (00:10:15) roam y -12
+\i (00:10:15) roam x -6
+\i (00:10:15) roam y -10
+\i (00:10:15) roam x -6
+\i (00:10:15) roam y -12
+\i (00:10:15) roam x -2
+\i (00:10:15) roam y -5
+\i (00:10:15) roam x -3
+\i (00:10:15) roam y -4
+\i (00:10:15) roam x -4
+\i (00:10:15) roam y -9
+\i (00:10:15) roam x -2
+\i (00:10:15) roam y -3
+\i (00:10:15) roam y -2
+\i (00:10:15) roam y -1
+\i (00:10:15) roam x 2
+\i (00:10:15) roam x 1
+\i (00:10:15) roam x 2
+\i (00:10:16) roam end
+\i (00:10:16) drag_start grid 9352.22 11185.03
+\i (00:10:17) drag_stop 7964.33 10835.29
+\i (00:10:17) drag_start grid 8063.94 10954.83
+\i (00:10:17) ucp_move 
+\t (00:10:17) Pick new location for the element(s).
+\i (00:10:18) drag_stop grid 10042.84 10627.22
+\i (00:10:18) updateport ReportsPane
+\i (00:10:18) updateport SearchPane
+\i (00:10:18) updateport PropPane
+\i (00:10:18) ucpedit 
+\i (00:10:18) updateport VisibilityPane
+\i (00:10:18) pick grid 9748.44 10363.81
+\t (00:10:18) last pick:  9748.44 10363.81
+\i (00:10:19) drag_start grid 11348.83 10813.16
+\i (00:10:20) drag_stop 9677.61 10374.88
+\i (00:10:20) pick grid 9677.61 10374.88
+\t (00:10:20) last pick:  9677.61 10374.88
+\i (00:10:35) QtSignal PropertyStatusWidget unplaced_Components_cnt linkActivated unplacedComponentsLink
+\i (00:10:35) updateport SearchPane
+\i (00:10:37) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:10:38) QtSignal ADTableContainerWidget ComponentsTable dataChanged 0 1 "USER LOCKED"
+\i (00:10:38) updateport ReportsPane
+\i (00:10:38) updateport SearchPane
+\i (00:10:38) updateport PropPane
+\i (00:10:38) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:10:38) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 1
+\i (00:10:38) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:10:38) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:10:39) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:10:39) QtSignal ADTableContainerWidget ComponentsTable dataChanged 0 1
+\i (00:10:39) updateport ReportsPane
+\i (00:10:39) updateport SearchPane
+\i (00:10:39) updateport PropPane
+\i (00:10:39) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:10:40) QtSignal ADTableContainerWidget ComponentsTable customContextMenuRequest 0 2
+\i (00:10:40) QtFillin ""
+\i (00:10:40) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:10:41) QtSignal ADTableContainerWidget ComponentsTable customContextMenuRequest 0 3
+\i (00:10:43) QtFillin ""
+\i (00:10:51) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:10:57) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:10:57) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:10:57) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:10:58) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:10:58) pick grid 8641.67 10217.72
+\t (00:10:58) last pick:  8641.67 10217.72
+\i (00:10:59) pick grid 8336.20 9936.60
+\t (00:10:59) last pick:  8336.20 9936.60
+\i (00:11:02) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Pastemask_Top" +
+\i (00:11:02) QtSignal 0
+\i (00:11:02) updateport ReportsPane
+\i (00:11:02) updateport SearchPane
+\i (00:11:02) updateport VisibilityPane
+\i (00:11:02) updateport PropPane
+\i (00:11:03) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Silkscreen_Top" +
+\i (00:11:03) QtSignal 0
+\i (00:11:03) updateport ReportsPane
+\i (00:11:03) updateport SearchPane
+\i (00:11:03) updateport VisibilityPane
+\i (00:11:03) updateport PropPane
+\i (00:11:04) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Silkscreen_Top" +
+\i (00:11:04) QtSignal 1
+\i (00:11:04) updateport ReportsPane
+\i (00:11:04) updateport SearchPane
+\i (00:11:04) updateport VisibilityPane
+\i (00:11:04) updateport PropPane
+\i (00:11:04) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Pastemask_Top" +
+\i (00:11:04) QtSignal 1
+\i (00:11:04) updateport ReportsPane
+\i (00:11:04) updateport SearchPane
+\i (00:11:04) updateport VisibilityPane
+\i (00:11:04) updateport PropPane
+\i (00:11:05) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Soldermask_Top" +
+\i (00:11:05) QtSignal 0
+\i (00:11:05) updateport ReportsPane
+\i (00:11:05) updateport SearchPane
+\i (00:11:05) updateport VisibilityPane
+\i (00:11:05) updateport PropPane
+\i (00:11:06) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Soldermask_Top" +
+\i (00:11:06) QtSignal 1
+\i (00:11:06) updateport ReportsPane
+\i (00:11:06) updateport SearchPane
+\i (00:11:06) updateport VisibilityPane
+\i (00:11:06) updateport PropPane
+\i (00:11:07) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Top 0
+\i (00:11:07) updateport ReportsPane
+\i (00:11:07) updateport SearchPane
+\i (00:11:07) updateport VisibilityPane
+\i (00:11:07) updateport PropPane
+\i (00:11:07) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 0
+\i (00:11:07) updateport ReportsPane
+\i (00:11:07) updateport SearchPane
+\i (00:11:07) updateport VisibilityPane
+\i (00:11:07) updateport PropPane
+\i (00:11:07) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 1
+\i (00:11:07) updateport ReportsPane
+\i (00:11:07) updateport SearchPane
+\i (00:11:07) updateport VisibilityPane
+\i (00:11:07) updateport PropPane
+\i (00:11:08) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Top 1
+\i (00:11:08) updateport ReportsPane
+\i (00:11:08) updateport SearchPane
+\i (00:11:08) updateport VisibilityPane
+\i (00:11:08) updateport PropPane
+\i (00:11:09) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Top 0
+\i (00:11:09) updateport ReportsPane
+\i (00:11:09) updateport SearchPane
+\i (00:11:09) updateport VisibilityPane
+\i (00:11:09) updateport PropPane
+\i (00:11:10) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Top 1
+\i (00:11:10) updateport ReportsPane
+\i (00:11:10) updateport SearchPane
+\i (00:11:10) updateport VisibilityPane
+\i (00:11:10) updateport PropPane
+\i (00:11:11) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 0
+\i (00:11:11) updateport ReportsPane
+\i (00:11:11) updateport SearchPane
+\i (00:11:11) updateport VisibilityPane
+\i (00:11:11) updateport PropPane
+\i (00:11:11) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 1
+\i (00:11:11) updateport ReportsPane
+\i (00:11:11) updateport SearchPane
+\i (00:11:11) updateport VisibilityPane
+\i (00:11:11) updateport PropPane
+\i (00:11:12) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Soldermask_Bottom" +
+\i (00:11:12) QtSignal 0
+\i (00:11:12) updateport ReportsPane
+\i (00:11:12) updateport SearchPane
+\i (00:11:12) updateport VisibilityPane
+\i (00:11:12) updateport PropPane
+\i (00:11:12) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Soldermask_Bottom" +
+\i (00:11:12) QtSignal 1
+\i (00:11:12) updateport ReportsPane
+\i (00:11:12) updateport SearchPane
+\i (00:11:12) updateport VisibilityPane
+\i (00:11:12) updateport PropPane
+\i (00:11:13) QtSignal VisLayerToolbarViewsButton Views clicked on
+\i (00:11:14) QtSignal VisLayerToolbarViewsButton Views clicked
+\i (00:11:15) QtSignal VisLayerToolbarShadowButton ShadowMode clicked
+\i (00:11:15) updateport VisibilityPane
+\i (00:11:16) QtSignal VisLayerToolbarShadowButton ShadowMode clicked
+\i (00:11:16) updateport VisibilityPane
+\i (00:11:17) QtSignal VisLayerToolbarShadowButton ShadowMode clicked
+\i (00:11:17) updateport VisibilityPane
+\i (00:11:26) QtSignal PropertyStatusWidget unplaced_Components_cnt linkActivated unplacedComponentsLink
+\i (00:11:26) updateport SearchPane
+\i (00:11:26) QtSignal PropertyStatusWidget unplaced_Components_cnt linkActivated unplacedComponentsLink
+\i (00:11:26) updateport SearchPane
+\i (00:11:27) QtSignal PropertyStatusWidget unplaced_Components_cnt linkActivated unplacedComponentsLink
+\i (00:11:27) updateport SearchPane
+\i (00:11:27) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:11:27) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:11:28) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:11:28) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:11:29) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:11:29) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 2
+\i (00:11:40) QtSignal Allegro_Command_Toolbar AQCommandToolbarMoveButton leftClicked
+\i (00:11:40) ucp_move_mode 
+\i (00:11:40) ucpedit 
+\i (00:11:40) QtSignal UCPMove XSpacingComboBox CurrentIndexChanged Default
+\i (00:11:40) QtSignal UCPMove YSpacingComboBox CurrentIndexChanged Default
+\i (00:11:40) QtSignal UCPMove UCPMoveEtchMode CurrentIndexChanged 1
+\i (00:11:40) QtSignal UCPMove UCPMoveDisplayMode CurrentIndexChanged 0
+\i (00:11:40) updateport VisibilityPane
+\i (00:11:42) drag_start grid 9011.33 11180.61
+\i (00:11:42) drag_stop 8728.00 10503.26
+\i (00:11:43) drag_start grid 11636.59 10965.89
+\i (00:11:43) drag_stop 9097.66 10069.41
+\i (00:11:44) pick grid 6866.41 10281.91
+\t (00:11:44) last pick:  6866.41 10281.91
+\i (00:11:44) QtSignal Allegro_Command_Toolbar AQCommandToolbarMoveButton leftClicked
+\i (00:11:44) ucp_move_mode 
+\i (00:11:44) ucpedit 
+\i (00:11:45) updateport VisibilityPane
+\i (00:11:45) QtSignal Allegro_Command_Toolbar AQCommandToolbarMoveButton leftClicked
+\i (00:11:45) ucp_move_mode 
+\i (00:11:45) ucpedit 
+\i (00:11:45) updateport VisibilityPane
+\i (00:11:45) QtSignal Allegro_Command_Toolbar AQCommandToolbarMoveButton leftClicked
+\i (00:11:45) ucp_move_mode 
+\i (00:11:45) ucpedit 
+\i (00:11:45) updateport VisibilityPane
+\i (00:11:45) QtSignal Allegro_Command_Toolbar AQCommandToolbarMoveButton leftClicked
+\i (00:11:45) ucp_move_mode 
+\i (00:11:45) ucpedit 
+\i (00:11:45) updateport VisibilityPane
+\i (00:11:45) QtSignal Allegro_Command_Toolbar AQCommandToolbarMoveButton leftClicked
+\i (00:11:45) ucp_move_mode 
+\i (00:11:45) ucpedit 
+\i (00:11:45) updateport VisibilityPane
+\i (00:11:46) QtSignal Allegro_Command_Toolbar AQCommandToolbarMoveButton leftClicked
+\i (00:11:46) ucp_move_mode 
+\i (00:11:46) ucpedit 
+\i (00:11:46) updateport VisibilityPane
+\i (00:11:46) QtSignal Allegro_Command_Toolbar AQCommandToolbarMoveButton leftClicked
+\i (00:11:46) ucp_move_mode 
+\i (00:11:46) ucpedit 
+\i (00:11:46) updateport VisibilityPane
+\i (00:11:46) QtSignal Allegro_Command_Toolbar AQCommandToolbarMoveButton leftClicked
+\i (00:11:46) ucp_move_mode 
+\i (00:11:46) ucpedit 
+\i (00:11:46) updateport VisibilityPane
+\i (00:11:50) QtSignal Allegro_Command_Toolbar AQCommandToolbarMoveButton rightClicked
+\i (00:11:53) QtSignal MovePopUpMenu Place clicked
+\i (00:11:53) ucp_place_component_mode 
+\i (00:11:53) ucpedit 
+\i (00:11:53) QtSignal UCPPlaceComponent UCPPlaceMode CurrentIndexChanged 0
+\i (00:11:53) QtSignal UCPPlaceComponent UCPPlaceDirection CurrentIndexChanged 0
+\i (00:11:53) QtSignal UCPPlaceComponent UCPPlaceClusterSize valueChanged 5
+\i (00:11:53) updateport VisibilityPane
+\i (00:11:57) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:11:58) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:11:58) pick grid 8382.69 10144.67
+\t (00:11:58) last pick:  8382.69 10144.67
+\i (00:11:59) drag_start grid 8581.90 9983.08
+\i (00:11:59) drag_stop 7937.76 9325.66
+\i (00:12:01) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:12:01) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:12:01) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:12:01) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 2
+\i (00:12:02) pick grid 8907.30 10175.66
+\t (00:12:02) last pick:  8907.30 10175.66
+\i (00:12:05) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:12:06) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:12:06) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:12:08) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:12:08) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:12:08) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 3
+\i (00:12:08) pick grid 8721.36 9929.96
+\t (00:12:08) last pick:  8721.36 9929.96
+\i (00:12:09) pick grid dbl 8721.36 9929.96
+\t (00:12:09) last pick:  8721.36 9929.96
+\i (00:12:18) QtSignal Allegro_Command_Toolbar AQCommandToolbarMoveButton leftClicked
+\i (00:12:18) ucp_place_component_mode 
+\i (00:12:18) ucpedit 
+\i (00:12:18) updateport VisibilityPane
+\i (00:12:19) QtSignal Allegro_Command_Toolbar AQCommandToolbarMoveButton rightClicked
+\i (00:12:25) QtSignal MovePopUpMenu Move clicked
+\i (00:12:25) ucp_move_mode 
+\i (00:12:25) ucpedit 
+\i (00:12:25) updateport VisibilityPane
+\i (00:12:26) QtSignal Allegro_Command_Toolbar AQCommandToolbarMoveButton leftClicked
+\i (00:12:26) ucp_move_mode 
+\i (00:12:26) ucpedit 
+\i (00:12:26) updateport VisibilityPane
+\i (00:12:27) QtSignal Allegro_Command_Toolbar AQCommandToolbarMoveButton leftClicked
+\i (00:12:27) ucp_move_mode 
+\i (00:12:27) ucpedit 
+\i (00:12:27) updateport VisibilityPane
+\i (00:12:28) QtSignal Allegro_Command_Toolbar AQCommandToolbarMoveButton rightClicked
+\i (00:12:29) QtSignal MovePopUpMenu Place clicked
+\i (00:12:29) ucp_place_component_mode 
+\i (00:12:29) ucpedit 
+\i (00:12:29) updateport VisibilityPane
+\i (00:12:32) QtSignal UCPPlaceComponent UCPPlaceMode CurrentIndexChanged 1
+\i (00:12:33) QtSignal UCPPlaceComponent UCPPlaceMode CurrentIndexChanged 0
+\i (00:12:34) QtSignal UCPPlaceComponent UCPPlaceExpandButton clicked
+\i (00:12:35) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:12:35) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:12:36) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:12:36) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 3
+\i (00:12:37) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:12:37) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:12:38) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 2
+\i (00:12:38) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:12:38) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:12:39) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:12:39) QtSignal ADTableContainerWidget ComponentsTable customContextMenuRequest 0 2
+\i (00:12:41) QtFillin "Select on Canvas"
+\i (00:12:41) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:12:42) pick grid 8303.00 9983.08
+\t (00:12:42) last pick:  8303.00 9983.08
+\i (00:12:43) drag_start grid 8473.44 9810.42
+\i (00:12:43) drag_stop 10359.38 9710.81
+\i (00:12:43) drag_start grid 10288.55 9750.66
+\i (00:12:43) drag_stop 9544.80 9564.72
+\i (00:12:44) zoom out 1 
+\i (00:12:44) setwindow pcb
+\i (00:12:44) zoom out 8586.33 9732.95
+\i (00:12:44) trapsize 2214
+\i (00:12:44) zoom out 1 
+\i (00:12:44) setwindow pcb
+\i (00:12:44) zoom out 8586.33 9732.95
+\i (00:12:44) trapsize 4427
+\i (00:12:44) zoom out 1 
+\i (00:12:44) setwindow pcb
+\i (00:12:44) zoom out 9801.56 6897.40
+\i (00:12:44) trapsize 4427
+\i (00:12:44) zoom in 1 
+\i (00:12:44) setwindow pcb
+\i (00:12:44) zoom in 8500.00 12041.67
+\i (00:12:44) trapsize 2214
+\i (00:12:44) zoom in 1 
+\i (00:12:44) setwindow pcb
+\i (00:12:44) zoom in 8500.00 12019.54
+\i (00:12:44) trapsize 1107
+\i (00:12:45) drag_start grid 8422.53 11891.15
+\i (00:12:45) drag_stop 7300.26 11379.83
+\i (00:12:46) pick grid 7643.36 11541.42
+\t (00:12:46) last pick:  7643.36 11541.42
+\i (00:12:46) drag_start grid 7645.57 11632.17
+\i (00:12:46) drag_stop 8117.06 11685.30
+\e (00:12:46) Rectangle "Board Geometry/Top_Room" is not a valid item for placement.
+\i (00:12:46) updateport ReportsPane
+\i (00:12:46) updateport SearchPane
+\i (00:12:46) updateport PropPane
+\i (00:12:46) drag_start grid 8475.65 11838.03
+\i (00:12:47) drag_stop 8493.36 11844.67
+\i (00:12:47) drag_start grid 8342.84 11791.55
+\i (00:12:47) drag_stop 7672.14 11545.84
+\i (00:12:47) updateport ReportsPane
+\i (00:12:47) updateport SearchPane
+\i (00:12:47) updateport PropPane
+\i (00:12:47) drag_start grid 7711.98 11592.33
+\i (00:12:48) drag_stop 8216.67 11567.98
+\i (00:12:49) QtSignal UCPPlaceComponent UCPPlaceExpandButton clicked
+\i (00:12:50) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:12:51) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:12:51) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:12:51) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:12:51) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 2
+\i (00:12:52) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 10
+\i (00:12:52) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 10
+\i (00:12:52) updateport ReportsPane
+\i (00:12:52) updateport SearchPane
+\i (00:12:52) updateport PropPane
+\i (00:12:52) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 11
+\i (00:12:52) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 11
+\i (00:12:52) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 11
+\i (00:12:52) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 11
+\i (00:12:53) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 12
+\i (00:12:53) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 12
+\i (00:12:53) pick grid 9358.86 10768.89
+\t (00:12:53) last pick:  9358.86 10768.89
+\i (00:12:53) pick grid dbl 9358.86 10768.89
+\t (00:12:53) last pick:  9358.86 10768.89
+\i (00:12:58) QtSignal UCPTopQuickAccessToolbar UCPQuickAccessToolbar_Snapping mouseReleased
+\i (00:13:00) QtSignal UCPTopQuickAccessToolbar UCPQuickAccessToolbar_Grids mouseReleased
+\i (00:13:01) QtSignal UCPTopQuickAccessToolbar UCPQuickAccessToolbar_Command mouseReleased
+\i (00:13:02) QtSignal UCPTopQuickAccessToolbar UCPQuickAccessToolbar_Command mouseReleased
+\i (00:13:02) updateport ReportsPane
+\i (00:13:02) updateport SearchPane
+\i (00:13:02) updateport PropPane
+\i (00:13:06) roam start
+\i (00:13:06) roam x 3
+\i (00:13:06) roam y 1
+\i (00:13:06) roam x 59
+\i (00:13:06) roam y 18
+\i (00:13:06) roam x 15
+\i (00:13:06) roam y 5
+\i (00:13:06) roam x 105
+\i (00:13:06) roam y 24
+\i (00:13:06) roam x 42
+\i (00:13:06) roam y 21
+\i (00:13:06) roam x 15
+\i (00:13:06) roam y 7
+\i (00:13:06) roam x 6
+\i (00:13:06) roam y 3
+\i (00:13:06) roam y 2
+\i (00:13:06) roam x 7
+\i (00:13:06) roam y 9
+\i (00:13:06) roam x 14
+\i (00:13:06) roam y 27
+\i (00:13:07) roam x 12
+\i (00:13:07) roam y 64
+\i (00:13:07) roam x 7
+\i (00:13:07) roam y 72
+\i (00:13:07) roam x 11
+\i (00:13:07) roam y 80
+\i (00:13:07) roam y 22
+\i (00:13:07) roam y 8
+\i (00:13:07) roam x -2
+\i (00:13:07) roam y 1
+\i (00:13:07) roam x -1
+\i (00:13:07) roam y 5
+\i (00:13:07) roam y 3
+\i (00:13:07) roam end
+\i (00:13:07) roam start
+\i (00:13:07) roam y 6
+\i (00:13:07) roam x 15
+\i (00:13:07) roam y 75
+\i (00:13:07) roam x 6
+\i (00:13:07) roam y 73
+\i (00:13:07) roam y 39
+\i (00:13:07) roam y 11
+\i (00:13:08) roam y 1
+\i (00:13:08) roam end
+\i (00:13:08) roam start
+\i (00:13:08) roam x 15
+\i (00:13:08) roam y 23
+\i (00:13:08) roam x 45
+\i (00:13:08) roam y 160
+\i (00:13:08) roam x 15
+\i (00:13:08) roam y 51
+\i (00:13:08) roam x 6
+\i (00:13:08) roam y 36
+\i (00:13:08) roam x 1
+\i (00:13:08) roam y 3
+\i (00:13:08) roam x -12
+\i (00:13:08) roam y 14
+\i (00:13:08) roam x -24
+\i (00:13:08) roam y 12
+\i (00:13:08) roam end
+\i (00:13:09) QtSignal Allegro_Property_Dock_Pane_Accordion_Container PropertySelectionFilterWidget DockedTabWidgetSwitch +
+\i (00:13:09) QtSignal "CP_ALLEGRO_PROPERTIES_DOCK"
+\i (00:13:10) roam start
+\i (00:13:10) roam x 6
+\i (00:13:10) roam y -3
+\i (00:13:10) roam x 6
+\i (00:13:10) roam y -9
+\i (00:13:10) roam x 3
+\i (00:13:10) roam y -9
+\i (00:13:10) roam x 10
+\i (00:13:10) roam y -32
+\i (00:13:10) roam x 6
+\i (00:13:10) roam y -31
+\i (00:13:10) roam x 5
+\i (00:13:10) roam y -32
+\i (00:13:10) roam x 6
+\i (00:13:10) roam y -22
+\i (00:13:10) roam x 6
+\i (00:13:10) roam y -30
+\i (00:13:10) roam x 4
+\i (00:13:10) roam y -36
+\i (00:13:10) roam x 3
+\i (00:13:10) roam y -32
+\i (00:13:10) roam x 6
+\i (00:13:10) roam y -24
+\i (00:13:10) roam y -7
+\i (00:13:10) roam x 2
+\i (00:13:10) roam x 3
+\i (00:13:10) roam y -8
+\i (00:13:10) roam x 1
+\i (00:13:10) roam y -7
+\i (00:13:10) roam x 5
+\i (00:13:10) roam y -14
+\i (00:13:10) roam x 7
+\i (00:13:10) roam y -19
+\i (00:13:10) roam x 3
+\i (00:13:10) roam y -21
+\i (00:13:10) roam x 2
+\i (00:13:10) roam y -9
+\i (00:13:11) roam y -9
+\i (00:13:11) roam end
+\i (00:13:20) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 12
+\i (00:13:21) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 12
+\i (00:13:21) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 12
+\i (00:13:21) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 12
+\i (00:13:22) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 12
+\i (00:13:22) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 12
+\i (00:13:23) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 12
+\i (00:13:23) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 11 0 12
+\i (00:13:23) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 11 0 12
+\i (00:13:24) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 11 0 12
+\i (00:13:24) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 11 0 12
+\i (00:13:25) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:13:25) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 3
+\i (00:13:25) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 3
+\i (00:13:25) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 3
+\i (00:13:25) QtSignal ADTableContainerWidget ComponentsTable customContextMenuRequest 0 3
+\i (00:13:33) QtFillin ""
+\i (00:13:35) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:13:36) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 4
+\i (00:13:36) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 4
+\i (00:13:36) QtSignal ADTableContainerWidget ComponentsTable selectionChanged 0 4
+\i (00:13:36) QtSignal ADTableContainerWidget ComponentsTable doubleClicked 0 4
+\i (00:13:40) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:13:42) QtSignal MainCanvas ImpPrefDialog closed
+\i (00:13:42) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:13:42) QtSignal MainCanvas ImpGrpSel closed
+\i (00:13:42) QtSignal MainCanvas CplPrefDialog closed
+\i (00:13:42) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:13:42) QtSignal MainCanvas CplGrpSel closed
+\i (00:13:42) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\t (00:13:48)     Journal end - Tue Apr  1 23:32:32 2025

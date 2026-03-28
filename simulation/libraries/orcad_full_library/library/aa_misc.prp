@@ -1,0 +1,239 @@
+("awbne67383"
+	(Creator "Device property file created by analog_uprev on Mon Feb 12 11:15:23 IST 2001")
+	("device_info"
+		( MODEL_TYPE 63 )
+		( SYMBOL_NAME "NMESFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-1" )
+		)
+		( "BETA"
+			( "val" "0.032" )
+		)
+		( "ALPHA"
+			( "val" "3" )
+		)
+		( "LAMBDA"
+			( "val" "0.1789" )
+		)
+		( "RD"
+			( "val" "3" )
+		)
+		( "RS"
+			( "val" "0.11" )
+		)
+		( "IS"
+			( "val" "1e-6" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+	)
+	)
+	("device_max_ops"
+		( IG "10u" )
+		( ID "120m" )
+		( VDS "5" )
+		( VGS "5" )
+		( PDM "40m" )
+		( TJ "175" )
+	)
+)
+("awbidealpmes"
+	(Creator "Device property file created by analog_uprev on Mon Feb 12 11:09:13 IST 2001")
+	("device_info"
+		( MODEL_TYPE 65 )
+		( SYMBOL_NAME "PMESFET3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awb2n6027"
+	(Creator "Device property file created by analog_uprev on Mon Feb 12 11:24:52 IST 2001")
+	("device_info"
+		( MODEL_TYPE 703 )
+		( SYMBOL_NAME "PUT" )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C") )
+	)
+	("device_max_ops"
+	)
+)
+("awbv22za1"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 03:38:11 IST 2001")
+	("device_info"
+		( MODEL_TYPE 334 )
+		( SYMBOL_NAME "VARISTOR" )
+		( PORT_ORDER 
+ 			("CAT")
+ 			("AN") )
+	)
+	("model_params"
+	("level_0"
+		( "I1"
+			( "val" "1m" )
+		)
+		( "V1"
+			( "val" "22" )
+		)
+		( "I2"
+			( "val" "5" )
+		)
+		( "V2"
+			( "val" "47" )
+		)
+		( "CN"
+			( "val" "1600p" )
+		)
+		( "RON"
+			( "val" "138m" )
+		)
+	)
+	)
+	("device_max_ops"
+		( ITM "250" )
+		( TJ "125" )
+		( RJC "75" )
+		( RCA "0" )
+	)
+)
+("awbv22za2"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 03:38:11 IST 2001")
+	("device_info"
+		( MODEL_TYPE 334 )
+		( SYMBOL_NAME "VARISTOR" )
+		( PORT_ORDER 
+ 			("CAT")
+ 			("AN") )
+	)
+	("model_params"
+	("level_0"
+		( "I1"
+			( "val" "1m" )
+		)
+		( "V1"
+			( "val" "22" )
+		)
+		( "I2"
+			( "val" "5" )
+		)
+		( "V2"
+			( "val" "43" )
+		)
+		( "CN"
+			( "val" "4000p" )
+		)
+		( "RON"
+			( "val" "70m" )
+		)
+	)
+	)
+	("device_max_ops"
+		( ITM "500" )
+		( TJ "125" )
+		( RJC "75" )
+		( RCA "0" )
+	)
+)
+("awbv22za3"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 03:38:11 IST 2001")
+	("device_info"
+		( MODEL_TYPE 334 )
+		( SYMBOL_NAME "VARISTOR" )
+		( PORT_ORDER 
+ 			("CAT")
+ 			("AN") )
+	)
+	("model_params"
+	("level_0"
+		( "I1"
+			( "val" "1m" )
+		)
+		( "V1"
+			( "val" "22" )
+		)
+		( "I2"
+			( "val" "10" )
+		)
+		( "V2"
+			( "val" "43" )
+		)
+		( "CN"
+			( "val" "9000p" )
+		)
+		( "RON"
+			( "val" "49m" )
+		)
+	)
+	)
+	("device_max_ops"
+		( ITM "1K" )
+		( TJ "125" )
+		( RJC "75" )
+		( RCA "0" )
+	)
+)
+("awbv36za80"
+	(Creator "Device property file created by analog_uprev on Tue Feb  6 03:38:11 IST 2001")
+	("device_info"
+		( MODEL_TYPE 334 )
+		( SYMBOL_NAME "VARISTOR" )
+		( PORT_ORDER 
+ 			("CAT")
+ 			("AN") )
+	)
+	("model_params"
+	("level_0"
+		( "I1"
+			( "val" "10m" )
+		)
+		( "V1"
+			( "val" "36" )
+		)
+		( "I2"
+			( "val" "20" )
+		)
+		( "V2"
+			( "val" "63" )
+		)
+		( "CN"
+			( "val" "12n" )
+		)
+		( "RON"
+			( "val" "30m" )
+		)
+	)
+	)
+	("device_max_ops"
+		( ITM "2000" )
+		( TJ "125" )
+		( RJC "75" )
+		( RCA "0" )
+	)
+)

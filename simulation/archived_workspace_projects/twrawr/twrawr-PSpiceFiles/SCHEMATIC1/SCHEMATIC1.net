@@ -1,0 +1,6 @@
+* source TWRAWR
+X_U1         N04153 N04047 OUT VCC VEE OPA855
+R_R1         N04047 OUT  453 TC=0,0 
+R_R3         0 OUT  200 TC=0,0 
+R_R2         0 N04047  75 TC=0,0 
+V_V3         N04153 0 DC 0Vdc AC 1Vac 

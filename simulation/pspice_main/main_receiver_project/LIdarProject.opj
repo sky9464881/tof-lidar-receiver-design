@@ -1,0 +1,242 @@
+(ExpressProject "LIdarProject"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "24.1 S003 (4280230)  [3/6/2025]-[04/02/25]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ORCADX")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    ("Allegro Netlist Output Board File" ".\allegro\lidarproject.brd")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (File "..\new_lidar\new_lidar\new_lidar.dsn"
+      (Type "Schematic Design")))
+  (Folder "Layout"
+    (File ".\allegro\lidarproject.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\lidarproject.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (Sort User)
+    (File ".\LIDARPROJECT_OUTPUT\BOM.SCH.CSV"
+      (Type "Report")
+      (DisplayName ".\LIDARPROJECT_OUTPUT\BOM.SCH.CSV"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\lidarproject-pspicefiles\full\full.net"
+      (Type "Report"))
+    (File ".\NEW_LIDAR_OUTPUT\BOM.SCH.CSV"
+      (Type "Report")
+      (DisplayName ".\NEW_LIDAR_OUTPUT\BOM.SCH.CSV")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs"
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile
+         "c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\lidarproject\allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile
+         "c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\lidarproject\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile
+         "c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\lidarproject\allegro\eco.txt")))
+  (PartMRUSelector
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PWR163S-25-50R0F
+      (FullPartName "PWR163S-25-50R0F.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743541127\PWR163S-25-50R0F\CAPTURE\PWR163S-25-50R0F.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (C3216C0G2J103G160AE
+      (FullPartName "C3216C0G2J103G160AE.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743540815\C3216C0G2J103G160AE\CAPTURE\C3216C0G2J103G160AE.OLB")
+      (DeviceIndex "0"))
+    (ERJ-1GJF1000C
+      (FullPartName "ERJ-1GJF1000C.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743540531\ERJ-1GJF1000C\CAPTURE\ERJ-1GJF1000C.OLB")
+      (DeviceIndex "0"))
+    (TLV3604DCKR
+      (FullPartName "TLV3604DCKR.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743540177\TLV3604DCKR\CAPTURE\TLV3604DCKR.OLB")
+      (DeviceIndex "0"))
+    (RC0603JR-070RL
+      (FullPartName "RC0603JR-070RL.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743539942\RC0603JR-070RL\CAPTURE\RC0603JR-070RL.OLB")
+      (DeviceIndex "0"))
+    (TNPW0603200KBEEA
+      (FullPartName "TNPW0603200KBEEA.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743539448\TNPW0603200KBEEA\CAPTURE\TNPW0603200KBEEA.OLB")
+      (DeviceIndex "0"))
+    (GRM1555C1HR70WA01D
+      (FullPartName "GRM1555C1HR70WA01D.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743539095\GRM1555C1HR70WA01D\CAPTURE\GRM1555C1HR70WA01D.OLB")
+      (DeviceIndex "0"))
+    (CRCW201010R0JNEFIF
+      (FullPartName "CRCW201010R0JNEFIF.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743538864\CRCW201010R0JNEFIF\CAPTURE\CRCW201010R0JNEFIF.OLB")
+      (DeviceIndex "0"))
+    (OPA855IDSGR
+      (FullPartName "OPA855IDSGR.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743538643\OPA855IDSGR\CAPTURE\OPA855IDSGR.OLB")
+      (DeviceIndex "0"))
+    (ERJUP6D1300V
+      (FullPartName "ERJUP6D1300V.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743535954\ERJUP6D1300V\CAPTURE\ERJUP6D1300V.OLB")
+      (DeviceIndex "0"))
+    (CRCW0402200RFKEDHP
+      (FullPartName "CRCW0402200RFKEDHP.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743535822\CRCW0402200RFKEDHP\CAPTURE\CRCW0402200RFKEDHP.OLB")
+      (DeviceIndex "0"))
+    (3224W-1-203E
+      (FullPartName "3224W-1-203E.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743535633\3224W-1-203E\CAPTURE\3224W-1-203E.OLB")
+      (DeviceIndex "0"))
+    (OPA277U_2K5
+      (FullPartName "OPA277U_2K5.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743534505\OPA277U_2K5\CAPTURE\OPA277U_2K5.OLB")
+      (DeviceIndex "0"))
+    (OPA4277UA_2K5E4
+      (FullPartName "OPA4277UA_2K5E4.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743534369\OPA4277UA_2K5E4\CAPTURE\OPA4277UA_2K5E4.OLB")
+      (DeviceIndex "0"))
+    (CRCW120620R0FKEAHP
+      (FullPartName "CRCW120620R0FKEAHP.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743533588\CRCW120620R0FKEAHP\CAPTURE\CRCW120620R0FKEAHP.OLB")
+      (DeviceIndex "0"))
+    (MCA12060D5000BP500
+      (FullPartName "MCA12060D5000BP500.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743533305\MCA12060D5000BP500\CAPTURE\MCA12060D5000BP500.OLB")
+      (DeviceIndex "0"))
+    (WSC251527R00FEA
+      (FullPartName "WSC251527R00FEA.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743532817\WSC251527R00FEA\CAPTURE\WSC251527R00FEA.OLB")
+      (DeviceIndex "0"))
+    (C3216X5R2J102M115AA
+      (FullPartName "C3216X5R2J102M115AA.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743532479\C3216X5R2J102M115AA\CAPTURE\C3216X5R2J102M115AA.OLB")
+      (DeviceIndex "0"))
+    (KTR03EZPF3600
+      (FullPartName "KTR03EZPF3600.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743531618\KTR03EZPF3600\CAPTURE\KTR03EZPF3600.OLB")
+      (DeviceIndex "0"))
+    (ERJS03F3600V
+      (FullPartName "ERJS03F3600V.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743531493\ERJS03F3600V\CAPTURE\ERJS03F3600V.OLB")
+      (DeviceIndex "0"))
+    (C0603G104K5RACT250
+      (FullPartName "C0603G104K5RACT250.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743531139\C0603G104K5RACT250\CAPTURE\C0603G104K5RACT250.OLB")
+      (DeviceIndex "0"))
+    (OPA695IDBVR
+      (FullPartName "OPA695IDBVR.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743527902\OPA695IDBVR\CAPTURE\OPA695IDBVR.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\OrCADX_24.1\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Select "PSpice Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 630"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1290 24 671")
+        (Scroll "0 -5")
+        (Zoom "84"))
+      (Path
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\WORKSPACE\PROJECTS\NEW_LIDAR\NEW_LIDAR\NEW_LIDAR.DSN")
+      (Schematic "2.POWER")
+      (Page "POWER_PCB"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1290 24 671")
+        (Scroll "0 0")
+        (Zoom "94"))
+      (Path
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\WORKSPACE\PROJECTS\NEW_LIDAR\NEW_LIDAR\NEW_LIDAR.DSN")
+      (Schematic "5.OPA695")
+      (Page "OPA695_PCB"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1290 24 671")
+        (Scroll "-384 0")
+        (Zoom "50"))
+      (Path
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\WORKSPACE\PROJECTS\NEW_LIDAR\NEW_LIDAR\NEW_LIDAR.DSN")
+      (Schematic "4.OPA277")
+      (Page "OPA277_PCB"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1290 24 671")
+        (Scroll "0 0")
+        (Zoom "100"))
+      (Path
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\WORKSPACE\PROJECTS\NEW_LIDAR\NEW_LIDAR\NEW_LIDAR.DSN")
+      (Schematic "3.OPA855")
+      (Page "OPA855_PCB")))
+  (MPSSessionName "user"))

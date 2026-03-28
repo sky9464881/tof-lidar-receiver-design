@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'OPA855IDSGR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT", "TJ", "MTBF", "POWER", "SLOPE", "SUBTYPE", "PACKAGE", "RJA", "VCC_MAX", "VCC_MIN", "VID_MAX", "VID_MIN", "VIN_MAX", "VIN_MIN", "IOUT_MAX", "IOUT_MIN", "ICC", "IGND", "RCA", "RJC", "ICCQ", "TECHNOLOGY";
+{========================================================================================}
+ "Texas Instruments", "OPA855IDSGR" (!) = "", "SON50P200X200X80-9N-D", "Small Outline No-lead", "595-OPA855IDSGR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA855IDSGR?qs=byeeYqUIh0NcoHbLiEzp0g%3D%3D", "OPA855IDSGR", "https://www.arrow.com/en/products/opa855idsgr/texas-instruments?region=nac", "High Speed Operational Amplifiers 8 GHz Gain Bandwidth Product, Decompensated Transimpedance Amplifier with Bipolar Input 8-WSON -40 to 125", "http://www.ti.com/lit/ds/symlink/opa855.pdf", "0.8 mm", "150", "", "", "", "OP-AMP SMD", "WSON-8", "80.1", "5.5", "", "1", "", "", "", "100m", "100m", "", "", "", "100", "19.5m", "BIPOLAR"
+END_PART
+
+END.

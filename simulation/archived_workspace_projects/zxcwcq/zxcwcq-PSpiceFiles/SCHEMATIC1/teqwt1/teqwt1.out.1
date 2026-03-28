@@ -1,0 +1,577 @@
+
+**** 04/05/25 23:18:51 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-teqwt1"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\zxcwcq\zxcwcq-PSpiceFiles\SCHE
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "teqwt1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\nom.lib" 
+.lib "C:\Cadence\OrCADX_24.1\OpenAccess\lib\x64\opt\oaDebugCDS.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa855_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPA858.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa695_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa856_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\tlv3604.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPAx277.LIB" 
+
+*Analysis directives: 
+.TRAN  0 1u 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source ZXCWCQ
+V_V3         IN 0  
++SIN 0 50m 10Mega 0 0 0
+V_V1         5 0 5
+V_V2         0 -5 5
+X_U74         IN N1066743 5 0 N1066549 N1066753 TLV3604
+C_C256         0 5  6.8u  TC=0,0 
+R_R147         N1066753 N1066549  100 TC=0,0 
+C_C255         0 5  10nF  TC=0,0 
+R_R163         N1115041 N1114949  2k TC=0,0 
+R_R164         N1115021 N1115031  200 TC=0,0 
+C_C277         0 VEE  0.1uF  TC=0,0 
+C_C275         0 VCC  0.1uF  TC=0,0 
+R_R167         0 N1115021  200 TC=0,0 
+V_V8         0 N1115255 5
+R_R166         N1115255 N1115041  18k TC=0,0 
+X_U78         N1115041 N1115021 VCC VEE N1115031 OPAX277
+R_R165         N1115031 N1066743  130 TC=0,0 
+C_C276         0 N1066743  1n  TC=0,0 
+C_C278         0 VEE  1n  TC=0,0 
+C_C274         0 VCC  1n  TC=0,0 
+V_V7         N1114949 0 5
+
+**** RESUMING teqwt1.cir ****
+.END
+
+**** 04/05/25 23:18:51 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-teqwt1"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\zxcwcq\zxcwcq-PSpiceFiles\SCHE
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U74.X_DESD3.model22 
+          IS   10.000000E-15 
+          BV  100            
+          RS    5            
+
+
+               X_U74.X_DESD4.model22 
+          IS   10.000000E-15 
+          BV  100            
+          RS    5            
+
+
+               X_U74.X_DESD5.model22 
+          IS   10.000000E-15 
+          BV  100            
+          RS    5            
+
+
+               X_U74.X_DESD2.model22           X_U78.X_U1.DVN  
+          IS   10.000000E-15                  100.000000E-18 
+          BV  100                                            
+          RS    5                                            
+          KF    3.162278E-12 
+
+
+               X_U78.X_U39.DVNF 
+          IS  100.000000E-18 
+          KF    3.162278E-12 
+
+
+               X_U78.X_U40.DVNF 
+          IS  100.000000E-18 
+          KF    3.162278E-12 
+
+
+**** 04/05/25 23:18:51 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-teqwt1"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\zxcwcq\zxcwcq-PSpiceFiles\SCHE
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U78.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+**** 04/05/25 23:18:51 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-teqwt1"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\zxcwcq\zxcwcq-PSpiceFiles\SCHE
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U78.X_S1._S1  X_U78.X_S2._S2  
+         RON     .01             .01         
+        ROFF    1.000000E+12    1.000000E+12 
+         VON     .01             .01         
+        VOFF    0               0            
+
+
+               X_U78.X_U20.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .7          
+        VOFF    0            
+
+
+               X_U78.X_U21.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .1          
+
+
+               X_U78.X_U25.OL_SW 
+         RON    1.000000E-03 
+        ROFF    1.000000E+12 
+         VON     .9          
+        VOFF     .8          
+
+
+               X_U78.X_U5.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .1          
+
+
+               X_U74.X_U5.X_S3._S3 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON    2.5          
+        VOFF    1.25         
+
+
+               X_U74.X_U5.X_S16._S16 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON    0            
+        VOFF    1            
+
+
+               X_U74.X_U5.X_S4._S4 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON   -1.25         
+        VOFF   -2.5          
+
+
+               X_U74.X_U5.X_S17._S17 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON    0            
+        VOFF    1            
+
+
+               X_U74.X_U5.X_S6._S6 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON    2.5          
+        VOFF    1.25         
+
+
+               X_U74.X_U5.X_S5._S5 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON   -1.25         
+        VOFF   -2.5          
+
+
+Starting pseudo-transient algorithm.
+
+INFO(ORPSIM-16594): To improve Pseudotransient Convergence and Performance, set following options to relax stabilization criteria for capacitor currents and inductor voltages: PTRANABSTOL=1e-5, PTRANVNTOL=1e-4
+
+ERROR -- Convergence problem in transient bias point calculation
+
+
+  Last node voltages tried were:
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    5)    5.0000  (   -5)   -5.0000  (   IN)    0.0000  (  VCC)     .0540      
+
+(  VEE)     .2241  (N1066549)    1.0751                  (N1066743)    -.2123   
+
+(N1066753)    1.4245                  (N1114949)    5.0000                      
+
+(N1115021)    -.0971                  (N1115031)    -.2107                      
+
+(N1115041)    1.7389                  (N1115255)   -5.0000                      
+
+(X_U78.MID) 1.040E-06                 (X_U78.V11) 1.035E-06                     
+
+(X_U78.V12)     .6774                 (X_U78.ESDN)    -.0150                    
+
+(X_U78.ESDP)     .4827                (X_U78.VCLP)    -.2183                    
+
+(X_U78.CLAMP)    2.4385               (X_U78.VCC_B)     .0540                   
+
+(X_U78.VEE_B)     .2241               (X_U78.VIMON)   -2.1639                   
+
+(X_U78.VOUT_S)    -.2107              (X_U78.VSENSE)    2.4385                  
+
+(X_U78.X_U1.3)    0.0000              (X_U78.X_U1.4)    0.0000                  
+
+(X_U78.X_U1.5)    0.0000              (X_U78.X_U1.6)    0.0000                  
+
+(X_U78.X_U1.7)     .8338              (X_U78.X_U1.8)     .8338                  
+
+(X_U74.IN+BUFF)    0.0000             (X_U74.IN-BUFF)    -.2123                 
+
+(X_U74.INRANGE)    0.0000             (X_U74.N881909)    5.0000                 
+
+(X_U74.N881945)    0.0000             (X_U74.N882073)-500.0E-06                 
+
+(X_U74.N882279)    4.9505             (X_U74.N882289)    0.0000                 
+
+(X_U74.N882337)    0.0000             (X_U74.N882457)    0.0000                 
+
+(X_U74.X_U3.VH)    0.0000             (X_U74.X_U5.1V)    1.0000                 
+
+(X_U74.X_U7.1V)    1.0000             (X_U78.VCC_CLP)    -.9360                 
+
+(X_U78.VEE_CLP)     .5120             (X_U78.X_U39.3)    0.0000                 
+
+(X_U78.X_U39.4)    0.0000             (X_U78.X_U39.5)    0.0000                 
+
+(X_U78.X_U39.6)    0.0000             (X_U78.X_U39.7)     .8338                 
+
+(X_U78.X_U39.8)     .8338             (X_U78.X_U40.3)    0.0000                 
+
+(X_U78.X_U40.4)    0.0000             (X_U78.X_U40.5)    0.0000                 
+
+(X_U78.X_U40.6)    0.0000             (X_U78.X_U40.7)     .8338                 
+
+(X_U78.X_U40.8)     .8338             (X_U74.X_U3.OUT)    5.0000                
+
+(X_U74.X_U7.POR)    0.0000            (X_U78.CL_CLAMP)    -.2183                
+
+(X_U78.N2986935)     .4827            (X_U78.N2986947) 8.735E-06                
+
+(X_U78.N2986949)     .4827            (X_U78.N2986957)     .4828                
+
+(X_U78.N2986973) 672.2E-06            (X_U78.N2986975) 2.213E-06                
+
+(X_U78.N2986977)     .4828            (X_U78.N2986981)     .4821                
+
+(X_U78.N2987013)    -.0150            (X_U78.N2987017)   -1.9460                
+
+(X_U78.N2987029)    2.2241            (X_U78.N2987037)     .4821                
+
+(X_U78.N2987051)     .4821            (X_U78.N2987061)   49.7060                
+
+(X_U78.N2987123)     .7254            (X_U78.N2987135)     .7254                
+
+(X_U78.N2987157)     .7227            (X_U78.N2987159)     .7227                
+
+(X_U78.N2987201)   35.0000            (X_U78.N2987203) 1.040E-06                
+
+(X_U78.N2987205) 1.040E-06            (X_U78.N2987225) 1.040E-06                
+
+(X_U78.N2987231) 1.040E-06            (X_U78.N2987243)  -35.0000                
+
+(X_U78.N2987295)   75.0000            (X_U78.N2987299) 1.040E-06                
+
+(X_U78.N2987301) 1.040E-06            (X_U78.N2987319) 1.040E-06                
+
+(X_U78.N2987325) 1.040E-06            (X_U78.N2987337)  -75.0000                
+
+(X_U78.N2987363)    2.4385            (X_U78.N2987391)    -.9360                
+
+(X_U78.N2987395)     .5120            (X_U78.N2987423)     .5120                
+
+(X_U78.N2987427)    -.9360            (X_U78.N2987487) 1.035E-06                
+
+(X_U78.N2987493)     .6774            (X_U78.N2987499)    1.0000                
+
+(X_U78.N2987541)   -2.1639            (X_U78.N2987553)    -.2107                
+
+(X_U78.N2987623)    -.2107            (X_U78.N2987655)   -2.2183                
+
+(X_U78.N2987675)    2.4291            (X_U78.N2987683)   -2.2183                
+
+(X_U78.N2987687)   -2.2183            (X_U78.N2987711)    2.4291                
+
+(X_U78.N2987719)    1.7517            (X_U78.N2987763) 1.040E-06                
+
+(X_U78.N2987785)     .0540            (X_U78.N2987801)     .2241                
+
+(X_U78.N3108745)    6.0959            (X_U78.N3108755)    2.4393                
+
+(X_U78.N3108879)    2.4385            (X_U78.N3108917)    2.4390                
+
+(X_U78.N3108949)    2.4387            (X_U78.N3109015)    2.4383                
+
+(X_U78.N3116457)    -.2183            (X_U78.N3116503)  -52.2230                
+
+(X_U78.N3116515)  -52.2230            (X_U78.N3116609)  -99.8800                
+
+(X_U78.N3116619)  -99.8530            (X_U78.N3116655) -150.7100                
+
+(X_U78.N3116665)    -.1145            (X_U78.N3116675) -268.1200                
+
+(X_U78.N3116685) -207.2600            (X_U78.N3116957) -150.7200                
+
+(X_U78.N3117239) -150.7300            (X_U78.N3126023)     .5794                
+
+(X_U78.N3128929)     .2126            (X_U78.N3130349) 1.888E-06                
+
+(X_U78.N3130359) 52.99E-06            (X_U78.N3202117) -207.2600                
+
+(X_U78.N3202127) -151.0800            (X_U78.N3202213) -145.3800                
+
+(X_U78.N3204124) -151.0800            (X_U78.N3204134) -150.8800                
+
+(X_U78.N3204220) -150.8500            (X_U78.N3205032) -150.8800                
+
+(X_U78.N3205042) -150.8400            (X_U78.N3205128) -150.7900                
+
+(X_U78.N3205956) -150.8400            (X_U78.N3205966) -150.8000                
+
+(X_U78.N3206052) -150.7700            (X_U78.N3206890) -150.8000                
+
+(X_U78.N3206900) -150.7700            (X_U78.N3206986) -150.7200                
+
+(X_U78.N3208573) -150.7700            (X_U78.N3208669) -150.5900                
+
+(X_U78.N3236810) 1.041E-06            (X_U78.N3236820) 1.888E-06                
+
+(X_U74.X_U3.VMID)    2.5000           (X_U78.N32898091) -149.6900               
+
+(X_U74.VCC_BUFFER)    5.0000          (X_U74.VEE_BUFFER)    0.0000              
+
+(X_U74.X_U5.LOWER)    1.0677          (X_U74.X_U5.UPPER)    1.4319              
+
+(X_U78.CLAW_CLAMP)    -.2183          (X_U74.X_U2.N20155)    5.3000             
+
+(X_U74.X_U2.N20415)    -.3000         (X_U74.X_U2.N20531)    0.0000             
+
+(X_U74.X_U2.N20539)    -.3000         (X_U74.X_U2.N20826)    0.0000             
+
+(X_U74.X_U2.N20833)    0.0000         (X_U74.X_U2.N20840)    0.0000             
+
+(X_U74.X_U3.INNNEW)    -.2123         (X_U74.X_U4.N03175)    2.4752             
+
+(X_U74.X_U5.X_U2.4)    0.0000         (X_U74.X_U2.N202710)    5.3000            
+
+(X_U74.X_U2.X_U24.6)    0.0000        (X_U74.X_U5.N871584)    1.4284            
+
+(X_U74.X_U5.N871636)    1.0716        (X_U74.X_U5.N871682)    1.0713            
+
+(X_U74.X_U5.N871848)    1.4280        (X_U74.X_U5.N877529)   -1.4355            
+
+(X_U74.X_U5.N881317)   -1.0642        (X_U74.X_U5.N881854)    1.2000            
+
+(X_U74.X_U7.N784593)    5.5600        (X_U74.X_U7.N784683)    5.0000            
+
+(X_U74.X_U7.N784697)    0.0000        (X_U74.X_U7.N784807)    0.0000            
+
+(X_U74.X_U7.N784909)    2.3900        (X_U74.X_U7.N785081)    2.3900            
+
+(X_U74.X_U7.X_U17.4)    0.0000        (X_U74.X_U5.N8798211)    1.4355           
+
+(X_U74.X_U5.N8812391)    1.0642       (X_U78.SW_OL_OPAx277)    1.0000           
+
+(X_U74.X_U2.X_U1.OUT2)    0.0000      (X_U74.X_U5.X_U3.OUT1)    1.4355          
+
+(X_U74.X_U5.X_U7.OUT1)   -1.4355      (X_U74.X_U5.X_U8.OUT1)    1.0642          
+
+(X_U74.X_U5.X_U9.OUT1)   -1.0642      (X_U74.X_U7.X_U5.OUT2)    0.0000          
+
+(X_U74.X_U2.X_U21.OUT2)    0.0000     (X_U74.X_U2.X_U22.OUT2)    0.0000         
+
+(X_U74.X_U2.X_U23.OUT2)    0.0000     (X_U74.X_U5.OUTOFRANGE)    0.0000         
+
+(X_U74.X_U7.X_U13.OUT1)    5.0000     (X_U74.X_U7.X_U15.OUT2)    0.0000         
+
+(X_U74.X_U7.X_U16.OUT2)    0.0000     
+
+
+  These voltages failed to converge:
+
+    V(N1115041)               =     2.412V  \     1.739V
+    V(N1115021)               =   176.21mV  \   -97.12mV
+    V(N1115031)               =   206.26mV  \  -210.66mV
+    V(VEE)                    =    49.08MV  \   224.10mV
+    V(VCC)                    =   -49.08MV  \    53.98mV
+    V(N1066743)               =   206.13mV  \  -212.30mV
+    V(X_U74.N882337)          =     4.951V  \         0V
+    V(X_U74.N882289)          =     2.475V  \         0V
+    V(X_U78.N3126023)         =     1.715V  \   579.44mV
+    V(X_U78.N2986947)         =   608.22mV  \    8.735uV
+    V(X_U78.N3116503)         =    -17.66V  \    -52.22V
+    V(X_U78.N3116515)         =    -8.944V  \    -52.22V
+    V(X_U78.N2987785)         =   -49.08MV  \    53.98mV
+    V(X_U78.N2987763)         =   608.22mV  \    1.040uV
+    V(X_U78.N2987801)         =    49.08MV  \   224.10mV
+    V(X_U78.MID)              =   608.22mV  \    1.040uV
+    V(X_U78.N2987135)         =    49.08MV  \   725.37mV
+    V(X_U78.N2987159)         =    49.08MV  \   722.71mV
+    V(X_U78.N2987205)         =   608.22mV  \    1.040uV
+    V(X_U78.N2987225)         =   608.22mV  \    1.040uV
+    V(X_U78.N3128929)         =    46.56MV  \   212.58mV
+    V(X_U78.N2986973)         =     16.13V  \   672.16uV
+    V(X_U78.N2987301)         =   608.22mV  \    1.040uV
+    V(X_U78.N2987319)         =   608.22mV  \    1.040uV
+    V(X_U78.N2987363)         =     2.870V  \     2.439V
+    V(X_U78.N2987427)         =   -49.08MV  \  -936.03mV
+    V(X_U78.N2987423)         =    49.08MV  \   512.05mV
+    V(X_U78.N2987487)         =   608.22mV  \    1.035uV
+    V(X_U78.N2987493)         =     1.295V  \   677.41mV
+    V(X_U78.SW_OL_OPAx277)    =     1.608V  \     1.000V
+    V(X_U78.VIMON)            =   406.41mV  \    -2.164V
+    V(X_U78.N3130359)         =   -47.23KV  \    52.99uV
+    V(X_U78.N3130349)         =    -14.91V  \    1.888uV
+    V(X_U78.VOUT_S)           =   206.26mV  \  -210.66mV
+    V(X_U78.N2987051)         =    -29.51V  \   482.09mV
+    V(X_U78.CLAMP)            =     2.870V  \     2.439V
+    V(X_U78.N32898091)        =    -17.66V  \   -149.69V
+    V(X_U78.N3116655)         =    -17.66V  \   -150.71V
+    V(X_U78.N3116665)         =   594.34mV  \  -114.51mV
+    V(X_U78.N3108745)         =     6.263V  \     6.096V
+    V(X_U78.N3108755)         =     2.871V  \     2.439V
+    V(X_U78.N3108917)         =     2.871V  \     2.439V
+    V(X_U78.N3108949)         =     2.871V  \     2.439V
+    V(X_U78.N3109015)         =     2.871V  \     2.438V
+    V(X_U78.VCLP)             =   203.60mV  \  -218.30mV
+    V(X_U78.N3116609)         =    -17.66V  \    -99.88V
+    V(X_U78.N3116619)         =    -6.196V  \    -99.85V
+    V(X_U78.N3108879)         =     2.870V  \     2.439V
+    V(X_U78.N3202213)         =    -17.66V  \   -145.39V
+    V(X_U78.N3204220)         =    -17.66V  \   -150.85V
+    V(X_U78.N3205128)         =    -17.66V  \   -150.79V
+    V(X_U78.N3206052)         =    -17.66V  \   -150.77V
+    V(X_U78.N3206986)         =    -17.66V  \   -150.72V
+    V(X_U78.N3208669)         =    -17.66V  \   -150.59V
+    V(X_U78.N3236820)         =    -14.91V  \    1.888uV
+    V(X_U78.N3236810)         =   592.70mV  \    1.041uV
+    V(X_U78.ESDP)             =     1.530V  \   482.75mV
+    V(X_U78.ESDN)             =   907.00mV  \   -14.97mV
+    V(X_U78.N2987553)         =   206.26mV  \  -210.66mV
+    V(X_U78.N3116457)         =   203.60mV  \  -218.30mV
+    V(X_U78.CL_CLAMP)         =   203.60mV  \  -218.30mV
+    V(X_U78.CLAW_CLAMP)       =   203.60mV  \  -218.30mV
+    V(X_U78.VCC_B)            =   -49.08MV  \    53.98mV
+    V(X_U78.VEE_B)            =    49.08MV  \   224.10mV
+    V(X_U78.N2986957)         =     1.530V  \   482.76mV
+    V(X_U78.N2986949)         =     1.530V  \   482.75mV
+    V(X_U78.VCC_CLP)          =   -49.08MV  \  -936.03mV
+    V(X_U78.VEE_CLP)          =    49.08MV  \   512.05mV
+    V(X_U78.N2987687)         =    -1.796V  \    -2.218V
+    V(X_U78.N2987683)         =    -1.796V  \    -2.218V
+    V(X_U78.N2987711)         =     2.861V  \     2.429V
+    V(X_U78.N2987719)         =     2.174V  \     1.752V
+    V(X_U78.N2987623)         =   206.27mV  \  -210.66mV
+    V(X_U78.N3116675)         =    -17.66V  \   -268.12V
+    V(X_U78.VSENSE)           =     2.870V  \     2.439V
+    V(X_U78.N3202117)         =    -17.66V  \   -207.26V
+    V(X_U78.N3116685)         =    -17.66V  \   -207.26V
+    V(X_U78.N3204124)         =    -17.66V  \   -151.08V
+    V(X_U78.N3202127)         =    -17.66V  \   -151.08V
+    V(X_U78.N3205032)         =    -17.66V  \   -150.88V
+    V(X_U78.N3204134)         =    -17.66V  \   -150.88V
+    V(X_U78.N3205956)         =    -17.66V  \   -150.84V
+    V(X_U78.N3205042)         =    -17.66V  \   -150.84V
+    V(X_U78.N3206890)         =    -17.66V  \   -150.80V
+    V(X_U78.N3205966)         =    -17.66V  \   -150.80V
+    V(X_U78.N3208573)         =    -17.66V  \   -150.77V
+    V(X_U78.N3206900)         =    -17.66V  \   -150.77V
+    V(X_U78.N2986975)         =    -14.91V  \    2.213uV
+    V(X_U78.N2986981)         =    -29.51V  \   482.09mV
+    V(X_U78.N2986977)         =     1.530V  \   482.76mV
+    V(X_U78.N3117239)         =    -17.66V  \   -150.73V
+    V(X_U78.N2986935)         =     1.530V  \   482.75mV
+    V(X_U78.N2987013)         =   907.00mV  \   -14.97mV
+    V(X_U78.N2987017)         =   -49.08MV  \    -1.946V
+    V(X_U78.N2987029)         =    49.08MV  \     2.224V
+    V(X_U78.N2987037)         =    -29.51V  \   482.09mV
+    V(X_U78.N2987061)         =   -3.041KV  \     49.71V
+    V(X_U78.N3116957)         =    -17.66V  \   -150.72V
+    V(X_U78.N2987123)         =    49.08MV  \   725.37mV
+    V(X_U78.N2987157)         =    49.08MV  \   722.71mV
+    V(X_U78.N2987201)         =     35.61V  \     35.00V
+    V(X_U78.N2987203)         =   608.22mV  \    1.040uV
+    V(X_U78.N2987231)         =   608.22mV  \    1.040uV
+    V(X_U78.N2987243)         =    -34.39V  \    -35.00V
+    V(X_U78.N2987295)         =     75.61V  \     75.00V
+    V(X_U78.N2987299)         =   608.22mV  \    1.040uV
+    V(X_U78.N2987325)         =   608.22mV  \    1.040uV
+    V(X_U78.N2987337)         =    -74.39V  \    -75.00V
+    V(X_U78.N2987391)         =   -49.08MV  \  -936.03mV
+    V(X_U78.N2987395)         =    49.08MV  \   512.05mV
+    V(X_U78.V11)              =   608.22mV  \    1.035uV
+    V(X_U78.V12)              =     1.295V  \   677.41mV
+    V(X_U78.N2987499)         =     1.608V  \     1.000V
+    V(X_U78.N2987541)         =   406.41mV  \    -2.164V
+    V(X_U74.X_U3.INNNEW)      =   206.13mV  \  -212.30mV
+    V(X_U74.IN-BUFF)          =   206.13mV  \  -212.30mV
+    V(X_U78.N2987675)         =     2.861V  \     2.429V
+    V(X_U78.N2987655)         =    -1.796V  \    -2.218V
+
+  These supply currents failed to converge:
+
+    I(X_U74.E_E1)             =   -19.82nA  \         0A
+    I(X_U78.E_E1)             =   -7.830uA  \    34.90nA
+    I(X_U78.E_E3)             =   401.96fA  \   -11.56nA
+    I(X_U78.E_E4)             =         0A  \   -11.35nA
+    I(X_U74.X_U4.e.T_TPD.eB1) =   -49.51mA  \         0A
+    I(X_U74.X_U6.X_U1.EVSS_NEW) =   -19.82nA  \         0A
+    IB(X_U74.X_U4.T_TPD)      =   -49.52mA  \         0A
+    I(V_V8)                   =  -411.80uA  \  -374.38uA
+    I(V_V7)                   =   -1.294mA  \   -1.631mA
+    I(X_U78.V_VCM_MAX)        =    49.08uA  \    1.946pA
+    I(X_U78.V_VCM_MIN)        =   -49.08uA  \   -2.224pA
+    I(X_U78.X_H1.VH_H1)       =  -201.81uA  \   -2.164mA
+    I(X_U78.X_H2.VH_H2)       =   687.21mA  \   677.41mA
+    I(X_U78.X_H3.VH_H3)       =    4.676nA  \    4.666nA
+    I(X_U78.X_H1.H_H1)        =   253.81pA  \   114.09nA
+    I(X_U78.X_H2.H_H2)        =         0A  \  -106.20pA
+
+  These devices failed to converge:
+    X_U74.X_DESD5.D_DESD X_U74.X_U3.EOUT X_U78.X_U31.G1 
+
+**** Interrupt ****

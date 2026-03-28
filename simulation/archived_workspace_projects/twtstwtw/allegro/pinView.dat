@@ -1,0 +1,11 @@
+A!NET_NAME!REFDES!PIN_NUMBER!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!PIN_NET_SHORT!PIN_NO_SWAP_PIN!PIN_NO_PIN_ESCAPE!PIN_CDS_PINID!PIN_XNET_PINS!PIN_PIN_ESCAPE!PIN_PIN_SIGNAL_MODEL!PIN_NO_DRC!PIN_NO_SHAPE_CONNECT!
+J!C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/twtstwtw/allegro/twtstwtw.brd!Tue Apr  1 23:27:36 2025!0.00!0.00!21000.00!17000.00!0.01!mils!TWTSTWTW!10.400000 mil!2!UP TO DATE!
+S!N1086032!R1!1!@twtstwtw.schematic1(sch_1):ins1085986@analog.\r.normal\(chips)!R_AXRC05_200!!!F2!!!!!!!!!!
+S!N1086044!R1!2!@twtstwtw.schematic1(sch_1):ins1085986@analog.\r.normal\(chips)!R_AXRC05_200!!!F2!!!!!!!!!!
+S!N1086044!R2!1!@twtstwtw.schematic1(sch_1):ins1086008@analog.\r.normal\(chips)!R_AXRC05_1.4K!!!F1!!!!!!!!!!
+S!N1086058!R2!2!@twtstwtw.schematic1(sch_1):ins1086008@analog.\r.normal\(chips)!R_AXRC05_1.4K!!!F1!!!!!!!!!!
+S!0!U1!4!@twtstwtw.schematic1(sch_1):ins1086114@opa855.\opa855.normal\(chips)!OPA855_TEST1_OPA855!!!F0!!!!!!!!!!
+S!N1086044!U1!3!@twtstwtw.schematic1(sch_1):ins1086114@opa855.\opa855.normal\(chips)!OPA855_TEST1_OPA855!!!F0!!!!!!!!!!
+S!N1086058!U1!6!@twtstwtw.schematic1(sch_1):ins1086114@opa855.\opa855.normal\(chips)!OPA855_TEST1_OPA855!!!F0!!!!!!!!!!
+S!N1086370!U1!7!@twtstwtw.schematic1(sch_1):ins1086114@opa855.\opa855.normal\(chips)!OPA855_TEST1_OPA855!!!F0!!!!!!!!!!
+S!0!U1!5!@twtstwtw.schematic1(sch_1):ins1086114@opa855.\opa855.normal\(chips)!OPA855_TEST1_OPA855!!!F0!!!!!!!!!!

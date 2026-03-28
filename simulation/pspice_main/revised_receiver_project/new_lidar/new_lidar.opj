@@ -1,0 +1,171 @@
+(ExpressProject "new_lidar"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "24.1 S003 (4280230)  [3/6/2025]-[04/07/25]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (Allegro Netlist Directory "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\new_lidar.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (Allegro Netlist Remove Etch "FALSE")
+    (Allegro Netlist Place Changed Component "ALWAYS_REPLACE")
+    (Allegro Netlist Open Board in Allegro "ORCADX")
+    (Allegro Netlist Ignore Fixed Property "FALSE")
+    (Allegro Netlist User Defined Property "FALSE")
+    (Allegro Netlist Output Board File ".\allegro\new_lidar.brd"))
+  (Folder "Layout"
+    (File ".\allegro\new_lidar.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\new_lidar.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (Sort User)
+    (File ".\NEW_LIDAR_OUTPUT\BOM.SCH.CSV"
+      (Type "Report")
+      (DisplayName ".\NEW_LIDAR_OUTPUT\BOM.SCH.CSV"))
+    (File ".\new_lidar-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\new_lidar-pspicefiles\1.full_schemetic\1.full_schemetic.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\new_lidar-pspicefiles\schematic1\test.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\new_lidar-pspicefiles\schematic1\test.sim"
+        (DisplayName "SCHEMATIC1-test")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs"
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile
+         "c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\new_lidar\new_lidar\allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile
+         "c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\new_lidar\new_lidar\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile
+         "c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\new_lidar\new_lidar\allegro\eco.txt")))
+  (PartMRUSelector
+    (0
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("4 HEADER"
+      (FullPartName "4 HEADER.Normal")
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (CON2AP
+      (FullPartName "CON2AP.Normal")
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN TRBLK 4"
+      (FullPartName "CONN TRBLK 4.Normal")
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (1-350944-0
+      (FullPartName "1-350944-0.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743791230\1-350944-0\CAPTURE\1-350944-0.OLB")
+      (DeviceIndex "0"))
+    (TS7Y502KR32
+      (FullPartName "TS7Y502KR32.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743622439\TS7Y502KR32\CAPTURE\TS7Y502KR32.OLB")
+      (DeviceIndex "0"))
+    (CL32Y476KPVVPNE
+      (FullPartName "CL32Y476KPVVPNE.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\WORKSPACE\LIBRARIES\SYMBOLS\DOWNLOADS\CL32Y476KPVVPNE.OLB")
+      (DeviceIndex "0"))
+    (UMK212BBJ475KG-T
+      (FullPartName "UMK212BBJ475KG-T.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\WORKSPACE\LIBRARIES\SYMBOLS\DOWNLOADS\UMK212BBJ475KG-T.OLB")
+      (DeviceIndex "0"))
+    (04025U0R7BAT2A
+      (FullPartName "04025U0R7BAT2A.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\WORKSPACE\LIBRARIES\SYMBOLS\DOWNLOADS\04025U0R7BAT2A.OLB")
+      (DeviceIndex "0"))
+    (MTAPD-06-013
+      (FullPartName "MTAPD-06-013.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743518199\MTAPD-06-013\CAPTURE\MTAPD-06-013.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (1N749A
+      (FullPartName "1N749A.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\DIZ.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (1N4007
+      (FullPartName "1N4007.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\DI.OLB")
+      (DeviceIndex "0"))
+    (1N4148
+      (FullPartName "1N4148.Normal")
+      (LibraryName
+         "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\DI.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (TSW-110-07-G-D
+      (FullPartName "TSW-110-07-G-D.Normal")
+      (LibraryName
+         "C:\USERS\SKY94\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1742290138\TSW-110-07-G-D\CAPTURE\TSW-110-07-G-D.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Layout")
+      (Path "Outputs")
+      (Path "Logs")
+      (Select "Design Resources"
+         "c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\new_lidar\new_lidar\new_lidar.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 582"))
+      (Tab 0)))
+  (MPSSessionName "user"))

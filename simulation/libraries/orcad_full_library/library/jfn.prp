@@ -1,0 +1,5673 @@
+("awb2n3438"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( SYMBOL_NAME "NCHANNEL3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-0.426363" )
+		)
+		( "BETA"
+			( "val" "1.3183E-3" )
+		)
+		( "LAMBDA"
+			( "val" "0.030593" )
+		)
+		( "RD"
+			( "val" "34.7507772" )
+		)
+		( "RS"
+			( "val" "34.8506442" )
+		)
+		( "CGS"
+			( "val" "8.1589E-12" )
+		)
+		( "CGD"
+			( "val" "8.159E-12" )
+		)
+		( "PB"
+			( "val" "0.9193951" )
+		)
+		( "IS"
+			( "val" "1.5439E-14" )
+		)
+		( "FC"
+			( "val" "0.4" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( IG "10m" )
+		( VDG "50" )
+		( VGS "50" )
+		( PDM "300m" )
+		( TJ "200" )
+		( RJC "150" )
+		( RCA "350" )
+	)
+)
+("awb2n3823"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.0" )
+		)
+		( "BETA"
+			( "val" "625E-6" )
+		)
+		( "LAMBDA"
+			( "val" "2.0E-3" )
+		)
+		( "RD"
+			( "val" "10" )
+		)
+		( "RS"
+			( "val" "10" )
+		)
+		( "CGS"
+			( "val" "3.3E-12" )
+		)
+		( "CGD"
+			( "val" "3.3E-12" )
+		)
+		( "PB"
+			( "val" "3.05" )
+		)
+		( "IS"
+			( "val" "10E-12" )
+		)
+		( "KF"
+			( "val" "2.0E-18" )
+		)
+		( "AF"
+			( "val" "0.287" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "30" )
+		( VDG "30" )
+		( VGS "30" )
+		( IG "0.01" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awb2n3955"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( SYMBOL_NAME "NCHANNEL3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.5" )
+		)
+		( "BETA"
+			( "val" ".61m" )
+		)
+		( "LAMBDA"
+			( "val" "4.7m" )
+		)
+		( "RD"
+			( "val" "1" )
+		)
+		( "RS"
+			( "val" "1" )
+		)
+		( "CGS"
+			( "val" "4.5p" )
+		)
+		( "CGD"
+			( "val" "2p" )
+		)
+		( "PB"
+			( "val" "1" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+	)
+	)
+	("device_max_ops"
+		( IG "10m" )
+		( VGS "60" )
+		( TJ "150" )
+		( RJC "232" )
+		( RCA "350" )
+	)
+)
+("awb2n4093"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( SYMBOL_NAME "NCHANNEL3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.2" )
+		)
+		( "BETA"
+			( "val" "2.37e-3" )
+		)
+		( "LAMBDA"
+			( "val" "1e-5" )
+		)
+		( "RD"
+			( "val" "6" )
+		)
+		( "RS"
+			( "val" "3" )
+		)
+		( "CGS"
+			( "val" "9p" )
+		)
+		( "CGD"
+			( "val" "2p" )
+		)
+		( "PB"
+			( "val" "3.05" )
+		)
+		( "IS"
+			( "val" "1e-11" )
+		)
+		( "KF"
+			( "val" "2e-18" )
+		)
+		( "AF"
+			( "val" "0.289" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+	)
+	)
+	("device_max_ops"
+		( IG "10m" )
+		( VDG "40" )
+		( VDS "40" )
+		( VGS "40" )
+		( PDM "1.8" )
+		( TJ "175" )
+	)
+)
+("awb2n4117"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-1.2" )
+		)
+		( "BETA"
+			( "val" "42E-6" )
+		)
+		( "LAMBDA"
+			( "val" "0.02" )
+		)
+		( "RD"
+			( "val" "0" )
+		)
+		( "RS"
+			( "val" "0" )
+		)
+		( "CGS"
+			( "val" "3E-12" )
+		)
+		( "CGD"
+			( "val" "3E-12" )
+		)
+		( "PB"
+			( "val" "1" )
+		)
+		( "IS"
+			( "val" "1E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awb2n4117a"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-1.2" )
+		)
+		( "BETA"
+			( "val" "42E-6" )
+		)
+		( "LAMBDA"
+			( "val" "0.02" )
+		)
+		( "RD"
+			( "val" "0" )
+		)
+		( "RS"
+			( "val" "0" )
+		)
+		( "CGS"
+			( "val" "3E-12" )
+		)
+		( "CGD"
+			( "val" "3E-12" )
+		)
+		( "PB"
+			( "val" "1" )
+		)
+		( "IS"
+			( "val" "1E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awb2n4118"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.0" )
+		)
+		( "BETA"
+			( "val" "37.5E-6" )
+		)
+		( "LAMBDA"
+			( "val" "15.384E-3" )
+		)
+		( "RD"
+			( "val" "0" )
+		)
+		( "RS"
+			( "val" "0" )
+		)
+		( "CGS"
+			( "val" "3E-12" )
+		)
+		( "CGD"
+			( "val" "3E-12" )
+		)
+		( "PB"
+			( "val" "1" )
+		)
+		( "IS"
+			( "val" "1E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awb2n4118a"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.0" )
+		)
+		( "BETA"
+			( "val" "37.5E-6" )
+		)
+		( "LAMBDA"
+			( "val" "15.384E-3" )
+		)
+		( "RD"
+			( "val" "0" )
+		)
+		( "RS"
+			( "val" "0" )
+		)
+		( "CGS"
+			( "val" "3E-12" )
+		)
+		( "CGD"
+			( "val" "3E-12" )
+		)
+		( "PB"
+			( "val" "1" )
+		)
+		( "IS"
+			( "val" "50E-15" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awb2n4119"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.0" )
+		)
+		( "BETA"
+			( "val" "44.44E-6" )
+		)
+		( "LAMBDA"
+			( "val" "33.33E-3" )
+		)
+		( "RD"
+			( "val" "0" )
+		)
+		( "RS"
+			( "val" "0" )
+		)
+		( "CGS"
+			( "val" "3E-12" )
+		)
+		( "CGD"
+			( "val" "3E-12" )
+		)
+		( "PB"
+			( "val" "1" )
+		)
+		( "IS"
+			( "val" "1E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awb2n4119a"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.0" )
+		)
+		( "BETA"
+			( "val" "44.44E-6" )
+		)
+		( "LAMBDA"
+			( "val" "33.33E-3" )
+		)
+		( "RD"
+			( "val" "0" )
+		)
+		( "RS"
+			( "val" "0" )
+		)
+		( "CGS"
+			( "val" "3E-12" )
+		)
+		( "CGD"
+			( "val" "3E-12" )
+		)
+		( "PB"
+			( "val" "1" )
+		)
+		( "IS"
+			( "val" "50E-15" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awb2n4223"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.2" )
+		)
+		( "BETA"
+			( "val" "567E-6" )
+		)
+		( "LAMBDA"
+			( "val" "10E-6" )
+		)
+		( "RD"
+			( "val" "10" )
+		)
+		( "RS"
+			( "val" "10" )
+		)
+		( "CGS"
+			( "val" "3.3E-12" )
+		)
+		( "CGD"
+			( "val" "3.3E-12" )
+		)
+		( "PB"
+			( "val" "3.05" )
+		)
+		( "IS"
+			( "val" "10E-12" )
+		)
+		( "KF"
+			( "val" "2.0E-18" )
+		)
+		( "AF"
+			( "val" "0.287" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "30" )
+		( VDG "30" )
+		( VGS "30" )
+		( IG "0.02" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awb2n4338"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-0.5" )
+		)
+		( "BETA"
+			( "val" "2.0E-3" )
+		)
+		( "LAMBDA"
+			( "val" "2.42E-3" )
+		)
+		( "RD"
+			( "val" "100.0" )
+		)
+		( "RS"
+			( "val" "100.0" )
+		)
+		( "CGS"
+			( "val" "3.5E-12" )
+		)
+		( "CGD"
+			( "val" "3.5E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "10E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "50" )
+		( VDG "50" )
+		( VGS "50" )
+		( IG "0.05" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awb2n4339"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-1.0" )
+		)
+		( "BETA"
+			( "val" "1.0E-3" )
+		)
+		( "LAMBDA"
+			( "val" "2.73E-3" )
+		)
+		( "RD"
+			( "val" "75.0" )
+		)
+		( "RS"
+			( "val" "75.0" )
+		)
+		( "CGS"
+			( "val" "3.5E-12" )
+		)
+		( "CGD"
+			( "val" "3.5E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "10E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "50" )
+		( VDG "50" )
+		( VGS "50" )
+		( IG "0.05" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awb2n4340"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.0" )
+		)
+		( "BETA"
+			( "val" "625E-6" )
+		)
+		( "LAMBDA"
+			( "val" "3.57E-3" )
+		)
+		( "RD"
+			( "val" "50.0" )
+		)
+		( "RS"
+			( "val" "50.0" )
+		)
+		( "CGS"
+			( "val" "3.5E-12" )
+		)
+		( "CGD"
+			( "val" "3.5E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "10E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "50" )
+		( VDG "50" )
+		( VGS "50" )
+		( IG "0.05" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awb2n4341"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.0" )
+		)
+		( "BETA"
+			( "val" "437.5E-6" )
+		)
+		( "LAMBDA"
+			( "val" "3.0E-3" )
+		)
+		( "RD"
+			( "val" "22.0" )
+		)
+		( "RS"
+			( "val" "22.0" )
+		)
+		( "CGS"
+			( "val" "3.5E-12" )
+		)
+		( "CGD"
+			( "val" "3.5E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "10E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "50" )
+		( VDG "50" )
+		( VGS "50" )
+		( IG "0.05" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awb2n4391"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-7.0" )
+		)
+		( "BETA"
+			( "val" "2.041E-3" )
+		)
+		( "LAMBDA"
+			( "val" "5.55E-3" )
+		)
+		( "RD"
+			( "val" "2" )
+		)
+		( "RS"
+			( "val" "2" )
+		)
+		( "CGS"
+			( "val" "12E-12" )
+		)
+		( "CGD"
+			( "val" "8.5E-12" )
+		)
+		( "PB"
+			( "val" "0.8" )
+		)
+		( "IS"
+			( "val" "20E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "1.8" )
+		( TJ "175" )
+	)
+)
+("awb2n4392"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.5" )
+		)
+		( "BETA"
+			( "val" "4.082E-3" )
+		)
+		( "LAMBDA"
+			( "val" "5.55E-3" )
+		)
+		( "RD"
+			( "val" "2" )
+		)
+		( "RS"
+			( "val" "2" )
+		)
+		( "CGS"
+			( "val" "12E-12" )
+		)
+		( "CGD"
+			( "val" "8.5E-12" )
+		)
+		( "PB"
+			( "val" "0.8" )
+		)
+		( "IS"
+			( "val" "20E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "1.8" )
+		( TJ "175" )
+	)
+)
+("awb2n4393"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-1.75" )
+		)
+		( "BETA"
+			( "val" "5.714E-3" )
+		)
+		( "LAMBDA"
+			( "val" "4.545E-3" )
+		)
+		( "RD"
+			( "val" "2" )
+		)
+		( "RS"
+			( "val" "2" )
+		)
+		( "CGS"
+			( "val" "12E-12" )
+		)
+		( "CGD"
+			( "val" "8.5E-12" )
+		)
+		( "PB"
+			( "val" "0.8" )
+		)
+		( "IS"
+			( "val" "20E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "1.8" )
+		( TJ "175" )
+	)
+)
+("awb2n4416"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.1" )
+		)
+		( "BETA"
+			( "val" "1.0E-3" )
+		)
+		( "LAMBDA"
+			( "val" "1.22E-3" )
+		)
+		( "RD"
+			( "val" "4.0" )
+		)
+		( "RS"
+			( "val" "4.0" )
+		)
+		( "CGS"
+			( "val" "2.0E-12" )
+		)
+		( "CGD"
+			( "val" "2.0E-12" )
+		)
+		( "PB"
+			( "val" "0.8" )
+		)
+		( "IS"
+			( "val" "10E-12" )
+		)
+		( "KF"
+			( "val" "1.88E-18" )
+		)
+		( "AF"
+			( "val" "0.287" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "30" )
+		( VDG "30" )
+		( VGS "30" )
+		( IG "0.01" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awb2n4416a"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.1" )
+		)
+		( "BETA"
+			( "val" "1.0E-3" )
+		)
+		( "LAMBDA"
+			( "val" "1.22E-3" )
+		)
+		( "RD"
+			( "val" "4.0" )
+		)
+		( "RS"
+			( "val" "4.0" )
+		)
+		( "CGS"
+			( "val" "2.0E-12" )
+		)
+		( "CGD"
+			( "val" "2.0E-12" )
+		)
+		( "PB"
+			( "val" "0.8" )
+		)
+		( "IS"
+			( "val" "10E-12" )
+		)
+		( "KF"
+			( "val" "1.88E-18" )
+		)
+		( "AF"
+			( "val" "0.287" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "30" )
+		( VDG "30" )
+		( VGS "30" )
+		( IG "0.01" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awb2n4856"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-8.0" )
+		)
+		( "BETA"
+			( "val" "2.344E-3" )
+		)
+		( "LAMBDA"
+			( "val" "1.424E-3" )
+		)
+		( "RD"
+			( "val" "1.0" )
+		)
+		( "RS"
+			( "val" "1.0" )
+		)
+		( "CGS"
+			( "val" "5E-12" )
+		)
+		( "CGD"
+			( "val" "20E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "75E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "175" )
+	)
+)
+("awb2n4856a"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-8.0" )
+		)
+		( "BETA"
+			( "val" "2.344E-3" )
+		)
+		( "LAMBDA"
+			( "val" "1.424E-3" )
+		)
+		( "RD"
+			( "val" "1.0" )
+		)
+		( "RS"
+			( "val" "1.0" )
+		)
+		( "CGS"
+			( "val" "15E-12" )
+		)
+		( "CGD"
+			( "val" "10E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "75E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "175" )
+	)
+)
+("awb2n4857"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.0" )
+		)
+		( "BETA"
+			( "val" "5.0E-3" )
+		)
+		( "LAMBDA"
+			( "val" "1.5076E-3" )
+		)
+		( "RD"
+			( "val" "1.0" )
+		)
+		( "RS"
+			( "val" "1.0" )
+		)
+		( "CGS"
+			( "val" "5E-12" )
+		)
+		( "CGD"
+			( "val" "20E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "75E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "175" )
+	)
+)
+("awb2n4857a"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.0" )
+		)
+		( "BETA"
+			( "val" "5.0E-3" )
+		)
+		( "LAMBDA"
+			( "val" "1.5076E-3" )
+		)
+		( "RD"
+			( "val" "1.0" )
+		)
+		( "RS"
+			( "val" "1.0" )
+		)
+		( "CGS"
+			( "val" "18E-12" )
+		)
+		( "CGD"
+			( "val" "6E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "75E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "175" )
+	)
+)
+("awb2n4858"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.0" )
+		)
+		( "BETA"
+			( "val" "5.0E-3" )
+		)
+		( "LAMBDA"
+			( "val" "3.5714E-3" )
+		)
+		( "RD"
+			( "val" "1.0" )
+		)
+		( "RS"
+			( "val" "1.0" )
+		)
+		( "CGS"
+			( "val" "5E-12" )
+		)
+		( "CGD"
+			( "val" "20E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "75E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "175" )
+	)
+)
+("awb2n4858a"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.0" )
+		)
+		( "BETA"
+			( "val" "5.0E-3" )
+		)
+		( "LAMBDA"
+			( "val" "3.5714E-3" )
+		)
+		( "RD"
+			( "val" "1.0" )
+		)
+		( "RS"
+			( "val" "1.0" )
+		)
+		( "CGS"
+			( "val" "18E-12" )
+		)
+		( "CGD"
+			( "val" "6E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "75E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "175" )
+	)
+)
+("awb2n4859"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-8.0" )
+		)
+		( "BETA"
+			( "val" "2.344E-3" )
+		)
+		( "LAMBDA"
+			( "val" "1.424E-3" )
+		)
+		( "RD"
+			( "val" "1.0" )
+		)
+		( "RS"
+			( "val" "1.0" )
+		)
+		( "CGS"
+			( "val" "5E-12" )
+		)
+		( "CGD"
+			( "val" "20E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "75E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "30" )
+		( VDG "30" )
+		( VGS "30" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "175" )
+	)
+)
+("awb2n4859a"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-8.0" )
+		)
+		( "BETA"
+			( "val" "2.344E-3" )
+		)
+		( "LAMBDA"
+			( "val" "1.424E-3" )
+		)
+		( "RD"
+			( "val" "1.0" )
+		)
+		( "RS"
+			( "val" "1.0" )
+		)
+		( "CGS"
+			( "val" "15E-12" )
+		)
+		( "CGD"
+			( "val" "10E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "75E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "30" )
+		( VDG "30" )
+		( VGS "30" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "175" )
+	)
+)
+("awb2n4860"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.0" )
+		)
+		( "BETA"
+			( "val" "5.0E-3" )
+		)
+		( "LAMBDA"
+			( "val" "1.5076E-3" )
+		)
+		( "RD"
+			( "val" "1.0" )
+		)
+		( "RS"
+			( "val" "1.0" )
+		)
+		( "CGS"
+			( "val" "5E-12" )
+		)
+		( "CGD"
+			( "val" "20E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "75E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "30" )
+		( VDG "30" )
+		( VGS "30" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "175" )
+	)
+)
+("awb2n4860a"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.0" )
+		)
+		( "BETA"
+			( "val" "5.0E-3" )
+		)
+		( "LAMBDA"
+			( "val" "1.5076E-3" )
+		)
+		( "RD"
+			( "val" "1.0" )
+		)
+		( "RS"
+			( "val" "1.0" )
+		)
+		( "CGS"
+			( "val" "18E-12" )
+		)
+		( "CGD"
+			( "val" "6E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "75E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "30" )
+		( VDG "30" )
+		( VGS "30" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "175" )
+	)
+)
+("awb2n4861"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.0" )
+		)
+		( "BETA"
+			( "val" "5.0E-3" )
+		)
+		( "LAMBDA"
+			( "val" "3.5714E-3" )
+		)
+		( "RD"
+			( "val" "1.0" )
+		)
+		( "RS"
+			( "val" "1.0" )
+		)
+		( "CGS"
+			( "val" "5E-12" )
+		)
+		( "CGD"
+			( "val" "20E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "75E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "30" )
+		( VDG "30" )
+		( VGS "30" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "175" )
+	)
+)
+("awb2n4861a"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.0" )
+		)
+		( "BETA"
+			( "val" "5.0E-3" )
+		)
+		( "LAMBDA"
+			( "val" "3.5714E-3" )
+		)
+		( "RD"
+			( "val" "1.0" )
+		)
+		( "RS"
+			( "val" "1.0" )
+		)
+		( "CGS"
+			( "val" "18E-12" )
+		)
+		( "CGD"
+			( "val" "6E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "75E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "30" )
+		( VDG "30" )
+		( VGS "30" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "175" )
+	)
+)
+("awb2n5397"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.0" )
+		)
+		( "BETA"
+			( "val" "1.23E-3" )
+		)
+		( "LAMBDA"
+			( "val" "5.26E-3" )
+		)
+		( "RD"
+			( "val" "13" )
+		)
+		( "RS"
+			( "val" "13" )
+		)
+		( "CGS"
+			( "val" "3.3E-12" )
+		)
+		( "CGD"
+			( "val" "3.3E-12" )
+		)
+		( "PB"
+			( "val" "0.66" )
+		)
+		( "IS"
+			( "val" "10E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "25" )
+		( VDG "25" )
+		( VGS "25" )
+		( IG "0.01" )
+		( PDM "0.30" )
+		( TJ "200" )
+	)
+)
+("awb2n5457"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-1.5" )
+		)
+		( "BETA"
+			( "val" "1.33E-3" )
+		)
+		( "LAMBDA"
+			( "val" "7.857E-3" )
+		)
+		( "RD"
+			( "val" "107.1" )
+		)
+		( "RS"
+			( "val" "107.1" )
+		)
+		( "CGS"
+			( "val" "3.0E-12" )
+		)
+		( "CGD"
+			( "val" "6.0E-12" )
+		)
+		( "PB"
+			( "val" "0.8" )
+		)
+		( "IS"
+			( "val" "500E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "30" )
+		( VDG "30" )
+		( VGS "30" )
+		( IG "0.05" )
+		( PDM "0.31" )
+		( TJ "125" )
+	)
+)
+("awb2n5458"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.0" )
+		)
+		( "BETA"
+			( "val" "0.666E-3" )
+		)
+		( "LAMBDA"
+			( "val" "7.5E-3" )
+		)
+		( "RD"
+			( "val" "7.4" )
+		)
+		( "RS"
+			( "val" "7.4" )
+		)
+		( "CGS"
+			( "val" "3.0E-12" )
+		)
+		( "CGD"
+			( "val" "6.0E-12" )
+		)
+		( "PB"
+			( "val" "0.8" )
+		)
+		( "IS"
+			( "val" "500E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "30" )
+		( VDG "30" )
+		( VGS "30" )
+		( IG "0.05" )
+		( PDM "0.31" )
+		( TJ "125" )
+	)
+)
+("awb2n5459"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.0" )
+		)
+		( "BETA"
+			( "val" "0.5625E-3" )
+		)
+		( "LAMBDA"
+			( "val" "7.2E-3" )
+		)
+		( "RD"
+			( "val" "3.0" )
+		)
+		( "RS"
+			( "val" "3.0" )
+		)
+		( "CGS"
+			( "val" "3.0E-12" )
+		)
+		( "CGD"
+			( "val" "6.0E-12" )
+		)
+		( "PB"
+			( "val" "0.8" )
+		)
+		( "IS"
+			( "val" "500E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "25" )
+		( VDG "25" )
+		( VGS "25" )
+		( IG "0.01" )
+		( PDM "0.31" )
+		( TJ "125" )
+	)
+)
+("awb2n5484"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( SYMBOL_NAME "NCHANNEL3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-0.9993217" )
+		)
+		( "BETA"
+			( "val" "2.16311E-3" )
+		)
+		( "LAMBDA"
+			( "val" "0.0174371" )
+		)
+		( "RD"
+			( "val" "17.042944" )
+		)
+		( "RS"
+			( "val" "6.4157725" )
+		)
+		( "CGS"
+			( "val" "4.81179E-12" )
+		)
+		( "CGD"
+			( "val" "4.93771E-12" )
+		)
+		( "PB"
+			( "val" "0.8252988" )
+		)
+		( "IS"
+			( "val" "1.23188E-15" )
+		)
+		( "FC"
+			( "val" "0.8" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( IG "10m" )
+		( ID "30m" )
+		( VDG "25" )
+		( VGS "25" )
+		( PDM "310m" )
+		( TJ "150" )
+		( RJC "83.3" )
+		( RCA "116.7" )
+	)
+)
+("awb2n5486"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( SYMBOL_NAME "NCHANNEL3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.6810373" )
+		)
+		( "BETA"
+			( "val" "1.19185E-3" )
+		)
+		( "LAMBDA"
+			( "val" "0.0161599" )
+		)
+		( "RD"
+			( "val" "4.7125983" )
+		)
+		( "RS"
+			( "val" "5.6133132" )
+		)
+		( "CGS"
+			( "val" "4.21546E-12" )
+		)
+		( "CGD"
+			( "val" "2.64143E-12" )
+		)
+		( "PB"
+			( "val" "0.443788" )
+		)
+		( "IS"
+			( "val" "4.24375E-16" )
+		)
+		( "FC"
+			( "val" "0.6198398" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( IG "10m" )
+		( ID "30m" )
+		( VDG "25" )
+		( VGS "25" )
+		( PDM "310m" )
+		( TJ "150" )
+		( RJC "83.3" )
+		( RCA "116.7" )
+	)
+)
+("awb2n5639"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( SYMBOL_NAME "NCHANNEL3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.2680826" )
+		)
+		( "BETA"
+			( "val" "3.68282E-3" )
+		)
+		( "LAMBDA"
+			( "val" "0.0150496" )
+		)
+		( "RD"
+			( "val" "0.1" )
+		)
+		( "RS"
+			( "val" "3.0902286" )
+		)
+		( "CGS"
+			( "val" "1.89456E-11" )
+		)
+		( "CGD"
+			( "val" "1.94282E-11" )
+		)
+		( "PB"
+			( "val" "1.0565328" )
+		)
+		( "IS"
+			( "val" "5.47779E-15" )
+		)
+		( "FC"
+			( "val" "0.8" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( IG "10m" )
+		( VDG "30" )
+		( VDS "30" )
+		( VGS "30" )
+		( PDM "310m" )
+		( TJ "150" )
+		( RJC "83.3" )
+		( RCA "116.7" )
+	)
+)
+("awb2n5911"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.0" )
+		)
+		( "BETA"
+			( "val" "1.22E-3" )
+		)
+		( "LAMBDA"
+			( "val" "5.26E-3" )
+		)
+		( "RD"
+			( "val" "20.0" )
+		)
+		( "RS"
+			( "val" "20.0" )
+		)
+		( "CGS"
+			( "val" "2.8E-12" )
+		)
+		( "CGD"
+			( "val" "4.0E-12" )
+		)
+		( "PB"
+			( "val" "0.667" )
+		)
+		( "IS"
+			( "val" "10E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1.0" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "30" )
+		( VDG "30" )
+		( VGS "30" )
+		( IG "100p" )
+		( PDM "0.367" )
+		( TJ "150" )
+	)
+)
+("awb2n5912"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( SYMBOL_NAME "NCHANNEL3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3" )
+		)
+		( "BETA"
+			( "val" "1.78m" )
+		)
+		( "LAMBDA"
+			( "val" "6.7m" )
+		)
+		( "RD"
+			( "val" "93" )
+		)
+		( "RS"
+			( "val" "7" )
+		)
+		( "CGS"
+			( "val" "2.8p" )
+		)
+		( "CGD"
+			( "val" "1.7p" )
+		)
+		( "PB"
+			( "val" "1" )
+		)
+		( "IS"
+			( "val" "15p" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+	)
+	)
+	("device_max_ops"
+		( IG "10m" )
+		( VGS "35" )
+		( TJ "150" )
+	)
+)
+("awb2n6449"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( SYMBOL_NAME "NCHANNEL3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4" )
+		)
+		( "BETA"
+			( "val" ".238m" )
+		)
+		( "LAMBDA"
+			( "val" "21m" )
+		)
+		( "RD"
+			( "val" "1" )
+		)
+		( "RS"
+			( "val" "1" )
+		)
+		( "CGS"
+			( "val" "5.5p" )
+		)
+		( "CGD"
+			( "val" "2p" )
+		)
+		( "IS"
+			( "val" ".35n" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+	)
+	)
+	("device_max_ops"
+		( IG "10m" )
+		( VGS "400" )
+		( TJ "150" )
+	)
+)
+("awb2sk121"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-0.9669" )
+		)
+		( "BETA"
+			( "val" "10.19E-3" )
+		)
+		( "LAMBDA"
+			( "val" "0" )
+		)
+		( "RD"
+			( "val" "21.94" )
+		)
+		( "RS"
+			( "val" "0" )
+		)
+		( "CGS"
+			( "val" "7.0E-12" )
+		)
+		( "CGD"
+			( "val" "7.0E-12" )
+		)
+		( "PB"
+			( "val" "0.8" )
+		)
+		( "IS"
+			( "val" "10E-15" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDG "30" )
+		( VGS "50" )
+		( IG "0.005" )
+		( PDM "0.3" )
+		( TJ "120" )
+	)
+)
+("awb2sk125"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.0" )
+		)
+		( "BETA"
+			( "val" "3.125E-3" )
+		)
+		( "LAMBDA"
+			( "val" "25E-3" )
+		)
+		( "RD"
+			( "val" "10" )
+		)
+		( "RS"
+			( "val" "10" )
+		)
+		( "CGS"
+			( "val" "6.75E-12" )
+		)
+		( "CGD"
+			( "val" "10.17E-12" )
+		)
+		( "PB"
+			( "val" "0.7" )
+		)
+		( "IS"
+			( "val" "1E-9" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awb2sk12"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.3" )
+		)
+		( "BETA"
+			( "val" "378.1E-3" )
+		)
+		( "LAMBDA"
+			( "val" "2.94E-3" )
+		)
+		( "RD"
+			( "val" "12" )
+		)
+		( "RS"
+			( "val" "12" )
+		)
+		( "CGS"
+			( "val" "9.0E-12" )
+		)
+		( "CGD"
+			( "val" "9.0E-12" )
+		)
+		( "PB"
+			( "val" "0.7" )
+		)
+		( "IS"
+			( "val" "40E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awb2sk141"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-1.6" )
+		)
+		( "BETA"
+			( "val" "1.953E-3" )
+		)
+		( "LAMBDA"
+			( "val" "10E-3" )
+		)
+		( "RD"
+			( "val" "30" )
+		)
+		( "RS"
+			( "val" "30" )
+		)
+		( "CGS"
+			( "val" "3.0E-12" )
+		)
+		( "CGD"
+			( "val" "3.0E-12" )
+		)
+		( "PB"
+			( "val" "1.1" )
+		)
+		( "IS"
+			( "val" "50E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awb2sk141a"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-1.6" )
+		)
+		( "BETA"
+			( "val" "1.953E-3" )
+		)
+		( "LAMBDA"
+			( "val" "10E-3" )
+		)
+		( "RD"
+			( "val" "30" )
+		)
+		( "RS"
+			( "val" "30" )
+		)
+		( "CGS"
+			( "val" "3.0E-12" )
+		)
+		( "CGD"
+			( "val" "3.0E-12" )
+		)
+		( "PB"
+			( "val" "1.1" )
+		)
+		( "IS"
+			( "val" "2E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awb2sk152"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-1.2" )
+		)
+		( "BETA"
+			( "val" "17.4E-3" )
+		)
+		( "LAMBDA"
+			( "val" "40E-3" )
+		)
+		( "RD"
+			( "val" "10" )
+		)
+		( "RS"
+			( "val" "10" )
+		)
+		( "CGS"
+			( "val" "6.0E-12" )
+		)
+		( "CGD"
+			( "val" "2.0E-12" )
+		)
+		( "PB"
+			( "val" "0.7" )
+		)
+		( "IS"
+			( "val" "100E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awb2sk156j"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 510 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("device_max_ops"
+	)
+)
+("awb2sk156l"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 510 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("device_max_ops"
+	)
+)
+("awb2sk30a"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-1.336" )
+		)
+		( "BETA"
+			( "val" "976.4E-6" )
+		)
+		( "LAMBDA"
+			( "val" "0" )
+		)
+		( "RD"
+			( "val" "442.2" )
+		)
+		( "RS"
+			( "val" "0" )
+		)
+		( "CGS"
+			( "val" "8.2E-12" )
+		)
+		( "CGD"
+			( "val" "8.2E-12" )
+		)
+		( "PB"
+			( "val" "0.8" )
+		)
+		( "IS"
+			( "val" "10E-15" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDG "30" )
+		( VGS "50" )
+		( IG "0.01" )
+		( PDM "0.1" )
+		( TJ "125" )
+	)
+)
+("awb2sk316"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-1.6" )
+		)
+		( "BETA"
+			( "val" "5.47E-3" )
+		)
+		( "LAMBDA"
+			( "val" "25E-3" )
+		)
+		( "RD"
+			( "val" "10" )
+		)
+		( "RS"
+			( "val" "10" )
+		)
+		( "CGS"
+			( "val" "8.05E-12" )
+		)
+		( "CGD"
+			( "val" "3.45E-12" )
+		)
+		( "PB"
+			( "val" "0.7" )
+		)
+		( "IS"
+			( "val" "100E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awb2sk520"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.0" )
+		)
+		( "BETA"
+			( "val" "3.75E-3" )
+		)
+		( "LAMBDA"
+			( "val" "4.31E-3" )
+		)
+		( "RD"
+			( "val" "3.33" )
+		)
+		( "RS"
+			( "val" "3.33" )
+		)
+		( "CGS"
+			( "val" "7.35E-12" )
+		)
+		( "CGD"
+			( "val" "7.32E-12" )
+		)
+		( "PB"
+			( "val" "0.996" )
+		)
+		( "IS"
+			( "val" "100E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awb2sk94_x3"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-0.9669" )
+		)
+		( "BETA"
+			( "val" "10.19E-3" )
+		)
+		( "LAMBDA"
+			( "val" "0" )
+		)
+		( "RD"
+			( "val" "21.94" )
+		)
+		( "RS"
+			( "val" "0" )
+		)
+		( "CGS"
+			( "val" "7.0E-12" )
+		)
+		( "CGD"
+			( "val" "7.0E-12" )
+		)
+		( "PB"
+			( "val" "0.8" )
+		)
+		( "IS"
+			( "val" "10E-15" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDG "30" )
+		( VGS "50" )
+		( IG "0.005" )
+		( PDM "0.3" )
+		( TJ "120" )
+	)
+)
+("awbbfw11"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.2" )
+		)
+		( "BETA"
+			( "val" "567E-6" )
+		)
+		( "LAMBDA"
+			( "val" "10E-6" )
+		)
+		( "RD"
+			( "val" "10" )
+		)
+		( "RS"
+			( "val" "10" )
+		)
+		( "CGS"
+			( "val" "3.3E-12" )
+		)
+		( "CGD"
+			( "val" "3.3E-12" )
+		)
+		( "PB"
+			( "val" "3.05" )
+		)
+		( "IS"
+			( "val" "10E-12" )
+		)
+		( "KF"
+			( "val" "2.0E-18" )
+		)
+		( "AF"
+			( "val" "0.287" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "30" )
+		( VDG "30" )
+		( VGS "30" )
+		( IG "0.02" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awbbfw12"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.0" )
+		)
+		( "BETA"
+			( "val" "625E-6" )
+		)
+		( "LAMBDA"
+			( "val" "3.57E-3" )
+		)
+		( "RD"
+			( "val" "50.0" )
+		)
+		( "RS"
+			( "val" "50.0" )
+		)
+		( "CGS"
+			( "val" "3.5E-12" )
+		)
+		( "CGD"
+			( "val" "3.5E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "10E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "50" )
+		( VDG "50" )
+		( VGS "50" )
+		( IG "0.05" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awbbfw13"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-0.5" )
+		)
+		( "BETA"
+			( "val" "2.0E-3" )
+		)
+		( "LAMBDA"
+			( "val" "2.42E-3" )
+		)
+		( "RD"
+			( "val" "100.0" )
+		)
+		( "RS"
+			( "val" "100.0" )
+		)
+		( "CGS"
+			( "val" "3.5E-12" )
+		)
+		( "CGD"
+			( "val" "3.5E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "10E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "50" )
+		( VDG "50" )
+		( VGS "50" )
+		( IG "0.05" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awbbsv79"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( SYMBOL_NAME "NCHANNEL3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.2680826" )
+		)
+		( "BETA"
+			( "val" "3.68282E-3" )
+		)
+		( "LAMBDA"
+			( "val" "0.0150496" )
+		)
+		( "RD"
+			( "val" "0.1" )
+		)
+		( "RS"
+			( "val" "3.0902286" )
+		)
+		( "CGS"
+			( "val" "1.89456E-11" )
+		)
+		( "CGD"
+			( "val" "1.94282E-11" )
+		)
+		( "PB"
+			( "val" "1.0565328" )
+		)
+		( "IS"
+			( "val" "5.47779E-15" )
+		)
+		( "FC"
+			( "val" "0.8" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( IG "10m" )
+		( VDG "30" )
+		( VDS "30" )
+		( VGS "30" )
+		( PDM "310m" )
+		( TJ "150" )
+		( RJC "83.3" )
+		( RCA "116.7" )
+	)
+)
+("awbdn324"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.105" )
+		)
+		( "BETA"
+			( "val" "673.6E-6" )
+		)
+		( "LAMBDA"
+			( "val" "0" )
+		)
+		( "RD"
+			( "val" "0" )
+		)
+		( "RS"
+			( "val" "0" )
+		)
+		( "CGS"
+			( "val" "7E-12" )
+		)
+		( "CGD"
+			( "val" "6.5E-12" )
+		)
+		( "PB"
+			( "val" "1.0" )
+		)
+		( "IS"
+			( "val" "10E-15" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbe2131"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.169" )
+		)
+		( "BETA"
+			( "val" "1.822E-3" )
+		)
+		( "LAMBDA"
+			( "val" "10E-6" )
+		)
+		( "RD"
+			( "val" "0" )
+		)
+		( "RS"
+			( "val" "0" )
+		)
+		( "CGS"
+			( "val" "4.5E-12" )
+		)
+		( "CGD"
+			( "val" "4.5E-12" )
+		)
+		( "PB"
+			( "val" "1.0" )
+		)
+		( "IS"
+			( "val" "10E-15" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbfn4117"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-1.2" )
+		)
+		( "BETA"
+			( "val" "42E-6" )
+		)
+		( "LAMBDA"
+			( "val" "0.02" )
+		)
+		( "RD"
+			( "val" "0" )
+		)
+		( "RS"
+			( "val" "0" )
+		)
+		( "CGS"
+			( "val" "3E-12" )
+		)
+		( "CGD"
+			( "val" "3E-12" )
+		)
+		( "PB"
+			( "val" "1" )
+		)
+		( "IS"
+			( "val" "1E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awbfn4118"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.0" )
+		)
+		( "BETA"
+			( "val" "37.5E-6" )
+		)
+		( "LAMBDA"
+			( "val" "15.384E-3" )
+		)
+		( "RD"
+			( "val" "0" )
+		)
+		( "RS"
+			( "val" "0" )
+		)
+		( "CGS"
+			( "val" "3E-12" )
+		)
+		( "CGD"
+			( "val" "3E-12" )
+		)
+		( "PB"
+			( "val" "1" )
+		)
+		( "IS"
+			( "val" "1E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awbfn4119"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.0" )
+		)
+		( "BETA"
+			( "val" "44.44E-6" )
+		)
+		( "LAMBDA"
+			( "val" "33.33E-3" )
+		)
+		( "RD"
+			( "val" "0" )
+		)
+		( "RS"
+			( "val" "0" )
+		)
+		( "CGS"
+			( "val" "3E-12" )
+		)
+		( "CGD"
+			( "val" "3E-12" )
+		)
+		( "PB"
+			( "val" "1" )
+		)
+		( "IS"
+			( "val" "1E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awbfn4392"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.5" )
+		)
+		( "BETA"
+			( "val" "4.082E-3" )
+		)
+		( "LAMBDA"
+			( "val" "5.55E-3" )
+		)
+		( "RD"
+			( "val" "2" )
+		)
+		( "RS"
+			( "val" "2" )
+		)
+		( "CGS"
+			( "val" "12E-12" )
+		)
+		( "CGD"
+			( "val" "8.5E-12" )
+		)
+		( "PB"
+			( "val" "0.8" )
+		)
+		( "IS"
+			( "val" "20E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "1.8" )
+		( TJ "175" )
+	)
+)
+("awbfn4393"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-1.75" )
+		)
+		( "BETA"
+			( "val" "5.714E-3" )
+		)
+		( "LAMBDA"
+			( "val" "4.545E-3" )
+		)
+		( "RD"
+			( "val" "2" )
+		)
+		( "RS"
+			( "val" "2" )
+		)
+		( "CGS"
+			( "val" "12E-12" )
+		)
+		( "CGD"
+			( "val" "8.5E-12" )
+		)
+		( "PB"
+			( "val" "0.8" )
+		)
+		( "IS"
+			( "val" "20E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "1.8" )
+		( TJ "175" )
+	)
+)
+("awbidealnch"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.0" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbj110"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( SYMBOL_NAME "NCHANNEL3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-1.8336628" )
+		)
+		( "BETA"
+			( "val" "0.0460062" )
+		)
+		( "LAMBDA"
+			( "val" "0.0263895" )
+		)
+		( "RD"
+			( "val" "4.3551696" )
+		)
+		( "RS"
+			( "val" "1.7229191" )
+		)
+		( "CGS"
+			( "val" "9.1602E-11" )
+		)
+		( "CGD"
+			( "val" "9.60305E-11" )
+		)
+		( "PB"
+			( "val" "0.9279508" )
+		)
+		( "IS"
+			( "val" "3.79956E-14" )
+		)
+		( "FC"
+			( "val" "0.4" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( IG "10m" )
+		( VDG "25" )
+		( VGS "25" )
+		( PDM "310" )
+		( TJ "135" )
+		( RJC "83.3" )
+		( RCA "116.7" )
+	)
+)
+("awbj112"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( SYMBOL_NAME "NCHANNEL3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.29735" )
+		)
+		( "BETA"
+			( "val" "4.9105E-3" )
+		)
+		( "LAMBDA"
+			( "val" "0.0183507" )
+		)
+		( "RD"
+			( "val" "1.5698736" )
+		)
+		( "RS"
+			( "val" "10.5409944" )
+		)
+		( "CGS"
+			( "val" "1.6031E-12" )
+		)
+		( "CGD"
+			( "val" "1.6008E-11" )
+		)
+		( "PB"
+			( "val" "1.0622" )
+		)
+		( "IS"
+			( "val" "1.8484E-15" )
+		)
+		( "FC"
+			( "val" "0.4" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( IG "50m" )
+		( VDG "35" )
+		( VGS "35" )
+		( PDM "625m" )
+		( TJ "150" )
+		( RJC "83.3" )
+		( RCA "116.7" )
+	)
+)
+("awbj309"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.5" )
+		)
+		( "BETA"
+			( "val" "2.375E-3" )
+		)
+		( "LAMBDA"
+			( "val" "19E-3" )
+		)
+		( "RD"
+			( "val" "0.5" )
+		)
+		( "RS"
+			( "val" "0.5" )
+		)
+		( "CGS"
+			( "val" "5.8E-12" )
+		)
+		( "CGD"
+			( "val" "6.5E-12" )
+		)
+		( "PB"
+			( "val" "1.667" )
+		)
+		( "IS"
+			( "val" "50E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "25" )
+		( VDG "25" )
+		( VGS "25" )
+		( IG "0.01" )
+		( PDM "0.35" )
+		( TJ "125" )
+		( RJC "125" )
+		( RCA "160" )
+	)
+)
+("awbj310"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( SYMBOL_NAME "NCHANNEL3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.8031764" )
+		)
+		( "BETA"
+			( "val" "4.24411E-3" )
+		)
+		( "LAMBDA"
+			( "val" "0.0186244" )
+		)
+		( "RD"
+			( "val" "1" )
+		)
+		( "RS"
+			( "val" "3.862096" )
+		)
+		( "CGS"
+			( "val" "7.76159E-12" )
+		)
+		( "CGD"
+			( "val" "1.13093E-11" )
+		)
+		( "PB"
+			( "val" "1.0537915" )
+		)
+		( "IS"
+			( "val" "1.49088E-15" )
+		)
+		( "FC"
+			( "val" "0.4" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( IG "10m" )
+		( VDS "25" )
+		( VGS "25" )
+		( PDM "350m" )
+		( TJ "125" )
+		( RJC "83.3" )
+		( RCA "116.7" )
+	)
+)
+("awbmmbf5459"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( SYMBOL_NAME "NCHANNEL3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.4513013" )
+		)
+		( "BETA"
+			( "val" "4.0927E-4" )
+		)
+		( "LAMBDA"
+			( "val" "2.45819E-3" )
+		)
+		( "RD"
+			( "val" "38.4358172" )
+		)
+		( "RS"
+			( "val" "6.2380629" )
+		)
+		( "CGS"
+			( "val" "8.6709E-12" )
+		)
+		( "CGD"
+			( "val" "8.5241E-12" )
+		)
+		( "PB"
+			( "val" "2" )
+		)
+		( "IS"
+			( "val" "2.10127E-15" )
+		)
+		( "FC"
+			( "val" "0.4" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( IG "10m" )
+		( VDG "25" )
+		( VGS "25" )
+		( PDM "350m" )
+		( TJ "150" )
+		( RJC "36" )
+		( RCA "800" )
+	)
+)
+("awbmp844"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.0" )
+		)
+		( "BETA"
+			( "val" "1.3E-3" )
+		)
+		( "LAMBDA"
+			( "val" "10E-3" )
+		)
+		( "RD"
+			( "val" "10" )
+		)
+		( "RS"
+			( "val" "10" )
+		)
+		( "CGS"
+			( "val" "16.5E-12" )
+		)
+		( "CGD"
+			( "val" "23.7E-12" )
+		)
+		( "PB"
+			( "val" "0.8" )
+		)
+		( "IS"
+			( "val" "15E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1.0" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbmpf820"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( SYMBOL_NAME "NCHANNEL3" )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.6827535" )
+		)
+		( "BETA"
+			( "val" "4.32408E-3" )
+		)
+		( "LAMBDA"
+			( "val" "0.0182895" )
+		)
+		( "RD"
+			( "val" "2.6265258" )
+		)
+		( "RS"
+			( "val" "3.1016058" )
+		)
+		( "CGS"
+			( "val" "1.79128E-11" )
+		)
+		( "CGD"
+			( "val" "1.84136E-11" )
+		)
+		( "PB"
+			( "val" "0.9826529" )
+		)
+		( "IS"
+			( "val" "1.83679E-15" )
+		)
+		( "FC"
+			( "val" "0.8" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( IG "10m" )
+		( VDG "25" )
+		( VDS "25" )
+		( VGS "25" )
+		( PDM "625m" )
+		( TJ "150" )
+		( RJC "83.3" )
+		( RCA "116.7" )
+	)
+)
+("awbpn4117"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-1.2" )
+		)
+		( "BETA"
+			( "val" "42E-6" )
+		)
+		( "LAMBDA"
+			( "val" "0.02" )
+		)
+		( "RD"
+			( "val" "0" )
+		)
+		( "RS"
+			( "val" "0" )
+		)
+		( "CGS"
+			( "val" "3E-12" )
+		)
+		( "CGD"
+			( "val" "3E-12" )
+		)
+		( "PB"
+			( "val" "1" )
+		)
+		( "IS"
+			( "val" "1E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awbpn4118"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.0" )
+		)
+		( "BETA"
+			( "val" "37.5E-6" )
+		)
+		( "LAMBDA"
+			( "val" "15.384E-3" )
+		)
+		( "RD"
+			( "val" "0" )
+		)
+		( "RS"
+			( "val" "0" )
+		)
+		( "CGS"
+			( "val" "3E-12" )
+		)
+		( "CGD"
+			( "val" "3E-12" )
+		)
+		( "PB"
+			( "val" "1" )
+		)
+		( "IS"
+			( "val" "1E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awbpn4119"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.0" )
+		)
+		( "BETA"
+			( "val" "44.44E-6" )
+		)
+		( "LAMBDA"
+			( "val" "33.33E-3" )
+		)
+		( "RD"
+			( "val" "0" )
+		)
+		( "RS"
+			( "val" "0" )
+		)
+		( "CGS"
+			( "val" "3E-12" )
+		)
+		( "CGD"
+			( "val" "3E-12" )
+		)
+		( "PB"
+			( "val" "1" )
+		)
+		( "IS"
+			( "val" "1E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awbpn4416"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.1" )
+		)
+		( "BETA"
+			( "val" "1.0E-3" )
+		)
+		( "LAMBDA"
+			( "val" "1.22E-3" )
+		)
+		( "RD"
+			( "val" "4.0" )
+		)
+		( "RS"
+			( "val" "4.0" )
+		)
+		( "CGS"
+			( "val" "2.0E-12" )
+		)
+		( "CGD"
+			( "val" "2.0E-12" )
+		)
+		( "PB"
+			( "val" "0.8" )
+		)
+		( "IS"
+			( "val" "10E-12" )
+		)
+		( "KF"
+			( "val" "1.88E-18" )
+		)
+		( "AF"
+			( "val" "0.287" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "30" )
+		( VDG "30" )
+		( VGS "30" )
+		( IG "0.01" )
+		( PDM "0.3" )
+		( TJ "175" )
+	)
+)
+("awbsst201"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-0.5" )
+		)
+		( "BETA"
+			( "val" "2.0E-3" )
+		)
+		( "LAMBDA"
+			( "val" "2.42E-3" )
+		)
+		( "RD"
+			( "val" "100.0" )
+		)
+		( "RS"
+			( "val" "100.0" )
+		)
+		( "CGS"
+			( "val" "3.5E-12" )
+		)
+		( "CGD"
+			( "val" "3.5E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "10E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "175" )
+	)
+)
+("awbsst202"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-1.0" )
+		)
+		( "BETA"
+			( "val" "1.0E-3" )
+		)
+		( "LAMBDA"
+			( "val" "2.73E-3" )
+		)
+		( "RD"
+			( "val" "75.0" )
+		)
+		( "RS"
+			( "val" "75.0" )
+		)
+		( "CGS"
+			( "val" "3.5E-12" )
+		)
+		( "CGD"
+			( "val" "3.5E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "10E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "175" )
+	)
+)
+("awbsst203"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.0" )
+		)
+		( "BETA"
+			( "val" "625E-6" )
+		)
+		( "LAMBDA"
+			( "val" "3.57E-3" )
+		)
+		( "RD"
+			( "val" "50.0" )
+		)
+		( "RS"
+			( "val" "50.0" )
+		)
+		( "CGS"
+			( "val" "3.5E-12" )
+		)
+		( "CGD"
+			( "val" "3.5E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "10E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "50" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "175" )
+	)
+)
+("awbsst204"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.0" )
+		)
+		( "BETA"
+			( "val" "437.5E-6" )
+		)
+		( "LAMBDA"
+			( "val" "3.0E-3" )
+		)
+		( "RD"
+			( "val" "22.0" )
+		)
+		( "RS"
+			( "val" "22.0" )
+		)
+		( "CGS"
+			( "val" "3.5E-12" )
+		)
+		( "CGD"
+			( "val" "3.5E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "10E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "50" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "175" )
+	)
+)
+("awbsst4856"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-8.0" )
+		)
+		( "BETA"
+			( "val" "2.344E-3" )
+		)
+		( "LAMBDA"
+			( "val" "1.424E-3" )
+		)
+		( "RD"
+			( "val" "1.0" )
+		)
+		( "RS"
+			( "val" "1.0" )
+		)
+		( "CGS"
+			( "val" "5E-12" )
+		)
+		( "CGD"
+			( "val" "20E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "75E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "175" )
+	)
+)
+("awbsst4857"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.0" )
+		)
+		( "BETA"
+			( "val" "5.0E-3" )
+		)
+		( "LAMBDA"
+			( "val" "1.5076E-3" )
+		)
+		( "RD"
+			( "val" "1.0" )
+		)
+		( "RS"
+			( "val" "1.0" )
+		)
+		( "CGS"
+			( "val" "5E-12" )
+		)
+		( "CGD"
+			( "val" "20E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "75E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "175" )
+	)
+)
+("awbsst4858"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.0" )
+		)
+		( "BETA"
+			( "val" "5.0E-3" )
+		)
+		( "LAMBDA"
+			( "val" "3.5714E-3" )
+		)
+		( "RD"
+			( "val" "1.0" )
+		)
+		( "RS"
+			( "val" "1.0" )
+		)
+		( "CGS"
+			( "val" "5E-12" )
+		)
+		( "CGD"
+			( "val" "20E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "75E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "40" )
+		( VDG "40" )
+		( VGS "40" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "175" )
+	)
+)
+("awbsst4859"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-8.0" )
+		)
+		( "BETA"
+			( "val" "2.344E-3" )
+		)
+		( "LAMBDA"
+			( "val" "1.424E-3" )
+		)
+		( "RD"
+			( "val" "1.0" )
+		)
+		( "RS"
+			( "val" "1.0" )
+		)
+		( "CGS"
+			( "val" "5E-12" )
+		)
+		( "CGD"
+			( "val" "20E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "75E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "30" )
+		( VDG "30" )
+		( VGS "30" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "175" )
+	)
+)
+("awbsst4860"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.0" )
+		)
+		( "BETA"
+			( "val" "5.0E-3" )
+		)
+		( "LAMBDA"
+			( "val" "1.5076E-3" )
+		)
+		( "RD"
+			( "val" "1.0" )
+		)
+		( "RS"
+			( "val" "1.0" )
+		)
+		( "CGS"
+			( "val" "5E-12" )
+		)
+		( "CGD"
+			( "val" "20E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "75E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "30" )
+		( VDG "30" )
+		( VGS "30" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "175" )
+	)
+)
+("awbsst4861"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-2.0" )
+		)
+		( "BETA"
+			( "val" "5.0E-3" )
+		)
+		( "LAMBDA"
+			( "val" "3.5714E-3" )
+		)
+		( "RD"
+			( "val" "1.0" )
+		)
+		( "RS"
+			( "val" "1.0" )
+		)
+		( "CGS"
+			( "val" "5E-12" )
+		)
+		( "CGD"
+			( "val" "20E-12" )
+		)
+		( "PB"
+			( "val" "0.9" )
+		)
+		( "IS"
+			( "val" "75E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "30" )
+		( VDG "30" )
+		( VGS "30" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "175" )
+	)
+)
+("awbsst5457"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-1.5" )
+		)
+		( "BETA"
+			( "val" "1.33E-3" )
+		)
+		( "LAMBDA"
+			( "val" "7.857E-3" )
+		)
+		( "RD"
+			( "val" "107.1" )
+		)
+		( "RS"
+			( "val" "107.1" )
+		)
+		( "CGS"
+			( "val" "3.0E-12" )
+		)
+		( "CGD"
+			( "val" "6.0E-12" )
+		)
+		( "PB"
+			( "val" "0.8" )
+		)
+		( "IS"
+			( "val" "500E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "30" )
+		( VDG "30" )
+		( VGS "30" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "125" )
+	)
+)
+("awbsst5458"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-3.0" )
+		)
+		( "BETA"
+			( "val" "0.666E-3" )
+		)
+		( "LAMBDA"
+			( "val" "7.5E-3" )
+		)
+		( "RD"
+			( "val" "7.4" )
+		)
+		( "RS"
+			( "val" "7.4" )
+		)
+		( "CGS"
+			( "val" "3.0E-12" )
+		)
+		( "CGD"
+			( "val" "6.0E-12" )
+		)
+		( "PB"
+			( "val" "0.8" )
+		)
+		( "IS"
+			( "val" "500E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "30" )
+		( VDG "30" )
+		( VGS "30" )
+		( IG "0.05" )
+		( PDM "0.36" )
+		( TJ "125" )
+	)
+)
+("awbsst5459"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.0" )
+		)
+		( "BETA"
+			( "val" "0.5625E-3" )
+		)
+		( "LAMBDA"
+			( "val" "7.2E-3" )
+		)
+		( "RD"
+			( "val" "3.0" )
+		)
+		( "RS"
+			( "val" "3.0" )
+		)
+		( "CGS"
+			( "val" "3.0E-12" )
+		)
+		( "CGD"
+			( "val" "6.0E-12" )
+		)
+		( "PB"
+			( "val" "0.8" )
+		)
+		( "IS"
+			( "val" "500E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "25" )
+		( VDG "25" )
+		( VGS "25" )
+		( IG "0.01" )
+		( PDM "0.36" )
+		( TJ "125" )
+	)
+)
+("awbu308"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.0" )
+		)
+		( "BETA"
+			( "val" "2.375E-3" )
+		)
+		( "LAMBDA"
+			( "val" "19E-3" )
+		)
+		( "RD"
+			( "val" "0.5" )
+		)
+		( "RS"
+			( "val" "0.5" )
+		)
+		( "CGS"
+			( "val" "5.8E-12" )
+		)
+		( "CGD"
+			( "val" "6.5E-12" )
+		)
+		( "PB"
+			( "val" "1.667" )
+		)
+		( "IS"
+			( "val" "50E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "25" )
+		( VDG "25" )
+		( VGS "25" )
+		( IG "0.02" )
+		( PDM "0.5" )
+		( TJ "150" )
+	)
+)
+("awbu309"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.0" )
+		)
+		( "BETA"
+			( "val" "2.375E-3" )
+		)
+		( "LAMBDA"
+			( "val" "19E-3" )
+		)
+		( "RD"
+			( "val" "0.5" )
+		)
+		( "RS"
+			( "val" "0.5" )
+		)
+		( "CGS"
+			( "val" "5.8E-12" )
+		)
+		( "CGD"
+			( "val" "6.5E-12" )
+		)
+		( "PB"
+			( "val" "1.667" )
+		)
+		( "IS"
+			( "val" "50E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "25" )
+		( VDG "25" )
+		( VGS "25" )
+		( IG "0.02" )
+		( PDM "0.5" )
+		( TJ "150" )
+	)
+)
+("awbu310"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:22:45 IST 2001")
+	("device_info"
+		( MODEL_TYPE 10 )
+		( PORT_ORDER 
+ 			("D")
+ 			("G")
+ 			("S") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "-4.0" )
+		)
+		( "BETA"
+			( "val" "2.375E-3" )
+		)
+		( "LAMBDA"
+			( "val" "19E-3" )
+		)
+		( "RD"
+			( "val" "0.5" )
+		)
+		( "RS"
+			( "val" "0.5" )
+		)
+		( "CGS"
+			( "val" "5.8E-12" )
+		)
+		( "CGD"
+			( "val" "6.5E-12" )
+		)
+		( "PB"
+			( "val" "1.667" )
+		)
+		( "IS"
+			( "val" "50E-12" )
+		)
+		( "KF"
+			( "val" "0" )
+		)
+		( "AF"
+			( "val" "1" )
+		)
+		( "FC"
+			( "val" "0.5" )
+		)
+	)
+	("symbol"
+			( "IC_VDS" )
+			( "IC_VGS" )
+			( "STATE" )
+			( "AREA" )
+	)
+	)
+	("device_max_ops"
+		( VDS "25" )
+		( VDG "25" )
+		( VGS "25" )
+		( IG "0.02" )
+		( PDM "0.5" )
+		( TJ "150" )
+	)
+)

@@ -1,0 +1,294 @@
+("LG_V196-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:38:10 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "30m")
+		(VD "12")
+		(PDM "80m")
+		(TJ "95")
+	)
+)
+("LG_V296-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:38:10 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "30m")
+		(VD "12")
+		(PDM "80m")
+		(TJ "95")
+	)
+)
+("LY_V296-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:38:10 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "30m")
+		(VD "12")
+		(PDM "80m")
+		(TJ "95")
+	)
+)
+("LY_V196-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:38:10 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "30m")
+		(VD "12")
+		(PDM "80m")
+		(TJ "95")
+	)
+)
+("LB_V193-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:38:10 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "20m")
+		(VD "5")
+		(PDM "80m")
+		(TJ "95")
+	)
+)
+("LO_V296-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:38:10 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "30m")
+		(VD "12")
+		(PDM "80m")
+		(TJ "95")
+	)
+)
+("LO_V196-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:38:10 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "30m")
+		(VD "12")
+		(PDM "80m")
+		(TJ "95")
+	)
+)
+("LW_V18C-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:38:11 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "20m")
+		(VD "5")
+		(PDM "85m")
+		(TJ "95")
+	)
+)
+("LS_V296-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:38:11 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "30m")
+		(VD "12")
+		(PDM "80m")
+		(TJ "95")
+	)
+)
+("LS_V196-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:38:11 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "30m")
+		(VD "12")
+		(PDM "80m")
+		(TJ "95")
+	)
+)
+("LB_V19G-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:38:11 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "20m")
+		(VD "5")
+		(PDM "80m")
+		(TJ "95")
+	)
+)
+("LW_V283-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:38:11 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "20m")
+		(VD "5")
+		(PDM "80m")
+		(TJ "95")
+	)
+)
+("LW_V28G-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:38:11 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "20m")
+		(VD "5")
+		(PDM "80m")
+		(TJ "95")
+	)
+)
+("LW_V18G-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 14:38:11 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "20m")
+		(VD "5")
+		(PDM "80m")
+		(TJ "95")
+	)
+)

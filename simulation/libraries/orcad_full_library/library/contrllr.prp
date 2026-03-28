@@ -1,0 +1,1878 @@
+("awbsg1524"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "1524" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("PCLS")
+ 			("NCLS")
+ 			("GND")
+ 			("PIN")
+ 			("NIN")
+ 			("VREF")
+ 			("SD")
+ 			("RT")
+ 			("PVIN")
+ 			("OSC")
+ 			("ENB")
+ 			("ENA")
+ 			("CT")
+ 			("COMP")
+ 			("CNB")
+ 			("CNA") )
+	)
+	("model_params"
+	("level_0"
+		( "PERIOD"
+			( "val" "20e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+		( "MAX_V"
+			( "val" "3.5" )
+			( "postol" "MAX_V_PTOL" )
+			( "negtol" "MAX_V_NTOL" )
+			( "distrib" "MAX_V_DIST" )
+		)
+		( "MIN_V"
+			( "val" "1" )
+			( "postol" "MIN_V_PTOL" )
+			( "negtol" "MIN_V_NTOL" )
+			( "distrib" "MIN_V_DIST" )
+		)
+		( "GM"
+			( "val" "2e-3" )
+			( "postol" "GM_PTOL" )
+			( "negtol" "GM_NTOL" )
+			( "distrib" "GM_DIST" )
+		)
+		( "AVMAX"
+			( "val" "80" )
+			( "postol" "AVMAX_PTOL" )
+			( "negtol" "AVMAX_NTOL" )
+			( "distrib" "AVMAX_DIST" )
+		)
+		( "GBW"
+			( "val" "3e+6" )
+			( "postol" "GBW_PTOL" )
+			( "negtol" "GBW_NTOL" )
+			( "distrib" "GBW_DIST" )
+		)
+	)
+	("symbol"
+			( "AVMAX" )
+			( "DEAD_TIME" )
+			( "GBW" )
+			( "GM" )
+			( "MAX_V" )
+			( "MIN_V" )
+			( "PERIOD" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbsg1525a"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "1525A" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("COM")
+ 			("COMP")
+ 			("SS")
+ 			("DCHG")
+ 			("VREF")
+ 			("SYNC")
+ 			("SD")
+ 			("RT")
+ 			("PVIN")
+ 			("PVC")
+ 			("PIN1")
+ 			("OSC")
+ 			("NIN1")
+ 			("DRB")
+ 			("DRA")
+ 			("CT") )
+	)
+	("model_params"
+	("level_0"
+		( "PERIOD"
+			( "val" "20E-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1E-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+		( "MAX_V"
+			( "val" "3" )
+			( "postol" "MAX_V_PTOL" )
+			( "negtol" "MAX_V_NTOL" )
+			( "distrib" "MAX_V_DIST" )
+		)
+		( "MIN_V"
+			( "val" "1" )
+			( "postol" "MIN_V_PTOL" )
+			( "negtol" "MIN_V_NTOL" )
+			( "distrib" "MIN_V_DIST" )
+		)
+		( "AV"
+			( "val" "75" )
+			( "postol" "0" )
+			( "negtol" "0" )
+		)
+		( "GBW"
+			( "val" "2E6" )
+			( "postol" "GBW_PTOL" )
+			( "negtol" "GBW_NTOL" )
+			( "distrib" "GBW_DIST" )
+		)
+		( "VOS"
+			( "val" "0.5E-6" )
+			( "postol" "0" )
+			( "negtol" "0" )
+		)
+		( "VREF"
+			( "val" "5.1" )
+			( "postol" "VREF_PTOL" )
+			( "negtol" "VREF_NTOL" )
+			( "distrib" "VREF_DIST" )
+		)
+	)
+	("symbol"
+			( "DEAD_TIME" )
+			( "GBW" )
+			( "MAX_V" )
+			( "MIN_V" )
+			( "PERIOD" )
+			( "VREF" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbsg1526"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 591 )
+		( SYMBOL_NAME "1526" )
+		( PORT_ORDER 
+ 			("COMP")
+ 			("CT")
+ 			("DCHG")
+ 			("DRA")
+ 			("DRB")
+ 			("GND")
+ 			("NIN1")
+ 			("NIN2")
+ 			("PIN1")
+ 			("PIN2")
+ 			("PVIN")
+ 			("RSET")
+ 			("RT")
+ 			("SD")
+ 			("SS")
+ 			("SYNC")
+ 			("VC")
+ 			("VREF") )
+	)
+	("model_params"
+	("level_0"
+		( "PERIOD"
+			( "val" "20e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+		( "MIN_V"
+			( "val" "1.0" )
+			( "postol" "MIN_V_PTOL" )
+			( "negtol" "MIN_V_NTOL" )
+			( "distrib" "MIN_V_DIST" )
+		)
+		( "MAX_V"
+			( "val" "3.0" )
+			( "postol" "MAX_V_PTOL" )
+			( "negtol" "MAX_V_NTOL" )
+			( "distrib" "MAX_V_DIST" )
+		)
+	)
+	("symbol"
+			( "DEAD_TIME" )
+			( "MAX_V" )
+			( "MIN_V" )
+			( "PERIOD" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbsg1527a"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "1527A" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("COM")
+ 			("COMP")
+ 			("SS")
+ 			("DCHG")
+ 			("VREF")
+ 			("SYNC")
+ 			("SD")
+ 			("RT")
+ 			("PVIN")
+ 			("PVC")
+ 			("PIN1")
+ 			("OSC")
+ 			("NIN1")
+ 			("DRB")
+ 			("DRA")
+ 			("CT") )
+	)
+	("model_params"
+	("level_0"
+		( "PERIOD"
+			( "val" "20E-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1E-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+		( "MAX_V"
+			( "val" "3" )
+			( "postol" "MAX_V_PTOL" )
+			( "negtol" "MAX_V_NTOL" )
+			( "distrib" "MAX_V_DIST" )
+		)
+		( "MIN_V"
+			( "val" "1" )
+			( "postol" "MIN_V_PTOL" )
+			( "negtol" "MIN_V_NTOL" )
+			( "distrib" "MIN_V_DIST" )
+		)
+		( "AV"
+			( "val" "75" )
+			( "postol" "0" )
+			( "negtol" "0" )
+		)
+		( "GBW"
+			( "val" "2E6" )
+			( "postol" "GBW_PTOL" )
+			( "negtol" "GBW_NTOL" )
+			( "distrib" "GBW_DIST" )
+		)
+		( "VOS"
+			( "val" "0.5E-6" )
+			( "postol" "0" )
+			( "negtol" "0" )
+		)
+		( "VREF"
+			( "val" "5.1" )
+			( "postol" "VREF_PTOL" )
+			( "negtol" "VREF_NTOL" )
+			( "distrib" "VREF_DIST" )
+		)
+	)
+	("symbol"
+			( "DEAD_TIME" )
+			( "GBW" )
+			( "MAX_V" )
+			( "MIN_V" )
+			( "PERIOD" )
+			( "VREF" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbsg3524"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "1524" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("PCLS")
+ 			("NCLS")
+ 			("GND")
+ 			("PIN")
+ 			("NIN")
+ 			("VREF")
+ 			("SD")
+ 			("RT")
+ 			("PVIN")
+ 			("OSC")
+ 			("ENB")
+ 			("ENA")
+ 			("CT")
+ 			("COMP")
+ 			("CNB")
+ 			("CNA") )
+	)
+	("model_params"
+	("level_0"
+		( "PERIOD"
+			( "val" "20e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+		( "MAX_V"
+			( "val" "3.5" )
+			( "postol" "MAX_V_PTOL" )
+			( "negtol" "MAX_V_NTOL" )
+			( "distrib" "MAX_V_DIST" )
+		)
+		( "MIN_V"
+			( "val" "1" )
+			( "postol" "MIN_V_PTOL" )
+			( "negtol" "MIN_V_NTOL" )
+			( "distrib" "MIN_V_DIST" )
+		)
+		( "GM"
+			( "val" "2e-3" )
+			( "postol" "GM_PTOL" )
+			( "negtol" "GM_NTOL" )
+			( "distrib" "GM_DIST" )
+		)
+		( "AVMAX"
+			( "val" "80" )
+			( "postol" "AVMAX_PTOL" )
+			( "negtol" "AVMAX_NTOL" )
+			( "distrib" "AVMAX_DIST" )
+		)
+		( "GBW"
+			( "val" "3e+6" )
+			( "postol" "GBW_PTOL" )
+			( "negtol" "GBW_NTOL" )
+			( "distrib" "GBW_DIST" )
+		)
+	)
+	("symbol"
+			( "AVMAX" )
+			( "DEAD_TIME" )
+			( "GBW" )
+			( "GM" )
+			( "MAX_V" )
+			( "MIN_V" )
+			( "PERIOD" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbsg3525a"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "1525A" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("COM")
+ 			("COMP")
+ 			("SS")
+ 			("DCHG")
+ 			("VREF")
+ 			("SYNC")
+ 			("SD")
+ 			("RT")
+ 			("PVIN")
+ 			("PVC")
+ 			("PIN1")
+ 			("OSC")
+ 			("NIN1")
+ 			("DRB")
+ 			("DRA")
+ 			("CT") )
+	)
+	("model_params"
+	("level_0"
+		( "PERIOD"
+			( "val" "20E-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1E-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+		( "MAX_V"
+			( "val" "3" )
+			( "postol" "MAX_V_PTOL" )
+			( "negtol" "MAX_V_NTOL" )
+			( "distrib" "MAX_V_DIST" )
+		)
+		( "MIN_V"
+			( "val" "1" )
+			( "postol" "MIN_V_PTOL" )
+			( "negtol" "MIN_V_NTOL" )
+			( "distrib" "MIN_V_DIST" )
+		)
+		( "AV"
+			( "val" "75" )
+			( "postol" "0" )
+			( "negtol" "0" )
+		)
+		( "GBW"
+			( "val" "2E6" )
+			( "postol" "GBW_PTOL" )
+			( "negtol" "GBW_NTOL" )
+			( "distrib" "GBW_DIST" )
+		)
+		( "VOS"
+			( "val" "0.5E-6" )
+			( "postol" "0" )
+			( "negtol" "0" )
+		)
+		( "VREF"
+			( "val" "5.1" )
+			( "postol" "VREF_PTOL" )
+			( "negtol" "VREF_NTOL" )
+			( "distrib" "VREF_DIST" )
+		)
+	)
+	("symbol"
+			( "DEAD_TIME" )
+			( "GBW" )
+			( "MAX_V" )
+			( "MIN_V" )
+			( "PERIOD" )
+			( "VREF" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbsg3526"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 591 )
+		( SYMBOL_NAME "1526" )
+		( PORT_ORDER 
+ 			("COMP")
+ 			("CT")
+ 			("DCHG")
+ 			("DRA")
+ 			("DRB")
+ 			("GND")
+ 			("NIN1")
+ 			("NIN2")
+ 			("PIN1")
+ 			("PIN2")
+ 			("PVIN")
+ 			("RSET")
+ 			("RT")
+ 			("SD")
+ 			("SS")
+ 			("SYNC")
+ 			("VC")
+ 			("VREF") )
+	)
+	("model_params"
+	("level_0"
+		( "PERIOD"
+			( "val" "20e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+		( "MIN_V"
+			( "val" "1.0" )
+			( "postol" "MIN_V_PTOL" )
+			( "negtol" "MIN_V_NTOL" )
+			( "distrib" "MIN_V_DIST" )
+		)
+		( "MAX_V"
+			( "val" "3.0" )
+			( "postol" "MAX_V_PTOL" )
+			( "negtol" "MAX_V_NTOL" )
+			( "distrib" "MAX_V_DIST" )
+		)
+	)
+	("symbol"
+			( "DEAD_TIME" )
+			( "MAX_V" )
+			( "MIN_V" )
+			( "PERIOD" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbsg3527a"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "1527A" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("COM")
+ 			("COMP")
+ 			("SS")
+ 			("DCHG")
+ 			("VREF")
+ 			("SYNC")
+ 			("SD")
+ 			("RT")
+ 			("PVIN")
+ 			("PVC")
+ 			("PIN1")
+ 			("OSC")
+ 			("NIN1")
+ 			("DRB")
+ 			("DRA")
+ 			("CT") )
+	)
+	("model_params"
+	("level_0"
+		( "PERIOD"
+			( "val" "20E-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1E-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+		( "MAX_V"
+			( "val" "3" )
+			( "postol" "MAX_V_PTOL" )
+			( "negtol" "MAX_V_NTOL" )
+			( "distrib" "MAX_V_DIST" )
+		)
+		( "MIN_V"
+			( "val" "1" )
+			( "postol" "MIN_V_PTOL" )
+			( "negtol" "MIN_V_NTOL" )
+			( "distrib" "MIN_V_DIST" )
+		)
+		( "AV"
+			( "val" "75" )
+			( "postol" "0" )
+			( "negtol" "0" )
+		)
+		( "GBW"
+			( "val" "2E6" )
+			( "postol" "GBW_PTOL" )
+			( "negtol" "GBW_NTOL" )
+			( "distrib" "GBW_DIST" )
+		)
+		( "VOS"
+			( "val" "0.5E-6" )
+			( "postol" "0" )
+			( "negtol" "0" )
+		)
+		( "VREF"
+			( "val" "5.1" )
+			( "postol" "VREF_PTOL" )
+			( "negtol" "VREF_NTOL" )
+			( "distrib" "VREF_DIST" )
+		)
+	)
+	("symbol"
+			( "DEAD_TIME" )
+			( "GBW" )
+			( "MAX_V" )
+			( "MIN_V" )
+			( "PERIOD" )
+			( "VREF" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbtl494"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 591 )
+		( SYMBOL_NAME "TL494" )
+		( PORT_ORDER 
+ 			("OC")
+ 			("CNA")
+ 			("ENA")
+ 			("CNB")
+ 			("ENB")
+ 			("PIN2")
+ 			("NIN2")
+ 			("COMP")
+ 			("GND")
+ 			("NIN1")
+ 			("PIN1")
+ 			("CT")
+ 			("RT")
+ 			("DTC")
+ 			("VREF")
+ 			("PVIN") )
+	)
+	("model_params"
+	("level_0"
+		( "VREF"
+			( "val" "5" )
+			( "postol" "VREF_PTOL" )
+			( "negtol" "VREF_NTOL" )
+			( "distrib" "VREF_DIST" )
+		)
+		( "PERIOD"
+			( "val" "25e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "INPUT_VTH"
+			( "val" "3.5" )
+			( "postol" "INPUT_VTH_PTOL" )
+			( "negtol" "INPUT_VTH_NTOL" )
+			( "distrib" "INPUT_VTH_DIST" )
+		)
+		( "V_DTC"
+			( "val" "0.12" )
+			( "postol" "V_DTC_PTOL" )
+			( "negtol" "V_DTC_NTOL" )
+			( "distrib" "V_DTC_DIST" )
+		)
+		( "V_PWM"
+			( "val" "0.7" )
+			( "postol" "V_PWM_PTOL" )
+			( "negtol" "V_PWM_NTOL" )
+			( "distrib" "V_PWM_DIST" )
+		)
+	)
+	("symbol"
+			( "INPUT_VTH" )
+			( "PERIOD" )
+			( "VREF" )
+			( "V_DTC" )
+			( "V_PWM" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbtsc18c42"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "1842_CMOS" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("COMP")
+ 			("DRA")
+ 			("GND")
+ 			("NIN1")
+ 			("PIN2")
+ 			("PVIN")
+ 			("RTCT")
+ 			("VREF") )
+	)
+	("model_params"
+	("level_0"
+		( "PERIOD"
+			( "val" "50e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+	)
+	("symbol"
+			( "DEAD_TIME" )
+			( "PERIOD" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbtsc18c43"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "1842_CMOS" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("COMP")
+ 			("DRA")
+ 			("GND")
+ 			("NIN1")
+ 			("PIN2")
+ 			("PVIN")
+ 			("RTCT")
+ 			("VREF") )
+	)
+	("model_params"
+	("level_0"
+		( "PERIOD"
+			( "val" "50e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+	)
+	("symbol"
+			( "DEAD_TIME" )
+			( "PERIOD" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbtsc18c44"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "1845_CMOS" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("COMP")
+ 			("DRA")
+ 			("GND")
+ 			("NIN1")
+ 			("PIN2")
+ 			("PVIN")
+ 			("RTCT")
+ 			("VREF") )
+	)
+	("model_params"
+	("level_0"
+		( "PERIOD"
+			( "val" "50e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+	)
+	("symbol"
+			( "DEAD_TIME" )
+			( "PERIOD" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbtsc18c45"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "1845_CMOS" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("COMP")
+ 			("DRA")
+ 			("GND")
+ 			("NIN1")
+ 			("PIN2")
+ 			("PVIN")
+ 			("RTCT")
+ 			("VREF") )
+	)
+	("model_params"
+	("level_0"
+		( "PERIOD"
+			( "val" "50e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+	)
+	("symbol"
+			( "DEAD_TIME" )
+			( "PERIOD" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbtsc38c42"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "1842_CMOS" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("COMP")
+ 			("DRA")
+ 			("GND")
+ 			("NIN1")
+ 			("PIN2")
+ 			("PVIN")
+ 			("RTCT")
+ 			("VREF") )
+	)
+	("model_params"
+	("level_0"
+		( "PERIOD"
+			( "val" "50e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+	)
+	("symbol"
+			( "DEAD_TIME" )
+			( "PERIOD" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbtsc38c43"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "1842_CMOS" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("COMP")
+ 			("DRA")
+ 			("GND")
+ 			("NIN1")
+ 			("PIN2")
+ 			("PVIN")
+ 			("RTCT")
+ 			("VREF") )
+	)
+	("model_params"
+	("level_0"
+		( "PERIOD"
+			( "val" "50e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+	)
+	("symbol"
+			( "DEAD_TIME" )
+			( "PERIOD" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbtsc38c44"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "1845_CMOS" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("COMP")
+ 			("DRA")
+ 			("GND")
+ 			("NIN1")
+ 			("PIN2")
+ 			("PVIN")
+ 			("RTCT")
+ 			("VREF") )
+	)
+	("model_params"
+	("level_0"
+		( "PERIOD"
+			( "val" "50e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+	)
+	("symbol"
+			( "DEAD_TIME" )
+			( "PERIOD" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbtsc38c45"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "1845_CMOS" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("COMP")
+ 			("DRA")
+ 			("GND")
+ 			("NIN1")
+ 			("PIN2")
+ 			("PVIN")
+ 			("RTCT")
+ 			("VREF") )
+	)
+	("model_params"
+	("level_0"
+		( "PERIOD"
+			( "val" "50e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+	)
+	("symbol"
+			( "DEAD_TIME" )
+			( "PERIOD" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc1524a"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "1524A" )
+		( MODEL_TYPE 591 )
+		( PORT_ORDER 
+ 			("CNA")
+ 			("CNB")
+ 			("COMP")
+ 			("CT")
+ 			("ENA")
+ 			("ENB")
+ 			("GND")
+ 			("NCLS")
+ 			("NIN")
+ 			("OSC")
+ 			("PCLS")
+ 			("PIN")
+ 			("PVIN")
+ 			("RT")
+ 			("SD")
+ 			("VREF") )
+	)
+	("model_params"
+	("level_0"
+		( "PERIOD"
+			( "val" "20e-6" )
+			( "postol" "PERIOD_PTOL" )
+			( "negtol" "PERIOD_NTOL" )
+			( "distrib" "PERIOD_DIST" )
+		)
+		( "DEAD_TIME"
+			( "val" "1e-6" )
+			( "postol" "DEAD_TIME_PTOL" )
+			( "negtol" "DEAD_TIME_NTOL" )
+			( "distrib" "DEAD_TIME_DIST" )
+		)
+		( "MAX_V"
+			( "val" "3.5" )
+			( "postol" "MAX_V_PTOL" )
+			( "negtol" "MAX_V_NTOL" )
+			( "distrib" "MAX_V_DIST" )
+		)
+		( "MIN_V"
+			( "val" "0.8" )
+			( "postol" "MIN_V_PTOL" )
+			( "negtol" "MIN_V_NTOL" )
+			( "distrib" "MIN_V_DIST" )
+		)
+		( "GM"
+			( "val" "2.3e-3" )
+			( "postol" "GM_PTOL" )
+			( "negtol" "GM_NTOL" )
+			( "distrib" "GM_DIST" )
+		)
+		( "AVMAX"
+			( "val" "80" )
+			( "postol" "AVMAX_PTOL" )
+			( "negtol" "AVMAX_NTOL" )
+			( "distrib" "AVMAX_DIST" )
+		)
+		( "GBW"
+			( "val" "3e+6" )
+			( "postol" "GBW_PTOL" )
+			( "negtol" "GBW_NTOL" )
+			( "distrib" "GBW_DIST" )
+		)
+	)
+	("symbol"
+			( "AVMAX" )
+			( "DEAD_TIME" )
+			( "GBW" )
+			( "GM" )
+			( "MAX_V" )
+			( "MIN_V" )
+			( "PERIOD" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc1825"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1825" )
+		( PORT_ORDER 
+ 			("CLK")
+ 			("COMP")
+ 			("CT")
+ 			("DRA")
+ 			("DRB")
+ 			("GND2")
+ 			("GND")
+ 			("NIN1")
+ 			("PIN1")
+ 			("PIN2")
+ 			("PVC")
+ 			("RT")
+ 			("SD")
+ 			("SS")
+ 			("VCC")
+ 			("VREF") )
+	)
+	("model_params"
+	("symbol"
+			( "DT_FACTOR" )
+			( "MAX_V" )
+			( "MIN_V" )
+			( "PERIOD_FACTOR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc1842"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1844A" )
+		( PORT_ORDER 
+ 			("ISENSE")
+ 			("GND")
+ 			("DRV")
+ 			("COMP")
+ 			("VFB")
+ 			("RTCT")
+ 			("VREF")
+ 			("VCC") )
+	)
+	("model_params"
+	("symbol"
+			( "DT_FACTOR" )
+			( "PERIOD_FACTOR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc1842a"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1844A" )
+		( PORT_ORDER 
+ 			("ISENSE")
+ 			("GND")
+ 			("DRV")
+ 			("COMP")
+ 			("VFB")
+ 			("RTCT")
+ 			("VREF")
+ 			("VCC") )
+	)
+	("model_params"
+	("symbol"
+			( "DT_FACTOR" )
+			( "PERIOD_FACTOR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc1843"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1844A" )
+		( PORT_ORDER 
+ 			("ISENSE")
+ 			("GND")
+ 			("DRV")
+ 			("COMP")
+ 			("VFB")
+ 			("RTCT")
+ 			("VREF")
+ 			("VCC") )
+	)
+	("model_params"
+	("symbol"
+			( "DT_FACTOR" )
+			( "PERIOD_FACTOR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc1843a"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1844A" )
+		( PORT_ORDER 
+ 			("ISENSE")
+ 			("GND")
+ 			("DRV")
+ 			("COMP")
+ 			("VFB")
+ 			("RTCT")
+ 			("VREF")
+ 			("VCC") )
+	)
+	("model_params"
+	("symbol"
+			( "DT_FACTOR" )
+			( "PERIOD_FACTOR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc1844"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1844A" )
+		( PORT_ORDER 
+ 			("ISENSE")
+ 			("GND")
+ 			("DRV")
+ 			("COMP")
+ 			("VFB")
+ 			("RTCT")
+ 			("VREF")
+ 			("VCC") )
+	)
+	("model_params"
+	("symbol"
+			( "DT_FACTOR" )
+			( "PERIOD_FACTOR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc1844a"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1844A" )
+		( PORT_ORDER 
+ 			("ISENSE")
+ 			("GND")
+ 			("DRV")
+ 			("COMP")
+ 			("VFB")
+ 			("RTCT")
+ 			("VREF")
+ 			("VCC") )
+	)
+	("model_params"
+	("symbol"
+			( "DT_FACTOR" )
+			( "PERIOD_FACTOR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc1845"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1844A" )
+		( PORT_ORDER 
+ 			("ISENSE")
+ 			("GND")
+ 			("DRV")
+ 			("COMP")
+ 			("VFB")
+ 			("RTCT")
+ 			("VREF")
+ 			("VCC") )
+	)
+	("model_params"
+	("symbol"
+			( "DT_FACTOR" )
+			( "PERIOD_FACTOR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc1845a"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1844A" )
+		( PORT_ORDER 
+ 			("ISENSE")
+ 			("GND")
+ 			("DRV")
+ 			("COMP")
+ 			("VFB")
+ 			("RTCT")
+ 			("VREF")
+ 			("VCC") )
+	)
+	("model_params"
+	("symbol"
+			( "DT_FACTOR" )
+			( "PERIOD_FACTOR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc1846"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1847" )
+		( PORT_ORDER 
+ 			("GND")
+ 			("COMP")
+ 			("VC")
+ 			("OUTA")
+ 			("OUTB")
+ 			("CLA")
+ 			("SD")
+ 			("EAINV")
+ 			("EANI")
+ 			("ISENSEP")
+ 			("ISENSEN")
+ 			("CT")
+ 			("RT")
+ 			("SYNC")
+ 			("VREF")
+ 			("VIN") )
+	)
+	("model_params"
+	("symbol"
+			( "DT_FACTOR" )
+			( "PERIOD_FACTOR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc1847"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1847" )
+		( PORT_ORDER 
+ 			("GND")
+ 			("COMP")
+ 			("VC")
+ 			("OUTA")
+ 			("OUTB")
+ 			("CLA")
+ 			("SD")
+ 			("EAINV")
+ 			("EANI")
+ 			("ISENSEP")
+ 			("ISENSEN")
+ 			("CT")
+ 			("RT")
+ 			("SYNC")
+ 			("VREF")
+ 			("VIN") )
+	)
+	("model_params"
+	("symbol"
+			( "DT_FACTOR" )
+			( "PERIOD_FACTOR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc1854"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1854" )
+		( PORT_ORDER 
+ 			("DRV")
+ 			("MOUT")
+ 			("ISENSE")
+ 			("CAOUT")
+ 			("PKLMT")
+ 			("GND")
+ 			("VSENSE")
+ 			("VAOUT")
+ 			("SS")
+ 			("ENA")
+ 			("RSET")
+ 			("CT")
+ 			("VRMS")
+ 			("IAC")
+ 			("VREF")
+ 			("VCC") )
+	)
+	("device_max_ops"
+	)
+)
+("awbuc1903"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 591 )
+		( SYMBOL_NAME "1903" )
+		( PORT_ORDER 
+ 			("GINN")
+ 			("GINP")
+ 			("GND")
+ 			("GOUT")
+ 			("LSS")
+ 			("ODLY")
+ 			("OFLT")
+ 			("POK")
+ 			("PVIN")
+ 			("S1")
+ 			("S2")
+ 			("S3")
+ 			("S4I")
+ 			("S4")
+ 			("UDLY")
+ 			("UFLT")
+ 			("VREF")
+ 			("WA") )
+	)
+	("device_max_ops"
+	)
+)
+("awbuc2854"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1854" )
+		( PORT_ORDER 
+ 			("DRV")
+ 			("MOUT")
+ 			("ISENSE")
+ 			("CAOUT")
+ 			("PKLMT")
+ 			("GND")
+ 			("VSENSE")
+ 			("VAOUT")
+ 			("SS")
+ 			("ENA")
+ 			("RSET")
+ 			("CT")
+ 			("VRMS")
+ 			("IAC")
+ 			("VREF")
+ 			("VCC") )
+	)
+	("device_max_ops"
+	)
+)
+("awbuc3825"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1825" )
+		( PORT_ORDER 
+ 			("CLK")
+ 			("COMP")
+ 			("CT")
+ 			("DRA")
+ 			("DRB")
+ 			("GND2")
+ 			("GND")
+ 			("NIN1")
+ 			("PIN1")
+ 			("PIN2")
+ 			("PVC")
+ 			("RT")
+ 			("SD")
+ 			("SS")
+ 			("VCC")
+ 			("VREF") )
+	)
+	("model_params"
+	("symbol"
+			( "DT_FACTOR" )
+			( "MAX_V" )
+			( "MIN_V" )
+			( "PERIOD_FACTOR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc3842"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1844A" )
+		( PORT_ORDER 
+ 			("ISENSE")
+ 			("GND")
+ 			("DRV")
+ 			("COMP")
+ 			("VFB")
+ 			("RTCT")
+ 			("VREF")
+ 			("VCC") )
+	)
+	("model_params"
+	("symbol"
+			( "DT_FACTOR" )
+			( "PERIOD_FACTOR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc3842a"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1844A" )
+		( PORT_ORDER 
+ 			("ISENSE")
+ 			("GND")
+ 			("DRV")
+ 			("COMP")
+ 			("VFB")
+ 			("RTCT")
+ 			("VREF")
+ 			("VCC") )
+	)
+	("model_params"
+	("symbol"
+			( "DT_FACTOR" )
+			( "PERIOD_FACTOR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc3843"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1844A" )
+		( PORT_ORDER 
+ 			("ISENSE")
+ 			("GND")
+ 			("DRV")
+ 			("COMP")
+ 			("VFB")
+ 			("RTCT")
+ 			("VREF")
+ 			("VCC") )
+	)
+	("model_params"
+	("symbol"
+			( "DT_FACTOR" )
+			( "PERIOD_FACTOR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc3843a"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1844A" )
+		( PORT_ORDER 
+ 			("ISENSE")
+ 			("GND")
+ 			("DRV")
+ 			("COMP")
+ 			("VFB")
+ 			("RTCT")
+ 			("VREF")
+ 			("VCC") )
+	)
+	("model_params"
+	("symbol"
+			( "DT_FACTOR" )
+			( "PERIOD_FACTOR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc3844"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1844A" )
+		( PORT_ORDER 
+ 			("ISENSE")
+ 			("GND")
+ 			("DRV")
+ 			("COMP")
+ 			("VFB")
+ 			("RTCT")
+ 			("VREF")
+ 			("VCC") )
+	)
+	("model_params"
+	("symbol"
+			( "DT_FACTOR" )
+			( "PERIOD_FACTOR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc3844a"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1844A" )
+		( PORT_ORDER 
+ 			("ISENSE")
+ 			("GND")
+ 			("DRV")
+ 			("COMP")
+ 			("VFB")
+ 			("RTCT")
+ 			("VREF")
+ 			("VCC") )
+	)
+	("model_params"
+	("symbol"
+			( "DT_FACTOR" )
+			( "PERIOD_FACTOR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc3845"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1844A" )
+		( PORT_ORDER 
+ 			("ISENSE")
+ 			("GND")
+ 			("DRV")
+ 			("COMP")
+ 			("VFB")
+ 			("RTCT")
+ 			("VREF")
+ 			("VCC") )
+	)
+	("model_params"
+	("symbol"
+			( "DT_FACTOR" )
+			( "PERIOD_FACTOR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc3845a"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1844A" )
+		( PORT_ORDER 
+ 			("ISENSE")
+ 			("GND")
+ 			("DRV")
+ 			("COMP")
+ 			("VFB")
+ 			("RTCT")
+ 			("VREF")
+ 			("VCC") )
+	)
+	("model_params"
+	("symbol"
+			( "DT_FACTOR" )
+			( "PERIOD_FACTOR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc3846"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1847" )
+		( PORT_ORDER 
+ 			("GND")
+ 			("COMP")
+ 			("VC")
+ 			("OUTA")
+ 			("OUTB")
+ 			("CLA")
+ 			("SD")
+ 			("EAINV")
+ 			("EANI")
+ 			("ISENSEP")
+ 			("ISENSEN")
+ 			("CT")
+ 			("RT")
+ 			("SYNC")
+ 			("VREF")
+ 			("VIN") )
+	)
+	("model_params"
+	("symbol"
+			( "DT_FACTOR" )
+			( "PERIOD_FACTOR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc3847"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1847" )
+		( PORT_ORDER 
+ 			("GND")
+ 			("COMP")
+ 			("VC")
+ 			("OUTA")
+ 			("OUTB")
+ 			("CLA")
+ 			("SD")
+ 			("EAINV")
+ 			("EANI")
+ 			("ISENSEP")
+ 			("ISENSEN")
+ 			("CT")
+ 			("RT")
+ 			("SYNC")
+ 			("VREF")
+ 			("VIN") )
+	)
+	("model_params"
+	("symbol"
+			( "DT_FACTOR" )
+			( "PERIOD_FACTOR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc3854"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 716 )
+		( SYMBOL_NAME "UC1854" )
+		( PORT_ORDER 
+ 			("DRV")
+ 			("MOUT")
+ 			("ISENSE")
+ 			("CAOUT")
+ 			("PKLMT")
+ 			("GND")
+ 			("VSENSE")
+ 			("VAOUT")
+ 			("SS")
+ 			("ENA")
+ 			("RSET")
+ 			("CT")
+ 			("VRMS")
+ 			("IAC")
+ 			("VREF")
+ 			("VCC") )
+	)
+	("device_max_ops"
+	)
+)
+("awbucc1895"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 720 )
+		( SYMBOL_NAME "UCC1895" )
+		( PORT_ORDER 
+ 			("EAN")
+ 			("EAOUT")
+ 			("RAMP")
+ 			("REF")
+ 			("GND")
+ 			("SYNC")
+ 			("CT")
+ 			("RT")
+ 			("DELAB")
+ 			("DELCD")
+ 			("ADS")
+ 			("CS")
+ 			("OUTD")
+ 			("OUTC")
+ 			("VDD")
+ 			("OUTB")
+ 			("OUTA")
+ 			("SS")
+ 			("EAP"))
+	)
+	("model_params"
+	("symbol"
+			("CS_ICOFF")
+			("CS_IPEAK")
+			("EA_AO")
+			("EA_UGB")
+			("IEA_SINK")
+			("ISC_REF")
+			("NL_OFF")
+			("NL_ON")
+			("OSC_VCTLOW")
+			("OSC_VCTPEAK")
+			("OSC_VRT")
+			("OUT_VOH")
+			("OUT_VOL")
+			("SS_ON")
+			("UVLO_OFF")
+			("UVLO_ON")
+			("VREF")
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc1875"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 721 )
+		( SYMBOL_NAME "UC1875" )
+		( PORT_ORDER 
+ 			("VREF")
+ 			("EAOUT/COMP")
+ 			("EA-")
+ 			("EA+")
+ 			("CS+")
+ 			("SOFTSTART")
+ 			("OUTD")
+ 			("OUTC")
+ 			("VC")
+ 			("VIN")
+ 			("PWRGND")
+ 			("OUTB")
+ 			("OUTA")
+ 			("FREQSET")
+ 			("CLOCKSYNC")
+ 			("SLOPE")
+ 			("RAMP")
+ 			("GND"))
+	)
+	("model_params"
+	("symbol"
+			("RDELAYSETAB")
+			("RDELAYSETCD")
+	)
+	)
+	("device_max_ops"
+	)
+)
+("awbuc1876"
+	(Creator "Device property file created by analog_uprev on Tue Mar  6 16:11:19 IST 2001")
+	("device_info"
+		( MODEL_TYPE 721 )
+		( SYMBOL_NAME "UC1876" )
+		( PORT_ORDER 
+ 			("VREF")
+ 			("EAOUT/COMP")
+ 			("EA-")
+ 			("EA+")
+ 			("CS+")
+ 			("SOFTSTART")
+ 			("OUTD")
+ 			("OUTC")
+ 			("VC")
+ 			("VIN")
+ 			("PWRGND")
+ 			("OUTB")
+ 			("OUTA")
+ 			("FREQSET")
+ 			("CLOCKSYNC")
+ 			("SLOPE")
+ 			("RAMP")
+ 			("GND"))
+	)
+	("model_params"
+	("symbol"
+			("RDELAYSETAB")
+			("RDELAYSETCD")
+	)
+	)
+	("device_max_ops"
+	)
+)

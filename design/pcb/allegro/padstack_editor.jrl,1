@@ -1,0 +1,7 @@
+\t (00:00:00) padstack_editor 17.2 P019 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Tue Dec 03 17:13:53 2024
+\t (00:00:00)         Host=DESKTOP-H90EQRS User=MSDL3 Pid=28756 CPUs=24
+\t (00:00:00) CmdLine= padstack_editor -mpssession MSDL3 -file ./#Taaaaae47684.tmp -pname PAD250 -data C:/Users/MSDL3/AppData/Local/Temp/#Taaaaag47684.tmp
+\t (00:00:00) 
+\d (00:00:04) QtSignal GuidedTabsParent GuidedTabs currentChanged Drill
+\t (00:00:06)     Journal end - Tue Dec 03 17:14:00 2024

@@ -1,0 +1,7 @@
+\t (00:00:00) padstack_editor 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Tue Mar 18 00:21:40 2025
+\t (00:00:00)         Host=DESKTOP-TSB5932 User=sky94 Pid=11472 CPUs=8
+\t (00:00:00) CmdLine= c:\cadence\orcadx_24.1\tools\bin\padstack_editor.exe C:\Users\sky94\OneDrive\Desktop\대학\lidar\library\pspice - 복사본\LIB_OPA659IDBVT\OPA659IDBVT\Allegro\r120_60.pad
+\t (00:00:00) 
+\d (00:00:05) QtSignal MainWindow Exit triggered
+\t (00:00:05)     Journal end - Tue Mar 18 00:21:44 2025

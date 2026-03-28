@@ -1,0 +1,45 @@
+(ExpressProject "xvaszdvaswd"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "24.1 S003 (4280230)  [3/6/2025]-[04/05/25]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (Allegro Netlist Directory "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\xvaszdvaswd.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (MPSSessionName "user")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\xvaszdvaswd\xvaszdvaswd.dsn")
+      (Path "Design Resources"
+         "c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\xvaszdvaswd\xvaszdvaswd.dsn"
+         "SCHEMATIC1")
+      (Select "Design Resources"
+         "c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\xvaszdvaswd\xvaszdvaswd.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 251 0 987"))
+      (Tab 0))))

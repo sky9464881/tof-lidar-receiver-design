@@ -1,0 +1,244 @@
+
+**** 01/08/25 20:25:42 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-differential amplifier test"  [ c:\users\msdl3\desktop\orcad file\80db_lidar\asd-PSpiceFiles\SCHEMATIC1\diff
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "differential amplifier test.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\MSDL3\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "C:\Cadence\SPB_17.2\tools\capture\library\pspice\opa855_pspice\opa855_a.lib" 
+.lib "C:\Cadence\SPB_17.2\tools\capture\library\pspice\sboc036d\opa695_a.lib" 
+.lib "C:\Cadence\SPB_17.2\tools\capture\library\pspice\opa892\opa892.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 30ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source ASD
+R_R1         N00094 N00106  10k TC=0,0 
+R_R2         N00694 0  200 TC=0,0 
+C_C1         N00106 N00694  1n  TC=0,0 
+X_U2         N00209 N00094 N01018 0 N00106 OPA855
+V_V4         N01018 0 5Vdc
+R_R3         N02483 N00094  100 TC=0,0 
+R_R4         0 N02075  10k TC=0,0 
+R_R5         N02129 0  10k TC=0,0 
+R_R6         0 N00209  10k TC=0,0 
+R_R7         N02497 N00209  100 TC=0,0 
+C_C2         N02129 N02483  1n  TC=0,0 
+C_C3         N02075 N02497  1n  TC=0,0 
+I_I1         N02075 N02129 DC 0Adc AC 0Aac
++PULSE 0 10u 1ns 1.4ns 1.4ns 4ns 20ns
+
+**** RESUMING "differential amplifier test.cir" ****
+.END
+
+**** 01/08/25 20:25:42 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-differential amplifier test"  [ c:\users\msdl3\desktop\orcad file\80db_lidar\asd-PSpiceFiles\SCHEMATIC1\diff
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.X_E_N.DVN  X_U2.X_I_NP1.DNVF               X_U2.X_U1.DNVF  
+          IS  100.000000E-18  100.000000E-18                  100.000000E-18 
+          KF  316.227800E-12  316.227800E-12                  316.227800E-12 
+
+
+**** 01/08/25 20:25:42 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-differential amplifier test"  [ c:\users\msdl3\desktop\orcad file\80db_lidar\asd-PSpiceFiles\SCHEMATIC1\diff
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+**** 01/08/25 20:25:42 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-differential amplifier test"  [ c:\users\msdl3\desktop\orcad file\80db_lidar\asd-PSpiceFiles\SCHEMATIC1\diff
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.X_ESD_OUT.ESD_SW           X_U2.X_S1._S1   X_U2.X_S2._S2   
+         RON   50                               1.000000E-03    1.000000E-03 
+        ROFF    1.000000E+12                   20.000000E+03   20.000000E+03 
+         VON     .5                              .8              .8          
+        VOFF     .45                            -.6             -.4          
+
+
+**** 01/08/25 20:25:42 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-differential amplifier test"  [ c:\users\msdl3\desktop\orcad file\80db_lidar\asd-PSpiceFiles\SCHEMATIC1\diff
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00094)    4.9673 (N00106)    8.4803 (N00209)    3.2730 (N00694)    0.0000     
+
+(N01018)    5.0000 (N02075)    0.0000 (N02129)    0.0000 (N02483)    4.9673     
+
+(N02497)    3.2730 (X_U2.ZO)    5.0000                   (X_U2.MID)    4.2401   
+
+(X_U2.CMRR)    4.2401                 (X_U2.ESDN)    4.9673                     
+
+(X_U2.ESDP)    3.2730                 (X_U2.CLAMP)    4.2401                    
+
+(X_U2.PSRRN)    4.2398                (X_U2.PSRRP)    4.2399                    
+
+(X_U2.VCC_B) 4.245E-06                (X_U2.VEE_B)    8.4802                    
+
+(X_U2.VIMON)  -51.2010                (X_U2.AOLNET)    4.7401                   
+
+(X_U2.N06456)    3.2730               (X_U2.N10561)    3.2730                   
+
+(X_U2.N10570)    3.2730               (X_U2.N11984)    3.2730                   
+
+(X_U2.N11991)    4.9673               (X_U2.N25816)    3.2731                   
+
+(X_U2.N28602)    9.5802               (X_U2.N30136)    -.4000                   
+
+(X_U2.N30913)    3.2731               (X_U2.N31014)    3.2731                   
+
+(X_U2.N35675)   -1.2518               (X_U2.N35813)   -1.2518                   
+
+(X_U2.N38050)    9.9110               (X_U2.N38096)    9.9110                   
+
+(X_U2.VOUT_S)    5.0000               (X_U2.X_U1.3)    0.0000                   
+
+(X_U2.X_U1.4)    0.0000               (X_U2.X_U1.5)    0.0000                   
+
+(X_U2.X_U1.6)    0.0000               (X_U2.X_U1.7)     .8338                   
+
+(X_U2.X_U1.8)     .8338               (X_U2.N110431)  -51.2010                  
+
+(X_U2.N112292)    5.0000              (X_U2.N317950)    4.2401                  
+
+(X_U2.N406634) 4.249E-06              (X_U2.N406794)    8.4802                  
+
+(X_U2.N749288)    3.2726              (X_U2.VCC_CLP)   -1.2518                  
+
+(X_U2.VEE_CLP)    9.9110              (X_U2.X_E_N.3)    0.0000                  
+
+(X_U2.X_E_N.4)    0.0000              (X_U2.X_E_N.5)    0.0000                  
+
+(X_U2.X_E_N.6)    0.0000              (X_U2.X_E_N.7)     .8338                  
+
+(X_U2.X_E_N.8)     .8338              (X_U2.N1254860)  -65.0180                 
+
+(X_U2.N1446199)    4.2401             (X_U2.N1446217)    4.2401                 
+
+(X_U2.N1461236)    4.3533             (X_U2.N1461246)    4.2401                 
+
+(X_U2.N1461252)    4.2369             (X_U2.N1481243)    7.2757                 
+
+(X_U2.N1481253)    4.2403             (X_U2.N1481259)    4.2394                 
+
+(X_U2.N1483677)   -2.4501             (X_U2.N1483687)    4.2398                 
+
+(X_U2.N1483693)    4.2480             (X_U2.N1483703)    4.2405                 
+
+(X_U2.N1483713)    4.2322             (X_U2.N1490067)    4.2399                 
+
+(X_U2.N1492098)    3.1003             (X_U2.N1492108)    3.4803                 
+
+(X_U2.N1492118)    3.4803             (X_U2.N1492126)    3.4803                 
+
+(X_U2.N1492376)    3.4803             (X_U2.N1534615)  -15.1640                 
+
+(X_U2.N1534625)    3.5604             (X_U2.N1534635)    3.5604                 
+
+(X_U2.N1534645)    3.5604             (X_U2.N1534887)    3.5604                 
+
+(X_U2.N1541593)  -13.1160             (X_U2.N1541603)    3.6322                 
+
+(X_U2.X_I_NP1.3)    0.0000            (X_U2.X_I_NP1.4)    0.0000                
+
+(X_U2.X_I_NP1.5)    0.0000            (X_U2.X_I_NP1.6)    0.0000                
+
+(X_U2.X_I_NP1.7)     .8338            (X_U2.X_I_NP1.8)     .8338                
+
+(X_U2.X_VOS_VS_VCM.1)    3.2726       
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V4        -8.584E-02
+    X_U2.V_VCM_MAX   4.640E-09
+    X_U2.V_VCM_MIN  -5.340E-09
+    X_U2.X_H3.VH_H3   5.544E-02
+    X_U2.X_VOS_VS_VCM.V1   3.438E-13
+
+    TOTAL POWER DISSIPATION   4.29E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 01/08/25 20:25:42 ****** PSpice 17.2.0 (March 2016) ****** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-differential amplifier test"  [ c:\users\msdl3\desktop\orcad file\80db_lidar\asd-PSpiceFiles\SCHEMATIC1\diff
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+

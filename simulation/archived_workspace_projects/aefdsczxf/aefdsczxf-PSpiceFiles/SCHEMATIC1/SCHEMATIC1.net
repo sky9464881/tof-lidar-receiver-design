@@ -1,0 +1,17 @@
+* source AEFDSCZXF
+V_V2         VEE 0 -2.5
+R_R2         N04129 N04139  75 TC=0,0 
+R_R3         0 OUT  200 TC=0,0 
+R_R1         N04139 OUT  500 TC=0,0 
+V_V1         VCC 0 2.5
+I_I1         N04129 0 DC 0Adc AC 0Aac
++SIN 0 2m 1k 0 0 0
+R_R153         N04789 N1080636  130 TC=0,0 
+X_U2         N1080646 N1080626 5 -5 N1080636 OPAX277
+R_R147         N1080646 5  5k TC=0,0 
+R_R149         -5 N1080646  15k TC=0,0 
+R_R148         N1080626 N1080636  200 TC=0,0 
+V_V4         0 -5 5
+V_V3         5 0 5
+C_C263         0 N04789  0.1u  TC=0,0 
+X_U4         N04789 N04139 VCC VEE OUT OPA855

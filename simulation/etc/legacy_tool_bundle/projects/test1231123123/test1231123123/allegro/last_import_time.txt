@@ -1,0 +1,8 @@
+2025-04-02T19:54:06 ===> "c:/users/user/appdata/roaming/spb_data/cdssetup/workspace/projects/test1231123123/allegro/pstchip.dat"
+2025-04-02T19:54:06 ===> "c:/users/user/appdata/roaming/spb_data/cdssetup/workspace/projects/test1231123123/allegro/pstxnet.dat"
+2025-04-02T19:54:06 ===> "c:/users/user/appdata/roaming/spb_data/cdssetup/workspace/projects/test1231123123/allegro/pstxprt.dat"
+2025-04-02T19:54:06 ===> "c:/users/user/appdata/roaming/spb_data/cdssetup/workspace/projects/test1231123123/allegro/pstdmlmodels.dat"
+2025-04-02T19:55:16 ===> "./pstchip.dat"
+2025-04-02T19:55:16 ===> "./pstxnet.dat"
+2025-04-02T19:55:16 ===> "./pstxprt.dat"
+2025-04-02T19:55:16 ===> "./pstdmlmodels.dat"

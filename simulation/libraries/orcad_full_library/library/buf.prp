@@ -1,0 +1,161 @@
+("awbbuf03"
+	(Creator "Device property file created by analog_uprev on Tue Feb 27 18:26:52 IST 2001")
+	("device_info"
+		( MODEL_TYPE 585 )
+		( PORT_ORDER 
+ 			("PIN")
+ 			("OUT")
+ 			("PVSS")
+ 			("NVSS") )
+	)
+	("device_max_ops"
+		( VSS "36" )
+		( VIN "18" )
+		( IOUT "0.07" )
+		( ISS "0.025" )
+		( PD "1.4" )
+		( TJ "175" )
+		( RJC "45" )
+		( RCA "100" )
+	)
+)
+("awbha5002"
+	(Creator "Device property file created by analog_uprev on Tue Feb 27 18:26:52 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "5002C" )
+		( MODEL_TYPE 706 )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C")
+ 			("D")
+ 			("E")
+ 			("F") )
+	)
+	("device_max_ops"
+	)
+)
+("awbha5033"
+	(Creator "Device property file created by analog_uprev on Tue Feb 27 18:26:52 IST 2001")
+	("device_info"
+		( MODEL_TYPE 704 )
+		( SYMBOL_NAME "HA5033" )
+		( PORT_ORDER 
+ 			("D")
+ 			("C")
+ 			("B")
+ 			("A") )
+	)
+	("device_max_ops"
+	)
+)
+("awblh0002"
+	(Creator "Device property file created by analog_uprev on Tue Feb 27 18:26:52 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "5002C" )
+		( MODEL_TYPE 706 )
+		( PORT_ORDER 
+ 			("A")
+ 			("B")
+ 			("C")
+ 			("D")
+ 			("E")
+ 			("F") )
+	)
+	("device_max_ops"
+	)
+)
+("awblh0033"
+	(Creator "Device property file created by analog_uprev on Tue Feb 27 18:26:52 IST 2001")
+	("device_info"
+		( MODEL_TYPE 585 )
+		( PORT_ORDER 
+ 			("PIN")
+ 			("OUT")
+ 			("PVSS")
+ 			("NVSS") )
+	)
+	("device_max_ops"
+		( VSS "36" )
+		( VIN "18" )
+		( IOUT "0.07" )
+		( ISS "0.025" )
+		( PD "1.4" )
+		( TJ "175" )
+		( RJC "45" )
+		( RCA "100" )
+	)
+)
+("awblh0063"
+	(Creator "Device property file created by analog_uprev on Tue Feb 27 18:26:52 IST 2001")
+	("device_info"
+		( MODEL_TYPE 585 )
+		( PORT_ORDER 
+ 			("PIN")
+ 			("OUT")
+ 			("PVSS")
+ 			("NVSS") )
+	)
+	("device_max_ops"
+	)
+)
+("awblm110"
+	(Creator "Device property file created by analog_uprev on Tue Feb 27 18:26:52 IST 2001")
+	("device_info"
+		( MODEL_TYPE 585 )
+		( PORT_ORDER 
+ 			("PIN")
+ 			("OUT")
+ 			("PVSS")
+ 			("NVSS") )
+	)
+	("device_max_ops"
+		( VSS "36" )
+		( VIN "15" )
+		( ISS "0.004" )
+		( PD "0.5" )
+		( TJ "85" )
+		( RJC "45" )
+		( RCA "105" )
+	)
+)
+("awblm210"
+	(Creator "Device property file created by analog_uprev on Tue Feb 27 18:26:52 IST 2001")
+	("device_info"
+		( MODEL_TYPE 585 )
+		( PORT_ORDER 
+ 			("PIN")
+ 			("OUT")
+ 			("PVSS")
+ 			("NVSS") )
+	)
+	("device_max_ops"
+		( VSS "36" )
+		( VIN "15" )
+		( ISS "0.004" )
+		( PD "0.5" )
+		( TJ "85" )
+		( RJC "45" )
+		( RCA "105" )
+	)
+)
+("awblm310"
+	(Creator "Device property file created by analog_uprev on Tue Feb 27 18:26:52 IST 2001")
+	("device_info"
+		( MODEL_TYPE 585 )
+		( PORT_ORDER 
+ 			("PIN")
+ 			("OUT")
+ 			("PVSS")
+ 			("NVSS") )
+	)
+	("device_max_ops"
+		( VSS "36" )
+		( VIN "15" )
+		( ISS "0.004" )
+		( PD "0.5" )
+		( TJ "85" )
+		( RJC "45" )
+		( RCA "105" )
+	)
+)

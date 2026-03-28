@@ -1,0 +1,317 @@
+("mmsz5221bt1"
+	(Creator "Device property file created by analog_uprev on Wed Feb  6 17:33:04 IST 2008")
+	("device_info"
+		( MODEL_TYPE 434 )
+		( SYMBOL_NAME "Zener Voltage Regulator" )
+	)
+	("device_max_ops"
+		( IF "100m" )
+		( IRMX "198.41m" )
+		( PDM "500m" )
+		( TJ "150" )
+		( RJC "150" )
+		( RCA "0.0" )
+	)
+)
+
+("mmsz5225bt1"
+	(Creator "Device property file created by analog_uprev on Wed Feb  6 17:33:04 IST 2008")
+	("device_info"
+		( MODEL_TYPE 434 )
+		( SYMBOL_NAME "Zener Voltage Regulator" )
+		
+	)
+	("device_max_ops"
+		( IF "100m" )
+		( IRMX "158.73m" )
+		( PDM "500m" )
+		( TJ "150" )
+		( RJC "150" )
+		( RCA "0.0" )
+	)
+)
+
+
+("mmsz5226bt1"
+	(Creator "Device property file created by analog_uprev on Wed Feb  6 17:33:04 IST 2008")
+	("device_info"
+		( MODEL_TYPE 434 )
+		( SYMBOL_NAME "Zener Voltage Regulator" )
+		
+         )
+	("device_max_ops"
+		( IF "100m" )
+		( IRMX "144.09m" )
+		( PDM "500m" )
+		( TJ "150" )
+		( RJC "150" )
+		( RCA "0.0" )
+	)
+)
+
+("mmsz5228bt1"
+	(Creator "Device property file created by analog_uprev on Wed Feb  6 17:33:04 IST 2008")
+	("device_info"
+		( MODEL_TYPE 434 )
+		( SYMBOL_NAME "Zener Voltage Regulator" )
+		
+	)
+	("device_max_ops"
+		( IF "100m" )
+		( IRMX "121.95m" )
+		( PDM "500m" )
+		( TJ "150" )
+		( RJC "150" )
+		( RCA "0.0" )
+	)
+)
+
+
+
+
+("mmsz5231bt1"
+	(Creator "Device property file created by analog_uprev on Wed Feb  6 17:33:04 IST 2008")
+	("device_info"
+		( MODEL_TYPE 434 )
+		( SYMBOL_NAME "Zener Voltage Regulator" )
+		
+	)
+	("device_max_ops"
+		( IF "100m" )
+		( IRMX "93.28m" )
+		( PDM "500m" )
+		( TJ "150" )
+		( RJC "150" )
+		( RCA "0.0" )
+	)
+)
+
+
+
+
+("mmsz5233bt1"
+	(Creator "Device property file created by analog_uprev on Wed Feb  6 17:33:04 IST 2008")
+	("device_info"
+		( MODEL_TYPE 434 )
+		( SYMBOL_NAME "Zener Voltage Regulator" )
+		
+	)
+	("device_max_ops"
+		( IF "100m" )
+		( IRMX "79.36m" )
+		( PDM "500m" )
+		( TJ "150" )
+		( RJC "150" )
+		( RCA "0.0" )
+	)
+)
+
+
+
+("mmsz5234bt1"
+	(Creator "Device property file created by analog_uprev on Wed Feb  6 17:33:04 IST 2008")
+	("device_info"
+		( MODEL_TYPE 434 )
+		( SYMBOL_NAME "Zener Voltage Regulator" )
+		
+	)
+	("device_max_ops"
+		( IF "100m" )
+		( IRMX "76.80m" )
+		( PDM "500m" )
+		( TJ "150" )
+		( RJC "150" )
+		( RCA "0.0" )
+	)
+)
+
+
+
+("mmsz5235bt1"
+	(Creator "Device property file created by analog_uprev on Wed Feb  6 17:33:04 IST 2008")
+	("device_info"
+		( MODEL_TYPE 434 )
+		( SYMBOL_NAME "Zener Voltage Regulator" )
+		
+	)
+	("device_max_ops"
+		( IF "100m" )
+		( IRMX "70.02m" )
+		( PDM "500m" )
+		( TJ "150" )
+		( RJC "150" )
+		( RCA "0.0" )
+	)
+)
+
+
+
+("mmsz5236bt1"
+	(Creator "Device property file created by analog_uprev on Wed Feb  6 17:33:04 IST 2008")
+	("device_info"
+		( MODEL_TYPE 434 )
+		( SYMBOL_NAME "Zener Voltage Regulator" )
+		
+	)
+	("device_max_ops"
+		( IF "100m" )
+		( IRMX "66.66m" )
+		( PDM "500m" )
+		( TJ "150" )
+		( RJC "150" )
+		( RCA "0.0" )
+	)
+)
+
+
+
+
+("mmsz5239bt1"
+	(Creator "Device property file created by analog_uprev on Wed Feb  6 17:33:04 IST 2008")
+	("device_info"
+		( MODEL_TYPE 434 )
+		( SYMBOL_NAME "Zener Voltage Regulator" )
+		
+	)
+	("device_max_ops"
+		( IF "100m" )
+		( IRMX "52.30m" )
+		( PDM "500m" )
+		( TJ "150" )
+		( RJC "150" )
+		( RCA "0.0" )
+	)
+)
+
+
+
+("mmsz5240bt1"
+	(Creator "Device property file created by analog_uprev on Wed Feb  6 17:33:04 IST 2008")
+	("device_info"
+		( MODEL_TYPE 434 )
+		( SYMBOL_NAME "Zener Voltage Regulator" )
+		
+	)
+	("device_max_ops"
+		( IF "100m" )
+		( IRMX "52.30m" )
+		( PDM "500m" )
+		( TJ "150" )
+		( RJC "150" )
+		( RCA "0.0" )
+	)
+)
+
+
+
+
+("mmsz5243bt1"
+	(Creator "Device property file created by analog_uprev on Wed Feb  6 17:33:04 IST 2008")
+	("device_info"
+		( MODEL_TYPE 434 )
+		( SYMBOL_NAME "Zener Voltage Regulator" )
+		
+	)
+	("device_max_ops"
+		( IF "100m" )
+		( IRMX "36.63m" )
+		( PDM "500m" )
+		( TJ "150" )
+		( RJC "150" )
+		( RCA "0.0" )
+	)
+)
+
+
+("mmsz5250bt1"
+	(Creator "Device property file created by analog_uprev on Wed Feb  6 17:33:04 IST 2008")
+	("device_info"
+		( MODEL_TYPE 434 )
+		( SYMBOL_NAME "Zener Voltage Regulator" )
+		
+	)
+	("device_max_ops"
+		( IF "100m" )
+		( IRMX "23.80m" )
+		( PDM "500m" )
+		( TJ "150" )
+		( RJC "150" )
+		( RCA "0.0" )
+	)
+)
+
+
+
+("mmsz5256bt1"
+	(Creator "Device property file created by analog_uprev on Wed Feb  6 17:33:04 IST 2008")
+	("device_info"
+		( MODEL_TYPE 434 )
+		( SYMBOL_NAME "Zener Voltage Regulator" )
+		
+	)
+	("device_max_ops"
+		( IF "100m" )
+		( IRMX "15.87m" )
+		( PDM "500m" )
+		( TJ "150" )
+		( RJC "150" )
+		( RCA "0.0" )
+	)
+)
+
+
+("mmsz5260bt1"
+	(Creator "Device property file created by analog_uprev on Wed Feb  6 17:33:04 IST 2008")
+	("device_info"
+		( MODEL_TYPE 434 )
+		( SYMBOL_NAME "Zener Voltage Regulator" )
+		
+	)
+	("device_max_ops"
+		( IF "100m" )
+		( IRMX "11.07m" )
+		( PDM "500m" )
+		( TJ "150" )
+		( RJC "150" )
+		( RCA "0.0" )
+	)
+)
+
+
+
+("mmsz5262bt1"
+	(Creator "Device property file created by analog_uprev on Wed Feb  6 17:33:04 IST 2008")
+	("device_info"
+		( MODEL_TYPE 434 )
+		( SYMBOL_NAME "Zener Voltage Regulator" )
+		
+	)
+	("device_max_ops"
+		( IF "100m" )
+		( IRMX "9.33m" )
+		( PDM "500m" )
+		( TJ "150" )
+		( RJC "150" )
+		( RCA "0.0" )
+	)
+)
+
+
+
+("mmsz5272bt1"
+	(Creator "Device property file created by analog_uprev on Wed Feb  6 17:33:04 IST 2008")
+	("device_info"
+		( MODEL_TYPE 434 )
+		( SYMBOL_NAME "Zener Voltage Regulator" )
+		
+	)
+	("device_max_ops"
+		( IF "100m" )
+		( IRMX "4.34m" )
+		( PDM "500m" )
+		( TJ "150" )
+		( RJC "150" )
+		( RCA "0.0" )
+	)
+)
+

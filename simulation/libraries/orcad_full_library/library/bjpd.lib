@@ -1,0 +1,1346 @@
+*$ model description: "awb2n6034"
+*a Device model created by analog_uprev for 2n6034 on Mon Feb  5 06:08:04 IST 2001
+.subckt awb2n6034   5 4 1
+DD2 3 5 M1M2N6034_collect
+.MODEL M1M2N6034_collect D IS=5.4176e-22 RS=162.582990m N=575.815920m
++  IBV=100.000010n
+DD1 2 4 M2M2N6034_base
+.MODEL M2M2N6034_base D IS=12.500000p N=1.85  IBV=100.000010n TT=3.6u
+QQ2 3 2 1  M3M2N6034_PNP
+.MODEL M3M2N6034_PNP PNP IS=10.000000n BF=6.000000MEG NF=1.04 VAF=100
++ IKF=800.000000u ISE=30.000000u NE=19.14 BR=25 NR=1.04
++ ISC=0 NC=2 RB=0 RE=79.999990m RC=50.000000m CJE=
++ 49.000000p VJE=600.000000m MJE=356.169980m  XTF=10 VTF=
++ 600.000000m ITF=100.000000m PTF=0 CJC=42.745000p VJC=899.999940m
++ MJC=218.011000m XCJC=1 TR=124.362010n CJS=0 VJS=749.999940m MJS=
++ 499.999970m XTB=1.7119 EG=1.11 XTI=3 KF=0 AF=1 FC=499.999970m
+.ends
+*$ end model description: "awb2n6034"
+*
+*
+*$ model description: "awb2n6035"
+*a Device model created by analog_uprev for 2n6035 on Mon Feb  5 06:08:04 IST 2001
+.subckt awb2n6035   5 4 1
+DD2 3 5 M1M2N6034_collect
+.MODEL M1M2N6034_collect D IS=5.4176e-22 RS=162.582990m N=575.815920m
++  IBV=100.000010n
+DD1 2 4 M2M2N6034_base
+.MODEL M2M2N6034_base D IS=12.500000p N=1.85  IBV=100.000010n
+QQ2 3 2 1  M3M2N6034_PNP
+.MODEL M3M2N6034_PNP PNP IS=10.000000n BF=6.000000MEG NF=1.04 VAF=100
++ IKF=800.000000u ISE=30.000000u NE=19.14 BR=25 NR=1.04
++ ISC=0 NC=2 RB=0 RE=79.999990m RC=50.000000m CJE=
++ 49.000000p VJE=600.000000m MJE=356.169980m TF=3.178530n XTF=10 VTF=
++ 600.000000m ITF=100.000000m PTF=0 CJC=103.745000p VJC=899.999940m
++ MJC=218.011000m XCJC=1 TR=124.362010n CJS=0 VJS=749.999940m MJS=
++ 499.999970m XTB=1.7119 EG=1.11 XTI=3 KF=0 AF=1 FC=499.999970m
+.ends
+*$ end model description: "awb2n6035"
+*
+*
+*$ model description: "awb2n6036"
+*a Device model created by analog_uprev for 2n6036 on Mon Feb  5 06:08:04 IST 2001
+.subckt awb2n6036   5 4 1
+DD2 3 5 M1M2N6034_collect
+.MODEL M1M2N6034_collect D IS=5.4176e-22 RS=162.582990m N=575.815920m
++  IBV=100.000010n
+DD1 2 4 M2M2N6034_base
+.MODEL M2M2N6034_base D IS=12.500000p N=1.85  IBV=100.000010n
+QQ2 3 2 1  M3M2N6034_PNP
+.MODEL M3M2N6034_PNP PNP IS=10.000000n BF=6.000000MEG NF=1.04 VAF=100
++ IKF=800.000000u ISE=30.000000u NE=19.14 BR=25 NR=1.04
++ ISC=0 NC=2 RB=0 RE=79.999990m RC=50.000000m CJE=
++ 49.000000p VJE=600.000000m MJE=356.169980m TF=3.178530n XTF=10 VTF=
++ 600.000000m ITF=100.000000m PTF=0 CJC=103.745000p VJC=899.999940m
++ MJC=218.011000m XCJC=1 TR=124.362010n CJS=0 VJS=749.999940m MJS=
++ 499.999970m XTB=1.7119 EG=1.11 XTI=3 KF=0 AF=1 FC=499.999970m
+.ends
+*$ end model description: "awb2n6036"
+*
+*
+*$ model description: "awb2n6040"
+*b Device model created by analog_uprev for 2n6040 on Mon Feb  5 06:08:04 IST 2001
+.subckt awb2n6040 C B E
++ params:
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=1.011E-15
++ BF=35000
++ NF=1.5
++ VAF=80
++ IKF=0.5
++ ISE=9.810E-6
++ NE=15.9805
++ BR=0.1
++ NR=1.0
++ VAR=50
++ IKR=0.5
++ ISC=0
++ NC=2.0
++ RB=125
++ IRB=1E-3
++ RBM=25
++ RE=0.003
++ RC=0.123
++ CJE=102.8E-12
++ VJE=0.7
++ MJE=0.14
++ TF=1.5E-9
++ XTF=2.00
++ VTF=5
++ ITF=1
++ PTF=0
++ CJC=160.3E-12
++ VJC=0.7
++ MJC=0.2425
++ XCJC=0.5
++ TR=20E-9
++ CJS=0
++ VJS=0.7
++ MJS=0.5
++ XTB=2.28
++ EG=1.11
++ XTI=3.0
++ KF=0
++ AF=1
++ FC=0.5
+Q2n6040_0 C B E model7 {area} 
+.model model7 pnp
++  is={IS}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  br={BR}
++  nr={NR}
++  var={VAR}
++  ikr={IKR}
++  isc={ISC}
++  nc={NC}
++  rb={RB}
++  irb={IRB}
++  rbm={RBM}
++  re={RE}
++  rc={RC}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  tf={TF}
++  xtf={XTF}
++  vtf={VTF}
++  itf={ITF}
++  ptf={PTF}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  xcjc={XCJC}
++  tr={TR}
++  cjs={CJS}
++  vjs={VJS}
++  mjs={MJS}
++  xtb={XTB}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n6040
+*$ end model description: "awb2n6040"
+*
+*
+*$ model description: "awb2n6041"
+*b Device model created by analog_uprev for 2n6041 on Mon Feb  5 06:08:04 IST 2001
+.subckt awb2n6041 C B E
++ params:
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=1.011E-15
++ BF=35000
++ NF=1.5
++ VAF=80
++ IKF=0.5
++ ISE=9.810E-6
++ NE=15.9805
++ BR=0.1
++ NR=1.0
++ VAR=50
++ IKR=0.5
++ ISC=0
++ NC=2.0
++ RB=125
++ IRB=1E-3
++ RBM=25
++ RE=0.003
++ RC=0.123
++ CJE=102.8E-12
++ VJE=0.7
++ MJE=0.14
++ TF=1.5E-9
++ XTF=2.00
++ VTF=5
++ ITF=1
++ PTF=0
++ CJC=160.3E-12
++ VJC=0.7
++ MJC=0.2425
++ XCJC=0.5
++ TR=20E-9
++ CJS=0
++ VJS=0.7
++ MJS=0.5
++ XTB=2.28
++ EG=1.11
++ XTI=3.0
++ KF=0
++ AF=1
++ FC=0.5
+Q2n6041_0 C B E model7 {area} 
+.model model7 pnp
++  is={IS}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  br={BR}
++  nr={NR}
++  var={VAR}
++  ikr={IKR}
++  isc={ISC}
++  nc={NC}
++  rb={RB}
++  irb={IRB}
++  rbm={RBM}
++  re={RE}
++  rc={RC}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  tf={TF}
++  xtf={XTF}
++  vtf={VTF}
++  itf={ITF}
++  ptf={PTF}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  xcjc={XCJC}
++  tr={TR}
++  cjs={CJS}
++  vjs={VJS}
++  mjs={MJS}
++  xtb={XTB}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n6041
+*$ end model description: "awb2n6041"
+*
+*
+*$ model description: "awb2n6042"
+*b Device model created by analog_uprev for 2n6042 on Mon Feb  5 06:08:04 IST 2001
+.subckt awb2n6042 C B E
++ params:
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=1.011E-15
++ BF=35000
++ NF=1.5
++ VAF=80
++ IKF=0.5
++ ISE=9.810E-6
++ NE=15.9805
++ BR=0.1
++ NR=1.0
++ VAR=50
++ IKR=0.5
++ ISC=0
++ NC=2.0
++ RB=125
++ IRB=1E-3
++ RBM=25
++ RE=0.003
++ RC=0.123
++ CJE=102.8E-12
++ VJE=0.7
++ MJE=0.14
++ TF=1.5E-9
++ XTF=2.00
++ VTF=5
++ ITF=1
++ PTF=0
++ CJC=160.3E-12
++ VJC=0.7
++ MJC=0.2425
++ XCJC=0.5
++ TR=20E-9
++ CJS=0
++ VJS=0.7
++ MJS=0.5
++ XTB=2.28
++ EG=1.11
++ XTI=3.0
++ KF=0
++ AF=1
++ FC=0.5
+Q2n6042_0 C B E model7 {area} 
+.model model7 pnp
++  is={IS}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  br={BR}
++  nr={NR}
++  var={VAR}
++  ikr={IKR}
++  isc={ISC}
++  nc={NC}
++  rb={RB}
++  irb={IRB}
++  rbm={RBM}
++  re={RE}
++  rc={RC}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  tf={TF}
++  xtf={XTF}
++  vtf={VTF}
++  itf={ITF}
++  ptf={PTF}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  xcjc={XCJC}
++  tr={TR}
++  cjs={CJS}
++  vjs={VJS}
++  mjs={MJS}
++  xtb={XTB}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n6042
+*$ end model description: "awb2n6042"
+*
+*
+*$ model description: "awb2n6052"
+*a Device model created by analog_uprev for 2n6052 on Mon Feb  5 06:08:04 IST 2001
+.subckt awb2n6052   1 6 2
+QQ2 3 4 2  M1Mq2n6052
+.MODEL M1Mq2n6052 PNP IS=10.000000n BF=4.500000MEG NF=1 VAF=100 IKF=
++ 7.000000m ISE=55.000000u NE=13.5 BR=25 NR=1 RB=8 RBM=8 RE=
++ 10.000000m RC=79.999990m CJE=314.100010p VJE=899.999940m MJE=
++ 436.199980m TF=4.000000n XTF=10 VTF=600.000000m ITF=100.000000m CJC=
++ 355.100010p VJC=2.05 MJC=306.299990m XCJC=1 TR=138.449010n XTB=
++ 2.42918 EG=200.000000m XTI=-10
+DD4 3 1 M2Mdc2n6052
+.MODEL M2Mdc2n6052 D IS=594.580020p N=1 IBV=100.000010n
+DD5 4 6 M3Mdb2n6052
+.MODEL M3Mdb2n6052 D IS=1.133210u N=6 IBV=100.000010n
+DD6 1 2 M4Mdce2n6052
+.MODEL M4Mdce2n6052 D IS=100.000000f RS=100 N=1 EG=0 XTI=0 BV=150 IBV=
++ 800.000000p
+.ends
+*$ end model description: "awb2n6052"
+*
+*
+*$ model description: "awb2n6287"
+*b Device model created by analog_uprev for 2n6287 on Mon Feb  5 06:08:04 IST 2001
+.subckt awb2n6287 C B E
++ params:
++ STATE=1
++ STATE_FACTOR=0
++ IS=14.39n
++ BF=16000
++ NF=2.92
++ VAF=200
++ IKF=20
++ ISE=55e-6
++ NE=60
++ BR=0.05
++ NR=2.92
++ VAR=500
++ ISC=0
++ NC=1
++ RB=10
++ RBM=10
++ RE=0.01
++ RC=0.09
++ CJE=500p
++ VJE=2.78
++ MJE=0.4
++ TF=1.592n
++ XTF=0
++ ITF=0
++ PTF=0
++ CJC=595p
++ VJC=2.78
++ MJC=0.39
++ XCJC=0.5
++ TR=103.2e-6
++ XTB=2.433
++ XTI=3
++ KF=0
++ AF=1
++ FC=0.5
+Q2n6287_0 C B E model7  
+.model model7 pnp
++  is={IS}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  br={BR}
++  nr={NR}
++  var={VAR}
++  isc={ISC}
++  nc={NC}
++  rb={RB}
++  rbm={RBM}
++  re={RE}
++  rc={RC}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  tf={TF}
++  xtf={XTF}
++  itf={ITF}
++  ptf={PTF}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  xcjc={XCJC}
++  tr={TR}
++  xtb={XTB}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awb2n6287
+*$ end model description: "awb2n6287"
+*
+*
+*$ model description: "awbbd646"
+*b Device model created by analog_uprev for bd646 on Mon Feb  5 06:08:04 IST 2001
+.subckt awbbd646 C B E
++ params:
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=7.716E-9
++ BF=12000
++ NF=2.818
++ VAF=200
++ IKF=7
++ ISE=30E-6
++ NE=30
++ BR=0.0092
++ NR=2.818
++ VAR=500
++ ISC=0
++ NC=1.0
++ RB=34.85
++ RBM=34.85
++ RE=0.01
++ RC=0.187
++ CJE=162.0E-12
++ VJE=0.235
++ MJE=0.28
++ TF=1.592E-9
++ XTF=0
++ ITF=0
++ PTF=0
++ CJC=242.17E-12
++ VJC=4.085
++ MJC=0.372
++ XCJC=0.5
++ TR=323.0E-6
++ CJS=0
++ VJS=0.7
++ MJS=0.5
++ XTB=2.314
++ EG=1.11
++ XTI=3.0
++ KF=0
++ AF=1
++ FC=0.5
+Qbd646_0 C B E model7 {area} 
+.model model7 pnp
++  is={IS}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  br={BR}
++  nr={NR}
++  var={VAR}
++  isc={ISC}
++  nc={NC}
++  rb={RB}
++  rbm={RBM}
++  re={RE}
++  rc={RC}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  tf={TF}
++  xtf={XTF}
++  itf={ITF}
++  ptf={PTF}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  xcjc={XCJC}
++  tr={TR}
++  cjs={CJS}
++  vjs={VJS}
++  mjs={MJS}
++  xtb={XTB}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbbd646
+*$ end model description: "awbbd646"
+*
+*
+*$ model description: "awbbd648"
+*b Device model created by analog_uprev for bd648 on Mon Feb  5 06:08:04 IST 2001
+.subckt awbbd648 C B E
++ params:
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=7.716E-9
++ BF=12000
++ NF=2.818
++ VAF=200
++ IKF=7
++ ISE=30E-6
++ NE=30
++ BR=0.0092
++ NR=2.818
++ VAR=500
++ ISC=0
++ NC=1.0
++ RB=34.85
++ RBM=34.85
++ RE=0.01
++ RC=0.187
++ CJE=162.0E-12
++ VJE=0.235
++ MJE=0.28
++ TF=1.592E-9
++ XTF=0
++ ITF=0
++ PTF=0
++ CJC=242.17E-12
++ VJC=4.085
++ MJC=0.372
++ XCJC=0.5
++ TR=323.0E-6
++ CJS=0
++ VJS=0.7
++ MJS=0.5
++ XTB=2.314
++ EG=1.11
++ XTI=3.0
++ KF=0
++ AF=1
++ FC=0.5
+Qbd648_0 C B E model7 {area} 
+.model model7 pnp
++  is={IS}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  br={BR}
++  nr={NR}
++  var={VAR}
++  isc={ISC}
++  nc={NC}
++  rb={RB}
++  rbm={RBM}
++  re={RE}
++  rc={RC}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  tf={TF}
++  xtf={XTF}
++  itf={ITF}
++  ptf={PTF}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  xcjc={XCJC}
++  tr={TR}
++  cjs={CJS}
++  vjs={VJS}
++  mjs={MJS}
++  xtb={XTB}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbbd648
+*$ end model description: "awbbd648"
+*
+*
+*$ model description: "awbbd650"
+*b Device model created by analog_uprev for bd650 on Mon Feb  5 06:08:04 IST 2001
+.subckt awbbd650 C B E
++ params:
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=7.716E-9
++ BF=12000
++ NF=2.818
++ VAF=200
++ IKF=7
++ ISE=30E-6
++ NE=30
++ BR=0.0092
++ NR=2.818
++ VAR=500
++ ISC=0
++ NC=1.0
++ RB=34.85
++ RBM=34.85
++ RE=0.01
++ RC=0.187
++ CJE=162.0E-12
++ VJE=0.235
++ MJE=0.28
++ TF=1.592E-9
++ XTF=0
++ ITF=0
++ PTF=0
++ CJC=242.17E-12
++ VJC=4.085
++ MJC=0.372
++ XCJC=0.5
++ TR=323.0E-6
++ CJS=0
++ VJS=0.7
++ MJS=0.5
++ XTB=2.314
++ EG=1.11
++ XTI=3.0
++ KF=0
++ AF=1
++ FC=0.5
+Qbd650_0 C B E model7 {area} 
+.model model7 pnp
++  is={IS}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  br={BR}
++  nr={NR}
++  var={VAR}
++  isc={ISC}
++  nc={NC}
++  rb={RB}
++  rbm={RBM}
++  re={RE}
++  rc={RC}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  tf={TF}
++  xtf={XTF}
++  itf={ITF}
++  ptf={PTF}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  xcjc={XCJC}
++  tr={TR}
++  cjs={CJS}
++  vjs={VJS}
++  mjs={MJS}
++  xtb={XTB}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbbd650
+*$ end model description: "awbbd650"
+*
+*
+*$ model description: "awbbd652"
+*b Device model created by analog_uprev for bd652 on Mon Feb  5 06:08:04 IST 2001
+.subckt awbbd652 C B E
++ params:
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=7.716E-9
++ BF=12000
++ NF=2.818
++ VAF=200
++ IKF=7
++ ISE=30E-6
++ NE=30
++ BR=0.0092
++ NR=2.818
++ VAR=500
++ ISC=0
++ NC=1.0
++ RB=34.85
++ RBM=34.85
++ RE=0.01
++ RC=0.187
++ CJE=162.0E-12
++ VJE=0.235
++ MJE=0.28
++ TF=1.592E-9
++ XTF=0
++ ITF=0
++ PTF=0
++ CJC=242.17E-12
++ VJC=4.085
++ MJC=0.372
++ XCJC=0.5
++ TR=323.0E-6
++ CJS=0
++ VJS=0.7
++ MJS=0.5
++ XTB=2.314
++ EG=1.11
++ XTI=3.0
++ KF=0
++ AF=1
++ FC=0.5
+Qbd652_0 C B E model7 {area} 
+.model model7 pnp
++  is={IS}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  br={BR}
++  nr={NR}
++  var={VAR}
++  isc={ISC}
++  nc={NC}
++  rb={RB}
++  rbm={RBM}
++  re={RE}
++  rc={RC}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  tf={TF}
++  xtf={XTF}
++  itf={ITF}
++  ptf={PTF}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  xcjc={XCJC}
++  tr={TR}
++  cjs={CJS}
++  vjs={VJS}
++  mjs={MJS}
++  xtb={XTB}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbbd652
+*$ end model description: "awbbd652"
+*
+*
+*$ model description: "awbbdx54c"
+*a Device model created by analog_uprev for bdx54c on Mon Feb  5 06:08:04 IST 2001
+.subckt awbbdx54c   1 6 2
+QQ1 3 4 2  M1Mqtip122
+.MODEL M1Mqtip122 PNP IS=10.000000n BF=1.180000MEG NF=1.04264 VAF=100
++ IKF=7.000000m ISE=51.000000u NE=19.14 BR=25 NR=1.04264 RB=13.4569
++ RBM=13.4569 RE=87.593090m RC=50.000000m CJE=110.869000p VJE=
++ 899.999940m MJE=516.233950m TF=6.000000n XTF=10 VTF=600.000000m ITF=
++ 100.000000m CJC=158.227010p VJC=1.07683 MJC=232.012990m XCJC=1 TR=
++ 13.8449010n XTB=2.12918 EG=200.000000m XTI=-10
+DD1 3 1 M2Mdctip122
+.MODEL M2Mdctip122 D IS=594.580020p N=1 IBV=100.000010n
+DD2 4 6 M3Mdbtip122
+.MODEL M3Mdbtip122 D IS=1.133210u N=4 IBV=100.000010n
+DD4 6 4 M5Mdbtip122
+.MODEL M5Mdbtip122 D
+DD3 1 2 M4Mdectip122
+.MODEL M4Mdectip122 D IS=100.000000f RS=100 N=1 EG=0 XTI=0 BV=175 IBV=
++ 2.000000n
+.ends
+*$ end model description: "awbbdx54c"
+*
+*
+*$ model description: "awbbdx64b"
+*a Device model created by analog_uprev for bdx64b on Mon Feb  5 06:08:04 IST 2001
+.subckt awbbdx64b   1 6 2
+QQ2 3 4 2  M1Mq2n6052
+.MODEL M1Mq2n6052 PNP IS=10.000000n BF=4.500000MEG NF=1 VAF=100 IKF=
++ 7.000000m ISE=55.000000u NE=13.5 BR=25 NR=1 RB=8 RBM=8 RE=
++ 10.000000m RC=79.999990m CJE=314.100010p VJE=899.999940m MJE=
++ 436.199980m TF=4.000000n XTF=10 VTF=600.000000m ITF=100.000000m CJC=
++ 355.100010p VJC=2.05 MJC=306.299990m XCJC=1 TR=138.449010n XTB=
++ 2.42918 EG=200.000000m XTI=-10
+DD4 3 1 M2Mdc2n6052
+.MODEL M2Mdc2n6052 D IS=594.580020p N=1 IBV=100.000010n
+DD5 4 6 M3Mdb2n6052
+.MODEL M3Mdb2n6052 D IS=1.133210u N=6 IBV=100.000010n
+DD6 1 2 M4Mdce2n6052
+.MODEL M4Mdce2n6052 D IS=100.000000f RS=100 N=1 EG=0 XTI=0 BV=150 IBV=
++ 800.000000p
+.ends
+*$ end model description: "awbbdx64b"
+*
+*
+*$ model description: "awbbdx66b"
+*b Device model created by analog_uprev for bdx66b on Mon Feb  5 06:08:04 IST 2001
+.subckt awbbdx66b C B E
++ params:
++ STATE=1
++ STATE_FACTOR=0
++ IS=14.39n
++ BF=16000
++ NF=2.92
++ VAF=200
++ IKF=20
++ ISE=55e-6
++ NE=60
++ BR=0.05
++ NR=2.92
++ VAR=500
++ ISC=0
++ NC=1
++ RB=10
++ RBM=10
++ RE=0.01
++ RC=0.09
++ CJE=500p
++ VJE=2.78
++ MJE=0.4
++ TF=1.592n
++ XTF=0
++ ITF=0
++ PTF=0
++ CJC=595p
++ VJC=2.78
++ MJC=0.39
++ XCJC=0.5
++ TR=103.2e-6
++ XTB=2.433
++ XTI=3
++ KF=0
++ AF=1
++ FC=0.5
+Qbdx66b_0 C B E model7  
+.model model7 pnp
++  is={IS}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  br={BR}
++  nr={NR}
++  var={VAR}
++  isc={ISC}
++  nc={NC}
++  rb={RB}
++  rbm={RBM}
++  re={RE}
++  rc={RC}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  tf={TF}
++  xtf={XTF}
++  itf={ITF}
++  ptf={PTF}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  xcjc={XCJC}
++  tr={TR}
++  xtb={XTB}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbbdx66b
+*$ end model description: "awbbdx66b"
+*
+*
+*$ model description: "awbmj11015"
+*a Device model created by analog_uprev for mj11015 on Mon Feb  5 06:08:04 IST 2001
+.subckt awbmj11015   2 1 3
+*MACROMODEL FOR MJ11015
+*.SUBCKT MJP 2 1 3
+*** NODES: PIN1( BASE ); PIN2( COLLECTOR ); PIN3( EMITTER )*****
+*** SUBFILE NAME:MJP
+***************************
+Q1  2 1 5 MQ1
+D1  6 4 MD1
+V1  3 6 DC 0
+FC  6 2 V2 33
+C1  5 6 4UF
+.MODEL MD1 D N=.85
+.MODEL MQ1 PNP  IS=1E-9 ISE=1.32E-3 BF=300 NE=100 RB=100 RBM=0.1 IRB=.003
++ NF=.63 IKF=0.21 RC=4.1
++ CJE=210NF TF=0.1NS
+***************************
+G1  6 1 11 12 1.1E-3
+V2  4 5 DC 0
+H1  10 0 V1 1
+D2  10 11 MD
+R1  11 12 1K
+V3  12 0 DC 10
+.MODEL MD D
+*************************
+*.ENDS MJP
+.ends
+*$ end model description: "awbmj11015"
+*
+*
+*$ model description: "awbmj11017"
+*a Device model created by analog_uprev for mj11017 on Mon Feb  5 06:08:04 IST 2001
+.subckt awbmj11017   1 2 3
+DD1 1 3 M1MHCPL2602diodei 1
+.MODEL M1MHCPL2602diodei D IS=149.000000n RS=30.000000m N=2.21 TT=
++ 1.440000u CJO=23.130000p VJ=499.999970m M=420.999970m EG=1.11 XTI=3
++ KF=0 AF=1 FC=499.999970m BV=200 IBV=1
+QQ3 1 4 3  M2MMJ11017B
+.MODEL M2MMJ11017B PNP IS=3.678000n BF=620 NF=1.32 VAF=130 IKF=1.82
++ ISE=8.670000n NE=2.8311 BR=1 NR=600.000000m VAR=200 ISC=
++ 100.000010n NC=600.000000m RB=3 IRB=8 RBM=1 RE=100.000000u RC=
++ 90.000000m CJE=15.000000p VJE=749.999940m MJE=379.999970m TF=
++ 7.958000n CJC=9.000000p VJC=749.999940m MJC=330.000000m TR=
++ 4.838000u XTB=1.1 XTI=3
+RR2 2 4 10.000000K TC=0 0
+RR1 4 3 80 TC=0 0
+QQ1 1 2 4  M3MMJ11017A
+.MODEL M3MMJ11017A PNP IS=1.931000n BF=69 NF=1.431 VAF=30 IKF=
++ 400.000000m ISE=238.999980p NE=1.557 BR=1.5 NR=1.4 VAR=200 IKR=10
++ ISC=8.000000n NC=1.9 RB=6 IRB=800.000000m RBM=1.000000m RE=
++ 10.000000m RC=10 CJE=1.700000n VJE=300.000000m MJE=300.000000m TF=
++ 6.000000n XTF=22 VTF=4 ITF=4 CJC=3.000000n VJC=400.000000m MJC=
++ 300.000000m TR=2.000000u XTB=1.1 EG=1.11 XTI=3
+.ends
+*$ end model description: "awbmj11017"
+*
+*
+*$ model description: "awbmje6040"
+*b Device model created by analog_uprev for mje6040 on Mon Feb  5 06:08:04 IST 2001
+.subckt awbmje6040 C B E
++ params:
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=1.011E-15
++ BF=35000
++ NF=1.5
++ VAF=80
++ IKF=0.5
++ ISE=9.810E-6
++ NE=15.9805
++ BR=0.1
++ NR=1.0
++ VAR=50
++ IKR=0.5
++ ISC=0
++ NC=2.0
++ RB=125
++ IRB=1E-3
++ RBM=25
++ RE=0.003
++ RC=0.123
++ CJE=102.8E-12
++ VJE=0.7
++ MJE=0.14
++ TF=1.5E-9
++ XTF=2.00
++ VTF=5
++ ITF=1
++ PTF=0
++ CJC=160.3E-12
++ VJC=0.7
++ MJC=0.2425
++ XCJC=0.5
++ TR=20E-9
++ CJS=0
++ VJS=0.7
++ MJS=0.5
++ XTB=2.28
++ EG=1.11
++ XTI=3.0
++ KF=0
++ AF=1
++ FC=0.5
+Qmje6040_0 C B E model7 {area} 
+.model model7 pnp
++  is={IS}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  br={BR}
++  nr={NR}
++  var={VAR}
++  ikr={IKR}
++  isc={ISC}
++  nc={NC}
++  rb={RB}
++  irb={IRB}
++  rbm={RBM}
++  re={RE}
++  rc={RC}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  tf={TF}
++  xtf={XTF}
++  vtf={VTF}
++  itf={ITF}
++  ptf={PTF}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  xcjc={XCJC}
++  tr={TR}
++  cjs={CJS}
++  vjs={VJS}
++  mjs={MJS}
++  xtb={XTB}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbmje6040
+*$ end model description: "awbmje6040"
+*
+*
+*$ model description: "awbmje6041"
+*b Device model created by analog_uprev for mje6041 on Mon Feb  5 06:08:04 IST 2001
+.subckt awbmje6041 C B E
++ params:
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=1.011E-15
++ BF=35000
++ NF=1.5
++ VAF=80
++ IKF=0.5
++ ISE=9.810E-6
++ NE=15.9805
++ BR=0.1
++ NR=1.0
++ VAR=50
++ IKR=0.5
++ ISC=0
++ NC=2.0
++ RB=125
++ IRB=1E-3
++ RBM=25
++ RE=0.003
++ RC=0.123
++ CJE=102.8E-12
++ VJE=0.7
++ MJE=0.14
++ TF=1.5E-9
++ XTF=2.00
++ VTF=5
++ ITF=1
++ PTF=0
++ CJC=160.3E-12
++ VJC=0.7
++ MJC=0.2425
++ XCJC=0.5
++ TR=20E-9
++ CJS=0
++ VJS=0.7
++ MJS=0.5
++ XTB=2.28
++ EG=1.11
++ XTI=3.0
++ KF=0
++ AF=1
++ FC=0.5
+Qmje6041_0 C B E model7 {area} 
+.model model7 pnp
++  is={IS}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  br={BR}
++  nr={NR}
++  var={VAR}
++  ikr={IKR}
++  isc={ISC}
++  nc={NC}
++  rb={RB}
++  irb={IRB}
++  rbm={RBM}
++  re={RE}
++  rc={RC}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  tf={TF}
++  xtf={XTF}
++  vtf={VTF}
++  itf={ITF}
++  ptf={PTF}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  xcjc={XCJC}
++  tr={TR}
++  cjs={CJS}
++  vjs={VJS}
++  mjs={MJS}
++  xtb={XTB}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbmje6041
+*$ end model description: "awbmje6041"
+*
+*
+*$ model description: "awbmje6042"
+*b Device model created by analog_uprev for mje6042 on Mon Feb  5 06:08:04 IST 2001
+.subckt awbmje6042 C B E
++ params:
++ STATE=1
++ AREA=1.0
++ STATE_FACTOR=0
++ IS=1.011E-15
++ BF=35000
++ NF=1.5
++ VAF=80
++ IKF=0.5
++ ISE=9.810E-6
++ NE=15.9805
++ BR=0.1
++ NR=1.0
++ VAR=50
++ IKR=0.5
++ ISC=0
++ NC=2.0
++ RB=125
++ IRB=1E-3
++ RBM=25
++ RE=0.003
++ RC=0.123
++ CJE=102.8E-12
++ VJE=0.7
++ MJE=0.14
++ TF=1.5E-9
++ XTF=2.00
++ VTF=5
++ ITF=1
++ PTF=0
++ CJC=160.3E-12
++ VJC=0.7
++ MJC=0.2425
++ XCJC=0.5
++ TR=20E-9
++ CJS=0
++ VJS=0.7
++ MJS=0.5
++ XTB=2.28
++ EG=1.11
++ XTI=3.0
++ KF=0
++ AF=1
++ FC=0.5
+Qmje6042_0 C B E model7 {area} 
+.model model7 pnp
++  is={IS}
++  bf={BF}
++  nf={NF}
++  vaf={VAF}
++  ikf={IKF}
++  ise={ISE}
++  ne={NE}
++  br={BR}
++  nr={NR}
++  var={VAR}
++  ikr={IKR}
++  isc={ISC}
++  nc={NC}
++  rb={RB}
++  irb={IRB}
++  rbm={RBM}
++  re={RE}
++  rc={RC}
++  cje={CJE}
++  vje={VJE}
++  mje={MJE}
++  tf={TF}
++  xtf={XTF}
++  vtf={VTF}
++  itf={ITF}
++  ptf={PTF}
++  cjc={CJC}
++  vjc={VJC}
++  mjc={MJC}
++  xcjc={XCJC}
++  tr={TR}
++  cjs={CJS}
++  vjs={VJS}
++  mjs={MJS}
++  xtb={XTB}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++ 
+.ends  awbmje6042
+*$ end model description: "awbmje6042"
+*
+*
+*$ model description: "awbtip105"
+*a Device model created by analog_uprev for tip105 on Mon Feb  5 06:08:04 IST 2001
+.subckt awbtip105   2 6 5
+FI4 3 4 VFI4 -10
+VFI4 4 1 0.0
+DD3 1 6 M1MD_Base
+.MODEL M1MD_Base D IS=130.000000f VJ=1 N=1 RS=0 IBV=100.000000n
+DD1 3 2 M2MD_Collector
+.MODEL M2MD_Collector D TT=0 IS=100.000000p FC=500.000000m N=1 RS=
++ 30.730000m IBV=100.000000n
+QQ1 3 4 5  M3MPNP
+.MODEL M3MPNP PNP TR=0 ITF=100.000000m VJC=950.000000m VJE=
++ 900.000000m NE=31.5261 NF=2.4 BR=5 CJC=242.619200p CJE=151.405500p
++ RE=100.000000m XCJC=1 TF=500p XTB=2.42917 IS=2.000000u VTF=
++ 600.000000m IKF=1 MJC=400.000000m BF=3.000000K XTF=10 NR=2.4 MJE=
++ 410.286200m VAF=100 XTI=0 EG=0 ISE=1.500000m
+RR1 4 5 8.000000K TC=0 0
+CC1 2 6 10.000000p TC=0
+.ends
+*$ end model description: "awbtip105"
+*
+*
+*$ model description: "awbtip106"
+*a Device model created by analog_uprev for tip106 on Mon Feb  5 06:08:04 IST 2001
+.subckt awbtip106   2 6 5
+FI4 3 4 VFI4 -10
+VFI4 4 1 0.0
+DD3 1 6 M1MD_Base
+.MODEL M1MD_Base D IS=130.000000f VJ=1 N=1 RS=0 IBV=100.000000n
+DD1 3 2 M2MD_Collector
+.MODEL M2MD_Collector D TT=0 IS=100.000000p FC=500.000000m N=1 RS=
++ 30.730000m IBV=100.000000n
+QQ1 3 4 5  M3MPNP
+.MODEL M3MPNP PNP TR=0 ITF=100.000000m VJC=950.000000m VJE=
++ 900.000000m NE=31.5261 NF=2.4 BR=5 CJC=242.619200p CJE=151.405500p
++ RE=100.000000m XCJC=1 TF=500p XTB=2.42917 IS=2.000000u VTF=
++ 600.000000m IKF=1 MJC=400.000000m BF=3.000000K XTF=10 NR=2.4 MJE=
++ 410.286200m VAF=100 XTI=0 EG=0 ISE=1.500000m
+RR1 4 5 8.000000K TC=0 0
+CC1 2 6 10.000000p TC=0
+.ends
+*$ end model description: "awbtip106"
+*
+*
+*$ model description: "awbtip107"
+*a Device model created by analog_uprev for tip107 on Mon Feb  5 06:08:04 IST 2001
+.subckt awbtip107   2 6 5
+FI4 3 4 VFI4 -10
+VFI4 4 1 0.0
+DD3 1 6 M1MD_Base
+.MODEL M1MD_Base D IS=130.000000f VJ=1 N=1 RS=0 IBV=100.000000n
+DD1 3 2 M2MD_Collector
+.MODEL M2MD_Collector D TT=0 IS=100.000000p FC=500.000000m N=1 RS=
++ 30.730000m IBV=100.000000n
+QQ1 3 4 5  M3MPNP
+.MODEL M3MPNP PNP TR=0 ITF=100.000000m VJC=950.000000m VJE=
++ 900.000000m NE=31.5261 NF=2.4 BR=5 CJC=242.619200p CJE=151.405500p
++ RE=100.000000m XCJC=1 TF=500p XTB=2.42917 IS=2.000000u VTF=
++ 600.000000m IKF=1 MJC=400.000000m BF=3.000000K XTF=10 NR=2.4 MJE=
++ 410.286200m VAF=100 XTI=0 EG=0 ISE=1.500000m
+RR1 4 5 8.000000K TC=0 0
+CC1 2 6 10.000000p TC=0
+.ends
+*$ end model description: "awbtip107"
+*
+*
+*$ model description: "awbtip127"
+*a Device model created by analog_uprev for tip127 on Mon Feb  5 06:08:04 IST 2001
+.subckt awbtip127   1 6 2
+QQ1 3 4 2  M1Mqtip122
+.MODEL M1Mqtip122 PNP IS=10.000000n BF=1.180000MEG NF=1.04264 VAF=100
++ IKF=7.000000m ISE=51.000000u NE=19.14 BR=25 NR=1.04264 RB=13.4569
++ RBM=13.4569 RE=87.593090m RC=50.000000m CJE=110.869000p VJE=
++ 899.999940m MJE=516.233950m TF=6.000000n XTF=10 VTF=600.000000m ITF=
++ 100.000000m CJC=158.227010p VJC=1.07683 MJC=232.012990m XCJC=1 TR=
++ 13.8449010n XTB=2.12918 EG=200.000000m XTI=-10
+DD1 3 1 M2Mdctip122
+.MODEL M2Mdctip122 D IS=594.580020p N=1 IBV=100.000010n
+DD2 4 6 M3Mdbtip122
+.MODEL M3Mdbtip122 D IS=1.133210u N=4 IBV=100.000010n
+DD4 6 4 M5Mdbtip122
+.MODEL M5Mdbtip122 D
+DD3 1 2 M4Mdectip122
+.MODEL M4Mdectip122 D IS=100.000000f RS=100 N=1 EG=0 XTI=0 BV=175 IBV=
++ 2.000000n
+.ends
+*$ end model description: "awbtip127"
+*
+*

@@ -1,0 +1,226 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : lidar_pcb.brd                                 )
+(    Software Version : 24.1S003                                      )
+(    Date/Time        : Tue Apr  8 18:39:47 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'C:\Users\sky94\OneDrive\Desktop\대학\lidar\lidar_pcb\allegro'
+Design Directory:            'C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro'
+Old design name:             'C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/lidar_pcb.brd'
+New design name:             'C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/lidar_pcb.brd'
+
+CmdLine: netrev.exe -y 1 -v -n -i C:\Users\sky94\OneDrive\Desktop\대학\lidar\lidar_pcb\allegro C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/lidar_pcb.brd C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/lidar_pcb.brd
+
+------ Preparing to read pst files ------
+
+Starting to read C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/pstchip.dat 
+   Finished reading C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/pstchip.dat (00:00:00.30)
+Starting to read C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/pstxprt.dat 
+   Finished reading C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/pstxprt.dat (00:00:00.00)
+Starting to read C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/pstxnet.dat 
+   Finished reading C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'CAPC3225X170N' used by RefDes C10(0.1UF) for device 'VJ1210Y104MXCAT_CAPC3225X170N_DISCRETE_VJ1210Y104MXCAT_(CAPC3225X170N)' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library
+
+#2   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'CBR08C' used by RefDes C11(0.5PF) for device 'CBR08C508ACGAC_CBR08C_DISCRETE_CBR08C508ACGAC' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor
+
+#3   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'CAPC1608X90N' used by RefDes C16(1NF) for device 'C0603X102KCRAC3316_CAPC1608X90N_DISCRETE_C0603X102KCRAC3316' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not s
+
+#4   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'CAPC0603X39N' used by RefDes C2(0.47UF) for device 'MLASE063BB5474MFNB33_CAPC0603X39N_DISCRETE_MLASE063BB5474MFNB33' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if
+
+#5   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'GRM18X' used by RefDes C7(47UF) for device 'GRM188R60E476ME15J_GRM18X_DISCRETE_GRM188R60E476ME15J' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use db
+
+#6   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'CAPC0603X33N' used by RefDes C8(4.7UF) for device '02016D475MAT2A_CAPC0603X33N_DISCRETE_02016D475MAT2A' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or u
+
+#7   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'CAPC5764X279N' used by RefDes C9(2.2UF) for device '22252C225KAT2A_CAPC5764X279N_DISCRETE_22252C225KAT2A_(CAPC5764X279N)' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library pa
+
+#8   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'SON50P200X200X80-9N' used by RefDes OPA855 for device 'OPA855IDSGT_SON50P200X200X80-9N_OPA855IDSGT' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use d
+
+#9   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'RESC1608X55N' used by RefDes R1(10) for device 'RCA060310R0FKEAHP_RESC1608X55N_DISCRETE_RCA060310R0FKEAHP' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set o
+
+#10  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'RESC1608X55N' used by RefDes R11(360OHM) for device 'KTR03EZPF3600_RESC1608X55N_DISCRETE_KTR03EZPF3600' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or u
+
+#11  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'RESC1608X51N' used by RefDes R12(500) for device 'PLT0603Z5000AST5_RESC1608X51N_DISCRETE_PLT0603Z5000AST5' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set o
+
+#12  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'RESC1608X55N' used by RefDes R13(27) for device 'ERJ3RED27R0V_RESC1608X55N_DISCRETE_ERJ3RED27R0V' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbd
+
+#13  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'RESC1608X55N' used by RefDes R14(20) for device 'SG73P1JTTD20R0F_RESC1608X55N_DISCRETE_SG73P1JTTD20R0F' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or u
+
+#14  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'RESC1608X58N' used by RefDes R16(200) for device 'RA73F1J200RBTDF_RESC1608X58N_DISCRETE_RA73F1J200RBTDF' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or 
+
+#15  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'RESC1608X55N' used by RefDes R17(130) for device 'ERJS03F1300V_RESC1608X55N_DISCRETE_ERJS03F1300V' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use db
+
+#16  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'RESC1608X50N' used by RefDes R18(100) for device 'CRCW0603100RFKEC_RESC1608X50N_DISCRETE_CRCW0603100RFKEC' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set o
+
+#17  WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'RESC1608X55N' used by RefDes R19(0) for device 'RC0603JR-070RL_RESC1608X55N_DISCRETE_RC0603JR-070RL' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use 
+
+
+
+===========================================================
+Start Constraint Override Import
+	Constraint File:    C:/Users/sky94/OneDrive/Desktop/대학/lidar/lidar_pcb/allegro/pstcmdb.dat
+	Start time: Tue Apr  8 18:39:47 2025
+===========================================================
+===========================================================
+Finished Constraint Update	Time: Tue Apr  8 18:39:49 2025
+===========================================================
+
+------ Library Paths ------
+MODULEPATH =  . 
+           c:/cadence/orcadx_24.1/share/orApps/OrCaptureApp/../../../share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/OrCADX_24.1/share/orApps/OrCaptureApp/../../../share/local/pcb/symbols 
+           C:/Cadence/OrCADX_24.1/share/orApps/OrCaptureApp/../../../share/pcb/pcb_lib/symbols 
+           C:/Cadence/OrCADX_24.1/share/orApps/OrCaptureApp/../../../share/pcb/allegrolib/symbols 
+           C:/Users/sky94/AppData/Roaming/SPB_Data/cdssetup/OrCAD_Capture/24.1.0/downloaded_parts/allegropcb 
+           C:/Users/sky94/AppData/Roaming/SPB_Data/cdssetup/workspace/libraries/footprints 
+           C:/Users/sky94/AppData/Roaming/SPB_Data/cdssetup/workspace/libraries/footprints/downloads 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/OrCADX_24.1/share/orApps/OrCaptureApp/../../../share/local/pcb/padstacks 
+           C:/Cadence/OrCADX_24.1/share/orApps/OrCaptureApp/../../../share/pcb/pcb_lib/symbols 
+           C:/Cadence/OrCADX_24.1/share/orApps/OrCaptureApp/../../../share/pcb/allegrolib/symbols 
+           C:/Users/sky94/AppData/Roaming/SPB_Data/cdssetup/OrCAD_Capture/24.1.0/downloaded_parts/allegropcb 
+           C:/Users/sky94/AppData/Roaming/SPB_Data/cdssetup/workspace/libraries/footprints 
+           C:/Users/sky94/AppData/Roaming/SPB_Data/cdssetup/workspace/libraries/footprints/downloads 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Apr 8 18:39:46 2025
+   DESIGN NAME : 'LIDAR_PCB'
+   PACKAGING ON Mar  6 2025 10:16:32
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ 17 warnings detected
+
+cpu time      0:04:43
+elapsed time  0:00:03
+

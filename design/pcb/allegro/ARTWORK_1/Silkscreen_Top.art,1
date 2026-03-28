@@ -1,0 +1,19 @@
+G04 ================== begin FILE IDENTIFICATION RECORD ==================*
+G04 Layout Name:  LIDAR_READOUT_VER1_2_top_bot_gnd.brd*
+G04 Film Name:    Silkscreen_Top*
+G04 File Format:  Gerber RS274X*
+G04 File Origin:  Cadence Allegro 17.2-P019*
+G04 Origin Date:  Mon Jul 17 11:08:39 2023*
+G04 *
+G04 Layer:  MANUFACTURING/AUTOSILK_TOP*
+G04 *
+G04 Offset:    (0.0 0.0)*
+G04 Mirror:    No*
+G04 Mode:      Positive*
+G04 Rotation:  0*
+G04 FullContactRelief:  No*
+G04 UndefLineWidth:     10.0*
+G04 ================== end FILE IDENTIFICATION RECORD ====================*
+%FSLAX55Y55*MOIN*%
+%IR0*IPPOS*OFA0.00000B0.00000*MIA0B0*SFA1.00000B1.00000*%
+M02*

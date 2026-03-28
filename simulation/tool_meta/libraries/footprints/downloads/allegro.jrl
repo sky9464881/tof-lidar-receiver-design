@@ -1,0 +1,51 @@
+\t (00:00:04) allegro 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Fri Apr  4 19:17:38 2025
+\t (00:00:04)         Host=BOOK-QTRCVV9COM User=user Pid=15196 CPUs=12
+\t (00:00:04) CmdLine= c:\cadence\orcadx_24.1\tools\bin\allegro.exe C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\workspace\libraries\footprints\downloads\SON50P200X200X80-9N-D.dra
+\t (00:00:04) 
+\t (00:00:04) Loading axlcore.cxt 
+\t (00:00:07) Opening existing design...
+\i (00:00:07) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "SON50P200X200X80-9N-D"
+\d (00:00:07) Design opened: C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/libraries/footprints/downloads/SON50P200X200X80-9N-D.dra
+\i (00:00:07) trapsize 14767
+\i (00:00:08) trapsize 15258
+\i (00:00:08) trapsize 15782
+\i (00:00:08) trapsize 15258
+\i (00:00:08) trapsize 13018
+\i (00:00:08) trapsize 14441
+\i (00:00:09) generaledit 
+\t (00:00:09) [19:17:42.435712] Periodic Lic check successful
+[19:17:42.961000] Feature usage summary:
+
+\i (00:00:10) drag_start grid 12.6435 -0.9315
+\i (00:00:10) drag_stop -22.5937 -30.6809
+\i (00:00:11) drag_start grid 10.9105 -17.3948
+\i (00:00:11) drag_stop -34.7245 27.6626
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 10.3329 3.4009
+\i (00:00:11) trapsize 7221
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 10.3329 3.4010
+\i (00:00:11) trapsize 3610
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 10.3329 3.4010
+\i (00:00:11) trapsize 1805
+\i (00:00:11) zoom in 1 
+\i (00:00:11) setwindow pcb
+\i (00:00:11) zoom in 10.3329 3.4010
+\i (00:00:11) trapsize 903
+\i (00:00:12) drag_start grid 9.8636 3.3469
+\i (00:00:12) drag_stop 9.8636 2.6970
+\i (00:00:12) zoom out 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom out 9.8816 2.8234
+\i (00:00:12) trapsize 1805
+\i (00:00:14) exit 
+\t (00:00:15) Lic Summary:
+[19:17:48.463712] Cdslmd servers:C:\Users\user\AppData\Roaming\Cadence\VBL\SPB\license\license.txt
+[19:17:48.994000] Feature usage summary:
+
+\t (00:00:15)     Journal end - Fri Apr  4 19:17:49 2025

@@ -1,0 +1,122 @@
+* Library of Vendor Supplied Analog Models
+
+*  Copyright Cadence Design Systems, Inc. 2002 All Rights Reserved.
+*
+*
+* $Revision:   1.8  $
+* $Author:   HIRASUNA  $
+* $Date:   12 August 2001  $
+
+* $Modification History: Sripada Added 15 New LED Libararies from OSRAM  12/1/2006
+*****************************************************************************
+
+
+* This file references each of these vendor libraries.
+
+
+.lib "adv_lin.lib"              ; Advanced Linear Devices op-amps
+.lib "anlg_dev.lib"             ; Analog Devices/Precision Monolithics op-amps,
+                                ; voltage references, analog multipliers,
+                                ; transistor arrays
+.lib "apex.lib"                 ; Apex power op-amps
+.lib "apex_pwm.lib"             ; Apex PWMs
+.lib "burr_brn.lib"             ; Burr-Brown op-amps
+.lib "cel.lib"                  ; CEL RF devices
+.lib "comlinr.lib"              ; Comlinear op-amps
+.lib "elantec.lib"              ; Elantec op-amps, transistor arrays
+.lib "epcos.lib"                ; EPCOS Varistors(MOV), Inductors, Thermistors 
+.lib "fairchild.lib"            ; Fairchild power MOSFETs
+.lib "fwbell.lib"               ; F.W. Bell Hall effect models
+.lib "harris.lib"               ; Harris, Analog Division op-amps, transistor a
+.lib "Infineon.lib"             ; Infineon Semiconductors (formerly Siemens) 
+.lib "ixys.lib"                 ; Ixys power MOSFETs and IGBTs
+.lib "lin_tech.lib"             ; Linear Technology op-amps
+.lib "maxim.lib"                ; Maxim op-amps, buffers
+.lib "motor_rf.lib"             ; Motorola RF BJTs
+.lib "motorsen.lib"             ; Motorola Pressure Sensors
+.lib "nat_semi.lib"             ; National Semiconductors op-amps
+.lib "nec_mos.lib"              ; NEC Power MOSFETs
+.lib "on_amp.lib"               ; Motorola op-amps
+.lib "on_bjt.lib"               ; ON bipolar transistors
+.lib "on_diode.lib"             ; ON diodes 
+.lib "on_mos.lib"               ; ON Power MOSFETs
+.lib "on_pwm.lib"               ; ON PWMs
+.lib "phil_bjt.lib"             ; Philips Semiconductors bipolar jfets
+.lib "phil_diode.lib"           ; Philips Semiconductors diodes
+.lib "phil_fet.lib"             ; Philips Semiconductors mosfets
+.lib "phil_rf.lib"              ; Philips Semiconductors rf transistors
+.lib "polyfet.lib"              ; Polyfet RF Devices RF MOSFETs
+.lib "shindngn.lib"             ; Shindengen diodes and diode bridges
+.lib "tex_inst.lib"             ; Texas Instruments op-amps, comparators
+.lib "zetex.lib"                ; Zetex power transistor, fets
+.lib "infineon_bsx.lib"			; Infineon library, small signal transistors
+.lib "infineon_buz.lib"			; Infineon library, BUZ Series transistors
+.lib "infineon_coolmos_500.lib"	; Infineon library, Level-1 / 3 CoolMOS 500 V transistors
+.lib "infineon_coolmos_600.lib"	; Infineon library, Level-1 / 3 CoolMOS 600 V Transistors
+.lib "infineon_coolmos_800.lib"	; Infineon library, Level-1 / 3 CoolMOS 800 V Transistors
+.lib "infineon_ikw_t120_l2.lib"	; Infineon library, Level 2 Version of 1200V IGBT3/EMCON HEDIODE Models
+.lib "infineon_optimos2.lib"		; Infineon library, Level-1 / 3 PSPICE Library for OptiMOS2 n-Channel Transistors
+.lib "infineon_optimos_n.lib"		; Infineon library, Level-1 / 3 PSPICE Library for OptiMOS n-Channel Transistors
+.lib "infineon_optimos_p.lib"		; Infineon library, Level-1/2/3 PSPICE Library for OptiMOS p-Channel Transistors 
+.lib "infineon_pfet_60.lib"		; Infineon library, Level-1 / 3 PSPICE Library for PFET p-Channel Transistors
+.lib "infineon_s_afbjt.lib"		; Infineon library, AF-Transistors
+.lib "infineon_s_ditr.lib"		; Infineon library, Digital Transistors
+.lib "infineon_s_ditrar.lib"		; Infineon library, Digital Transistor Arrays
+.lib "infineon_sfet_100.lib"		; Infineon library, Level 1/3 PSPICE Library for SFET 100V n-Channel Transistors
+.lib "infineon_sic_diodes.lib"	; Infineon library, 
+.lib "infineon_sigcxxt120_l2.lib"	; Infineon library, Level2 Version of 1200V IGBT3 chips (Trenchstopp-FieldStopp)
+.lib "tyco_elec.lib"			; Tyco Electronics, PSpice Model for MOV/ROV
+.lib "irf.lib"				; International Rectifier, PSpice Model for Diode, IGBT, Mosfet & Mosfet Array
+.lib "siliconix.lib"			; Vishay, Siliconix Library, PSpice Model for Mosfet & Mosfet Array
+.lib "coilcraft.lib"			; Coilcraft Library, Inductors
+.lib "osram_u_sideled.lib"		; OSRAM U Side-Led 
+.lib "osram_topled.lib"			; OSRAM TOP LED
+.lib "osram_smartled.lib"		; OSRAM Smart LED
+.lib "osram_sideled.lib"		; OSRAM Side LED
+.lib "osram_power_topled.lib"		; OSRAM Power TOP LED
+.lib "osram_pointled.lib"		; OSRAM Point LED
+.lib "osram_ovalled.lib"		; OSRAM Oval LED
+.lib "osram_minitopled.lib"		; OSRAM Mini TOP LED
+.lib "osram_golden_dragon.lib"	; OSRAM Golden Dragon LED
+.lib "osram_firefly.lib"		; OSRAM Firefly LED
+.lib "osram_chipled.lib"		; OSRAM Chip LED
+.lib "osram_advpow_topled.lib"	; OSRAM Advanced Power TOP LED
+.lib "osram_3mmradial.lib"		; OSRAM 3mm Radial LED
+.lib "osram_5mmradial.lib"		; OSRAM 5mm Radial LED
+.lib "osram_argus.lib"			;  OSRAM Argus LED
+.lib "dei_lin_rec.lib"		  	; ARINC 429 Line Drivers
+.lib "msemi_supressor.lib"	  	; Microsemi Bidirectional suppressor	
+.lib "on_up_sup.lib"		 	; Microprocessor supervisior model Onsemi
+.lib "on_zener.lib"		  	; Zener diode from Onsemi
+.lib "st_opamp.lib"		  	; Opamp from ST
+.lib "nxp_mosfets.lib"		  	; NXP Power Mosfet
+
+.lib epcos_B82462.lib   		;
+.lib epcos_B82464.lib   		;
+.lib epcos_B82470.lib   		;
+.lib epcos_B82472.lib   		;
+.lib epcos_B82476.lib   		;
+.lib epcos_B82477.lib   		;
+.lib epcos_B82479.lib   		;
+.lib epcos_B8247X.lib   		;
+.lib epcos_SIMDAD.lib   		;
+.lib epcos_dld.lib      		;
+.lib epcos_hf_bc.lib    		;
+.lib epcos_simid_0603.lib   		;
+.lib epcos_simid_0805.lib   		;
+.lib epcos_simid_1210.lib   		;
+.lib epcos_simid_1812.lib   		;
+.lib ad_reg.lib				; Analog Devices Regulators
+.lib fagor_zy_gp.lib			; Fagor Glass passivated Zener Diode
+.lib bzt55.lib 				; Tiwan Semiconductor zener voltage regulators 
+.lib mic_sup.lib			; MicrelMicroprocessor supervisory Circuit
+.lib mii_opto.lib			; Mii Optocoupler
+.lib microchip_opamp.lib		; Microchip Opamp
+.lib ssr.lib				; Fairchild Semiconductors, Vishay Solid-State Relays
+.lib CP_cnvtr.lib			; Texas Instruments Charge Pump Converters
+.lib coilcraft_ind.lib			; Coilcraft Power inductor
+.lib battery.lib			; Battery
+.lib nat_semi_pwmic.lib			; National Semiconductors PWM ICs
+
+
+* end of library file

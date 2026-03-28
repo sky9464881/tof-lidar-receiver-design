@@ -1,0 +1,13 @@
+\t (00:00:07) orcadx 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:07)     Journal start - Fri Apr  4 19:34:40 2025
+\t (00:00:07)         Host=BOOK-QTRCVV9COM User=user Pid=12836 CPUs=12
+\t (00:00:07) CmdLine= C:\Cadence\OrCADX_24.1\tools\bin\unison.exe -layout -orcadx -mpssession user -proj c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\testpcb\testpcb.opj C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/testpcb/allegro/testpcb.brd
+\t (00:00:07) 
+\t (00:00:09) Loading axlcore.cxt 
+\t (00:00:10) Starting new design...
+\i (00:00:12) trapsize 10500
+\i (00:00:13) opencd C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/testpcb/allegro/testpcb.brd 
+\t (00:00:13) Opening existing design...
+\i (00:00:14) trapsize 105000
+\t (00:00:14) > Sending response DoneOpenBoard
+\t (00:00:14)     Journal end - Fri Apr  4 19:34:47 2025

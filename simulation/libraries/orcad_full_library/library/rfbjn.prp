@@ -1,0 +1,971 @@
+("awbbfg135a"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "15" )
+		( VCB "25" )
+		( VEB "2" )
+		( IC "1.50e-1" )
+		( IB "2.0e-2" )
+		( PDM "1.0" )
+		( TJ "150" )
+	)
+)
+("awbbfg193"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "80.0e-3" )
+		( IB "10.0e-3" )
+		( PDM "0.6" )
+		( TJ "150" )
+	)
+)
+("awbbfg196"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "100.0e-3" )
+		( IB "12.0e-3" )
+		( PDM "800.0e-3" )
+		( TJ "150" )
+	)
+)
+("awbbfg19s"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "15" )
+		( VCB "20" )
+		( VEB "3" )
+		( IC "100.0e-3" )
+		( IB "12.0e-3" )
+		( PDM "1.0" )
+		( TJ "150" )
+	)
+)
+("awbbfg235"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "15" )
+		( VCB "25" )
+		( VEB "2" )
+		( IC "300e-3" )
+		( IB "40e-3" )
+		( PDM "2" )
+		( TJ "150" )
+	)
+)
+("awbbfp136w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "1.5e-1" )
+		( IB "2.0e-2" )
+		( PDM "1" )
+		( TJ "150" )
+	)
+)
+("awbbfp180"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "8" )
+		( VCB "10" )
+		( VEB "2" )
+		( IC "4.0e-3" )
+		( IB "0.5e-3" )
+		( PDM "3.0e-2" )
+		( TJ "150" )
+	)
+)
+("awbbfp180w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "8" )
+		( VCB "10" )
+		( VEB "2" )
+		( IC "4.0e-3" )
+		( IB "0.5e-3" )
+		( PDM "3.0e-2" )
+		( TJ "150" )
+	)
+)
+("awbbfp181"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "20.0e-3" )
+		( IB "2.0e-3" )
+		( PDM "1.75e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfp181r"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "20.0e-3" )
+		( IB "2.0e-3" )
+		( PDM "1.75e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfp181w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "2.0e-2" )
+		( IB "2.0e-3" )
+		( PDM "1.75e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfp182"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "3.5e-2" )
+		( IB "4.0e-3" )
+		( PDM "2.5e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfp182r"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "3.5e-2" )
+		( IB "4.0e-3" )
+		( PDM "2.5e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfp182w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "35.0e-3" )
+		( IB "4.0e-3" )
+		( PDM "250.0e-3" )
+		( TJ "150" )
+	)
+)
+("awbbfp183"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "6.5e-2" )
+		( IB "5.0e-3" )
+		( PDM "2.5e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfp183r"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "6.5e-2" )
+		( IB "5.0e-3" )
+		( PDM "2.5e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfp183w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "6.5e-2" )
+		( IB "5.0e-3" )
+		( PDM "4.5e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfp193"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "8.0e-2" )
+		( IB "1.0e-2" )
+		( PDM "5.8e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfp193w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "8.0e-2" )
+		( IB "1.0e-2" )
+		( PDM "5.8e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfp196"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "1.0e-1" )
+		( IB "1.2e-2" )
+		( PDM "7.0e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfp196w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "1.0e-1" )
+		( IB "1.2e-2" )
+		( PDM "7.0e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfp280"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "8" )
+		( VCB "10" )
+		( VEB "2" )
+		( IC "1.0e-2" )
+		( IB "1.2e-3" )
+		( PDM "8.0e-2" )
+		( TJ "150" )
+	)
+)
+("awbbfp280w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "8" )
+		( VCB "10" )
+		( VEB "2" )
+		( IC "1.0e-2" )
+		( IB "1.2e-3" )
+		( PDM "8.0e-2" )
+		( TJ "150" )
+	)
+)
+("awbbfp405"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "4.5" )
+		( VCB "15" )
+		( VEB "1.5" )
+		( IC "1.2e-2" )
+		( IB "1e-3" )
+		( PDM "5.5e-2" )
+		( TJ "150" )
+	)
+)
+("awbbfp420"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "4.5" )
+		( VCB "15" )
+		( VEB "1.5" )
+		( IC "3.5e-2" )
+		( IB "3e-3" )
+		( PDM "1.6e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfp450"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "4.5" )
+		( VCB "15" )
+		( VEB "1.5" )
+		( IC "1.0e-1" )
+		( IB "1.0e-2" )
+		( PDM "4.5e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfp490"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+	)
+)
+("awbbfp81"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "16" )
+		( VCB "25" )
+		( VEB "2" )
+		( IC "3.0e-2" )
+		( IB "4.0e-3" )
+		( PDM "2.8e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfp93a"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "5.0e-2" )
+		( IB "6.0e-3" )
+		( PDM "3.0e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfq81"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "16" )
+		( VCB "25" )
+		( VEB "2" )
+		( IC "3.0e-2" )
+		( IB "4.0e-3" )
+		( PDM "2.8e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfr106"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "15" )
+		( VCB "20" )
+		( VEB "3" )
+		( IC "1.0e-1" )
+		( IB "1.2e-2" )
+		( PDM "7.0e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfr180"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "8" )
+		( VCB "10" )
+		( VEB "2" )
+		( IC "4.0e-3" )
+		( IB "0.5e-3" )
+		( PDM "3.0e-2" )
+		( TJ "150" )
+	)
+)
+("awbbfr180w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "8" )
+		( VCB "10" )
+		( VEB "2" )
+		( IC "4.0e-3" )
+		( IB "0.5e-3" )
+		( PDM "3.0e-2" )
+		( TJ "150" )
+	)
+)
+("awbbfr181"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "2.0e-2" )
+		( IB "2.0e-3" )
+		( PDM "1.75e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfr181w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "2.0e-2" )
+		( IB "2.0e-3" )
+		( PDM "1.75e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfr182"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "3.5e-2" )
+		( IB "4.0e-3" )
+		( PDM "2.5e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfr182w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "3.5e-2" )
+		( IB "4.0e-3" )
+		( PDM "2.5e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfr183"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "6.5e-2" )
+		( IB "5.0e-3" )
+		( PDM "4.5e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfr183w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "6.5e-2" )
+		( IB "5.0e-3" )
+		( PDM "4.5e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfr193"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "8.0e-2" )
+		( IB "1.0e-2" )
+		( PDM "5.8e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfr193w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "8.0e-2" )
+		( IB "1.0e-2" )
+		( PDM "5.8e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfr280"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "8" )
+		( VCB "10" )
+		( VEB "2" )
+		( IC "1.0e-2" )
+		( IB "1.2e-3" )
+		( PDM "8.0e-2" )
+		( TJ "150" )
+	)
+)
+("awbbfr280w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "8" )
+		( VCB "10" )
+		( VEB "2" )
+		( IC "1.0e-2" )
+		( IB "1.2e-3" )
+		( PDM "8.0e-2" )
+		( TJ "150" )
+	)
+)
+("awbbfr92p"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "15" )
+		( VCB "20" )
+		( VEB "2.5" )
+		( IC "3.0e-2" )
+		( IB "4.0e-3" )
+		( PDM "2.8e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfr92w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "15" )
+		( VCB "20" )
+		( VEB "2.5" )
+		( IC "3.0e-2" )
+		( IB "4.0e-3" )
+		( PDM "2.8e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfr93a"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "5.0e-2" )
+		( IB "6.0e-3" )
+		( PDM "3.0e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfr93aw"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "12" )
+		( VCB "20" )
+		( VEB "2" )
+		( IC "5.0e-2" )
+		( IB "6.0e-3" )
+		( PDM "3.0e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfs17p"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "15" )
+		( VCB "25" )
+		( VEB "2.5" )
+		( IC "2.5e-2" )
+		( PDM "2.8e-1" )
+		( TJ "150" )
+	)
+)
+("awbbfs17w"
+	(Creator "Device property file created by analog_uprev on Thu Feb  8 14:44:18 IST 2001")
+	("device_info"
+		( SYMBOL_NAME "NPN3" )
+		( MODEL_TYPE 504 )
+		( PORT_ORDER 
+ 			("C")
+ 			("B")
+ 			("E") )
+	)
+	("device_max_ops"
+		( VCE "15" )
+		( VCB "25" )
+		( VEB "2.5" )
+		( IC "2.5e-2" )
+		( PDM "2.8e-1" )
+		( TJ "150" )
+	)
+)

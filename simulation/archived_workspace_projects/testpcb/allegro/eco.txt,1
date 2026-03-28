@@ -1,0 +1,380 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  c:.../spb_data/cdssetup/workspace/projects/testpcb/allegro/testpcb.brd      |
+|                                                    Sat Apr  5 05:11:40 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  5VDD         pins ADDED TO this new net
+                                 C22(6.8UF)1.1                  
+                                 C32(10NF).2                    
+                                 C39(10NF).2                    
+                                 C40(6.8UF).1                   
+                                 IC14.5                         
+                                 IC15.5                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  0            pins ADDED TO this existing net (pins not previously on any net)
+                                 C20(0.1UF).1                   
+                                 C20(0.1UF).2                   
+                                 C21(0.1UF).1                   
+                                 C22(6.8UF)1.2                  
+                                 C22(6.8UF).2                   
+                                 C25(0.1UF).1                   
+                                 C26(6.8UF)1.2                  
+                                 C32(10NF).1                    
+                                 C39(10NF).1                    
+                                 C40(6.8UF).2                   
+                                 IC14.2                         
+                                 IC15.2                         
+                                 J2.2                           
+                                 J2.4                           
+                                 J2.6                           
+                                 J2.8                           
+                                 J2.10                          
+                                 J2.12                          
+                                 J2.14                          
+                                 J2.16                          
+                                 J2.18                          
+                                 J2.20                          
+                                 R10(20OHM).1                   
+                                 R23(50OHM).2                   
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1086004     pins ADDED TO this existing net (pins not previously on any net)
+                                 IC1.4                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1095424     pins ADDED TO this new net
+                                 C23(0.1UF)1.2                  
+                                 C24(1NF)1.1                    
+                                 IC13.1                         
+                                 R11(500OHM)1.2                 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1095428     pins ADDED TO this new net
+                                 C23(0.1UF)1.1                  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  c:.../spb_data/cdssetup/workspace/projects/testpcb/allegro/testpcb.brd      |
+|                                                    Sat Apr  5 05:11:40 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 C24(1NF)1.2                    
+                                 R12(27OHM).1                   
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1095472     pins ADDED TO this new net
+                                 IC13.4                         
+                                 R9(360OHM).1                   
+                                 R11(500OHM)1.1                 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1095578     pins ADDED TO this new net
+                                 C25(0.1UF).2                   
+                                 C26(6.8UF)1.1                  
+                                 IC13.6                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1095610     pins ADDED TO this new net
+                                 C21(0.1UF).2                   
+                                 C22(6.8UF).1                   
+                                 IC13.2                         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1095650     pins ADDED TO this new net
+                                 IC13.3                         
+                                 R10(20OHM).2                   
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1095840     pins ADDED TO this new net
+                                 C18(0.1UF).1                   
+                                 C19(1NF).2                     
+                                 R9(360OHM).2                   
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1097265     pins ADDED TO this new net
+                                 IC14.1                         
+                                 R17(0OHM).1                    
+                                 R18(100OHM).2                  
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1097309     pins ADDED TO this new net
+                                 R17(0OHM).2                    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1097377     pins ADDED TO this new net
+                                 IC14.6                         
+                                 R18(100OHM).1                  
+                                 R19(0OHM).1                    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1097425     pins ADDED TO this new net
+                                 R19(0OHM).2                    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1097573     pins ADDED TO this new net
+                                 IC15.1                         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  c:.../spb_data/cdssetup/workspace/projects/testpcb/allegro/testpcb.brd      |
+|                                                    Sat Apr  5 05:11:40 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 R24(0OHM).1                    
+                                 R25(100OHM)1.2                 
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1097617     pins ADDED TO this new net
+                                 R24(0OHM).2                    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1097689     pins ADDED TO this new net
+                                 IC15.6                         
+                                 R25(100OHM)1.1                 
+                                 R26(0OHM).1                    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1097737     pins ADDED TO this new net
+                                 R26(0OHM).2                    
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  POST_OUTPUT  pins ADDED TO this new net
+                                 IC14.3                         
+                                 R12(27OHM).2                   
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SAM_CON      pins ADDED TO this new net
+                                 IC15.3                         
+                                 R23(50OHM).1                   
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TIA_OUTPUT   pins ADDED TO this existing net (pins not previously on any net)
+                                 C18(0.1UF).2                   
+                                 C19(1NF).1                     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TRIGGER_ID_N pins ADDED TO this new net
+                                 J2.9                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TRIGGER_ID_P pins ADDED TO this new net
+                                 J2.11                          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TRIGGER_TIA_N pins ADDED TO this new net
+                                 J2.1                           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TRIGGER_TIA_P pins ADDED TO this new net
+                                 J2.3                           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  c:.../spb_data/cdssetup/workspace/projects/testpcb/allegro/testpcb.brd      |
+|                                                    Sat Apr  5 05:11:40 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C3216C0G2J103G160AE_CAPC3216X180N_C3216C0G2J103G160AE
+ CRCW120620R0FKEAHP_RESC3116X65N_CRCW120620R0FKEAHP
+ ERJ-1GJF1000C_ERJ1GJJ2R4C_ERJ-1GJF1000C
+ KTR03EZPF3600_RESC1608X55N_KTR03EZPF3600
+ OPA695IDBVR_SOT95P280X145-6N_OPA695IDBVR
+ P0603E50R0BBT_RESC1508X63N_P0603E50R0BBT
+ RC0603JR-070RL_RESC1608X55N_RC0603JR-070RL
+ TLV3604DCKR_SOT65P210X110-6N_TLV3604DCKR
+ TSW-110-07-G-D_1_TSW-110-XX-YY-D_TSW-110-07-G-D
+ WSC251527R00FEA_RESM6438X317N_WSC251527R00FEA
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  c:.../spb_data/cdssetup/workspace/projects/testpcb/allegro/testpcb.brd      |
+|                                                    Sat Apr  5 05:11:40 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ JP1                 4 HEADER_0_HEADER4_4 HEADER                
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  c:.../spb_data/cdssetup/workspace/projects/testpcb/allegro/testpcb.brd      |
+|                                                    Sat Apr  5 05:11:40 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C18(0.1UF)          C0603G104K5RACT250_C0603_C0603G104K5RACT250 
+ C19(1NF)            C3216X5R2J102M115AA_C3216_COMMERCIAL_C3216X5R2J102M115AA 
+ C20(0.1UF)          C0603G104K5RACT250_C0603_C0603G104K5RACT250 
+ C21(0.1UF)          C0603G104K5RACT250_C0603_C0603G104K5RACT250 
+ C22(6.8UF)1         TAJA685K020R_CAPPM3216X180N_TAJA685K020R 
+ C22(6.8UF)          TAJA685K020R_CAPPM3216X180N_TAJA685K020R 
+ C23(0.1UF)1         C0603G104K5RACT250_C0603_C0603G104K5RACT250 
+ C24(1NF)1           C3216X5R2J102M115AA_C3216_COMMERCIAL_C3216X5R2J102M115AA 
+ C25(0.1UF)          C0603G104K5RACT250_C0603_C0603G104K5RACT250 
+ C26(6.8UF)1         TAJA685K020R_CAPPM3216X180N_TAJA685K020R 
+ C32(10NF)           C3216C0G2J103G160AE_CAPC3216X180N_C3216C0G2J103G160AE 
+ C39(10NF)           C3216C0G2J103G160AE_CAPC3216X180N_C3216C0G2J103G160AE 
+ C40(6.8UF)          TAJA685K020R_CAPPM3216X180N_TAJA685K020R 
+ IC13                OPA695IDBVR_SOT95P280X145-6N_OPA695IDBVR 
+ IC14                TLV3604DCKR_SOT65P210X110-6N_TLV3604DCKR 
+ IC15                TLV3604DCKR_SOT65P210X110-6N_TLV3604DCKR 
+ J2                  TSW-110-07-G-D_1_TSW-110-XX-YY-D_TSW-110-07-G-D 
+ R9(360OHM)          KTR03EZPF3600_RESC1608X55N_KTR03EZPF3600 
+ R10(20OHM)          CRCW120620R0FKEAHP_RESC3116X65N_CRCW120620R0FKEAHP 
+ R11(500OHM)1        MCA12060D5000BP500_RESC3216X65N_MCA12060D5000BP500 
+ R12(27OHM)          WSC251527R00FEA_RESM6438X317N_WSC251527R00FEA 
+ R17(0OHM)           RC0603JR-070RL_RESC1608X55N_RC0603JR-070RL 
+ R18(100OHM)         ERJ-1GJF1000C_ERJ1GJJ2R4C_ERJ-1GJF1000C 
+ R19(0OHM)           RC0603JR-070RL_RESC1608X55N_RC0603JR-070RL 
+ R23(50OHM)          P0603E50R0BBT_RESC1508X63N_P0603E50R0BBT 
+ R24(0OHM)           RC0603JR-070RL_RESC1608X55N_RC0603JR-070RL 
+ R25(100OHM)1        ERJ-1GJF1000C_ERJ1GJJ2R4C_ERJ-1GJF1000C 
+ R26(0OHM)           RC0603JR-070RL_RESC1608X55N_RC0603JR-070RL 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  c:.../spb_data/cdssetup/workspace/projects/testpcb/allegro/testpcb.brd      |
+|                                                    Sat Apr  5 05:11:40 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C0(0.7PF).2                    XY             (450,590)
+ C1(0.47UF)1.2                  XY             (370,310)
+ C1(0.47UF).2                   XY             (370,120)
+ C9(0.1UF).2                    XY             (260,530)
+ C10(0.1UF).2                   XY             (190,720)
+ C14(0.1UF).2                   XY             (640,950)
+ C15(0.1UF).2                   XY             (230,1120)
+ C16(0.1UF).2                   XY             (330,1200)
+ C17(1NF).2                     XY             (720,1160)
+ C18(0.1UF).2                   PRIM_FILE      .\pstchip.dat
+ C18(0.1UF).2                   XY             (1070,900)
+ C19(1NF).2                     PRIM_FILE      .\pstchip.dat
+ C19(1NF).2                     XY             (1070,960)
+ C20(0.1UF).2                   PRIM_FILE      .\pstchip.dat
+ C20(0.1UF).2                   XY             (1440,890)
+ C21(0.1UF).2                   PRIM_FILE      .\pstchip.dat
+ C21(0.1UF).2                   XY             (1690,810)
+ C22(6.8UF)1.2                  PRIM_FILE      .\pstchip.dat
+ C22(6.8UF)1.2                  XY             (3310,680)
+ C22(6.8UF).2                   PRIM_FILE      .\pstchip.dat
+ C22(6.8UF).2                   XY             (1830,800)
+ C23(0.1UF)1.2                  PRIM_FILE      .\pstchip.dat
+ C23(0.1UF)1.2                  XY             (1670,650)
+ C23(0.1UF).2                   XY             (850,630)
+ C24(1NF)1.2                    PRIM_FILE      .\pstchip.dat
+ C24(1NF)1.2                    XY             (1670,710)
+ C24(1NF).2                     XY             (910,630)
+ C25(0.1UF).2                   PRIM_FILE      .\pstchip.dat
+ C25(0.1UF).2                   XY             (1010,800)
+ C26(6.8UF)1.2                  PRIM_FILE      .\pstchip.dat
+ C26(6.8UF)1.2                  XY             (1110,790)
+ C26(6.8UF).2                   XY             (250,130)
+ C27(6.8UF).2                   XY             (2320,780)
+ C28(0.1UF).2                   XY             (2390,790)
+ C29(0.1UF).2                   XY             (2510,870)
+ C30(0.1UF).2                   XY             (2820,620)
+ C31(1NF).2                     XY             (2900,830)
+ C32(10NF).2                    PRIM_FILE      .\pstchip.dat
+ C32(10NF).2                    XY             (3180,690)
+ C34(6.8UF).2                   XY             (2330,1340)
+ C35(0.1UF).2                   XY             (2400,1350)
+ C36(0.1UF).2                   XY             (2520,1430)
+ C37(0.1UF).2                   XY             (2830,1180)
+ C38(1NF).2                     XY             (2910,1390)
+ C39(10NF).2                    PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  c:.../spb_data/cdssetup/workspace/projects/testpcb/allegro/testpcb.brd      |
+|                                                    Sat Apr  5 05:11:40 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C39(10NF).2                    XY             (3270,1320)
+ C40(6.8UF).2                   PRIM_FILE      .\pstchip.dat
+ C40(6.8UF).2                   XY             (3400,1310)
+ C246(4.7UF).2                  XY             (1250,200)
+ C246(10UF)1.2                  XY             (250,300)
+ C246(10UF).2                   XY             (720,250)
+ C246(47UF).2                   XY             (990,240)
+ C247(22UF).2                   XY             (720,160)
+ IC1.5                          XY             (610,650)
+ IC2.4                          XY             (360,1070)
+ IC3.4                          XY             (2540,740)
+ IC4.4                          XY             (2550,1300)
+ IC11.3                         XY             (620,90)
+ IC12.3                         XY             (620,310)
+ IC13.1                         PRIM_FILE      .\pstchip.dat
+ IC13.1                         XY             (1370,770)
+ IC14.2                         PRIM_FILE      .\pstchip.dat
+ IC14.2                         XY             (3090,500)
+ IC15.2                         PRIM_FILE      .\pstchip.dat
+ IC15.2                         XY             (3180,1130)
+ J2.9                           PRIM_FILE      .\pstchip.dat
+ J2.9                           XY             (1740,160)
+ PS1.16                         XY             (1060,210)
+ R4(200K).2                     XY             (190,560)
+ R6(10OHM)1.2                   XY             (990,340)
+ R6(10OHM)2.2                   XY             (440,680)
+ R6(10OHM).2                    XY             (1420,210)
+ R8(200OHM).2                   XY             (440,980)
+ R9(130OHM).2                   XY             (620,1090)
+ R9(360OHM).2                   PRIM_FILE      .\pstchip.dat
+ R9(360OHM).2                   XY             (1190,930)
+ R10(20OHM).2                   PRIM_FILE      .\pstchip.dat
+ R10(20OHM).2                   XY             (1540,870)
+ R11(500OHM)1.2                 PRIM_FILE      .\pstchip.dat
+ R11(500OHM)1.2                 XY             (1540,690)
+ R11(500OHM).2                  XY             (440,660)
+ R12(27OHM).2                   PRIM_FILE      .\pstchip.dat
+ R12(27OHM).2                   XY             (1790,680)
+ R15(200OHM).2                  XY             (2620,650)
+ R16(200OHM).2                  XY             (2800,760)
+ R17(0OHM).2                    PRIM_FILE      .\pstchip.dat
+ R17(0OHM).2                    XY             (3370,460)
+ R18(100OHM).2                  PRIM_FILE      .\pstchip.dat
+ R18(100OHM).2                  XY             (3270,530)
+ R19(0OHM).2                    PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  c:.../spb_data/cdssetup/workspace/projects/testpcb/allegro/testpcb.brd      |
+|                                                    Sat Apr  5 05:11:40 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R19(0OHM).2                    XY             (3370,620)
+ R21(200OHM).2                  XY             (2630,1210)
+ R22(200OHM).2                  XY             (2810,1320)
+ R23(50OHM).2                   PRIM_FILE      .\pstchip.dat
+ R23(50OHM).2                   XY             (3080,1050)
+ R24(0OHM).2                    PRIM_FILE      .\pstchip.dat
+ R24(0OHM).2                    XY             (3460,1090)
+ R25(100OHM)1.2                 PRIM_FILE      .\pstchip.dat
+ R25(100OHM)1.2                 XY             (3360,1160)
+ R26(0OHM).2                    PRIM_FILE      .\pstchip.dat
+ R26(0OHM).2                    XY             (3460,1250)
+ TRIMREGISTERR7(20KOHM).2                 XY             (130,1080)
+ TRIMREGISTERR14(20KOHM).2                 XY             (2140,750)
+ TRIMREGISTERR20(20KOHM).2                 XY             (2150,1310)
+ U75.1                          XY             (310,650)
+ VR1.2                          XY             (1100,70)
+|------------------------------------------------------------------------------|
+|       Nets changed          :      78                                        |
+|       Comp definitions added:      10                                        |
+|       Components added      :      28                                        |
+|       Components deleted    :       1                                        |
+|       Slot property added   :     106                                        |
+|                                                                              |
+|   Total ECO changes reported:     223                                        |
+|------------------------------------------------------------------------------|

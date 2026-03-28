@@ -1,0 +1,112 @@
+(ExpressProject "testpcb"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "24.1 S003 (4280230)  [3/6/2025]-[04/04/25]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\testpcb.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ORCADX")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    ("Allegro Netlist Output Board File" ".\allegro\testpcb.brd"))
+  (Folder "Layout"
+    (File ".\allegro\testpcb.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\testpcb.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (Sort User)
+    (File ".\TESTPCB_OUTPUT\BOM.SCH.CSV"
+      (Type "Report")
+      (DisplayName ".\TESTPCB_OUTPUT\BOM.SCH.CSV")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs"
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile
+         "c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\testpcb\allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile
+         "c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\testpcb\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile
+         "c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\testpcb\allegro\eco.txt"))
+    (File ".\allegro\genfeed.log"
+      (Type "Log File")
+      (LogFile
+         "c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\testpcb\allegro\genfeed.log")))
+  (PartMRUSelector
+    (C3216X7R2A474K160AA
+      (FullPartName "C3216X7R2A474K160AA.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\WORKSPACE\LIBRARIES\SYMBOLS\DOWNLOADS\C3216X7R2A474K160AA.OLB")
+      (DeviceIndex "0"))
+    (R12-150B
+      (FullPartName "R12-150B.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\WORKSPACE\LIBRARIES\SYMBOLS\DOWNLOADS\R12-150B.OLB")
+      (DeviceIndex "0"))
+    (LM2940T-5.0_NOPB
+      (FullPartName "LM2940T-5.0_NOPB.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\WORKSPACE\LIBRARIES\SYMBOLS\DOWNLOADS\LM2940T-5.0_NOPB.OLB")
+      (DeviceIndex "0"))
+    (TPSB226K016R0600
+      (FullPartName "TPSB226K016R0600.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743622965\TPSB226K016R0600\CAPTURE\TPSB226K016R0600.OLB")
+      (DeviceIndex "0"))
+    (T491A106K016AT
+      (FullPartName "T491A106K016AT.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743622754\T491A106K016AT\CAPTURE\T491A106K016AT.OLB")
+      (DeviceIndex "0"))
+    (TAJA685K020R
+      (FullPartName "TAJA685K020R.Normal")
+      (LibraryName
+         "C:\USERS\USER\APPDATA\ROAMING\SPB_DATA\CDSSETUP\ORCAD_CAPTURE\24.1.0\TEMP\DOWNLOADED_PARTS\SAMACSYS_PART_1743622662\TAJA685K020R\CAPTURE\TAJA685K020R.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Layout")
+      (Path "Outputs")
+      (Path "Logs")
+      (Select "Design Resources"
+         "C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\testpcb\testpcb.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 377 0 1035"))
+      (Tab 0)))
+  (MPSSessionName "user"))

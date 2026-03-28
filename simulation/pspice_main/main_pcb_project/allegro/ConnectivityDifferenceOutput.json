@@ -1,0 +1,200 @@
+{
+	"Gate Swap" : [],
+	"Ref Des" : [],
+	"Pin Swap" : [],
+	"Component Property" : [],
+	"Net Property" : [],
+	"Pin Property" : [],
+	"Component" : [
+		{
+			"Name" : "TSW11007GD",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1153897\\@\\NEW_LIDAR\\.\\TSW-110-07-G-D_1.Normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "TSW11007GD"
+		},
+		{
+			"Name" : "TSW11007GD",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1209638\\@\\NEW_LIDAR\\.\\TSW-110-07-G-D_1.Normal\\(chips)",
+			"Logical" : "TSW11007GD",
+			"Physical" : null
+		}
+	],
+	"Net" : [
+		{
+			"Name" : "12V",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\12V\\",
+			"Logical" : null,
+			"Physical" : "12V"
+		},
+		{
+			"Name" : "TRIGGER_TIA_P",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\TRIGGER_TIA_P\\",
+			"Logical" : null,
+			"Physical" : "TRIGGER_TIA_P"
+		},
+		{
+			"Name" : "TRIGGER_ID_P",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\TRIGGER_ID_P\\",
+			"Logical" : null,
+			"Physical" : "TRIGGER_ID_P"
+		},
+		{
+			"Name" : "TRIGGER_TIA_N",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\TRIGGER_TIA_N\\",
+			"Logical" : null,
+			"Physical" : "TRIGGER_TIA_N"
+		},
+		{
+			"Name" : "TRIGGER_ID_N",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\TRIGGER_ID_N\\",
+			"Logical" : null,
+			"Physical" : "TRIGGER_ID_N"
+		},
+		{
+			"Name" : "-12V",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\-12V\\",
+			"Logical" : "-12V",
+			"Physical" : null
+		}
+	],
+	"Connection" : [
+		{
+			"Name" : "C1(6.8UF).1",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1153857\\@\\TAJA685K020R\\.\\TAJA685K020R.Normal\\(chips):\\+\\",
+			"Logical" : "-12V",
+			"Physical" : "12V"
+		},
+		{
+			"Name" : "C2(0.47UF).2",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1177760\\@\\MLASE063BB5474MFNB33\\.\\MLASE063BB5474MFNB33.Normal\\(chips):\\2\\",
+			"Logical" : "-12V",
+			"Physical" : "12V"
+		},
+		{
+			"Name" : "C4(10UF).2",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1154411\\@\\T491A106K016AT\\.\\T491A106K016AT.Normal\\(chips):\\-\\",
+			"Logical" : "-12V",
+			"Physical" : "12V"
+		},
+		{
+			"Name" : "C5(0.47UF).1",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1177969\\@\\MLASE063BB5474MFNB33\\.\\MLASE063BB5474MFNB33.Normal\\(chips):\\1\\",
+			"Logical" : "-12V",
+			"Physical" : "12V"
+		},
+		{
+			"Name" : "C7(47UF).2",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1178171\\@\\GRM188R60E476ME15J\\.\\GRM188R60E476ME15J.Normal\\(chips):\\2\\",
+			"Logical" : "-12V",
+			"Physical" : "12V"
+		},
+		{
+			"Name" : "LM2940.1",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1153769\\@\\NEW_LIDAR\\.\\LM2940T-5_0.0_NOPB.Normal\\(chips):\\IN\\",
+			"Logical" : "-12V",
+			"Physical" : "12V"
+		},
+		{
+			"Name" : "LM2990.2",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1154475\\@\\NEW_LIDAR\\.\\LM2990T-5_0.0_NOPB.Normal\\(chips):\\IN\\",
+			"Logical" : "-12V",
+			"Physical" : "12V"
+		},
+		{
+			"Name" : "R12_150B.22",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1154077\\@\\NEW_LIDAR\\.\\R12-150B_0.Normal\\(chips):\\+VIN_1\\",
+			"Logical" : "-12V",
+			"Physical" : "12V"
+		},
+		{
+			"Name" : "R12_150B.23",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1154077\\@\\NEW_LIDAR\\.\\R12-150B_0.Normal\\(chips):\\+VIN_2\\",
+			"Logical" : "-12V",
+			"Physical" : "12V"
+		},
+		{
+			"Name" : "TSW11007GD.9",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1209638\\@\\NEW_LIDAR\\.\\TSW-110-07-G-D_1.Normal\\(chips):\\9\\",
+			"Logical" : "N1156413",
+			"Physical" : null
+		},
+		{
+			"Name" : "TSW11007GD.11",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1209638\\@\\NEW_LIDAR\\.\\TSW-110-07-G-D_1.Normal\\(chips):\\11\\",
+			"Logical" : "N1156799",
+			"Physical" : null
+		},
+		{
+			"Name" : "TSW11007GD.4",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1209638\\@\\NEW_LIDAR\\.\\TSW-110-07-G-D_1.Normal\\(chips):\\4\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "TSW11007GD.2",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1209638\\@\\NEW_LIDAR\\.\\TSW-110-07-G-D_1.Normal\\(chips):\\2\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "TSW11007GD.6",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1209638\\@\\NEW_LIDAR\\.\\TSW-110-07-G-D_1.Normal\\(chips):\\6\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "TSW11007GD.8",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1209638\\@\\NEW_LIDAR\\.\\TSW-110-07-G-D_1.Normal\\(chips):\\8\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "TSW11007GD.10",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1209638\\@\\NEW_LIDAR\\.\\TSW-110-07-G-D_1.Normal\\(chips):\\10\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "TSW11007GD.12",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1209638\\@\\NEW_LIDAR\\.\\TSW-110-07-G-D_1.Normal\\(chips):\\12\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "TSW11007GD.14",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1209638\\@\\NEW_LIDAR\\.\\TSW-110-07-G-D_1.Normal\\(chips):\\14\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "TSW11007GD.16",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1209638\\@\\NEW_LIDAR\\.\\TSW-110-07-G-D_1.Normal\\(chips):\\16\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "TSW11007GD.18",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1209638\\@\\NEW_LIDAR\\.\\TSW-110-07-G-D_1.Normal\\(chips):\\18\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "TSW11007GD.20",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1209638\\@\\NEW_LIDAR\\.\\TSW-110-07-G-D_1.Normal\\(chips):\\20\\",
+			"Logical" : "0",
+			"Physical" : null
+		},
+		{
+			"Name" : "TSW11007GD.3",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1209638\\@\\NEW_LIDAR\\.\\TSW-110-07-G-D_1.Normal\\(chips):\\3\\",
+			"Logical" : "N1155357",
+			"Physical" : null
+		},
+		{
+			"Name" : "TSW11007GD.1",
+			"C_PATH" : "@\\LIDAR_PCB\\.\\Lidar_PCB\\(sch_1):\\INS1209638\\@\\NEW_LIDAR\\.\\TSW-110-07-G-D_1.Normal\\(chips):\\1\\",
+			"Logical" : "N1154653",
+			"Physical" : null
+		}
+	]
+}

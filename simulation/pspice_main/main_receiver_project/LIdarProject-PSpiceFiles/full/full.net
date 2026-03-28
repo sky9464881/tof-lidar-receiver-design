@@ -1,0 +1,9 @@
+* source LIDARPROJECT
+C_C242         GND -VS_5V_2  6.8uF  TC=0,0 
+C_C237         +VS_5V 0  1nF  TC=0,0 
+C_C238         +VS_5V 0  0.1uF  TC=0,0 
+C_C241         GND -VS_5V_2  0.1uF  TC=0,0 
+C_C244         APD_BIAS N1062371  4.7u  TC=0,0 
+C_C239         GND VS_5V_2  0.1uF  TC=0,0 
+C_C240         GND VS_5V_2  6.8uF  TC=0,0 
+R_R144         N1063993 GND  20 TC=0,0 

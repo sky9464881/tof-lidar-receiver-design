@@ -1,0 +1,3235 @@
+*$ model description: "awb1s2837"
+*b Device model created by analog_uprev for 1s2837 on Tue Feb  6 11:00:11 IST 2001
+.subckt awb1s2837   1 2 3
++ params:
++ IS=3.724E-09
++ RS=6.726E-01
++ N=1.710E+00
++ TT=1.490E-08
++ CJO=1.445E-12
++ VJ=9.900E-01
++ M=8.265E-02
++ EG=1.110E+00
++ XTI=3.000E+00
++ KF=0.000E+00
++ AF=1.000E+00
++ FC=5.000E-01
++ BV=6.000E+01
++ IBV=5.000E-02
+xinst1s2837   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1s2837
+*$ end model description: "awb1s2837"
+*
+*
+*$ model description: "awb1s2838"
+*b Device model created by analog_uprev for 1s2838 on Tue Feb  6 11:00:11 IST 2001
+.subckt awb1s2838   1 2 3
++ params:
++ IS=3.724E-09
++ RS=6.726E-01
++ N=1.710E+00
++ TT=1.490E-08
++ CJO=1.445E-12
++ VJ=9.900E-01
++ M=8.265E-02
++ EG=1.110E+00
++ XTI=3.000E+00
++ KF=0.000E+00
++ AF=1.000E+00
++ FC=5.000E-01
++ BV=1.000E+02
++ IBV=5.000E-02
+xinst1s2838   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1s2838
+*$ end model description: "awb1s2838"
+*
+*
+*$ model description: "awb1ss184"
+*b Device model created by analog_uprev for 1ss184 on Tue Feb  6 11:00:11 IST 2001
+.subckt awb1ss184   1 2 3
++ params:
++ IS=2.129980n
++ RS=2.988500m
++ N=1.7625
++ TT=14.000000n
++ CJO=910.000060f
++ VJ=749.999940m
++ M=47.600000m
++ XTI=3
++ BV=170
++ IBV=0.1
+xinst1ss184   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1ss184
+*$ end model description: "awb1ss184"
+*
+*
+*$ model description: "awb60cnq030"
+*b Device model created by analog_uprev for 60cnq030 on Tue Feb  6 11:00:11 IST 2001
+.subckt awb60cnq030   1 2 3
++ params:
++ IS=92.290000n
++ RS=1.759000m
++ N=750.699950m
++ TT=0
++ CJO=6.828000n
++ VJ=300.000000m
++ M=369.799990m
++ EG=670.000000m
++ XTI=3.204
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=60
++ IBV=1
+xinst60cnq030   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb60cnq030
+*$ end model description: "awb60cnq030"
+*
+*
+*$ model description: "awb60cnq045"
+*b Device model created by analog_uprev for 60cnq045 on Tue Feb  6 11:00:11 IST 2001
+.subckt awb60cnq045   1 2 3
++ params:
++ IS=92.290000n
++ RS=1.759000m
++ N=750.699950m
++ TT=0
++ CJO=6.828000n
++ VJ=300.000000m
++ M=369.799990m
++ EG=670.000000m
++ XTI=3.204
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=90
++ IBV=1
+xinst60cnq045   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb60cnq045
+*$ end model description: "awb60cnq045"
+*
+*
+*$ model description: "awb60cnq100"
+*b Device model created by analog_uprev for 60cnq100 on Tue Feb  6 11:00:11 IST 2001
+.subckt awb60cnq100   1 2 3
++ params:
++ IS=92.290000n
++ RS=1.759000m
++ N=750.699950m
++ TT=0
++ CJO=6.828000n
++ VJ=300.000000m
++ M=369.799990m
++ EG=670.000000m
++ XTI=3.204
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=200
++ IBV=1
+xinst60cnq100   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb60cnq100
+*$ end model description: "awb60cnq100"
+*
+*
+*$ model description: "awbbar43c"
+*b Device model created by analog_uprev for bar43c on Tue Feb  6 11:00:11 IST 2001
+.subckt awbbar43c   1 2 3
++ params:
++ IS=236.400010n
++ RS=1.298
++ N=1.334
++ TT=0
++ CJO=10.860000p
++ VJ=290.499970m
++ M=304.799990m
++ EG=670.000000m
++ XTI=2
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=60
++ IBV=1
+xinstbar43c   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbbar43c
+*$ end model description: "awbbar43c"
+*
+*
+*$ model description: "awbbas70_05"
+*b Device model created by analog_uprev for bas70_05 on Tue Feb  6 11:00:11 IST 2001
+.subckt awbbas70_05   1 2 3
++ params:
++ IS=2.207000n
++ RS=29.62
++ N=1.025
++ TT=0
++ CJO=1.634000p
++ VJ=300.000000m
++ M=201.499980m
++ EG=670.000000m
++ XTI=2
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=140
++ IBV=1
+xinstbas70_05   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbbas70_05
+*$ end model description: "awbbas70_05"
+*
+*
+*$ model description: "awbbav70"
+*b Device model created by analog_uprev for bav70 on Tue Feb  6 11:00:11 IST 2001
+.subckt awbbav70   1 2 3
++ params:
++ IS=87.640000n
++ RS=1.011
++ N=2.356
++ TT=6.256000n
++ CJO=1.200000p
++ VJ=750.000000m
++ M=500.000000m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=500.000000m
++ BV=140
++ IBV=1
+xinstbav70   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbbav70
+*$ end model description: "awbbav70"
+*
+*
+*$ model description: "awbbyv52_100"
+*b Device model created by analog_uprev for byv52_100 on Tue Feb  6 11:00:11 IST 2001
+.subckt awbbyv52_100   1 2 3
++ params:
++ IS=12.500000u
++ RS=2.471000m
++ N=2.242
++ TT=66.680000n
++ CJO=203.700000p
++ VJ=899.999940m
++ M=91.759990m
++ EG=1.11
++ XTI=5.193
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=200
++ IBV=1
+xinstbyv52_100   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbbyv52_100
+*$ end model description: "awbbyv52_100"
+*
+*
+*$ model description: "awbbyv52_150"
+*b Device model created by analog_uprev for byv52_150 on Tue Feb  6 11:00:11 IST 2001
+.subckt awbbyv52_150   1 2 3
++ params:
++ IS=12.500000u
++ RS=2.471000m
++ N=2.242
++ TT=66.680000n
++ CJO=203.700000p
++ VJ=899.999940m
++ M=91.759990m
++ EG=1.11
++ XTI=5.193
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=250
++ IBV=1
+xinstbyv52_150   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbbyv52_150
+*$ end model description: "awbbyv52_150"
+*
+*
+*$ model description: "awbbyv52_200"
+*b Device model created by analog_uprev for byv52_200 on Tue Feb  6 11:00:11 IST 2001
+.subckt awbbyv52_200   1 2 3
++ params:
++ IS=12.500000u
++ RS=2.471000m
++ N=2.242
++ TT=66.680000n
++ CJO=203.700000p
++ VJ=899.999940m
++ M=91.759990m
++ EG=1.11
++ XTI=5.193
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=300
++ IBV=1
+xinstbyv52_200   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbbyv52_200
+*$ end model description: "awbbyv52_200"
+*
+*
+*$ model description: "awbbyv52_50"
+*b Device model created by analog_uprev for byv52_50 on Tue Feb  6 11:00:11 IST 2001
+.subckt awbbyv52_50   1 2 3
++ params:
++ IS=12.500000u
++ RS=2.471000m
++ N=2.242
++ TT=66.680000n
++ CJO=203.700000p
++ VJ=899.999940m
++ M=91.759990m
++ EG=1.11
++ XTI=5.193
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=100
++ IBV=1
+xinstbyv52_50   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbbyv52_50
+*$ end model description: "awbbyv52_50"
+*
+*
+*$ model description: "awbc60po3q"
+*b Device model created by analog_uprev for c60po3q on Tue Feb  6 11:00:11 IST 2001
+.subckt awbc60po3q   1 2 3
++ params:
++ IS=700.000000u
++ RS=5.000000m
++ N=1.625
++ TT=254.000020n
++ CJO=7.300830n
++ VJ=499.999970m
++ M=514.399960m
++ EG=689.999940m
++ XTI=2
++ BV=35
++ IBV=5.000000K
+xinstc60po3q   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbc60po3q
+*$ end model description: "awbc60po3q"
+*
+*
+*$ model description: "awbc60po4q"
+*b Device model created by analog_uprev for c60po4q on Tue Feb  6 11:00:11 IST 2001
+.subckt awbc60po4q   1 2 3
++ params:
++ IS=700.000000u
++ RS=5.000000m
++ N=1.625
++ TT=254.000020n
++ CJO=7.300830n
++ VJ=499.999970m
++ M=514.399960m
++ EG=689.999940m
++ XTI=2
++ BV=45
++ IBV=5.000000K
+xinstc60po4q   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbc60po4q
+*$ end model description: "awbc60po4q"
+*
+*
+*$ model description: "awbctb_24"
+*b Device model created by analog_uprev for ctb_24 on Tue Feb  6 11:00:11 IST 2001
+.subckt awbctb_24   1 2 3
++ params:
++ IS=495.286010u
++ RS=56.910000m
++ N=2.1582
++ TT=1.230000n
++ CJO=243.000020p
++ VJ=499.999970m
++ M=453.000000m
++ XTI=3.2
++ BV=45
++ IBV=400
+xinstctb_24   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbctb_24
+*$ end model description: "awbctb_24"
+*
+*
+*$ model description: "awbctb_24l"
+*b Device model created by analog_uprev for ctb_24l on Tue Feb  6 11:00:11 IST 2001
+.subckt awbctb_24l   1 2 3
++ params:
++ IS=382.017000n
++ RS=20.408000m
++ N=863.199950m
++ TT=1.250000n
++ CJO=356.000000p
++ VJ=499.999970m
++ M=344.999970m
++ EG=689.999940m
++ XTI=2
++ BV=45
++ IBV=500
+xinstctb_24l   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbctb_24l
+*$ end model description: "awbctb_24l"
+*
+*
+*$ model description: "awbctb_33m"
+*b Device model created by analog_uprev for ctb_33m on Tue Feb  6 11:00:11 IST 2001
+.subckt awbctb_33m   1 2 3
++ params:
++ IS=600.000000u
++ RS=6.493500m
++ N=1.7601
++ TT=3.400000n
++ CJO=423.000000p
++ VJ=499.999970m
++ M=234.999980m
++ EG=689.999940m
++ XTI=2
++ BV=35
++ IBV=500
+xinstctb_33m   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbctb_33m
+*$ end model description: "awbctb_33m"
+*
+*
+*$ model description: "awbctb_34"
+*b Device model created by analog_uprev for ctb_34 on Tue Feb  6 11:00:11 IST 2001
+.subckt awbctb_34   1 2 3
++ params:
++ IS=3.969110u
++ RS=11.111000m
++ N=1.0313
++ TT=2.600000n
++ CJO=231.000000p
++ VJ=499.999970m
++ M=234.999980m
++ EG=689.999940m
++ XTI=2
++ BV=48
++ IBV=500
+xinstctb_34   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbctb_34
+*$ end model description: "awbctb_34"
+*
+*
+*$ model description: "awbctb_34m"
+*b Device model created by analog_uprev for ctb_34m on Tue Feb  6 11:00:11 IST 2001
+.subckt awbctb_34m   1 2 3
++ params:
++ IS=600.000000u
++ RS=6.493500m
++ N=1.7601
++ TT=3.400000n
++ CJO=423.000000p
++ VJ=499.999970m
++ M=234.999980m
++ EG=689.999940m
++ XTI=2
++ BV=48
++ IBV=500
+xinstctb_34m   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbctb_34m
+*$ end model description: "awbctb_34m"
+*
+*
+*$ model description: "awbd5lc20"
+*b Device model created by analog_uprev for d5lc20 on Tue Feb  6 11:00:11 IST 2001
+.subckt awbd5lc20   1 2 3
++ params:
++ IS=3.160840u
++ RS=28.851700m
++ N=2.371
++ TT=2.300000n
++ CJO=135.620000p
++ VJ=499.999970m
++ M=388.000000m
++ XTI=3
++ BV=400
++ IBV=10
+xinstd5lc20   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbd5lc20
+*$ end model description: "awbd5lc20"
+*
+*
+*$ model description: "awbdan201"
+*b Device model created by analog_uprev for dan201 on Tue Feb  6 11:00:11 IST 2001
+.subckt awbdan201   1 2 3
++ params:
++ IS=300.000000p
++ RS=3.3
++ N=1.576
++ TT=3.000000n
++ CJO=1.860000p
++ VJ=1.4
++ M=360.000000m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=45
++ IBV=1.0
+xinstdan201   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbdan201
+*$ end model description: "awbdan201"
+*
+*
+*$ model description: "awbdan202"
+*b Device model created by analog_uprev for dan202 on Tue Feb  6 11:00:11 IST 2001
+.subckt awbdan202   1 2 3
++ params:
++ IS=300.000000p
++ RS=3.3
++ N=1.576
++ TT=3.000000n
++ CJO=1.860000p
++ VJ=1.4
++ M=360.000000m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=45
++ IBV=1.0
+xinstdan202   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbdan202
+*$ end model description: "awbdan202"
+*
+*
+*$ model description: "awbdan202k"
+*b Device model created by analog_uprev for dan202k on Tue Feb  6 11:00:11 IST 2001
+.subckt awbdan202k   1 2 3
++ params:
++ IS=300.000000p
++ RS=3.3
++ N=1.576
++ TT=3.000000n
++ CJO=1.860000p
++ VJ=1.4
++ M=360.000000m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=45
++ IBV=1.0
+xinstdan202k   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbdan202k
+*$ end model description: "awbdan202k"
+*
+*
+*$ model description: "awbesab82"
+*b Device model created by analog_uprev for esab82 on Tue Feb  6 11:00:11 IST 2001
+.subckt awbesab82   1 2 3
++ params:
++ IS=1.615140m
++ RS=50.000000m
++ N=2.4412
++ TT=2.400000n
++ CJO=234.000020p
++ VJ=499.999970m
++ M=324.000000m
++ XTI=3
++ BV=48
++ IBV=250
+xinstesab82   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbesab82
+*$ end model description: "awbesab82"
+*
+*
+*$ model description: "awbesab92m_02"
+*b Device model created by analog_uprev for esab92m_02 on Tue Feb  6 11:00:11 IST 2001
+.subckt awbesab92m_02   1 2 3
++ params:
++ IS=3.000E-07
++ RS=1.1560E-02
++ N=2.060E+00
++ TT=6.837E-08
++ CJO=2.322E-11
++ VJ=5.835E-01
++ M=1.132E-01
++ EG=1.110E+00
++ XTI=3.000E+00
++ KF=0.000E+00
++ AF=1.000E+00
++ FC=5.000E-01
++ BV=2.200E+02
++ IBV=1.800E+00
+xinstesab92m_02   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbesab92m_02
+*$ end model description: "awbesab92m_02"
+*
+*
+*$ model description: "awbesac82"
+*b Device model created by analog_uprev for esac82 on Tue Feb  6 11:00:11 IST 2001
+.subckt awbesac82   1 2 3
++ params:
++ IS=928.428040u
++ RS=25.000000m
++ N=2.0915
++ TT=142.399990p
++ CJO=434.000000p
++ VJ=499.999970m
++ M=275.999970m
++ XTI=2.79
++ BV=48
++ IBV=400
+xinstesac82   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbesac82
+*$ end model description: "awbesac82"
+*
+*
+*$ model description: "awbesac83"
+*b Device model created by analog_uprev for esac83 on Tue Feb  6 11:00:11 IST 2001
+.subckt awbesac83   1 2 3
++ params:
++ IS=1.574210m
++ RS=21.052600m
++ N=2.1653
++ TT=12.000000p
++ CJO=432.000000p
++ VJ=499.999970m
++ M=233.999980m
++ XTI=3
++ BV=48
++ IBV=500
+xinstesac83   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbesac83
+*$ end model description: "awbesac83"
+*
+*
+*$ model description: "awbesad83"
+*b Device model created by analog_uprev for esad83 on Tue Feb  6 11:00:11 IST 2001
+.subckt awbesad83   1 2 3
++ params:
++ IS=1.000000m
++ RS=7.000000m
++ N=1.9
++ TT=2.130000n
++ CJO=243.000020p
++ VJ=499.999970m
++ M=254.000000m
++ EG=689.999940m
++ XTI=2
++ BV=48
++ IBV=700
+xinstesad83   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbesad83
+*$ end model description: "awbesad83"
+*
+*
+*$ model description: "awbhsm2837"
+*b Device model created by analog_uprev for hsm2837 on Tue Feb  6 11:00:11 IST 2001
+.subckt awbhsm2837   1 2 3
++ params:
++ IS=3.622000n
++ RS=493.999970m
++ N=1.843
++ TT=4.500000n
++ CJO=1.004000p
++ VJ=499.999970m
++ M=52.500000m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=60
++ IBV=1.0
+xinsthsm2837   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbhsm2837
+*$ end model description: "awbhsm2837"
+*
+*
+*$ model description: "awbhsm2838"
+*b Device model created by analog_uprev for hsm2838 on Tue Feb  6 11:00:11 IST 2001
+.subckt awbhsm2838   1 2 3
++ params:
++ IS=3.622000n
++ RS=493.999970m
++ N=1.843
++ TT=4.500000n
++ CJO=1.004000p
++ VJ=499.999970m
++ M=52.500000m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=110
++ IBV=1.0
+xinsthsm2838   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbhsm2838
+*$ end model description: "awbhsm2838"
+*
+*
+*$ model description: "awbmbr20100ct"
+*b Device model created by analog_uprev for mbr20100ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmbr20100ct   1 2 3
++ params:
++ IS=5.000E-06
++ RS=2.185E-02
++ N=1.365E+00
++ TT=4.883E-09
++ CJO=1.000E-12
++ VJ=7.500E-01
++ M=5.000E-01
++ EG=7.970E-01
++ XTI=2.800E+00
++ KF=0.000E+00
++ AF=1.000E+00
++ FC=5.000E-01
++ BV=1.100E+02
++ IBV=2.500E+01
+xinstmbr20100ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmbr20100ct
+*$ end model description: "awbmbr20100ct"
+*
+*
+*$ model description: "awbmbr2530ctl"
+*b Device model created by analog_uprev for mbr2530ctl on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmbr2530ctl   1 2 3
++ params:
++ IS=7.682E-05
++ RS=6.818E-03
++ N=1.079E+00
++ EG=5.900E-01
++ XTI=2.000E+00
++ BV=3.300E+01
++ IBV=5.000E+01
+xinstmbr2530ctl   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  eg={EG}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmbr2530ctl
+*$ end model description: "awbmbr2530ctl"
+*
+*
+*$ model description: "awbmbr2535ct"
+*b Device model created by analog_uprev for mbr2535ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmbr2535ct   1 2 3
++ params:
++ IS=5.000E-06
++ RS=1.144E-02
++ N=1.113E+00
++ EG=6.900E-01
++ XTI=2.500E+00
++ BV=3.850E+01
++ IBV=5.000E+01
+xinstmbr2535ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  eg={EG}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmbr2535ct
+*$ end model description: "awbmbr2535ct"
+*
+*
+*$ model description: "awbmbr2535ctl"
+*b Device model created by analog_uprev for mbr2535ctl on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmbr2535ctl   1 2 3
++ params:
++ IS=7.682E-05
++ RS=6.818E-03
++ N=1.079E+00
++ EG=5.900E-01
++ XTI=2.000E+00
++ BV=3.850E+01
++ IBV=5.000E+01
+xinstmbr2535ctl   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  eg={EG}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmbr2535ctl
+*$ end model description: "awbmbr2535ctl"
+*
+*
+*$ model description: "awbmbr2545ct"
+*b Device model created by analog_uprev for mbr2545ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmbr2545ct   1 2 3
++ params:
++ IS=5.000E-06
++ RS=1.144E-02
++ N=1.113E+00
++ EG=6.900E-01
++ XTI=2.500E+00
++ BV=4.950E+01
++ IBV=5.000E+01
+xinstmbr2545ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  eg={EG}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmbr2545ct
+*$ end model description: "awbmbr2545ct"
+*
+*
+*$ model description: "awbmbr30045ct"
+*b Device model created by analog_uprev for mbr30045ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmbr30045ct   1 2 3
++ params:
++ IS=423.999940n
++ RS=561.999940u
++ N=1
++ TT=0
++ CJO=16.000000n
++ VJ=399.999940m
++ M=499.999970m
++ EG=0.69
++ XTI=2.0
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=50
++ IBV=1.0
+xinstmbr30045ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmbr30045ct
+*$ end model description: "awbmbr30045ct"
+*
+*
+*$ model description: "awbmbr3020ct"
+*b Device model created by analog_uprev for mbr3020ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmbr3020ct   1 2 3
++ params:
++ IS=331.999940n
++ RS=7.200000m
++ N=1
++ TT=0
++ CJO=2.800000n
++ VJ=599.999880m
++ M=499.999970m
++ EG=0.69
++ XTI=2
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=22
++ IBV=1.0
+xinstmbr3020ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmbr3020ct
+*$ end model description: "awbmbr3020ct"
+*
+*
+*$ model description: "awbmbr3035ct"
+*b Device model created by analog_uprev for mbr3035ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmbr3035ct   1 2 3
++ params:
++ IS=331.999940n
++ RS=7.200000m
++ N=1
++ TT=0
++ CJO=2.800000n
++ VJ=599.999880m
++ M=499.999970m
++ EG=0.69
++ XTI=2
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=38.5
++ IBV=1.0
+xinstmbr3035ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmbr3035ct
+*$ end model description: "awbmbr3035ct"
+*
+*
+*$ model description: "awbmbr3035pt"
+*b Device model created by analog_uprev for mbr3035pt on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmbr3035pt   1 2 3
++ params:
++ IS=331.999940n
++ RS=7.200000m
++ N=1
++ TT=0
++ CJO=2.800000n
++ VJ=599.999880m
++ M=499.999970m
++ EG=0.69
++ XTI=2
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=38.5
++ IBV=1.0
+xinstmbr3035pt   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmbr3035pt
+*$ end model description: "awbmbr3035pt"
+*
+*
+*$ model description: "awbmbr3045ct"
+*b Device model created by analog_uprev for mbr3045ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmbr3045ct   1 2 3
++ params:
++ IS=331.999940n
++ RS=7.200000m
++ N=1
++ TT=0
++ CJO=2.800000n
++ VJ=599.999880m
++ M=499.999970m
++ EG=0.69
++ XTI=2
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=50
++ IBV=1.0
+xinstmbr3045ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmbr3045ct
+*$ end model description: "awbmbr3045ct"
+*
+*
+*$ model description: "awbmbr3045pt"
+*b Device model created by analog_uprev for mbr3045pt on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmbr3045pt   1 2 3
++ params:
++ IS=331.999940n
++ RS=7.200000m
++ N=1
++ TT=0
++ CJO=2.800000n
++ VJ=599.999880m
++ M=499.999970m
++ EG=0.69
++ XTI=2
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=50
++ IBV=1.0
+xinstmbr3045pt   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmbr3045pt
+*$ end model description: "awbmbr3045pt"
+*
+*
+*$ model description: "awbmur10005ct"
+*b Device model created by analog_uprev for mur10005ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur10005ct   1 2 3
++ params:
++ IS=1.530000u
++ RS=1.800000m
++ N=1.8534
++ TT=30.000000n
++ CJO=10.400000n
++ VJ=499.999970m
++ M=362.299960m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=100
++ IBV=1.0
+xinstmur10005ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur10005ct
+*$ end model description: "awbmur10005ct"
+*
+*
+*$ model description: "awbmur10010ct"
+*b Device model created by analog_uprev for mur10010ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur10010ct   1 2 3
++ params:
++ IS=1.530000u
++ RS=1.800000m
++ N=1.8534
++ TT=30.000000n
++ CJO=10.400000n
++ VJ=499.999970m
++ M=362.299960m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=200
++ IBV=1.0
+xinstmur10010ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur10010ct
+*$ end model description: "awbmur10010ct"
+*
+*
+*$ model description: "awbmur10015ct"
+*b Device model created by analog_uprev for mur10015ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur10015ct   1 2 3
++ params:
++ IS=1.530000u
++ RS=1.800000m
++ N=1.8534
++ TT=30.000000n
++ CJO=10.400000n
++ VJ=499.999970m
++ M=362.299960m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=250
++ IBV=1.0
+xinstmur10015ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur10015ct
+*$ end model description: "awbmur10015ct"
+*
+*
+*$ model description: "awbmur10020ct"
+*b Device model created by analog_uprev for mur10020ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur10020ct   1 2 3
++ params:
++ IS=1.530000u
++ RS=1.800000m
++ N=1.8534
++ TT=30.000000n
++ CJO=10.400000n
++ VJ=499.999970m
++ M=362.299960m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=300
++ IBV=1.0
+xinstmur10020ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur10020ct
+*$ end model description: "awbmur10020ct"
+*
+*
+*$ model description: "awbmur1605ct"
+*b Device model created by analog_uprev for mur1605ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur1605ct   1 2 3
++ params:
++ IS=2.650000n
++ RS=10.000000m
++ N=1.4323
++ TT=15.000000n
++ CJO=254.399960p
++ VJ=799.999880m
++ M=414.499970m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=100
++ IBV=1.0
+xinstmur1605ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur1605ct
+*$ end model description: "awbmur1605ct"
+*
+*
+*$ model description: "awbmur1610ct"
+*b Device model created by analog_uprev for mur1610ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur1610ct   1 2 3
++ params:
++ IS=2.650000n
++ RS=10.000000m
++ N=1.4323
++ TT=15.000000n
++ CJO=254.399960p
++ VJ=799.999880m
++ M=414.499970m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=200
++ IBV=1.0
+xinstmur1610ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur1610ct
+*$ end model description: "awbmur1610ct"
+*
+*
+*$ model description: "awbmur1615ct"
+*b Device model created by analog_uprev for mur1615ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur1615ct   1 2 3
++ params:
++ IS=2.650000n
++ RS=10.000000m
++ N=1.4323
++ TT=15.000000n
++ CJO=254.399960p
++ VJ=799.999880m
++ M=414.499970m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=250
++ IBV=1.0
+xinstmur1615ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur1615ct
+*$ end model description: "awbmur1615ct"
+*
+*
+*$ model description: "awbmur1620ct"
+*b Device model created by analog_uprev for mur1620ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur1620ct   1 2 3
++ params:
++ IS=204.999970n
++ RS=36.599990m
++ N=1.9537
++ TT=30.000000n
++ CJO=348.799960p
++ VJ=799.999880m
++ M=400.199950m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=300
++ IBV=1
+xinstmur1620ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur1620ct
+*$ end model description: "awbmur1620ct"
+*
+*
+*$ model description: "awbmur1630ct"
+*b Device model created by analog_uprev for mur1630ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur1630ct   1 2 3
++ params:
++ IS=204.999970n
++ RS=36.599990m
++ N=1.9537
++ TT=30.000000n
++ CJO=348.799960p
++ VJ=799.999880m
++ M=400.199950m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=400
++ IBV=1
+xinstmur1630ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur1630ct
+*$ end model description: "awbmur1630ct"
+*
+*
+*$ model description: "awbmur1640ct"
+*b Device model created by analog_uprev for mur1640ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur1640ct   1 2 3
++ params:
++ IS=204.999970n
++ RS=36.599990m
++ N=1.9537
++ TT=30.000000n
++ CJO=348.799960p
++ VJ=799.999880m
++ M=400.199950m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=500
++ IBV=1
+xinstmur1640ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur1640ct
+*$ end model description: "awbmur1640ct"
+*
+*
+*$ model description: "awbmur1650ct"
+*b Device model created by analog_uprev for mur1650ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur1650ct   1 2 3
++ params:
++ IS=27.700000n
++ RS=37.300000m
++ N=2
++ TT=30.000000n
++ CJO=348.799960p
++ VJ=799.999880m
++ M=400.199950m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=600
++ IBV=1
+xinstmur1650ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur1650ct
+*$ end model description: "awbmur1650ct"
+*
+*
+*$ model description: "awbmur1660ct"
+*b Device model created by analog_uprev for mur1660ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur1660ct   1 2 3
++ params:
++ IS=27.700000n
++ RS=37.300000m
++ N=2
++ TT=30.000000n
++ CJO=348.799960p
++ VJ=799.999880m
++ M=400.199950m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=700
++ IBV=1
+xinstmur1660ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur1660ct
+*$ end model description: "awbmur1660ct"
+*
+*
+*$ model description: "awbmur20005ct"
+*b Device model created by analog_uprev for mur20005ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur20005ct   1 2 3
++ params:
++ IS=122.869980n
++ RS=3.000000m
++ N=1.5939
++ TT=30.000000n
++ CJO=1.128300n
++ VJ=499.999970m
++ M=332.799930m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=100
++ IBV=1.0
+xinstmur20005ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur20005ct
+*$ end model description: "awbmur20005ct"
+*
+*
+*$ model description: "awbmur20010ct"
+*b Device model created by analog_uprev for mur20010ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur20010ct   1 2 3
++ params:
++ IS=122.869980n
++ RS=3.000000m
++ N=1.5939
++ TT=30.000000n
++ CJO=1.128300n
++ VJ=499.999970m
++ M=332.799930m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=200
++ IBV=1.0
+xinstmur20010ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur20010ct
+*$ end model description: "awbmur20010ct"
+*
+*
+*$ model description: "awbmur20015ct"
+*b Device model created by analog_uprev for mur20015ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur20015ct   1 2 3
++ params:
++ IS=122.869980n
++ RS=3.000000m
++ N=1.5939
++ TT=30.000000n
++ CJO=1.128300n
++ VJ=499.999970m
++ M=332.799930m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=250
++ IBV=1.0
+xinstmur20015ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur20015ct
+*$ end model description: "awbmur20015ct"
+*
+*
+*$ model description: "awbmur20020ct"
+*b Device model created by analog_uprev for mur20020ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur20020ct   1 2 3
++ params:
++ IS=122.869980n
++ RS=3.000000m
++ N=1.5939
++ TT=30.000000n
++ CJO=1.128300n
++ VJ=499.999970m
++ M=332.799930m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=300
++ IBV=1.0
+xinstmur20020ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur20020ct
+*$ end model description: "awbmur20020ct"
+*
+*
+*$ model description: "awbmur3005pt"
+*b Device model created by analog_uprev for mur3005pt on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur3005pt   1 2 3
++ params:
++ IS=3.107000n
++ RS=12.000000m
++ N=1.1196
++ TT=10.000000n
++ CJO=509.499940p
++ VJ=499.999970m
++ M=368.599950m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=100
++ IBV=1.0
+xinstmur3005pt   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur3005pt
+*$ end model description: "awbmur3005pt"
+*
+*
+*$ model description: "awbmur3010pt"
+*b Device model created by analog_uprev for mur3010pt on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur3010pt   1 2 3
++ params:
++ IS=3.107000n
++ RS=12.000000m
++ N=1.1196
++ TT=10.000000n
++ CJO=509.499940p
++ VJ=499.999970m
++ M=368.599950m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=200
++ IBV=1.0
+xinstmur3010pt   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur3010pt
+*$ end model description: "awbmur3010pt"
+*
+*
+*$ model description: "awbmur3015pt"
+*b Device model created by analog_uprev for mur3015pt on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur3015pt   1 2 3
++ params:
++ IS=3.107000n
++ RS=12.000000m
++ N=1.1196
++ TT=10.000000n
++ CJO=509.499940p
++ VJ=499.999970m
++ M=368.599950m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=250
++ IBV=1.0
+xinstmur3015pt   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur3015pt
+*$ end model description: "awbmur3015pt"
+*
+*
+*$ model description: "awbmur3020pt"
+*b Device model created by analog_uprev for mur3020pt on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur3020pt   1 2 3
++ params:
++ IS=3.797000n
++ RS=20.000000m
++ N=1.3809
++ TT=10.000000n
++ CJO=509.499940p
++ VJ=499.999970m
++ M=368.599950m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=300
++ IBV=1.0
+xinstmur3020pt   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur3020pt
+*$ end model description: "awbmur3020pt"
+*
+*
+*$ model description: "awbmur3030pt"
+*b Device model created by analog_uprev for mur3030pt on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur3030pt   1 2 3
++ params:
++ IS=3.797000n
++ RS=20.000000m
++ N=1.3809
++ TT=10.000000n
++ CJO=509.499940p
++ VJ=499.999970m
++ M=368.599950m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=400
++ IBV=1.0
+xinstmur3030pt   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur3030pt
+*$ end model description: "awbmur3030pt"
+*
+*
+*$ model description: "awbmur3040pt"
+*b Device model created by analog_uprev for mur3040pt on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur3040pt   1 2 3
++ params:
++ IS=3.797000n
++ RS=20.000000m
++ N=1.3809
++ TT=10.000000n
++ CJO=509.499940p
++ VJ=499.999970m
++ M=368.599950m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=500
++ IBV=1.0
+xinstmur3040pt   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur3040pt
+*$ end model description: "awbmur3040pt"
+*
+*
+*$ model description: "awbmur605ct"
+*b Device model created by analog_uprev for mur605ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur605ct   1 2 3
++ params:
++ IS=1.240000n
++ RS=11.000000m
++ N=1.7
++ TT=10.000000n
++ CJO=99.999990p
++ VJ=699.999940m
++ M=399.999940m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=100
++ IBV=1.0
+xinstmur605ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur605ct
+*$ end model description: "awbmur605ct"
+*
+*
+*$ model description: "awbmur610ct"
+*b Device model created by analog_uprev for mur610ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur610ct   1 2 3
++ params:
++ IS=1.240000n
++ RS=11.000000m
++ N=1.7
++ TT=10.000000n
++ CJO=99.999990p
++ VJ=699.999940m
++ M=399.999940m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=200
++ IBV=1.0
+xinstmur610ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur610ct
+*$ end model description: "awbmur610ct"
+*
+*
+*$ model description: "awbmur615ct"
+*b Device model created by analog_uprev for mur615ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur615ct   1 2 3
++ params:
++ IS=1.240000n
++ RS=11.000000m
++ N=1.7
++ TT=10.000000n
++ CJO=99.999990p
++ VJ=699.999940m
++ M=399.999940m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=250
++ IBV=1.0
+xinstmur615ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur615ct
+*$ end model description: "awbmur615ct"
+*
+*
+*$ model description: "awbmur620ct"
+*b Device model created by analog_uprev for mur620ct on Tue Feb  6 11:00:11 IST 2001
+.subckt awbmur620ct   1 2 3
++ params:
++ IS=1.240000n
++ RS=11.000000m
++ N=1.7
++ TT=10.000000n
++ CJO=99.999990p
++ VJ=699.999940m
++ M=399.999940m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=300
++ IBV=1.0
+xinstmur620ct   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmur620ct
+*$ end model description: "awbmur620ct"
+*
+*
+*$ model description: "awbr712x"
+*b Device model created by analog_uprev for r712x on Tue Feb  6 11:00:11 IST 2001
+.subckt awbr712x   1 2 3
++ params:
++ IS=0.1E-6
++ RS=5.300000m
++ N=1.875
++ TT=492.999910n
++ CJO=99.999990p
++ VJ=1
++ M=499.999970m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=300
++ IBV=1
+xinstr712x   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbr712x
+*$ end model description: "awbr712x"
+*
+*
+*$ model description: "awbr714x"
+*b Device model created by analog_uprev for r714x on Tue Feb  6 11:00:11 IST 2001
+.subckt awbr714x   1 2 3
++ params:
++ IS=0.1E-6
++ RS=5.300000m
++ N=1.875
++ TT=492.999910n
++ CJO=99.999990p
++ VJ=1
++ M=499.999970m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=500
++ IBV=1
+xinstr714x   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbr714x
+*$ end model description: "awbr714x"
+*
+*
+*$ model description: "awbs10sc3m"
+*b Device model created by analog_uprev for s10sc3m on Tue Feb  6 11:00:11 IST 2001
+.subckt awbs10sc3m   1 2 3
++ params:
++ IS=17.752800u
++ RS=24.147700m
++ N=1.339
++ TT=100.000010n
++ CJO=747.995970p
++ VJ=878.758000m
++ M=615.328000m
++ EG=689.999940m
++ XTI=2.89
++ BV=35
++ IBV=200
+xinsts10sc3m   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbs10sc3m
+*$ end model description: "awbs10sc3m"
+*
+*
+*$ model description: "awbs10sc4m"
+*b Device model created by analog_uprev for s10sc4m on Tue Feb  6 11:00:11 IST 2001
+.subckt awbs10sc4m   1 2 3
++ params:
++ IS=17.752800u
++ RS=24.147700m
++ N=1.339
++ TT=100.000010n
++ CJO=747.995970p
++ VJ=878.758000m
++ M=615.328000m
++ EG=689.999940m
++ XTI=2.89
++ BV=45
++ IBV=200
+xinsts10sc4m   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbs10sc4m
+*$ end model description: "awbs10sc4m"
+*
+*
+*$ model description: "awbs12kc20"
+*b Device model created by analog_uprev for s12kc20 on Tue Feb  6 11:00:11 IST 2001
+.subckt awbs12kc20   1 2 3
++ params:
++ IS=4.110440u
++ RS=18.000000m
++ N=2.4104
++ TT=800.000060n
++ CJO=322.810000p
++ VJ=499.999970m
++ M=414.499970m
++ XTI=2.89
++ BV=250
++ IBV=10
+xinsts12kc20   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbs12kc20
+*$ end model description: "awbs12kc20"
+*
+*
+*$ model description: "awbs15sc3m"
+*b Device model created by analog_uprev for s15sc3m on Tue Feb  6 11:00:11 IST 2001
+.subckt awbs15sc3m   1 2 3
++ params:
++ IS=94.021190u
++ RS=16.176500m
++ N=1.4676
++ TT=100.000010n
++ CJO=1.400000n
++ VJ=1
++ M=600.000000m
++ EG=689.999940m
++ XTI=2
++ FC=699.999940m
++ BV=35
++ IBV=500
+xinsts15sc3m   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbs15sc3m
+*$ end model description: "awbs15sc3m"
+*
+*
+*$ model description: "awbs15sc4m"
+*b Device model created by analog_uprev for s15sc4m on Tue Feb  6 11:00:11 IST 2001
+.subckt awbs15sc4m   1 2 3
++ params:
++ IS=94.021190u
++ RS=16.176500m
++ N=1.4676
++ TT=100.000010n
++ CJO=1.400000n
++ VJ=1
++ M=600.000000m
++ EG=689.999940m
++ XTI=2
++ FC=699.999940m
++ BV=45
++ IBV=500
+xinsts15sc4m   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbs15sc4m
+*$ end model description: "awbs15sc4m"
+*
+*
+*$ model description: "awbs30sc3m"
+*b Device model created by analog_uprev for s30sc3m on Tue Feb  6 11:00:11 IST 2001
+.subckt awbs30sc3m   1 2 3
++ params:
++ IS=236.067000u
++ RS=8.250000m
++ N=1.5685
++ TT=150.000020n
++ CJO=2.403160p
++ VJ=499.999970m
++ M=543.372990m
++ EG=689.999940m
++ XTI=2
++ BV=35
++ IBV=500
+xinsts30sc3m   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbs30sc3m
+*$ end model description: "awbs30sc3m"
+*
+*
+*$ model description: "awbs30sc4m"
+*b Device model created by analog_uprev for s30sc4m on Tue Feb  6 11:00:11 IST 2001
+.subckt awbs30sc4m   1 2 3
++ params:
++ IS=236.067000u
++ RS=8.250000m
++ N=1.5685
++ TT=150.000020n
++ CJO=2.403160p
++ VJ=499.999970m
++ M=543.372990m
++ EG=689.999940m
++ XTI=2
++ BV=45
++ IBV=500
+xinsts30sc4m   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbs30sc4m
+*$ end model description: "awbs30sc4m"
+*
+*
+*$ model description: "awbsd241"
+*b Device model created by analog_uprev for sd241 on Tue Feb  6 11:00:11 IST 2001
+.subckt awbsd241   1 2 3
++ params:
++ IS=331.999940n
++ RS=7.200000m
++ N=1
++ TT=0
++ CJO=2.800000n
++ VJ=599.999880m
++ M=499.999970m
++ EG=0.69
++ XTI=2
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=50
++ IBV=1.0
+xinstsd241   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbsd241
+*$ end model description: "awbsd241"
+*
+*
+*$ model description: "awbses5403c"
+*b Device model created by analog_uprev for ses5403c on Tue Feb  6 11:00:11 IST 2001
+.subckt awbses5403c   1 2 3
++ params:
++ IS=2.050000n
++ RS=11.936000m
++ N=1.204
++ TT=246.599960n
++ CJO=99.999990p
++ VJ=799.999880m
++ M=499.999970m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=250
++ IBV=1.0
+xinstses5403c   1 2 3 model497     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbses5403c
+*$ end model description: "awbses5403c"
+*
+*
+*$ model description: "awb1s2836"
+*b Device model created by analog_uprev for 1s2836 on Tue Feb  6 10:31:33 IST 2001
+.subckt awb1s2836   1 2 3
++ params:
++ IS=3.000E-09
++ RS=3.220E+00
++ N=1.710E+00
++ TT=1.493E-08
++ CJO=2.707E-12
++ VJ=9.900E-01
++ M=2.343E-01
++ EG=1.110E+00
++ XTI=3.000E+00
++ KF=0.000E+00
++ AF=1.000E+00
++ FC=5.000E-01
++ BV=1.000E+02
++ IBV=4.000E-02
+xinst1s2836   1 2 3 model496     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1s2836
+*$ end model description: "awb1s2836"
+*
+*
+*$ model description: "awbbar43a"
+*b Device model created by analog_uprev for bar43a on Tue Feb  6 10:31:33 IST 2001
+.subckt awbbar43a   1 2 3
++ params:
++ IS=236.400010n
++ RS=1.298
++ N=1.334
++ TT=0
++ CJO=10.860000p
++ VJ=290.499970m
++ M=304.799990m
++ EG=670.000000m
++ XTI=2
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=60
++ IBV=1
+xinstbar43a   1 2 3 model496     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbbar43a
+*$ end model description: "awbbar43a"
+*
+*
+*$ model description: "awbbas70_06"
+*b Device model created by analog_uprev for bas70_06 on Tue Feb  6 10:31:33 IST 2001
+.subckt awbbas70_06   1 2 3
++ params:
++ IS=2.207000n
++ RS=29.62
++ N=1.025
++ TT=0
++ CJO=1.634000p
++ VJ=300.000000m
++ M=201.499980m
++ EG=670.000000m
++ XTI=2
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=140
++ IBV=1
+xinstbas70_06   1 2 3 model496     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbbas70_06
+*$ end model description: "awbbas70_06"
+*
+*
+*$ model description: "awbbaw56"
+*b Device model created by analog_uprev for baw56 on Tue Feb  6 10:31:33 IST 2001
+.subckt awbbaw56   1 2 3
++ params:
++ IS=87.640000n
++ RS=1.011
++ N=2.356
++ TT=6.256000n
++ CJO=1.600000p
++ VJ=750.000000m
++ M=500.000000m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=500.000000m
++ BV=140
++ IBV=1
+xinstbaw56   1 2 3 model496     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbbaw56
+*$ end model description: "awbbaw56"
+*
+*
+*$ model description: "awbdap201"
+*b Device model created by analog_uprev for dap201 on Tue Feb  6 10:31:33 IST 2001
+.subckt awbdap201   1 2 3
++ params:
++ IS=300.000000p
++ RS=3.3
++ N=1.576
++ TT=1.000000n
++ CJO=3.000000p
++ VJ=1.5
++ M=300.000000m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=42
++ IBV=1.0
+xinstdap201   1 2 3 model496     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbdap201
+*$ end model description: "awbdap201"
+*
+*
+*$ model description: "awbdap202"
+*b Device model created by analog_uprev for dap202 on Tue Feb  6 10:31:33 IST 2001
+.subckt awbdap202   1 2 3
++ params:
++ IS=300.000000p
++ RS=3.3
++ N=1.576
++ TT=3.000000n
++ CJO=1.860000p
++ VJ=1.4
++ M=360.000000m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=45
++ IBV=1.0
+xinstdap202   1 2 3 model496     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbdap202
+*$ end model description: "awbdap202"
+*
+*
+*$ model description: "awbdap202k"
+*b Device model created by analog_uprev for dap202k on Tue Feb  6 10:31:33 IST 2001
+.subckt awbdap202k   1 2 3
++ params:
++ IS=300.000000p
++ RS=3.3
++ N=1.576
++ TT=3.000000n
++ CJO=1.860000p
++ VJ=1.4
++ M=360.000000m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=45
++ IBV=1.0
+xinstdap202k   1 2 3 model496     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbdap202k
+*$ end model description: "awbdap202k"
+*
+*
+*$ model description: "awbs10sc3mr"
+*b Device model created by analog_uprev for s10sc3mr on Tue Feb  6 10:31:33 IST 2001
+.subckt awbs10sc3mr   1 2 3
++ params:
++ IS=17.752800u
++ RS=24.147700m
++ N=1.339
++ TT=100.000010n
++ CJO=747.995970p
++ VJ=878.758000m
++ M=615.328000m
++ EG=689.999940m
++ XTI=2.89
++ BV=45
++ IBV=200
+xinsts10sc3mr   1 2 3 model496     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbs10sc3mr
+*$ end model description: "awbs10sc3mr"
+*
+*
+*$ model description: "awbs10sc4mr"
+*b Device model created by analog_uprev for s10sc4mr on Tue Feb  6 10:31:33 IST 2001
+.subckt awbs10sc4mr   1 2 3
++ params:
++ IS=17.752800u
++ RS=24.147700m
++ N=1.339
++ TT=100.000010n
++ CJO=747.995970p
++ VJ=878.758000m
++ M=615.328000m
++ EG=689.999940m
++ XTI=2.89
++ BV=45
++ IBV=200
+xinsts10sc4mr   1 2 3 model496     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbs10sc4mr
+*$ end model description: "awbs10sc4mr"
+*
+*
+*$ model description: "awb1ss226"
+*b Device model created by analog_uprev for 1ss226 on Tue Feb  6 15:41:25 IST 2001
+.subckt awb1ss226   1 2 3
++ params:
++ IS=2.12998n
++ RS=2.98850m
++ N=1.76250
++ TT=14.0000n
++ CJO=910.0000f
++ VJ=749.9999m
++ M=47.60000m
++ XTI=3.0000
++ BV=85.0000
++ IBV=1.0000
+xinst1ss226   1 2 3 model495     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb1ss226
+*$ end model description: "awb1ss226"
+*
+*
+*$ model description: "awbbar43s"
+*b Device model created by analog_uprev for bar43s on Tue Feb  6 15:41:25 IST 2001
+.subckt awbbar43s   1 2 3
++ params:
++ IS=236.4000n
++ RS=1.2980
++ N=1.3340
++ TT=0.0000
++ CJO=10.8600p
++ VJ=290.49999m
++ M=304.7999m
++ EG=670.0000m
++ XTI=2.0000
++ KF=0.0000
++ AF=1.0000
++ FC=499.9999m
++ BV=60.0000
++ IBV=1.0000
+xinstbar43s   1 2 3 model495     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbbar43s
+*$ end model description: "awbbar43s"
+*
+*
+*$ model description: "awbbas70_04"
+*b Device model created by analog_uprev for bas70_04 on Tue Feb  6 15:41:25 IST 2001
+.subckt awbbas70_04   1 2 3
++ params:
++ IS=2.2070n
++ RS=29.6200
++ N=1.0250
++ TT=0.0000
++ CJO=1.6340p
++ VJ=300.0000m
++ M=201.49999m
++ EG=670.0000m
++ XTI=2.0000
++ KF=0.0000
++ AF=1.0000
++ FC=499.9999m
++ BV=140.0000
++ IBV=1.0000
+xinstbas70_04   1 2 3 model495     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbbas70_04
+*$ end model description: "awbbas70_04"
+*
+*
+*$ model description: "awbbat17ds"
+*b Device model created by analog_uprev for bat17ds on Tue Feb  6 15:41:25 IST 2001
+.subckt awbbat17ds   1 2 3
++ params:
++ IS=39.1500n
++ RS=10.7000
++ N=1.2150
++ TT=0.0000
++ CJO=882.0000f
++ VJ=300.0000m
++ M=143.8999m
++ EG=670.0000m
++ XTI=2.0000
++ KF=0.0000
++ AF=1.0000
++ FC=0.5000
++ BV=8.0000
++ IBV=1.0000
+xinstbat17ds   1 2 3 model495     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbbat17ds
+*$ end model description: "awbbat17ds"
+*
+*
+*$ model description: "awbbav99"
+*b Device model created by analog_uprev for bav99 on Tue Feb  6 15:41:25 IST 2001
+.subckt awbbav99   1 2 3
++ params:
++ IS=87.6400n
++ RS=1.0110
++ N=2.3560
++ TT=6.2560n
++ CJO=1.2000p
++ VJ=750.0000m
++ M=500.0000m
++ EG=1.1100
++ XTI=3.0000
++ KF=0.0000
++ AF=1.0000
++ FC=500.0000m
++ BV=140.0000
++ IBV=1.0000
+xinstbav99   1 2 3 model495     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbbav99
+*$ end model description: "awbbav99"
+*
+*

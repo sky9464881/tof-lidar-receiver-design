@@ -1,0 +1,6 @@
+* source DFFD
+E_U1         N00321 0 VALUE {LIMIT(V(0,N00125)*1E6,-15V,+15V)}
+R_R1         N00125 N00321  200 TC=0,0 
+R_R2         N00321 0  200 TC=0,0 
+I_I1         N00125 0 DC 0Adc AC 0Aac
++PULSE 1mA 3mA 1ns 1.4ns 1.4ns 4ns 10ns

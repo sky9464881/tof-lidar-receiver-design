@@ -1,0 +1,12 @@
+A!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!REFDES!FUNC_PRIM_FILE!COMP_PARENT_PPT!COMP_PARENT_PPT_PART!COMP_PARENT_PART_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!FUNC_GROUP!FUNC_ROOM!FUNC_CDS_FSP_UID!FUNC_NO_SWAP_PIN!FUNC_HARD_LOCATION!FUNC_NO_SWAP_GATE_EXT!FUNC_CDS_FSP_MAPPED_CELL!FUNC_CDS_FSP_FPGA_SYMBOL!FUNC_CDS_FSP_TERM_TYPE!FUNC_CDS_FSP_TERM_NAME!FUNC_ROOM!FUNC_GROUP!FUNC_CDS_FSP_TERM_INDEX!FUNC_CDS_FSP_INSTANCE_ID!FUNC_NO_SWAP_GATE!FUNC_NO_XNET_CONNECTION!FUNC_CDS_FSP_IS_FPGA!
+J!C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/apdtest/allegro/apdtest.brd!Thu Apr  3 04:00:36 2025!0.00!0.00!21000.00!17000.00!0.01!mils!APDTEST!10.400000 mil!2!UP TO DATE!
+S!@apdtest.schematic1(sch_1):ins1080919@c0603g104k5ract250.\c0603g104k5ract250.normal\(chips)!C0603G104K5RACT250_C0603_C0603G104K5RACT250!C10(0.1UF)!.\chipsView.dat!!!!!!F9!!!!!!!!!!!!!!!!!!
+S!@apdtest.schematic1(sch_1):ins1080705@c0603g104k5ract250.\c0603g104k5ract250.normal\(chips)!C0603G104K5RACT250_C0603_C0603G104K5RACT250!C23(0.1UF)!.\chipsView.dat!!!!!!F8!!!!!!!!!!!!!!!!!!
+S!@apdtest.schematic1(sch_1):ins1080569@c0603g104k5ract250.\c0603g104k5ract250.normal\(chips)!C0603G104K5RACT250_C0603_C0603G104K5RACT250!C9(0.1UF)!.\chipsView.dat!!!!!!F7!!!!!!!!!!!!!!!!!!
+S!@apdtest.schematic1(sch_1):ins1080647@\04025u0r7bat2a\.\04025u0r7bat2a.normal\(chips)!04025U0R7BAT2A_CAPC1005X56N_04025U0R7BAT2A!C266!.\chipsView.dat!!!!!!F6!!!!!!!!!!!!!!!!!!
+S!@apdtest.schematic1(sch_1):ins1080761@opa855idsgr.\opa855idsgr.normal\(chips)!OPA855IDSGR_SON50P200X200X80-9N-D_OPA855IDSGR!IC1!.\chipsView.dat!!!!!!F5!!!!!!!!!!!!!!!!!!
+S!@apdtest.schematic1(sch_1):ins1080811@mca12060d5000bp500.\mca12060d5000bp500.normal\(chips)!MCA12060D5000BP500_RESC3216X65N_MCA12060D5000BP500!R11(500OHM)!.\chipsView.dat!!!!!!F4!!!!!!!!!!!!!!!!!!
+S!@apdtest.schematic1(sch_1):ins1080615@tnpw0603200kbeea.\tnpw0603200kbeea.normal\(chips)!TNPW0603200KBEEA_RESC1608X60N_TNPW0603200KBEEA!R4(200K)!.\chipsView.dat!!!!!!F3!!!!!!!!!!!!!!!!!!
+S!@apdtest.schematic1(sch_1):ins1080877@crcw201010r0jnefif.\crcw201010r0jnefif.normal\(chips)!CRCW201010R0JNEFIF_RESC5025X70N_CRCW201010R0JNEFIF!R6(10OHM)!.\chipsView.dat!!!!!!F2!!!!!!!!!!!!!!!!!!
+S!@apdtest.schematic1(sch_1):ins1080745@\mtapd-06-013\.\mtapd-06-013.normal\(chips)!MTAPD-06-013_MTAPD06013_MTAPD-06-013!U75!.\chipsView.dat!!!!!!F1!!!!!!!!!!!!!!!!!!
+S!@apdtest.schematic1(sch_1):ins1080729@c3216x5r2j102m115aa.\c3216x5r2j102m115aa.normal\(chips)!C3216X5R2J102M115AA_C3216_COMMERCIAL_C3216X5R2J102M115AA!C24(1NF)!.\chipsView.dat!!!!!!F0!!!!!!!!!!!!!!!!!!

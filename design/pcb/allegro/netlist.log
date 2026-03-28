@@ -1,0 +1,13 @@
+{ Using PSTWRITER 17.2.0 d001Dec-04-2024 at 10:13:17 }
+
+#1 WARNING(ORCAP-36006): Part Name "THS4509RGTT_THS4509RGTT_PIN16_TEST_2_THS4509RGTT_THS4509RGTT" is renamed to "THS4509RGTT_THS4509RGTT_PIN16_TEST_2_THS4509RGTT_T".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... C:\USERS\MSDL3\DESKTOP\ORCAD FILE\80DB_LIDAR\allegro/pstchip.dat
+
+Loading... C:\USERS\MSDL3\DESKTOP\ORCAD FILE\80DB_LIDAR\allegro/pstchip.dat
+
+Loading... C:\USERS\MSDL3\DESKTOP\ORCAD FILE\80DB_LIDAR\allegro/pstxprt.dat
+
+Loading... C:\USERS\MSDL3\DESKTOP\ORCAD FILE\80DB_LIDAR\allegro/pstxnet.dat
+packaging the design view...

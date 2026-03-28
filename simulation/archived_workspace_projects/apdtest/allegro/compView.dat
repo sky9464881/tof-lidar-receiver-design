@@ -1,0 +1,12 @@
+A!REFDES!COMP_VOLTAGE!COMP_ROOM!COMP_GROUP!COMP_SIGNAL_MODEL!COMP_NO_XNET_CONNECTION!COMP_PARENT_PPT!COMP_PARENT_PPT_PART!COMP_REUSE_ID!COMP_REUSE_NAME!COMP_REUSE_INSTANCE!
+J!C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/apdtest/allegro/apdtest.brd!Thu Apr  3 04:02:01 2025!0.00!0.00!21000.00!17000.00!0.01!mils!APDTEST!10.400000 mil!2!OUT OF DATE!
+S!C10(0.1UF)!!!!!!!!!!!
+S!C23(0.1UF)!!!!!!!!!!!
+S!C9(0.1UF)!!!!!!!!!!!
+S!C266!!!!!!!!!!!
+S!IC1!!!!!!!!!!!
+S!R11(500OHM)!!!!!!!!!!!
+S!R4(200K)!!!!!!!!!!!
+S!R6(10OHM)!!!!!!!!!!!
+S!U75!!!!!!!!!!!
+S!C24(1NF)!!!!!!!!!!!

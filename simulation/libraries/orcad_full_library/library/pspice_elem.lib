@@ -1,0 +1,98 @@
+* $Revision:   9.2.3WU1  $
+* $Author:   PSPICE_PV   $
+* $Date:   22 Apr 2002 08:53:32  $
+************************************************************
+* $Author:   Sripada $
+* $Date:   06 Feb 2006 04:03 PM  $
+* $ Modification History: Added discrete RLC inline with AWB for 15.7
+*$
+****************************************************************
+.SUBCKT awbvalve_reg_cell 7 5 
++ PARAMS:
++ VOC = 2.06
++ AH = 500
++ SOC=1
+xinstlabat 7 5 model8_valuereg params: voc = {VOC}
++ ah ={AH}
++ soc={SOC}
+.ends awbvalve_reg_cell 
+*$
+.SUBCKT awbflooded_cell 7 5 
++ PARAMS:
++ VOC = 2.06
++ AH = 500
++ SOC=1
+xinstlabat 7 5 model8_flooded params: voc = {VOC}
++ ah ={AH}
++ soc={SOC}
+.ends awbflooded_cell 
+*$
+*b Device model created by analog_uprev for resistor on Wed Jan 11 16:44:45 IST 2006
+.subckt awbresistor   1 2
++ params:
++ RES=1k
++ ESL=100m
++ RESL=100
++ CS=100u
++ RTMPL=100m
++ RTMPQ=100u
+xinstresistor   1 2 model400     params:  res={RES}
++  esl={ESL}
++  resl={RESL}
++  cs={CS}
++  rtmpl={RTMPL}
++  rtmpq={RTMPQ}
+.ends  awbresistor
+*$
+Device model created by analog_uprev for capacitor on Wed Jan 11 16:44:45 IST 2006
+.subckt awbcapacitor   1 2
++ params:
++ CAP=1u
++ C1=10n
++ C2=2
++ C3=111
++ ESL=100u
++ RESL=10
++ ESR=11
++ RP=12m
++ TC=100
++ TC1_ESR=10
++ TC2_ESR=10
+xinstcapacitor   1 2 model401     params:  CAP={CAP}
++  c1={C1}
++  c2={C2}
++  c3={C3}
++  esl={ESL}
++  resl={RESL}
++  esr={ESR}
++  rp={RP}
++  tc={TC}
++  tc1_esr={TC1_ESR}
++  tc2_esr={TC2_ESR}
+.ends  awbcapacitor
+*$
+*b Device model created by analog_uprev for inductor on Wed Jan 11 16:44:45 IST 2006
+.subckt awbinductor   1 2
++ params:
++ IND=10n
++ L1=1
++ L2=2
++ L3=10
++ RIND=1meg
++ CS=0.47u
++ ESR=100
++ TC1_ESR=10
++ TC2_ESR=10
+xinstinductor   1 2 model402     params:  ind={IND}
++  l1={L1}
++  l2={L2}
++  l3={L3}
++  rind={RIND}
++  cs={CS}
++  esr={ESR}
++  tc1_esr={TC1_ESR}
++  tc2_esr={TC2_ESR}
+.ends  awbinductor
+*$
+
+

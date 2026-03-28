@@ -1,0 +1,20 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Dynamic Status Report                                      )
+(                                                                     )
+(    Drawing          : 80DB_LIDAR_1.brd                              )
+(    Software Version : 17.2P028                                      )
+(    Date/Time        : Wed Dec 04 12:53:10 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Dynamic shapes out of date: 2 out of 37
+  Current fill mode         : SMOOTH
+
+
+  <<<  ETCH  >>>
+
+    Layer = PWD
+       State: No Etch      Point on shape: (180.5144 122.2660)  Net: GND
+       State: No Etch      Point on shape: (180.5144 122.2660)  Net: GND

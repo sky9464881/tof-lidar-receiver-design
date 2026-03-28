@@ -1,0 +1,11 @@
+* source CTIA
+E_U2         N14604 0 VALUE {LIMIT(V(0,N14560)*1E6,-15V,+15V)}
+E_U3         N14868 0 VALUE {LIMIT(V(0,N14638)*1E6,-15V,+15V)}
+C_C1         N14604 N14638  1n  TC=0,0 
+R_R1         N14604 N14638  1k TC=0,0 
+R_R2         N14560 N14604  5Meg TC=0,0 
+C_C2         N14560 N14604  0.2p  TC=0,0 
+R_R3         N14638 N14868  1k TC=0,0 
+R_R4         0 N14868  1 TC=0,0 
+V_V1         N14560 0  
++PULSE 0 200mV 1ns 1.4ns 1.4ns 3ns 10ns

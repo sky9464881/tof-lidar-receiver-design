@@ -1,0 +1,321 @@
+\t (00:00:14) orcadx 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:14)     Journal start - Thu Apr  3 04:52:25 2025
+\t (00:00:14)         Host=BOOK-QTRCVV9COM User=user Pid=14284 CPUs=12
+\t (00:00:14) CmdLine= C:\Cadence\OrCADX_24.1\tools\bin\unison.exe -layout -orcadx -mpssession user -proj c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\testpcb\testpcb.opj c:/users/user/appdata/roaming/spb_data/cdssetup/workspace/projects/testpcb/allegro/testpcb.brd
+\t (00:00:14) 
+\d (00:00:14) Design opened: c:/users/user/appdata/roaming/spb_data/cdssetup/workspace/projects/testpcb/allegro/testpcb.brd
+\i (00:00:14) trapsize 6155
+\i (00:00:15) trapsize 7859
+\t (00:00:21) Loading consmgr.cxt 
+\t (00:00:21) Loading acns_formula.cxt 
+\i (00:00:21) trapsize 7848
+\i (00:00:21) trapsize 7997
+\t (00:00:23) nayunwoo159@kw.ac.kr user logged in.
+
+\i (00:00:24) trapsize 6888
+\i (00:00:24) updateport VisibilityPane
+\i (00:00:24) updateport PropPane
+\i (00:00:24) ucpedit 
+\i (00:00:24) updateport VisibilityPane
+\i (00:00:43) QtSignal Allegro_Property_Dock_Pane_Accordion_Container PropertySelectionFilterWidget DockedTabWidgetSwitch +
+\i (00:00:43) QtSignal "CP_ALLEGRO_PROPERTIES_DOCK"
+\i (00:00:45) QtSignal Allegro_Property_Dock_Pane_Accordion_Container PropertySelectionFilterWidget DockedTabWidgetSwitch +
+\i (00:00:45) QtSignal "CP_ALLEGRO_PROPERTIES_DOCK"
+\i (00:00:47) design sync eco 
+\t (00:00:47) > Requesting Capture to open design
+\t (00:00:47) > Response received OpenDesign is done by remote tool
+\t (00:00:47) Design opened successfully
+\t (00:00:47) > Requesting Capture to generate logical netlist
+\t (00:00:47) > Requesting Capture to open design
+\t (00:00:48) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:00:48) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\testpcb\allegro
+\t (00:00:48) > Requesting Capture to generate logical netlist
+\t (00:00:48) > Response received OpenDesign is done by remote tool
+\t (00:00:48) Design opened successfully
+\t (00:00:48) > Generating Physical Netlist
+\t (00:00:48) Starting genfeedformat...
+\t (00:00:48) > Generating Physical Netlist successful
+\t (00:00:48) > Generating Differences
+\t (00:00:48) > Generating Differences successful
+\t (00:00:48) > Displaying differences output
+\t (00:00:48) > Displaying differences output successful
+\t (00:00:48) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:00:48) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\testpcb\allegro
+\i (00:00:48) updateport ReportsPane
+\i (00:00:48) updateport SearchPane
+\i (00:00:48) updateport PropPane
+\i (00:00:49) QtSignal DesignSyncDialog sync_button clicked
+\t (00:00:49) > Sending response DoneOpenBoard
+\t (00:00:49) Starting Cadence Logic Import...
+\t (00:00:50) Opening existing design...
+\i (00:00:50) trapsize 6888
+\w (00:00:51) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:51) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:51) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:51) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:51) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:51) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:51) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:00:51) Placed 26 of 26 symbols.
+\i (00:00:51) QtSignal DesignSyncDialog sch_comboBox EditingFinished "c:/users/user/appdata/roaming/spb_data/cdssetup/workspace/projects/testpcb/testpcb.opj"
+\i (00:00:51) QtSignal MainCanvas DesignSyncDialog closed
+\i (00:00:51) updateport ReportsPane
+\i (00:00:51) updateport SearchPane
+\i (00:00:51) updateport VisibilityPane
+\i (00:00:51) updateport PropPane
+\i (00:00:51) ucpedit 
+\i (00:00:51) updateport VisibilityPane
+\i (00:00:55) drag_start grid 11007.29 14988.66
+\i (00:00:55) drag_stop 5992.71 9905.19
+\i (00:00:56) pick grid 6171.80 10111.83
+\t (00:00:56) last pick:  6171.80 10111.83
+\i (00:00:57) prepopup 6529.98 15443.28
+\i (00:00:58) pick grid 14644.25 13748.79
+\t (00:00:58) last pick:  14644.25 13748.79
+\i (00:02:29) QtSignal Allegro_Property_Dock_Pane_Accordion_Container PropertySelectionFilterWidget DockedTabWidgetSwitch +
+\i (00:02:29) QtSignal "CP_ALLEGRO_PROPERTIES_DOCK"
+\t (00:09:53) > DoPhysicalNetlistGenerate message received
+\t (00:09:53) > Generating physical netlist...
+\t (00:09:53) Starting genfeedformat...
+\t (00:09:54) > Sending response DonePhysicalNetlistGeneration
+\t (00:09:54) > Physical Netlist Generated
+\i (00:09:54) updateport ReportsPane
+\i (00:09:54) updateport SearchPane
+\i (00:09:54) updateport PropPane
+\t (00:09:55) > DoPullSchematic message received
+\t (00:09:55) > Pulling schematic...
+\t (00:09:55) Starting Cadence Logic Import...
+\w (00:09:56) WARNING(SPMHGE-795): netrev had warnings.
+\t (00:09:56) Opening existing design...
+\i (00:09:57) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged
+\i (00:09:57) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (00:09:59) trapsize 6888
+\t (00:10:00) > Sending response DonePullSchematic
+\t (00:10:00) > Schematic pulled successfully
+\i (00:10:00) QtSignal Allegro_Property_Dock_Pane_Accordion_Container PropertySelectionFilterWidget DockedTabWidgetSwitch +
+\i (00:10:00) QtSignal "CP_ALLEGRO_PROPERTIES_DOCK"
+\i (00:10:00) updateport ReportsPane
+\i (00:10:00) updateport SearchPane
+\i (00:10:00) updateport VisibilityPane
+\i (00:10:00) updateport PropPane
+\i (00:10:00) ucpedit 
+\i (00:10:00) updateport VisibilityPane
+\i (00:10:02) setwindow text
+\i (00:10:02) close
+\i (00:10:04) setwindow pcb
+\i (00:10:04) design sync eco 
+\t (00:10:04) > Requesting Capture to open design
+\t (00:10:04) > Response received OpenDesign is done by remote tool
+\t (00:10:04) Design opened successfully
+\t (00:10:04) > Requesting Capture to generate logical netlist
+\t (00:10:04) > Requesting Capture to open design
+\t (00:10:04) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:10:04) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\testpcb\allegro
+\t (00:10:04) > Requesting Capture to generate logical netlist
+\t (00:10:04) > Response received OpenDesign is done by remote tool
+\t (00:10:04) Design opened successfully
+\t (00:10:04) > Generating Physical Netlist
+\t (00:10:04) Starting genfeedformat...
+\t (00:10:04) > Generating Physical Netlist successful
+\t (00:10:04) > Generating Differences
+\t (00:10:04) > Generating Differences successful
+\t (00:10:05) > Displaying differences output
+\t (00:10:05) > Displaying differences output successful
+\t (00:10:05) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:10:05) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\testpcb\allegro
+\i (00:10:05) updateport ReportsPane
+\i (00:10:05) updateport SearchPane
+\i (00:10:05) updateport PropPane
+\i (00:10:06) QtSignal DesignSyncDialog sync_button clicked
+\t (00:10:06) > Sending response DoneOpenBoard
+\t (00:10:06) Starting Cadence Logic Import...
+\w (00:10:06) WARNING(SPMHGE-795): netrev had warnings.
+\t (00:10:06) Opening existing design...
+\i (00:10:07) trapsize 6888
+\w (00:10:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:10:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:10:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:10:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:10:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:10:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:10:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:10:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:10:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:10:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:10:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:10:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:10:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:10:08) trapsize 6888
+\t (00:10:08) Placed 49 of 51 symbols.
+\i (00:10:08) QtSignal DesignSyncDialog sch_comboBox EditingFinished "c:/users/user/appdata/roaming/spb_data/cdssetup/workspace/projects/testpcb/testpcb.opj"
+\i (00:10:08) QtSignal MainCanvas DesignSyncDialog closed
+\i (00:10:08) updateport ReportsPane
+\i (00:10:08) updateport SearchPane
+\i (00:10:08) updateport VisibilityPane
+\i (00:10:08) updateport PropPane
+\i (00:10:08) ucpedit 
+\i (00:10:08) updateport VisibilityPane
+\i (00:10:21) setwindow text
+\i (00:10:21) close
+\i (00:11:19) setwindow pcb
+\i (00:11:19) QtSignal Allegro_Property_Dock_Pane_Accordion_Container PropertySelectionFilterWidget DockedTabWidgetSwitch +
+\i (00:11:19) QtSignal "CP_ALLEGRO_PROPERTIES_DOCK"
+\i (00:11:22) zoom in 1 
+\i (00:11:22) setwindow pcb
+\i (00:11:22) zoom in 9643.44 7521.88
+\i (00:11:22) trapsize 3444
+\i (00:11:22) zoom in 1 
+\i (00:11:22) setwindow pcb
+\i (00:11:22) zoom in 9636.55 7521.88
+\i (00:11:22) trapsize 1722
+\i (00:11:22) zoom in 1 
+\i (00:11:22) setwindow pcb
+\i (00:11:22) zoom in 9609.00 7532.21
+\i (00:11:22) trapsize 861
+\i (00:11:22) zoom in 1 
+\i (00:11:22) setwindow pcb
+\i (00:11:22) zoom in 9555.62 7542.54
+\i (00:11:22) trapsize 431
+\i (00:11:22) zoom out 1 
+\i (00:11:22) setwindow pcb
+\i (00:11:22) zoom out 9475.55 7679.45
+\i (00:11:22) trapsize 861
+\i (00:11:22) zoom out 1 
+\i (00:11:22) setwindow pcb
+\i (00:11:22) zoom out 9477.27 7679.45
+\i (00:11:22) trapsize 1722
+\i (00:11:22) zoom out 1 
+\i (00:11:22) setwindow pcb
+\i (00:11:22) zoom out 9477.27 7679.45
+\i (00:11:22) trapsize 3444
+\i (00:11:22) zoom out 1 
+\i (00:11:22) setwindow pcb
+\i (00:11:22) zoom out 9477.27 7679.44
+\i (00:11:22) trapsize 6888
+\i (00:11:23) zoom out 1 
+\i (00:11:23) setwindow pcb
+\i (00:11:23) zoom out 8100.49 9753.65
+\i (00:11:23) trapsize 9552
+\i (00:12:07) xname_flush 
+\i (00:12:08) xname_flush '!' 
+\i (00:12:09) xname_flush 
+\i (00:12:10) xname_flush '!' 
+\i (00:12:11) xname_flush 
+\i (00:12:13) xname_flush '!' 
+\i (00:12:16) xname_flush 
+\i (00:12:17) xname_flush '!' 
+\i (00:12:19) xname_flush 
+\i (00:15:02) xrefdes U74 
+\t (00:15:02) Can not select unplaced component U74.
+\t (00:15:02) Can not select unplaced component U74.
+\i (00:15:02) xname_flush 
+\i (00:15:05) xrefdes '!' U74 
+\t (00:15:05) Can not select unplaced component U74.
+\t (00:15:05) Can not select unplaced component U74.
+\i (00:15:05) xname_flush '!' 
+\i (00:15:06) xNet 12V 
+\i (00:15:06) xNet Apd_Bias 
+\i (00:15:06) xNet Gnd 
+\i (00:15:06) xNet N1087479 
+\i (00:15:06) xNet N1087553 
+\i (00:15:06) xNet N1087561 
+\i (00:15:06) xNet N1087919 
+\i (00:15:06) xrefdes Vr1 
+\i (00:15:06) xrefdes U74 
+\t (00:15:06) Can not select unplaced component U74.
+\t (00:15:06) Can not select unplaced component U74.
+\i (00:15:06) xrefdes C246(4.7Uf) 
+\i (00:15:06) xrefdes R6(10ohm) 
+\i (00:15:06) xrefdes C246(47uf) 
+\i (00:15:06) xrefdes R6(10ohm)1 
+\i (00:15:06) xname_flush 
+\i (00:15:06) trapsize 2431
+\i (00:15:09) xNet '!' 12V 
+\i (00:15:09) xNet '!' Apd_Bias 
+\i (00:15:09) xNet '!' Gnd 
+\i (00:15:09) xname_flush '!' 
+\t (00:15:13) > DoPhysicalNetlistGenerate message received
+\t (00:15:13) > Generating physical netlist...
+\t (00:15:13) Starting genfeedformat...
+\t (00:15:14) > Sending response DonePhysicalNetlistGeneration
+\t (00:15:14) > Physical Netlist Generated
+\i (00:15:14) updateport ReportsPane
+\i (00:15:14) updateport SearchPane
+\i (00:15:14) updateport PropPane
+\t (00:15:15) > DoPullSchematic message received
+\t (00:15:15) > Pulling schematic...
+\t (00:15:15) Starting Cadence Logic Import...
+\w (00:15:16) WARNING(SPMHGE-795): netrev had warnings.
+\t (00:15:16) Opening existing design...
+\i (00:15:17) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged
+\i (00:15:17) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (00:15:17) trapsize 2431
+\t (00:15:18) > Sending response DonePullSchematic
+\t (00:15:18) > Schematic pulled successfully
+\i (00:15:18) QtSignal Allegro_Property_Dock_Pane_Accordion_Container PropertySelectionFilterWidget DockedTabWidgetSwitch +
+\i (00:15:18) QtSignal "CP_ALLEGRO_PROPERTIES_DOCK"
+\i (00:15:18) updateport ReportsPane
+\i (00:15:18) updateport SearchPane
+\i (00:15:18) updateport VisibilityPane
+\i (00:15:18) updateport PropPane
+\i (00:15:18) ucpedit 
+\i (00:15:18) updateport VisibilityPane
+\i (00:15:20) QtSignal Allegro_Property_Dock_Pane_Accordion_Container PropertySelectionFilterWidget DockedTabWidgetSwitch +
+\i (00:15:20) QtSignal "CP_ALLEGRO_PROPERTIES_DOCK"
+\i (00:15:22) setwindow text
+\i (00:15:22) close
+\i (00:15:24) setwindow pcb
+\i (00:15:24) design sync eco 
+\t (00:15:25) > Requesting Capture to open design
+\t (00:15:25) > Response received OpenDesign is done by remote tool
+\t (00:15:25) Design opened successfully
+\t (00:15:25) > Requesting Capture to generate logical netlist
+\t (00:15:25) > Requesting Capture to open design
+\t (00:15:25) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:15:25) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\testpcb\allegro
+\t (00:15:25) > Requesting Capture to generate logical netlist
+\t (00:15:25) > Response received OpenDesign is done by remote tool
+\t (00:15:25) Design opened successfully
+\t (00:15:25) > Generating Physical Netlist
+\t (00:15:25) Starting genfeedformat...
+\t (00:15:25) > Generating Physical Netlist successful
+\t (00:15:25) > Generating Differences
+\t (00:15:25) > Generating Differences successful
+\t (00:15:25) > Displaying differences output
+\t (00:15:25) > Displaying differences output successful
+\t (00:15:25) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:15:25) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\testpcb\allegro
+\i (00:15:25) updateport ReportsPane
+\i (00:15:25) updateport SearchPane
+\i (00:15:25) updateport PropPane
+\i (00:15:26) QtSignal DesignSyncDialog sync_button clicked
+\t (00:15:26) > Sending response DoneOpenBoard
+\t (00:15:26) Starting Cadence Logic Import...
+\w (00:15:27) WARNING(SPMHGE-795): netrev had warnings.
+\t (00:15:27) Opening existing design...
+\i (00:15:27) trapsize 2431
+\w (00:15:28) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:15:28) trapsize 2431
+\t (00:15:28) Placed 50 of 51 symbols.
+\i (00:15:28) QtSignal DesignSyncDialog sch_comboBox EditingFinished "c:/users/user/appdata/roaming/spb_data/cdssetup/workspace/projects/testpcb/testpcb.opj"
+\i (00:15:28) QtSignal MainCanvas DesignSyncDialog closed
+\i (00:15:28) updateport ReportsPane
+\i (00:15:28) updateport SearchPane
+\i (00:15:28) updateport VisibilityPane
+\i (00:15:28) updateport PropPane
+\i (00:15:28) ucpedit 
+\i (00:15:28) updateport VisibilityPane
+\i (00:15:34) setwindow text
+\i (00:15:34) close
+\i (00:15:37) setwindow pcb
+\i (00:15:37) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:15:37) QtSignal MainCanvas ImpPrefDialog closed
+\i (00:15:37) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:15:37) QtSignal MainCanvas ImpGrpSel closed
+\i (00:15:37) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:15:37) QtSignal MainCanvas CplGrpSel closed
+\i (00:15:37) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:15:37) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:15:37) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:15:37) QtSignal MainCanvas CplPrefDialog closed
+\t (00:15:42)     Journal end - Thu Apr  3 05:07:53 2025

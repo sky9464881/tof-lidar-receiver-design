@@ -1,0 +1,226 @@
+Smoke Analysis Run : Tue Apr  1 20:52:55 2025
+
+
+Reference Designator = R133
+Info:
+	Smoke test RV will not be done.
+	The Maximum Operating Value is not defined.
+
+Reference Designator = R134
+Info:
+	Smoke test RV will not be done.
+	The Maximum Operating Value is not defined.
+
+Reference Designator = D4
+Info:
+	Smoke test IF will not be done.
+	The Maximum Operating Value is not defined.
+
+Reference Designator = R144
+Info:
+	Smoke test RV will not be done.
+	The Maximum Operating Value is not defined.
+
+Reference Designator = C237
+Non-Fatal Error:
+	Voltage data not found for Smoke test CV.
+	Please verify Save Data and Data Collection options in the simulation profile.
+
+Reference Designator = C237
+Non-Fatal Error:
+	Current data not found for Smoke test CI.
+	Please verify Save Data and Data Collection options in the simulation profile.
+
+Reference Designator = C238
+Non-Fatal Error:
+	Voltage data not found for Smoke test CV.
+	Please verify Save Data and Data Collection options in the simulation profile.
+
+Reference Designator = C238
+Non-Fatal Error:
+	Current data not found for Smoke test CI.
+	Please verify Save Data and Data Collection options in the simulation profile.
+
+Reference Designator = C239
+Non-Fatal Error:
+	Voltage data not found for Smoke test CV.
+	Please verify Save Data and Data Collection options in the simulation profile.
+
+Reference Designator = C239
+Non-Fatal Error:
+	Current data not found for Smoke test CI.
+	Please verify Save Data and Data Collection options in the simulation profile.
+
+Reference Designator = C240
+Non-Fatal Error:
+	Voltage data not found for Smoke test CV.
+	Please verify Save Data and Data Collection options in the simulation profile.
+
+Reference Designator = C240
+Non-Fatal Error:
+	Current data not found for Smoke test CI.
+	Please verify Save Data and Data Collection options in the simulation profile.
+
+Reference Designator = C242
+Non-Fatal Error:
+	Voltage data not found for Smoke test CV.
+	Please verify Save Data and Data Collection options in the simulation profile.
+
+Reference Designator = C242
+Non-Fatal Error:
+	Current data not found for Smoke test CI.
+	Please verify Save Data and Data Collection options in the simulation profile.
+
+Reference Designator = C241
+Non-Fatal Error:
+	Voltage data not found for Smoke test CV.
+	Please verify Save Data and Data Collection options in the simulation profile.
+
+Reference Designator = C241
+Non-Fatal Error:
+	Current data not found for Smoke test CI.
+	Please verify Save Data and Data Collection options in the simulation profile.
+
+Reference Designator = C244
+Non-Fatal Error:
+	Voltage data not found for Smoke test CV.
+	Please verify Save Data and Data Collection options in the simulation profile.
+
+Reference Designator = C244
+Non-Fatal Error:
+	Current data not found for Smoke test CI.
+	Please verify Save Data and Data Collection options in the simulation profile.
+
+Reference Designator = R144
+Non-Fatal Error:
+	Power data not found for Smoke test PDM.
+	Please verify Save Data and Data Collection options in the simulation profile.
+
+Reference Designator = R133
+Warning: Deration
+INFO(ORPSPAA-7028): TBreak (Tknee)is less than Simulation Temprature. Check the slope[RSMAX] or maximum temperature[RTMAX].
+
+Reference Designator = R133
+Info: Deration
+	Tbrk Calculated:0.000000
+
+Reference Designator = R133
+Warning: Deration
+INFO(ORPSPAA-7028): TBreak (Tknee)is less than Simulation Temprature. Check the slope[RSMAX] or maximum temperature[RTMAX].
+
+Reference Designator = R133
+Info: Deration
+	Tbrk Calculated:0.000000
+
+Reference Designator = R133
+Warning: Deration
+INFO(ORPSPAA-7028): TBreak (Tknee)is less than Simulation Temprature. Check the slope[RSMAX] or maximum temperature[RTMAX].
+
+Reference Designator = R133
+Info: Deration
+	Tbrk Calculated:0.000000
+
+Reference Designator = R134
+Warning: Deration
+INFO(ORPSPAA-7028): TBreak (Tknee)is less than Simulation Temprature. Check the slope[RSMAX] or maximum temperature[RTMAX].
+
+Reference Designator = R134
+Info: Deration
+	Tbrk Calculated:0.000000
+
+Reference Designator = R134
+Warning: Deration
+INFO(ORPSPAA-7028): TBreak (Tknee)is less than Simulation Temprature. Check the slope[RSMAX] or maximum temperature[RTMAX].
+
+Reference Designator = R134
+Info: Deration
+	Tbrk Calculated:0.000000
+
+Reference Designator = R134
+Warning: Deration
+INFO(ORPSPAA-7028): TBreak (Tknee)is less than Simulation Temprature. Check the slope[RSMAX] or maximum temperature[RTMAX].
+
+Reference Designator = R134
+Info: Deration
+	Tbrk Calculated:0.000000
+
+
+***** Analysis Summary *****
+
+Reference Designator = C228
+	The following parameter(s) exceeded the
+	Maximum Operating Value(s) specified
+		CV ( PEAK  AVG  RMS )
+
+
+Reference Designator = C229
+
+
+Reference Designator = R133
+	The following parameter(s) had undefined
+	Maximum Operating Value(s)
+		RV
+
+
+Reference Designator = R134
+	The following parameter(s) had undefined
+	Maximum Operating Value(s)
+		RV
+
+
+Reference Designator = D4
+	The following parameter(s) had undefined
+	Maximum Operating Value(s)
+		IF
+
+
+Reference Designator = C237
+	The following parameter(s) could not be
+	evaluated due to missing data
+		CV
+		CI
+
+Reference Designator = C238
+	The following parameter(s) could not be
+	evaluated due to missing data
+		CV
+		CI
+
+Reference Designator = C239
+	The following parameter(s) could not be
+	evaluated due to missing data
+		CV
+		CI
+
+Reference Designator = C240
+	The following parameter(s) could not be
+	evaluated due to missing data
+		CV
+		CI
+
+Reference Designator = C242
+	The following parameter(s) could not be
+	evaluated due to missing data
+		CV
+		CI
+
+Reference Designator = C241
+	The following parameter(s) could not be
+	evaluated due to missing data
+		CV
+		CI
+
+Reference Designator = C244
+	The following parameter(s) could not be
+	evaluated due to missing data
+		CV
+		CI
+
+Reference Designator = R144
+	The following parameter(s) had undefined
+	Maximum Operating Value(s)
+		RV
+	The following parameter(s) could not be
+	evaluated due to missing data
+		PDM
+

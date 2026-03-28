@@ -1,0 +1,429 @@
+(ExpressProject "80dB_LiDAR"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "24.1 S003 (4280230)  [3/6/2025]-[04/14/25]")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\lidar_readout_library.olb"
+        (Type "Schematic Library"))
+      (File ".\library1.olb"
+        (Type "Schematic Library"))
+      (File ".\mtapd.olb"
+        (Type "Schematic Library"))
+      (File ".\opa855.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\80db_lidar.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\80DB_LIDAR.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ORCAD")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "50")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Left-Right")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (Board_sim_option "VHDL_flow")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_View_Output "TRUE")
+    (DRC_Preserved_Waived "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Report_File
+       "C:\USERS\MSDL3\DESKTOP\ORCAD FILE\80DB_LIDAR\80DB_LIDAR.DRC")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Run_Electrical_Custom_DRC "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\80db_lidar.drc"
+      (Type "Report"))
+    (File ".\80db_lidar-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\80db_lidar-pspicefiles\schematic1\test.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\80db_lidar-pspicefiles\schematic1\test.sim"
+        (DisplayName "SCHEMATIC1-test")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (OPA855IDSGR
+      (FullPartName "OPA855IDSGR.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\SHARE\PCB\PCB_LIB\SYMBOLS\80DB\OPA855IDSGR.OLB")
+      (DeviceIndex "0"))
+    (THS4509RGTT
+      (FullPartName "THS4509RGTT.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\THS4509RGTT.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R_1608
+      (FullPartName "R_1608.Normal")
+      (LibraryName
+         "C:\USERS\MSDL3\DESKTOP\ORCAD FILE\80DB_LIDAR\LIDAR_READOUT_LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (OPA659IDBVT
+      (FullPartName "OPA659IDBVT.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\OPA659IDBVT.OLB")
+      (DeviceIndex "0"))
+    (OPA659IDBVT_8
+      (FullPartName "OPA659IDBVT_8.Normal")
+      (LibraryName
+         "C:\USERS\MSDL3\DESKTOP\ORCAD FILE\80DB_LIDAR\80DB_LIDAR.DSN")
+      (DeviceIndex "0"))
+    (MAX3267CSA+
+      (FullPartName "MAX3267CSA+.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\MAX3267CSA+.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OPA659IDBVT_2
+      (FullPartName "OPA659IDBVT_2.Normal")
+      (LibraryName
+         "C:\USERS\MSDL3\DESKTOP\ORCAD FILE\80DB_LIDAR\80DB_LIDAR.DSN")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (OPA277
+      (FullPartName "OPA277.Normal")
+      (LibraryName
+         "C:\USERS\MSDL3\DESKTOP\ORCAD FILE\80DB_LIDAR\LIDAR_READOUT_LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (VCC_ARROW
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (OPA855
+      (FullPartName "OPA855.Normal")
+      (LibraryName "C:\USERS\MSDL3\DESKTOP\ORCAD FILE\80DB_LIDAR\OPA855.OLB")
+      (DeviceIndex "0"))
+    (CAP_3216
+      (FullPartName "CAP_3216.Normal")
+      (LibraryName
+         "C:\USERS\MSDL3\DESKTOP\ORCAD FILE\80DB_LIDAR\LIDAR_READOUT_LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (CAP_1608
+      (FullPartName "CAP_1608.Normal")
+      (LibraryName
+         "C:\USERS\MSDL3\DESKTOP\ORCAD FILE\80DB_LIDAR\LIDAR_READOUT_LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (SMA_CON
+      (FullPartName "SMA_CON.Normal")
+      (LibraryName
+         "C:\USERS\MSDL3\DESKTOP\ORCAD FILE\80DB_LIDAR\LIDAR_READOUT_LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (OPA695
+      (FullPartName "OPA695.Normal")
+      (LibraryName
+         "C:\USERS\MSDL3\DESKTOP\ORCAD FILE\80DB_LIDAR\LIDAR_READOUT_LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (R_3216
+      (FullPartName "R_3216.Normal")
+      (LibraryName
+         "C:\USERS\MSDL3\DESKTOP\ORCAD FILE\80DB_LIDAR\LIDAR_READOUT_LIBRARY.OLB")
+      (DeviceIndex "0"))
+    ("RESISTOR VAR"
+      (FullPartName "RESISTOR VAR.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CAP_2012
+      (FullPartName "CAP_2012.Normal")
+      (LibraryName
+         "C:\USERS\MSDL3\DESKTOP\ORCAD FILE\80DB_LIDAR\LIDAR_READOUT_LIBRARY.OLB")
+      (DeviceIndex "0"))
+    (R12_150B
+      (FullPartName "R12_150B.Normal")
+      (LibraryName
+         "C:\USERS\MSDL3\DESKTOP\ORCAD FILE\80DB_LIDAR\LIDAR_READOUT_LIBRARY.OLB")
+      (DeviceIndex "0"))
+    ("4 HEADER_0"
+      (FullPartName "4 HEADER_0.Normal")
+      (LibraryName
+         "E:\PROJECT\PULSED_LIDAR\DESIGN\VERSION1\LIDAR_READOUT_VER1.DSN")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 712"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 753")
+        (Scroll "-227 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\SKY94\ONEDRIVE\DESKTOP\대학\LIDAR\80DB_LIDAR\80DB_LIDAR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "9_1_Common_part"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 753")
+        (Scroll "-227 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\SKY94\ONEDRIVE\DESKTOP\대학\LIDAR\80DB_LIDAR\80DB_LIDAR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "9_1_DIFF_single_amp"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 753")
+        (Scroll "-227 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\SKY94\ONEDRIVE\DESKTOP\대학\LIDAR\80DB_LIDAR\80DB_LIDAR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "9_2_DIFF_Multi_TIA"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1461 24 753")
+        (Scroll "-251 -6")
+        (Zoom "95")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\SKY94\ONEDRIVE\DESKTOP\대학\LIDAR\80DB_LIDAR\80DB_LIDAR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "9_4_Common_part"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 753")
+        (Scroll "-251 -6")
+        (Zoom "95")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\SKY94\ONEDRIVE\DESKTOP\대학\LIDAR\80DB_LIDAR\80DB_LIDAR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "9_3_Common_part"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 753")
+        (Scroll "-251 -6")
+        (Zoom "95")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\SKY94\ONEDRIVE\DESKTOP\대학\LIDAR\80DB_LIDAR\80DB_LIDAR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "9_4_DIFF_Dual_amp"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 753")
+        (Scroll "-227 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\SKY94\ONEDRIVE\DESKTOP\대학\LIDAR\80DB_LIDAR\80DB_LIDAR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "8_Common_part"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 753")
+        (Scroll "-251 -6")
+        (Zoom "95")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\SKY94\ONEDRIVE\DESKTOP\대학\LIDAR\80DB_LIDAR\80DB_LIDAR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "6_CTIA_1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 753")
+        (Scroll "-227 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\SKY94\ONEDRIVE\DESKTOP\대학\LIDAR\80DB_LIDAR\80DB_LIDAR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "7_Common_part"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 753")
+        (Scroll "-227 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\SKY94\ONEDRIVE\DESKTOP\대학\LIDAR\80DB_LIDAR\80DB_LIDAR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "9_3_R_Buffer"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 753")
+        (Scroll "-227 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\SKY94\ONEDRIVE\DESKTOP\대학\LIDAR\80DB_LIDAR\80DB_LIDAR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "6_Common_part"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 753")
+        (Scroll "-251 -6")
+        (Zoom "95")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\SKY94\ONEDRIVE\DESKTOP\대학\LIDAR\80DB_LIDAR\80DB_LIDAR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "7_CTIA_2"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 753")
+        (Scroll "-227 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\SKY94\ONEDRIVE\DESKTOP\대학\LIDAR\80DB_LIDAR\80DB_LIDAR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "9_5_DIFF_Diff_amp"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 753")
+        (Scroll "-251 -6")
+        (Zoom "95")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\SKY94\ONEDRIVE\DESKTOP\대학\LIDAR\80DB_LIDAR\80DB_LIDAR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "9_5_Common_part"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 753")
+        (Scroll "-251 -6")
+        (Zoom "95")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\SKY94\ONEDRIVE\DESKTOP\대학\LIDAR\80DB_LIDAR\80DB_LIDAR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "9_2_Common_part"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1461 24 753")
+        (Scroll "78 0")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\SKY94\ONEDRIVE\DESKTOP\대학\LIDAR\80DB_LIDAR\80DB_LIDAR.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "8_Max3267")))
+  (MPSSessionName "sky94")
+  (LastUsedLibraryBrowseDirectory
+     "C:\Cadence\SPB_17.2\share\pcb\pcb_lib\symbols\80dB")
+  (ISPCBBASICLICENSE "false")
+  (Folder "Logs"))

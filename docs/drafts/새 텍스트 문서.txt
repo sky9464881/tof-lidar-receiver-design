@@ -1,0 +1,17 @@
+LM2990T-5.0/NOPB https://www.digikey.kr/ko/products/detail/texas-instruments/LM2990T-5-0-NOPB/182372
+
+LM2940T-5.0/NOPB https://www.digikey.kr/ko/products/detail/texas-instruments/LM2940T-5-0-NOPB/148142?s=N4IgTCBcDaIDYFswE4AsAGALgWgKwDp0B6AOwHsAHAIxAF0BfIA
+
+R12 -150B https://www.digikey.kr/ko/products/detail/recom-power/R12-150B/3776801
+
+TSW-110-07-G-D https://www.digikey.kr/ko/products/detail/samtec-inc/TSW-110-07-G-D/1101267
+
+T491A106K016AT(lm299 output cap, 탄탈륨 캐패시터, esr 3옴, 10uF) https://www.digikey.kr/ko/products/detail/kemet/T491A106K016AT/2336183
+
+TPSB226K016R0600 (lm2940 output cap, 캐패시터, esr 600m옴, 22uF) https://www.digikey.kr/ko/products/detail/kyocera-avx/TPSB226K016R0600/563862
+
+C3216X7R2A474K160AA (0.47uF) https://www.digikey.kr/ko/products/detail/tdk-corporation/C3216X7R2A474K160AA/789678?s=N4IgTCBcDaIMIGYwEYBsANA7AJTAQQBZMCBpNABjzxAF0BfIA
+
+C3216X6S2A106K160AC (10uF) https://www.digikey.kr/ko/products/detail/tdk-corporation/C3216X6S2A106K160AC/14642034?s=N4IgTCBcDaIMIGYwEYBsANVBlMBBZADKgNJoG5wgC6AvkAKGM31HR50J226ML
+
+KGM31HR50J226ML (22uF) https://www.digikey.kr/ko/products/detail/kyocera-avx/KGM31HR50J226ML/11256095?s=N4IgTCBcDaIIxgAwDZkBExmQWQIIBUAWXAAhAF0BfIA

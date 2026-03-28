@@ -1,0 +1,51 @@
+
+**** 04/03/25 20:12:17 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-wtfawsd"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\twrawr\twrawr-PSpiceFiles\SCH
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "wtfawsd.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPA858.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa695_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa856_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\tlv3604.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPAx277.LIB" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa855_a.lib" 
+
+ERROR(ORPSIM-16276): Simulation cannot be completed because library C:\Cadence\OrCADX_24.1\tools\capture\library\opa855_a.lib 
+is not available.
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TWRAWR
+X_U1         N04153 N04047 OUT VCC VEE OPA855
+R_R1         N04047 OUT  453 TC=0,0 
+R_R3         0 OUT  200 TC=0,0 
+R_R2         0 N04047  75 TC=0,0 
+V_V3         N04153 0 DC 0Vdc AC 1Vac 
+
+**** RESUMING wtfawsd.cir ****
+.END
+

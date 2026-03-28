@@ -1,0 +1,73 @@
+{
+ "design" : {
+	"comps" : [
+{
+	"points" : [
+		 {"x" : 0, "y" : 0},
+		 {"x" : 0, "y" : 5500}],
+	"type" : 2,
+	"text" : "",
+	"orientation" : 1,
+	"radius" : 0,
+	"width" : 0.000000,
+	"color" : [{"r" : 38, "g" : 255, "b" : 38, "a" : 255}],
+	"class" : "ETCH",
+	"subclass" : "TOP"
+},
+{
+	"start" : 3.141593,
+	"end" : 0.000000,
+	"radius" : 1500.000000,
+	"points" : [{"x" : 1500.000000, "y" : 5500.000000}],
+	"endpts" : [{"x" : 0, "y" : 5500},{"x" : 3000, "y" : 5500}],
+	"type" : 6,
+	"text" : "",
+	"width" : 0.000000,
+	"color" : [
+		{"r" : 38, "g" : 255, "b" : 38, "a" : 255}],
+	"class" : "ETCH",
+	"subclass" : "TOP",
+	"clockwise" : 1
+},
+{
+	"points" : [
+		 {"x" : 3000, "y" : 0},
+		 {"x" : 3000, "y" : 5500}],
+	"type" : 2,
+	"text" : "",
+	"orientation" : 1,
+	"radius" : 0,
+	"width" : 0.000000,
+	"color" : [{"r" : 38, "g" : 255, "b" : 38, "a" : 255}],
+	"class" : "ETCH",
+	"subclass" : "TOP"
+},
+{
+	"points" : [
+		 {"x" : 0, "y" : 0},
+		 {"x" : 3000, "y" : 0}],
+	"type" : 2,
+	"text" : "",
+	"orientation" : 2,
+	"radius" : 0,
+	"width" : 0.000000,
+	"color" : [{"r" : 38, "g" : 255, "b" : 38, "a" : 255}],
+	"class" : "ETCH",
+	"subclass" : "TOP"
+},{}
+	]
+},
+
+
+"text" : {
+	"comps" : [
+	{
+		"name" : "R_72",
+		"type" : "Package",
+		"units" : "Millimeters",
+		"accuracy" : 4,
+		"pins" : 0
+	}
+	]
+}
+}

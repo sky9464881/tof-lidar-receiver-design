@@ -1,0 +1,5212 @@
+*$ model description: "awb2n6849"
+*b Device model created by analog_uprev for 2n6849 on Thu Apr  5 12:09:10 IST 2001
+.subckt awb2n6849   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=2
++ VTO=-3.386E+00
++ KP=3.939E+00
++ LAMBDA=1.000E-04
++ CGSO=4.000E-10
++ CGDO=2.000E-10
++ RG=2.000E+01
++ RG2=2.245E+01
++ RD=7.651E-02
++ RS=1.265E-01
++ RDS=5.000E+08
++ LD=5.000E-09
++ RLD=100
++ LS=1.250E-08
++ RLS=100
++ CJOC=1.100E-09
++ VJC=4.107E-01
++ MC=5.714E-01
++ XJC=0
++ CGDC=1.000E-13
++ ISD=2.322E-08
++ RSD=1.331E-02
++ ND=1.633E+00
++ CJOD=1E-18
++ CJOD2=6.834E-10
++ VJD2=9.000E-01
++ MD2=3.741E-01
++ EGD=1.010E+00
++ BVD=1.100E+02
++ IBVD=5.000E-01
++ TTD=3.283E-07
+xinst2n6849   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  cjoc={CJOC}
++  vjc={VJC}
++  mc={MC}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  cjod2={CJOD2}
++  vjd2={VJD2}
++  md2={MD2}
++  egd={EGD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awb2n6849
+*$ end model description: "awb2n6849"
+*
+*
+*$ model description: "awb2sj130"
+*b Device model created by analog_uprev for 2sj130 on Thu Apr  5 12:09:10 IST 2001
+.subckt awb2sj130   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.045
++ KP=0.460
++ LAMBDA=0.00
++ CGSO=219p
++ CGDO=16p
++ RG=126
++ RG2=12
++ RD=4.775
++ RS=0.1118
++ RDS=1E6
++ LD=0.1n
++ RLD=100
++ LS=0.1n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1.0E-12
++ RSD=0.054
++ ND=1.0
++ CJOD=162.5p
++ BVD=330
++ IBVD=1
++ TTD=16n
+xinst2sj130   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awb2sj130
+*$ end model description: "awb2sj130"
+*
+*
+*$ model description: "awb2sj142"
+*b Device model created by analog_uprev for 2sj142 on Thu Apr  5 12:09:10 IST 2001
+.subckt awb2sj142   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-2.599501
++ KP=842.9791
++ LAMBDA=0.008941
++ CGSO=3050p
++ CGDO=150p
++ RG=2.59
++ RG2=12
++ RD=0.091552
++ RS=0.0893
++ RDS=20meg
++ LD=4.5n
++ RLD=100
++ LS=6.5n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=9997.5f
++ RSD=0.0241
++ ND=1.0574
++ CJOD=3398.5p
++ VJD=0.5
++ MD=0.6704
++ BVD=110
++ IBVD=1
++ TTD=23.4n
+xinst2sj142   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awb2sj142
+*$ end model description: "awb2sj142"
+*
+*
+*$ model description: "awbbss84"
+*b Device model created by analog_uprev for bss84 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbbss84   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-9.924E-01
++ KP=2.6753E-01
++ LAMBDA=1E-10
++ CGSO=44p
++ CGDO=6p
++ RG=5.4387E+01
++ RG2=12
++ RD=-3.4348E+00
++ RS=8.8368E+00
++ RDS=5.0000E+07
++ LD=1.0000E-12
++ RLD=100
++ LS=1.0000E-11
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1.0000E-08
++ RSD=1.3670E+00
++ ND=1.4540E+00
++ CJOD=8.6940E-11
++ VJD=9.0000E-01
++ MD=7.0380E-01
++ BVD=55
++ IBVD=1
++ TTD=4.8830E-09
+xinstbss84   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbbss84
+*$ end model description: "awbbss84"
+*
+*
+*$ model description: "awbbst120"
+*b Device model created by analog_uprev for bst120 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbbst120   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-2.7334E+00
++ KP=2.7782E-01
++ LAMBDA=2.5000E-02
++ CGSO=47p
++ CGDO=8p
++ RG=30.473
++ RG2=12
++ RD=1.3557E+00
++ RS=2.8336E+00
++ RDS=7.5000E+05
++ LD=1.0000E-12
++ RLD=1.0000E-03
++ LS=1.0000E-12
++ RLS=1.0000E+02
++ XJC=0
++ CGDC=1E-12
++ CJOD=8.3291E-11
++ VJD=0.75
++ MD=0.5
++ BVD=66
++ IBVD=1
+xinstbst120   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++ 
+.ends  awbbst120
+*$ end model description: "awbbst120"
+*
+*
+*$ model description: "awbidealpmos"
+*b Device model created by analog_uprev for idealpmos on Tue Feb  6 03:29:22 IST 2001
+.subckt awbidealpmos D G S SUB
++ params:
++ IC_VBS=1.10250E-36
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ STATE=1
++ TEMP=0
++ STATE_FACTOR=0
++ LEVEL=1
++ VTO=-1.0
++ KP=1E-5
++ CGSO=0.8E-8
++ CGDO=0.8E-8
+Midealpmos_0 D G S SUB model19  ic= {UIC(ic_vbs)}, {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model19 pmos 
++  level={LEVEL}
++  vto={VTO}
++  kp={KP}
++  cgso={CGSO}
++  cgdo={CGDO}
++ 
+.ends  awbidealpmos
+*$ end model description: "awbidealpmos"
+*
+*
+*$ model description: "awbifp5p12"
+*b Device model created by analog_uprev for ifp5p12 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbifp5p12   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-4.484
++ KP=1.270
++ GAMMA=2.5
++ LAMBDA=0.00
++ CGSO=485p
++ CGDO=115p
++ RG=173
++ RG2=12
++ RD=0.569
++ RS=0.2009
++ RDS=100E6
++ LD=0.1n
++ RLD=100
++ LS=0.1n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1n
++ RSD=0.054
++ ND=6.6
++ CJOD=635p
++ VJD=0.35
++ MD=0.4747
++ BVD=198
++ IBVD=1
++ TTD=0.4u
+xinstifp5p12   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  gamma={GAMMA}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbifp5p12
+*$ end model description: "awbifp5p12"
+*
+*
+*$ model description: "awbirf9130"
+*b Device model created by analog_uprev for irf9130 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9130   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.485
++ KP=5.02
++ GAMMA=2.5
++ LAMBDA=0.00
++ CGSO=640E-12
++ CGDO=160E-12
++ RG=153
++ RG2=12
++ RD=0.0817
++ RS=0.1377
++ RDS=400E3
++ LD=5n
++ RLD=100
++ LS=12.5n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1n
++ RSD=.0541
++ ND=6.605
++ CJOD=1600E-12
++ VJD=0.5
++ MD=0.4316
++ BVD=110
++ IBVD=1
++ TTD=0.4u
+xinstirf9130   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  gamma={GAMMA}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9130
+*$ end model description: "awbirf9130"
+*
+*
+*$ model description: "awbirf9131"
+*b Device model created by analog_uprev for irf9131 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9131   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.485
++ KP=5.02
++ GAMMA=2.5
++ LAMBDA=0.00
++ CGSO=640p
++ CGDO=160p
++ RG=153
++ RG2=12
++ RD=0.0817
++ RS=0.1377
++ RDS=1.667E6
++ LD=5n
++ RLD=100
++ LS=12.5n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1n
++ RSD=.0541
++ ND=6.605
++ CJOD=1600p
++ VJD=0.5
++ MD=0.4316
++ BVD=66
++ IBVD=1
++ TTD=0.4u
+xinstirf9131   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  gamma={GAMMA}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9131
+*$ end model description: "awbirf9131"
+*
+*
+*$ model description: "awbirf9132"
+*b Device model created by analog_uprev for irf9132 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9132   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.485
++ KP=5.02
++ GAMMA=2.5
++ LAMBDA=0.00
++ CGSO=640p
++ CGDO=160p
++ RG=153
++ RG2=12
++ RD=0.0817
++ RS=0.1377
++ RDS=1.667E6
++ LD=5E-9
++ RLD=100
++ LS=12.5E-9
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1n
++ RSD=.0541
++ ND=6.605
++ CJOD=1600p
++ VJD=0.5
++ MD=0.4316
++ BVD=110
++ IBVD=1
+xinstirf9132   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  gamma={GAMMA}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++ 
+.ends  awbirf9132
+*$ end model description: "awbirf9132"
+*
+*
+*$ model description: "awbirf9133"
+*b Device model created by analog_uprev for irf9133 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9133   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.485
++ KP=5.02
++ GAMMA=2.5
++ LAMBDA=0.00
++ CGSO=640p
++ CGDO=160p
++ RG=153
++ RG2=12
++ RD=0.0817
++ RS=0.1377
++ RDS=1.667E6
++ LD=5E-9
++ RLD=100
++ LS=12.5E-9
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1n
++ RSD=.0541
++ ND=6.605
++ CJOD=1600p
++ VJD=0.5
++ MD=0.4316
++ BVD=66
++ IBVD=1
+xinstirf9133   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  gamma={GAMMA}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++ 
+.ends  awbirf9133
+*$ end model description: "awbirf9133"
+*
+*
+*$ model description: "awbirf9140"
+*a Device model created by analog_uprev for irf9140 on Thu Apr  5 12:09:10 IST 2001
+
+
+.subckt awbirf9140   1 2 3
+**************************************
+*      MODEL GENERATED BY MODPEX     *
+*COPYRIGHT(C) SYMMETRY DESIGN SYSTEMS*
+*         ALL RIGHTS RESERVED        *
+*    UNPUBLISHED LICENSED SOFTWARE   *
+*   CONTAINS PROPRIETARY INFORMATION *
+*      WHICH IS THE PROPERTY OF      *
+*     SYMMETRY OR ITS LICENSORS      *
+*COMMERCIAL USE OR RESALE RESTRICTED *
+*   BY SYMMETRY LICENSE AGREEMENT    *
+**************************************
+* MODEL GENERATED ON APR 10, 96
+* MODEL FORMAT: SPICEPLUS
+* SYMMETRY POWER MOS MODEL (VERSION 1.0)
+* EXTERNAL NODE DESIGNATIONS
+* NODE 1 -> DRAIN
+* NODE 2 -> GATE
+* NODE 3 -> SOURCE
+M1 9 7 8 8 MM L=100U W=100U
+* DEFAULT VALUES USED IN MM:
+* THE VOLTAGE-DEPENDENT CAPACITANCES ARE
+* NOT INCLUDED. OTHER DEFAULT VALUES ARE:
+*   RS=0 RD=0 LD=0 CBD=0 CBS=0 CGBO=0
+.MODEL MM PMOS LEVEL=1 IS=1E-32
++VTO=-3.38699 LAMBDA=0 KP=5.82448
++CGSO=8.99927E-06 CGDO=1E-11
+RS 8 3 0.0643947
+D1 1 3 MD
+.MODEL MD D IS=7.15729E-12 RS=0.0112106 N=1.05603 BV=102
++IBV=0.00025 EG=1.19985 XTI=1 TT=9.79238E-05
++CJO=7.58068E-10 VJ=3.03804 M=0.3854 FC=0.500967
+RDS 3 1 1E+06
+RD 9 1 0.060689
+RG 2 7 2.74519
+D2 5 4 MD1
+* DEFAULT VALUES USED IN MD1:
+*   RS=0 EG=1.11 XTI=3.0 TT=0
+*   BV=INFINITE IBV=1MA
+.MODEL MD1 D IS=1E-32 N=50
++CJO=1.31416E-09 VJ=1.97893 M=0.662324 FC=1E-08
+D3 5 0 MD2
+* DEFAULT VALUES USED IN MD2:
+*   EG=1.11 XTI=3.0 TT=0 CJO=0
+*   BV=INFINITE IBV=1MA
+.MODEL MD2 D IS=1E-10 N=0.40279 RS=3E-06
+RL 5 10 1
+FI2 7 9 VFI2 -1
+VFI2 4 0 0
+EV16 10 0 9 7 1
+CAP 11 10 3.04882E-09
+FI1 7 9 VFI1 -1
+VFI1 11 6 0
+RCAP 6 10 1
+D4 6 0 MD3
+* DEFAULT VALUES USED IN MD3:
+*   EG=1.11 XTI=3.0 TT=0 CJO=0
+*   RS=0 BV=INFINITE IBV=1MA
+.MODEL MD3 D IS=1E-10 N=0.40279
+.ends
+*$ end model description: "awbirf9140"
+*
+*
+*$ model description: "awbirf9214"
+*b Device model created by analog_uprev for irf9214 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9214   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.549
++ KP=3.168
++ LAMBDA=0.00
++ CGSO=20p
++ CGDO=3p
++ RG=1.862
++ RG2=12
++ RD=0.2336
++ RS=0.0249
++ RDS=0.8E6
++ LD=5n
++ RLD=100
++ LS=12.5n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1p
++ RSD=0.056
++ ND=1.5
++ CJOD=2000p
++ VJD=1.4
++ MD=0.605
++ BVD=165
++ IBVD=1
++ TTD=0.4u
+xinstirf9214   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9214
+*$ end model description: "awbirf9214"
+*
+*
+*$ model description: "awbirf9240"
+*b Device model created by analog_uprev for irf9240 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9240   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.549
++ KP=3.168
++ LAMBDA=0.00
++ CGSO=20p
++ CGDO=3p
++ RG=1.862
++ RG2=12
++ RD=0.2336
++ RS=0.0249
++ RDS=0.8E6
++ LD=5n
++ RLD=100
++ LS=12.5n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1p
++ RSD=0.056
++ ND=1.5
++ CJOD=2000p
++ VJD=1.4
++ MD=0.605
++ BVD=220
++ IBVD=1
++ TTD=0.4u
+xinstirf9240   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9240
+*$ end model description: "awbirf9240"
+*
+*
+*$ model description: "awbirf9242"
+*b Device model created by analog_uprev for irf9242 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9242   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.549
++ KP=3.168
++ LAMBDA=0.00
++ CGSO=20p
++ CGDO=3p
++ RG=1.862
++ RG2=12
++ RD=0.2336
++ RS=0.0249
++ RDS=0.8E6
++ LD=5n
++ RLD=100
++ LS=12.5n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1p
++ RSD=0.056
++ ND=1.5
++ CJOD=2000p
++ VJD=1.4
++ MD=0.605
++ BVD=220
++ IBVD=1
++ TTD=0.4u
+xinstirf9242   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9242
+*$ end model description: "awbirf9242"
+*
+*
+*$ model description: "awbirf9243"
+*b Device model created by analog_uprev for irf9243 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9243   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.549
++ KP=3.168
++ LAMBDA=0.00
++ CGSO=20p
++ CGDO=3p
++ RG=1.862
++ RG2=12
++ RD=0.2336
++ RS=0.0249
++ RDS=0.8E6
++ LD=5n
++ RLD=100
++ LS=12.5n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1p
++ RSD=0.056
++ ND=1.5
++ CJOD=2000p
++ VJD=1.4
++ MD=0.605
++ BVD=165
++ IBVD=1
++ TTD=0.4u
+xinstirf9243   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9243
+*$ end model description: "awbirf9243"
+*
+*
+*$ model description: "awbirf9510"
+*b Device model created by analog_uprev for irf9510 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9510   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.961
++ KP=0.613
++ LAMBDA=0.00
++ CGSO=150p
++ CGDO=30p
++ RG=118.2
++ RG2=12
++ RD=0.001
++ RS=0.3709
++ RDS=0.4E6
++ LD=5.0n
++ RLD=100
++ LS=15.0n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=25.40E-15
++ RSD=272.4E-3
++ ND=4.0
++ CJOD=390.45p
++ VJD=0.6
++ MD=0.4246
++ BVD=110
++ IBVD=1
++ TTD=0.4u
+xinstirf9510   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9510
+*$ end model description: "awbirf9510"
+*
+*
+*$ model description: "awbirf9511"
+*b Device model created by analog_uprev for irf9511 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9511   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.961
++ KP=0.613
++ LAMBDA=0.00
++ CGSO=150p
++ CGDO=30p
++ RG=118.2
++ RG2=12
++ RD=0.001
++ RS=0.3709
++ RDS=0.4E6
++ LD=5.0n
++ RLD=100
++ LS=15n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=25.40E-15
++ RSD=272.4E-3
++ ND=4.0
++ CJOD=390.45p
++ VJD=0.6
++ MD=0.4264
++ BVD=66
++ IBVD=1
+xinstirf9511   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++ 
+.ends  awbirf9511
+*$ end model description: "awbirf9511"
+*
+*
+*$ model description: "awbirf9512"
+*b Device model created by analog_uprev for irf9512 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9512   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.961
++ KP=0.613
++ LAMBDA=0.00
++ CGSO=150p
++ CGDO=30p
++ RG=118.2
++ RG2=12
++ RD=0.001
++ RS=0.3709
++ RDS=0.4E6
++ LD=5.0n
++ RLD=100
++ LS=15n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=25.40E-15
++ RSD=272.4E-3
++ ND=4.0
++ CJOD=390.45p
++ VJD=0.6
++ MD=0.4246
++ BVD=110
++ IBVD=1
++ TTD=0.4u
+xinstirf9512   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9512
+*$ end model description: "awbirf9512"
+*
+*
+*$ model description: "awbirf9513"
+*b Device model created by analog_uprev for irf9513 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9513   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.961
++ KP=0.613
++ LAMBDA=0.00
++ CGSO=150p
++ CGDO=30p
++ RG=118.2
++ RG2=12
++ RD=0.001
++ RS=0.3709
++ RDS=0.4E6
++ LD=5.0n
++ RLD=100
++ LS=15n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=25.40E-15
++ RSD=272.4E-3
++ ND=4.0
++ CJOD=390.45p
++ VJD=0.6
++ MD=0.4246
++ BVD=66
++ IBVD=1
++ TTD=0.4u
+xinstirf9513   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9513
+*$ end model description: "awbirf9513"
+*
+*
+*$ model description: "awbirf9520"
+*b Device model created by analog_uprev for irf9520 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9520   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-4.095
++ KP=11.779
++ LAMBDA=0.00
++ CGSO=150p
++ CGDO=20p
++ RG=133.2
++ RG2=12
++ RD=0.0928
++ RS=0.3779
++ RDS=400E3
++ LD=5.0n
++ RLD=100
++ LS=15n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1n
++ RSD=.0541
++ ND=6.605
++ CJOD=700.8p
++ VJD=1.4
++ MD=0.4548
++ BVD=110
++ IBVD=1
++ TTD=0.4u
+xinstirf9520   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9520
+*$ end model description: "awbirf9520"
+*
+*
+*$ model description: "awbirf9521"
+*b Device model created by analog_uprev for irf9521 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9521   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-4.095
++ KP=11.779
++ LAMBDA=0.00
++ CGSO=150p
++ CGDO=20p
++ RG=133.2
++ RG2=12
++ RD=0.0928
++ RS=0.3779
++ RDS=400E3
++ LD=5E-9
++ RLD=100
++ LS=15E-9
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1n
++ RSD=.0541
++ ND=6.605
++ CJOD=700.8E-12
++ VJD=1.4
++ MD=0.4548
++ BVD=66
++ IBVD=1
++ TTD=0.4E-6
+xinstirf9521   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9521
+*$ end model description: "awbirf9521"
+*
+*
+*$ model description: "awbirf9522"
+*b Device model created by analog_uprev for irf9522 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9522   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-4.095
++ KP=11.779
++ LAMBDA=0.00
++ CGSO=150p
++ CGDO=20p
++ RG=133.2
++ RG2=12
++ RD=0.0928
++ RS=0.3779
++ RDS=400E3
++ LD=5.0n
++ RLD=100
++ LS=15n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1n
++ RSD=.0541
++ ND=6.605
++ CJOD=700.8E-12
++ VJD=1.4
++ MD=0.4548
++ BVD=110
++ IBVD=1
++ TTD=0.4E-6
+xinstirf9522   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9522
+*$ end model description: "awbirf9522"
+*
+*
+*$ model description: "awbirf9523"
+*b Device model created by analog_uprev for irf9523 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9523   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-4.095
++ KP=11.779
++ LAMBDA=0.00
++ CGSO=150p
++ CGDO=20p
++ RG=133.2
++ RG2=12
++ RD=0.0928
++ RS=0.3779
++ RDS=400E3
++ LD=5.0n
++ RLD=100
++ LS=15n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1n
++ RSD=.0541
++ ND=6.605
++ CJOD=700.8E-12
++ VJD=1.4
++ MD=0.4548
++ BVD=66
++ IBVD=1
++ TTD=0.4E-6
+xinstirf9523   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9523
+*$ end model description: "awbirf9523"
+*
+*
+*$ model description: "awbirf9540"
+*b Device model created by analog_uprev for irf9540 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9540   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.943614
++ KP=10.481591
++ LAMBDA=1E-10
++ CGSO=850p
++ CGDO=250p
++ RG=10
++ RG2=12
++ RD=55m
++ RS=.073803
++ RDS=.24meg
++ LD=3.5n
++ RLD=100
++ LS=7.5n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=.13p
++ RSD=37.9187m
++ ND=2.9
++ CJOD=1965.55p
++ VJD=0.5
++ MD=.5355
++ BVD=110
++ IBVD=250
++ TTD=40n
+xinstirf9540   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9540
+*$ end model description: "awbirf9540"
+*
+*
+*$ model description: "awbirf9541"
+*b Device model created by analog_uprev for irf9541 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9541   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.943614
++ KP=10.481591
++ LAMBDA=1E-10
++ CGSO=850p
++ CGDO=250p
++ RG=10
++ RG2=12
++ RD=55m
++ RS=.073803
++ RDS=.24meg
++ LD=3.5n
++ RLD=100
++ LS=7.5n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=.13p
++ RSD=37.9187m
++ ND=2.9
++ CJOD=1965.55p
++ VJD=0.5
++ MD=.5355
++ BVD=66
++ IBVD=250
++ TTD=40n
+xinstirf9541   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9541
+*$ end model description: "awbirf9541"
+*
+*
+*$ model description: "awbirf9542"
+*b Device model created by analog_uprev for irf9542 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9542   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.943614
++ KP=10.481591
++ LAMBDA=1E-10
++ CGSO=850p
++ CGDO=250p
++ RG=10
++ RG2=12
++ RD=.130444
++ RS=.073803
++ RDS=.24meg
++ LD=3.5n
++ RLD=100
++ LS=7.5n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=.13p
++ RSD=37.9187m
++ ND=2.9
++ CJOD=1965.55p
++ VJD=0.5
++ MD=.5355
++ BVD=110
++ IBVD=250
++ TTD=40n
+xinstirf9542   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9542
+*$ end model description: "awbirf9542"
+*
+*
+*$ model description: "awbirf9543"
+*b Device model created by analog_uprev for irf9543 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9543   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.943614
++ KP=10.481591
++ LAMBDA=1E-10
++ CGSO=850p
++ CGDO=250p
++ RG=10
++ RG2=12
++ RD=.130444
++ RS=.073803
++ RDS=.24meg
++ LD=3.5n
++ RLD=100
++ LS=7.5n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=.13p
++ RSD=37.9187m
++ ND=2.9
++ CJOD=1965.55p
++ VJD=0.5
++ MD=.5355
++ BVD=66
++ IBVD=250
++ TTD=40n
+xinstirf9543   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9543
+*$ end model description: "awbirf9543"
+*
+*
+*$ model description: "awbirf9620"
+*b Device model created by analog_uprev for irf9620 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9620   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.8348E+00
++ KP=4.9637E+00
++ GAMMA=1.14794E-41
++ LAMBDA=0.0000E+00
++ CGSO=3.2000E-10
++ CGDO=3.0000E-11
++ RG=4.3270E-01
++ RG2=12
++ RD=7.4542E-01
++ RS=3.6438E-01
++ RDS=9.4117E+05
++ LD=4.5000E-09
++ RLD=100
++ LS=7.5000E-09
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=2.0500E-06
++ RSD=7.4220E-02
++ ND=1.8130E+01
++ CJOD=5.1640E-10
++ VJD=3.3460E+00
++ MD=9.0000E-01
++ BVD=2.2000E+02
++ IBVD=1.0000E+00
++ TTD=2.5710E-07
+xinstirf9620   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  gamma={GAMMA}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9620
+*$ end model description: "awbirf9620"
+*
+*
+*$ model description: "awbirf9621"
+*b Device model created by analog_uprev for irf9621 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9621   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.8348E+00
++ KP=4.9637E+00
++ GAMMA=1.14794E-41
++ LAMBDA=0.0000E+00
++ CGSO=3.2000E-10
++ CGDO=3.0000E-11
++ RG=4.3270E-01
++ RG2=12
++ RD=7.4542E-01
++ RS=3.6438E-01
++ RDS=9.4117E+05
++ LD=4.5000E-09
++ RLD=100
++ LS=7.5000E-09
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=2.0500E-06
++ RSD=7.4220E-02
++ ND=1.8130E+01
++ CJOD=5.1640E-10
++ VJD=3.3460E+00
++ MD=9.0000E-01
++ BVD=1.6500E+02
++ IBVD=1.0000E+00
++ TTD=2.5710E-07
+xinstirf9621   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  gamma={GAMMA}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9621
+*$ end model description: "awbirf9621"
+*
+*
+*$ model description: "awbirf9622"
+*b Device model created by analog_uprev for irf9622 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9622   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.8348E+00
++ KP=4.9637E+00
++ GAMMA=1.14794E-41
++ LAMBDA=0.0000E+00
++ CGSO=3.2000E-10
++ CGDO=3.0000E-11
++ RG=4.3270E-01
++ RG2=12
++ RD=7.4542E-01
++ RS=3.6438E-01
++ RDS=9.4117E+05
++ LD=4.5000E-09
++ RLD=100
++ LS=7.5000E-09
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=2.0500E-06
++ RSD=7.4220E-02
++ ND=1.8130E+01
++ CJOD=5.1640E-10
++ VJD=3.3460E+00
++ MD=9.0000E-01
++ BVD=2.2000E+02
++ IBVD=1.0000E+00
++ TTD=2.5710E-07
+xinstirf9622   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  gamma={GAMMA}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9622
+*$ end model description: "awbirf9622"
+*
+*
+*$ model description: "awbirf9623"
+*b Device model created by analog_uprev for irf9623 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9623   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.8348E+00
++ KP=4.9637E+00
++ GAMMA=1.14794E-41
++ LAMBDA=0.0000E+00
++ CGSO=3.2000E-10
++ CGDO=3.0000E-11
++ RG=4.3270E-01
++ RG2=12
++ RD=7.4542E-01
++ RS=3.6438E-01
++ RDS=9.4117E+05
++ LD=4.5000E-09
++ RLD=100
++ LS=7.5000E-09
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=2.0500E-06
++ RSD=7.4220E-02
++ ND=1.8130E+01
++ CJOD=5.1640E-10
++ VJD=3.3460E+00
++ MD=9.0000E-01
++ BVD=1.6500E+02
++ IBVD=1.0000E+00
++ TTD=2.5710E-07
+xinstirf9623   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  gamma={GAMMA}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9623
+*$ end model description: "awbirf9623"
+*
+*
+*$ model description: "awbirf9630"
+*b Device model created by analog_uprev for irf9630 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9630   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.597
++ KP=3.35
++ LAMBDA=7.104e-3
++ CGSO=500p
++ CGDO=50p
++ RG=41
++ RG2=12
++ RD=0.338422
++ RS=0.1266
++ RDS=2.4e5
++ LD=3.5n
++ RLD=100
++ LS=7.5n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=0.0023329
++ RSD=.0517153
++ ND=25.4145
++ CJOD=1217p
++ VJD=0.5
++ MD=0.4946
++ BVD=220
++ IBVD=30
+xinstirf9630   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++ 
+.ends  awbirf9630
+*$ end model description: "awbirf9630"
+*
+*
+*$ model description: "awbirf9z30"
+*b Device model created by analog_uprev for irf9z30 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9z30   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.392985
++ KP=3.140635
++ LAMBDA=.00064
++ CGSO=760p
++ CGDO=140p
++ RG=7.17
++ RG2=12
++ RD=.1m
++ RS=.089072
++ RDS=.2meg
++ LD=4.5n
++ RLD=100
++ LS=7.5n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=16.66843m
++ RSD=.491
++ ND=21.3032
++ CJOD=4618.15p
++ VJD=0.5
++ MD=0.9
++ BVD=55
++ IBVD=50
++ TTD=12n
+xinstirf9z30   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9z30
+*$ end model description: "awbirf9z30"
+*
+*
+*$ model description: "awbirf9z32"
+*b Device model created by analog_uprev for irf9z32 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirf9z32   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.392985
++ KP=3.140635
++ LAMBDA=.00064
++ CGSO=760p
++ CGDO=140p
++ RG=7.17
++ RG2=12
++ RD=2.6m
++ RS=.089072
++ RDS=.2meg
++ LD=4.5n
++ RLD=100
++ LS=7.5n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=16.66843m
++ RSD=.491
++ ND=21.3032
++ CJOD=4618.15p
++ VJD=0.5
++ MD=0.9
++ BVD=55
++ IBVD=50
++ TTD=12n
+xinstirf9z32   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirf9z32
+*$ end model description: "awbirf9z32"
+*
+*
+*$ model description: "awbirfd9120"
+*b Device model created by analog_uprev for irfd9120 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirfd9120   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-4.095
++ KP=11.779
++ LAMBDA=0.00
++ CGSO=150p
++ CGDO=20p
++ RG=133.2
++ RG2=12
++ RD=0.0928
++ RS=0.3779
++ RDS=400E3
++ LD=5E-9
++ RLD=100
++ LS=15E-9
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1E-9
++ RSD=.0541
++ ND=6.605
++ CJOD=764.8E-12
++ BVD=110
++ IBVD=1
++ TTD=0.4E-6
+xinstirfd9120   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirfd9120
+*$ end model description: "awbirfd9120"
+*
+*
+*$ model description: "awbirfd9123"
+*b Device model created by analog_uprev for irfd9123 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirfd9123   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-4.095
++ KP=11.779
++ LAMBDA=0.00
++ CGSO=150p
++ CGDO=20p
++ RG=133.2
++ RG2=12
++ RD=0.0928
++ RS=0.3779
++ RDS=400E3
++ LD=5E-9
++ RLD=100
++ LS=15E-9
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1E-9
++ RSD=.0541
++ ND=6.605
++ CJOD=764.8E-12
++ BVD=66
++ IBVD=1
++ TTD=0.4E-6
+xinstirfd9123   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirfd9123
+*$ end model description: "awbirfd9123"
+*
+*
+*$ model description: "awbirff9110"
+*b Device model created by analog_uprev for irff9110 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirff9110   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.961
++ KP=0.613
++ LAMBDA=0.00
++ CGSO=150p
++ CGDO=30p
++ RG=118.2
++ RG2=12
++ RD=0.001
++ RS=0.3709
++ RDS=0.4E6
++ LD=5E-9
++ RLD=100
++ LS=15E-9
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=25.40E-15
++ RSD=272.4E-3
++ ND=4.0
++ CJOD=390.45p
++ VJD=0.6
++ MD=0.4246
++ BVD=110
++ IBVD=1
++ TTD=0.4u
+xinstirff9110   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirff9110
+*$ end model description: "awbirff9110"
+*
+*
+*$ model description: "awbirff9111"
+*b Device model created by analog_uprev for irff9111 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirff9111   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.961
++ KP=0.613
++ LAMBDA=0.00
++ CGSO=150p
++ CGDO=30p
++ RG=118.2
++ RG2=12
++ RD=0.001
++ RS=0.3709
++ RDS=0.4E6
++ LD=5E-9
++ RLD=100
++ LS=15E-9
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=25.40E-15
++ RSD=272.4E-3
++ ND=4.0
++ CJOD=390.45p
++ VJD=0.6
++ MD=0.4264
++ BVD=66
++ IBVD=1
+xinstirff9111   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++ 
+.ends  awbirff9111
+*$ end model description: "awbirff9111"
+*
+*
+*$ model description: "awbirff9112"
+*b Device model created by analog_uprev for irff9112 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirff9112   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.961
++ KP=0.613
++ LAMBDA=0.00
++ CGSO=150p
++ CGDO=30p
++ RG=118.2
++ RG2=12
++ RD=0.001
++ RS=0.3709
++ RDS=0.4E6
++ LD=5E-9
++ RLD=100
++ LS=15E-9
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=25.40E-15
++ RSD=272.4E-3
++ ND=4.0
++ CJOD=390.45p
++ VJD=0.6
++ MD=0.4246
++ BVD=110
++ IBVD=1
++ TTD=0.4u
+xinstirff9112   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirff9112
+*$ end model description: "awbirff9112"
+*
+*
+*$ model description: "awbirff9113"
+*b Device model created by analog_uprev for irff9113 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirff9113   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.961
++ KP=0.613
++ LAMBDA=0.00
++ CGSO=150p
++ CGDO=30p
++ RG=118.2
++ RG2=12
++ RD=0.001
++ RS=0.3709
++ RDS=0.4E6
++ LD=5E-9
++ RLD=100
++ LS=15E-9
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=25.40E-15
++ RSD=272.4E-3
++ ND=4.0
++ CJOD=390.45p
++ VJD=0.6
++ MD=0.4246
++ BVD=66
++ IBVD=1
++ TTD=0.4u
+xinstirff9113   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirff9113
+*$ end model description: "awbirff9113"
+*
+*
+*$ model description: "awbirff9120"
+*b Device model created by analog_uprev for irff9120 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirff9120   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-4.095
++ KP=11.779
++ LAMBDA=0.00
++ CGSO=150p
++ CGDO=20p
++ RG=133.2
++ RG2=12
++ RD=0.0928
++ RS=0.3779
++ RDS=400E3
++ LD=5E-9
++ RLD=100
++ LS=15E-9
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1n
++ RSD=.0541
++ ND=6.605
++ CJOD=700.8p
++ VJD=1.4
++ MD=0.4548
++ BVD=110
++ IBVD=1
++ TTD=0.4u
+xinstirff9120   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirff9120
+*$ end model description: "awbirff9120"
+*
+*
+*$ model description: "awbirff9121"
+*b Device model created by analog_uprev for irff9121 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirff9121   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-4.095
++ KP=11.779
++ LAMBDA=0.00
++ CGSO=150p
++ CGDO=20p
++ RG=133.2
++ RG2=12
++ RD=0.0928
++ RS=0.3779
++ RDS=400E3
++ LD=5E-9
++ RLD=100
++ LS=15E-9
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1n
++ RSD=.0541
++ ND=6.605
++ CJOD=700.8p
++ VJD=1.4
++ MD=0.4548
++ BVD=66
++ IBVD=1
++ TTD=0.4E-6
+xinstirff9121   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirff9121
+*$ end model description: "awbirff9121"
+*
+*
+*$ model description: "awbirff9122"
+*b Device model created by analog_uprev for irff9122 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirff9122   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-4.095
++ KP=11.779
++ LAMBDA=0.00
++ CGSO=150p
++ CGDO=20p
++ RG=133.2
++ RG2=12
++ RD=0.0928
++ RS=0.3779
++ RDS=400E3
++ LD=5E-9
++ RLD=100
++ LS=15E-9
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1n
++ RSD=.0541
++ ND=6.605
++ CJOD=700.8E-12
++ VJD=1.4
++ MD=0.4548
++ BVD=110
++ IBVD=1
++ TTD=0.4E-6
+xinstirff9122   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirff9122
+*$ end model description: "awbirff9122"
+*
+*
+*$ model description: "awbirff9123"
+*b Device model created by analog_uprev for irff9123 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirff9123   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-4.095
++ KP=11.779
++ LAMBDA=0.00
++ CGSO=150p
++ CGDO=20p
++ RG=133.2
++ RG2=12
++ RD=0.0928
++ RS=0.3779
++ RDS=400E3
++ LD=5E-9
++ RLD=100
++ LS=15E-9
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1n
++ RSD=.0541
++ ND=6.605
++ CJOD=700.8E-12
++ VJD=1.4
++ MD=0.4548
++ BVD=66
++ IBVD=1
++ TTD=0.4E-6
+xinstirff9123   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirff9123
+*$ end model description: "awbirff9123"
+*
+*
+*$ model description: "awbirff9220"
+*b Device model created by analog_uprev for irff9220 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirff9220   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.18
++ KP=817.99994m
++ LAMBDA=1E-10
++ CGSO=380.00000p
++ CGDO=60.000000p
++ RG=94
++ RG2=12
++ RD=0.72
++ RS=79.999940m
++ RDS=100.00000K
++ LD=5n
++ RLD=100
++ LS=15n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1n
++ RSD=28.700000m
++ ND=1
++ CJOD=600.00003p
++ VJD=1.4
++ MD=.627
++ BVD=220
++ IBVD=1
++ TTD=0.4u
+xinstirff9220   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirff9220
+*$ end model description: "awbirff9220"
+*
+*
+*$ model description: "awbirff9221"
+*b Device model created by analog_uprev for irff9221 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirff9221   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.18
++ KP=817.99994m
++ LAMBDA=1E-10
++ CGSO=380.00000p
++ CGDO=60.000000p
++ RG=94
++ RG2=12
++ RD=0.72
++ RS=79.999940m
++ RDS=100.00000K
++ LD=5n
++ RLD=100
++ LS=15n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1n
++ RSD=28.700000m
++ ND=1
++ CJOD=600.00003p
++ VJD=1.4
++ MD=.627
++ BVD=165
++ IBVD=21
++ TTD=0.4u
+xinstirff9221   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirff9221
+*$ end model description: "awbirff9221"
+*
+*
+*$ model description: "awbirff9222"
+*b Device model created by analog_uprev for irff9222 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirff9222   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.18
++ KP=817.99994m
++ LAMBDA=1E-10
++ CGSO=380.00000p
++ CGDO=60.000000p
++ RG=94
++ RG2=12
++ RD=0.72
++ RS=79.999940m
++ RDS=100.00000K
++ LD=5n
++ RLD=100
++ LS=15n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1n
++ RSD=28.700000m
++ ND=1
++ CJOD=600.00003p
++ VJD=1.4
++ MD=.627
++ BVD=220
++ IBVD=1
++ TTD=0.4u
+xinstirff9222   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirff9222
+*$ end model description: "awbirff9222"
+*
+*
+*$ model description: "awbirff9223"
+*b Device model created by analog_uprev for irff9223 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirff9223   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.18
++ KP=817.99994m
++ LAMBDA=1E-10
++ CGSO=380.00000p
++ CGDO=60.000000p
++ RG=94
++ RG2=12
++ RD=0.72
++ RS=79.999940m
++ RDS=100.00000K
++ LD=5n
++ RLD=100
++ LS=15n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1n
++ RSD=28.700000m
++ ND=1
++ CJOD=600.00003p
++ VJD=1.4
++ MD=.627
++ BVD=165
++ IBVD=21
++ TTD=0.4u
+xinstirff9223   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirff9223
+*$ end model description: "awbirff9223"
+*
+*
+*$ model description: "awbirff9230"
+*b Device model created by analog_uprev for irff9230 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirff9230   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.21
++ KP=2.08
++ LAMBDA=3.2m
++ CGSO=550p
++ CGDO=50p
++ RG=15
++ RG2=12
++ RD=586m
++ RS=87m
++ RDS=10meg
++ LD=5n
++ RLD=100
++ LS=15n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1.9n
++ RSD=0.06
++ ND=1
++ CJOD=1150p
++ VJD=0.5
++ MD=0.653
++ BVD=220
++ IBVD=2
++ TTD=400n
+xinstirff9230   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirff9230
+*$ end model description: "awbirff9230"
+*
+*
+*$ model description: "awbirff9231"
+*b Device model created by analog_uprev for irff9231 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirff9231   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.21
++ KP=2.08
++ LAMBDA=3.2m
++ CGSO=550p
++ CGDO=50p
++ RG=15
++ RG2=12
++ RD=586m
++ RS=87m
++ RDS=10meg
++ LD=5n
++ RLD=100
++ LS=15n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1.9n
++ RSD=0.06
++ ND=1
++ CJOD=1150p
++ VJD=0.5
++ MD=0.653
++ BVD=165
++ IBVD=40
++ TTD=400n
+xinstirff9231   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirff9231
+*$ end model description: "awbirff9231"
+*
+*
+*$ model description: "awbirff9232"
+*b Device model created by analog_uprev for irff9232 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirff9232   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.21
++ KP=2.08
++ LAMBDA=3.2m
++ CGSO=550p
++ CGDO=50p
++ RG=15
++ RG2=12
++ RD=586m
++ RS=87m
++ RDS=10meg
++ LD=5n
++ RLD=100
++ LS=15n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1.9n
++ RSD=0.06
++ ND=1
++ CJOD=1150p
++ VJD=0.5
++ MD=0.653
++ BVD=220
++ IBVD=2
++ TTD=400n
+xinstirff9232   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirff9232
+*$ end model description: "awbirff9232"
+*
+*
+*$ model description: "awbirff9233"
+*b Device model created by analog_uprev for irff9233 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirff9233   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.21
++ KP=2.08
++ LAMBDA=3.2m
++ CGSO=550p
++ CGDO=50p
++ RG=15
++ RG2=12
++ RD=586m
++ RS=87m
++ RDS=10meg
++ LD=5n
++ RLD=100
++ LS=15n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1.9n
++ RSD=0.06
++ ND=1
++ CJOD=1150p
++ VJD=0.5
++ MD=0.653
++ BVD=165
++ IBVD=2
++ TTD=400n
+xinstirff9233   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirff9233
+*$ end model description: "awbirff9233"
+*
+*
+*$ model description: "awbirfp9140"
+*b Device model created by analog_uprev for irfp9140 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbirfp9140   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.314575
++ KP=11.431406
++ LAMBDA=0.487805m
++ CGSO=1040p
++ CGDO=160p
++ RG=70
++ RG2=12
++ RD=0.06788
++ RS=0.059035
++ RDS=3.5e6
++ LD=5n
++ RLD=100
++ LS=13n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=0.177m
++ RSD=0.72737
++ ND=6.5694
++ CJOD=1640p
++ VJD=1.0
++ MD=0.4993
++ BVD=110
++ IBVD=25
++ TTD=1e-7
+xinstirfp9140   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbirfp9140
+*$ end model description: "awbirfp9140"
+*
+*
+*$ model description: "awbmpm3002p"
+*b Device model created by analog_uprev for mpm3002p on Thu Apr  5 12:09:10 IST 2001
+.subckt awbmpm3002p   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.795571
++ KP=2.146904
++ LAMBDA=7.4945e-3
++ CGSO=850p
++ CGDO=110p
++ RG=50
++ RG2=12
++ RD=0.001
++ RS=0.161008
++ RDS=1e3
++ LD=5E-9
++ RLD=100
++ LS=12.5E-9
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=0.346883p
++ RSD=0.4
++ ND=1
++ CJOD=1050p
++ VJD=29
++ MD=2.95634
++ BVD=110
++ IBVD=1
++ TTD=1e-9
+xinstmpm3002p   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbmpm3002p
+*$ end model description: "awbmpm3002p"
+*
+*
+*$ model description: "awbmtp23p06"
+*b Device model created by analog_uprev for mtp23p06 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbmtp23p06   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=2
++ VTO=-3.892
++ KP=15.525
++ LAMBDA=1E-10
++ CGSO=700p
++ CGDO=1E-18
++ RG=12
++ RG2=12
++ RD=19.374m
++ RS=0.0672
++ RDS=0.937e6
++ LD=3.5n
++ RLD=100
++ LS=5.5p
++ RLS=45.733
++ CJOC=2620p
++ VJC=0.35
++ MC=0.9
++ XJC=0
++ CGDC=190p
++ ISD=1e-10
++ RSD=10m
++ ND=2.896
++ CJOD=1E-18
++ CJOD2=450p
++ VJD2=0.2
++ MD2=0.22
++ BVD=66
++ IBVD=150u
++ TTD=67.5n
+xinstmtp23p06   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  cjoc={CJOC}
++  vjc={VJC}
++  mc={MC}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  cjod2={CJOD2}
++  vjd2={VJD2}
++  md2={MD2}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbmtp23p06
+*$ end model description: "awbmtp23p06"
+*
+*
+*$ model description: "awbrfm5p12"
+*b Device model created by analog_uprev for rfm5p12 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbrfm5p12   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-4.484
++ KP=1.270
++ GAMMA=2.5
++ LAMBDA=0.00
++ CGSO=485p
++ CGDO=115p
++ RG=173
++ RG2=12
++ RD=0.569
++ RS=0.2009
++ RDS=100E6
++ LD=0.1n
++ RLD=100
++ LS=0.1n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1n
++ RSD=0.054
++ ND=6.6
++ CJOD=635p
++ VJD=0.35
++ MD=0.4747
++ BVD=198
++ IBVD=1
++ TTD=0.4u
+xinstrfm5p12   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  gamma={GAMMA}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbrfm5p12
+*$ end model description: "awbrfm5p12"
+*
+*
+*$ model description: "awbrfm5p15"
+*b Device model created by analog_uprev for rfm5p15 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbrfm5p15   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-4.484
++ KP=1.270
++ GAMMA=2.5
++ LAMBDA=0.00
++ CGSO=485p
++ CGDO=115p
++ RG=173
++ RG2=12
++ RD=0.569
++ RS=0.2009
++ RDS=100E6
++ LD=0.1n
++ RLD=100
++ LS=0.1n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1n
++ RSD=0.054
++ ND=6.6
++ CJOD=635p
++ VJD=0.35
++ MD=0.4747
++ BVD=198
++ IBVD=1
++ TTD=0.4u
+xinstrfm5p15   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  gamma={GAMMA}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbrfm5p15
+*$ end model description: "awbrfm5p15"
+*
+*
+*$ model description: "awbrfm6p08"
+*b Device model created by analog_uprev for rfm6p08 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbrfm6p08   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-2.971
++ KP=2.798
++ LAMBDA=0.00
++ CGSO=390p
++ CGDO=60p
++ RG=149.7
++ RG2=12
++ RD=0.2984
++ RS=0.1837
++ RDS=80E6
++ LD=4.5n
++ RLD=100
++ LS=7.5n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1.306E-9
++ RSD=.0541
++ ND=1.605
++ CJOD=1080p
++ VJD=0.35
++ MD=0.44
++ BVD=88
++ IBVD=1
++ TTD=0.2E-6
+xinstrfm6p08   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbrfm6p08
+*$ end model description: "awbrfm6p08"
+*
+*
+*$ model description: "awbrfm6p10"
+*b Device model created by analog_uprev for rfm6p10 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbrfm6p10   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-2.971
++ KP=2.798
++ LAMBDA=0.00
++ CGSO=390p
++ CGDO=60p
++ RG=149.7
++ RG2=12
++ RD=0.2984
++ RS=0.1837
++ RDS=80E6
++ LD=4.5n
++ RLD=100
++ LS=7.5n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1.306E-9
++ RSD=.0541
++ ND=1.605
++ CJOD=1080p
++ VJD=0.35
++ MD=0.44
++ BVD=88
++ IBVD=1
++ TTD=0.2E-6
+xinstrfm6p10   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbrfm6p10
+*$ end model description: "awbrfm6p10"
+*
+*
+*$ model description: "awbrfp2p08"
+*b Device model created by analog_uprev for rfp2p08 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbrfp2p08   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.391
++ KP=0.338
++ LAMBDA=0.00
++ CGSO=72p
++ CGDO=12p
++ RG=392.6
++ RG2=12
++ RD=1.0938
++ RS=0.9225
++ RDS=80E6
++ LD=4.5E-9
++ RLD=100
++ LS=7.5E-9
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1.306E-9
++ RSD=.0541
++ ND=1.605
++ CJOD=254.95E-12
++ BVD=88
++ IBVD=1
++ TTD=0.2E-6
+xinstrfp2p08   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbrfp2p08
+*$ end model description: "awbrfp2p08"
+*
+*
+*$ model description: "awbrfp5p15"
+*b Device model created by analog_uprev for rfp5p15 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbrfp5p15   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-4.484
++ KP=1.270
++ GAMMA=2.5
++ LAMBDA=0.00
++ CGSO=485p
++ CGDO=115p
++ RG=173
++ RG2=12
++ RD=0.569
++ RS=0.2009
++ RDS=100E6
++ LD=0.1n
++ RLD=100
++ LS=0.1n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1n
++ RSD=0.054
++ ND=6.6
++ CJOD=635p
++ VJD=0.35
++ MD=0.4747
++ BVD=198
++ IBVD=1
++ TTD=0.4u
+xinstrfp5p15   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  gamma={GAMMA}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbrfp5p15
+*$ end model description: "awbrfp5p15"
+*
+*
+*$ model description: "awbrfp6p08"
+*b Device model created by analog_uprev for rfp6p08 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbrfp6p08   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-2.971
++ KP=2.798
++ LAMBDA=0.00
++ CGSO=390p
++ CGDO=60p
++ RG=149.7
++ RG2=12
++ RD=0.2984
++ RS=0.1837
++ RDS=80E6
++ LD=4.5n
++ RLD=100
++ LS=7.5n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=1.306E-9
++ RSD=.0541
++ ND=1.605
++ CJOD=1080p
++ VJD=0.35
++ MD=0.44
++ BVD=88
++ IBVD=1
++ TTD=0.2E-6
+xinstrfp6p08   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbrfp6p08
+*$ end model description: "awbrfp6p08"
+*
+*
+*$ model description: "awbvp0300m"
+*b Device model created by analog_uprev for vp0300m on Thu Apr  5 12:09:10 IST 2001
+.subckt awbvp0300m   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.272
++ KP=0.128
++ LAMBDA=0.00
++ CGSO=100p
++ CGDO=25p
++ RG=108.2
++ RG2=12
++ RD=0.001
++ RS=1.102
++ RDS=30E6
++ LD=0.5E-9
++ RLD=100
++ LS=0.5E-9
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=25.40E-15
++ RSD=72.4E-3
++ ND=1.0
++ CJOD=880.0p
++ VJD=0.8
++ MD=0.847
++ BVD=33
++ IBVD=1
+xinstvp0300m   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++ 
+.ends  awbvp0300m
+*$ end model description: "awbvp0300m"
+*
+*
+*$ model description: "awbvp03d"
+*b Device model created by analog_uprev for vp03d on Thu Apr  5 12:09:10 IST 2001
+.subckt awbvp03d   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.466509
++ KP=1.795962
++ LAMBDA=0
++ CGSO=530p
++ CGDO=20p
++ RG=100
++ RG2=12
++ RD=4.75869
++ RS=0.478214
++ RDS=1e7
++ LD=5n
++ RLD=100
++ LS=13n
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=150.357u
++ RSD=1e-5
++ ND=11.8217
++ CJOD=70p
++ VJD=0.2112754
++ MD=0.104607
++ BVD=385
++ IBVD=400
++ TTD=2.1e-8
+xinstvp03d   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbvp03d
+*$ end model description: "awbvp03d"
+*
+*
+*$ model description: "awbvp03e"
+*b Device model created by analog_uprev for vp03e on Thu Apr  5 12:09:10 IST 2001
+.subckt awbvp03e   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-3.27921
++ KP=2.25
++ LAMBDA=2.9e-2
++ CGSO=460p
++ CGDO=20p
++ RG=50
++ RG2=12
++ RD=8.6693
++ RS=1.465377
++ RDS=5e5
++ LD=5E-9
++ RLD=100
++ LS=12.5E-9
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ ISD=4.947e-18
++ RSD=1e-2
++ ND=1
++ CJOD=480p
++ VJD=0.356
++ MD=0.45
++ BVD=550
++ IBVD=1
++ TTD=1e-15
+xinstvp03e   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbvp03e
+*$ end model description: "awbvp03e"
+*
+*
+*$ model description: "awbvp0545"
+*b Device model created by analog_uprev for vp0545 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbvp0545   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-2.8875E+00
++ KP=4.02453E-01
++ LAMBDA=2.0000E-02
++ CGSO=37p
++ CGDO=3p
++ RG=2.5000E+02
++ RG2=12
++ RD=6.8334E+01
++ RS=1.6042E+01
++ RDS=7.5000E+08
++ LD=1.0000E-14
++ RLD=1.0000E+00
++ LS=1.0000E-14
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ CJOD=4.2720E-11
++ VJD=6.5320E-01
++ MD=4.7980E-01
++ BVD=495
++ IBVD=1
++ TTD=2.6500E-07
+xinstvp0545   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbvp0545
+*$ end model description: "awbvp0545"
+*
+*
+*$ model description: "awbvp0545n2"
+*b Device model created by analog_uprev for vp0545n2 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbvp0545n2   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-2.8875E+00
++ KP=4.02453E-01
++ LAMBDA=2.0000E-02
++ CGSO=37p
++ CGDO=3p
++ RG=2.5000E+02
++ RG2=12
++ RD=6.8334E+01
++ RS=1.6042E+01
++ RDS=7.5000E+08
++ LD=1.0000E-14
++ RLD=1.0000E+00
++ LS=1.0000E-14
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ CJOD=4.2720E-11
++ VJD=6.5320E-01
++ MD=4.7980E-01
++ BVD=495
++ IBVD=1
++ TTD=2.6500E-07
+xinstvp0545n2   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbvp0545n2
+*$ end model description: "awbvp0545n2"
+*
+*
+*$ model description: "awbvp0545n3"
+*b Device model created by analog_uprev for vp0545n3 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbvp0545n3   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-2.8875E+00
++ KP=4.02453E-01
++ LAMBDA=2.0000E-02
++ CGSO=37p
++ CGDO=3p
++ RG=2.5000E+02
++ RG2=12
++ RD=6.8334E+01
++ RS=1.6042E+01
++ RDS=7.5000E+08
++ LD=1.0000E-14
++ RLD=1.0000E+00
++ LS=1.0000E-14
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ CJOD=4.2720E-11
++ VJD=6.5320E-01
++ MD=4.7980E-01
++ BVD=495
++ IBVD=1
++ TTD=2.6500E-07
+xinstvp0545n3   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbvp0545n3
+*$ end model description: "awbvp0545n3"
+*
+*
+*$ model description: "awbvp0550"
+*b Device model created by analog_uprev for vp0550 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbvp0550   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-2.8875E+00
++ KP=4.02453E-01
++ LAMBDA=2.0000E-02
++ CGSO=37p
++ CGDO=3p
++ RG=2.5000E+02
++ RG2=12
++ RD=6.8334E+01
++ RS=1.6042E+01
++ RDS=7.5000E+08
++ LD=1.0000E-14
++ RLD=1.0000E+00
++ LS=1.0000E-14
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ CJOD=4.2720E-11
++ VJD=6.5320E-01
++ MD=4.7980E-01
++ BVD=550
++ IBVD=1
++ TTD=2.6500E-07
+xinstvp0550   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbvp0550
+*$ end model description: "awbvp0550"
+*
+*
+*$ model description: "awbvp0550n2"
+*b Device model created by analog_uprev for vp0550n2 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbvp0550n2   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-2.8875E+00
++ KP=4.02453E-01
++ LAMBDA=2.0000E-02
++ CGSO=37p
++ CGDO=3p
++ RG=2.5000E+02
++ RG2=12
++ RD=6.8334E+01
++ RS=1.6042E+01
++ RDS=7.5000E+08
++ LD=1.0000E-14
++ RLD=1.0000E+00
++ LS=1.0000E-14
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ CJOD=4.2720E-11
++ VJD=6.5320E-01
++ MD=4.7980E-01
++ BVD=550
++ IBVD=1
++ TTD=2.6500E-07
+xinstvp0550n2   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbvp0550n2
+*$ end model description: "awbvp0550n2"
+*
+*
+*$ model description: "awbvp0550n3"
+*b Device model created by analog_uprev for vp0550n3 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbvp0550n3   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-2.8875E+00
++ KP=4.02453E-01
++ LAMBDA=2.0000E-02
++ CGSO=37p
++ CGDO=3p
++ RG=2.5000E+02
++ RG2=12
++ RD=6.8334E+01
++ RS=1.6042E+01
++ RDS=7.5000E+08
++ LD=1.0000E-14
++ RLD=1.0000E+00
++ LS=1.0000E-14
++ RLS=100
++ XJC=0
++ CGDC=1E-12
++ CJOD=4.2720E-11
++ VJD=6.5320E-01
++ MD=4.7980E-01
++ BVD=550
++ IBVD=1
++ TTD=2.6500E-07
+xinstvp0550n3   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbvp0550n3
+*$ end model description: "awbvp0550n3"
+*
+*
+*$ model description: "awbvp0645"
+*b Device model created by analog_uprev for vp0645 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbvp0645   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-2.5822E+00
++ KP=5.2685E-01
++ LAMBDA=0.02
++ CGSO=85p
++ CGDO=10p
++ RG=1.4850E+01
++ RG2=12
++ RD=2.2034E+01
++ RS=7.7323E+00
++ RDS=6.9231E+07
++ LD=1.0000E-12
++ RLD=10
++ LS=1.0000E-12
++ RLS=55
++ XJC=0
++ CGDC=1E-12
++ ISD=1.0000E-12
++ RSD=0.02
++ ND=1
++ CJOD=2.4980E-11
++ VJD=4.0000E-01
++ MD=5.1560E-02
++ BVD=495
++ IBVD=1
++ TTD=4.2850E-07
+xinstvp0645   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbvp0645
+*$ end model description: "awbvp0645"
+*
+*
+*$ model description: "awbvp0645n2"
+*b Device model created by analog_uprev for vp0645n2 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbvp0645n2   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-2.5822E+00
++ KP=5.2685E-01
++ LAMBDA=0.02
++ CGSO=85p
++ CGDO=10p
++ RG=1.4850E+01
++ RG2=12
++ RD=2.2034E+01
++ RS=7.7323E+00
++ RDS=6.9231E+07
++ LD=1.0000E-12
++ RLD=10
++ LS=1.0000E-12
++ RLS=55
++ XJC=0
++ CGDC=1E-12
++ ISD=1.0000E-12
++ RSD=0.02
++ ND=1
++ CJOD=2.4980E-11
++ VJD=4.0000E-01
++ MD=5.1560E-02
++ BVD=495
++ IBVD=1
++ TTD=4.2850E-07
+xinstvp0645n2   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbvp0645n2
+*$ end model description: "awbvp0645n2"
+*
+*
+*$ model description: "awbvp0645n3"
+*b Device model created by analog_uprev for vp0645n3 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbvp0645n3   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-2.5822E+00
++ KP=5.2685E-01
++ LAMBDA=0.02
++ CGSO=85p
++ CGDO=10p
++ RG=1.4850E+01
++ RG2=12
++ RD=2.2034E+01
++ RS=7.7323E+00
++ RDS=6.9231E+07
++ LD=1.0000E-12
++ RLD=10
++ LS=1.0000E-12
++ RLS=55
++ XJC=0
++ CGDC=1E-12
++ ISD=1.0000E-12
++ RSD=0.02
++ ND=1
++ CJOD=2.4980E-11
++ VJD=4.0000E-01
++ MD=5.1560E-02
++ BVD=495
++ IBVD=1
++ TTD=4.2850E-07
+xinstvp0645n3   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbvp0645n3
+*$ end model description: "awbvp0645n3"
+*
+*
+*$ model description: "awbvp0645n5"
+*b Device model created by analog_uprev for vp0645n5 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbvp0645n5   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-2.5822E+00
++ KP=5.2685E-01
++ LAMBDA=0.02
++ CGSO=85p
++ CGDO=10p
++ RG=1.4850E+01
++ RG2=12
++ RD=2.2034E+01
++ RS=7.7323E+00
++ RDS=6.9231E+07
++ LD=1.0000E-12
++ RLD=10
++ LS=1.0000E-12
++ RLS=55
++ XJC=0
++ CGDC=1E-12
++ ISD=1.0000E-12
++ RSD=0.02
++ ND=1
++ CJOD=2.4980E-11
++ VJD=4.0000E-01
++ MD=5.1560E-02
++ BVD=495
++ IBVD=1
++ TTD=4.2850E-07
+xinstvp0645n5   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbvp0645n5
+*$ end model description: "awbvp0645n5"
+*
+*
+*$ model description: "awbvp0650"
+*b Device model created by analog_uprev for vp0650 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbvp0650   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-2.5822E+00
++ KP=5.2685E-01
++ LAMBDA=0.02
++ CGSO=85p
++ CGDO=10p
++ RG=1.4850E+01
++ RG2=12
++ RD=2.2034E+01
++ RS=7.7323E+00
++ RDS=6.9231E+07
++ LD=1.0000E-12
++ RLD=10
++ LS=1.0000E-12
++ RLS=55
++ XJC=0
++ CGDC=1E-12
++ ISD=1.0000E-12
++ RSD=0.02
++ ND=1
++ CJOD=2.4980E-11
++ VJD=4.0000E-01
++ MD=5.1560E-02
++ BVD=550
++ IBVD=1
++ TTD=4.2850E-07
+xinstvp0650   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbvp0650
+*$ end model description: "awbvp0650"
+*
+*
+*$ model description: "awbvp0650n2"
+*b Device model created by analog_uprev for vp0650n2 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbvp0650n2   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-2.5822E+00
++ KP=5.2685E-01
++ LAMBDA=0.02
++ CGSO=85p
++ CGDO=10p
++ RG=1.4850E+01
++ RG2=12
++ RD=2.2034E+01
++ RS=7.7323E+00
++ RDS=6.9231E+07
++ LD=1.0000E-12
++ RLD=10
++ LS=1.0000E-12
++ RLS=55
++ XJC=0
++ CGDC=1E-12
++ ISD=1.0000E-12
++ RSD=0.02
++ ND=1
++ CJOD=2.4980E-11
++ VJD=4.0000E-01
++ MD=5.1560E-02
++ BVD=550
++ IBVD=1
++ TTD=4.2850E-07
+xinstvp0650n2   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbvp0650n2
+*$ end model description: "awbvp0650n2"
+*
+*
+*$ model description: "awbvp0650n3"
+*b Device model created by analog_uprev for vp0650n3 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbvp0650n3   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-2.5822E+00
++ KP=5.2685E-01
++ LAMBDA=0.02
++ CGSO=85p
++ CGDO=10p
++ RG=1.4850E+01
++ RG2=12
++ RD=2.2034E+01
++ RS=7.7323E+00
++ RDS=6.9231E+07
++ LD=1.0000E-12
++ RLD=10
++ LS=1.0000E-12
++ RLS=55
++ XJC=0
++ CGDC=1E-12
++ ISD=1.0000E-12
++ RSD=0.02
++ ND=1
++ CJOD=2.4980E-11
++ VJD=4.0000E-01
++ MD=5.1560E-02
++ BVD=550
++ IBVD=1
++ TTD=4.2850E-07
+xinstvp0650n3   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbvp0650n3
+*$ end model description: "awbvp0650n3"
+*
+*
+*$ model description: "awbvp0650n5"
+*b Device model created by analog_uprev for vp0650n5 on Thu Apr  5 12:09:10 IST 2001
+.subckt awbvp0650n5   1 2 3
++ params:
++ BYPASS_L=0
++ IC_VDS=1.10250E-36
++ IC_VGS=1.10250E-36
++ MTYPE=1
++ VTO=-2.5822E+00
++ KP=5.2685E-01
++ LAMBDA=0.02
++ CGSO=85p
++ CGDO=10p
++ RG=1.4850E+01
++ RG2=12
++ RD=2.2034E+01
++ RS=7.7323E+00
++ RDS=6.9231E+07
++ LD=1.0000E-12
++ RLD=10
++ LS=1.0000E-12
++ RLS=55
++ XJC=0
++ CGDC=1E-12
++ ISD=1.0000E-12
++ RSD=0.02
++ ND=1
++ CJOD=2.4980E-11
++ VJD=4.0000E-01
++ MD=5.1560E-02
++ BVD=550
++ IBVD=1
++ TTD=4.2850E-07
+xinstvp0650n5   1 2 3 model518_{BYPASS_L}     params:  ic_vds={IC_VDS}
++  ic_vgs={IC_VGS}
++  mtype={MTYPE}
++   vto={VTO}
++  kp={KP}
++  lambda={LAMBDA}
++  cgso={CGSO}
++  cgdo={CGDO}
++  rg={RG}
++  rg2={RG2}
++  rd={RD}
++  rs={RS}
++  rds={RDS}
++  ld={LD}
++  rld={RLD}
++  ls={LS}
++  rls={RLS}
++  xjc={XJC}
++  cgdc={CGDC}
++  isd={ISD}
++  rsd={RSD}
++  nd={ND}
++  cjod={CJOD}
++  vjd={VJD}
++  md={MD}
++  bvd={BVD}
++  ibvd={IBVD}
++  ttd={TTD}
++ 
+.ends  awbvp0650n5
+*$ end model description: "awbvp0650n5"
+*
+*

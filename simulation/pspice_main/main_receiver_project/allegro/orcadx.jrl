@@ -1,0 +1,27 @@
+\t (00:00:21) orcadx 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:21)     Journal start - Wed Apr  2 01:13:56 2025
+\t (00:00:21)         Host=BOOK-QTRCVV9COM User=user Pid=18356 CPUs=12
+\t (00:00:21) CmdLine= C:\Cadence\OrCADX_24.1\tools\bin\unison.exe -layout -orcadx -mpssession user -proj c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\lidarproject\lidarproject.opj c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\lidarproject\allegro\lidarproject.brd
+\t (00:00:21) 
+\d (00:00:21) Design opened: c:/users/user/appdata/roaming/spb_data/cdssetup/workspace/projects/lidarproject/allegro/lidarproject.brd
+\i (00:00:21) trapsize 4102
+\i (00:00:25) trapsize 4795
+\t (00:00:41) Loading consmgr.cxt 
+\t (00:00:41) Loading acns_formula.cxt 
+\i (00:00:41) trapsize 4790
+\i (00:00:41) trapsize 4845
+\t (00:00:48) nayunwoo159@kw.ac.kr user logged in.
+
+\i (00:00:50) trapsize 4427
+\i (00:00:50) updateport VisibilityPane
+\i (00:00:50) updateport PropPane
+\i (00:00:51) ucpedit 
+\i (00:00:51) updateport VisibilityPane
+\i (00:02:43) pick grid 14742.19 8190.10
+\t (00:02:43) last pick:  14742.19 8190.10
+\i (00:02:47) QtSignal MainCanvas CplGrpSel closed
+\i (00:02:47) QtSignal MainCanvas ImpGrpSel closed
+\i (00:02:47) QtSignal MainCanvas ImpPrefDialog closed
+\i (00:02:47) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:02:47) QtSignal MainCanvas CplPrefDialog closed
+\t (00:02:52)     Journal end - Wed Apr  2 01:16:28 2025

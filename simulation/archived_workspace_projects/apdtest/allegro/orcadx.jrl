@@ -1,0 +1,456 @@
+\t (00:00:13) orcadx 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:13)     Journal start - Thu Apr  3 04:00:19 2025
+\t (00:00:13)         Host=BOOK-QTRCVV9COM User=user Pid=9848 CPUs=12
+\t (00:00:13) CmdLine= C:\Cadence\OrCADX_24.1\tools\bin\unison.exe -layout -orcadx -mpssession user -proj c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\apdtest\apdtest.opj C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/apdtest/allegro/apdtest.brd
+\t (00:00:13) 
+\d (00:00:13) Design opened: C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/apdtest/allegro/apdtest.brd
+\i (00:00:13) trapsize 6155
+\i (00:00:14) trapsize 7859
+\t (00:00:20) Loading consmgr.cxt 
+\t (00:00:20) Loading acns_formula.cxt 
+\i (00:00:20) trapsize 7848
+\i (00:00:20) trapsize 7997
+\t (00:00:22) nayunwoo159@kw.ac.kr user logged in.
+
+\i (00:00:22) trapsize 6888
+\i (00:00:22) updateport VisibilityPane
+\i (00:00:22) updateport PropPane
+\i (00:00:22) ucpedit 
+\i (00:00:22) updateport VisibilityPane
+\i (00:00:29) design sync eco 
+\t (00:00:29) > Requesting Capture to open design
+\t (00:00:29) > Response received OpenDesign is done by remote tool
+\t (00:00:29) Design opened successfully
+\t (00:00:29) > Requesting Capture to generate logical netlist
+\t (00:00:29) > Requesting Capture to open design
+\t (00:00:29) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:00:29) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\apdtest\allegro
+\t (00:00:29) > Requesting Capture to generate logical netlist
+\t (00:00:29) > Response received OpenDesign is done by remote tool
+\t (00:00:29) Design opened successfully
+\t (00:00:29) > Generating Physical Netlist
+\t (00:00:29) Starting genfeedformat...
+\t (00:00:30) > Generating Physical Netlist successful
+\t (00:00:30) > Generating Differences
+\t (00:00:30) > Generating Differences successful
+\t (00:00:30) > Displaying differences output
+\t (00:00:30) > Displaying differences output successful
+\t (00:00:30) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:00:30) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\apdtest\allegro
+\i (00:00:30) updateport ReportsPane
+\i (00:00:30) updateport SearchPane
+\i (00:00:30) updateport PropPane
+\i (00:00:31) QtSignal DesignSyncDialog sync_button clicked
+\t (00:00:31) > Sending response DoneOpenBoard
+\t (00:00:31) Starting Cadence Logic Import...
+\t (00:00:31) Opening existing design...
+\i (00:00:32) trapsize 6888
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:00:33) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:00:33) Placed 10 of 10 symbols.
+\i (00:00:33) QtSignal DesignSyncDialog sch_comboBox EditingFinished "C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/apdtest/apdtest.opj"
+\i (00:00:33) QtSignal MainCanvas DesignSyncDialog closed
+\i (00:00:33) updateport ReportsPane
+\i (00:00:33) updateport SearchPane
+\i (00:00:33) updateport VisibilityPane
+\i (00:00:33) updateport PropPane
+\i (00:00:33) ucpedit 
+\i (00:00:33) updateport VisibilityPane
+\i (00:00:38) drag_start grid 6461.10 13225.28
+\i (00:00:38) drag_stop 11131.28 9822.53
+\i (00:00:39) pick grid 11131.28 9822.53
+\t (00:00:39) last pick:  11131.28 9822.53
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 6488.66 11475.69
+\i (00:00:39) trapsize 3444
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 6488.66 11475.69
+\i (00:00:39) trapsize 1722
+\i (00:00:40) zoom in 1 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) zoom in 6488.66 11475.69
+\i (00:00:40) trapsize 861
+\i (00:00:41) roam start
+\i (00:00:41) roam x 3
+\i (00:00:41) roam y -3
+\i (00:00:41) roam x 1
+\i (00:00:41) roam y -3
+\i (00:00:41) roam x 8
+\i (00:00:41) roam y -5
+\i (00:00:41) roam x 13
+\i (00:00:41) roam y -10
+\i (00:00:41) roam x 18
+\i (00:00:41) roam y -14
+\i (00:00:41) roam x 23
+\i (00:00:41) roam y -16
+\i (00:00:41) roam x 27
+\i (00:00:41) roam y -21
+\i (00:00:41) roam x 27
+\i (00:00:41) roam y -24
+\i (00:00:41) roam x 18
+\i (00:00:41) roam y -24
+\i (00:00:41) roam x 4
+\i (00:00:41) roam y -15
+\i (00:00:41) roam x 8
+\i (00:00:41) roam y -12
+\i (00:00:41) roam x 16
+\i (00:00:41) roam y -21
+\i (00:00:41) roam x 11
+\i (00:00:41) roam y -20
+\i (00:00:41) roam x 7
+\i (00:00:41) roam y -18
+\i (00:00:41) roam x 17
+\i (00:00:41) roam y -25
+\i (00:00:41) roam x 6
+\i (00:00:41) roam y -12
+\i (00:00:41) roam x 10
+\i (00:00:41) roam y -18
+\i (00:00:41) roam x 11
+\i (00:00:41) roam y -24
+\i (00:00:41) roam x 9
+\i (00:00:41) roam y -18
+\i (00:00:41) roam x 6
+\i (00:00:41) roam y -23
+\i (00:00:41) roam x 1
+\i (00:00:41) roam y -3
+\i (00:00:41) roam x 6
+\i (00:00:41) roam y -13
+\i (00:00:41) roam x 12
+\i (00:00:41) roam y -30
+\i (00:00:41) roam x 8
+\i (00:00:41) roam y -15
+\i (00:00:41) roam x 4
+\i (00:00:41) roam y -15
+\i (00:00:41) roam x 5
+\i (00:00:41) roam y -9
+\i (00:00:41) roam x 1
+\i (00:00:41) roam y -11
+\i (00:00:41) roam x 2
+\i (00:00:41) roam y -4
+\i (00:00:41) roam end
+\i (00:00:41) roam start
+\i (00:00:41) roam y 2
+\i (00:00:41) roam x 3
+\i (00:00:41) roam y -3
+\i (00:00:41) roam x 15
+\i (00:00:41) roam y -3
+\i (00:00:41) roam x 6
+\i (00:00:41) roam y -2
+\i (00:00:41) roam x 12
+\i (00:00:41) roam y -4
+\i (00:00:41) roam x 9
+\i (00:00:41) roam y -5
+\i (00:00:41) roam x 12
+\i (00:00:41) roam y -9
+\i (00:00:41) roam x 10
+\i (00:00:41) roam y -6
+\i (00:00:41) roam x 2
+\i (00:00:42) roam x 3
+\i (00:00:42) roam y -1
+\i (00:00:42) roam end
+\i (00:00:47) drag_start grid 8277.85 11715.05
+\i (00:00:47) ucp_move 
+\t (00:00:47) last pick:  8228.01 11733.23
+\t (00:00:47) Pick new location for the element(s).
+\i (00:00:47) drag_stop 8157.31 11653.06
+\i (00:00:47) updateport ReportsPane
+\i (00:00:47) updateport SearchPane
+\i (00:00:47) updateport VisibilityPane
+\i (00:00:48) updateport PropPane
+\i (00:00:48) ucpedit 
+\i (00:00:48) updateport VisibilityPane
+\i (00:00:48) drag_start grid 8345.01 11840.76
+\i (00:00:48) ucp_move 
+\t (00:00:48) last pick:  8377.62 11851.50
+\t (00:00:48) Pick new location for the element(s).
+\i (00:00:48) drag_stop 8865.07 11721.94
+\i (00:00:48) updateport ReportsPane
+\i (00:00:48) updateport SearchPane
+\i (00:00:48) updateport PropPane
+\i (00:00:48) ucpedit 
+\i (00:00:48) updateport VisibilityPane
+\i (00:00:49) drag_start grid 8570.60 12006.08
+\i (00:00:49) ucp_move 
+\t (00:00:49) last pick:  8578.41 11990.13
+\t (00:00:49) Pick new location for the element(s).
+\i (00:00:52) drag_stop 9495.33 11685.78
+\i (00:00:52) updateport ReportsPane
+\i (00:00:52) updateport SearchPane
+\i (00:00:52) updateport VisibilityPane
+\i (00:00:52) updateport PropPane
+\i (00:00:52) ucpedit 
+\i (00:00:52) updateport VisibilityPane
+\i (00:00:53) drag_start grid 9021.77 12298.82
+\i (00:00:53) ucp_move 
+\t (00:00:53) last pick:  9059.04 12271.98
+\t (00:00:53) Pick new location for the element(s).
+\i (00:00:54) drag_stop 9459.17 12491.69
+\i (00:00:54) updateport ReportsPane
+\i (00:00:54) updateport SearchPane
+\i (00:00:54) updateport PropPane
+\i (00:00:54) ucpedit 
+\i (00:00:54) updateport VisibilityPane
+\i (00:00:55) roam start
+\i (00:00:55) roam x 3
+\i (00:00:55) roam y -1
+\i (00:00:55) roam x 18
+\i (00:00:55) roam y -2
+\i (00:00:55) roam x 15
+\i (00:00:55) roam y -1
+\i (00:00:55) roam x 27
+\i (00:00:55) roam x 42
+\i (00:00:55) roam y -2
+\i (00:00:55) roam x 39
+\i (00:00:55) roam x 36
+\i (00:00:55) roam x 34
+\i (00:00:55) roam y -3
+\i (00:00:55) roam x 26
+\i (00:00:55) roam y -4
+\i (00:00:55) roam x 21
+\i (00:00:55) roam y -3
+\i (00:00:55) roam x 19
+\i (00:00:55) roam y -5
+\i (00:00:55) roam x 5
+\i (00:00:55) roam y -1
+\i (00:00:55) roam x 10
+\i (00:00:55) roam y -3
+\i (00:00:55) roam x 6
+\i (00:00:55) roam y -5
+\i (00:00:55) roam x 3
+\i (00:00:55) roam y -1
+\i (00:00:55) roam x 2
+\i (00:00:55) roam y -2
+\i (00:00:55) roam y -1
+\i (00:00:55) roam end
+\i (00:01:00) drag_start grid 8479.33 12388.37
+\i (00:01:00) ucp_trace_slide_pick 
+\t (00:01:00) Selected item not valid for current operation, ignored: Horizontal Line Segment "Package Geometry/Assembly_Top"
+\t (00:01:00) No valid items selected for the current operation, exiting.
+\i (00:01:00) ucpedit 
+\i (00:01:00) updateport VisibilityPane
+\i (00:01:01) drag_stop grid 8508.61 12078.40
+\i (00:01:01) pick grid 8484.50 12374.59
+\t (00:01:01) last pick:  8484.50 12374.59
+\i (00:01:02) pick grid 8479.33 12388.37
+\t (00:01:02) last pick:  8479.33 12388.37
+\i (00:01:10) drag_start grid 8462.11 12383.20
+\i (00:01:10) ucp_move 
+\t (00:01:10) last pick:  8455.22 12379.22
+\t (00:01:10) Pick new location for the element(s).
+\i (00:01:12) drag_stop 9021.78 12016.41
+\i (00:01:12) updateport ReportsPane
+\i (00:01:12) updateport SearchPane
+\i (00:01:12) updateport PropPane
+\i (00:01:12) ucpedit 
+\i (00:01:12) updateport VisibilityPane
+\i (00:01:25) QtSignal VisLayerToolbarAllButton All clicked
+\i (00:01:25) updateport ReportsPane
+\i (00:01:25) updateport SearchPane
+\i (00:01:25) updateport VisibilityPane
+\i (00:01:25) updateport PropPane
+\i (00:01:26) QtSignal VisLayerToolbarAllButton All clicked on
+\i (00:01:26) updateport ReportsPane
+\i (00:01:26) updateport SearchPane
+\i (00:01:26) updateport VisibilityPane
+\i (00:01:26) updateport PropPane
+\i (00:01:26) QtSignal VisLayerToolbarAllButton All clicked
+\i (00:01:26) updateport ReportsPane
+\i (00:01:26) updateport SearchPane
+\i (00:01:26) updateport VisibilityPane
+\i (00:01:26) updateport PropPane
+\i (00:01:27) QtSignal VisLayerToolbarAllButton All clicked on
+\i (00:01:27) updateport ReportsPane
+\i (00:01:27) updateport SearchPane
+\i (00:01:27) updateport VisibilityPane
+\i (00:01:27) updateport PropPane
+\i (00:01:28) QtSignal VisLayerToolbarAllButton All clicked
+\i (00:01:28) updateport ReportsPane
+\i (00:01:28) updateport SearchPane
+\i (00:01:28) updateport VisibilityPane
+\i (00:01:28) updateport PropPane
+\i (00:01:29) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Pastemask_Top" +
+\i (00:01:29) QtSignal 1
+\i (00:01:29) updateport ReportsPane
+\i (00:01:29) updateport SearchPane
+\i (00:01:29) updateport VisibilityPane
+\i (00:01:29) updateport PropPane
+\i (00:01:31) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Soldermask_Top" +
+\i (00:01:31) QtSignal 1
+\i (00:01:31) updateport ReportsPane
+\i (00:01:31) updateport SearchPane
+\i (00:01:31) updateport VisibilityPane
+\i (00:01:31) updateport PropPane
+\i (00:01:32) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Soldermask_Top" +
+\i (00:01:32) QtSignal 0
+\i (00:01:32) updateport ReportsPane
+\i (00:01:32) updateport SearchPane
+\i (00:01:32) updateport VisibilityPane
+\i (00:01:32) updateport PropPane
+\i (00:01:32) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Soldermask_Top" +
+\i (00:01:32) QtSignal 1
+\i (00:01:32) updateport ReportsPane
+\i (00:01:32) updateport SearchPane
+\i (00:01:32) updateport VisibilityPane
+\i (00:01:32) updateport PropPane
+\i (00:01:33) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Soldermask_Top" +
+\i (00:01:33) QtSignal 0
+\i (00:01:33) updateport ReportsPane
+\i (00:01:33) updateport SearchPane
+\i (00:01:33) updateport VisibilityPane
+\i (00:01:33) updateport PropPane
+\i (00:01:34) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Pastemask_Top" +
+\i (00:01:34) QtSignal 0
+\i (00:01:34) updateport ReportsPane
+\i (00:01:34) updateport SearchPane
+\i (00:01:34) updateport VisibilityPane
+\i (00:01:34) updateport PropPane
+\i (00:01:34) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Silkscreen_Top" +
+\i (00:01:34) QtSignal 1
+\i (00:01:34) updateport ReportsPane
+\i (00:01:34) updateport SearchPane
+\i (00:01:34) updateport VisibilityPane
+\i (00:01:34) updateport PropPane
+\i (00:01:35) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Silkscreen_Top" +
+\i (00:01:35) QtSignal 0
+\i (00:01:35) updateport ReportsPane
+\i (00:01:35) updateport SearchPane
+\i (00:01:35) updateport VisibilityPane
+\i (00:01:35) updateport PropPane
+\i (00:01:35) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Silkscreen_Top" +
+\i (00:01:35) QtSignal 1
+\i (00:01:35) updateport ReportsPane
+\i (00:01:35) updateport SearchPane
+\i (00:01:35) updateport VisibilityPane
+\i (00:01:35) updateport PropPane
+\i (00:01:36) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Silkscreen_Top" +
+\i (00:01:36) QtSignal 0
+\i (00:01:36) updateport ReportsPane
+\i (00:01:36) updateport SearchPane
+\i (00:01:36) updateport VisibilityPane
+\i (00:01:36) updateport PropPane
+\i (00:01:36) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 1
+\i (00:01:36) updateport ReportsPane
+\i (00:01:36) updateport SearchPane
+\i (00:01:36) updateport VisibilityPane
+\i (00:01:36) updateport PropPane
+\i (00:01:37) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged Bottom 0
+\i (00:01:37) updateport ReportsPane
+\i (00:01:37) updateport SearchPane
+\i (00:01:37) updateport VisibilityPane
+\i (00:01:37) updateport PropPane
+\i (00:01:38) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Soldermask_Bottom" +
+\i (00:01:38) QtSignal 1
+\i (00:01:38) updateport ReportsPane
+\i (00:01:38) updateport SearchPane
+\i (00:01:38) updateport VisibilityPane
+\i (00:01:38) updateport PropPane
+\i (00:01:40) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Soldermask_Bottom" +
+\i (00:01:40) QtSignal 0
+\i (00:01:40) updateport ReportsPane
+\i (00:01:40) updateport SearchPane
+\i (00:01:40) updateport VisibilityPane
+\i (00:01:40) updateport PropPane
+\i (00:01:41) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Silkscreen_Bottom" +
+\i (00:01:41) QtSignal 1
+\i (00:01:41) updateport ReportsPane
+\i (00:01:41) updateport SearchPane
+\i (00:01:41) updateport VisibilityPane
+\i (00:01:41) updateport PropPane
+\i (00:01:41) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Silkscreen_Bottom" +
+\i (00:01:41) QtSignal 0
+\i (00:01:41) updateport ReportsPane
+\i (00:01:41) updateport SearchPane
+\i (00:01:41) updateport VisibilityPane
+\i (00:01:41) updateport PropPane
+\i (00:01:42) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Pastemask_Bottom" +
+\i (00:01:42) QtSignal 1
+\i (00:01:42) updateport ReportsPane
+\i (00:01:42) updateport SearchPane
+\i (00:01:42) updateport VisibilityPane
+\i (00:01:42) updateport PropPane
+\i (00:01:42) QtSignal VisibilityLayersObjArWidget VisLayerTable layerVisibilityChanged "Pastemask_Bottom" +
+\i (00:01:42) QtSignal 0
+\i (00:01:42) updateport ReportsPane
+\i (00:01:42) updateport SearchPane
+\i (00:01:42) updateport VisibilityPane
+\i (00:01:42) updateport PropPane
+\i (00:01:51) updateport CMPanelPort
+\i (00:01:51) updateport PropPane
+\i (00:01:51) updateport ReportsPane
+\i (00:01:51) updateport SearchPane
+\i (00:01:52) trapsize 729
+\i (00:01:52) trapsize 851
+\i (00:01:52) trapsize 861
+\i (00:01:54) design sync eco 
+\t (00:01:54) > Requesting Capture to open design
+\t (00:01:54) > Response received OpenDesign is done by remote tool
+\t (00:01:54) Design opened successfully
+\t (00:01:54) > Requesting Capture to generate logical netlist
+\t (00:01:54) > Requesting Capture to open design
+\t (00:01:55) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:01:55) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\apdtest\allegro
+\t (00:01:55) > Requesting Capture to generate logical netlist
+\t (00:01:55) > Response received OpenDesign is done by remote tool
+\t (00:01:55) Design opened successfully
+\t (00:01:55) > Generating Physical Netlist
+\t (00:01:55) Starting genfeedformat...
+\t (00:01:55) > Generating Physical Netlist successful
+\t (00:01:55) > Generating Differences
+\t (00:01:55) > Generating Differences successful
+\t (00:01:55) > Displaying differences output
+\t (00:01:55) > Displaying differences output successful
+\t (00:01:55) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:01:55) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\apdtest\allegro
+\i (00:01:55) updateport ReportsPane
+\i (00:01:55) updateport SearchPane
+\i (00:01:55) updateport PropPane
+\i (00:01:56) QtSignal MainCanvas DesignSyncDialog closed
+\i (00:01:56) ucpedit 
+\i (00:01:56) updateport VisibilityPane
+\i (00:02:00) ucp_quickplace 
+\t (00:02:00) Placed 8 of 8 symbols.
+\i (00:02:00) updateport ReportsPane
+\i (00:02:00) updateport SearchPane
+\i (00:02:00) updateport PropPane
+\i (00:02:00) ucpedit 
+\i (00:02:00) updateport VisibilityPane
+\i (00:02:06) ucp_plctxt_in 
+\i (00:02:08) setwindow form.plctxt_ucp
+\i (00:02:08) FORM plctxt_ucp cancel  
+\i (00:02:08) setwindow pcb
+\i (00:02:08) ucpedit 
+\i (00:02:08) updateport VisibilityPane
+\i (00:02:12) pick grid 7299.74 10103.22
+\t (00:02:12) last pick:  7299.74 10103.22
+\i (00:02:15) drag_start grid 7745.75 12457.26
+\i (00:02:15) ucp_move 
+\t (00:02:15) last pick:  7805.07 12469.60
+\t (00:02:15) Pick new location for the element(s).
+\i (00:02:16) drag_stop 7931.73 12443.48
+\i (00:02:16) updateport ReportsPane
+\i (00:02:16) updateport SearchPane
+\i (00:02:16) updateport PropPane
+\i (00:02:16) ucpedit 
+\i (00:02:17) updateport VisibilityPane
+\i (00:02:17) pick grid 7842.18 12353.93
+\t (00:02:17) last pick:  7842.18 12353.93
+\i (00:02:19) drag_start grid 9681.32 12720.73
+\i (00:02:20) drag_stop 7284.24 11418.86
+\i (00:02:20) pick grid 8308.85 11005.57
+\t (00:02:20) last pick:  8308.85 11005.57
+\i (00:02:25) QtSignal MainCanvas CplGrpSel closed
+\i (00:02:25) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:02:25) QtSignal MainCanvas CplPrefDialog closed
+\i (00:02:25) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:02:25) QtSignal MainCanvas ImpPrefDialog closed
+\i (00:02:25) QtSignal MainCanvas ImpGrpSel closed
+\i (00:02:25) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\t (00:02:30)     Journal end - Thu Apr  3 04:02:37 2025

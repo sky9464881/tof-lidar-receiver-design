@@ -1,0 +1,1090 @@
+*$ model description: "awb3n256"
+*b Device model created by analog_uprev for 3n256 on Tue Feb  6 09:16:05 IST 2001
+.subckt awb3n256   1 2 3 4
++ params:
++ IS=266.700010n
++ RS=12.000000m
++ N=2.5175
++ TT=11.800000u
++ CJO=15.000000p
++ VJ=600.000000m
++ M=449.999970m
++ XTI=3
++ BV=500
++ IBV=1.0
+xinst3n256   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  xti={XTI}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awb3n256
+*$ end model description: "awb3n256"
+*
+*
+*$ model description: "awbkbpc_35_06"
+*b Device model created by analog_uprev for kbpc_35_06 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbkbpc_35_06   1 2 3 4
++ params:
++ IS=6.720000n
++ RS=2.210000m
++ N=1.565
++ TT=99.999990n
++ CJO=871.999820p
++ VJ=436.999940m
++ M=437.999970m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=700
++ IBV=1.0
+xinstkbpc_35_06   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbkbpc_35_06
+*$ end model description: "awbkbpc_35_06"
+*
+*
+*$ model description: "awbmda2500"
+*b Device model created by analog_uprev for mda2500 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbmda2500   1 2 3 4
++ params:
++ IS=1.000000p
++ RS=2.000000m
++ N=1
++ TT=5.300000u
++ CJO=474.999910p
++ VJ=549.999880m
++ M=599.999880m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=100
++ IBV=1.0
+xinstmda2500   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmda2500
+*$ end model description: "awbmda2500"
+*
+*
+*$ model description: "awbmda2501"
+*b Device model created by analog_uprev for mda2501 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbmda2501   1 2 3 4
++ params:
++ IS=1.000000p
++ RS=2.000000m
++ N=1
++ TT=5.300000u
++ CJO=474.999910p
++ VJ=549.999880m
++ M=599.999880m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=200
++ IBV=1.0
+xinstmda2501   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmda2501
+*$ end model description: "awbmda2501"
+*
+*
+*$ model description: "awbmda2502"
+*b Device model created by analog_uprev for mda2502 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbmda2502   1 2 3 4
++ params:
++ IS=1.000000p
++ RS=2.000000m
++ N=1
++ TT=5.300000u
++ CJO=474.999910p
++ VJ=549.999880m
++ M=599.999880m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=300
++ IBV=1.0
+xinstmda2502   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmda2502
+*$ end model description: "awbmda2502"
+*
+*
+*$ model description: "awbmda2504"
+*b Device model created by analog_uprev for mda2504 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbmda2504   1 2 3 4
++ params:
++ IS=1.000000p
++ RS=2.000000m
++ N=1
++ TT=5.300000u
++ CJO=474.999910p
++ VJ=549.999880m
++ M=599.999880m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=500
++ IBV=1.0
+xinstmda2504   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmda2504
+*$ end model description: "awbmda2504"
+*
+*
+*$ model description: "awbmda2506"
+*b Device model created by analog_uprev for mda2506 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbmda2506   1 2 3 4
++ params:
++ IS=1.000000p
++ RS=2.000000m
++ N=1
++ TT=5.300000u
++ CJO=474.999910p
++ VJ=549.999880m
++ M=599.999880m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=700
++ IBV=1.0
+xinstmda2506   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmda2506
+*$ end model description: "awbmda2506"
+*
+*
+*$ model description: "awbmda2508"
+*b Device model created by analog_uprev for mda2508 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbmda2508   1 2 3 4
++ params:
++ IS=1.000000p
++ RS=2.000000m
++ N=1
++ TT=5.300000u
++ CJO=474.999910p
++ VJ=549.999880m
++ M=599.999880m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=800
++ IBV=1.0
+xinstmda2508   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmda2508
+*$ end model description: "awbmda2508"
+*
+*
+*$ model description: "awbmda2510"
+*b Device model created by analog_uprev for mda2510 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbmda2510   1 2 3 4
++ params:
++ IS=1.000000p
++ RS=2.000000m
++ N=1
++ TT=5.300000u
++ CJO=474.999910p
++ VJ=549.999880m
++ M=599.999880m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=1000
++ IBV=1.0
+xinstmda2510   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmda2510
+*$ end model description: "awbmda2510"
+*
+*
+*$ model description: "awbmda3500"
+*b Device model created by analog_uprev for mda3500 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbmda3500   1 2 3 4
++ params:
++ IS=749.999940f
++ RS=2.000000m
++ N=1
++ TT=4.000000u
++ CJO=439.999910p
++ VJ=1
++ M=599.999880m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=100
++ IBV=1.0
+xinstmda3500   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmda3500
+*$ end model description: "awbmda3500"
+*
+*
+*$ model description: "awbmda3501"
+*b Device model created by analog_uprev for mda3501 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbmda3501   1 2 3 4
++ params:
++ IS=749.999940f
++ RS=2.000000m
++ N=1
++ TT=4.000000u
++ CJO=439.999910p
++ VJ=1
++ M=599.999880m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=200
++ IBV=1.0
+xinstmda3501   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmda3501
+*$ end model description: "awbmda3501"
+*
+*
+*$ model description: "awbmda3502"
+*b Device model created by analog_uprev for mda3502 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbmda3502   1 2 3 4
++ params:
++ IS=749.999940f
++ RS=2.000000m
++ N=1
++ TT=4.000000u
++ CJO=439.999910p
++ VJ=1
++ M=599.999880m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=300
++ IBV=1.0
+xinstmda3502   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmda3502
+*$ end model description: "awbmda3502"
+*
+*
+*$ model description: "awbmda3504"
+*b Device model created by analog_uprev for mda3504 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbmda3504   1 2 3 4
++ params:
++ IS=749.999940f
++ RS=2.000000m
++ N=1
++ TT=4.000000u
++ CJO=439.999910p
++ VJ=1
++ M=599.999880m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=500
++ IBV=1.0
+xinstmda3504   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmda3504
+*$ end model description: "awbmda3504"
+*
+*
+*$ model description: "awbmda3506"
+*b Device model created by analog_uprev for mda3506 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbmda3506   1 2 3 4
++ params:
++ IS=749.999940f
++ RS=2.000000m
++ N=1
++ TT=4.000000u
++ CJO=439.999910p
++ VJ=1
++ M=599.999880m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=700
++ IBV=1.0
+xinstmda3506   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmda3506
+*$ end model description: "awbmda3506"
+*
+*
+*$ model description: "awbmda3508"
+*b Device model created by analog_uprev for mda3508 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbmda3508   1 2 3 4
++ params:
++ IS=749.999940f
++ RS=2.000000m
++ N=1
++ TT=4.000000u
++ CJO=439.999910p
++ VJ=1
++ M=599.999880m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=900
++ IBV=1.0
+xinstmda3508   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmda3508
+*$ end model description: "awbmda3508"
+*
+*
+*$ model description: "awbmda3510"
+*b Device model created by analog_uprev for mda3510 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbmda3510   1 2 3 4
++ params:
++ IS=749.999940f
++ RS=2.000000m
++ N=1
++ TT=4.000000u
++ CJO=439.999910p
++ VJ=1
++ M=599.999880m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=1100
++ IBV=1.0
+xinstmda3510   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbmda3510
+*$ end model description: "awbmda3510"
+*
+*
+*$ model description: "awbvbo13_02n01"
+*b Device model created by analog_uprev for vbo13_02n01 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbvbo13_02n01   1 2 3 4
++ params:
++ IS=1.000000p
++ RS=2.000000m
++ N=1
++ TT=5.300000u
++ CJO=474.999910p
++ VJ=549.999880m
++ M=599.999880m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=100
++ IBV=1.0
+xinstvbo13_02n01   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbvbo13_02n01
+*$ end model description: "awbvbo13_02n01"
+*
+*
+*$ model description: "awbvbo13_04n01"
+*b Device model created by analog_uprev for vbo13_04n01 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbvbo13_04n01   1 2 3 4
++ params:
++ IS=1.000000p
++ RS=2.000000m
++ N=1
++ TT=5.300000u
++ CJO=474.999910p
++ VJ=549.999880m
++ M=599.999880m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=500
++ IBV=1.0
+xinstvbo13_04n01   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbvbo13_04n01
+*$ end model description: "awbvbo13_04n01"
+*
+*
+*$ model description: "awbvbo13_06n01"
+*b Device model created by analog_uprev for vbo13_06n01 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbvbo13_06n01   1 2 3 4
++ params:
++ IS=1.000000p
++ RS=2.000000m
++ N=1
++ TT=5.300000u
++ CJO=474.999910p
++ VJ=549.999880m
++ M=599.999880m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=700
++ IBV=1.0
+xinstvbo13_06n01   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbvbo13_06n01
+*$ end model description: "awbvbo13_06n01"
+*
+*
+*$ model description: "awbvbo20_02n01"
+*b Device model created by analog_uprev for vbo20_02n01 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbvbo20_02n01   1 2 3 4
++ params:
++ IS=749.999940f
++ RS=2.000000m
++ N=1
++ TT=4.000000u
++ CJO=439.999910p
++ VJ=1
++ M=599.999880m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=100
++ IBV=1.0
+xinstvbo20_02n01   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbvbo20_02n01
+*$ end model description: "awbvbo20_02n01"
+*
+*
+*$ model description: "awbvbo20_04n01"
+*b Device model created by analog_uprev for vbo20_04n01 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbvbo20_04n01   1 2 3 4
++ params:
++ IS=749.999940f
++ RS=2.000000m
++ N=1
++ TT=4.000000u
++ CJO=439.999910p
++ VJ=1
++ M=599.999880m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=500
++ IBV=1.0
+xinstvbo20_04n01   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbvbo20_04n01
+*$ end model description: "awbvbo20_04n01"
+*
+*
+*$ model description: "awbvbo20_06n01"
+*b Device model created by analog_uprev for vbo20_06n01 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbvbo20_06n01   1 2 3 4
++ params:
++ IS=749.999940f
++ RS=2.000000m
++ N=1
++ TT=4.000000u
++ CJO=439.999910p
++ VJ=1
++ M=599.999880m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=700
++ IBV=1.0
+xinstvbo20_06n01   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbvbo20_06n01
+*$ end model description: "awbvbo20_06n01"
+*
+*
+*$ model description: "awbvbo20_08n01"
+*b Device model created by analog_uprev for vbo20_08n01 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbvbo20_08n01   1 2 3 4
++ params:
++ IS=749.999940f
++ RS=2.000000m
++ N=1
++ TT=4.000000u
++ CJO=439.999910p
++ VJ=1
++ M=599.999880m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=900
++ IBV=1.0
+xinstvbo20_08n01   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbvbo20_08n01
+*$ end model description: "awbvbo20_08n01"
+*
+*
+*$ model description: "awbvk648"
+*b Device model created by analog_uprev for vk648 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbvk648   1 2 3 4
++ params:
++ IS=1.0E-6
++ RS=3.0000m
++ N=2.9893
++ TT=100.000010n
++ CJO=872.000060p
++ VJ=437.000000m
++ M=437.999970m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=700
++ IBV=1000.000000m
+xinstvk648   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  tt={TT}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbvk648
+*$ end model description: "awbvk648"
+*
+*
+*$ model description: "awbw02m_001"
+*b Device model created by analog_uprev for w02m_001 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbw02m_001   1 2 3 4
++ params:
++ IS=4.068000n
++ RS=10.990000m
++ N=1.686
++ CJO=100.000000p
++ VJ=699.999940m
++ M=499.999970m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=100
++ IBV=1.0
+xinstw02m_001   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbw02m_001
+*$ end model description: "awbw02m_001"
+*
+*
+*$ model description: "awbw02m_002"
+*b Device model created by analog_uprev for w02m_002 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbw02m_002   1 2 3 4
++ params:
++ IS=4.068000n
++ RS=10.990000m
++ N=1.686
++ CJO=100.000000p
++ VJ=699.999940m
++ M=499.999970m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=300
++ IBV=1.0
+xinstw02m_002   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbw02m_002
+*$ end model description: "awbw02m_002"
+*
+*
+*$ model description: "awbw02m_003"
+*b Device model created by analog_uprev for w02m_003 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbw02m_003   1 2 3 4
++ params:
++ IS=4.068000n
++ RS=10.990000m
++ N=1.686
++ CJO=100.000000p
++ VJ=699.999940m
++ M=499.999970m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=500
++ IBV=1.0
+xinstw02m_003   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbw02m_003
+*$ end model description: "awbw02m_003"
+*
+*
+*$ model description: "awbw02m_004"
+*b Device model created by analog_uprev for w02m_004 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbw02m_004   1 2 3 4
++ params:
++ IS=4.068000n
++ RS=10.990000m
++ N=1.686
++ CJO=100.000000p
++ VJ=699.999940m
++ M=499.999970m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=700
++ IBV=1.0
+xinstw02m_004   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbw02m_004
+*$ end model description: "awbw02m_004"
+*
+*
+*$ model description: "awbw02m_005"
+*b Device model created by analog_uprev for w02m_005 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbw02m_005   1 2 3 4
++ params:
++ IS=4.068000n
++ RS=10.990000m
++ N=1.686
++ CJO=100.000000p
++ VJ=699.999940m
++ M=499.999970m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=900
++ IBV=1.0
+xinstw02m_005   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbw02m_005
+*$ end model description: "awbw02m_005"
+*
+*
+*$ model description: "awbw02m_006"
+*b Device model created by analog_uprev for w02m_006 on Tue Feb  6 09:16:05 IST 2001
+.subckt awbw02m_006   1 2 3 4
++ params:
++ IS=4.068000n
++ RS=10.990000m
++ N=1.686
++ CJO=100.000000p
++ VJ=699.999940m
++ M=499.999970m
++ EG=1.11
++ XTI=3
++ KF=0
++ AF=1
++ FC=499.999970m
++ BV=1100
++ IBV=1.0
+xinstw02m_006   1 2 3 4 model498     params:   is={IS}
++  rs={RS}
++  n={N}
++  cjo={CJO}
++  vj={VJ}
++  m={M}
++  eg={EG}
++  xti={XTI}
++  kf={KF}
++  af={AF}
++  fc={FC}
++  bv={BV}
++  ibv={IBV}
++ 
+.ends  awbw02m_006
+*$ end model description: "awbw02m_006"
+*
+*

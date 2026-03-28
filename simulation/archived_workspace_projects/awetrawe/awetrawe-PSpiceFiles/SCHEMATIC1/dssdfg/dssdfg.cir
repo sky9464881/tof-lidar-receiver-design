@@ -1,0 +1,24 @@
+** Profile: "SCHEMATIC1-dssdfg"  [ C:\Users\sky94\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\awetrawe\awetrawe-pspicefiles\schematic1\dssdfg.sim ] 
+
+** Creating circuit file "dssdfg.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\sky94\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "C:\Users\sky94\OneDrive\문서\카카오톡 받은 파일\pspice추가_라이브러리\pspice추가_라이브러리\OPA277\OPAx277.LIB" 
+.lib "C:\Users\sky94\OneDrive\문서\카카오톡 받은 파일\pspice추가_라이브러리\pspice추가_라이브러리\TVL3604\tlv3604.lib" 
+.lib "C:\Users\sky94\OneDrive\문서\카카오톡 받은 파일\pspice추가_라이브러리\pspice추가_라이브러리\opa855_pspice\opa855_a.lib" 
+.lib "C:\Users\sky94\OneDrive\문서\카카오톡 받은 파일\pspice추가_라이브러리\pspice추가_라이브러리\opa695\opa695_a.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 20n 0 
+.OPTIONS ADVCONV
+.AUTOCONVERGE ITL1=1000 ITL2=1000 ITL4=1000 RELTOL=0.05 ABSTOL=1.0E-6 VNTOL=.001 PIVTOL=1.0E-10 
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

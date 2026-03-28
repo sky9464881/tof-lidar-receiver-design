@@ -1,0 +1,407 @@
+***************************************************************************
+*$
+.SUBCKT mic2605 EN FB PGND SS SW VDD VIN VOUT 
+R_R72         N10565848 N10565816  700k TC=0,0 
+E_E17         VDD PGND VALUE { IF(V(VIN)>7,5.8,V(VIN)) }
+R_R73         N10565848 FB  15k TC=0,0 
+C_C3         N10565816 N10565786  0.1n IC=0 TC=0,0 
+D_D1         SW VOUT Dbreak 
+X_U1         N10565786 EN N10565848 PGND SS SW VIN N10567113 REG_CMC_BOOST
++  PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.83U UVLO=2.1 REF_VOLTAGE=1.25
++  SHDN_VT=0.9 SHDN_VH=0.6 CS_GAIN=0.3 SoftStartCapChargeCurrent=83u
+E_E18         N10567113 PGND VALUE { IF(V(N10565848)>1.48,0,5) }
+C_Sd          N10565816 N10565848 0.1p IC=0
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2606 EN FB PGND SS SW VDD VIN VOUT  
+R_R72         N10565848 N10565816  700k TC=0,0 
+E_E17         VDD PGND VALUE { IF(V(VIN)>7,5.8,V(VIN)) }
+R_R73         N10565848 FB  15k TC=0,0 
+C_C3         N10565816 N10565786  0.1n IC=0 TC=0,0 
+D_D1         SW VOUT Dbreak 
+X_U1         N10565786 EN N10565848 PGND SS SW VIN N10567113 REG_CMC_BOOST
++  PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.5U UVLO=2.1 REF_VOLTAGE=1.25
++  SHDN_VT=0.9 SHDN_VH=0.6 CS_GAIN=0.3 SoftStartCapChargeCurrent=83u
+E_E18         N10567113 PGND VALUE { IF(V(N10565848)>1.48,0,5) }
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2601 EN FB PGND SS SW VDD VIN  
+R_R72         N10565848 N10565816  700k TC=0,0 
+E_E17         VDD PGND VALUE { IF(V(VIN)>7,5.8,V(VIN)) }
+R_R73         N10565848 FB  15k TC=0,0 
+C_C3         N10565816 N10565786  0.2n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 PGND SS SW VIN N10567113 REG_CMC_BOOST
++  PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.83U UVLO=2.1 REF_VOLTAGE=1.25
++  SHDN_VT=0.9 SHDN_VH=0.6 CS_GAIN=0.3 SoftStartCapChargeCurrent=83u
+E_E18         N10567113 PGND VALUE { IF(V(N10565848)>1.48,0,5) }
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2602 EN FB PGND SS SW VDD VIN  
+R_R72         N10565848 N10565816  700k TC=0,0 
+E_E17         VDD PGND VALUE { IF(V(VIN)>7,5.8,V(VIN)) }
+R_R73         N10565848 FB  15k TC=0,0 
+C_C3         N10565816 N10565786  0.3n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 PGND SS SW VIN N10567113 REG_CMC_BOOST
++  PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.5U UVLO=2.1 REF_VOLTAGE=1.25
++  SHDN_VT=0.9 SHDN_VH=0.6 CS_GAIN=0.3 SoftStartCapChargeCurrent=83u
+E_E18         N10567113 PGND VALUE { IF(V(N10565848)>1.48,0,5) }
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2296bml AGND EN FB OVP PGND SW VIN  
+R_R72         N10565848 N10565816  700k TC=0,0 
+R_R73         N10565848 FB  15k TC=0,0 
+E_E18         N10567113 PGND VALUE { IF(V(OVP)>34,0,5) }
+C_C3         N10565816 N10565786  0.1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 PGND N10566066 N10566904 VIN N10567113
++  REG_CMC_BOOST PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=1.67u UVLO=2.1
++  REF_VOLTAGE=1.24 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.3 SoftStartCapChargeCurrent=1m
+C_C4         PGND N10566066  10n IC=0 TC=0,0 
+R_R74         AGND PGND  1g TC=0,0 
+R_R75         N10566904 SW  0.5 TC=0,0 
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2296bd5 EN FB GND SW VIN  
+R_R72         N10565848 N10565816  700k TC=0,0 
+R_R73         N10565848 FB  15k TC=0,0 
+C_C3         N10565816 N10565786  0.1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 GND N10566066 N10566904 VIN N10567122
++  Reg_CMC_Boost PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=1.67u UVLO=2.1
++  REF_VOLTAGE=1.24 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.3 SoftStartCapChargeCurrent=1m
+C_C4         GND N10566066  10n IC=0 TC=0,0 
+R_R75         N10566904 SW  0.5 TC=0,0 
+V_V1         N10567122 GND 5
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2295bd5 EN FB GND SW VIN  
+R_R72         N10565848 N10565816  700k TC=0,0 
+R_R73         N10565848 FB  15k TC=0,0 
+C_C3         N10565816 N10565786  0.1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 GND N10566066 N10566904 VIN N10567122
++  Reg_CMC_Boost PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.83u UVLO=2.1
++  REF_VOLTAGE=1.24 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.3 SoftStartCapChargeCurrent=1m
+C_C4         GND N10566066  10n IC=0 TC=0,0 
+R_R75         N10566904 SW  0.5 TC=0,0 
+V_V1         N10567122 GND 5
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2295bml AGND EN FB OVP PGND SW VIN  
+R_R72         N10565848 N10565816  700k TC=0,0 
+R_R73         N10565848 FB  15k TC=0,0 
+E_E18         N10567113 PGND VALUE { IF(V(OVP)>34,0,5) }
+C_C3         N10565816 N10565786  0.1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 PGND N10566066 N10566904 VIN N10567113
++  REG_CMC_BOOST PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.83u UVLO=2.1
++  REF_VOLTAGE=1.24 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.3 SoftStartCapChargeCurrent=1m
+C_C4         PGND N10566066  10n IC=0 TC=0,0 
+R_R74         AGND PGND  1g TC=0,0 
+R_R75         N10566904 SW  0.5 TC=0,0 
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2293-15bml EN FB GND OUT SW VIN  
+R_R4         N10565848 N10565816  700k TC=0,0 
+C_C6         N10565816 N10565786  0.1n IC=0 TC=0,0 
+C_C5         GND N10566066  1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 GND N10566066 SW VIN N10567124
++  REG_CMC_BOOST PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.5u UVLO=2.1
++  REF_VOLTAGE=0.095 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.3 SoftStartCapChargeCurrent=83u
+R_R3         N10565848 FB  15k TC=0,0 
+D_D1         SW OUT Dbreak 
+E_E1         N10567124 GND VALUE { IF(V(OUT, GND)>15,0,5) }
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2293-34bml EN FB GND OUT SW VIN  
+R_R4         N10565848 N10565816  700k TC=0,0 
+C_C6         N10565816 N10565786  0.1n IC=0 TC=0,0 
+C_C5         GND N10566066  1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 GND N10566066 SW VIN N10567124
++  REG_CMC_BOOST PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.5u UVLO=2.1
++  REF_VOLTAGE=0.095 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.3 SoftStartCapChargeCurrent=83u
+R_R3         N10565848 FB  15k TC=0,0 
+D_D1         SW OUT Dbreak 
+E_E1         N10567124 GND VALUE { IF(V(OUT, GND)>34,0,5) }
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2291-15bml AGND EN FB OVP PGND SW VIN  
+R_R4         N10565848 N10565816  700k TC=0,0 
+C_C6         N10565816 N10565786  0.1n IC=0 TC=0,0 
+C_C5         AGND N10566066  1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 AGND N10566066 SW VIN N10567124
++  REG_CMC_BOOST PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.5u UVLO=2.1
++  REF_VOLTAGE=0.095 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.3 SoftStartCapChargeCurrent=83u
+R_R3         N10565848 FB  15k TC=0,0 
+E_E1         N10567124 AGND VALUE { IF(V(OVP, AGND)>15,0,5) }
+R_R5         PGND AGND  1g TC=0,0 
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2291-34bml AGND EN FB OVP PGND SW VIN  
+R_R4         N10565848 N10565816  700k TC=0,0 
+C_C6         N10565816 N10565786  0.1n IC=0 TC=0,0 
+C_C5         AGND N10566066  1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 AGND N10566066 SW VIN N10567124
++  REG_CMC_BOOST PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.5u UVLO=2.1
++  REF_VOLTAGE=0.095 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.3 SoftStartCapChargeCurrent=83u
+R_R3         N10565848 FB  15k TC=0,0 
+E_E1         N10567124 AGND VALUE { IF(V(OVP, AGND)>34,0,5) }
+R_R5         PGND AGND  1g TC=0,0 
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2291bd5 EN FB GND SW VIN  
+R_R4         N10565848 N10565816  700k TC=0,0 
+C_C6         N10565816 N10565786  0.1n IC=0 TC=0,0 
+C_C5         GND N10566066  1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 GND N10566066 SW VIN N10567124
++  REG_CMC_BOOST PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.5u UVLO=2.1
++  REF_VOLTAGE=0.095 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.3 SoftStartCapChargeCurrent=83u
+R_R3         N10565848 FB  15k TC=0,0 
+V_V1         N10567124 GND 5
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2290bml AGND EN FB OUT PGND SW VIN  
+R_R4         N10565848 N10565816  700k TC=0,0 
+C_C6         N10565816 N10565786  0.1n IC=0 TC=0,0 
+C_C5         PGND N10566066  1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 PGND N10566066 SW VIN N10567124
++  REG_CMC_BOOST PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.83u UVLO=2.1
++  REF_VOLTAGE=1.24 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.3 SoftStartCapChargeCurrent=83u
+R_R3         N10565848 FB  15k TC=0,0 
+E_E1         N10567124 PGND VALUE { IF(V(OUT, PGND)>34,0,5) }
+R_R5         AGND PGND  1g TC=0,0 
+D_D1         SW OUT Dbreak
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2289-15bml EN FB GND OUT SW VIN  
+R_R4         N10565848 N10565816  700k TC=0,0 
+C_C6         N10565816 N10565786  0.1n IC=0 TC=0,0 
+C_C5         GND N10566066  1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 GND N10566066 SW VIN N10567124
++  REG_CMC_BOOST PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.83u UVLO=2.1
++  REF_VOLTAGE=0.095 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.3 SoftStartCapChargeCurrent=83u
+R_R3         N10565848 FB  15k TC=0,0 
+D_D1         SW OUT Dbreak 
+E_E1         N10567124 GND VALUE { IF(V(OUT, GND)>15,0,5) }
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2289-24bml EN FB GND OUT SW VIN  
+R_R4         N10565848 N10565816  700k TC=0,0 
+C_C6         N10565816 N10565786  0.1n IC=0 TC=0,0 
+C_C5         GND N10566066  1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 GND N10566066 SW VIN N10567124
++  REG_CMC_BOOST PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.83u UVLO=2.1
++  REF_VOLTAGE=0.095 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.3 SoftStartCapChargeCurrent=83u
+R_R3         N10565848 FB  15k TC=0,0 
+D_D1         SW OUT Dbreak 
+E_E1         N10567124 GND VALUE { IF(V(OUT, GND)>24,0,5) }
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2289-34bml EN FB GND OUT SW VIN  
+R_R4         N10565848 N10565816  700k TC=0,0 
+C_C6         N10565816 N10565786  0.1n IC=0 TC=0,0 
+C_C5         GND N10566066  1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 GND N10566066 SW VIN N10567124
++  REG_CMC_BOOST PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.83u UVLO=2.1
++  REF_VOLTAGE=0.095 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.3 SoftStartCapChargeCurrent=83u
+R_R3         N10565848 FB  15k TC=0,0 
+D_D1         SW OUT Dbreak 
+E_E1         N10567124 GND VALUE { IF(V(OUT, GND)>34,0,5) }
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2288bd5 EN FB GND SW VIN  
+R_R72         N10565848 N10565816  700k TC=0,0 
+R_R73         N10565848 FB  15k TC=0,0 
+C_C3         N10565816 N10565786  0.1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 GND N10566066 N10566904 VIN N10567122
++  Reg_CMC_Boost PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.83u UVLO=2.1
++  REF_VOLTAGE=1.24 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.35 SoftStartCapChargeCurrent=83u
+C_C4         GND N10566066  50n IC=0 TC=0,0 
+R_R75         N10566904 SW  0.5 TC=0,0 
+V_V1         N10567122 GND 5
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2288bml AGND EN FB OUT PGND SW VIN  
+R_R4         N10565848 N10565816  700k TC=0,0 
+C_C6         N10565816 N10565786  0.1n IC=0 TC=0,0 
+C_C5         PGND N10566066  1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 PGND N10566066 SW VIN N10567124
++  REG_CMC_BOOST PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.83u UVLO=2.1
++  REF_VOLTAGE=1.24 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.35 SoftStartCapChargeCurrent=83u
+R_R3         N10565848 FB  15k TC=0,0 
+E_E1         N10567124 PGND VALUE { IF(V(OUT, PGND)>34,0,5) }
+R_R5         AGND PGND  1g TC=0,0 
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2287Cbd5 EN FB GND SW VIN  
+R_R72         N10565848 N10565816  700k TC=0,0 
+R_R73         N10565848 FB  15k TC=0,0 
+C_C3         N10565816 N10565786  0.1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 GND N10566066 N10566904 VIN N10567122
++  Reg_CMC_Boost PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.83u UVLO=2.1
++  REF_VOLTAGE=0.095 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.35 SoftStartCapChargeCurrent=83u
+C_C4         GND N10566066  50n IC=0 TC=0,0 
+R_R75         N10566904 SW  0.5 TC=0,0 
+V_V1         N10567122 GND 5
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2287C-15bml AGND EN FB OVP PGND SW VIN  
+R_R4         N10565848 N10565816  700k TC=0,0 
+C_C6         N10565816 N10565786  0.1n IC=0 TC=0,0 
+C_C5         PGND N10566066  1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 PGND N10566066 SW VIN N10567124
++  REG_CMC_BOOST PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.83u UVLO=2.1
++  REF_VOLTAGE=0.095 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.35 SoftStartCapChargeCurrent=83u
+R_R3         N10565848 FB  15k TC=0,0 
+E_E1         N10567124 PGND VALUE { IF(V(OVP, PGND)>15,0,5) }
+R_R5         AGND PGND  1g TC=0,0 
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2287C-24bml AGND EN FB OVP PGND SW VIN  
+R_R4         N10565848 N10565816  700k TC=0,0 
+C_C6         N10565816 N10565786  0.1n IC=0 TC=0,0 
+C_C5         PGND N10566066  1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 PGND N10566066 SW VIN N10567124
++  REG_CMC_BOOST PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.83u UVLO=2.1
++  REF_VOLTAGE=0.095 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.35 SoftStartCapChargeCurrent=83u
+R_R3         N10565848 FB  15k TC=0,0 
+E_E1         N10567124 PGND VALUE { IF(V(OVP, PGND)>24,0,5) }
+R_R5         AGND PGND  1g TC=0,0 
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2287C-34bml AGND EN FB OVP PGND SW VIN  
+R_R4         N10565848 N10565816  700k TC=0,0 
+C_C6         N10565816 N10565786  0.1n IC=0 TC=0,0 
+C_C5         PGND N10566066  1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 PGND N10566066 SW VIN N10567124
++  REG_CMC_BOOST PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.83u UVLO=2.1
++  REF_VOLTAGE=0.095 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.35 SoftStartCapChargeCurrent=83u
+R_R3         N10565848 FB  15k TC=0,0 
+E_E1         N10567124 PGND VALUE { IF(V(OVP, PGND)>34,0,5) }
+R_R5         AGND PGND  1g TC=0,0 
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2287bd5 EN FB GND SW VIN  
+R_R72         N10565848 N10565816  700k TC=0,0 
+R_R73         N10565848 FB  15k TC=0,0 
+C_C3         N10565816 N10565786  0.1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 GND N10566066 N10566904 VIN N10567122
++  Reg_CMC_Boost PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.83u UVLO=2.1
++  REF_VOLTAGE=0.095 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.35 SoftStartCapChargeCurrent=83u
+C_C4         GND N10566066  50n IC=0 TC=0,0 
+R_R75         N10566904 SW  0.5 TC=0,0 
+V_V1         N10567122 GND 5
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2287-15bml AGND EN FB OVP PGND SW VIN  
+R_R4         N10565848 N10565816  700k TC=0,0 
+C_C6         N10565816 N10565786  0.1n IC=0 TC=0,0 
+C_C5         PGND N10566066  1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 PGND N10566066 SW VIN N10567124
++  REG_CMC_BOOST PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.83u UVLO=2.1
++  REF_VOLTAGE=0.095 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.35 SoftStartCapChargeCurrent=83u
+R_R3         N10565848 FB  15k TC=0,0 
+E_E1         N10567124 PGND VALUE { IF(V(OVP, PGND)>15,0,5) }
+R_R5         AGND PGND  1g TC=0,0 
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2287-24bml AGND EN FB OVP PGND SW VIN  
+R_R4         N10565848 N10565816  700k TC=0,0 
+C_C6         N10565816 N10565786  0.1n IC=0 TC=0,0 
+C_C5         PGND N10566066  1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 PGND N10566066 SW VIN N10567124
++  REG_CMC_BOOST PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.83u UVLO=2.1
++  REF_VOLTAGE=0.095 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.35 SoftStartCapChargeCurrent=83u
+R_R3         N10565848 FB  15k TC=0,0 
+E_E1         N10567124 PGND VALUE { IF(V(OVP, PGND)>24,0,5) }
+R_R5         AGND PGND  1g TC=0,0 
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic2287-34bml AGND EN FB OVP PGND SW VIN  
+R_R4         N10565848 N10565816  700k TC=0,0 
+C_C6         N10565816 N10565786  0.1n IC=0 TC=0,0 
+C_C5         PGND N10566066  1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 PGND N10566066 SW VIN N10567124
++  REG_CMC_BOOST PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.83u UVLO=2.1
++  REF_VOLTAGE=0.095 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.35 SoftStartCapChargeCurrent=83u
+R_R3         N10565848 FB  15k TC=0,0 
+E_E1         N10567124 PGND VALUE { IF(V(OVP, PGND)>34,0,5) }
+R_R5         AGND PGND  1g TC=0,0 
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic3287-24YML AGND EN FB OVP PGND SW VIN  
+R_R4         N10565848 N10565816  700k TC=0,0 
+C_C6         N10565816 N10565786  0.1n  TC=0,0 
+C_C5         PGND N10566066  1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 PGND N10566066 SW VIN N10567124
++  REG_CMC_BOOST PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.83u UVLO=2.1
++  REF_VOLTAGE=0.25 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.35 SoftStartCapChargeCurrent=83u
+R_R3         N10565848 FB  15k TC=0,0 
+E_E1         N10567124 PGND VALUE { IF(V(OVP, PGND)>24,0,5) }
+R_R5         AGND PGND  1g TC=0,0 
+.ENDS
+*$
+***************************************************************************
+***************************************************************************
+.SUBCKT mic3287YD5 EN FB GND SW VIN  
+R_R4         N10565848 N10565816  700k TC=0,0 
+C_C6         N10565816 N10565786  0.1n  TC=0,0 
+C_C5         GND N10566066  1n IC=0 TC=0,0 
+X_U1         N10565786 EN N10565848 GND N10566066 SW VIN N10567124
++  REG_CMC_BOOST PARAMS:  ENABLEACTIVELOWHIGH=1 PERIOD=0.83u UVLO=2.1
++  REF_VOLTAGE=0.25 SHDN_VT=0.95 SHDN_VH=0.55 CS_GAIN=0.35 SoftStartCapChargeCurrent=83u
+R_R3         N10565848 FB  15k TC=0,0 
+V_V1         N10567124 GND 5
+.ENDS
+***************************************************************************
+*$

@@ -1,0 +1,59 @@
+
+**** 04/05/25 17:12:31 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-afzxfa"  [ c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\xvaszdvaswd\xvaszdvaswd-PSpice
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "afzxfa.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa855_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPA858.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa695_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\opa856_a.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\tlv3604.lib" 
+.lib "C:\Cadence\OrCADX_24.1\tools\capture\library\OPAx277.LIB" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.STEP LIN PARAM         
+------------------------$
+ERROR(ORPSIM-16455): Missing parameter
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source XVASZDVASWD
+R_R148         N1099998 N1100008  200 TC=0,0 
+C_C268         0 VCC  1n  TC=0,0 
+C_C252         0 VEE  0.1uF  TC=0,0 
+C_C267         0 VEE  1n  TC=0,0 
+X_U1         N1100568 N1099998 VCC VEE N1100008 OPAX277
+C_C253         0 VCC  0.1uF  TC=0,0 
+V_V1         VCC 0 5
+V_V2         0 VEE 5
+R_R149         0 N1099998  200 TC=0,0 
+R_R150         VEE N1100568  1k TC=0,0 
+R_R151         N1100568 VCC  1k TC=0,0 
+.PARAM  set=
+------------$
+ERROR(ORPSIM-16470): Missing value for param
+
+**** RESUMING afzxfa.cir ****
+.END
+

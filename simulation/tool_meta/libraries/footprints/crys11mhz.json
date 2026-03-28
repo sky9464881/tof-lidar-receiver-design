@@ -1,0 +1,83 @@
+{
+ "design" : {
+	"comps" : [
+{
+	"points" : [
+		 {"x" : 300, "y" : -90},
+		 {"x" : -100, "y" : 85}],
+	"type" : 1,
+	"text" : "",
+	"orientation" : 3,
+	"radius" : 1,
+	"width" : 0.000000,
+	"color" : [{"r" : 172, "g" : 255, "b" : 255, "a" : 255}],
+	"class" : "PACKAGE GEOMETRY",
+	"subclass" : "ASSEMBLY_TOP"
+},
+{
+	"points" : [
+		 {"x" : 300, "y" : -90},
+		 {"x" : -100, "y" : 85}],
+	"type" : 1,
+	"text" : "",
+	"orientation" : 3,
+	"radius" : 1,
+	"width" : 0.000000,
+	"color" : [{"r" : 172, "g" : 255, "b" : 255, "a" : 255}],
+	"class" : "PACKAGE GEOMETRY",
+	"subclass" : "PLACE_BOUND_TOP"
+},
+{
+	"points" : [
+		 {"x" : -18, "y" : -18},
+		 {"x" : 18, "y" : 18}],
+	"type" : 3,
+	"text" : "1",
+	"orientation" : 3,
+	"radius" : 18,
+	"width" : 0.000000,
+	"color" : [{"r" : 172, "g" : 255, "b" : 255, "a" : 255}],
+	"bgcolor" : [{"r" : 172, "g" : 255, "b" : 255, "a" : 127 }],
+	"class" : "PIN",
+	"subclass" : "TOP"
+},
+{
+	"points" : [
+		 {"x" : 2, "y" : 50},
+		 {"x" : 4288, "y" : 3680}],
+	"type" : "text",
+	"text" : "Y*",
+	"color" : [		{"r" : 172, "g" : 255, "b" : 255, "a" : 255}],
+	"class" : "REF DES",
+	"subclass" : "ASSEMBLY_TOP"
+},
+{
+	"points" : [
+		 {"x" : 182, "y" : -18},
+		 {"x" : 218, "y" : 18}],
+	"type" : 3,
+	"text" : "2",
+	"orientation" : 3,
+	"radius" : 18,
+	"width" : 0.000000,
+	"color" : [{"r" : 172, "g" : 255, "b" : 255, "a" : 255}],
+	"bgcolor" : [{"r" : 172, "g" : 255, "b" : 255, "a" : 127 }],
+	"class" : "PIN",
+	"subclass" : "TOP"
+},{}
+	]
+},
+
+
+"text" : {
+	"comps" : [
+	{
+		"name" : "crys11mhz",
+		"type" : "Package",
+		"units" : "Mils",
+		"accuracy" : 0,
+		"pins" : 2
+	}
+	]
+}
+}

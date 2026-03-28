@@ -1,0 +1,62 @@
+(ExpressProject "opa277"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "24.1 S003 (4280230)  [3/6/2025]-[03/27/25]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\opa277.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (Sort User)
+    (File ".\OPA277_OUTPUT\BOM.SCH.CSV"
+      (Type "Report")
+      (DisplayName ".\OPA277_OUTPUT\BOM.SCH.CSV"))
+    (File ".\opa277-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\opa277-pspicefiles\schematic1\test123.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\opa277-pspicefiles\schematic1\test123.sim"
+        (DisplayName "SCHEMATIC1-test123")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (OPAx277
+      (FullPartName "OPAx277.Normal")
+      (LibraryName "C:\CADENCE\ORCADX_24.1\TOOLS\CAPTURE\LIBRARY\OPAX277.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\opa277\opa277.dsn")
+      (Path "Design Resources"
+         "C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\opa277\opa277.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\workspace\projects\opa277\opa277.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 1002"))
+      (Tab 0)))
+  (MPSSessionName "user"))

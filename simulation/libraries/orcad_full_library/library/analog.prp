@@ -1,0 +1,150 @@
+("c"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 2001 )
+		( SYMBOL_NAME "C" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "IC" )
+			( "TC" )
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("c_t"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 2007 )
+		( SYMBOL_NAME "C_t" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "IC" )
+			( "TC" )
+			( "VALUE" )
+			( "ESR" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("l"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 2002 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("l_t"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 2006 )
+		( SYMBOL_NAME "l" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("r"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 2000 )
+		( SYMBOL_NAME "R" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "TC1" )
+			( "TC2" )
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("s"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 10001 )
+		( SYMBOL_NAME "S" )
+		( PORT_ORDER 
+ 			("3")
+ 			("4") 
+		)
+	)
+	("model_params"
+	("symbol"
+	)
+	)
+	("device_max_ops"
+	)
+)
+
+
+("c_elect"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 2003 )
+		( SYMBOL_NAME "C_ELECT" )
+		( PORT_ORDER 
+ 			("1")
+ 			("2") )
+	)
+	("model_params"
+	("symbol"
+			( "IC" )
+			( "TC" )
+			( "VALUE" )
+			( "ESR" )
+
+	)
+	)
+	("device_max_ops"
+	)
+)
+("s_st"
+	(Creator "Device property file created for PSpice standard parts on Thus Dec  7 17:18:52 PST 2000")
+	("device_info"
+		( MODEL_TYPE 10001 )
+		( SYMBOL_NAME "S_ST" )
+		( PORT_ORDER 
+ 			("3")
+ 			("4") 
+		)
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)

@@ -1,0 +1,3645 @@
+("1n5817"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"20")
+        ("PDM"	"0.45")
+        ("TJ"	"125")
+        ("RJC"	"80")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0"
+            ("IS"
+                ("units"	"A")
+                ("description"	"Saturation current")
+            )
+            ("RS"
+                ("units"	"Ohm")
+                ("description"	"Ohmic resistance")
+            )
+            ("N"
+                ("units"	"")
+                ("description"	"Emission coefficient")
+            )
+            ("TT"
+                ("units"	"sec")
+                ("description"	"Transit time")
+            )
+            ("CJO"
+                ("units"	"F")
+                ("description"	"Junction capacitance")
+            )
+            ("VJ"
+                ("units"	"V")
+                ("description"	"Junction potential")
+            )
+            ("M"
+                ("units"	"")
+                ("description"	"Grading coefficient")
+            )
+            ("EG"
+                ("units"	"eV")
+                ("description"	"Activation energy")
+            )
+            ("XTI"
+                ("units"	"")
+                ("description"	"Isat temperature exp")
+            )
+            ("KF"
+                ("units"	"")
+                ("description"	"Flicker noise coef.")
+            )
+            ("AF"
+                ("units"	"")
+                ("description"	"Flicker noise exp.")
+            )
+            ("FC"
+                ("units"	"")
+                ("description"	"Depletion cap. coef.")
+            )
+            ("BV"
+                ("units"	"V")
+                ("description"	"Rev breakdown volt")
+            )
+            ("IBV"
+                ("units"	"A")
+                ("description"	"I at V-breakdown")
+            )
+        )
+    )
+)
+("1n5818"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"30")
+        ("PDM"	"0.55")
+        ("TJ"	"125")
+        ("RJC"	"80")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0"
+            ("IS"
+                ("units"	"A")
+                ("description"	"Saturation current")
+            )
+            ("RS"
+                ("units"	"Ohm")
+                ("description"	"Ohmic resistance")
+            )
+            ("N"
+                ("units"	"")
+                ("description"	"Emission coefficient")
+            )
+            ("TT"
+                ("units"	"sec")
+                ("description"	"Transit time")
+            )
+            ("CJO"
+                ("units"	"F")
+                ("description"	"Junction capacitance")
+            )
+            ("VJ"
+                ("units"	"V")
+                ("description"	"Junction potential")
+            )
+            ("M"
+                ("units"	"")
+                ("description"	"Grading coefficient")
+            )
+            ("EG"
+                ("units"	"eV")
+                ("description"	"Activation energy")
+            )
+            ("XTI"
+                ("units"	"")
+                ("description"	"Isat temperature exp")
+            )
+            ("KF"
+                ("units"	"")
+                ("description"	"Flicker noise coef.")
+            )
+            ("AF"
+                ("units"	"")
+                ("description"	"Flicker noise exp.")
+            )
+            ("FC"
+                ("units"	"")
+                ("description"	"Depletion cap. coef.")
+            )
+            ("BV"
+                ("units"	"V")
+                ("description"	"Rev breakdown volt")
+            )
+            ("IBV"
+                ("units"	"A")
+                ("description"	"I at V-breakdown")
+            )
+        )
+    )
+)
+("1n5819"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"40")
+        ("PDM"	"0.6")
+        ("TJ"	"125")
+        ("RJC"	"80")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0"
+            ("IS"
+                ("units"	"A")
+                ("description"	"Saturation current")
+            )
+            ("RS"
+                ("units"	"Ohm")
+                ("description"	"Ohmic resistance")
+            )
+            ("N"
+                ("units"	"")
+                ("description"	"Emission coefficient")
+            )
+            ("TT"
+                ("units"	"sec")
+                ("description"	"Transit time")
+            )
+            ("CJO"
+                ("units"	"F")
+                ("description"	"Junction capacitance")
+            )
+            ("VJ"
+                ("units"	"V")
+                ("description"	"Junction potential")
+            )
+            ("M"
+                ("units"	"")
+                ("description"	"Grading coefficient")
+            )
+            ("EG"
+                ("units"	"eV")
+                ("description"	"Activation energy")
+            )
+            ("XTI"
+                ("units"	"")
+                ("description"	"Isat temperature exp")
+            )
+            ("KF"
+                ("units"	"")
+                ("description"	"Flicker noise coef.")
+            )
+            ("AF"
+                ("units"	"")
+                ("description"	"Flicker noise exp.")
+            )
+            ("FC"
+                ("units"	"")
+                ("description"	"Depletion cap. coef.")
+            )
+            ("BV"
+                ("units"	"V")
+                ("description"	"Rev breakdown volt")
+            )
+            ("IBV"
+                ("units"	"A")
+                ("description"	"I at V-breakdown")
+            )
+        )
+    )
+)
+("1n5820"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"20")
+        ("PDM"	"1.425")
+        ("TJ"	"125")
+        ("RJC"	"28")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("1n5821"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"30")
+        ("PDM"	"1.5")
+        ("TJ"	"125")
+        ("RJC"	"28")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("1n5822"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"40")
+        ("PDM"	"1.575")
+        ("TJ"	"125")
+        ("RJC"	"28")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("80sq045n"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"8")
+        ("VR"	"45")
+        ("PDM"	"4.4")
+        ("TJ"	"125")
+        ("RJC"	"12")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("bat54m3t5g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.2")
+        ("VR"	"30")
+        ("PDM"	"0.2")
+        ("TJ"	"125")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("bat54wt1g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.2")
+        ("VR"	"30")
+        ("PDM"	"0.2")
+        ("TJ"	"125")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("d1n5817"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"20")
+        ("PDM"	"0.45")
+        ("TJ"	"150")
+        ("RJC"	"80")
+        ("RCA"	"0.001")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("d1n5818"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"30")
+        ("PDM"	"0.55")
+        ("TJ"	"150")
+        ("RJC"	"80")
+        ("RCA"	"0.001")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("d1n5819"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"40")
+        ("PDM"	"0.60")
+        ("TJ"	"150")
+        ("RJC"	"80")
+        ("RCA"	"0.001")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbd101"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.01")
+        ("VR"	"7")
+        ("PDM"	"0.280")
+        ("TJ"	"150")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbd301g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.01")
+        ("VR"	"30")
+        ("PDM"	"0.280")
+        ("TJ"	"125")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbd301lt1"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.01")
+        ("VR"	"30")
+        ("PDM"	"0.280")
+        ("TJ"	"125")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr0520lt1"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.5")
+        ("VR"	"20")
+        ("PDM"	"0.19")
+        ("TJ"	"125")
+        ("RJC"	"206")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr0520lt3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.5")
+        ("VR"	"20")
+        ("PDM"	"0.19")
+        ("TJ"	"125")
+        ("RJC"	"206")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr0530t1"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.5")
+        ("VR"	"30")
+        ("PDM"	"0.19")
+        ("TJ"	"125")
+        ("RJC"	"206")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr0530t3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.5")
+        ("VR"	"30")
+        ("PDM"	"0.19")
+        ("TJ"	"125")
+        ("RJC"	"206")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr0540t1"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.5")
+        ("VR"	"40")
+        ("PDM"	"0.255")
+        ("TJ"	"150")
+        ("RJC"	"206")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr0540t3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.5")
+        ("VR"	"40")
+        ("PDM"	"0.19")
+        ("TJ"	"150")
+        ("RJC"	"206")
+        ("RCA"	"0.001")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr10100"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"10")
+        ("VR"	"100")
+        ("PDM"	"8")
+        ("TJ"	"175")
+        ("RJC"	"2")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+
+("mbr1060"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"10")
+        ("VR"	"60")
+        ("PDM"	"8")
+        ("TJ"	"175")
+        ("RJC"	"2")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr1080"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"10")
+        ("VR"	"80")
+        ("PDM"	"8")
+        ("TJ"	"175")
+        ("RJC"	"2")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr1090"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"10")
+        ("VR"	"90")
+        ("PDM"	"8")
+        ("TJ"	"175")
+        ("RJC"	"2")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr1100"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"100")
+        ("PDM"	"0.79")
+        ("TJ"	"175")
+        ("RJC"	"46")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr120esft1"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"20")
+        ("PDM"	"0.53")
+        ("TJ"	"150")
+        ("RJC"	"26")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr120lsft1"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"20")
+        ("PDM"	"0.45")
+        ("TJ"	"125")
+        ("RJC"	"26")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr120vlsft1"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"20")
+        ("PDM"	"0.340")
+        ("TJ"	"125")
+        ("RJC"	"26")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr130lsft1"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"30")
+        ("PDM"	"0.38")
+        ("TJ"	"125")
+        ("RJC"	"26")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr130t1"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"30")
+        ("PDM"	"0.47")
+        ("TJ"	"125")
+        ("RJC"	"108")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr140sft1"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"40")
+        ("PDM"	"0.55")
+        ("TJ"	"125")
+        ("RJC"	"26")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr150"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"50")
+        ("PDM"	"0.75")
+        ("TJ"	"150")
+        ("RJC"	"80")
+        ("RCA"	"0.001")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr150rl"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"50")
+        ("PDM"	"0.75")
+        ("TJ"	"150")
+        ("RJC"	"80")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr160"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"60")
+        ("PDM"	"0.75")
+        ("TJ"	"150")
+        ("RJC"	"80")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr1635"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"16")
+        ("VR"	"35")
+        ("PDM"	"9.12")
+        ("TJ"	"175")
+        ("RJC"	"1.5")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr1645"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"16")
+        ("VR"	"45")
+        ("PDM"	"9.12")
+        ("TJ"	"175")
+        ("RJC"	"1.5")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr1h100sft3g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"100")
+        ("PDM"	"0.76")
+        ("TJ"	"175")
+        ("RJC"	"23")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr230lsft1"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"2")
+        ("VR"	"30")
+        ("PDM"	"0.86")
+        ("TJ"	"125")
+        ("RJC"	"325")
+        ("RCA"	"0.001")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr230lsft1g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"2")
+        ("VR"	"30")
+        ("PDM"	"0.86")
+        ("TJ"	"125")
+        ("RJC"	"26")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr2h100sft3g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"2")
+        ("VR"	"100")
+        ("PDM"	"1.68")
+        ("TJ"	"175")
+        ("RJC"	"23")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr3100"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"100")
+        ("PDM"	"2.37")
+        ("TJ"	"175")
+        ("RJC"	"28")
+        ("RCA"	"0.001")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr3100rl"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"100")
+        ("PDM"	"2.37")
+        ("TJ"	"175")
+        ("RJC"	"28")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr340"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"40")
+        ("PDM"	"1.8")
+        ("TJ"	"175")
+        ("RJC"	"28")
+        ("RCA"	"0.001")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr340rl"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"40")
+        ("PDM"	"1.8")
+        ("TJ"	"175")
+        ("RJC"	"28")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr350"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"50")
+        ("PDM"	"2.22")
+        ("TJ"	"150")
+        ("RJC"	"28")
+        ("RCA"	"0.001")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr350rl"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"50")
+        ("PDM"	"2.22")
+        ("TJ"	"150")
+        ("RJC"	"28")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr40250"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"40")
+        ("VR"	"250")
+        ("PDM"	"34.4")
+        ("TJ"	"150")
+        ("RJC"	"2")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr735"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"7.5")
+        ("VR"	"35")
+        ("PDM"	"3.6")
+        ("TJ"	"175")
+        ("RJC"	"3")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbr745"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"7.5")
+        ("VR"	"45")
+        ("PDM"	"3.6")
+        ("TJ"	"175")
+        ("RJC"	"3")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbra120et3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"20")
+        ("PDM"	"0.530")
+        ("TJ"	"150")
+        ("RJC"	"34")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbra130lt3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"30")
+        ("PDM"	"0.41")
+        ("TJ"	"125")
+        ("RJC"	"35")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbra140t3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"40")
+        ("PDM"	"0.55")
+        ("TJ"	"125")
+        ("RJC"	"35")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbra160t3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"60")
+        ("PDM"	"0.510")
+        ("TJ"	"150")
+        ("RJC"	"35")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbra1h100sft3g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"100")
+        ("PDM"	"0.76")
+        ("TJ"	"175")
+        ("RJC"	"14")
+    )
+    ("model_params"
+        ("level_0"
+            ("IS"
+                ("units"	"A")
+                ("description"	"Saturation current")
+            )
+            ("RS"
+                ("units"	"Ohm")
+                ("description"	"Ohmic resistance")
+            )
+            ("N"
+                ("units"	"")
+                ("description"	"Emission coefficient")
+            )
+            ("TT"
+                ("units"	"sec")
+                ("description"	"Transit time")
+            )
+            ("CJO"
+                ("units"	"F")
+                ("description"	"Junction capacitance")
+            )
+            ("VJ"
+                ("units"	"V")
+                ("description"	"Junction potential")
+            )
+            ("M"
+                ("units"	"")
+                ("description"	"Grading coefficient")
+            )
+            ("EG"
+                ("units"	"eV")
+                ("description"	"Activation energy")
+            )
+            ("XTI"
+                ("units"	"")
+                ("description"	"Isat temperature exp")
+            )
+            ("KF"
+                ("units"	"")
+                ("description"	"Flicker noise coef.")
+            )
+            ("AF"
+                ("units"	"")
+                ("description"	"Flicker noise exp.")
+            )
+            ("FC"
+                ("units"	"")
+                ("description"	"Depletion cap. coef.")
+            )
+            ("BV"
+                ("units"	"V")
+                ("description"	"Rev breakdown volt")
+            )
+            ("IBV"
+                ("units"	"A")
+                ("description"	"I at V-breakdown")
+            )
+        )
+    )
+)
+("mbra1h100t3g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"100")
+        ("PDM"	"0.76")
+        ("TJ"	"175")
+        ("RJC"	"75")
+        ("RCA"	"0.001")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbra210et3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"2")
+        ("VR"	"10")
+        ("PDM"	"1")
+        ("TJ"	"150")
+        ("RJC"	"22")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbra210lt3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"2")
+        ("VR"	"10")
+        ("PDM"	"0.70")
+        ("TJ"	"125")
+        ("RJC"	"22")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbra2h100t3g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"2")
+        ("VR"	"100")
+        ("PDM"	"1.58")
+        ("TJ"	"175")
+        ("RJC"	"14")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbra320t3g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"20")
+        ("PDM"	"1.5")
+        ("TJ"	"125")
+        ("RJC"	"15")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbra340t3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"40")
+        ("PDM"	"1.35")
+        ("TJ"	"150")
+        ("RJC"	"15")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrb1045"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"10")
+        ("VR"	"45")
+        ("PDM"	"5.7")
+        ("TJ"	"175")
+        ("RJC"	"1")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrb8h100t4g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"8")
+        ("VR"	"100")
+        ("PDM"	"5.68")
+        ("TJ"	"175")
+        ("RJC"	"1.1")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrd320"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"20")
+        ("PDM"	"1.8")
+        ("TJ"	"175")
+        ("RJC"	"6")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrd330"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"30")
+        ("PDM"	"1.8")
+        ("TJ"	"175")
+        ("RJC"	"6")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrd340"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"40")
+        ("PDM"	"1.8")
+        ("TJ"	"175")
+        ("RJC"	"6")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrd350"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"50")
+        ("PDM"	"1.8")
+        ("TJ"	"175")
+        ("RJC"	"6")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrd360"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"60")
+        ("PDM"	"1.8")
+        ("TJ"	"175")
+        ("RJC"	"6")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrd5h100t4g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"5")
+        ("VR"	"100")
+        ("PDM"	"3.55")
+        ("TJ"	"175")
+        ("RJC"	"1.6")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrm110e"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"10")
+        ("PDM"	"0.530")
+        ("TJ"	"150")
+        ("RJC"	"277")
+        ("RCA"	"0.001")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrm110et1"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"10")
+        ("PDM"	"0.53")
+        ("TJ"	"150")
+        ("RJC"	"35")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrm110l"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"10")
+        ("PDM"	"0.365")
+        ("TJ"	"125")
+        ("RJC"	"277")
+        ("RCA"	"0.001")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrm110lt3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"10")
+        ("PDM"	"0.365")
+        ("TJ"	"125")
+        ("RJC"	"35")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrm120e"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"20")
+        ("PDM"	"0.530")
+        ("TJ"	"150")
+        ("RJC"	"35")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrm120l"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"20")
+        ("PDM"	"0.45")
+        ("TJ"	"125")
+        ("RJC"	"277")
+        ("RCA"	"0.001")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrm120lt3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"20")
+        ("PDM"	"0.45")
+        ("TJ"	"125")
+        ("RJC"	"35")
+    )
+)
+("mbrm130l"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"30")
+        ("PDM"	"0.38")
+        ("TJ"	"125")
+        ("RJC"	"277")
+        ("RCA"	"0.001")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrm130lt3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"30")
+        ("PDM"	"0.38")
+        ("TJ"	"125")
+        ("RJC"	"35")
+    )
+    ("model_params"
+        ("level_0"
+            ("IS"
+                ("units"	"A")
+            )
+            ("RS"
+                ("units"	"Ohm")
+            )
+            ("N"
+                ("units"	"")
+            )
+            ("TT"
+                ("units"	"sec")
+            )
+            ("CJO"
+                ("units"	"F")
+            )
+            ("VJ"
+                ("units"	"V")
+            )
+            ("M"
+                ("units"	"")
+            )
+            ("EG"
+                ("units"	"eV")
+            )
+            ("XTI"
+                ("units"	"")
+            )
+            ("KF"
+                ("units"	"")
+            )
+            ("AF"
+                ("units"	"")
+            )
+            ("FC"
+                ("units"	"")
+            )
+            ("BV"
+                ("units"	"V")
+            )
+            ("IBV"
+                ("units"	"A")
+            )
+        )
+    )
+)
+("mbrm140"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"40")
+        ("PDM"	"0.55")
+        ("TJ"	"125")
+        ("RJC"	"35")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrm1h100t3g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"100")
+        ("PDM"	"0.760")
+        ("TJ"	"175")
+        ("RJC"	"12")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrm2h100sft3g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"2")
+        ("VR"	"100")
+        ("PDM"	"1.68")
+        ("TJ"	"175")
+        ("RJC"	"12")
+    )
+    ("model_params"
+        ("level_0"
+            ("IS"
+                ("units"	"A")
+                ("description"	"Saturation current")
+            )
+            ("RS"
+                ("units"	"Ohm")
+                ("description"	"Ohmic resistance")
+            )
+            ("N"
+                ("units"	"")
+                ("description"	"Emission coefficient")
+            )
+            ("TT"
+                ("units"	"sec")
+                ("description"	"Transit time")
+            )
+            ("CJO"
+                ("units"	"F")
+                ("description"	"Junction capacitance")
+            )
+            ("VJ"
+                ("units"	"V")
+                ("description"	"Junction potential")
+            )
+            ("M"
+                ("units"	"")
+                ("description"	"Grading coefficient")
+            )
+            ("EG"
+                ("units"	"eV")
+                ("description"	"Activation energy")
+            )
+            ("XTI"
+                ("units"	"")
+                ("description"	"Isat temperature exp")
+            )
+            ("KF"
+                ("units"	"")
+                ("description"	"Flicker noise coef.")
+            )
+            ("AF"
+                ("units"	"")
+                ("description"	"Flicker noise exp.")
+            )
+            ("FC"
+                ("units"	"")
+                ("description"	"Depletion cap. coef.")
+            )
+            ("BV"
+                ("units"	"V")
+                ("description"	"Rev breakdown volt")
+            )
+            ("IBV"
+                ("units"	"A")
+                ("description"	"I at V-breakdown")
+            )
+        )
+    )
+)
+("mbrm2h100t3g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"2")
+        ("VR"	"100")
+        ("PDM"	"1.68")
+        ("TJ"	"175")
+        ("RJC"	"75")
+        ("RCA"	"0.001")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrs1100t3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"100")
+        ("PDM"	"0.75")
+        ("TJ"	"175")
+        ("RJC"	"22")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrs120t3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"20")
+        ("PDM"	"0.6")
+        ("TJ"	"125")
+        ("RJC"	"12")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrs130t3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"30")
+        ("PDM"	"0.6")
+        ("TJ"	"125")
+        ("RJC"	"12")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrs140t3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"40")
+        ("PDM"	"0.6")
+        ("TJ"	"125")
+        ("RJC"	"12")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrs1540t3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1.5")
+        ("VR"	"40")
+        ("PDM"	"0.69")
+        ("TJ"	"125")
+        ("RJC"	"24")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrs190t3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"90")
+        ("PDM"	"0.75")
+        ("TJ"	"175")
+        ("RJC"	"22")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrs2040lt3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"2")
+        ("VR"	"40")
+        ("PDM"	"0.86")
+        ("TJ"	"125")
+        ("RJC"	"22.5")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrs230lt3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"2")
+        ("VR"	"30")
+        ("PDM"	"1")
+        ("TJ"	"125")
+        ("RJC"	"18.6")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrs240lt3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"2")
+        ("VR"	"40")
+        ("PDM"	"0.86")
+        ("TJ"	"150")
+        ("RJC"	"18")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrs260t3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"2")
+        ("VR"	"60")
+        ("PDM"	"1.26")
+        ("TJ"	"125")
+        ("RJC"	"24")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrs2h100t3g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"2")
+        ("VR"	"100")
+        ("PDM"	"1.58")
+        ("TJ"	"175")
+        ("RJC"	"12")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrs3100lt3g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"100")
+        ("PDM"	"2.37")
+        ("TJ"	"175")
+        ("RJC"	"11")
+    )
+    ("model_params"
+        ("level_0"
+            ("IS"
+                ("units"	"A")
+                ("description"	"Saturation current")
+            )
+            ("RS"
+                ("units"	"Ohm")
+                ("description"	"Ohmic resistance")
+            )
+            ("N"
+                ("units"	"")
+                ("description"	"Emission coefficient")
+            )
+            ("TT"
+                ("units"	"sec")
+                ("description"	"Transit time")
+            )
+            ("CJO"
+                ("units"	"F")
+                ("description"	"Junction capacitance")
+            )
+            ("VJ"
+                ("units"	"V")
+                ("description"	"Junction potential")
+            )
+            ("M"
+                ("units"	"")
+                ("description"	"Grading coefficient")
+            )
+            ("EG"
+                ("units"	"eV")
+                ("description"	"Activation energy")
+            )
+            ("XTI"
+                ("units"	"")
+                ("description"	"Isat temperature exp")
+            )
+            ("KF"
+                ("units"	"")
+                ("description"	"Flicker noise coef.")
+            )
+            ("AF"
+                ("units"	"")
+                ("description"	"Flicker noise exp.")
+            )
+            ("FC"
+                ("units"	"")
+                ("description"	"Depletion cap. coef.")
+            )
+            ("BV"
+                ("units"	"V")
+                ("description"	"Rev breakdown volt")
+            )
+            ("IBV"
+                ("units"	"A")
+                ("description"	"I at V-breakdown")
+            )
+        )
+    )
+)
+("mbrs3100t3g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"100")
+        ("PDM"	"2.37")
+        ("TJ"	"175")
+        ("RJC"	"71")
+        ("RCA"	"0.001")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrs3200t3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"200")
+        ("PDM"	"2.52")
+        ("TJ"	"150")
+        ("RJC"	"13")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrs3201t3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"200")
+        ("PDM"	"2.52")
+        ("TJ"	"150")
+        ("RJC"	"12")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrs320t3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"20")
+        ("PDM"	"1.5")
+        ("TJ"	"150")
+        ("RJC"	"11")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrs330t3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"30")
+        ("PDM"	"1.5")
+        ("TJ"	"150")
+        ("RJC"	"11")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrs340t3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"40")
+        ("PDM"	"1.5")
+        ("TJ"	"150")
+        ("RJC"	"11")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrs360t3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"3")
+        ("VR"	"60")
+        ("PDM"	"2.22")
+        ("TJ"	"175")
+        ("RJC"	"11")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrs410et3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"4")
+        ("VR"	"10")
+        ("PDM"	"2")
+        ("TJ"	"150")
+        ("RJC"	"12")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrs410lt3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"4")
+        ("VR"	"10")
+        ("PDM"	"1.32")
+        ("TJ"	"125")
+        ("RJC"	"12")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrs4201t3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"4")
+        ("VR"	"200")
+        ("PDM"	"3.44")
+        ("TJ"	"150")
+        ("RJC"	"11")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mbrs540t3"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"5")
+        ("VR"	"40")
+        ("PDM"	"2.5")
+        ("TJ"	"150")
+        ("RJC"	"12")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mmbd101lt1"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.01")
+        ("VR"	"7")
+        ("PDM"	"0.225")
+        ("TJ"	"150")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mmbd301lt1g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.01")
+        ("VR"	"30")
+        ("PDM"	"0.2")
+        ("TJ"	"125")
+    )
+)
+("mmbd301m3t5g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.01")
+        ("VR"	"30")
+        ("PDM"	"0.200")
+        ("TJ"	"125")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mmsd301t1g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.2")
+        ("VR"	"30")
+        ("PDM"	"0.225")
+        ("TJ"	"125")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("mmsd701t1g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.2")
+        ("VR"	"70")
+        ("PDM"	"0.225")
+        ("TJ"	"125")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr0130p2t5g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.1")
+        ("VR"	"30")
+        ("PDM"	"0.200")
+        ("TJ"	"125")
+        ("RJC"	"600")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr0140p2t5g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.07")
+        ("VR"	"40")
+        ("PDM"	"0.100")
+        ("TJ"	"125")
+        ("RJC"	"1000")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr0170p2t5g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.07")
+        ("VR"	"70")
+        ("PDM"	"0.240")
+        ("TJ"	"150")
+        ("RJC"	"520")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr01f30nxt5g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.1")
+        ("VR"	"30")
+        ("PDM"	"0.312")
+        ("TJ"	"125")
+        ("RJC"	"400")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr01l30nxt5g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.1")
+        ("VR"	"30")
+        ("PDM"	"0.312")
+        ("TJ"	"150")
+        ("RJC"	"400")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr0230p2t5g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.200")
+        ("VR"	"30")
+        ("PDM"	"0.200")
+        ("TJ"	"125")
+        ("RJC"	"600")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr0240ht1g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.250")
+        ("VR"	"40")
+        ("PDM"	"0.160")
+        ("TJ"	"150")
+        ("RJC"	"740")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr0240v2t1g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.250")
+        ("VR"	"40")
+        ("PDM"	"0.200")
+        ("TJ"	"150")
+        ("RJC"	"600")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr02f30nxt5g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.2")
+        ("VR"	"30")
+        ("PDM"	"0.312")
+        ("TJ"	"125")
+        ("RJC"	"400")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr02l30nxt5g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.2")
+        ("VR"	"30")
+        ("PDM"	"0.312")
+        ("TJ"	"150")
+        ("RJC"	"400")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr0320mw2t1"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"5")
+        ("VR"	"20")
+        ("PDM"	"0.200")
+        ("TJ"	"125")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr0340ht1g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.250")
+        ("VR"	"40")
+        ("PDM"	"0.160")
+        ("TJ"	"150")
+        ("RJC"	"740")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr0340p2t5g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.200")
+        ("VR"	"40")
+        ("PDM"	"0.190")
+        ("TJ"	"125")
+        ("RJC"	"520")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr0340v2t1g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.250")
+        ("VR"	"40")
+        ("PDM"	"0.200")
+        ("TJ"	"150")
+        ("RJC"	"600")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr0520v2t1g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.5")
+        ("VR"	"20")
+        ("PDM"	"0.170")
+        ("TJ"	"125")
+        ("RJC"	"600")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr05f20nxt5g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.5")
+        ("VR"	"20")
+        ("PDM"	"1.3")
+        ("TJ"	"150")
+        ("RJC"	"94")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr05f30nxt5g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.5")
+        ("VR"	"30")
+        ("PDM"	"1.3")
+        ("TJ"	"150")
+        ("RJC"	"94")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr05f40nxt5g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.5")
+        ("VR"	"40")
+        ("PDM"	"1.3")
+        ("TJ"	"150")
+        ("RJC"	"94")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr0620p2t5g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.5")
+        ("VR"	"20")
+        ("PDM"	"0.190")
+        ("TJ"	"125")
+        ("RJC"	"520")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr1020mw2t1g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"20")
+        ("PDM"	"0.200")
+        ("TJ"	"125")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr10f20nxt5g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"20")
+        ("PDM"	"1.47")
+        ("TJ"	"150")
+        ("RJC"	"85")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0"
+        )
+    )
+)
+("nsr10f30nxt5g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"30")
+        ("PDM"	"1.47")
+        ("TJ"	"150")
+        ("RJC"	"85")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr10f40nxt5g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"40")
+        ("PDM"	"1.47")
+        ("TJ"	"150")
+        ("RJC"	"85")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr20f20nxt5g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"2")
+        ("VR"	"20")
+        ("PDM"	"1.56")
+        ("TJ"	"150")
+        ("RJC"	"80")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("nsr20f30nxt5g"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"2")
+        ("VR"	"30")
+        ("PDM"	"1.56")
+        ("TJ"	"150")
+        ("RJC"	"80")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("rb521s30t1"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.2")
+        ("VR"	"30")
+        ("PDM"	"0.2")
+        ("TJ"	"125")
+        ("RJC"	"635")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("rb751s40t1"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"0.03")
+        ("VR"	"40")
+        ("PDM"	"0.2")
+        ("TJ"	"150")
+        ("RJC"	"635")
+        ("RCA"	"0")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)
+("ss16"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"1")
+        ("VR"	"60")
+        ("PDM"	"0.72")
+        ("TJ"	"150")
+        ("RJC"	"35")
+    )
+    ("model_params"
+        ("level_0"
+        )
+    )
+)
+("ss22"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"2")
+        ("VR"	"20")
+        ("PDM"	"1")
+        ("TJ"	"150")
+        ("RJC"	"24")
+    )
+    ("model_params"
+        ("level_0"
+        )
+    )
+)
+("ss24"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"22")
+        ("symbol_name"	"Diode")
+    )
+    ("device_pre_smoke"
+        ("TERM_AN"	"A")
+        ("NODE_AN"	"A")
+        ("NODE_CAT"	"C")
+        ("DERATE_TYPE"	"DIODE")
+    )
+    ("device_max_ops"
+        ("IF"	"2")
+        ("VR"	"40")
+        ("PDM"	"1")
+        ("TJ"	"150")
+        ("RJC"	"24")
+    )
+    ("model_params"
+        ("level_0")
+    )
+)

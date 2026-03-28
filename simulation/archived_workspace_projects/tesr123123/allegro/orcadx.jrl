@@ -1,0 +1,1168 @@
+\t (00:00:15) orcadx 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:15)     Journal start - Wed Apr  2 15:30:44 2025
+\t (00:00:15)         Host=BOOK-QTRCVV9COM User=user Pid=12428 CPUs=12
+\t (00:00:15) CmdLine= C:\Cadence\OrCADX_24.1\tools\bin\unison.exe -layout -orcadx -mpssession user -proj c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\tesr123123\tesr123123.opj C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/tesr123123/allegro/tesr123123.brd
+\t (00:00:15) 
+\d (00:00:15) Design opened: C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/tesr123123/allegro/tesr123123.brd
+\i (00:00:15) trapsize 10254
+\i (00:00:20) trapsize 16055
+\t (00:00:41) Loading consmgr.cxt 
+\t (00:00:41) Loading acns_formula.cxt 
+\i (00:00:41) trapsize 16006
+\i (00:00:41) trapsize 16640
+\i (00:00:49) trapsize 15511
+\i (00:00:50) updateport VisibilityPane
+\i (00:00:50) updateport PropPane
+\i (00:00:50) ucpedit 
+\i (00:00:50) updateport VisibilityPane
+\i (00:01:12) trapsize 9659
+\i (00:01:14) design sync eco 
+\t (00:01:14) > Requesting Capture to open design
+\t (00:01:14) > Response received OpenDesign is done by remote tool
+\t (00:01:14) Design opened successfully
+\t (00:01:14) > Requesting Capture to generate logical netlist
+\t (00:01:14) > Requesting Capture to open design
+\t (00:01:15) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:01:15) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\tesr123123\allegro
+\t (00:01:15) > Requesting Capture to generate logical netlist
+\t (00:01:15) > Response received OpenDesign is done by remote tool
+\t (00:01:15) Design opened successfully
+\t (00:01:15) > Generating Physical Netlist
+\t (00:01:15) Starting genfeedformat...
+\t (00:01:16) > Generating Physical Netlist successful
+\t (00:01:16) > Generating Differences
+\t (00:01:16) > Generating Differences successful
+\t (00:01:16) > Displaying differences output
+\t (00:01:16) > Displaying differences output successful
+\t (00:01:16) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:01:16) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\tesr123123\allegro
+\i (00:01:16) updateport ReportsPane
+\i (00:01:16) updateport SearchPane
+\i (00:01:16) updateport PropPane
+\i (00:01:17) QtSignal DesignSyncDialog sync_button clicked
+\t (00:01:17) > Sending response DoneOpenBoard
+\t (00:01:17) Starting Cadence Logic Import...
+\w (00:01:18) WARNING(SPMHGE-795): netrev had warnings.
+\t (00:01:18) Opening existing design...
+\i (00:01:20) trapsize 9659
+\w (00:01:21) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:21) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:21) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:21) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:21) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:21) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:21) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (00:01:21) Placed 9 of 10 symbols.
+\i (00:01:21) QtSignal DesignSyncDialog sch_comboBox EditingFinished "C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/tesr123123/tesr123123.opj"
+\i (00:01:21) QtSignal MainCanvas DesignSyncDialog closed
+\i (00:01:21) updateport ReportsPane
+\i (00:01:21) updateport SearchPane
+\i (00:01:21) updateport VisibilityPane
+\i (00:01:21) updateport PropPane
+\i (00:01:21) ucpedit 
+\i (00:01:21) updateport VisibilityPane
+\i (00:01:23) setwindow text
+\i (00:01:23) close
+\i (00:01:25) setwindow pcb
+\i (00:01:25) prepopup 6819.32 13252.27
+\i (00:01:26) drag_start grid 6317.04 13657.95
+\i (00:01:27) drag_stop 11127.27 9446.59
+\i (00:01:27) pick grid 8789.77 10180.68
+\t (00:01:27) last pick:  8789.77 10180.68
+\i (00:01:28) pick grid 4539.77 11513.63
+\t (00:01:28) last pick:  4539.77 11513.63
+\i (00:01:28) zoom in 1 
+\i (00:01:28) setwindow pcb
+\i (00:01:28) zoom in 4752.27 11745.45
+\i (00:01:28) trapsize 4830
+\i (00:01:29) zoom in 1 
+\i (00:01:29) setwindow pcb
+\i (00:01:29) zoom in 4752.28 11745.46
+\i (00:01:29) trapsize 2415
+\i (00:01:29) zoom in 1 
+\i (00:01:29) setwindow pcb
+\i (00:01:29) zoom in 4752.28 11745.46
+\i (00:01:29) trapsize 1207
+\i (00:01:30) zoom out 1 
+\i (00:01:30) setwindow pcb
+\i (00:01:30) zoom out 5706.12 11240.78
+\i (00:01:30) trapsize 2415
+\i (00:01:30) roam start
+\i (00:01:30) roam x 1
+\i (00:01:30) roam x 6
+\i (00:01:30) roam x 16
+\i (00:01:30) roam x 23
+\i (00:01:31) roam x 22
+\i (00:01:31) roam x 25
+\i (00:01:31) roam x 25
+\i (00:01:31) roam x 18
+\i (00:01:31) roam x 20
+\i (00:01:31) roam x 12
+\i (00:01:31) roam x 18
+\i (00:01:31) roam x 9
+\i (00:01:31) roam x 7
+\i (00:01:31) roam x 19
+\i (00:01:31) roam x 6
+\i (00:01:31) roam x 5
+\i (00:01:31) roam x 4
+\i (00:01:31) roam x 2
+\i (00:01:31) roam x 3
+\i (00:01:31) roam x 1
+\i (00:01:31) roam x 1
+\i (00:01:31) roam x 3
+\i (00:01:31) roam y 1
+\i (00:01:31) roam x 2
+\i (00:01:31) roam y 1
+\i (00:01:31) roam x 13
+\i (00:01:31) roam y 2
+\i (00:01:31) roam x 11
+\i (00:01:31) roam y 1
+\i (00:01:31) roam x 20
+\i (00:01:31) roam y 4
+\i (00:01:31) roam x 21
+\i (00:01:31) roam y 1
+\i (00:01:31) roam x 18
+\i (00:01:31) roam x 14
+\i (00:01:31) roam y 2
+\i (00:01:31) roam x 3
+\i (00:01:31) roam x 5
+\i (00:01:31) roam x 2
+\i (00:01:31) roam x 1
+\i (00:01:31) roam x 2
+\i (00:01:31) roam x 2
+\i (00:01:31) roam x 1
+\i (00:01:31) roam x 5
+\i (00:01:31) roam y 2
+\i (00:01:31) roam x 1
+\i (00:01:31) roam end
+\i (00:01:32) zoom in 1 
+\i (00:01:32) setwindow pcb
+\i (00:01:32) zoom in 7693.49 11929.01
+\i (00:01:32) trapsize 1207
+\i (00:01:32) zoom in 1 
+\i (00:01:32) setwindow pcb
+\i (00:01:32) zoom in 7693.49 11929.02
+\i (00:01:32) trapsize 604
+\i (00:01:36) roam start
+\i (00:01:36) roam x 3
+\i (00:01:36) roam x 9
+\i (00:01:36) roam y -1
+\i (00:01:36) roam x 20
+\i (00:01:36) roam x 26
+\i (00:01:37) roam x 20
+\i (00:01:37) roam y 1
+\i (00:01:37) roam x 25
+\i (00:01:37) roam y 4
+\i (00:01:37) roam x 17
+\i (00:01:37) roam y 4
+\i (00:01:37) roam x 7
+\i (00:01:37) roam y 1
+\i (00:01:37) roam x 46
+\i (00:01:37) roam y 6
+\i (00:01:37) roam x 37
+\i (00:01:37) roam y 5
+\i (00:01:37) roam x 35
+\i (00:01:37) roam y 5
+\i (00:01:37) roam x 8
+\i (00:01:37) roam y 2
+\i (00:01:37) roam x 1
+\i (00:01:37) roam x 1
+\i (00:01:37) roam y 1
+\i (00:01:37) roam x 2
+\i (00:01:37) roam x 1
+\i (00:01:38) roam x 1
+\i (00:01:38) roam x 14
+\i (00:01:38) roam x 45
+\i (00:01:38) roam y 1
+\i (00:01:38) roam x 16
+\i (00:01:38) roam x 61
+\i (00:01:38) roam y -2
+\i (00:01:39) roam end
+\i (00:01:47) zoom in 1 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) zoom in 8340.64 11938.66
+\i (00:01:47) trapsize 302
+\i (00:01:47) zoom in 1 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) zoom in 8340.64 11938.66
+\i (00:01:47) trapsize 151
+\i (00:01:47) zoom in 1 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) zoom in 8340.64 11938.66
+\i (00:01:47) trapsize 75
+\i (00:01:47) zoom in 1 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) zoom in 8340.64 11938.66
+\i (00:01:47) trapsize 38
+\i (00:01:47) zoom out 1 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) zoom out 8340.64 11938.66
+\i (00:01:47) trapsize 75
+\i (00:01:47) zoom out 1 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) zoom out 8340.64 11938.67
+\i (00:01:47) trapsize 151
+\i (00:01:47) zoom out 1 
+\i (00:01:47) setwindow pcb
+\i (00:01:47) zoom out 8340.65 11938.67
+\i (00:01:47) trapsize 302
+\i (00:01:48) roam start
+\i (00:01:48) roam x 4
+\i (00:01:48) roam y -2
+\i (00:01:48) roam x 13
+\i (00:01:48) roam y -7
+\i (00:01:48) roam x 12
+\i (00:01:48) roam y -9
+\i (00:01:48) roam x 16
+\i (00:01:48) roam y -15
+\i (00:01:48) roam x 27
+\i (00:01:48) roam y -19
+\i (00:01:48) roam x 25
+\i (00:01:48) roam y -18
+\i (00:01:48) roam x 16
+\i (00:01:48) roam y -14
+\i (00:01:48) roam x 10
+\i (00:01:48) roam y -11
+\i (00:01:48) roam x 21
+\i (00:01:48) roam y -28
+\i (00:01:48) roam x 40
+\i (00:01:48) roam y -50
+\i (00:01:48) roam x 58
+\i (00:01:48) roam y -107
+\i (00:01:48) roam x 46
+\i (00:01:48) roam y -99
+\i (00:01:48) roam x 34
+\i (00:01:48) roam y -65
+\i (00:01:48) roam x 22
+\i (00:01:48) roam y -51
+\i (00:01:48) roam x 11
+\i (00:01:48) roam y -24
+\i (00:01:48) roam x 4
+\i (00:01:48) roam y -15
+\i (00:01:48) roam y -4
+\i (00:01:49) roam end
+\i (00:01:49) roam start
+\i (00:01:49) roam x 1
+\i (00:01:49) roam x 22
+\i (00:01:49) roam y -1
+\i (00:01:49) roam x 32
+\i (00:01:49) roam y -9
+\i (00:01:49) roam x 32
+\i (00:01:49) roam y -6
+\i (00:01:49) roam x 34
+\i (00:01:49) roam y -5
+\i (00:01:49) roam x 40
+\i (00:01:49) roam x 40
+\i (00:01:49) roam x 26
+\i (00:01:49) roam y 5
+\i (00:01:49) roam x 41
+\i (00:01:49) roam y 6
+\i (00:01:49) roam x 27
+\i (00:01:49) roam y 3
+\i (00:01:49) roam x 2
+\i (00:01:49) roam end
+\i (00:01:50) roam start
+\i (00:01:50) roam y -1
+\i (00:01:50) roam x 34
+\i (00:01:50) roam x 71
+\i (00:01:50) roam y 20
+\i (00:01:50) roam x 94
+\i (00:01:50) roam y 22
+\i (00:01:50) roam x 35
+\i (00:01:50) roam y 8
+\i (00:01:50) roam x 206
+\i (00:01:50) roam y 40
+\i (00:01:50) roam x 9
+\i (00:01:50) roam y 2
+\i (00:01:50) roam end
+\i (00:01:50) zoom out 1 
+\i (00:01:50) setwindow pcb
+\i (00:01:50) zoom out 8883.19 12128.97
+\i (00:01:50) trapsize 604
+\i (00:01:51) zoom out 1 
+\i (00:01:51) setwindow pcb
+\i (00:01:51) zoom out 8883.19 12128.97
+\i (00:01:51) trapsize 1207
+\i (00:01:51) roam start
+\i (00:01:51) roam x -1
+\i (00:01:51) roam x -19
+\i (00:01:51) roam x -50
+\i (00:01:51) roam x -114
+\i (00:01:51) roam y 11
+\i (00:01:51) roam x -131
+\i (00:01:51) roam y 21
+\i (00:01:51) roam x -84
+\i (00:01:51) roam y 8
+\i (00:01:51) roam x -39
+\i (00:01:51) roam y 6
+\i (00:01:52) roam x -23
+\i (00:01:52) roam y 2
+\i (00:01:52) roam x -3
+\i (00:01:52) roam y 2
+\i (00:01:52) roam x 4
+\i (00:01:52) roam y 3
+\i (00:01:52) roam x 15
+\i (00:01:52) roam y 13
+\i (00:01:52) roam x 25
+\i (00:01:52) roam y 31
+\i (00:01:52) roam x 15
+\i (00:01:52) roam y 19
+\i (00:01:52) roam x 1
+\i (00:01:52) roam y 5
+\i (00:01:52) roam x 6
+\i (00:01:52) roam y 20
+\i (00:01:52) roam x 3
+\i (00:01:52) roam y 14
+\i (00:01:52) roam y 7
+\i (00:01:52) roam x 5
+\i (00:01:52) roam y 11
+\i (00:01:52) roam x 4
+\i (00:01:52) roam y 7
+\i (00:01:52) roam x 3
+\i (00:01:52) roam y 1
+\i (00:01:52) roam x 3
+\i (00:01:52) roam y 4
+\i (00:01:52) roam x 1
+\i (00:01:52) roam y 1
+\i (00:01:52) roam x 1
+\i (00:01:52) roam y 1
+\i (00:01:52) roam x 2
+\i (00:01:52) roam y 1
+\i (00:01:52) roam end
+\i (00:01:53) drag_start grid 8083.97 12002.81
+\i (00:01:53) ucp_move 
+\t (00:01:53) last pick:  8076.09 12074.78
+\t (00:01:53) Pick new location for the element(s).
+\i (00:01:54) drag_stop 8141.92 10947.64
+\i (00:01:54) updateport ReportsPane
+\i (00:01:54) updateport SearchPane
+\i (00:01:55) updateport PropPane
+\i (00:01:55) ucpedit 
+\i (00:01:55) updateport VisibilityPane
+\i (00:01:55) drag_start grid 8170.90 10923.50
+\i (00:01:55) ucp_move 
+\t (00:01:55) last pick:  8122.50 10900.00
+\t (00:01:55) Pick new location for the element(s).
+\i (00:01:58) drag_stop 8262.65 11065.96
+\i (00:01:58) updateport ReportsPane
+\i (00:01:58) updateport SearchPane
+\i (00:01:58) updateport PropPane
+\i (00:01:58) ucpedit 
+\i (00:01:58) updateport VisibilityPane
+\i (00:01:58) prepopup 8265.06 11104.59
+\i (00:02:07) pick grid 8711.76 11215.66
+\t (00:02:07) last pick:  8711.76 11215.66
+\i (00:02:07) roam start
+\i (00:02:07) roam x 1
+\i (00:02:07) roam y -3
+\i (00:02:07) roam y -3
+\i (00:02:07) roam y -10
+\i (00:02:07) roam y -1
+\i (00:02:07) roam y -5
+\i (00:02:07) roam y 1
+\i (00:02:07) roam x 3
+\i (00:02:07) roam y 5
+\i (00:02:07) roam y 8
+\i (00:02:07) roam x 7
+\i (00:02:07) roam y 36
+\i (00:02:07) roam x 7
+\i (00:02:07) roam y 29
+\i (00:02:07) roam x 15
+\i (00:02:07) roam y 32
+\i (00:02:07) roam x 2
+\i (00:02:07) roam y 16
+\i (00:02:07) roam x 4
+\i (00:02:07) roam y 10
+\i (00:02:07) roam x 1
+\i (00:02:07) roam y 10
+\i (00:02:07) roam x 4
+\i (00:02:07) roam y 12
+\i (00:02:08) roam x 2
+\i (00:02:08) roam y 3
+\i (00:02:08) roam y 3
+\i (00:02:08) roam end
+\i (00:02:08) drag_start grid 8294.04 11063.54
+\i (00:02:08) ucp_move 
+\t (00:02:08) last pick:  8301.64 11100.00
+\t (00:02:08) Pick new location for the element(s).
+\i (00:02:09) drag_stop grid 8028.44 10843.81
+\i (00:02:09) updateport ReportsPane
+\i (00:02:09) updateport SearchPane
+\i (00:02:09) updateport PropPane
+\i (00:02:09) ucpedit 
+\i (00:02:09) updateport VisibilityPane
+\i (00:02:09) pick grid 8028.44 10843.81
+\t (00:02:09) last pick:  8028.44 10843.81
+\i (00:02:10) drag_start grid 8026.02 10807.59
+\i (00:02:10) ucp_move 
+\t (00:02:10) last pick:  8000.00 10800.00
+\t (00:02:10) Pick new location for the element(s).
+\i (00:02:11) drag_stop grid 8016.36 10788.28
+\i (00:02:11) updateport ReportsPane
+\i (00:02:11) updateport SearchPane
+\i (00:02:11) updateport PropPane
+\i (00:02:11) ucpedit 
+\i (00:02:11) updateport VisibilityPane
+\i (00:02:11) drag_start grid 8438.91 11022.49
+\i (00:02:12) drag_stop 8422.01 10872.79
+\i (00:02:12) roam start
+\i (00:02:12) roam y -2
+\i (00:02:12) roam y -1
+\i (00:02:13) roam y -6
+\i (00:02:13) roam y -4
+\i (00:02:13) roam y -1
+\i (00:02:13) roam y -3
+\i (00:02:13) roam y -2
+\i (00:02:13) roam y -1
+\i (00:02:13) roam y -2
+\i (00:02:13) roam y -1
+\i (00:02:13) roam y -1
+\i (00:02:13) roam y -1
+\i (00:02:13) roam y -2
+\i (00:02:13) roam y -2
+\i (00:02:13) roam y -1
+\i (00:02:13) roam y -4
+\i (00:02:13) roam y -4
+\i (00:02:13) roam y -1
+\i (00:02:13) roam y -1
+\i (00:02:13) roam y -4
+\i (00:02:13) roam end
+\i (00:02:14) zoom out 1 
+\i (00:02:14) setwindow pcb
+\i (00:02:14) zoom out 8426.84 10937.99
+\i (00:02:14) trapsize 2415
+\i (00:02:14) zoom out 1 
+\i (00:02:14) setwindow pcb
+\i (00:02:14) zoom out 8426.84 10937.99
+\i (00:02:14) trapsize 4829
+\i (00:02:14) zoom out 1 
+\i (00:02:14) setwindow pcb
+\i (00:02:14) zoom out 8426.85 10886.31
+\i (00:02:14) trapsize 9659
+\i (00:02:15) drag_start grid 13522.73 5447.73
+\i (00:02:16) ucp_move 
+\t (00:02:16) Pick new location for the element(s).
+\i (00:02:17) drag_stop grid 14720.45 5582.95
+\i (00:02:17) updateport ReportsPane
+\i (00:02:17) updateport SearchPane
+\i (00:02:17) updateport VisibilityPane
+\i (00:02:17) updateport PropPane
+\i (00:02:17) ucp_shape_edit_mode 
+\i (00:02:17) ucpedit 
+\i (00:02:17) updateport ReportsPane
+\i (00:02:17) updateport SearchPane
+\i (00:02:17) updateport VisibilityPane
+\i (00:02:17) updateport PropPane
+\i (00:02:17) pick grid 14720.45 5582.95
+\t (00:02:17) last pick:  14720.45 5582.95
+\i (00:02:17) pick grid dbl 14720.45 5582.95
+\t (00:02:17) last pick:  14720.45 5582.95
+\i (00:02:18) click shape main 
+\i (00:02:18) ucpedit 
+\i (00:02:18) prepopup 14623.86 5737.50
+\i (00:02:18) updateport ReportsPane
+\i (00:02:18) updateport SearchPane
+\i (00:02:18) updateport VisibilityPane
+\i (00:02:18) updateport PropPane
+\i (00:02:26) pick grid 18642.04 8036.36
+\t (00:02:26) last pick:  18642.04 8036.36
+\i (00:02:26) updateport ReportsPane
+\i (00:02:26) updateport SearchPane
+\i (00:02:26) updateport VisibilityPane
+\i (00:02:26) updateport PropPane
+\i (00:02:28) QtSignal PropertyTab PropertyStatusWidget SelectCategory Design
+\i (00:02:28) updateport SearchPane
+\i (00:02:28) QtSignal ADTableContainerWidget DRCTable selectionChanged
+\i (00:02:30) pick grid 15184.09 8152.27
+\t (00:02:30) last pick:  15184.09 8152.27
+\i (00:02:31) zoom in 1 
+\i (00:02:31) setwindow pcb
+\i (00:02:31) zoom in 8326.14 10200.00
+\i (00:02:31) trapsize 4830
+\i (00:02:31) zoom in 1 
+\i (00:02:31) setwindow pcb
+\i (00:02:31) zoom in 8326.14 10200.00
+\i (00:02:31) trapsize 2415
+\i (00:02:31) zoom in 1 
+\i (00:02:31) setwindow pcb
+\i (00:02:31) zoom in 8326.14 10200.00
+\i (00:02:31) trapsize 1207
+\i (00:02:32) roam start
+\i (00:02:32) roam x -1
+\i (00:02:32) roam y -4
+\i (00:02:32) roam x -4
+\i (00:02:32) roam y -2
+\i (00:02:32) roam x -100
+\i (00:02:32) roam y -88
+\i (00:02:32) roam x -94
+\i (00:02:32) roam y -92
+\i (00:02:32) roam x -107
+\i (00:02:32) roam y -134
+\i (00:02:32) roam x -33
+\i (00:02:32) roam y -34
+\i (00:02:32) roam x -5
+\i (00:02:32) roam y -6
+\i (00:02:32) roam x -8
+\i (00:02:32) roam y -14
+\i (00:02:32) roam x -4
+\i (00:02:32) roam y -6
+\i (00:02:32) roam x -3
+\i (00:02:32) roam y -8
+\i (00:02:32) roam x -1
+\i (00:02:32) roam y -1
+\i (00:02:32) roam y 1
+\i (00:02:32) roam end
+\i (00:02:33) drag_start grid 8017.06 10844.76
+\i (00:02:33) drag_stop 8135.38 10830.27
+\i (00:02:34) pick grid 7963.93 10733.68
+\t (00:02:34) last pick:  7963.93 10733.68
+\i (00:02:34) pick grid dbl 7963.93 10733.68
+\t (00:02:34) last pick:  7963.93 10733.68
+\i (00:02:36) drag_start grid 7988.08 10714.36
+\i (00:02:36) drag_stop 8118.48 11059.67
+\i (00:02:36) pick grid 8145.04 10697.46
+\t (00:02:36) last pick:  8145.04 10697.46
+\i (00:02:37) drag_start grid 8021.89 10721.61
+\i (00:02:37) drag_stop 8021.89 10721.61
+\i (00:02:38) drag_start grid 8058.11 10699.87
+\i (00:02:38) drag_stop 8219.90 10690.21
+\i (00:02:39) QtSignal Allegro_Command_Toolbar AQCommandToolbarMoveButton leftClicked
+\i (00:02:39) ucp_move_mode 
+\i (00:02:39) ucpedit 
+\i (00:02:40) QtSignal UCPMove XSpacingComboBox CurrentIndexChanged Default
+\i (00:02:40) QtSignal UCPMove YSpacingComboBox CurrentIndexChanged Default
+\i (00:02:40) QtSignal UCPMove UCPMoveEtchMode CurrentIndexChanged 1
+\i (00:02:40) QtSignal UCPMove UCPMoveDisplayMode CurrentIndexChanged 0
+\i (00:02:40) updateport VisibilityPane
+\i (00:02:41) QtSignal Allegro_Command_Toolbar AQCommandToolbarTraceButton leftClicked
+\i (00:02:41) ucp_trace_slide_mode 
+\i (00:02:41) ucpedit 
+\i (00:02:41) updateport VisibilityPane
+\i (00:02:41) QtSignal Allegro_Command_Toolbar AQCommandToolbarMoveButton leftClicked
+\i (00:02:41) ucp_move_mode 
+\i (00:02:41) ucpedit 
+\i (00:02:41) updateport VisibilityPane
+\i (00:02:42) roam start
+\i (00:02:42) roam y -2
+\i (00:02:42) roam x 1
+\i (00:02:42) roam y -3
+\i (00:02:42) roam y -2
+\i (00:02:42) roam y -4
+\i (00:02:42) roam y -2
+\i (00:02:42) roam y -4
+\i (00:02:42) roam y -1
+\i (00:02:42) roam y -3
+\i (00:02:42) roam y -1
+\i (00:02:42) roam y -1
+\i (00:02:42) roam y -3
+\i (00:02:42) roam y -1
+\i (00:02:42) roam x -1
+\i (00:02:42) roam y -1
+\i (00:02:42) roam y -2
+\i (00:02:42) roam y -1
+\i (00:02:42) roam x -1
+\i (00:02:42) roam y -1
+\i (00:02:42) roam y -1
+\i (00:02:42) roam x -1
+\i (00:02:42) roam y -3
+\i (00:02:42) roam x -2
+\i (00:02:42) roam y -1
+\i (00:02:42) roam x -2
+\i (00:02:42) roam y -5
+\i (00:02:42) roam x -4
+\i (00:02:42) roam y -4
+\i (00:02:42) roam x -2
+\i (00:02:42) roam y -2
+\i (00:02:42) roam x -17
+\i (00:02:42) roam y -14
+\i (00:02:42) roam x -20
+\i (00:02:42) roam y -11
+\i (00:02:42) roam x -23
+\i (00:02:42) roam y -12
+\i (00:02:42) roam x -27
+\i (00:02:42) roam y -10
+\i (00:02:42) roam x -21
+\i (00:02:42) roam y -7
+\i (00:02:42) roam x -9
+\i (00:02:42) roam y -5
+\i (00:02:42) roam y -1
+\i (00:02:42) roam y -2
+\i (00:02:42) roam x -1
+\i (00:02:42) roam y -1
+\i (00:02:42) roam y -1
+\i (00:02:42) roam y -4
+\i (00:02:42) roam y -5
+\i (00:02:43) roam x 4
+\i (00:02:43) roam y -4
+\i (00:02:43) roam y -2
+\i (00:02:43) roam x 4
+\i (00:02:43) roam y -4
+\i (00:02:43) roam x 1
+\i (00:02:43) roam y -1
+\i (00:02:43) roam y -1
+\i (00:02:43) roam end
+\i (00:02:43) roam start
+\i (00:02:43) roam y 3
+\i (00:02:43) roam x 4
+\i (00:02:43) roam y 29
+\i (00:02:43) roam x 8
+\i (00:02:43) roam y 40
+\i (00:02:43) roam x 3
+\i (00:02:43) roam y 10
+\i (00:02:43) roam y 3
+\i (00:02:43) roam y 1
+\i (00:02:43) roam y 1
+\i (00:02:43) roam y 3
+\i (00:02:44) roam y 6
+\i (00:02:44) roam y -5
+\i (00:02:44) roam y -10
+\i (00:02:44) roam x 9
+\i (00:02:44) roam y -30
+\i (00:02:44) roam x 2
+\i (00:02:44) roam y -15
+\i (00:02:44) roam end
+\i (00:02:44) drag_start grid 8021.89 10690.21
+\i (00:02:44) drag_stop 8021.89 10690.21
+\i (00:02:44) pick grid dbl 8021.89 10690.21
+\t (00:02:44) last pick:  8021.89 10690.21
+\i (00:02:46) drag_start grid 8311.66 10989.64
+\i (00:02:46) drag_stop 7507.54 10366.63
+\i (00:02:46) drag_start grid 7864.93 10714.36
+\i (00:02:47) drag_stop 8456.55 10820.61
+\i (00:02:47) zoom out 1 
+\i (00:02:47) setwindow pcb
+\i (00:02:47) zoom out 8306.83 10704.70
+\i (00:02:47) trapsize 2415
+\i (00:02:48) zoom out 1 
+\i (00:02:48) setwindow pcb
+\i (00:02:48) zoom out 8306.83 10704.70
+\i (00:02:48) trapsize 4830
+\i (00:02:48) roam start
+\i (00:02:48) roam x 1
+\i (00:02:48) roam y 2
+\i (00:02:48) roam x 3
+\i (00:02:48) roam y 3
+\i (00:02:48) roam x 35
+\i (00:02:48) roam y 18
+\i (00:02:48) roam x 5
+\i (00:02:48) roam y 2
+\i (00:02:48) roam x 34
+\i (00:02:48) roam y 30
+\i (00:02:48) roam x 31
+\i (00:02:48) roam y 29
+\i (00:02:48) roam x 30
+\i (00:02:48) roam y 29
+\i (00:02:49) roam x 21
+\i (00:02:49) roam y 21
+\i (00:02:49) roam x 11
+\i (00:02:49) roam y 13
+\i (00:02:49) roam x 4
+\i (00:02:49) roam y 3
+\i (00:02:49) roam x 26
+\i (00:02:49) roam y 40
+\i (00:02:49) roam x 4
+\i (00:02:49) roam y 5
+\i (00:02:49) roam y 3
+\i (00:02:49) roam y 1
+\i (00:02:49) roam end
+\i (00:02:49) roam start
+\i (00:02:49) roam y 2
+\i (00:02:49) roam x 4
+\i (00:02:49) roam y 28
+\i (00:02:49) roam x 15
+\i (00:02:49) roam y 71
+\i (00:02:49) roam x 9
+\i (00:02:49) roam y 40
+\i (00:02:49) roam x 2
+\i (00:02:49) roam y 19
+\i (00:02:49) roam x 4
+\i (00:02:49) roam y 12
+\i (00:02:49) roam y 3
+\i (00:02:49) roam x 4
+\i (00:02:49) roam y 11
+\i (00:02:49) roam y 5
+\i (00:02:49) roam y 1
+\i (00:02:50) roam end
+\i (00:02:55) pick grid 8741.51 7244.34
+\t (00:02:55) last pick:  8741.51 7244.34
+\i (00:02:56) drag_start grid 8741.51 7244.34
+\i (00:02:56) drag_stop 6993.21 7563.09
+\i (00:02:57) pick grid 9900.60 11504.01
+\t (00:02:57) last pick:  9900.60 11504.01
+\i (00:02:57) pick grid 9890.94 11619.92
+\t (00:02:57) last pick:  9890.94 11619.92
+\i (00:02:57) ucp_move 
+\t (00:02:57) Pick new location for the element(s).
+\i (00:02:59) pick grid 9610.83 11619.92
+\t (00:02:59) last pick:  9610.83 11619.92
+\i (00:02:59) updateport ReportsPane
+\i (00:02:59) updateport SearchPane
+\i (00:02:59) updateport PropPane
+\i (00:02:59) ucpedit 
+\i (00:02:59) updateport VisibilityPane
+\i (00:03:00) drag_start grid 9668.78 11590.94
+\i (00:03:00) drag_stop 10035.83 11040.37
+\i (00:03:00) pick grid 9939.24 11561.96
+\t (00:03:00) last pick:  9939.24 11561.96
+\i (00:03:01) drag_start grid 9948.90 11523.33
+\i (00:03:02) drag_stop 10634.69 11223.89
+\i (00:03:04) pick grid 8480.71 11165.94
+\t (00:03:04) last pick:  8480.71 11165.94
+\i (00:03:06) drag_start grid 8451.73 11542.65
+\i (00:03:06) drag_stop 7292.64 11446.05
+\i (00:03:07) pick grid 8548.32 5515.36
+\t (00:03:07) last pick:  8548.32 5515.36
+\i (00:03:08) drag_start grid 8451.73 5553.99
+\i (00:03:08) drag_stop 6548.89 5814.79
+\i (00:03:09) drag_start grid 8461.39 5563.65
+\i (00:03:09) drag_stop 7350.59 5669.90
+\i (00:03:10) drag_start grid 9263.10 5525.01
+\i (00:03:10) drag_stop 8393.78 5534.67
+\i (00:03:10) ucp_move 
+\t (00:03:10) Pick new location for the element(s).
+\i (00:03:10) pick grid 8432.41 5457.40
+\t (00:03:10) last pick:  8432.41 5457.40
+\i (00:03:10) updateport ReportsPane
+\i (00:03:10) updateport SearchPane
+\i (00:03:10) updateport PropPane
+\i (00:03:10) ucpedit 
+\i (00:03:11) updateport VisibilityPane
+\i (00:03:11) drag_start grid 8635.26 5515.36
+\i (00:03:11) drag_stop 10412.53 5428.42
+\i (00:03:12) drag_start grid 8480.71 5611.95
+\i (00:03:12) drag_stop 7920.48 6423.31
+\i (00:03:13) drag_start grid 8500.03 5515.36
+\i (00:03:13) drag_stop 9707.42 5901.72
+\i (00:03:13) drag_start grid 8944.35 5756.83
+\i (00:03:13) drag_stop 7688.66 5273.88
+\i (00:03:14) drag_start grid 8500.03 5505.70
+\i (00:03:15) drag_stop 8142.64 5341.49
+\i (00:03:15) drag_start grid 8490.37 5563.65
+\i (00:03:16) drag_stop 8867.07 5611.95
+\i (00:03:16) drag_start grid 8432.41 5515.36
+\i (00:03:17) drag_stop 8731.85 5225.58
+\i (00:03:18) drag_start grid 8731.85 5138.65
+\i (00:03:18) drag_stop 7872.19 6577.86
+\i (00:03:20) drag_start grid 8364.80 7456.84
+\i (00:03:20) drag_stop 9804.01 7360.25
+\i (00:03:21) drag_start grid 11252.88 11542.65
+\i (00:03:21) drag_stop 7080.14 8557.98
+\i (00:03:21) pick grid 7080.14 8557.98
+\t (00:03:21) last pick:  7080.14 8557.98
+\i (00:03:22) drag_start grid 7099.46 12421.62
+\i (00:03:23) drag_stop 9659.12 9813.66
+\i (00:03:24) drag_start grid 8007.41 10654.01
+\i (00:03:24) drag_stop 8007.41 11745.49
+\i (00:03:26) drag_start grid 7968.78 10798.89
+\i (00:03:27) drag_stop 7833.55 11697.19
+\i (00:03:27) drag_start grid 7872.19 10876.17
+\i (00:03:28) drag_stop 8017.07 10654.01
+\i (00:03:29) drag_start grid 8442.07 10779.57
+\i (00:03:29) drag_stop 8548.32 9678.44
+\i (00:03:30) pick grid 8345.48 9668.78
+\t (00:03:30) last pick:  8345.48 9668.78
+\i (00:03:30) pick grid 8413.10 9668.78
+\t (00:03:30) last pick:  8413.10 9668.78
+\i (00:03:31) prepopup 8413.10 9668.78
+\i (00:03:31) pick grid 8007.41 9630.14
+\t (00:03:31) last pick:  8007.41 9630.14
+\i (00:03:32) zoom in 1 
+\i (00:03:32) setwindow pcb
+\i (00:03:32) zoom in 8017.07 9678.44
+\i (00:03:32) trapsize 2415
+\i (00:03:32) roam start
+\i (00:03:32) roam y -2
+\i (00:03:32) roam y -11
+\i (00:03:32) roam x 7
+\i (00:03:32) roam y -41
+\i (00:03:32) roam x 1
+\i (00:03:32) roam y -53
+\i (00:03:33) roam y -72
+\i (00:03:33) roam y -75
+\i (00:03:33) roam y -130
+\i (00:03:33) roam y -45
+\i (00:03:33) roam x -1
+\i (00:03:33) roam y -21
+\i (00:03:33) roam y -14
+\i (00:03:33) roam y -3
+\i (00:03:33) roam y -2
+\i (00:03:33) roam end
+\i (00:03:34) drag_start grid 8055.70 10784.41
+\i (00:03:34) drag_stop 8055.70 11450.89
+\i (00:03:34) updateport ReportsPane
+\i (00:03:34) updateport SearchPane
+\i (00:03:34) updateport PropPane
+\i (00:03:36) drag_start grid 7389.22 12735.55
+\i (00:03:36) drag_stop 9427.30 10562.25
+\i (00:03:37) pick grid 8852.58 11209.41
+\t (00:03:37) last pick:  8852.58 11209.41
+\i (00:03:38) drag_start grid 8992.64 12271.91
+\i (00:03:38) drag_stop 8813.94 11817.93
+\i (00:03:39) drag_start grid 8891.21 12320.21
+\i (00:03:39) drag_stop 8678.71 12015.95
+\i (00:03:40) QtSignal Allegro_Command_Toolbar AQCommandToolbarTraceButton leftClicked
+\i (00:03:40) ucp_trace_slide_mode 
+\i (00:03:40) ucpedit 
+\i (00:03:40) updateport VisibilityPane
+\i (00:03:42) drag_start grid 8900.87 12223.62
+\i (00:03:42) drag_stop 9427.30 10909.98
+\i (00:03:43) drag_start grid 7925.30 10847.19
+\i (00:03:43) drag_stop 8137.80 12006.29
+\i (00:03:44) pick grid 7896.33 10702.31
+\t (00:03:44) last pick:  7896.33 10702.31
+\i (00:03:44) ucp_trace_slide_pick 
+\t (00:03:44) Selected item not valid for current operation, ignored: Ratsnest "N1078951, U75.2:R6(10ohm).1"
+\t (00:03:44) Selected item not valid for current operation, ignored: Symbol "U75"
+\t (00:03:44) Selected item not valid for current operation, ignored: Rectangle "Board Geometry/Top_Room"
+\t (00:03:44) Selected item not valid for current operation, ignored: Symbol "C10(0.1Uf)"
+\t (00:03:44) No valid items selected for the current operation, exiting.
+\i (00:03:44) ucpedit 
+\i (00:03:44) updateport VisibilityPane
+\i (00:03:45) roam start
+\i (00:03:45) roam y 4
+\i (00:03:45) roam x -1
+\i (00:03:45) roam y 30
+\i (00:03:45) roam y 70
+\i (00:03:45) roam y 26
+\i (00:03:45) roam y -1
+\i (00:03:45) roam y -6
+\i (00:03:45) roam y -7
+\i (00:03:45) roam y -1
+\i (00:03:45) roam end
+\i (00:03:46) prepopup 7901.15 10711.96
+\i (00:03:46) drag_start grid 7896.32 11103.16
+\i (00:03:46) drag_stop 7896.32 11098.33
+\i (00:03:47) pick grid 7891.50 10803.73
+\t (00:03:47) last pick:  7891.50 10803.73
+\i (00:03:47) ucp_trace_slide_pick 
+\t (00:03:47) Selected item not valid for current operation, ignored: Symbol "U75"
+\t (00:03:47) No valid items selected for the current operation, exiting.
+\i (00:03:47) ucpedit 
+\i (00:03:47) updateport VisibilityPane
+\i (00:03:53) QtSignal UCP_Trace_edit AutoJoinCheckbox clicked false
+\i (00:03:55) drag_start grid 7949.45 10789.24
+\i (00:03:56) drag_stop 8166.78 11045.20
+\i (00:03:56) updateport ReportsPane
+\i (00:03:56) updateport SearchPane
+\i (00:03:56) updateport PropPane
+\i (00:03:59) QtSignal Allegro_Command_Toolbar AQCommandToolbarMoveButton leftClicked
+\i (00:03:59) ucp_move_mode 
+\i (00:03:59) updateport ReportsPane
+\i (00:03:59) updateport SearchPane
+\i (00:03:59) updateport PropPane
+\i (00:03:59) ucpedit 
+\i (00:03:59) updateport ReportsPane
+\i (00:03:59) updateport SearchPane
+\i (00:03:59) updateport VisibilityPane
+\i (00:03:59) updateport PropPane
+\i (00:04:02) QtSignal Allegro_Command_Toolbar AQCommandToolbarMoveButton rightClicked
+\i (00:04:03) QtSignal MovePopUpMenu Place clicked
+\i (00:04:04) ucp_place_component_mode 
+\i (00:04:04) updateport ReportsPane
+\i (00:04:04) updateport SearchPane
+\i (00:04:04) updateport PropPane
+\i (00:04:04) ucpedit 
+\i (00:04:04) QtSignal UCPPlaceComponent UCPPlaceMode CurrentIndexChanged 0
+\i (00:04:04) QtSignal UCPPlaceComponent UCPPlaceDirection CurrentIndexChanged 0
+\i (00:04:04) QtSignal UCPPlaceComponent UCPPlaceClusterSize valueChanged 5
+\i (00:04:04) updateport ReportsPane
+\i (00:04:04) updateport SearchPane
+\i (00:04:04) updateport VisibilityPane
+\i (00:04:04) updateport PropPane
+\i (00:04:05) drag_start grid 7939.79 10750.60
+\i (00:04:05) drag_stop 7249.16 10668.50
+\i (00:04:05) ucp_place_component 
+\i (00:04:05) updateport ReportsPane
+\i (00:04:05) updateport SearchPane
+\i (00:04:05) updateport PropPane
+\i (00:04:07) pick grid 9180.99 10538.10
+\t (00:04:07) last pick:  9180.99 10538.10
+\i (00:04:07) updateport ReportsPane
+\i (00:04:07) updateport SearchPane
+\i (00:04:07) updateport PropPane
+\i (00:04:07) ucpedit 
+\i (00:04:08) updateport ReportsPane
+\i (00:04:08) updateport SearchPane
+\i (00:04:08) updateport VisibilityPane
+\i (00:04:08) updateport PropPane
+\i (00:04:08) drag_start grid 7616.21 11619.92
+\i (00:04:08) drag_stop 7625.87 11619.92
+\i (00:04:09) ucp_place_component 
+\i (00:04:09) updateport ReportsPane
+\i (00:04:09) updateport SearchPane
+\i (00:04:09) updateport PropPane
+\i (00:04:10) pick grid 8765.65 10248.33
+\t (00:04:10) last pick:  8765.65 10248.33
+\i (00:04:10) updateport ReportsPane
+\i (00:04:10) updateport SearchPane
+\i (00:04:10) updateport PropPane
+\i (00:04:10) ucpedit 
+\i (00:04:10) updateport VisibilityPane
+\i (00:04:11) pick grid 8306.84 11721.34
+\t (00:04:11) last pick:  8306.84 11721.34
+\i (00:04:11) ucp_place_component 
+\i (00:04:11) updateport ReportsPane
+\i (00:04:11) updateport SearchPane
+\i (00:04:11) updateport PropPane
+\i (00:04:12) pick grid 10262.81 9915.09
+\t (00:04:12) last pick:  10262.81 9915.09
+\i (00:04:12) updateport ReportsPane
+\i (00:04:12) updateport SearchPane
+\i (00:04:12) updateport PropPane
+\i (00:04:12) ucpedit 
+\i (00:04:12) updateport VisibilityPane
+\i (00:04:13) pick grid 8432.41 11798.62
+\t (00:04:13) last pick:  8432.41 11798.62
+\e (00:04:13) Drc Error "Package_Top, Package To Place Keepin Spacing" is not a valid item for placement.
+\i (00:04:13) drag_start grid 8311.67 11842.08
+\i (00:04:13) drag_stop 8311.67 11842.08
+\i (00:04:14) ucp_place_component 
+\i (00:04:14) updateport ReportsPane
+\i (00:04:14) updateport SearchPane
+\i (00:04:14) updateport PropPane
+\i (00:04:14) pick grid 10122.75 10837.53
+\t (00:04:14) last pick:  10122.75 10837.53
+\i (00:04:14) updateport ReportsPane
+\i (00:04:14) updateport SearchPane
+\i (00:04:14) updateport PropPane
+\i (00:04:14) ucpedit 
+\i (00:04:15) updateport VisibilityPane
+\i (00:04:16) pick grid 8553.14 12015.95
+\t (00:04:16) last pick:  8553.14 12015.95
+\i (00:04:16) ucp_place_component 
+\i (00:04:16) updateport ReportsPane
+\i (00:04:16) updateport SearchPane
+\i (00:04:16) updateport PropPane
+\i (00:04:17) pick grid 9741.22 9436.96
+\t (00:04:17) last pick:  9741.22 9436.96
+\i (00:04:17) updateport ReportsPane
+\i (00:04:17) updateport SearchPane
+\i (00:04:17) updateport VisibilityPane
+\i (00:04:17) updateport PropPane
+\i (00:04:17) ucpedit 
+\i (00:04:17) updateport VisibilityPane
+\i (00:04:18) pick grid 8891.21 12209.13
+\t (00:04:18) last pick:  8891.21 12209.13
+\i (00:04:18) ucp_place_component 
+\i (00:04:19) updateport ReportsPane
+\i (00:04:19) updateport SearchPane
+\i (00:04:19) updateport PropPane
+\i (00:04:21) pick grid 9543.20 9857.13
+\t (00:04:21) last pick:  9543.20 9857.13
+\i (00:04:21) updateport ReportsPane
+\i (00:04:21) updateport SearchPane
+\i (00:04:21) updateport PropPane
+\i (00:04:21) ucpedit 
+\i (00:04:21) updateport VisibilityPane
+\i (00:04:22) pick grid 8649.74 12305.72
+\t (00:04:22) last pick:  8649.74 12305.72
+\i (00:04:22) ucp_place_component 
+\i (00:04:23) updateport ReportsPane
+\i (00:04:23) updateport SearchPane
+\i (00:04:23) updateport PropPane
+\i (00:04:23) pick grid 9678.43 10953.44
+\t (00:04:23) last pick:  9678.43 10953.44
+\i (00:04:23) updateport ReportsPane
+\i (00:04:23) updateport SearchPane
+\i (00:04:23) updateport PropPane
+\i (00:04:23) ucpedit 
+\i (00:04:24) updateport VisibilityPane
+\i (00:04:25) pick grid 7828.71 12474.75
+\t (00:04:25) last pick:  7828.71 12474.75
+\i (00:04:25) ucp_place_component 
+\i (00:04:25) updateport ReportsPane
+\i (00:04:25) updateport SearchPane
+\i (00:04:25) updateport PropPane
+\i (00:04:26) pick grid 9253.43 11122.48
+\t (00:04:26) last pick:  9253.43 11122.48
+\i (00:04:26) updateport ReportsPane
+\i (00:04:26) updateport SearchPane
+\i (00:04:26) updateport PropPane
+\i (00:04:26) ucpedit 
+\i (00:04:26) updateport VisibilityPane
+\i (00:04:27) pick grid 7611.38 12397.48
+\t (00:04:27) last pick:  7611.38 12397.48
+\i (00:04:27) ucp_place_component 
+\i (00:04:27) updateport ReportsPane
+\i (00:04:27) updateport SearchPane
+\i (00:04:27) updateport PropPane
+\i (00:04:28) pick grid 8818.77 11045.20
+\t (00:04:28) last pick:  8818.77 11045.20
+\i (00:04:28) updateport ReportsPane
+\i (00:04:28) updateport SearchPane
+\i (00:04:28) updateport PropPane
+\i (00:04:28) ucpedit 
+\i (00:04:28) updateport VisibilityPane
+\i (00:04:29) pick grid 9084.40 12276.74
+\t (00:04:29) last pick:  9084.40 12276.74
+\e (00:04:29) Rectangle "Board Geometry/Top_Room" is not a valid item for placement.
+\i (00:04:29) updateport ReportsPane
+\i (00:04:29) updateport SearchPane
+\i (00:04:29) updateport PropPane
+\i (00:04:30) pick grid 9113.37 12271.91
+\t (00:04:30) last pick:  9113.37 12271.91
+\e (00:04:30) Rectangle "Board Geometry/Top_Room" is not a valid item for placement.
+\i (00:04:30) updateport ReportsPane
+\i (00:04:30) updateport SearchPane
+\i (00:04:30) updateport PropPane
+\i (00:04:30) pick grid 9103.71 12271.91
+\t (00:04:30) last pick:  9103.71 12271.91
+\e (00:04:30) Rectangle "Board Geometry/Top_Room" is not a valid item for placement.
+\i (00:04:30) updateport ReportsPane
+\i (00:04:30) updateport SearchPane
+\i (00:04:30) updateport PropPane
+\i (00:04:31) zoom in 1 
+\i (00:04:31) setwindow pcb
+\i (00:04:31) zoom in 10407.70 10209.69
+\i (00:04:31) trapsize 1207
+\i (00:04:31) roam start
+\i (00:04:31) roam x 1
+\i (00:04:31) roam y 1
+\i (00:04:32) roam x 5
+\i (00:04:32) roam y 9
+\i (00:04:32) roam x 5
+\i (00:04:32) roam y 9
+\i (00:04:32) roam x 15
+\i (00:04:32) roam y 20
+\i (00:04:32) roam x 27
+\i (00:04:32) roam y 31
+\i (00:04:32) roam x 19
+\i (00:04:32) roam y 23
+\i (00:04:32) roam x 4
+\i (00:04:32) roam y 6
+\i (00:04:32) roam x 4
+\i (00:04:32) roam y 6
+\i (00:04:32) roam x 7
+\i (00:04:32) roam y 16
+\i (00:04:32) roam x 5
+\i (00:04:32) roam y 8
+\i (00:04:32) roam x 15
+\i (00:04:32) roam y 15
+\i (00:04:32) roam x 18
+\i (00:04:32) roam y 16
+\i (00:04:32) roam x 2
+\i (00:04:32) roam y 4
+\i (00:04:32) roam x 4
+\i (00:04:32) roam y 4
+\i (00:04:32) roam end
+\i (00:04:32) zoom out 1 
+\i (00:04:32) setwindow pcb
+\i (00:04:32) zoom out 10482.54 10129.99
+\i (00:04:32) trapsize 2415
+\i (00:04:32) zoom out 1 
+\i (00:04:32) setwindow pcb
+\i (00:04:32) zoom out 10482.54 10129.99
+\i (00:04:32) trapsize 4830
+\i (00:04:33) zoom out 1 
+\i (00:04:33) setwindow pcb
+\i (00:04:33) zoom out 11274.59 9444.19
+\i (00:04:33) trapsize 9659
+\i (00:04:35) zoom in 1 
+\i (00:04:35) setwindow pcb
+\i (00:04:35) zoom in 11223.86 7978.41
+\i (00:04:35) trapsize 4830
+\i (00:04:37) QtSignal UCPTopQuickAccessToolbar UCPQuickAccessToolbar_Grids mouseReleased
+\i (00:04:39) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMils selectionChanged
+\i (00:04:40) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMils selectionChanged
+\i (00:04:40) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMils selectionChanged
+\i (00:04:40) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMils selectionChanged
+\i (00:04:41) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMils selectionChanged
+\i (00:04:41) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMM selectionChanged
+\i (00:04:42) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMM selectionChanged
+\i (00:04:42) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMM selectionChanged
+\i (00:04:42) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMM selectionChanged
+\i (00:04:42) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMM selectionChanged
+\i (00:04:43) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMM selectionChanged +
+\i (00:04:43) QtSignal "1.00 / 5.00"
+\i (00:04:44) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMM selectionChanged +
+\i (00:04:44) QtSignal "1.00 / 5.00"
+\i (00:04:44) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMM selectionChanged +
+\i (00:04:44) QtSignal "1.00 / 5.00"
+\i (00:04:45) pick grid 11262.50 8644.89
+\t (00:04:45) last pick:  11262.50 8644.89
+\i (00:04:46) QtSignal UCPTopQuickAccessToolbar UCPQuickAccessToolbar_Grids mouseReleased
+\i (00:04:46) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMils selectionChanged
+\i (00:04:46) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMils selectionChanged
+\i (00:04:46) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMils selectionChanged
+\i (00:04:46) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMils selectionChanged
+\i (00:04:46) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMils selectionChanged
+\i (00:04:46) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMM selectionChanged +
+\i (00:04:46) QtSignal "1.00 / 5.00"
+\i (00:04:46) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMM selectionChanged +
+\i (00:04:46) QtSignal "1.00 / 5.00"
+\i (00:04:46) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMM selectionChanged +
+\i (00:04:46) QtSignal "1.00 / 5.00"
+\i (00:04:46) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMM selectionChanged +
+\i (00:04:46) QtSignal "1.00 / 5.00"
+\i (00:04:46) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMM selectionChanged +
+\i (00:04:46) QtSignal "1.00 / 5.00"
+\i (00:04:46) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMM selectionChanged +
+\i (00:04:46) QtSignal "1.00 / 5.00"
+\i (00:04:46) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMM selectionChanged +
+\i (00:04:46) QtSignal ".125 / .250"
+\i (00:04:47) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMM selectionChanged +
+\i (00:04:47) QtSignal ".125 / .250"
+\i (00:04:47) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMils selectionChanged
+\i (00:04:47) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMils selectionChanged
+\i (00:04:47) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMils selectionChanged
+\i (00:04:47) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMils selectionChanged
+\i (00:04:47) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMils selectionChanged
+\i (00:04:48) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMils selectionChanged
+\i (00:04:48) QtSignal UCPQuickAccessToolbarGridsWidget UCPQuickAccessToolbarGridsMils selectionChanged +
+\i (00:04:48) QtSignal "1 / 5"
+\i (00:04:49) QtSignal UCPTopQuickAccessToolbar UCPQuickAccessToolbar_Snapping mouseReleased
+\i (00:05:04) updateport CMPanelPort
+\i (00:05:04) updateport PropPane
+\i (00:05:04) updateport ReportsPane
+\i (00:05:04) updateport SearchPane
+\i (00:05:05) trapsize 3592
+\i (00:05:05) trapsize 4724
+\i (00:05:05) trapsize 4830
+\i (00:05:09) drag_start grid 11484.66 8403.41
+\i (00:05:09) drag_stop 8142.61 11272.16
+\i (00:05:09) ucp_place_component 
+\i (00:05:09) updateport ReportsPane
+\i (00:05:09) updateport SearchPane
+\i (00:05:09) updateport PropPane
+\i (00:05:09) pick grid 10702.27 10576.71
+\t (00:05:09) last pick:  10702.27 10576.71
+\i (00:05:09) updateport ReportsPane
+\i (00:05:09) updateport SearchPane
+\i (00:05:10) updateport PropPane
+\i (00:05:10) pick grid 9234.09 10963.07
+\t (00:05:10) last pick:  9234.09 10963.07
+\i (00:05:11) updateport ReportsPane
+\i (00:05:11) updateport SearchPane
+\i (00:05:11) updateport PropPane
+\i (00:05:11) pick grid 9050.57 9852.28
+\t (00:05:11) last pick:  9050.57 9852.28
+\i (00:05:11) updateport ReportsPane
+\i (00:05:11) updateport SearchPane
+\i (00:05:11) updateport PropPane
+\i (00:05:12) zoom in 1 
+\i (00:05:12) setwindow pcb
+\i (00:05:12) zoom in 9234.09 9861.94
+\i (00:05:12) trapsize 2415
+\i (00:05:12) zoom in 1 
+\i (00:05:12) setwindow pcb
+\i (00:05:12) zoom in 9234.09 9861.94
+\i (00:05:12) trapsize 1207
+\i (00:05:13) pick grid 9248.58 9497.31
+\t (00:05:13) last pick:  9248.58 9497.31
+\i (00:05:13) updateport ReportsPane
+\i (00:05:13) updateport SearchPane
+\i (00:05:13) updateport PropPane
+\i (00:05:15) esc 
+\i (00:05:15) updateport ReportsPane
+\i (00:05:15) updateport SearchPane
+\i (00:05:15) updateport PropPane
+\i (00:05:15) ucpedit 
+\i (00:05:15) updateport VisibilityPane
+\i (00:05:17) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:05:17) QtSignal MainCanvas ImpGrpSel closed
+\i (00:05:17) QtSignal MainCanvas CplPrefDialog closed
+\i (00:05:17) QtSignal MainCanvas CplGrpSel closed
+\i (00:05:17) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:05:17) QtSignal MainCanvas ImpPrefDialog closed
+\i (00:05:17) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\t (00:05:23)     Journal end - Wed Apr  2 15:35:52 2025

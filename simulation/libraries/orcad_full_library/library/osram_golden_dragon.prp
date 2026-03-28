@@ -1,0 +1,302 @@
+("LB_W5SM-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:20:12 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "500m")
+		(PDM "2")
+		(TJ "125")
+	)
+)
+("LR_W5KM-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:20:12 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "400m")
+		(PDM "1.1")
+		(TJ "125")
+	)
+)
+("LT_W5SM-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:20:12 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "500m")
+		(PDM "2")
+		(TJ "125")
+	)
+)
+("ZW_W5SG-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:20:12 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "500m")
+		(PDM "2")
+		(TJ "125")
+	)
+)
+("LV_W5SG-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:20:12 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "500m")
+		(PDM "2.3")
+		(TJ "125")
+	)
+)
+("LB_W5KM-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:20:12 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "400m")
+		(PDM "1.6")
+		(TJ "125")
+	)
+)
+("LB_W5SG-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:20:12 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "500m")
+		(PDM "2.3")
+		(TJ "125")
+	)
+)
+("LR_W5SM-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:20:12 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "500m")
+		(PDM "1.4")
+		(TJ "125")
+	)
+)
+("LY_W5SM-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:20:12 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "500m")
+		(PDM "1.4")
+		(TJ "125")
+	)
+)
+("LA_W5SM-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:20:12 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "500m")
+		(PDM "1.4")
+		(TJ "125")
+	)
+)
+("LT_W5KM-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:20:12 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "400m")
+		(PDM "1.6")
+		(TJ "125")
+	)
+)
+("LA_W57B-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:20:12 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "400m")
+		(VD "12")
+		(PDM "1.25")
+		(TJ "125")
+	)
+)
+("LW_W5SG-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:20:12 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "500m")
+		(PDM "2.3")
+		(TJ "125")
+	)
+)
+("LY_W57B-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:20:12 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "400m")
+		(VD "12")
+		(PDM "1.25")
+		(TJ "125")
+	)
+)
+("LT_W5SG-TYP"
+	(Creator "Device property file created by prp_generator on Fri Oct 27 16:20:12 IST 06")
+	("device_info"
+		(SYMBOL_NAME "LED")
+		(MODEL_TYPE "222")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(NODE_AN "1")
+		(NODE_CAT "2")
+		(TERM_AN "1")
+		(DERATE_TYPE "LED")
+	)
+	("device_max_ops"
+		(IFD "500m")
+		(PDM "2.3")
+		(TJ "125")
+	)
+)

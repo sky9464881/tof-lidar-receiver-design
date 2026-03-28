@@ -1,0 +1,611 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../cdssetup/workspace/projects/lidarproject/allegro/lidarproject.brd     |
+|                                                    Wed Apr  2 00:17:51 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  12V          pins ADDED TO this new net
+                                 C1.1           C2.1           C245.2         
+                                 JP1.4          U1.1           U74.22         
+                                 U74.23         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  0            pins ADDED TO this new net
+                                 C236.2         C237.2         C238.2         
+                                 C249.2         J1.2           J1.4           
+                                 J1.6           J1.8           J1.10          
+                                 J1.12          J1.14          J1.16          
+                                 J1.18          J1.20          R78.2          
+                                 R123.2         U16.2          U63.2          
+                                 U63.3          U63.4          U63.5          
+                                 U72.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  +VS_5V       pins ADDED TO this new net
+                                 C49.1          C52.1          C53.1          
+                                 C134.2         C219.1         C222.1         
+                                 C223.1         C226.1         C237.1         
+                                 C238.1         IC9.7          IC9.8          
+                                 R61.1          R128.1         U1.3           
+                                 U15.7          U16.5          U45.7          
+                                 U72.5          U73.7          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  -12V         pins ADDED TO this new net
+                                 C7.2           C225.2         JP1.2          
+                                 U3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  -VS_5V       pins ADDED TO this new net
+                                 C136.2         C224.1         C227.2         
+                                 C243.1         R61.3          R78.1          
+                                 R128.3         U3.3           U15.4          
+                                 U45.4          U73.4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  -VS_5V_2     pins ADDED TO this new net
+                                 C241.2         C242.2         U70.4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  APD_BIAS     pins ADDED TO this new net
+                                 C128.2         C244.1         R73.2          
+                                 U74.12         U74.13         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 C1.2           C2.2           C7.1           
+                                 C49.2          C50.2          C52.2          
+                                 C53.2          C128.1         C132.1         
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../cdssetup/workspace/projects/lidarproject/allegro/lidarproject.brd     |
+|                                                    Wed Apr  2 00:17:51 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 C134.1         C135.1         C136.1         
+                                 C137.1         C218.2         C219.2         
+                                 C220.2         C221.2         C222.2         
+                                 C223.2         C224.2         C225.1         
+                                 C226.2         C227.1         C239.1         
+                                 C240.1         C241.1         C242.1         
+                                 C243.2         C248.1         C248.2         
+                                 IC9.5          IC9.9          JP1.3          
+                                 R137.1         R138.1         R144.2         
+                                 U1.2           U1.4           U3.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1062299     pins ADDED TO this new net
+                                 R136.3         U74.8          U74.17         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1062363     pins ADDED TO this new net
+                                 R136.2         U74.9          U74.16         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1062371     pins ADDED TO this new net
+                                 C244.2         R136.1         R137.2         
+                                 U74.10         U74.15         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1062861     pins ADDED TO this new net
+                                 C245.1         R138.2         U74.2          
+                                 U74.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1063073     pins ADDED TO this new net
+                                 R126.2         R141.1         U72.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1063281     pins ADDED TO this new net
+                                 C12.1          R74.1          R145.1         
+                                 U75.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1063289     pins ADDED TO this new net
+                                 C12.2          IC9.1          R74.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1063429     pins ADDED TO this new net
+                                 R127.1         U73.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1063437     pins ADDED TO this new net
+                                 R127.2         R129.1         U73.6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1063451     pins ADDED TO this new net
+                                 C132.2         R73.1          U75.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1063533     pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../cdssetup/workspace/projects/lidarproject/allegro/lidarproject.brd     |
+|                                                    Wed Apr  2 00:17:51 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 C230.1         C231.1         R117.2         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1063541     pins ADDED TO this new net
+                                 R114.2         R117.1         U70.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1063553     pins ADDED TO this new net
+                                 C232.2         C233.2         R114.1         
+                                 U70.6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1063569     pins ADDED TO this new net
+                                 C232.1         C233.1         R122.2         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1063585     pins ADDED TO this new net
+                                 R126.1         R142.1         U72.6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1063739     pins ADDED TO this new net
+                                 IC9.3          R145.2         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1063797     pins ADDED TO this new net
+                                 C137.2         IC9.4          R80.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1063839     pins ADDED TO this new net
+                                 C220.1         R129.2         U72.4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1063921     pins ADDED TO this new net
+                                 C221.1         C249.1         R128.2         
+                                 U73.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1063993     pins ADDED TO this new net
+                                 R144.1         U70.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1064339     pins ADDED TO this new net
+                                 R77.2          U45.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1064347     pins ADDED TO this new net
+                                 R77.1          R80.2          U45.6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1064507     pins ADDED TO this new net
+                                 C135.2         R78.3          U45.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1064665     pins ADDED TO this new net
+                                 R62.2          R139.1         U16.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1064703     pins ADDED TO this new net
+                                 R123.1         U16.3          U63.1          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../cdssetup/workspace/projects/lidarproject/allegro/lidarproject.brd     |
+|                                                    Wed Apr  2 00:17:51 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N1064853     pins ADDED TO this new net
+                                 R60.1          U15.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1064861     pins ADDED TO this new net
+                                 R60.2          R63.1          U15.6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1064893     pins ADDED TO this new net
+                                 R62.1          R140.1         U16.6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1065007     pins ADDED TO this new net
+                                 C218.1         R63.2          U16.4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N1065043     pins ADDED TO this new net
+                                 C50.1          C236.1         R61.2          
+                                 U15.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  POST_OUTPUT  pins ADDED TO this new net
+                                 R122.1         U72.3          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TIA_OUTPUT   pins ADDED TO this new net
+                                 C230.2         C231.2         IC9.6          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TRIGGER_ID_N pins ADDED TO this new net
+                                 J1.9           R140.2         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TRIGGER_ID_P pins ADDED TO this new net
+                                 J1.11          R139.2         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TRIGGER_TIA_N pins ADDED TO this new net
+                                 J1.1           R142.2         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TRIGGER_TIA_P pins ADDED TO this new net
+                                 J1.3           R141.2         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VS_5V_2      pins ADDED TO this new net
+                                 C239.2         C240.2         U70.7          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:.../cdssetup/workspace/projects/lidarproject/allegro/lidarproject.brd     |
+|                                                    Wed Apr  2 00:17:51 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 4 HEADER_0_HEADER4_4 HEADER
+ CAP_1608_SMC1608_0.1UF
+ CAP_1608_SMC1608_0.47UF
+ CAP_1608_SMC1608_1NF
+ CAP_1608_SMC1608_10UF
+ CAP_1608_SMC1608_22UF
+ CAP_2012_SMC1608_0.1UF
+ CAP_2012_SMC1608_1NF
+ CAP_2012_SMC1608_10NF
+ CAP_2012_SMC2012_47UF
+ CAP_2012_SMC321612_6.8UF
+ CAP_3216_SMC1608_100NF
+ CAP_3216_SMC321612_0.1UF
+ CAP_3216_SMC321612_1NF
+ CAP_3216_SMC321612_6.8UF
+ CAP_3216_SMC321612_100NF
+ CAP_3216_SMR1005_0.7PF
+ C_CAP196_0.1UF
+ C_CAP196_1NF
+ C_CAP196_4.7U
+ C_CAP196_6.8UF
+ LM2940_0_LM2940_TO220_LM2940
+ LM2990_0_LM2990_TO220AB_LM2990
+ MTAPD-06-013_MTAPD06013_MTAPD-06-013
+ OPA277_OPA277_OPA277
+ OPA277_SOIC8_OPA277
+ OPA695_SOIC8_OPA695
+ OPA855IDSGR_0_SON50P200X200X80-9N_OPA855IDSGR
+ R12_4_R12_150_R12_150B
+ RESISTOR VAR_0_ST5EW_5K
+ RESISTOR VAR_0_ST5EW_20 K
+ RESISTOR VAR_ST5EW_20 K
+ RESISTOR VAR_ST5EW_20K
+ R_1608_SMR1608_0
+ R_1608_SMR1608_27
+ R_1608_SMR1608_50
+ R_1608_SMR1608_100
+ R_1608_SMR1608_200
+ R_1608_SMR1608_360
+ R_1608_SMR1608_500
+ R_3216_SMR1005_10
+ R_3216_SMR1005_500
+ R_3216_SMR1608_130
+ R_3216_SMR1608_200
+ R_3216_SMR3216_200K
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  C:.../cdssetup/workspace/projects/lidarproject/allegro/lidarproject.brd     |
+|                                                    Wed Apr  2 00:17:51 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R_AXRC05_20
+ SMA_CON_RFSMAV_SMA_CON
+ TLV3604_SC70_6PIN_TLV3604
+ TSW-110-07-G-D_1_TSW-110-XX-YY-D_TSW-110-07-G-D
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  C:.../cdssetup/workspace/projects/lidarproject/allegro/lidarproject.brd     |
+|                                                    Wed Apr  2 00:17:51 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAP_3216_SMC321612_6.8UF 
+ C2                  CAP_1608_SMC1608_0.47UF 
+ C7                  CAP_1608_SMC1608_0.47UF 
+ C12                 CAP_3216_SMR1005_0.7PF 
+ C49                 CAP_2012_SMC1608_0.1UF 
+ C50                 CAP_2012_SMC1608_0.1UF 
+ C52                 CAP_2012_SMC1608_10NF 
+ C53                 CAP_2012_SMC321612_6.8UF 
+ C128                CAP_3216_SMC321612_100NF 
+ C132                CAP_3216_SMC1608_100NF 
+ C134                CAP_1608_SMC1608_0.1UF 
+ C135                CAP_1608_SMC1608_0.1UF 
+ C136                CAP_1608_SMC1608_0.1UF 
+ C137                CAP_1608_SMC1608_1NF  
+ C218                CAP_2012_SMC1608_1NF  
+ C219                CAP_2012_SMC1608_0.1UF 
+ C220                CAP_2012_SMC1608_1NF  
+ C221                CAP_2012_SMC1608_0.1UF 
+ C222                CAP_2012_SMC1608_10NF 
+ C223                CAP_2012_SMC321612_6.8UF 
+ C224                CAP_2012_SMC1608_0.1UF 
+ C225                CAP_1608_SMC1608_10UF 
+ C226                CAP_1608_SMC1608_22UF 
+ C227                CAP_1608_SMC1608_10UF 
+ C230                CAP_3216_SMC321612_0.1UF 
+ C231                CAP_3216_SMC321612_1NF 
+ C232                CAP_3216_SMC321612_0.1UF 
+ C233                CAP_3216_SMC321612_1NF 
+ C236                CAP_2012_SMC321612_6.8UF 
+ C237                C_CAP196_1NF          
+ C238                C_CAP196_0.1UF        
+ C239                C_CAP196_0.1UF        
+ C240                C_CAP196_6.8UF        
+ C241                C_CAP196_0.1UF        
+ C242                C_CAP196_6.8UF        
+ C243                CAP_2012_SMC1608_0.1UF 
+ C244                C_CAP196_4.7U         
+ C245                CAP_2012_SMC2012_47UF 
+ C248                CAP_3216_SMC321612_0.1UF 
+ C249                CAP_2012_SMC321612_6.8UF 
+ IC9                 OPA855IDSGR_0_SON50P200X200X80-9N_OPA855IDSGR 
+ J1                  TSW-110-07-G-D_1_TSW-110-XX-YY-D_TSW-110-07-G-D 
+ JP1                 4 HEADER_0_HEADER4_4 HEADER 
+ R60                 R_1608_SMR1608_200    
+ R61                 RESISTOR VAR_ST5EW_20 K 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  C:.../cdssetup/workspace/projects/lidarproject/allegro/lidarproject.brd     |
+|                                                    Wed Apr  2 00:17:51 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R62                 R_1608_SMR1608_100    
+ R63                 R_1608_SMR1608_200    
+ R73                 R_3216_SMR3216_200K   
+ R74                 R_3216_SMR1005_500    
+ R77                 R_3216_SMR1608_200    
+ R78                 RESISTOR VAR_0_ST5EW_20 K 
+ R80                 R_3216_SMR1608_130    
+ R114                R_1608_SMR1608_500    
+ R117                R_1608_SMR1608_360    
+ R122                R_1608_SMR1608_27     
+ R123                R_1608_SMR1608_50     
+ R126                R_1608_SMR1608_100    
+ R127                R_1608_SMR1608_200    
+ R128                RESISTOR VAR_ST5EW_20K 
+ R129                R_1608_SMR1608_200    
+ R136                RESISTOR VAR_0_ST5EW_5K 
+ R137                R_3216_SMR1005_10     
+ R138                R_3216_SMR1005_10     
+ R139                R_1608_SMR1608_0      
+ R140                R_1608_SMR1608_0      
+ R141                R_1608_SMR1608_0      
+ R142                R_1608_SMR1608_0      
+ R144                R_AXRC05_20           
+ R145                R_3216_SMR1005_10     
+ U1                  LM2940_0_LM2940_TO220_LM2940 
+ U3                  LM2990_0_LM2990_TO220AB_LM2990 
+ U15                 OPA277_SOIC8_OPA277   
+ U16                 TLV3604_SC70_6PIN_TLV3604 
+ U45                 OPA277_OPA277_OPA277  
+ U63                 SMA_CON_RFSMAV_SMA_CON 
+ U70                 OPA695_SOIC8_OPA695   
+ U72                 TLV3604_SC70_6PIN_TLV3604 
+ U73                 OPA277_SOIC8_OPA277   
+ U74                 R12_4_R12_150_R12_150B 
+ U75                 MTAPD-06-013_MTAPD06013_MTAPD-06-013 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  C:.../cdssetup/workspace/projects/lidarproject/allegro/lidarproject.brd     |
+|                                                    Wed Apr  2 00:17:51 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C1.2                           XY             (150,120)
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           XY             (230,120)
+ C7.2                           PRIM_FILE      .\pstchip.dat
+ C7.2                           XY             (230,190)
+ C12.2                          PRIM_FILE      .\pstchip.dat
+ C12.2                          XY             (390,420)
+ C49.2                          PRIM_FILE      .\pstchip.dat
+ C49.2                          XY             (1550,750)
+ C50.2                          PRIM_FILE      .\pstchip.dat
+ C50.2                          XY             (1280,810)
+ C52.2                          PRIM_FILE      .\pstchip.dat
+ C52.2                          XY             (1750,840)
+ C53.2                          PRIM_FILE      .\pstchip.dat
+ C53.2                          XY             (1800,840)
+ C128.2                         PRIM_FILE      .\pstchip.dat
+ C128.2                         XY             (180,370)
+ C132.2                         PRIM_FILE      .\pstchip.dat
+ C132.2                         XY             (160,470)
+ C134.2                         PRIM_FILE      .\pstchip.dat
+ C134.2                         XY             (370,570)
+ C135.2                         PRIM_FILE      .\pstchip.dat
+ C135.2                         XY             (190,670)
+ C136.2                         PRIM_FILE      .\pstchip.dat
+ C136.2                         XY             (240,730)
+ C137.2                         PRIM_FILE      .\pstchip.dat
+ C137.2                         XY             (430,640)
+ C218.2                         PRIM_FILE      .\pstchip.dat
+ C218.2                         XY             (1640,800)
+ C219.2                         PRIM_FILE      .\pstchip.dat
+ C219.2                         XY             (1540,410)
+ C220.2                         PRIM_FILE      .\pstchip.dat
+ C220.2                         XY             (1610,500)
+ C221.2                         PRIM_FILE      .\pstchip.dat
+ C221.2                         XY             (1250,510)
+ C222.2                         PRIM_FILE      .\pstchip.dat
+ C222.2                         XY             (1720,540)
+ C223.2                         PRIM_FILE      .\pstchip.dat
+ C223.2                         XY             (1770,540)
+ C224.2                         PRIM_FILE      .\pstchip.dat
+ C224.2                         XY             (1380,530)
+ C225.2                         PRIM_FILE      .\pstchip.dat
+ C225.2                         XY             (150,180)
+ C226.2                         PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  C:.../cdssetup/workspace/projects/lidarproject/allegro/lidarproject.brd     |
+|                                                    Wed Apr  2 00:17:51 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C226.2                         XY             (400,120)
+ C227.2                         PRIM_FILE      .\pstchip.dat
+ C227.2                         XY             (400,190)
+ C230.2                         PRIM_FILE      .\pstchip.dat
+ C230.2                         XY             (780,430)
+ C231.2                         PRIM_FILE      .\pstchip.dat
+ C231.2                         XY             (780,460)
+ C232.2                         PRIM_FILE      .\pstchip.dat
+ C232.2                         XY             (1050,430)
+ C233.2                         PRIM_FILE      .\pstchip.dat
+ C233.2                         XY             (1050,460)
+ C236.2                         PRIM_FILE      .\pstchip.dat
+ C236.2                         XY             (1320,810)
+ C237.2                         PRIM_FILE      .\pstchip.dat
+ C237.2                         XY             (580,430)
+ C238.2                         PRIM_FILE      .\pstchip.dat
+ C238.2                         XY             (610,430)
+ C239.2                         PRIM_FILE      .\pstchip.dat
+ C239.2                         XY             (1060,510)
+ C240.2                         PRIM_FILE      .\pstchip.dat
+ C240.2                         XY             (1090,510)
+ C241.2                         PRIM_FILE      .\pstchip.dat
+ C241.2                         XY             (870,610)
+ C242.2                         PRIM_FILE      .\pstchip.dat
+ C242.2                         XY             (900,610)
+ C243.2                         PRIM_FILE      .\pstchip.dat
+ C243.2                         XY             (1410,830)
+ C244.2                         PRIM_FILE      .\pstchip.dat
+ C244.2                         XY             (770,120)
+ C245.2                         PRIM_FILE      .\pstchip.dat
+ C245.2                         XY             (540,160)
+ C248.2                         PRIM_FILE      .\pstchip.dat
+ C248.2                         XY             (740,530)
+ C249.2                         PRIM_FILE      .\pstchip.dat
+ C249.2                         XY             (1300,510)
+ IC9.5                          PRIM_FILE      .\pstchip.dat
+ IC9.5                          XY             (460,440)
+ J1.9                           PRIM_FILE      .\pstchip.dat
+ J1.9                           XY             (1240,120)
+ JP1.4                          PRIM_FILE      .\pstchip.dat
+ JP1.4                          XY             (70,140)
+ R60.2                          PRIM_FILE      .\pstchip.dat
+ R60.2                          XY             (1460,720)
+ R61.2                          PRIM_FILE      .\pstchip.dat
+ R61.2                          XY             (1250,770)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  11  |
+|------------------------------------------------------------------------------|
+|  C:.../cdssetup/workspace/projects/lidarproject/allegro/lidarproject.brd     |
+|                                                    Wed Apr  2 00:17:51 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R62.2                          PRIM_FILE      .\pstchip.dat
+ R62.2                          XY             (1810,700)
+ R63.2                          PRIM_FILE      .\pstchip.dat
+ R63.2                          XY             (1580,780)
+ R73.2                          PRIM_FILE      .\pstchip.dat
+ R73.2                          XY             (160,400)
+ R74.2                          PRIM_FILE      .\pstchip.dat
+ R74.2                          XY             (380,440)
+ R77.2                          PRIM_FILE      .\pstchip.dat
+ R77.2                          XY             (260,560)
+ R78.3                          PRIM_FILE      .\pstchip.dat
+ R78.3                          XY             (140,610)
+ R80.2                          PRIM_FILE      .\pstchip.dat
+ R80.2                          XY             (390,620)
+ R114.2                         PRIM_FILE      .\pstchip.dat
+ R114.2                         XY             (950,430)
+ R117.2                         PRIM_FILE      .\pstchip.dat
+ R117.2                         XY             (840,430)
+ R122.2                         PRIM_FILE      .\pstchip.dat
+ R122.2                         XY             (1090,430)
+ R123.2                         PRIM_FILE      .\pstchip.dat
+ R123.2                         XY             (1670,620)
+ R126.2                         PRIM_FILE      .\pstchip.dat
+ R126.2                         XY             (1780,400)
+ R127.2                         PRIM_FILE      .\pstchip.dat
+ R127.2                         XY             (1430,420)
+ R128.2                         PRIM_FILE      .\pstchip.dat
+ R128.2                         XY             (1210,470)
+ R129.2                         PRIM_FILE      .\pstchip.dat
+ R129.2                         XY             (1550,480)
+ R136.3                         PRIM_FILE      .\pstchip.dat
+ R136.3                         XY             (640,70)
+ R137.2                         PRIM_FILE      .\pstchip.dat
+ R137.2                         XY             (840,120)
+ R138.2                         PRIM_FILE      .\pstchip.dat
+ R138.2                         XY             (540,210)
+ R139.2                         PRIM_FILE      .\pstchip.dat
+ R139.2                         XY             (1850,640)
+ R140.2                         PRIM_FILE      .\pstchip.dat
+ R140.2                         XY             (1850,780)
+ R141.2                         PRIM_FILE      .\pstchip.dat
+ R141.2                         XY             (1830,340)
+ R142.2                         PRIM_FILE      .\pstchip.dat
+ R142.2                         XY             (1830,480)
+ R144.2                         PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  12  |
+|------------------------------------------------------------------------------|
+|  C:.../cdssetup/workspace/projects/lidarproject/allegro/lidarproject.brd     |
+|                                                    Wed Apr  2 00:17:51 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R144.2                         XY             (800,490)
+ R145.2                         PRIM_FILE      .\pstchip.dat
+ R145.2                         XY             (380,460)
+ U1.3                           PRIM_FILE      .\pstchip.dat
+ U1.3                           XY             (310,80)
+ U3.3                           PRIM_FILE      .\pstchip.dat
+ U3.3                           XY             (300,210)
+ U15.8                          PRIM_FILE      .\pstchip.dat
+ U15.8                          XY             (1450,760)
+ U16.2                          PRIM_FILE      .\pstchip.dat
+ U16.2                          XY             (1710,690)
+ U45.8                          PRIM_FILE      .\pstchip.dat
+ U45.8                          XY             (260,590)
+ U63.1                          PRIM_FILE      .\pstchip.dat
+ U63.1                          XY             (1600,650)
+ U70.6                          PRIM_FILE      .\pstchip.dat
+ U70.6                          XY             (940,470)
+ U72.2                          PRIM_FILE      .\pstchip.dat
+ U72.2                          XY             (1680,390)
+ U73.8                          PRIM_FILE      .\pstchip.dat
+ U73.8                          XY             (1420,460)
+ U74.16                         PRIM_FILE      .\pstchip.dat
+ U74.16                         XY             (620,120)
+ U75.1                          PRIM_FILE      .\pstchip.dat
+ U75.1                          XY             (250,440)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  13  |
+|------------------------------------------------------------------------------|
+|  C:.../cdssetup/workspace/projects/lidarproject/allegro/lidarproject.brd     |
+|                                                    Wed Apr  2 00:17:51 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :     219                                        |
+|       Comp definitions added:      49                                        |
+|       Components added      :      80                                        |
+|       Slot property added   :     160                                        |
+|                                                                              |
+|   Total ECO changes reported:     508                                        |
+|------------------------------------------------------------------------------|

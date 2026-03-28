@@ -1,0 +1,191 @@
+\t (00:12:13) orcadx 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:12:13)     Journal start - Mon Mar 31 18:46:34 2025
+\t (00:12:13)         Host=DESKTOP-TSB5932 User=sky94 Pid=11700 CPUs=8
+\t (00:12:13) CmdLine= C:\Cadence\OrCADX_24.1\tools\bin\unison.exe -layout -orcadx
+\t (00:12:13) 
+\d (00:12:13) Design opened: C:/Users/sky94/OneDrive/Desktop/대학/lidar/80dB_LiDAR/allegro/80DB_LIDAR_1.brd
+\i (00:12:13) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged
+\i (00:12:13) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (00:12:15) trapsize 2747
+\i (00:12:15) updateport VisibilityPane
+\i (00:12:15) updateport PropPane
+\i (00:12:15) ucpedit 
+\i (00:12:15) updateport VisibilityPane
+\i (00:12:17) zoom out 1 
+\i (00:12:17) setwindow pcb
+\i (00:12:17) zoom out 234.3639 104.7601
+\i (00:12:17) trapsize 5494
+\i (00:12:17) zoom out 1 
+\i (00:12:17) setwindow pcb
+\i (00:12:17) zoom out 236.2318 109.4849
+\i (00:12:17) trapsize 10988
+\i (00:12:17) zoom out 1 
+\i (00:12:17) setwindow pcb
+\i (00:12:17) zoom out 214.9177 178.4388
+\i (00:12:17) trapsize 12093
+\i (00:12:17) zoom out 1 
+\i (00:12:17) setwindow pcb
+\i (00:12:17) zoom out 237.2614 196.3876
+\i (00:12:17) trapsize 12093
+\i (00:12:18) zoom out 1 
+\i (00:12:18) setwindow pcb
+\i (00:12:18) zoom out 175.1042 118.2679
+\i (00:12:18) trapsize 12093
+\i (00:12:18) zoom out 1 
+\i (00:12:18) setwindow pcb
+\i (00:12:18) zoom out 177.7647 121.6539
+\i (00:12:18) trapsize 12093
+\i (00:12:19) zoom out 1 
+\i (00:12:19) setwindow pcb
+\i (00:12:19) zoom out 306.9161 106.4169
+\i (00:12:19) trapsize 12093
+\i (00:12:19) zoom out 1 
+\i (00:12:19) setwindow pcb
+\i (00:12:19) zoom out 317.0741 122.3795
+\i (00:12:19) trapsize 12093
+\i (00:12:26) zoom out 1 
+\i (00:12:26) setwindow pcb
+\i (00:12:26) zoom out 196.1458 92.1474
+\i (00:12:26) trapsize 12093
+\i (00:12:27) zoom in 1 
+\i (00:12:27) setwindow pcb
+\i (00:12:27) zoom in 50.0643 56.5945
+\i (00:12:27) trapsize 6046
+\i (00:12:28) zoom out 1 
+\i (00:12:28) setwindow pcb
+\i (00:12:28) zoom out 55.1434 83.8034
+\i (00:12:28) trapsize 12093
+\i (00:12:29) QtSignal Allegro_Command_Toolbar AQCommandToolbarTraceButton leftClicked
+\i (00:12:29) ucp_trace_slide_mode 
+\i (00:12:30) ucpedit 
+\i (00:12:30) updateport VisibilityPane
+\i (00:12:30) drag_start grid 100.3705 186.2296
+\i (00:12:31) drag_stop 108.3518 197.3550
+\i (00:12:32) QtSignal Allegro_Command_Toolbar AQCommandToolbarMoveButton leftClicked
+\i (00:12:32) ucp_move_mode 
+\i (00:12:32) ucpedit 
+\i (00:12:32) QtSignal UCPMove XSpacingComboBox CurrentIndexChanged Default
+\i (00:12:32) QtSignal UCPMove YSpacingComboBox CurrentIndexChanged Default
+\i (00:12:32) QtSignal UCPMove UCPMoveEtchMode CurrentIndexChanged 1
+\i (00:12:32) QtSignal UCPMove UCPMoveDisplayMode CurrentIndexChanged 0
+\i (00:12:32) updateport VisibilityPane
+\i (00:12:33) drag_start grid 84.4080 198.8062
+\i (00:12:33) drag_stop 130.1189 221.0570
+\i (00:12:34) QtSignal Allegro_Command_Toolbar AQCommandToolbarSelectButton leftClicked
+\i (00:12:34) ucp_selection_mode 
+\i (00:12:34) ucpedit 
+\i (00:12:35) updateport VisibilityPane
+\i (00:12:35) drag_start grid 79.8127 236.2940
+\i (00:12:35) drag_stop 159.8673 259.5122
+\i (00:12:38) zoom fit 
+\i (00:12:38) trapsize 9179
+\i (00:12:40) zoom in 1 
+\i (00:12:40) setwindow pcb
+\i (00:12:40) zoom in 162.9224 116.2041
+\i (00:12:40) trapsize 4589
+\i (00:12:40) zoom in 1 
+\i (00:12:40) setwindow pcb
+\i (00:12:40) zoom in 162.7389 116.2041
+\i (00:12:40) trapsize 2295
+\i (00:12:43) zoom out 1 
+\i (00:12:43) setwindow pcb
+\i (00:12:43) zoom out 163.9322 113.8635
+\i (00:12:43) trapsize 4589
+\i (00:12:43) zoom out 1 
+\i (00:12:43) setwindow pcb
+\i (00:12:43) zoom out 164.4828 114.4143
+\i (00:12:43) trapsize 9179
+\i (00:12:43) zoom out 1 
+\i (00:12:43) setwindow pcb
+\i (00:12:43) zoom out 166.6858 113.3128
+\i (00:12:43) trapsize 12093
+\i (00:12:44) zoom out 1 
+\i (00:12:44) setwindow pcb
+\i (00:12:44) zoom out 354.0782 159.6254
+\i (00:12:44) trapsize 12093
+\i (00:12:44) zoom out 1 
+\i (00:12:44) setwindow pcb
+\i (00:12:44) zoom out 406.3192 162.5277
+\i (00:12:44) trapsize 12093
+\i (00:12:47) drag_start grid 201.2248 92.8730
+\i (00:12:47) ucp_move 
+\t (00:12:47) last pick:  205.0802 94.9198
+\t (00:12:47) Pick new location for the element(s).
+\i (00:12:48) updateport ReportsPane
+\i (00:12:48) updateport SearchPane
+\i (00:12:48) updateport PropPane
+\i (00:12:48) ucp_shape_edit_mode 
+\i (00:12:48) updateport ReportsPane
+\i (00:12:48) updateport SearchPane
+\i (00:12:48) updateport VisibilityPane
+\i (00:12:48) updateport PropPane
+\i (00:12:48) ucpedit 
+\i (00:12:48) updateport ReportsPane
+\i (00:12:48) updateport SearchPane
+\i (00:12:48) updateport PropPane
+\i (00:12:49) drag_stop grid 249.1124 71.1059
+\i (00:12:53) zoom in 1 
+\i (00:12:53) setwindow pcb
+\i (00:12:53) zoom in 262.8982 127.7003
+\i (00:12:53) trapsize 6046
+\i (00:12:53) zoom in 1 
+\i (00:12:53) setwindow pcb
+\i (00:12:53) zoom in 253.8286 129.5143
+\i (00:12:53) trapsize 3023
+\i (00:12:58) pick grid 237.8661 129.1515
+\t (00:12:58) last pick:  237.8661 129.1515
+\i (00:12:58) updateport ReportsPane
+\i (00:12:58) updateport SearchPane
+\i (00:12:58) updateport PropPane
+\i (00:12:59) pick grid 237.6847 129.0911
+\t (00:12:59) last pick:  237.6847 129.0911
+\i (00:12:59) updateport ReportsPane
+\i (00:12:59) updateport SearchPane
+\i (00:12:59) updateport PropPane
+\i (00:13:00) pick grid 236.5359 152.1279
+\t (00:13:00) last pick:  236.5359 152.1279
+\i (00:13:00) ucp_selection_mode 
+\i (00:13:00) ucp_shape_edit_mode 
+\i (00:13:00) updateport ReportsPane
+\i (00:13:00) updateport SearchPane
+\i (00:13:00) updateport VisibilityPane
+\i (00:13:00) updateport PropPane
+\i (00:13:00) ucpedit 
+\i (00:13:00) updateport ReportsPane
+\i (00:13:00) updateport SearchPane
+\i (00:13:00) updateport PropPane
+\i (00:13:01) pick grid 229.8848 157.9325
+\t (00:13:01) last pick:  229.8848 157.9325
+\i (00:13:01) updateport ReportsPane
+\i (00:13:01) updateport SearchPane
+\i (00:13:01) updateport VisibilityPane
+\i (00:13:01) updateport PropPane
+\i (00:13:03) QtSignal UCPTopQuickAccessToolbar UCPQuickAccessToolbar_Grids mouseReleased
+\i (00:13:04) QtSignal UCPTopQuickAccessToolbar UCPQuickAccessToolbar_Grids mouseReleased
+\i (00:13:04) QtSignal UCPTopQuickAccessToolbar UCPQuickAccessToolbar_Snapping mouseReleased
+\i (00:13:05) QtSignal UCPTopQuickAccessToolbar UCPQuickAccessToolbar_Snapping mouseReleased
+\i (00:13:06) QtSignal UCPTopQuickAccessToolbar UCPQuickAccessToolbar_Snapping mouseReleased
+\i (00:13:08) zoom out 1 
+\i (00:13:08) setwindow pcb
+\i (00:13:08) zoom out 275.5957 147.1094
+\i (00:13:08) trapsize 6046
+\i (00:13:10) zoom in 1 
+\i (00:13:10) setwindow pcb
+\i (00:13:10) zoom in 200.7411 114.4588
+\i (00:13:10) trapsize 3023
+\i (00:13:11) pick grid 200.2574 102.1241
+\t (00:13:11) last pick:  200.2574 102.1241
+\i (00:13:13) pick grid 202.2527 101.8822
+\t (00:13:13) last pick:  202.2527 101.8822
+\i (00:13:14) updateport CMPanelPort
+\i (00:13:14) updateport PropPane
+\i (00:13:14) updateport ReportsPane
+\i (00:13:14) updateport SearchPane
+\i (00:13:42) opencd_reload C:/Users/sky94/OneDrive/Desktop/대학/lidar/80dB_LiDAR/footprint/LM2940_TO220.dra 
+\e (00:13:42) Do you want to save the changes you made to 80DB_LIDAR_1.brd?
+\i (00:13:46) fillin no 
+\t (00:13:46) Opening existing design...
+\i (00:13:46) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged
+\i (00:13:46) QtSignal m_dockWsQtWidgetContents m_domainSelector currentChanged Electrical
+\i (00:13:47) trapsize 512
+\t (00:13:47)     Journal end - Mon Mar 31 18:48:09 2025

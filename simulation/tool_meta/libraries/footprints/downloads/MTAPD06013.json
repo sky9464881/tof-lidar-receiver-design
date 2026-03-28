@@ -1,0 +1,208 @@
+{
+ "design" : {
+	"comps" : [
+{
+	"start" : 3.141593,
+	"end" : 0.000000,
+	"radius" : 26550.000000,
+	"points" : [{"x" : 9000.000000, "y" : 9000.000000}],
+	"endpts" : [{"x" : -17550, "y" : 9000},{"x" : 35550, "y" : 9000}],
+	"type" : 6,
+	"text" : "",
+	"width" : 0.000000,
+	"color" : [
+		{"r" : 99, "g" : 139, "b" : 58, "a" : 255}],
+	"class" : "PACKAGE GEOMETRY",
+	"subclass" : "SILKSCREEN_TOP",
+	"clockwise" : 0
+},
+{
+	"start" : 3.141593,
+	"end" : 0.000000,
+	"radius" : 26550.000000,
+	"points" : [{"x" : 9000.000000, "y" : 9000.000000}],
+	"endpts" : [{"x" : -17550, "y" : 9000},{"x" : 35550, "y" : 9000}],
+	"type" : 6,
+	"text" : "",
+	"width" : 0.000000,
+	"color" : [
+		{"r" : 117, "g" : 255, "b" : 217, "a" : 255}],
+	"class" : "PACKAGE GEOMETRY",
+	"subclass" : "ASSEMBLY_TOP",
+	"clockwise" : 0
+},
+{
+	"points" : [
+		 {"x" : 45550, "y" : -27550},
+		 {"x" : -27550, "y" : 45550}],
+	"type" : 1,
+	"text" : "",
+	"orientation" : 3,
+	"radius" : 1,
+	"width" : 0.000000,
+	"color" : [{"r" : 99, "g" : 139, "b" : 58, "a" : 255}],
+	"class" : "PACKAGE GEOMETRY",
+	"subclass" : "PLACE_BOUND_TOP"
+},
+{
+	"start" : 0.000000,
+	"end" : 3.141593,
+	"radius" : 26550.000000,
+	"points" : [{"x" : 9000.000000, "y" : 9000.000000}],
+	"endpts" : [{"x" : 35550, "y" : 9000},{"x" : -17550, "y" : 9000}],
+	"type" : 6,
+	"text" : "",
+	"width" : 0.000000,
+	"color" : [
+		{"r" : 99, "g" : 139, "b" : 58, "a" : 255}],
+	"class" : "PACKAGE GEOMETRY",
+	"subclass" : "SILKSCREEN_TOP",
+	"clockwise" : 0
+},
+{
+	"start" : 0.000000,
+	"end" : 3.141593,
+	"radius" : 26550.000000,
+	"points" : [{"x" : 9000.000000, "y" : 9000.000000}],
+	"endpts" : [{"x" : 35550, "y" : 9000},{"x" : -17550, "y" : 9000}],
+	"type" : 6,
+	"text" : "",
+	"width" : 0.000000,
+	"color" : [
+		{"r" : 117, "g" : 255, "b" : 217, "a" : 255}],
+	"class" : "PACKAGE GEOMETRY",
+	"subclass" : "ASSEMBLY_TOP",
+	"clockwise" : 0
+},
+{
+	"points" : [
+		 {"x" : 35000, "y" : 7000},
+		 {"x" : 41000, "y" : 7000}],
+	"type" : 2,
+	"text" : "",
+	"orientation" : 2,
+	"radius" : 0,
+	"width" : 0.000000,
+	"color" : [{"r" : 99, "g" : 139, "b" : 58, "a" : 255}],
+	"class" : "PACKAGE GEOMETRY",
+	"subclass" : "SILKSCREEN_TOP"
+},
+{
+	"points" : [
+		 {"x" : 41000, "y" : 7000},
+		 {"x" : 41000, "y" : 11000}],
+	"type" : 2,
+	"text" : "",
+	"orientation" : 1,
+	"radius" : 0,
+	"width" : 0.000000,
+	"color" : [{"r" : 99, "g" : 139, "b" : 58, "a" : 255}],
+	"class" : "PACKAGE GEOMETRY",
+	"subclass" : "SILKSCREEN_TOP"
+},
+{
+	"points" : [
+		 {"x" : 35550, "y" : 11000},
+		 {"x" : 41000, "y" : 11000}],
+	"type" : 2,
+	"text" : "",
+	"orientation" : 2,
+	"radius" : 0,
+	"width" : 0.000000,
+	"color" : [{"r" : 99, "g" : 139, "b" : 58, "a" : 255}],
+	"class" : "PACKAGE GEOMETRY",
+	"subclass" : "SILKSCREEN_TOP"
+},
+{
+	"points" : [
+		 {"x" : 35550, "y" : 7000},
+		 {"x" : 41000, "y" : 7000}],
+	"type" : 2,
+	"text" : "",
+	"orientation" : 2,
+	"radius" : 0,
+	"width" : 0.000000,
+	"color" : [{"r" : 117, "g" : 255, "b" : 217, "a" : 255}],
+	"class" : "PACKAGE GEOMETRY",
+	"subclass" : "ASSEMBLY_TOP"
+},
+{
+	"points" : [
+		 {"x" : 41000, "y" : 7000},
+		 {"x" : 41000, "y" : 11000}],
+	"type" : 2,
+	"text" : "",
+	"orientation" : 1,
+	"radius" : 0,
+	"width" : 0.000000,
+	"color" : [{"r" : 117, "g" : 255, "b" : 217, "a" : 255}],
+	"class" : "PACKAGE GEOMETRY",
+	"subclass" : "ASSEMBLY_TOP"
+},
+{
+	"points" : [
+		 {"x" : 35550, "y" : 11000},
+		 {"x" : 41000, "y" : 11000}],
+	"type" : 2,
+	"text" : "",
+	"orientation" : 2,
+	"radius" : 0,
+	"width" : 0.000000,
+	"color" : [{"r" : 117, "g" : 255, "b" : 217, "a" : 255}],
+	"class" : "PACKAGE GEOMETRY",
+	"subclass" : "ASSEMBLY_TOP"
+},
+{
+	"points" : [
+		 {"x" : 6858, "y" : 0},
+		 {"x" : 8934, "y" : 5184}],
+	"type" : "text",
+	"text" : "U*",
+	"color" : [		{"r" : 0, "g" : 151, "b" : 183, "a" : 255}],
+	"class" : "REF DES",
+	"subclass" : "ASSEMBLY_TOP"
+},
+{
+	"points" : [
+		 {"x" : 14750, "y" : 14750},
+		 {"x" : 21250, "y" : 21250}],
+	"type" : 3,
+	"text" : "2",
+	"orientation" : 3,
+	"radius" : 3250,
+	"width" : 0.000000,
+	"color" : [{"r" : 99, "g" : 139, "b" : 58, "a" : 255}],
+	"bgcolor" : [{"r" : 38, "g" : 255, "b" : 38, "a" : 127 }],
+	"class" : "PIN",
+	"subclass" : "TOP"
+},
+{
+	"points" : [
+		 {"x" : -3250, "y" : -3250},
+		 {"x" : 3250, "y" : 3250}],
+	"type" : 3,
+	"text" : "1",
+	"orientation" : 3,
+	"radius" : 3250,
+	"width" : 0.000000,
+	"color" : [{"r" : 99, "g" : 139, "b" : 58, "a" : 255}],
+	"bgcolor" : [{"r" : 38, "g" : 255, "b" : 38, "a" : 127 }],
+	"class" : "PIN",
+	"subclass" : "TOP"
+},{}
+	]
+},
+
+
+"text" : {
+	"comps" : [
+	{
+		"name" : "R_72",
+		"type" : "Package",
+		"units" : "Millimeters",
+		"accuracy" : 4,
+		"pins" : 2
+	}
+	]
+}
+}

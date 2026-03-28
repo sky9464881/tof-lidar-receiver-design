@@ -1,0 +1,890 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 24.1.0 d001Apr-03-2025 at 03:58:27 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='NEW_LIDAR';
+ POST_TIME='Mar  6 2025 10:16:32';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP_3216_SMC321612_6.8UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS896493@LIDAR_READOUT_LIBRARY.CAP_3216.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins896493@lidar_readout_library.\cap_3216.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins896493@lidar_readout_library.\cap_3216.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(130,110)',
+ SECTION='';
+
+PART_NAME
+ C12 'CAP_3216_SMR1005_0.7PF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS982310@LIDAR_READOUT_LIBRARY.CAP_3216.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins982310@lidar_readout_library.\cap_3216.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins982310@lidar_readout_library.\cap_3216.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(370,410)',
+ SECTION='';
+
+PART_NAME
+ C128 'CAP_3216_SMC321612_100NF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS983873@LIDAR_READOUT_LIBRARY.CAP_3216.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins983873@lidar_readout_library.\cap_3216.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins983873@lidar_readout_library.\cap_3216.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(160,360)',
+ SECTION='';
+
+PART_NAME
+ C132 'CAP_3216_SMC1608_100NF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS982562@LIDAR_READOUT_LIBRARY.CAP_3216.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins982562@lidar_readout_library.\cap_3216.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins982562@lidar_readout_library.\cap_3216.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(140,460)',
+ SECTION='';
+
+PART_NAME
+ C134 'CAP_1608_SMC1608_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS982682@LIDAR_READOUT_LIBRARY.CAP_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins982682@lidar_readout_library.\cap_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins982682@lidar_readout_library.\cap_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(350,560)',
+ SECTION='';
+
+PART_NAME
+ C135 'CAP_1608_SMC1608_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS982816@LIDAR_READOUT_LIBRARY.CAP_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins982816@lidar_readout_library.\cap_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins982816@lidar_readout_library.\cap_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(170,660)',
+ SECTION='';
+
+PART_NAME
+ C136 'CAP_1608_SMC1608_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS982860@LIDAR_READOUT_LIBRARY.CAP_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins982860@lidar_readout_library.\cap_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins982860@lidar_readout_library.\cap_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(220,720)',
+ SECTION='';
+
+PART_NAME
+ C137 'CAP_1608_SMC1608_1NF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS986434@LIDAR_READOUT_LIBRARY.CAP_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins986434@lidar_readout_library.\cap_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins986434@lidar_readout_library.\cap_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(410,630)',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP_1608_SMC1608_0.47UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS896509@LIDAR_READOUT_LIBRARY.CAP_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins896509@lidar_readout_library.\cap_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins896509@lidar_readout_library.\cap_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(210,110)',
+ SECTION='';
+
+PART_NAME
+ C218 'CAP_2012_SMC1608_1NF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS993266@LIDAR_READOUT_LIBRARY.CAP_2012.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins993266@lidar_readout_library.\cap_2012.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins993266@lidar_readout_library.\cap_2012.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1620,790)',
+ SECTION='';
+
+PART_NAME
+ C219 'CAP_2012_SMC1608_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS996270@LIDAR_READOUT_LIBRARY.CAP_2012.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins996270@lidar_readout_library.\cap_2012.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins996270@lidar_readout_library.\cap_2012.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1520,400)',
+ SECTION='';
+
+PART_NAME
+ C220 'CAP_2012_SMC1608_1NF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS996496@LIDAR_READOUT_LIBRARY.CAP_2012.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins996496@lidar_readout_library.\cap_2012.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins996496@lidar_readout_library.\cap_2012.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1590,490)',
+ SECTION='';
+
+PART_NAME
+ C221 'CAP_2012_SMC1608_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS996520@LIDAR_READOUT_LIBRARY.CAP_2012.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins996520@lidar_readout_library.\cap_2012.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins996520@lidar_readout_library.\cap_2012.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1230,500)',
+ SECTION='';
+
+PART_NAME
+ C222 'CAP_2012_SMC1608_10NF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS996596@LIDAR_READOUT_LIBRARY.CAP_2012.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins996596@lidar_readout_library.\cap_2012.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins996596@lidar_readout_library.\cap_2012.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1700,530)',
+ SECTION='';
+
+PART_NAME
+ C223 'CAP_2012_SMC321612_6.8UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS996612@LIDAR_READOUT_LIBRARY.CAP_2012.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins996612@lidar_readout_library.\cap_2012.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins996612@lidar_readout_library.\cap_2012.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1750,530)',
+ SECTION='';
+
+PART_NAME
+ C224 'CAP_2012_SMC1608_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS996644@LIDAR_READOUT_LIBRARY.CAP_2012.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins996644@lidar_readout_library.\cap_2012.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins996644@lidar_readout_library.\cap_2012.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1360,520)',
+ SECTION='';
+
+PART_NAME
+ C225 'CAP_1608_SMC1608_10UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1001457@LIDAR_READOUT_LIBRARY.CAP_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1001457@lidar_readout_library.\cap_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1001457@lidar_readout_library.\cap_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(130,170)',
+ SECTION='';
+
+PART_NAME
+ C226 'CAP_1608_SMC1608_22UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1001584@LIDAR_READOUT_LIBRARY.CAP_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1001584@lidar_readout_library.\cap_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1001584@lidar_readout_library.\cap_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(380,110)',
+ SECTION='';
+
+PART_NAME
+ C227 'CAP_1608_SMC1608_10UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1001616@LIDAR_READOUT_LIBRARY.CAP_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1001616@lidar_readout_library.\cap_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1001616@lidar_readout_library.\cap_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(380,180)',
+ SECTION='';
+
+PART_NAME
+ C230 'CAP_3216_SMC321612_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1010760@LIDAR_READOUT_LIBRARY.CAP_3216.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1010760@lidar_readout_library.\cap_3216.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1010760@lidar_readout_library.\cap_3216.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(760,420)',
+ SECTION='';
+
+PART_NAME
+ C231 'CAP_3216_SMC321612_1NF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1010886@LIDAR_READOUT_LIBRARY.CAP_3216.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1010886@lidar_readout_library.\cap_3216.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1010886@lidar_readout_library.\cap_3216.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(760,450)',
+ SECTION='';
+
+PART_NAME
+ C232 'CAP_3216_SMC321612_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1011351@LIDAR_READOUT_LIBRARY.CAP_3216.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1011351@lidar_readout_library.\cap_3216.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1011351@lidar_readout_library.\cap_3216.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1030,420)',
+ SECTION='';
+
+PART_NAME
+ C233 'CAP_3216_SMC321612_1NF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1011387@LIDAR_READOUT_LIBRARY.CAP_3216.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1011387@lidar_readout_library.\cap_3216.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1011387@lidar_readout_library.\cap_3216.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1030,450)',
+ SECTION='';
+
+PART_NAME
+ C236 'CAP_2012_SMC321612_6.8UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1021064@LIDAR_READOUT_LIBRARY.CAP_2012.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1021064@lidar_readout_library.\cap_2012.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1021064@lidar_readout_library.\cap_2012.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1300,800)',
+ SECTION='';
+
+PART_NAME
+ C237 'C_CAP196_1NF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1035969@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1035969@analog.\c.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1035969@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(560,420)',
+ SECTION='';
+
+PART_NAME
+ C238 'C_CAP196_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1036307@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1036307@analog.\c.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1036307@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(590,420)',
+ SECTION='';
+
+PART_NAME
+ C239 'C_CAP196_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1038938@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1038938@analog.\c.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1038938@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1040,500)',
+ SECTION='';
+
+PART_NAME
+ C240 'C_CAP196_6.8UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1038964@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1038964@analog.\c.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1038964@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1070,500)',
+ SECTION='';
+
+PART_NAME
+ C241 'C_CAP196_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1039642@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1039642@analog.\c.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1039642@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(850,600)',
+ SECTION='';
+
+PART_NAME
+ C242 'C_CAP196_6.8UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1039658@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1039658@analog.\c.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1039658@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(880,600)',
+ SECTION='';
+
+PART_NAME
+ C243 'CAP_2012_SMC1608_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1041942@LIDAR_READOUT_LIBRARY.CAP_2012.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1041942@lidar_readout_library.\cap_2012.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1041942@lidar_readout_library.\cap_2012.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1390,820)',
+ SECTION='';
+
+PART_NAME
+ C244 'C_CAP196_4.7U':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1044684@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1044684@analog.\c.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1044684@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(750,110)',
+ SECTION='';
+
+PART_NAME
+ C245 'CAP_2012_SMC2012_47UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1044958@LIDAR_READOUT_LIBRARY.CAP_2012.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1044958@lidar_readout_library.\cap_2012.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1044958@lidar_readout_library.\cap_2012.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(520,150)',
+ SECTION='';
+
+PART_NAME
+ C248 'CAP_3216_SMC321612_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1057087@LIDAR_READOUT_LIBRARY.CAP_3216.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1057087@lidar_readout_library.\cap_3216.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1057087@lidar_readout_library.\cap_3216.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(720,520)',
+ SECTION='';
+
+PART_NAME
+ C249 'CAP_2012_SMC321612_6.8UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1058015@LIDAR_READOUT_LIBRARY.CAP_2012.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1058015@lidar_readout_library.\cap_2012.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1058015@lidar_readout_library.\cap_2012.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1280,500)',
+ SECTION='';
+
+PART_NAME
+ C49 'CAP_2012_SMC1608_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS899629@LIDAR_READOUT_LIBRARY.CAP_2012.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins899629@lidar_readout_library.\cap_2012.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins899629@lidar_readout_library.\cap_2012.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1530,740)',
+ SECTION='';
+
+PART_NAME
+ C50 'CAP_2012_SMC1608_0.1UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS899895@LIDAR_READOUT_LIBRARY.CAP_2012.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins899895@lidar_readout_library.\cap_2012.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins899895@lidar_readout_library.\cap_2012.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1260,800)',
+ SECTION='';
+
+PART_NAME
+ C52 'CAP_2012_SMC1608_10NF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS900079@LIDAR_READOUT_LIBRARY.CAP_2012.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins900079@lidar_readout_library.\cap_2012.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins900079@lidar_readout_library.\cap_2012.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1730,830)',
+ SECTION='';
+
+PART_NAME
+ C53 'CAP_2012_SMC321612_6.8UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS900095@LIDAR_READOUT_LIBRARY.CAP_2012.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins900095@lidar_readout_library.\cap_2012.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins900095@lidar_readout_library.\cap_2012.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1780,830)',
+ SECTION='';
+
+PART_NAME
+ C7 'CAP_1608_SMC1608_0.47UF':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS896665@LIDAR_READOUT_LIBRARY.CAP_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins896665@lidar_readout_library.\cap_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins896665@lidar_readout_library.\cap_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(210,180)',
+ SECTION='';
+
+PART_NAME
+ IC9 'OPA855IDSGR_0_SON50P200X200X80-9N_OPA855IDSGR':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS982374@80DB_LIDAR.OPA855IDSGR_0.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins982374@\80db_lidar\.\opa855idsgr_0.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins982374@\80db_lidar\.\opa855idsgr_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(440,430)',
+ SECTION='';
+
+PART_NAME
+ J1 'TSW-110-07-G-D_1_TSW-110-XX-YY-D_TSW-110-07-G-D':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS997586@NEW_LIDAR.TSW-110-07-G-D_1.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins997586@new_lidar.\tsw-110-07-g-d_1.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins997586@new_lidar.\tsw-110-07-g-d_1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1220,110)',
+ SECTION='';
+
+PART_NAME
+ JP1 '4 HEADER_0_HEADER4_4 HEADER':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS896541@LIDAR_READOUT_VER1.4 HEADER_0.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins896541@lidar_readout_ver1.\4 header_0.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins896541@lidar_readout_ver1.\4 header_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(50,130)',
+ SECTION='';
+
+PART_NAME
+ R114 'R_1608_SMR1608_500':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS988696@LIDAR_READOUT_LIBRARY.R_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins988696@lidar_readout_library.\r_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins988696@lidar_readout_library.\r_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(930,420)',
+ SECTION='';
+
+PART_NAME
+ R117 'R_1608_SMR1608_360':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS988800@LIDAR_READOUT_LIBRARY.R_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins988800@lidar_readout_library.\r_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins988800@lidar_readout_library.\r_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(820,420)',
+ SECTION='';
+
+PART_NAME
+ R122 'R_1608_SMR1608_27':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS991686@LIDAR_READOUT_LIBRARY.R_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins991686@lidar_readout_library.\r_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins991686@lidar_readout_library.\r_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1070,420)',
+ SECTION='';
+
+PART_NAME
+ R123 'R_1608_SMR1608_50':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS992953@LIDAR_READOUT_LIBRARY.R_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins992953@lidar_readout_library.\r_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins992953@lidar_readout_library.\r_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1650,610)',
+ SECTION='';
+
+PART_NAME
+ R126 'R_1608_SMR1608_100':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS996254@LIDAR_READOUT_LIBRARY.R_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins996254@lidar_readout_library.\r_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins996254@lidar_readout_library.\r_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1760,390)',
+ SECTION='';
+
+PART_NAME
+ R127 'R_1608_SMR1608_200':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS996286@LIDAR_READOUT_LIBRARY.R_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins996286@lidar_readout_library.\r_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins996286@lidar_readout_library.\r_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1410,410)',
+ SECTION='';
+
+PART_NAME
+ R128 'RESISTOR VAR_ST5EW_20K':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS996370@DISCRETE.RESISTOR VAR.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins996370@discrete.\resistor var.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins996370@discrete.\resistor var.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1190,460)',
+ SECTION='';
+
+PART_NAME
+ R129 'R_1608_SMR1608_200':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS996396@LIDAR_READOUT_LIBRARY.R_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins996396@lidar_readout_library.\r_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins996396@lidar_readout_library.\r_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1530,470)',
+ SECTION='';
+
+PART_NAME
+ R136 'RESISTOR VAR_0_ST5EW_5K':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1044567@80DB_LIDAR.RESISTOR VAR_0.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1044567@\80db_lidar\.\resistor var_0.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1044567@\80db_lidar\.\resistor var_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(620,60)',
+ SECTION='';
+
+PART_NAME
+ R137 'R_3216_SMR1005_10':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1044724@LIDAR_READOUT_LIBRARY.R_3216.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1044724@lidar_readout_library.\r_3216.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1044724@lidar_readout_library.\r_3216.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(820,110)',
+ SECTION='';
+
+PART_NAME
+ R138 'R_3216_SMR1005_10':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1045044@LIDAR_READOUT_LIBRARY.R_3216.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1045044@lidar_readout_library.\r_3216.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1045044@lidar_readout_library.\r_3216.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(520,200)',
+ SECTION='';
+
+PART_NAME
+ R139 'R_1608_SMR1608_0':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1056478@LIDAR_READOUT_LIBRARY.R_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1056478@lidar_readout_library.\r_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1056478@lidar_readout_library.\r_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1830,630)',
+ SECTION='';
+
+PART_NAME
+ R140 'R_1608_SMR1608_0':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1056589@LIDAR_READOUT_LIBRARY.R_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1056589@lidar_readout_library.\r_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1056589@lidar_readout_library.\r_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1830,770)',
+ SECTION='';
+
+PART_NAME
+ R141 'R_1608_SMR1608_0':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1056669@LIDAR_READOUT_LIBRARY.R_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1056669@lidar_readout_library.\r_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1056669@lidar_readout_library.\r_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1810,330)',
+ SECTION='';
+
+PART_NAME
+ R142 'R_1608_SMR1608_0':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1056695@LIDAR_READOUT_LIBRARY.R_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1056695@lidar_readout_library.\r_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1056695@lidar_readout_library.\r_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1810,470)',
+ SECTION='';
+
+PART_NAME
+ R144 'R_AXRC05_20':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1057063@ANALOG.R.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1057063@analog.\r.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1057063@analog.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(780,480)',
+ SECTION='';
+
+PART_NAME
+ R145 'R_3216_SMR1005_10':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1059991@LIDAR_READOUT_LIBRARY.R_3216.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1059991@lidar_readout_library.\r_3216.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1059991@lidar_readout_library.\r_3216.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(360,450)',
+ SECTION='';
+
+PART_NAME
+ R60 'R_1608_SMR1608_200':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS899669@LIDAR_READOUT_LIBRARY.R_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins899669@lidar_readout_library.\r_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins899669@lidar_readout_library.\r_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1440,710)',
+ SECTION='';
+
+PART_NAME
+ R61 'RESISTOR VAR_ST5EW_20 K':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS899805@DISCRETE.RESISTOR VAR.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins899805@discrete.\resistor var.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins899805@discrete.\resistor var.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1230,760)',
+ SECTION='';
+
+PART_NAME
+ R62 'R_1608_SMR1608_100':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS899823@LIDAR_READOUT_LIBRARY.R_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins899823@lidar_readout_library.\r_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins899823@lidar_readout_library.\r_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1790,690)',
+ SECTION='';
+
+PART_NAME
+ R63 'R_1608_SMR1608_200':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS899847@LIDAR_READOUT_LIBRARY.R_1608.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins899847@lidar_readout_library.\r_1608.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins899847@lidar_readout_library.\r_1608.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1560,770)',
+ SECTION='';
+
+PART_NAME
+ R73 'R_3216_SMR3216_200K':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS982294@LIDAR_READOUT_LIBRARY.R_3216.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins982294@lidar_readout_library.\r_3216.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins982294@lidar_readout_library.\r_3216.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(140,390)',
+ SECTION='';
+
+PART_NAME
+ R74 'R_3216_SMR1005_500':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS982358@LIDAR_READOUT_LIBRARY.R_3216.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins982358@lidar_readout_library.\r_3216.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins982358@lidar_readout_library.\r_3216.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(360,430)',
+ SECTION='';
+
+PART_NAME
+ R77 'R_3216_SMR1608_200':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS982650@LIDAR_READOUT_LIBRARY.R_3216.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins982650@lidar_readout_library.\r_3216.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins982650@lidar_readout_library.\r_3216.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(240,550)',
+ SECTION='';
+
+PART_NAME
+ R78 'RESISTOR VAR_0_ST5EW_20 K':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS982746@80DB_LIDAR.RESISTOR VAR_0.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins982746@\80db_lidar\.\resistor var_0.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins982746@\80db_lidar\.\resistor var_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(120,600)',
+ SECTION='';
+
+PART_NAME
+ R80 'R_3216_SMR1608_130':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS986369@LIDAR_READOUT_LIBRARY.R_3216.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins986369@lidar_readout_library.\r_3216.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins986369@lidar_readout_library.\r_3216.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(370,610)',
+ SECTION='';
+
+PART_NAME
+ U1 'LM2940_0_LM2940_TO220_LM2940':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS896417@NEW_LIDAR.LM2940_0.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins896417@new_lidar.\lm2940_0.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins896417@new_lidar.\lm2940_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(290,70)',
+ SECTION='';
+
+PART_NAME
+ U15 'OPA277_SOIC8_OPA277':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS899753@LIDAR_READOUT_LIBRARY.OPA277.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins899753@lidar_readout_library.\opa277.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins899753@lidar_readout_library.\opa277.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1430,750)',
+ SECTION='';
+
+PART_NAME
+ U16 'TLV3604_SC70_6PIN_TLV3604':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS899781@LIDAR_READOUT_LIBRARY.TLV3604.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins899781@lidar_readout_library.\tlv3604.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins899781@lidar_readout_library.\tlv3604.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1690,680)',
+ SECTION='';
+
+PART_NAME
+ U3 'LM2990_0_LM2990_TO220AB_LM2990':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS896681@NEW_LIDAR.LM2990_0.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins896681@new_lidar.\lm2990_0.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins896681@new_lidar.\lm2990_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(280,200)',
+ SECTION='';
+
+PART_NAME
+ U45 'OPA277_OPA277_OPA277':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS982718@LIDAR_READOUT_LIBRARY.OPA277.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins982718@lidar_readout_library.\opa277.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins982718@lidar_readout_library.\opa277.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(240,580)',
+ SECTION='';
+
+PART_NAME
+ U63 'SMA_CON_RFSMAV_SMA_CON':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS992483@LIDAR_READOUT_LIBRARY.SMA_CON.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins992483@lidar_readout_library.\sma_con.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins992483@lidar_readout_library.\sma_con.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1580,640)',
+ SECTION='';
+
+PART_NAME
+ U70 'OPA695_SOIC8_OPA695':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS988768@LIDAR_READOUT_LIBRARY.OPA695.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins988768@lidar_readout_library.\opa695.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins988768@lidar_readout_library.\opa695.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(920,460)',
+ SECTION='';
+
+PART_NAME
+ U72 'TLV3604_SC70_6PIN_TLV3604':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS996230@LIDAR_READOUT_LIBRARY.TLV3604.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins996230@lidar_readout_library.\tlv3604.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins996230@lidar_readout_library.\tlv3604.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1660,380)',
+ SECTION='';
+
+PART_NAME
+ U73 'OPA277_SOIC8_OPA277':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS996342@LIDAR_READOUT_LIBRARY.OPA277.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins996342@lidar_readout_library.\opa277.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins996342@lidar_readout_library.\opa277.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(1400,450)',
+ SECTION='';
+
+PART_NAME
+ U74 'R12_4_R12_150_R12_150B':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1043962@NEW_LIDAR.R12_4.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1043962@new_lidar.\r12_4.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1043962@new_lidar.\r12_4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(600,110)',
+ SECTION='';
+
+PART_NAME
+ U75 'MTAPD-06-013_MTAPD06013_MTAPD-06-013':;
+
+SECTION_NUMBER 1
+ '@NEW_LIDAR.1.FULL_SCHEMETIC(SCH_1):INS1062217@MTAPD-06-013.MTAPD-06-013.NORMAL(CHIPS)':
+ C_PATH='@new_lidar.\1.full_schemetic\(sch_1):ins1062217@\mtapd-06-013\.\mtapd-06-013.normal\(chips)',
+ P_PATH='@new_lidar.\1.full_schemetic\(sch_1):page_ins1062217@\mtapd-06-013\.\mtapd-06-013.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(210,430)',
+ SECTION='';
+
+END.

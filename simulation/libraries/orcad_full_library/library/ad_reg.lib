@@ -1,0 +1,8542 @@
+*
+*$
+.subckt adp120acbz18r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.79974
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=60e-3
++ IVD1=100e-3
++ IMAX=100e-3
++ VMAIP=2.0
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp120_S1 
+.ends adp120acbz18r7
+*$
+.subckt adp120_S1 1 2 3 4  
+S_x1_S1         3 4 1 2 _x1_S1
+RS_x1_S1         1 2 1G
+.MODEL         _x1_S1 VSWITCH Roff=1e10 Ron=0.0001 Voff=.1V Von=1.2
+.ends adp120_S1
+*$
+.subckt adp120aujz12r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.1996
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=8e-3
++ VD1=80e-3
++ IVD1=100e-3
++ IMAX=100e-3
++ VMAIP=2.0
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp120_S1 
+.ends adp120aujz12r7
+*$
+.subckt adp120aujz15r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.4997
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=8e-3
++ VD1=80e-3
++ IVD1=100e-3
++ IMAX=100e-3
++ VMAIP=2.0
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp120_S1 
+.ends adp120aujz15r7 
+*$
+
+*$
+.subckt adp120aujz18r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.79974
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=60e-3
++ IVD1=100e-3
++ IMAX=100e-3
++ VMAIP=2.0
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp120_S1 
+.ends adp120aujz18r7
+*$
+
+
+*$
+.subckt adp120aujz33r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=3.30
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=8e-3
++ VD1=80e-3
++ IVD1=100e-3
++ IMAX=100e-3
++ VMAIP=2.0
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp120_S1 
+.ends adp120aujz33r7
+*$
+.subckt adp120acbz12r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.1996
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=60e-3
++ IVD1=100e-3
++ IMAX=100e-3
++ VMAIP=2.0
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp120_S1 
+.ends adp120acbz12r7 
+*$
+.subckt adp120acbz15r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.4997
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=60e-3
++ IVD1=100e-3
++ IMAX=100e-3
++ VMAIP=2.0
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp120_S1 
+.ends adp120acbz15r7 
+*$
+.subckt adp120acbz155r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.5497
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=60e-3
++ IVD1=100e-3
++ IMAX=100e-3
++ VMAIP=2.0
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp120_S1 
+.ends adp120acbz155r7 
+*$
+.subckt adp120acbz16r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.5997
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=60e-3
++ IVD1=100e-3
++ IMAX=100e-3
++ VMAIP=2.0
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp120_S1 
+.ends adp120acbz16r7 
+*$
+.subckt adp120acbz165r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.64971
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=60e-3
++ IVD1=100e-3
++ IMAX=100e-3
++ VMAIP=2.0
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp120_S1 
+.ends adp120acbz165r7 
+*$
+.subckt adp120acbz17r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.69971
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=60e-3
++ IVD1=100e-3
++ IMAX=100e-3
++ VMAIP=2.0
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp120_S1 
+.ends adp120acbz17r7 
+*$
+.subckt adp120acbz175r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.74974
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=60e-3
++ IVD1=100e-3
++ IMAX=100e-3
++ VMAIP=2.0
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp120_S1 
+.ends adp120acbz175r7
+*$
+.subckt adp120acbz188r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.87974
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=60e-3
++ IVD1=100e-3
++ IMAX=100e-3
++ VMAIP=2.0
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp120_S1 
+.ends adp120acbz188r7 
+*$
+.subckt adp120acbz20r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.99974
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=60e-3
++ IVD1=100e-3
++ IMAX=100e-3
++ VMAIP=2.0
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp120_S1 
+.ends adp120acbz20r7 
+*$
+.subckt adp120acbz25r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=2.49974
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=60e-3
++ IVD1=100e-3
++ IMAX=100e-3
++ VMAIP=2.0
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp120_S1 
+.ends adp120acbz25r7 
+*$
+.subckt adp120acbz278r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=2.77474
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=60e-3
++ IVD1=100e-3
++ IMAX=100e-3
++ VMAIP=2.0
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp120_S1 
+.ends adp120acbz278r7 
+*$
+.subckt adp120acbz28r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=2.8
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=60e-3
++ IVD1=100e-3
++ IMAX=100e-3
++ VMAIP=2.0
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp120_S1 
+.ends adp120acbz28r7 
+*$
+.subckt adp120acbz29r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=2.9
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=60e-3
++ IVD1=100e-3
++ IMAX=100e-3
++ VMAIP=2.0
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp120_S1 
+.ends adp120acbz29r7 
+*$
+.subckt adp120acbz30r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=3.0
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=60e-3
++ IVD1=100e-3
++ IMAX=100e-3
++ VMAIP=2.0
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp120_S1 
+.ends adp120acbz30r7 
+*$
+.subckt adp120acbz33r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=3.3
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=60e-3
++ IVD1=100e-3
++ IMAX=100e-3
++ VMAIP=2.0
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp120_S1 
+.ends adp120acbz33r7 
+*$
+*adp121
+*$
+.subckt adp121aujz28r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=2.80
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=8e-3
++ VD1=120e-3
++ IVD1=150e-3
++ IMAX=160e-3
++ VMAIP=2.7
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp121_S1 
+.ends adp121aujz28r7 
+*$
+
+*$
+.subckt adp121_S1 1 2 3 4  
+S_x1_S1         3 4 1 2 _x1_S1
+RS_x1_S1         1 2 1G
+.MODEL         _x1_S1 VSWITCH Roff=1e10 Ron=0.0001 Voff=.1V Von=1.2
+.ends adp121_S1
+*$
+
+.subckt adp121aujz30r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=3.0
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=8e-3
++ VD1=120e-3
++ IVD1=150e-3
++ IMAX=160e-3
++ VMAIP=2.7
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp121_S1 
+.ends adp121aujz30r7 
+*$
+
+*$
+.subckt adp121aujz33r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=3.3
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=8e-3
++ VD1=120e-3
++ IVD1=150e-3
++ IMAX=160e-3
++ VMAIP=2.7
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp121_S1 
+.ends adp121aujz33r7 
+*$
+
+*$
+.subckt adp121acbz12r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.1997
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=90e-3
++ IVD1=150e-3
++ IMAX=160e-3
++ VMAIP=2.7
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp121_S1 
+.ends adp121acbz12r7 
+*$
+
+*$
+.subckt adp121acbz15r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.4997
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=90e-3
++ IVD1=150e-3
++ IMAX=160e-3
++ VMAIP=2.7
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp121_S1 
+.ends adp121acbz15r7 
+*$
+
+*$
+.subckt adp121acbz155r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.54974
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=90e-3
++ IVD1=150e-3
++ IMAX=160e-3
++ VMAIP=2.7
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp121_S1 
+.ends adp121acbz155r7 
+*$
+
+
+*$
+.subckt adp121acbz16r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.5997
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=90e-3
++ IVD1=150e-3
++ IMAX=160e-3
++ VMAIP=2.7
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp121_S1 
+.ends adp121acbz16r7 
+*$
+
+*$
+.subckt adp121acbz165r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.64997
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=90e-3
++ IVD1=150e-3
++ IMAX=160e-3
++ VMAIP=2.7
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp121_S1 
+.ends adp121acbz165r7 
+*$
+
+
+*$
+.subckt adp121acbz17r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.6997
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=90e-3
++ IVD1=150e-3
++ IMAX=160e-3
++ VMAIP=2.7
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp121_S1 
+.ends adp121acbz17r7 
+*$
+
+
+
+*$
+.subckt adp121acbz175r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.74964
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=90e-3
++ IVD1=150e-3
++ IMAX=160e-3
++ VMAIP=2.7
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp121_S1 
+.ends adp121acbz175r7 
+*$
+
+*$
+.subckt adp121acbz18r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.79974
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=90e-3
++ IVD1=150e-3
++ IMAX=160e-3
++ VMAIP=2.7
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp121_S1 
+.ends adp121acbz18r7 
+*$
+
+*$
+.subckt adp121acbz188r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.87974
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=90e-3
++ IVD1=150e-3
++ IMAX=160e-3
++ VMAIP=2.7
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp121_S1 
+.ends adp121acbz188r7 
+*$
+
+*$
+.subckt adp121acbz20r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=1.99974
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=90e-3
++ IVD1=150e-3
++ IMAX=160e-3
++ VMAIP=2.7
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp121_S1 
+.ends adp121acbz20r7 
+*$
+
+
+*$
+.subckt adp121acbz25r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=2.5
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=90e-3
++ IVD1=150e-3
++ IMAX=160e-3
++ VMAIP=2.7
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp121_S1 
+.ends adp121acbz25r7 
+*$
+
+*$
+.subckt adp121acbz278r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=2.775
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=90e-3
++ IVD1=150e-3
++ IMAX=160e-3
++ VMAIP=2.7
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp121_S1 
+.ends adp121acbz278r7 
+*$
+
+*$
+.subckt adp121acbz28r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=2.80
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=90e-3
++ IVD1=150e-3
++ IMAX=160e-3
++ VMAIP=2.7
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp121_S1 
+.ends adp121acbz28r7 
+*$
+
+*$
+.subckt adp121acbz29r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=2.90
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=90e-3
++ IVD1=150e-3
++ IMAX=160e-3
++ VMAIP=2.7
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp121_S1 
+.ends adp121acbz29r7 
+*$
+
+*$
+.subckt adp121acbz30r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=3.00
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=90e-3
++ IVD1=150e-3
++ IMAX=160e-3
++ VMAIP=2.7
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp121_S1 
+.ends adp121acbz30r7 
+*$
+
+
+*$
+.subckt adp121acbz33r7 in gnd en out
+E_x1_EUVLO         x1_N9056456 GND VALUE { IF ((V(IN, GND) >=2.25 & v(EN) >=
++  1.2),V(IN, GND),0.0) }
+R_x1_R1         x1_N9055883 OUT  0.025 TC=0,0 
+X_x1_U1         x1_N9027005 0 x1_N9055883 model667                  
++ params:
++ VR=3.30
++ LINREG=0.03
++ LDREG=0.001
++ IB=11e-6
++ VDMIN=6e-3
++ VD1=90e-3
++ IVD1=150e-3
++ IMAX=160e-3
++ VMAIP=2.7
++ RT=0.1
++ CT=1e-6
+R_x1_R2         x1_N9056456 x1_N9027005  10meg TC=0,0 
+C_x1_C1         x1_N9027005 0  1u  TC=0,0 
+X_x1_S1    EN GND x1_N9056456 x1_N9027005 adp121_S1 
+.ends adp121acbz33r7 
+*$
+*ADP130
+*$
+.SUBCKT ADP130AUJZ08R7 in gnd en bias out 
+R_x1_R2         x1_N9046503 OUT  0.019 TC=0,0 ;0.012 
+E_x1_EUVLO         x1_N9051445 GND VALUE { IF ((V(IN, GND) >=1.2 & v(EN) >=1.2
++  & v(BIAS) >= 2.3),V(IN, GND),0.0) }
+X_x1_U1         x1_N9051359 0 x1_N9046503 model667
++ params:
++ VR=0.7998
++ LINREG=0.10
++ LDREG=0.005
++ IB=25e-6
++ VDMIN=17e-3
++ VD1=100e-3
++ IVD1=350e-3
++ IMAX=350e-3
++ VMAIP=2.5
++ RT=1000
++ CT=1E-9               
+C_x1_C1         x1_N9051359 0  180u  TC=0,0 
+R_x1_R3         x1_N9051445 x1_N9051359  1 TC=0,0 
+.ends ADP130AUJZ08R7
+*$
+
+
+
+
+*$
+.SUBCKT ADP130AUJZ120R7 in gnd en bias out 
+R_x1_R2         x1_N9046503 OUT  0.012 TC=0,0 
+E_x1_EUVLO         x1_N9051445 GND VALUE { IF ((V(IN, GND) >=1.2 & v(EN) >=1.2
++  & v(BIAS) >= 2.3),V(IN, GND),0.0) }
+X_x1_U1         x1_N9051359 0 x1_N9046503 model667
++ params:
++ VR=1.1999
++ LINREG=0.10
++ LDREG=0.005
++ IB=25e-6
++ VDMIN=17e-3
++ VD1=100e-3
++ IVD1=350e-3
++ IMAX=350e-3
++ VMAIP=2.5
++ RT=1000
++ CT=1E-8                 
+C_x1_C1         x1_N9051359 0  180u  TC=0,0 
+R_x1_R3         x1_N9051445 x1_N9051359  1 TC=0,0 
+.ends ADP130AUJZ120R7
+*$
+
+
+*$
+.SUBCKT ADP130AUJZ150R7 in gnd en bias out 
+R_x1_R2         x1_N9046503 OUT  0.012 TC=0,0 
+E_x1_EUVLO         x1_N9051445 GND VALUE { IF ((V(IN, GND) >=1.2 & v(EN) >=1.2
++  & v(BIAS) >= 2.3),V(IN, GND),0.0) }
+X_x1_U1         x1_N9051359 0 x1_N9046503 model667
++ params:
++ VR=1.5  ;1.4994
++ LINREG=0.010
++ LDREG=0.001  ;0.005
++ IB=25e-6
++ VDMIN=17e-3
++ VD1=100e-3
++ IVD1=350e-3
++ IMAX=360e-3
++ VMAIP=2.5
++ RT=1000
++ CT=1E-8                 
+C_x1_C1         x1_N9051359 0  180u  TC=0,0 
+R_x1_R3         x1_N9051445 x1_N9051359  1 TC=0,0 
+.ends ADP130AUJZ150R7
+*$
+
+
+*$
+.SUBCKT ADP130AUJZ180R7 in gnd en bias out 
+R_x1_R2         x1_N9046503 OUT  0.012 TC=0,0 
+E_x1_EUVLO         x1_N9051445 GND VALUE { IF ((V(IN, GND) >=1.2 & v(EN) >=1.2
++  & v(BIAS) >= 2.3),V(IN, GND),0.0) }
+X_x1_U1         x1_N9051359 0 x1_N9046503 model667
++ params:
++ VR=1.79992
++ LINREG=0.010
++ LDREG=0.005
++ IB=25e-6
++ VDMIN=17e-3
++ VD1=100e-3
++ IVD1=350e-3
++ IMAX=350e-3
++ VMAIP=2.5
++ RT=1000
++ CT=1E-8                 
+C_x1_C1         x1_N9051359 0  180u  TC=0,0 
+R_x1_R3         x1_N9051445 x1_N9051359  1 TC=0,0 
+.ends ADP130AUJZ_180-R7
+*$
+
+
+*$
+.SUBCKT ADP130AUJZ250R7 in gnd en bias out 
+R_x1_R2         x1_N9046503 OUT  0.012 TC=0,0 
+E_x1_EUVLO         x1_N9051445 GND VALUE { IF ((V(IN, GND) >=1.2 & v(EN) >=1.2
++  & v(BIAS) >= 2.3),V(IN, GND),0.0) }
+X_x1_U1         x1_N9051359 0 x1_N9046503 model667
++ params:
++ VR=2.49992
++ LINREG=0.010
++ LDREG=0.005
++ IB=25e-6
++ VDMIN=17e-3
++ VD1=100e-3
++ IVD1=350e-3
++ IMAX=350e-3
++ VMAIP=2.5
++ RT=1000
++ CT=5E-8                 
+C_x1_C1         x1_N9051359 0  180u  TC=0,0 
+R_x1_R3         x1_N9051445 x1_N9051359  1 TC=0,0 
+.ends ADP130AUJZ250R7
+*$
+
+
+
+* PSpice Model Editor - Version 16.2.0
+*$
+.SUBCKT adp1710aujz075r7 IN gnd EN OUT 
++ params:
++ VR=0.7499
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1710aujz075r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1710aujz075r7 
+*$
+.SUBCKT adp1710aujz080r7 IN gnd EN OUT 
++ params:
++ VR=0.7999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1710aujz080r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1710aujz080r7 
+*$
+.SUBCKT adp1710aujz085r7 IN gnd EN OUT 
++ params:
++ VR=0.84999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1710aujz085r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1710aujz085r7
+*$
+.SUBCKT adp1710aujz090r7 IN gnd EN OUT 
++ params:
++ VR=0.89999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1710aujz090r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1710aujz090r7
+*$
+.SUBCKT adp1710aujz095r7 IN gnd EN OUT 
++ params:
++ VR=0.94999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1710aujz095r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1710aujz095r7
+*$
+.SUBCKT adp1710aujz100r7 IN gnd EN OUT 
++ params:
++ VR=0.99999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1710aujz100r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1710aujz100r7
+*$
+.SUBCKT adp1710aujz105r7 IN gnd EN OUT 
++ params:
++ VR=1.04999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1710aujz105r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1710aujz105r7 
+*$
+.SUBCKT adp1710aujz110r7 IN gnd EN OUT 
++ params:
++ VR=1.09999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1710aujz110r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1710aujz110r7
+*$
+.SUBCKT adp1710aujz115r7 IN gnd EN OUT 
++ params:
++ VR=1.149999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1710aujz115r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1710aujz115r7
+*$
+.SUBCKT adp1710aujz120r7 IN gnd EN OUT 
++ params:
++ VR=1.19999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1710aujz120r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1710aujz120r7
+*$
+.SUBCKT adp1710aujz130r7 IN gnd EN OUT 
++ params:
++ VR=1.29999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1710aujz130r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1710aujz130r7
+*$
+.SUBCKT adp1710aujz150r7 IN gnd EN OUT 
++ params:
++ VR=1.49999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1710aujz150r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1710aujz150r7
+*$
+.SUBCKT adp1710aujz180r7 IN gnd EN OUT 
++ params:
++ VR=1.79999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1710aujz180r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1710aujz180r7
+*$
+.SUBCKT adp1710aujz250r7 IN gnd EN OUT 
++ params:
++ VR=2.5
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1710aujz250r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1710aujz250r7
+*$
+.SUBCKT adp1710aujz300r7 IN gnd EN OUT 
++ params:
++ VR=3.00
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1710aujz300r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1710aujz300r7
+*$
+.SUBCKT adp1710aujz330r7 IN gnd EN OUT 
++ params:
++ VR=3.30
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1710aujz330r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1710aujz330r7
+***************************
+*$
+.SUBCKT adp1711aujz075r7 IN gnd EN BYP OUT 
++ params:
++ VR=0.7499
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1711aujz075r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1711aujz075r7
+*$
+.SUBCKT adp1711aujz080r7 IN gnd EN BYP OUT 
++ params:
++ VR=0.7999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1711aujz080r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1711aujz080r7
+*$
+.SUBCKT adp1711aujz085r7 IN gnd EN BYP OUT 
++ params:
++ VR=0.84999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1711aujz085r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1711aujz085r7
+*$
+.SUBCKT adp1711aujz090r7 IN gnd EN BYP OUT 
++ params:
++ VR=0.8999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1711aujz090r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1711aujz090r7
+*$
+.SUBCKT adp1711aujz095r7 IN gnd EN BYP OUT 
++ params:
++ VR=0.94999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1711aujz095r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1711aujz095r7
+*$
+.SUBCKT adp1711aujz100r7 IN gnd EN BYP OUT 
++ params:
++ VR=0.9999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1711aujz100r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1711aujz100r7
+*$
+.SUBCKT adp1711aujz105r7 IN gnd EN BYP OUT 
++ params:
++ VR=1.04999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1711aujz105r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1711aujz105r7
+*$
+.SUBCKT adp1711aujz110r7 IN gnd EN BYP OUT 
++ params:
++ VR=1.09999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1711aujz110r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1711aujz110r7
+*$
+.SUBCKT adp1711aujz115r7 IN gnd EN BYP OUT 
++ params:
++ VR=1.149999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1711aujz115r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1711aujz115r7
+*$
+.SUBCKT adp1711aujz120r7 IN gnd EN BYP OUT 
++ params:
++ VR=1.19999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1711aujz120r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1711aujz120r7
+*$
+.SUBCKT adp1711aujz130r7 IN gnd EN BYP OUT 
++ params:
++ VR=1.29999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1711aujz130r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1711aujz130r7
+*$
+.SUBCKT adp1711aujz150r7 IN gnd EN BYP OUT 
++ params:
++ VR=1.49999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1711aujz150r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1711aujz150r7
+*$
+.SUBCKT adp1711aujz180r7 IN gnd EN BYP OUT 
++ params:
++ VR=1.79999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1711aujz180r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1711aujz180r7
+*$
+.SUBCKT adp1711aujz250r7 IN gnd EN BYP OUT 
++ params:
++ VR=2.50
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1711aujz250r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1711aujz250r7
+*$
+.SUBCKT adp1711aujz300r7 IN gnd EN BYP OUT 
++ params:
++ VR=3.00
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1711aujz300r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1711aujz300r7
+*$
+.SUBCKT adp1711aujz330r7 IN gnd EN BYP OUT 
++ params:
++ VR=3.30
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=-2.86m
++ TC2VD=3.67u
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=1.8
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1711aujz330r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1711aujz330r7
+*$
+.subckt  adp1710aujzr7 IN GND EN OUT ADJ
++PARAMS:
++ VR=0.80
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.1
++ LDREG=4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=100e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=160e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-12
++ vuvlo=1.8
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1710aujzr7_int   GND EN INP OUT ADJ model9902     params:   vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++ 
+.ends  adp1710aujzr7 
+.end
+*$
+
+*
+
+*$
+.SUBCKT adp1715armz075r7 IN EN gnd SS OUT 
++ params:
++ VR=0.7498
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+vref ref 0 0.8v
+rref ref ss 99.7k
+eslope nxx 0 VALUE { v(out1,0)*v(SS)*1.25 }
+X_ssDIS EN 0 SS 0 adp1715_sw_S2 
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1715armz075r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1715armz075r7
+*$
+
+
+*$
+.SUBCKT adp1715armz08r7 IN EN gnd SS OUT 
++ params:
++ VR=0.8998
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+vref ref 0 0.8v
+rref ref ss 99.7k
+eslope nxx 0 VALUE { v(out1,0)*v(SS)*1.25 }
+X_ssDIS EN 0 SS 0 adp1715_sw_S2 
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1715armz08r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1715armz08r7
+*$
+
+*$
+.SUBCKT adp1715armz085r7 IN EN gnd SS OUT 
++ params:
++ VR=0.8498
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+vref ref 0 0.8v
+rref ref ss 99.7k
+eslope nxx 0 VALUE { v(out1,0)*v(SS)*1.25 }
+X_ssDIS EN 0 SS 0 adp1715_sw_S2 
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1715armz085r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1715armz085r7
+*$
+
+*$
+.SUBCKT adp1715armz09r7 IN EN gnd SS OUT 
++ params:
++ VR=0.8998
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+vref ref 0 0.8v
+rref ref ss 99.7k
+eslope nxx 0 VALUE { v(out1,0)*v(SS)*1.25 }
+X_ssDIS EN 0 SS 0 adp1715_sw_S2 
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1715armz09r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1715armz09r7
+*$
+
+*$
+.SUBCKT adp1715armz095r7 IN EN gnd SS OUT 
++ params:
++ VR=0.9498
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+vref ref 0 0.8v
+rref ref ss 99.7k
+eslope nxx 0 VALUE { v(out1,0)*v(SS)*1.25 }
+X_ssDIS EN 0 SS 0 adp1715_sw_S2 
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1715armz095r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1715armz095r7
+*$
+
+*$
+.SUBCKT adp1715armz10r7 IN EN gnd SS OUT 
++ params:
++ VR=0.9998
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+vref ref 0 0.8v
+rref ref ss 99.7k
+eslope nxx 0 VALUE { v(out1,0)*v(SS)*1.25 }
+X_ssDIS EN 0 SS 0 adp1715_sw_S2 
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1715armz10r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1715armz10r7
+*$
+
+
+*$
+.SUBCKT adp1715armz105r7 IN EN gnd SS OUT 
++ params:
++ VR=1.0498
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+vref ref 0 0.8v
+rref ref ss 99.7k
+eslope nxx 0 VALUE { v(out1,0)*v(SS)*1.25 }
+X_ssDIS EN 0 SS 0 adp1715_sw_S2 
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1715armz105r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1715armz105r7
+*$
+
+*$
+.SUBCKT adp1715armz11r7 IN EN gnd SS OUT 
++ params:
++ VR=1.0998
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+vref ref 0 0.8v
+rref ref ss 99.7k
+eslope nxx 0 VALUE { v(out1,0)*v(SS)*1.25 }
+X_ssDIS EN 0 SS 0 adp1715_sw_S2 
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1715armz11r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1715armz11r7
+*$
+
+*$
+.SUBCKT adp1715armz115r7 IN EN gnd SS OUT 
++ params:
++ VR=1.1498
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+vref ref 0 0.8v
+rref ref ss 99.7k
+eslope nxx 0 VALUE { v(out1,0)*v(SS)*1.25 }
+X_ssDIS EN 0 SS 0 adp1715_sw_S2 
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1715armz115r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1715armz115r7
+*$
+
+*$
+.SUBCKT adp1715armz12r7 IN EN gnd SS OUT 
++ params:
++ VR=1.1998
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+vref ref 0 0.8v
+rref ref ss 99.7k
+eslope nxx 0 VALUE { v(out1,0)*v(SS)*1.25 }
+X_ssDIS EN 0 SS 0 adp1715_sw_S2 
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1715armz12r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1715armz12r7
+*$
+
+*$
+.SUBCKT adp1715armz13r7 IN EN gnd SS OUT 
++ params:
++ VR=1.2998
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+vref ref 0 0.8v
+rref ref ss 99.7k
+eslope nxx 0 VALUE { v(out1,0)*v(SS)*1.25 }
+X_ssDIS EN 0 SS 0 adp1715_sw_S2 
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1715armz13r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1715armz13r7
+*$
+
+*$
+.SUBCKT adp1715armz15r7 IN EN gnd SS OUT 
++ params:
++ VR=1.4998
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+vref ref 0 0.8v
+rref ref ss 99.7k
+eslope nxx 0 VALUE { v(out1,0)*v(SS)*1.25 }
+X_ssDIS EN 0 SS 0 adp1715_sw_S2 
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1715armz15r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1715armz15r7
+*$
+
+*$
+.SUBCKT adp1715armz18r7 IN EN gnd SS OUT 
++ params:
++ VR=1.7998
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+vref ref 0 0.8v
+rref ref ss 99.7k
+eslope nxx 0 VALUE { v(out1,0)*v(SS)*1.25 }
+X_ssDIS EN 0 SS 0 adp1715_sw_S2 
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1715armz18r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1715armz18r7
+*$
+
+*$
+.SUBCKT adp1715armz25r7 IN EN gnd SS OUT 
++ params:
++ VR=2.50
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+vref ref 0 0.8v
+rref ref ss 99.7k
+eslope nxx 0 VALUE { v(out1,0)*v(SS)*1.25 }
+X_ssDIS EN 0 SS 0 adp1715_sw_S2 
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1715armz25r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1715armz25r7
+*$
+
+*$
+.SUBCKT adp1715armz30r7 IN EN gnd SS OUT 
++ params:
++ VR=3.00
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+vref ref 0 0.8v
+rref ref ss 99.7k
+eslope nxx 0 VALUE { v(out1,0)*v(SS)*1.25 }
+X_ssDIS EN 0 SS 0 adp1715_sw_S2 
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1715armz30r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1715armz30r7
+*$
+
+
+*$
+.SUBCKT adp1715armz33r7 IN EN gnd SS OUT 
++ params:
++ VR=3.30
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+vref ref 0 0.8v
+rref ref ss 99.7k
+eslope nxx 0 VALUE { v(out1,0)*v(SS)*1.25 }
+X_ssDIS EN 0 SS 0 adp1715_sw_S2 
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1715armz33r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1715armz33r7
+*$
+
+*$
+.subckt adp1715_sw_S2 1 2 3 4  
+S_x1_S2         3 4 1 2 _x1_S2
+RS_x1_S2         1 2 1G
+.MODEL         _x1_S2 VSWITCH Roff=1e9 Ron=100 Voff=1.8 Von=0.4
+.ends adp1715_sw_S2
+*$
+
+
+*****************************************
+
+.SUBCKT adp1716armz075r7 IN EN gnd TRK OUT 
++ params:
++ VR=0.7498
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1716armz075r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1716armz075r7
+*$
+
+*$
+.SUBCKT adp1716armz08r7 IN EN gnd TRK OUT 
++ params:
++ VR=0.7998
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1716armz08r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1716armz08r7
+*$
+
+
+*$
+.SUBCKT adp1716armz085r7 IN EN gnd TRK OUT 
++ params:
++ VR=0.8498
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1716armz085r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1716armz085r7
+*$
+
+*$
+.SUBCKT adp1716armz09r7 IN EN gnd TRK OUT 
++ params:
++ VR=0.8998
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1716armz09r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1716armz09r7
+*$
+
+
+*$
+.SUBCKT adp1716armz095r7 IN EN gnd TRK OUT 
++ params:
++ VR=0.9498
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1716armz095r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1716armz095r7
+*$
+
+*$
+.SUBCKT adp1716armz10r7 IN EN gnd TRK OUT 
++ params:
++ VR=1.0998
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1716armz10r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1716armz10r7
+*$
+
+*$
+.SUBCKT adp1716armz105r7 IN EN gnd TRK OUT 
++ params:
++ VR=1.0498
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1716armz105r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1716armz105r7
+*$
+
+
+*$
+.SUBCKT adp1716armz11r7 IN EN gnd TRK OUT 
++ params:
++ VR=1.1098
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1716armz11r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1716armz11r7
+*$
+
+
+*$
+.SUBCKT adp1716armz115r7  IN EN gnd TRK OUT 
++ params:
++ VR=1.1498
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1716armz115r7 _int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1716armz115r7 
+*$
+
+*$
+.SUBCKT adp1716armz12r7 IN EN gnd TRK OUT 
++ params:
++ VR=1.1998
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1716armz12r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1716armz12r7
+*$
+
+
+*$
+.SUBCKT adp1716armz13r7 IN EN gnd TRK OUT 
++ params:
++ VR=1.2998
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1716armz13r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1716armz13r7
+*$
+
+*$
+.SUBCKT adp1716armz15r7 IN EN gnd TRK OUT 
++ params:
++ VR=1.4998
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1716armz15r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1716armz15r7
+*$
+
+
+*$
+.SUBCKT adp1716armz18r7 IN EN gnd TRK OUT 
++ params:
++ VR=1.7998
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1716armz18r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1716armz18r7
+*$
+
+
+*$
+.SUBCKT adp1716armz25r7 IN EN gnd TRK OUT 
++ params:
++ VR=2.4998
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1716armz25r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1716armz25r7
+*$
+
+*$
+.SUBCKT adp1716armz30r7 IN EN gnd TRK OUT 
++ params:
++ VR=3.00
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1716armz30r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1716armz30r7
+*$
+
+
+
+*$
+.SUBCKT adp1716armz33r7 IN EN gnd TRK OUT 
++ params:
++ VR=3.30
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2   
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=0.1
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1716armz33r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1716armz33r7
+*$
+
+
+*$
+.subckt  adp1715armzr7 IN EN GND OUT ADJ
++PARAMS:
++ VR=0.7498
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.2
++ IB=0.1e-6
++ VDMIN=5e-3
++ VD1=100e-3
++ IVD1=200e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=500e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=10k
++ CT=1e-11
++ vuvlo=0.1
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1715armzr7_int   GND EN INP OUT ADJ model9902     params:   vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++ 
+.ends  adp1715armzr7
+*$
+****************************************************************
+*$
+.subckt adp1715armz075r7xx inp en gnd ss out
+X_x1_U1         x1_N9078054 0 x1_N9118908 model667                
++ params:
++ VR=0.7498
++ LINREG=0.15
++ LDREG=2
++ IB=0.1e-6
++ VDMIN=50e-3
++ VD1=250e-3
++ IVD1=500e-3
++ IMAX=500e-3
++ VMAIP=2.5
++ CT=1E-11
++ M1ILIM=1e-3
++ M2ILIM=0
++ RT=1e3   
+E_x1_E3         x1_N9105870 GND VALUE { v(x1_N9118908,GND)*v(SS)*1.25 }
+E_x1_E1         x1_N9078080 GND VALUE { IF((v(INP,GND) >=0.1 & v(EN)
++  >=1.8),v(INP,GND),0.0) }
+V_x1_V4         x1_N9117750 0 0.75
+X_x1_S1    EN GND x1_N9078080 x1_N9078054 adp1715_x1_S1 
+R_x1_R10         x1_N9105870 OUT  0.008 TC=0,0 
+X_x1_S2    EN 0 SS 0 adp1715_x1_S2 
+R_x1_R5         x1_N9078080 x1_N9078054  10meg TC=0,0 
+R_x1_R12         x1_REV_C_P 0  100k TC=0,0 
+V_x1_V3         x1_N9106194 0 0.8
+R_x1_R11         x1_N9106194 SS  99.7k TC=0,0 
+C_x1_C1         x1_N9078054 0  1n  TC=0,0 
+E_x1_rev_curr_prot         x1_REV_C_P 0 VALUE { V(x1_N9117750, INP) }
+.ends adp1715armz075r7xx
+*$
+*$
+.subckt adp1715_x1_S1 1 2 3 4  
+S_x1_S1         3 4 1 2 _x1_S1
+RS_x1_S1         1 2 1G
+.MODEL         _x1_S1 VSWITCH Roff=1e10 Ron=0.0001 Voff=0.4V Von=1.8
+.ends adp1715_x1_S1
+*$
+.subckt adp1715_x1_S2 1 2 3 4  
+S_x1_S2         3 4 1 2 _x1_S2
+RS_x1_S2         1 2 1G
+.MODEL         _x1_S2 VSWITCH Roff=1e9 Ron=100 Voff=1.8 Von=0.4
+.ends adp1715_x1_S2
+*$
+***adp1720 
+*$
+.subckt adp1720armzr7  IN GND EN OUT ADJ
++PARAMS:
++ VR=1.2243
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.02
++ LDREG=0.001
++ IB=0.7e-6
++ VDMIN=55e-6
++ VD1=275e-3
++ IVD1=50e-3
++ TC1VD=-1179u
++ TC2VD=7.9u
++ IMAX=55e-3
++ VMAIP=11
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1000
++ CT=1e-8
++ vuvlo=4.0
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1720armzr7_int   GND EN INP OUT ADJ model9902     params:   vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++ 
+.ends  adp1720armzr7 
+
+.subckt adp1720armz33r7 in en gnd out
+R_x1_R3         x1_N9078915 OUT  0.012 TC=0,0 
+C_x1_C1         x1_N9069235 0  1u  TC=0,0 
+E_x1_E1         x1_N9069936 0 VALUE { IF((V(IN,0) >=4.0 & v(EN)
++  >=1.8),v(IN,0),0.0) }
+R_x1_R2         x1_N9069936 x1_N9069235  10meg TC=0,0 
+X_x1_S1    EN GND x1_N9069936 x1_N9069235 adp1720armz33r7_S1 
+X_x1_U1         x1_N9069235 GND x1_N9078915 model667
++ params:
++ VR=3.2989
++ LINREG=0.02
++ LDREG=0.001
++ IB=0.7e-6
++ VDMIN=55e-6
++ VD1=275e-3
++ IVD1=50e-3
++ IMAX=50e-3
++ VMAIP=14
++ RT=1000
++ CT=1E-9
+.ends adp1720armz33r7                  
+*$
+.subckt adp1720armz5r7 in en gnd out
+R_x1_R3         x1_N9078915 OUT  0.009 TC=0,0 
+C_x1_C1         x1_N9069235 0  1u  TC=0,0 
+E_x1_E1         x1_N9069936 0 VALUE { IF((V(IN,0) >=4.0 & v(EN)
++  >=1.8),v(IN,0),0.0) }
+R_x1_R2         x1_N9069936 x1_N9069235  10meg TC=0,0 
+X_x1_S1    EN GND x1_N9069936 x1_N9069235 adp1720armz33r7_S1 
+X_x1_U1         x1_N9069235 GND x1_N9078915 model667
++ params:
++ VR=4.9990
++ LINREG=0.02
++ LDREG=0.001
++ IB=0.7e-6
++ VDMIN=55e-6
++ VD1=275e-3
++ IVD1=50e-3
++ IMAX=60e-3
++ VMAIP=14
++ RT=1000
++ CT=1E-7
+.ends adp1720armz5r7                  
+*$
+.subckt adp1720armz33r7_S1 1 2 3 4  
+S_x1_S1         3 4 1 2 _x1_S1
+RS_x1_S1         1 2 1G
+.MODEL         _x1_S1 VSWITCH Roff=1e10 Ron=0.0001 Voff=.1V Von=1.2
+.ends adp1720armz33r7_S1
+*$
+
+* PSpice Model Editor - Version 16.2.0
+*$
+* updated using Model Editor release 16.2.0 on 07/09/09 at 10:37
+*DEVICE=adp3338akc15rl,VREG
+.subckt adp3338akc15rl IN REF OUT 
++ params:
++ VR=1.5
++ LINREG=0.004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akc15rl IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akc15rl
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akc15rl7,VREG
+.subckt adp3338akc15rl7 IN REF OUT 
++ params:
++ VR=1.5
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akc15rl7 IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akc15rl7
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akcz15rl,VREG
+.subckt adp3338akcz15rl IN REF OUT 
++ params:
++ VR=1.5
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akcz15rl IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akcz15rl
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akcz15rl7,VREG
+.subckt adp3338akcz15rl7 IN REF OUT 
++ params:
++ VR=1.5
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akcz15rl7 IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akcz15rl7
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akc18rl,VREG
+.subckt adp3338akc18rl IN REF OUT 
++ params:
++ VR=1.8
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akc18rl IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akc18rl
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akc18rl7,VREG
+.subckt adp3338akc18rl7 IN REF OUT 
++ params:
++ VR=1.8
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akc18rl7 IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akc18rl7
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akcz18rl,VREG
+.subckt adp3338akcz18rl IN REF OUT 
++ params:
++ VR=1.8
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akcz18rl IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akcz18rl
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akcz18rl7,VREG
+.subckt adp3338akcz18rl7 IN REF OUT 
++ params:
++ VR=1.8
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akcz18rl7 IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akcz18rl7
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akc25rl,VREG
+.subckt adp3338akc25rl IN REF OUT 
++ params:
++ VR=2.5
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akc25rl IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akc25rl
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akc25rl7,VREG
+.subckt adp3338akc25rl7 IN REF OUT 
++ params:
++ VR=2.5
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akc25rl7 IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akc25rl7
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akcz25rl,VREG
+.subckt adp3338akcz25rl IN REF OUT 
++ params:
++ VR=2.5
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akcz25rl IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akcz25rl
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akcz25rl7,VREG
+.subckt adp3338akcz25rl7 IN REF OUT 
++ params:
++ VR=2.5
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akcz25rl7 IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akcz25rl7
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akc285rl,VREG
+.subckt adp3338akc285rl IN REF OUT 
++ params:
++ VR=2.85
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akc285rl IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akc285rl
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akc285rl7,VREG
+.subckt adp3338akc285rl7 IN REF OUT 
++ params:
++ VR=2.85
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akc285rl7 IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akc285rl7
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akcz285r7,VREG
+.subckt adp3338akcz285r7 IN REF OUT 
++ params:
++ VR=2.85
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akcz285r7 IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akcz285r7
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akc3rl,VREG
+.subckt adp3338akc3rl IN REF OUT 
++ params:
++ VR=3.00
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akc3rl IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akc3rl
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akc3rl7,VREG
+.subckt adp3338akc3rl7 IN REF OUT 
++ params:
++ VR=3.00
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akc3rl7 IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akc3rl7
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akcz3rl7,VREG
+.subckt adp3338akcz3rl7 IN REF OUT 
++ params:
++ VR=3.00
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akcz3rl7 IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akcz3rl7
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akc33rl,VREG
+.subckt adp3338akc33rl IN REF OUT 
++ params:
++ VR=3.30
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akc33rl IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akc33rl
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akc33rl7,VREG
+.subckt adp3338akc33rl7 IN REF OUT 
++ params:
++ VR=3.30
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akc33rl7 IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akc33rl7
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akcz33rl,VREG
+.subckt adp3338akcz33rl IN REF OUT 
++ params:
++ VR=3.30
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akcz33rl IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akcz33rl
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akcz33rl7,VREG
+.subckt adp3338akcz33rl7 IN REF OUT 
++ params:
++ VR=3.30
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akcz33rl7 IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akcz33rl7
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akc5reel,VREG
+.subckt adp3338akc5reel IN REF OUT 
++ params:
++ VR=5.00
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akc5reel IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akc5reel
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akc5reel7,VREG
+.subckt adp3338akc5reel7 IN REF OUT 
++ params:
++ VR=5.00
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akc5reel7 IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akc5reel7
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akcz5reel,VREG
+.subckt adp3338akcz5reel IN REF OUT 
++ params:
++ VR=5.00
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akcz5reel IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akcz5reel
+*$
+* updated using Model Editor release 16.2.0 on 04/16/09 at 14:46
+*DEVICE=adp3338akcz5r7,VREG
+.subckt adp3338akcz5r7 IN REF OUT 
++ params:
++ VR=5.00
++ LINREG=0.0004
++ LDREG=0.006
++ IB=110e-6
++ VDMIN=70e-3
++ VD1=190e-3
++ IMAX=1
++ VMAIP=5
+Xinstadp3338akcz5r7 IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
+.ends adp3338akcz5r7
+*$
+
+* PSpice Model Editor - Version 16.2.0
+*$
+* updated using Model Editor release 16.2.0 on 07/09/09 at 12:08
+*DEVICE=adp3339akc15rl,VREG
+.subckt adp3339akc15rl IN REF OUT 
++ params:
++ VR=1.5
++ LINREG=0.004
++ LDREG=0.004
++ IB=100e-6
++ VDMIN=100e-3
++ VD1=230e-3
++ IMAX=1.5
++ VMAIP=3
++ RT=1e3
++ CT=1E-9
+Xinstadp3339akc15rl IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
++ rt={RT}
++ ct={CT}
+.ends adp3339akc15rl
+*$
+* updated using Model Editor release 16.2.0 on 07/09/09 at 12:09
+*DEVICE=adp3339akc15rl7,VREG
+.subckt adp3339akc15rl7 IN REF OUT 
++ params:
++ VR=1.5
++ LINREG=0.004
++ LDREG=0.004
++ IB=100e-6
++ VDMIN=100e-3
++ VD1=230e-3
++ IMAX=1.5
++ VMAIP=3
++ RT=1e3
++ CT=1E-9
+Xinstadp3339akc15rl7 IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
++ rt={RT}
++ ct={CT}
+.ends adp3339akc15rl7
+*$
+* updated using Model Editor release 16.2.0 on 07/09/09 at 12:09
+*DEVICE=adp3339akc18rl,VREG
+.subckt adp3339akc18rl IN REF OUT 
++ params:
++ VR=1.8
++ LINREG=0.004
++ LDREG=0.004
++ IB=100e-6
++ VDMIN=100e-3
++ VD1=230e-3
++ IMAX=1.5
++ VMAIP=3
++ RT=1e3
++ CT=1E-9
+Xinstadp3339akc18rl IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
++ rt={RT}
++ ct={CT}
+.ends adp3339akc18rl
+*$
+* updated using Model Editor release 16.2.0 on 07/09/09 at 12:09
+*DEVICE=adp3339akc18rl7,VREG
+.subckt adp3339akc18rl7 IN REF OUT 
++ params:
++ VR=1.8
++ LINREG=0.004
++ LDREG=0.004
++ IB=100e-6
++ VDMIN=100e-3
++ VD1=230e-3
++ IMAX=1.5
++ VMAIP=3
++ RT=1e3
++ CT=1E-9
+Xinstadp3339akc18rl7 IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
++ rt={RT}
++ ct={CT}
+.ends adp3339akc18rl7
+*$
+* updated using Model Editor release 16.2.0 on 07/09/09 at 12:09
+*DEVICE=adp3339akc25rl,VREG
+.subckt adp3339akc25rl IN REF OUT 
++ params:
++ VR=2.5
++ LINREG=0.004
++ LDREG=0.004
++ IB=100e-6
++ VDMIN=100e-3
++ VD1=230e-3
++ IMAX=1.5
++ VMAIP=3
++ RT=1e3
++ CT=1E-9
+Xinstadp3339akc25rl IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
++ rt={RT}
++ ct={CT}
+.ends adp3339akc25rl
+*$
+* updated using Model Editor release 16.2.0 on 07/09/09 at 12:10
+*DEVICE=adp3339akc25rl7,VREG
+.subckt adp3339akc25rl7 IN REF OUT 
++ params:
++ VR=2.5
++ LINREG=0.004
++ LDREG=0.004
++ IB=100e-6
++ VDMIN=100e-3
++ VD1=230e-3
++ IMAX=1.5
++ VMAIP=3
++ RT=1e3
++ CT=1E-9
+Xinstadp3339akc25rl7 IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
++ rt={RT}
++ ct={CT}
+.ends adp3339akc25rl7
+*$
+* updated using Model Editor release 16.2.0 on 07/09/09 at 12:10
+*DEVICE=adp3339akc285rl,VREG
+.subckt adp3339akc285rl IN REF OUT 
++ params:
++ VR=2.85
++ LINREG=0.004
++ LDREG=0.004
++ IB=100e-6
++ VDMIN=100e-3
++ VD1=230e-3
++ IMAX=1.5
++ VMAIP=3
++ RT=1e3
++ CT=1E-9
+Xinstadp3339akc285rl IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
++ rt={RT}
++ ct={CT}
+.ends adp3339akc285rl
+*$
+* updated using Model Editor release 16.2.0 on 07/09/09 at 12:10
+*DEVICE=adp3339akc285rl7,VREG
+.subckt adp3339akc285rl7 IN REF OUT 
++ params:
++ VR=2.85
++ LINREG=0.004
++ LDREG=0.004
++ IB=100e-6
++ VDMIN=100e-3
++ VD1=230e-3
++ IMAX=1.5
++ VMAIP=3
++ RT=1e3
++ CT=1E-9
+Xinstadp3339akc285rl7 IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
++ rt={RT}
++ ct={CT}
+.ends adp3339akc285rl7
+*$
+* updated using Model Editor release 16.2.0 on 07/09/09 at 12:10
+*DEVICE=adp3339akc3rl,VREG
+.subckt adp3339akc3rl IN REF OUT 
++ params:
++ VR=3.00
++ LINREG=0.004
++ LDREG=0.004
++ IB=100e-6
++ VDMIN=100e-3
++ VD1=230e-3
++ IMAX=1.5
++ VMAIP=3
++ RT=1e3
++ CT=1E-9
+Xinstadp3339akc3rl IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
++ rt={RT}
++ ct={CT}
+.ends adp3339akc3rl
+*$
+* updated using Model Editor release 16.2.0 on 07/09/09 at 12:10
+*DEVICE=adp3339akc3rl7,VREG
+.subckt adp3339akc3rl7 IN REF OUT 
++ params:
++ VR=3.00
++ LINREG=0.004
++ LDREG=0.004
++ IB=100e-6
++ VDMIN=100e-3
++ VD1=230e-3
++ IMAX=1.5
++ VMAIP=3
++ RT=1e3
++ CT=1E-9
+Xinstadp3339akc3rl7 IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
++ rt={RT}
++ ct={CT}
+.ends adp3339akc3rl7
+*$
+* updated using Model Editor release 16.2.0 on 07/09/09 at 12:10
+*DEVICE=adp3339akc33rl,VREG
+.subckt adp3339akc33rl IN REF OUT 
++ params:
++ VR=3.30
++ LINREG=0.004
++ LDREG=0.004
++ IB=100e-6
++ VDMIN=100e-3
++ VD1=230e-3
++ IMAX=1.5
++ VMAIP=3
++ RT=1e3
++ CT=1E-9
+Xinstadp3339akc33rl IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
++ rt={RT}
++ ct={CT}
+.ends adp3339akc33rl
+*$
+* updated using Model Editor release 16.2.0 on 07/09/09 at 12:11
+*DEVICE=adp3339akc33rl7,VREG
+.subckt adp3339akc33rl7 IN REF OUT 
++ params:
++ VR=3.30
++ LINREG=0.004
++ LDREG=0.004
++ IB=100e-6
++ VDMIN=100e-3
++ VD1=230e-3
++ IMAX=1.5
++ VMAIP=3
++ RT=1e3
++ CT=1E-9
+Xinstadp3339akc33rl7 IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
++ rt={RT}
++ ct={CT}
+.ends adp3339akc33rl7
+*$
+* updated using Model Editor release 16.2.0 on 07/09/09 at 12:11
+*DEVICE=adp3339akc5rl,VREG
+.subckt adp3339akc5rl IN REF OUT 
++ params:
++ VR=5.00
++ LINREG=0.004
++ LDREG=0.004
++ IB=100e-6
++ VDMIN=100e-3
++ VD1=230e-3
++ IMAX=1.5
++ VMAIP=3
++ RT=1e3
++ CT=1E-9
+Xinstadp3339akc5rl IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
++ rt={RT}
++ ct={CT}
+.ends adp3339akc5rl
+*$
+* updated using Model Editor release 16.2.0 on 07/09/09 at 12:07
+*DEVICE=adp3339akc5rl7,VREG
+.subckt adp3339akc5rl7 IN REF OUT 
++ params:
++ VR=5.00
++ LINREG=0.004
++ LDREG=0.004
++ IB=100e-6
++ VDMIN=100e-3
++ VD1=230e-3
++ IMAX=1.5
++ VMAIP=3
++ RT=1e3
++ CT=1E-9
+Xinstadp3339akc5rl7 IN REF OUT  model667
++ params: 
++ vr={VR}
++ linreg={LINREG}
++ ldreg={LDREG}
++ ib={IB}
++ vdmin={VDMIN}
++ vd1={VD1}
++ imax={IMAX}
++ vmaip={VMAIP}
++ rt={RT}
++ ct={CT}
+.ends adp3339akc5rl7
+*$
+
+*****
+*$
+.subckt adp1712aujz075r7 inp en gnd ss out
+X_x1_U1         x1_N9078054 0 x1_N9118908 model667                
++ params:
++ VR=0.7498
++ LINREG=0.06
++ LDREG=0.001
++ IB=0.1e-6
++ VDMIN=60e-3
++ VD1=170e-3
++ IVD1=300e-3
++ IMAX=300e-3
++ VMAIP=3
++ CT=1E-11
++ M1ILIM=1e-3
++ M2ILIM=0
++ RT=1e3   
+E_x1_E3         x1_N9105870 GND VALUE { v(x1_N9118908,GND)*v(SS)*1.25 }
+E_x1_E1         x1_N9078080 GND VALUE { IF((v(INP,GND) >=2.0 & v(EN)
++  >=1.8),v(INP,GND),0.0) }
+V_x1_V4         x1_N9117750 0 0.75
+X_x1_S1    EN GND x1_N9078080 x1_N9078054 adp1712_x1_S1 
+R_x1_R10         x1_N9105870 OUT  0.008 TC=0,0 
+X_x1_S2    EN 0 SS 0 adp1712_x1_S2 
+R_x1_R5         x1_N9078080 x1_N9078054  10meg TC=0,0 
+R_x1_R12         x1_REV_C_P 0  100k TC=0,0 
+V_x1_V3         x1_N9106194 0 0.8
+R_x1_R11         x1_N9106194 SS  99.7k TC=0,0 
+C_x1_C1         x1_N9078054 0  1n  TC=0,0 
+E_x1_rev_curr_prot         x1_REV_C_P 0 VALUE { V(x1_N9117750, INP) }
+.ends adp1712aujz075r7
+*$
+.subckt adp1712aujz08r7 inp en gnd ss out
+X_x1_U1         x1_N9078054 0 x1_N9118908 model667                
++ params:
++ VR=0.7998
++ LINREG=0.06
++ LDREG=0.001
++ IB=0.1e-6
++ VDMIN=60e-3
++ VD1=170e-3
++ IVD1=300e-3
++ IMAX=300e-3
++ VMAIP=3
++ CT=1E-11
++ M1ILIM=1e-3
++ M2ILIM=0
++ RT=1e3   
+E_x1_E3         x1_N9105870 GND VALUE { v(x1_N9118908,GND)*v(SS)*1.25 }
+E_x1_E1         x1_N9078080 GND VALUE { IF((v(INP,GND) >=2.0 & v(EN)
++  >=1.8),v(INP,GND),0.0) }
+V_x1_V4         x1_N9117750 0 0.75
+X_x1_S1    EN GND x1_N9078080 x1_N9078054 adp1712_x1_S1 
+R_x1_R10         x1_N9105870 OUT  0.008 TC=0,0 
+X_x1_S2    EN 0 SS 0 adp1712_x1_S2 
+R_x1_R5         x1_N9078080 x1_N9078054  10meg TC=0,0 
+R_x1_R12         x1_REV_C_P 0  100k TC=0,0 
+V_x1_V3         x1_N9106194 0 0.8
+R_x1_R11         x1_N9106194 SS  99.7k TC=0,0 
+C_x1_C1         x1_N9078054 0  1n  TC=0,0 
+E_x1_rev_curr_prot         x1_REV_C_P 0 VALUE { V(x1_N9117750, INP) }
+.ends adp1712aujz08r7
+*$
+.subckt adp1712aujz085r7 inp en gnd ss out
+X_x1_U1         x1_N9078054 0 x1_N9118908 model667                
++ params:
++ VR=0.8498
++ LINREG=0.06
++ LDREG=0.001
++ IB=0.1e-6
++ VDMIN=60e-3
++ VD1=170e-3
++ IVD1=300e-3
++ IMAX=300e-3
++ VMAIP=3
++ CT=1E-11
++ M1ILIM=1e-3
++ M2ILIM=0
++ RT=1e3   
+E_x1_E3         x1_N9105870 GND VALUE { v(x1_N9118908,GND)*v(SS)*1.25 }
+E_x1_E1         x1_N9078080 GND VALUE { IF((v(INP,GND) >=2.0 & v(EN)
++  >=1.8),v(INP,GND),0.0) }
+V_x1_V4         x1_N9117750 0 0.75
+X_x1_S1    EN GND x1_N9078080 x1_N9078054 adp1712_x1_S1 
+R_x1_R10         x1_N9105870 OUT  0.008 TC=0,0 
+X_x1_S2    EN 0 SS 0 adp1712_x1_S2 
+R_x1_R5         x1_N9078080 x1_N9078054  10meg TC=0,0 
+R_x1_R12         x1_REV_C_P 0  100k TC=0,0 
+V_x1_V3         x1_N9106194 0 0.8
+R_x1_R11         x1_N9106194 SS  99.7k TC=0,0 
+C_x1_C1         x1_N9078054 0  1n  TC=0,0 
+E_x1_rev_curr_prot         x1_REV_C_P 0 VALUE { V(x1_N9117750, INP) }
+.ends adp1712aujz085r7 
+*$
+.subckt adp1712aujz09r7 inp en gnd ss out
+X_x1_U1         x1_N9078054 0 x1_N9118908 model667                
++ params:
++ VR=0.8998
++ LINREG=0.06
++ LDREG=0.001
++ IB=0.1e-6
++ VDMIN=60e-3
++ VD1=170e-3
++ IVD1=300e-3
++ IMAX=300e-3
++ VMAIP=3
++ CT=1E-11
++ M1ILIM=1e-3
++ M2ILIM=0
++ RT=1e3   
+E_x1_E3         x1_N9105870 GND VALUE { v(x1_N9118908,GND)*v(SS)*1.25 }
+E_x1_E1         x1_N9078080 GND VALUE { IF((v(INP,GND) >=2.0 & v(EN)
++  >=1.8),v(INP,GND),0.0) }
+V_x1_V4         x1_N9117750 0 0.75
+X_x1_S1    EN GND x1_N9078080 x1_N9078054 adp1712_x1_S1 
+R_x1_R10         x1_N9105870 OUT  0.008 TC=0,0 
+X_x1_S2    EN 0 SS 0 adp1712_x1_S2 
+R_x1_R5         x1_N9078080 x1_N9078054  10meg TC=0,0 
+R_x1_R12         x1_REV_C_P 0  100k TC=0,0 
+V_x1_V3         x1_N9106194 0 0.8
+R_x1_R11         x1_N9106194 SS  99.7k TC=0,0 
+C_x1_C1         x1_N9078054 0  1n  TC=0,0 
+E_x1_rev_curr_prot         x1_REV_C_P 0 VALUE { V(x1_N9117750, INP) }
+.ends adp1712aujz09r7 
+*$
+.subckt adp1712aujz095r7 inp en gnd ss out
+X_x1_U1         x1_N9078054 0 x1_N9118908 model667                
++ params:
++ VR=0.9498
++ LINREG=0.06
++ LDREG=0.001
++ IB=0.1e-6
++ VDMIN=60e-3
++ VD1=170e-3
++ IVD1=300e-3
++ IMAX=300e-3
++ VMAIP=3
++ CT=1E-11
++ M1ILIM=1e-3
++ M2ILIM=0
++ RT=1e3   
+E_x1_E3         x1_N9105870 GND VALUE { v(x1_N9118908,GND)*v(SS)*1.25 }
+E_x1_E1         x1_N9078080 GND VALUE { IF((v(INP,GND) >=2.0 & v(EN)
++  >=1.8),v(INP,GND),0.0) }
+V_x1_V4         x1_N9117750 0 0.75
+X_x1_S1    EN GND x1_N9078080 x1_N9078054 adp1712_x1_S1 
+R_x1_R10         x1_N9105870 OUT  0.008 TC=0,0 
+X_x1_S2    EN 0 SS 0 adp1712_x1_S2 
+R_x1_R5         x1_N9078080 x1_N9078054  10meg TC=0,0 
+R_x1_R12         x1_REV_C_P 0  100k TC=0,0 
+V_x1_V3         x1_N9106194 0 0.8
+R_x1_R11         x1_N9106194 SS  99.7k TC=0,0 
+C_x1_C1         x1_N9078054 0  1n  TC=0,0 
+E_x1_rev_curr_prot         x1_REV_C_P 0 VALUE { V(x1_N9117750, INP) }
+.ends adp1712aujz095r7 
+*$
+.subckt adp1712aujz10r7 inp en gnd ss out
+X_x1_U1         x1_N9078054 0 x1_N9118908 model667                
++ params:
++ VR=0.9998
++ LINREG=0.06
++ LDREG=0.001
++ IB=0.1e-6
++ VDMIN=60e-3
++ VD1=170e-3
++ IVD1=300e-3
++ IMAX=300e-3
++ VMAIP=3
++ CT=1E-11
++ M1ILIM=1e-3
++ M2ILIM=0
++ RT=1e3   
+E_x1_E3         x1_N9105870 GND VALUE { v(x1_N9118908,GND)*v(SS)*1.25 }
+E_x1_E1         x1_N9078080 GND VALUE { IF((v(INP,GND) >=2.0 & v(EN)
++  >=1.8),v(INP,GND),0.0) }
+V_x1_V4         x1_N9117750 0 0.75
+X_x1_S1    EN GND x1_N9078080 x1_N9078054 adp1712_x1_S1 
+R_x1_R10         x1_N9105870 OUT  0.008 TC=0,0 
+X_x1_S2    EN 0 SS 0 adp1712_x1_S2 
+R_x1_R5         x1_N9078080 x1_N9078054  10meg TC=0,0 
+R_x1_R12         x1_REV_C_P 0  100k TC=0,0 
+V_x1_V3         x1_N9106194 0 0.8
+R_x1_R11         x1_N9106194 SS  99.7k TC=0,0 
+C_x1_C1         x1_N9078054 0  1n  TC=0,0 
+E_x1_rev_curr_prot         x1_REV_C_P 0 VALUE { V(x1_N9117750, INP) }
+.ends adp1712aujz10r7 
+*$
+.subckt adp1712aujz105r7 inp en gnd ss out
+X_x1_U1         x1_N9078054 0 x1_N9118908 model667                
++ params:
++ VR=1.05
++ LINREG=0.06
++ LDREG=0.001
++ IB=0.1e-6
++ VDMIN=60e-3
++ VD1=170e-3
++ IVD1=300e-3
++ IMAX=300e-3
++ VMAIP=3
++ CT=1E-11
++ M1ILIM=1e-3
++ M2ILIM=0
++ RT=1e3   
+E_x1_E3         x1_N9105870 GND VALUE { v(x1_N9118908,GND)*v(SS)*1.25 }
+E_x1_E1         x1_N9078080 GND VALUE { IF((v(INP,GND) >=2.0 & v(EN)
++  >=1.8),v(INP,GND),0.0) }
+V_x1_V4         x1_N9117750 0 0.75
+X_x1_S1    EN GND x1_N9078080 x1_N9078054 adp1712_x1_S1 
+R_x1_R10         x1_N9105870 OUT  0.008 TC=0,0 
+X_x1_S2    EN 0 SS 0 adp1712_x1_S2 
+R_x1_R5         x1_N9078080 x1_N9078054  10meg TC=0,0 
+R_x1_R12         x1_REV_C_P 0  100k TC=0,0 
+V_x1_V3         x1_N9106194 0 0.8
+R_x1_R11         x1_N9106194 SS  99.7k TC=0,0 
+C_x1_C1         x1_N9078054 0  1n  TC=0,0 
+E_x1_rev_curr_prot         x1_REV_C_P 0 VALUE { V(x1_N9117750, INP) }
+.ends adp1712aujz105r7 
+*$
+.subckt adp1712aujz11r7 inp en gnd ss out
+X_x1_U1         x1_N9078054 0 x1_N9118908 model667                
++ params:
++ VR=1.10
++ LINREG=0.06
++ LDREG=0.001
++ IB=0.1e-6
++ VDMIN=60e-3
++ VD1=170e-3
++ IVD1=300e-3
++ IMAX=300e-3
++ VMAIP=3
++ CT=1E-11
++ M1ILIM=1e-3
++ M2ILIM=0
++ RT=1e3   
+E_x1_E3         x1_N9105870 GND VALUE { v(x1_N9118908,GND)*v(SS)*1.25 }
+E_x1_E1         x1_N9078080 GND VALUE { IF((v(INP,GND) >=2.0 & v(EN)
++  >=1.8),v(INP,GND),0.0) }
+V_x1_V4         x1_N9117750 0 0.75
+X_x1_S1    EN GND x1_N9078080 x1_N9078054 adp1712_x1_S1 
+R_x1_R10         x1_N9105870 OUT  0.008 TC=0,0 
+X_x1_S2    EN 0 SS 0 adp1712_x1_S2 
+R_x1_R5         x1_N9078080 x1_N9078054  10meg TC=0,0 
+R_x1_R12         x1_REV_C_P 0  100k TC=0,0 
+V_x1_V3         x1_N9106194 0 0.8
+R_x1_R11         x1_N9106194 SS  99.7k TC=0,0 
+C_x1_C1         x1_N9078054 0  1n  TC=0,0 
+E_x1_rev_curr_prot         x1_REV_C_P 0 VALUE { V(x1_N9117750, INP) }
+.ends adp1712aujz11r7 
+*$
+.subckt adp1712aujz115r7 inp en gnd ss out
+X_x1_U1         x1_N9078054 0 x1_N9118908 model667                
++ params:
++ VR=1.15
++ LINREG=0.06
++ LDREG=0.001
++ IB=0.1e-6
++ VDMIN=60e-3
++ VD1=170e-3
++ IVD1=300e-3
++ IMAX=300e-3
++ VMAIP=3
++ CT=1E-11
++ M1ILIM=1e-3
++ M2ILIM=0
++ RT=1e3   
+E_x1_E3         x1_N9105870 GND VALUE { v(x1_N9118908,GND)*v(SS)*1.25 }
+E_x1_E1         x1_N9078080 GND VALUE { IF((v(INP,GND) >=2.0 & v(EN)
++  >=1.8),v(INP,GND),0.0) }
+V_x1_V4         x1_N9117750 0 0.75
+X_x1_S1    EN GND x1_N9078080 x1_N9078054 adp1712_x1_S1 
+R_x1_R10         x1_N9105870 OUT  0.008 TC=0,0 
+X_x1_S2    EN 0 SS 0 adp1712_x1_S2 
+R_x1_R5         x1_N9078080 x1_N9078054  10meg TC=0,0 
+R_x1_R12         x1_REV_C_P 0  100k TC=0,0 
+V_x1_V3         x1_N9106194 0 0.8
+R_x1_R11         x1_N9106194 SS  99.7k TC=0,0 
+C_x1_C1         x1_N9078054 0  1n  TC=0,0 
+E_x1_rev_curr_prot         x1_REV_C_P 0 VALUE { V(x1_N9117750, INP) }
+.ends adp1712aujz115r7 
+*$
+.subckt adp1712aujz12r7 inp en gnd ss out
+X_x1_U1         x1_N9078054 0 x1_N9118908 model667                
++ params:
++ VR=1.20
++ LINREG=0.06
++ LDREG=0.001
++ IB=0.1e-6
++ VDMIN=60e-3
++ VD1=170e-3
++ IVD1=300e-3
++ IMAX=300e-3
++ VMAIP=3
++ CT=1E-11
++ M1ILIM=1e-3
++ M2ILIM=0
++ RT=1e3   
+E_x1_E3         x1_N9105870 GND VALUE { v(x1_N9118908,GND)*v(SS)*1.25 }
+E_x1_E1         x1_N9078080 GND VALUE { IF((v(INP,GND) >=2.0 & v(EN)
++  >=1.8),v(INP,GND),0.0) }
+V_x1_V4         x1_N9117750 0 0.75
+X_x1_S1    EN GND x1_N9078080 x1_N9078054 adp1712_x1_S1 
+R_x1_R10         x1_N9105870 OUT  0.008 TC=0,0 
+X_x1_S2    EN 0 SS 0 adp1712_x1_S2 
+R_x1_R5         x1_N9078080 x1_N9078054  10meg TC=0,0 
+R_x1_R12         x1_REV_C_P 0  100k TC=0,0 
+V_x1_V3         x1_N9106194 0 0.8
+R_x1_R11         x1_N9106194 SS  99.7k TC=0,0 
+C_x1_C1         x1_N9078054 0  1n  TC=0,0 
+E_x1_rev_curr_prot         x1_REV_C_P 0 VALUE { V(x1_N9117750, INP) }
+.ends adp1712aujz12r7 
+*$
+.subckt adp1712aujz13r7 inp en gnd ss out
+X_x1_U1         x1_N9078054 0 x1_N9118908 model667                
++ params:
++ VR=1.30
++ LINREG=0.06
++ LDREG=0.001
++ IB=0.1e-6
++ VDMIN=60e-3
++ VD1=170e-3
++ IVD1=300e-3
++ IMAX=300e-3
++ VMAIP=3
++ CT=1E-11
++ M1ILIM=1e-3
++ M2ILIM=0
++ RT=1e3   
+E_x1_E3         x1_N9105870 GND VALUE { v(x1_N9118908,GND)*v(SS)*1.25 }
+E_x1_E1         x1_N9078080 GND VALUE { IF((v(INP,GND) >=2.0 & v(EN)
++  >=1.8),v(INP,GND),0.0) }
+V_x1_V4         x1_N9117750 0 0.75
+X_x1_S1    EN GND x1_N9078080 x1_N9078054 adp1712_x1_S1 
+R_x1_R10         x1_N9105870 OUT  0.008 TC=0,0 
+X_x1_S2    EN 0 SS 0 adp1712_x1_S2 
+R_x1_R5         x1_N9078080 x1_N9078054  10meg TC=0,0 
+R_x1_R12         x1_REV_C_P 0  100k TC=0,0 
+V_x1_V3         x1_N9106194 0 0.8
+R_x1_R11         x1_N9106194 SS  99.7k TC=0,0 
+C_x1_C1         x1_N9078054 0  1n  TC=0,0 
+E_x1_rev_curr_prot         x1_REV_C_P 0 VALUE { V(x1_N9117750, INP) }
+.ends adp1712aujz13r7 
+*$
+.subckt adp1712aujz15r7 inp en gnd ss out
+X_x1_U1         x1_N9078054 0 x1_N9118908 model667                
++ params:
++ VR=1.50
++ LINREG=0.06
++ LDREG=0.001
++ IB=0.1e-6
++ VDMIN=60e-3
++ VD1=170e-3
++ IVD1=300e-3
++ IMAX=300e-3
++ VMAIP=3
++ CT=1E-11
++ M1ILIM=1e-3
++ M2ILIM=0
++ RT=1e3   
+E_x1_E3         x1_N9105870 GND VALUE { v(x1_N9118908,GND)*v(SS)*1.25 }
+E_x1_E1         x1_N9078080 GND VALUE { IF((v(INP,GND) >=2.0 & v(EN)
++  >=1.8),v(INP,GND),0.0) }
+V_x1_V4         x1_N9117750 0 0.75
+X_x1_S1    EN GND x1_N9078080 x1_N9078054 adp1712_x1_S1 
+R_x1_R10         x1_N9105870 OUT  0.008 TC=0,0 
+X_x1_S2    EN 0 SS 0 adp1712_x1_S2 
+R_x1_R5         x1_N9078080 x1_N9078054  10meg TC=0,0 
+R_x1_R12         x1_REV_C_P 0  100k TC=0,0 
+V_x1_V3         x1_N9106194 0 0.8
+R_x1_R11         x1_N9106194 SS  99.7k TC=0,0 
+C_x1_C1         x1_N9078054 0  1n  TC=0,0 
+E_x1_rev_curr_prot         x1_REV_C_P 0 VALUE { V(x1_N9117750, INP) }
+.ends adp1712aujz15r7 
+*$
+.subckt adp1712aujz18r7 inp en gnd ss out
+X_x1_U1         x1_N9078054 0 x1_N9118908 model667                
++ params:
++ VR=1.80
++ LINREG=0.06
++ LDREG=0.001
++ IB=0.1e-6
++ VDMIN=60e-3
++ VD1=170e-3
++ IVD1=300e-3
++ IMAX=300e-3
++ VMAIP=3
++ CT=1E-11
++ M1ILIM=1e-3
++ M2ILIM=0
++ RT=1e3   
+E_x1_E3         x1_N9105870 GND VALUE { v(x1_N9118908,GND)*v(SS)*1.25 }
+E_x1_E1         x1_N9078080 GND VALUE { IF((v(INP,GND) >=2.0 & v(EN)
++  >=1.8),v(INP,GND),0.0) }
+V_x1_V4         x1_N9117750 0 0.75
+X_x1_S1    EN GND x1_N9078080 x1_N9078054 adp1712_x1_S1 
+R_x1_R10         x1_N9105870 OUT  0.008 TC=0,0 
+X_x1_S2    EN 0 SS 0 adp1712_x1_S2 
+R_x1_R5         x1_N9078080 x1_N9078054  10meg TC=0,0 
+R_x1_R12         x1_REV_C_P 0  100k TC=0,0 
+V_x1_V3         x1_N9106194 0 0.8
+R_x1_R11         x1_N9106194 SS  99.7k TC=0,0 
+C_x1_C1         x1_N9078054 0  1n  TC=0,0 
+E_x1_rev_curr_prot         x1_REV_C_P 0 VALUE { V(x1_N9117750, INP) }
+.ends adp1712aujz18r7 
+*$
+.subckt adp1712aujz25r7 inp en gnd ss out
+X_x1_U1         x1_N9078054 0 x1_N9118908 model667                
++ params:
++ VR=2.50
++ LINREG=0.06
++ LDREG=0.001
++ IB=0.1e-6
++ VDMIN=60e-3
++ VD1=170e-3
++ IVD1=300e-3
++ IMAX=300e-3
++ VMAIP=3
++ CT=1E-11
++ M1ILIM=1e-3
++ M2ILIM=0
++ RT=1e3   
+E_x1_E3         x1_N9105870 GND VALUE { v(x1_N9118908,GND)*v(SS)*1.25 }
+E_x1_E1         x1_N9078080 GND VALUE { IF((v(INP,GND) >=2.0 & v(EN)
++  >=1.8),v(INP,GND),0.0) }
+V_x1_V4         x1_N9117750 0 0.75
+X_x1_S1    EN GND x1_N9078080 x1_N9078054 adp1712_x1_S1 
+R_x1_R10         x1_N9105870 OUT  0.008 TC=0,0 
+X_x1_S2    EN 0 SS 0 adp1712_x1_S2 
+R_x1_R5         x1_N9078080 x1_N9078054  10meg TC=0,0 
+R_x1_R12         x1_REV_C_P 0  100k TC=0,0 
+V_x1_V3         x1_N9106194 0 0.8
+R_x1_R11         x1_N9106194 SS  99.7k TC=0,0 
+C_x1_C1         x1_N9078054 0  1n  TC=0,0 
+E_x1_rev_curr_prot         x1_REV_C_P 0 VALUE { V(x1_N9117750, INP) }
+.ends adp1712aujz25r7 
+*$
+.subckt adp1712aujz30r7 inp en gnd ss out
+X_x1_U1         x1_N9078054 0 x1_N9118908 model667                
++ params:
++ VR=3.00
++ LINREG=0.06
++ LDREG=0.001
++ IB=0.1e-6
++ VDMIN=60e-3
++ VD1=170e-3
++ IVD1=300e-3
++ IMAX=300e-3
++ VMAIP=3
++ CT=1E-11
++ M1ILIM=1e-3
++ M2ILIM=0
++ RT=1e3   
+E_x1_E3         x1_N9105870 GND VALUE { v(x1_N9118908,GND)*v(SS)*1.25 }
+E_x1_E1         x1_N9078080 GND VALUE { IF((v(INP,GND) >=2.0 & v(EN)
++  >=1.8),v(INP,GND),0.0) }
+V_x1_V4         x1_N9117750 0 0.75
+X_x1_S1    EN GND x1_N9078080 x1_N9078054 adp1712_x1_S1 
+R_x1_R10         x1_N9105870 OUT  0.008 TC=0,0 
+X_x1_S2    EN 0 SS 0 adp1712_x1_S2 
+R_x1_R5         x1_N9078080 x1_N9078054  10meg TC=0,0 
+R_x1_R12         x1_REV_C_P 0  100k TC=0,0 
+V_x1_V3         x1_N9106194 0 0.8
+R_x1_R11         x1_N9106194 SS  99.7k TC=0,0 
+C_x1_C1         x1_N9078054 0  1n  TC=0,0 
+E_x1_rev_curr_prot         x1_REV_C_P 0 VALUE { V(x1_N9117750, INP) }
+.ends adp1712aujz30r7 
+*$
+.subckt adp1712aujz33r7 inp en gnd ss out
+X_x1_U1         x1_N9078054 0 x1_N9118908 model667                
++ params:
++ VR=3.30
++ LINREG=0.06
++ LDREG=0.001
++ IB=0.1e-6
++ VDMIN=60e-3
++ VD1=170e-3
++ IVD1=300e-3
++ IMAX=300e-3
++ VMAIP=3
++ CT=1E-11
++ M1ILIM=1e-3
++ M2ILIM=0
++ RT=1e3   
+E_x1_E3         x1_N9105870 GND VALUE { v(x1_N9118908,GND)*v(SS)*1.25 }
+E_x1_E1         x1_N9078080 GND VALUE { IF((v(INP,GND) >=2.0 & v(EN)
++  >=1.8),v(INP,GND),0.0) }
+V_x1_V4         x1_N9117750 0 0.75
+X_x1_S1    EN GND x1_N9078080 x1_N9078054 adp1712_x1_S1 
+R_x1_R10         x1_N9105870 OUT  0.008 TC=0,0 
+X_x1_S2    EN 0 SS 0 adp1712_x1_S2 
+R_x1_R5         x1_N9078080 x1_N9078054  10meg TC=0,0 
+R_x1_R12         x1_REV_C_P 0  100k TC=0,0 
+V_x1_V3         x1_N9106194 0 0.8
+R_x1_R11         x1_N9106194 SS  99.7k TC=0,0 
+C_x1_C1         x1_N9078054 0  1n  TC=0,0 
+E_x1_rev_curr_prot         x1_REV_C_P 0 VALUE { V(x1_N9117750, INP) }
+.ends adp1712aujz33r7 
+*$
+.subckt adp1712_x1_S1 1 2 3 4  
+S_x1_S1         3 4 1 2 _x1_S1
+RS_x1_S1         1 2 1G
+.MODEL         _x1_S1 VSWITCH Roff=1e10 Ron=0.0001 Voff=0.4V Von=1.8
+.ends adp1712_x1_S1
+*$
+.subckt adp1712_x1_S2 1 2 3 4  
+S_x1_S2         3 4 1 2 _x1_S2
+RS_x1_S2         1 2 1G
+.MODEL         _x1_S2 VSWITCH Roff=1e9 Ron=100 Voff=1.8 Von=0.4
+.ends adp1712_x1_S2
+*$
+.subckt  adp1712aujzr7 IN EN GND OUT ADJ
++PARAMS:
++ VR=0.80
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.001
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=60e-3
++ IVD1=100e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=310e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-9
++ vuvlo=2.0
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1712aujzr7_int   GND EN INP OUT ADJ model9902     params:   vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++ 
+.ends  adp1712aujzr7
+*$
+.SUBCKT adp1713aujz075r7 IN EN gnd BYP OUT 
++ params:
++ VR=0.7499
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1713aujz075r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1713aujz075r7
+*$
+.SUBCKT adp1713aujz08r7 IN EN gnd BYP OUT 
++ params:
++ VR=0.7999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1713aujz08r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1713aujz08r7
+*$
+.SUBCKT adp1713aujz085r7 IN EN gnd BYP OUT 
++ params:
++ VR=0.8499
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1713aujz085r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1713aujz085r7
+*$
+.SUBCKT adp1713aujz09r7 IN EN gnd BYP OUT 
++ params:
++ VR=0.8999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1713aujz09r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1713aujz09r7
+*$
+.SUBCKT adp1713aujz095r7 IN EN gnd BYP OUT 
++ params:
++ VR=0.8999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1713aujz095r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1713aujz095r7
+*$
+.SUBCKT adp1713aujz10r7 IN EN gnd BYP OUT 
++ params:
++ VR=0.9999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1713aujz10r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1713aujz10r7
+*$
+.SUBCKT adp1713aujz105r7 IN EN gnd BYP OUT 
++ params:
++ VR=1.0499
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1713aujz105r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1713aujz105r7
+*$
+.SUBCKT adp1713aujz11r7 IN EN gnd BYP OUT 
++ params:
++ VR=1.0999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1713aujz11r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1713aujz11r7
+*$
+.SUBCKT adp1713aujz115r7 IN EN gnd BYP OUT 
++ params:
++ VR=1.1499
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1713aujz115r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1713aujz115r7
+*$
+.SUBCKT adp1713aujz12r7 IN EN gnd BYP OUT 
++ params:
++ VR=1.1999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1713aujz12r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1713aujz12r7
+*$
+.SUBCKT adp1713aujz13r7 IN EN gnd BYP OUT 
++ params:
++ VR=1.2999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1713aujz13r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1713aujz13r7
+*$
+.SUBCKT adp1713aujz15r7 IN EN gnd BYP OUT 
++ params:
++ VR=1.4999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1713aujz15r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1713aujz15r7
+*$
+.SUBCKT adp1713aujz18r7 IN EN gnd BYP OUT 
++ params:
++ VR=1.7999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1713aujz18r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1713aujz18r7
+*$
+.SUBCKT adp1713aujz25r7 IN EN gnd BYP OUT 
++ params:
++ VR=2.50
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1713aujz25r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1713aujz25r7
+*$
+.SUBCKT adp1713aujz30r7 IN EN gnd BYP OUT 
++ params:
++ VR=3.00
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1713aujz30r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1713aujz30r7
+*$
+.SUBCKT adp1713aujz33r7 IN EN gnd BYP OUT 
++ params:
++ VR=3.30
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+rbyp byp 0 1g
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1713aujz33r7_int gnd   EN   inp  OUT  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1713aujz33r7
+*************ADP1714  with TRK pin
+*$
+.SUBCKT adp1714aujz075r7 IN EN gnd TRK OUT 
++ params:
++ VR=0.7499
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1714aujz075r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1714aujz075r7
+*$
+.SUBCKT adp1714aujz08r7 IN EN gnd TRK OUT 
++ params:
++ VR=0.7999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1714aujz08r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1714aujz08r7
+*$
+.SUBCKT adp1714aujz085r7 IN EN gnd TRK OUT 
++ params:
++ VR=0.8499
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1714aujz085r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1714aujz085r7
+*$
+.SUBCKT adp1714aujz09r7 IN EN gnd TRK OUT 
++ params:
++ VR=0.8999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1714aujz09r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1714aujz09r7
+*$
+.SUBCKT adp1714aujz095r7 IN EN gnd TRK OUT 
++ params:
++ VR=0.9499
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1714aujz095r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1714aujz095r7
+*$
+.SUBCKT adp1714aujz10r7 IN EN gnd TRK OUT 
++ params:
++ VR=0.9999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1714aujz10r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1714aujz10r7
+*$
+.SUBCKT adp1714aujz105r7 IN EN gnd TRK OUT 
++ params:
++ VR=1.0499
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1714aujz105r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1714aujz105r7
+*$
+.SUBCKT adp1714aujz11r7 IN EN gnd TRK OUT 
++ params:
++ VR=1.0999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1714aujz11r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1714aujz11r7
+*$
+.SUBCKT adp1714aujz115r7 IN EN gnd TRK OUT 
++ params:
++ VR=1.14999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1714aujz115r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1714aujz115r7
+*$
+.SUBCKT adp1714aujz12r7 IN EN gnd TRK OUT 
++ params:
++ VR=1.1999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1714aujz12r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1714aujz12r7
+*$
+.SUBCKT adp1714aujz13r7 IN EN gnd TRK OUT 
++ params:
++ VR=1.2999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1714aujz13r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1714aujz13r7
+*$
+.SUBCKT adp1714aujz15r7 IN EN gnd TRK OUT 
++ params:
++ VR=1.4999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1714aujz15r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1714aujz15r7
+*$
+.SUBCKT adp1714aujz18r7 IN EN gnd TRK OUT 
++ params:
++ VR=1.7999
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1714aujz18r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1714aujz18r7
+*$
+.SUBCKT adp1714aujz25r7 IN EN gnd TRK OUT 
++ params:
++ VR=2.50
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1714aujz25r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1714aujz25r7
+*$
+.SUBCKT adp1714aujz30r7 IN EN gnd TRK OUT 
++ params:
++ VR=3.00
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1714aujz30r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1714aujz30r7
+*$
+.SUBCKT adp1714aujz33r7 IN EN gnd TRK OUT 
++ params:
++ VR=3.30
++ TC1VR=0
++ TC2VR=0
++ LINREG=0.025
++ LDREG=0.4
++ IB=0.1e-6
++ VDMIN=3e-3
++ VD1=100e-3
++ IVD1=60e-3
++ TC1VD=0
++ TC2VD=0
++ IMAX=300e-3
++ VMAIP=3
++ M1ILIM=0
++ M2ILIM=0
++ TC1IMAX=0
++ TC2IMAX=0
++ RT=1k
++ CT=1e-7
++ VON=0.4
++ VOFF=1.8
++ RON=3.08e6
++ ROFF=.0001
++ RV1=57E6
++ vuvlo=2.0
+E2 nxx gnd VALUE {IF((v(TRK)<=v(out1,GND)),v(TRK),v(out1,GND))}
+rxx nxx out 0.008
+e1 inp 0 value { IF ((V(IN, 0) >= {vuvlo}),V(IN, 0),0.0) }
+Xadp1714aujz33r7_int gnd   EN   inp  OUT1  model9904     
++params: 
++  vr={VR}
++  tc1vr={TC1VR}
++  tc2vr={TC2VR}
++  linreg={LINREG}
++  ldreg={LDREG}
++  ib={IB}
++  vdmin={VDMIN}
++  vd1={VD1}
++  ivd1={IVD1}
++  tc1vd={TC1VD}
++  tc2vd={TC2VD}
++  imax={IMAX}
++  vmaip={VMAIP}
++  m1ilim={M1ILIM}
++  m2ilim={M2ILIM}
++  tc1imax={TC1IMAX}
++  tc2imax={TC2IMAX}
++  rt={RT}
++  ct={CT}
++  von={VON}
++  voff={VOFF}
++  ron={RON}
++  roff={ROFF}
++  rv1={RV1}
+.ends  adp1714aujz33r7
+*$
+.subckt adp1714aujz075r7_1 inp  en gnd trk out
+X_x1_U1         x1_N9078054 GND x1_N9123514 model665
++ params:
++ VR=2.0
++ LINREG=0.06
++ LDREG=0.001
++ IB=0.1e-6
++ VDMIN=60e-3
++ VD1=170e-3
++ IVD1=300e-3
++ IMAX=300e-3
++ VMAIP=3
++ CT=1E-11
++ M1ILIM=1e-3
++ M2ILIM=0
++ RT=1e3
+R_x1_R6         x1_N9123797 OUT  0.01 TC=0,0 
+E_x1_E1         x1_N9078080 GND VALUE { IF((v(INP,GND) >=2.0 & v(EN)
++  >=1.8),v(INP,GND),0.0) }
+X_x1_S1    EN GND x1_N9078080 x1_N9078054 adp1714_x1_S1 
+C_x1_C2         x1_N9123514 GND  1n  TC=0,0 
+R_x1_R5         x1_N9078080 x1_N9078054  10meg TC=0,0 
+E_x1_rev_curr_prot         x1_REV_C_P 0 VALUE { V(x1_N9124405, 0) }
+C_x1_C1         x1_N9078054 GND  1u  TC=0,0 
+V_x1_V4         x1_N9124405 0 0.75
+E_x1_E2         x1_N9123797 GND VALUE {
++  IF((v(TRK)<=v(x1_N9123514,GND)),v(TRK),v(x1_N9123514,GND)) }
+R_x1_R12         x1_REV_C_P 0  100k TC=0,0 
+.ends adp1714aujz075r7_1
+*$
+.subckt adp1714_x1_S1 1 2 3 4  
+S_x1_S1         3 4 1 2 _x1_S1
+RS_x1_S1         1 2 1G
+.MODEL         _x1_S1 VSWITCH Roff=1e10 Ron=0.0001 Voff=0.4V Von=1.8
+.ends adp1714_x1_S1
+*$
+

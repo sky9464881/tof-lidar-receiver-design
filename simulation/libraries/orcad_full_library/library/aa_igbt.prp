@@ -1,0 +1,938 @@
+("awbhgtd6n40e1"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 11:38:21 IST 2001")
+	("device_info"
+		( MODEL_TYPE 613 )
+		( SYMBOL_NAME "NIGBT3" )
+		( PORT_ORDER 
+ 			("C")
+ 			("G")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "3.8685E+00" )
+		)
+		( "KP"
+			( "val" "5.6343E-01" )
+		)
+		( "LAMBDA"
+			( "val" "0.002" )
+		)
+		( "CGSO"
+			( "val" "155p" )
+		)
+		( "RG"
+			( "val" "54.23" )
+		)
+		( "RD"
+			( "val" "1.9737E+01m" )
+		)
+		( "RS"
+			( "val" "2.1602E-01" )
+		)
+		( "CJGD"
+			( "val" "2.173E-10" )
+		)
+		( "VJGD"
+			( "val" "4.774E+00" )
+		)
+		( "MJGD"
+			( "val" "2.278E+00" )
+		)
+		( "XJGD"
+			( "val" "0.52" )
+		)
+		( "LE"
+			( "val" "5n" )
+		)
+		( "RLE"
+			( "val" "100" )
+		)
+		( "RER"
+			( "val" "0.1m" )
+		)
+		( "IS"
+			( "val" "1n" )
+		)
+		( "BF"
+			( "val" "1" )
+		)
+		( "XTB"
+			( "val" "0" )
+		)
+		( "XTI"
+			( "val" "0" )
+		)
+		( "EG"
+			( "val" "0.75" )
+		)
+		( "NF"
+			( "val" "1.25" )
+		)
+		( "CJC"
+			( "val" "1.043e-10" )
+		)
+		( "VJC"
+			( "val" "1.709E+00" )
+		)
+		( "MJC"
+			( "val" "5.964E-01" )
+		)
+		( "CJE"
+			( "val" "1.25e-8" )
+		)
+		( "TF"
+			( "val" "0.695u" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IC "7.5" )
+		( VCG "400" )
+		( VCE "400" )
+		( VGEF "20" )
+		( VGER "20" )
+		( PDM "60" )
+		( TJ "150" )
+		( RJC "2.08" )
+	)
+)
+("awbhgtd6n40e1s"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 11:38:21 IST 2001")
+	("device_info"
+		( MODEL_TYPE 613 )
+		( SYMBOL_NAME "NIGBT3" )
+		( PORT_ORDER 
+ 			("C")
+ 			("G")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "3.8685E+00" )
+		)
+		( "KP"
+			( "val" "5.6343E-01" )
+		)
+		( "LAMBDA"
+			( "val" "0.002" )
+		)
+		( "CGSO"
+			( "val" "155p" )
+		)
+		( "RG"
+			( "val" "54.23" )
+		)
+		( "RD"
+			( "val" "1.9737E+01m" )
+		)
+		( "RS"
+			( "val" "2.1602E-01" )
+		)
+		( "CJGD"
+			( "val" "2.173E-10" )
+		)
+		( "VJGD"
+			( "val" "4.774E+00" )
+		)
+		( "MJGD"
+			( "val" "2.278E+00" )
+		)
+		( "XJGD"
+			( "val" "0.52" )
+		)
+		( "LE"
+			( "val" "5n" )
+		)
+		( "RLE"
+			( "val" "100" )
+		)
+		( "RER"
+			( "val" "0.1m" )
+		)
+		( "IS"
+			( "val" "1n" )
+		)
+		( "BF"
+			( "val" "1" )
+		)
+		( "XTB"
+			( "val" "0" )
+		)
+		( "XTI"
+			( "val" "0" )
+		)
+		( "EG"
+			( "val" "0.75" )
+		)
+		( "NF"
+			( "val" "1.25" )
+		)
+		( "CJC"
+			( "val" "1.043e-10" )
+		)
+		( "VJC"
+			( "val" "1.709E+00" )
+		)
+		( "MJC"
+			( "val" "5.964E-01" )
+		)
+		( "CJE"
+			( "val" "1.25e-8" )
+		)
+		( "TF"
+			( "val" "0.695u" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IC "7.5" )
+		( VCG "400" )
+		( VCE "400" )
+		( VGEF "20" )
+		( VGER "20" )
+		( PDM "60" )
+		( TJ "150" )
+		( RJC "2.08" )
+	)
+)
+("awbhgtd6n50e1"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 11:38:21 IST 2001")
+	("device_info"
+		( MODEL_TYPE 613 )
+		( SYMBOL_NAME "NIGBT3" )
+		( PORT_ORDER 
+ 			("C")
+ 			("G")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "3.8685E+00" )
+		)
+		( "KP"
+			( "val" "5.6343E-01" )
+		)
+		( "LAMBDA"
+			( "val" "0.002" )
+		)
+		( "CGSO"
+			( "val" "155p" )
+		)
+		( "RG"
+			( "val" "54.23" )
+		)
+		( "RD"
+			( "val" "1.9737E+01m" )
+		)
+		( "RS"
+			( "val" "2.1602E-01" )
+		)
+		( "CJGD"
+			( "val" "2.173E-10" )
+		)
+		( "VJGD"
+			( "val" "4.774E+00" )
+		)
+		( "MJGD"
+			( "val" "2.278E+00" )
+		)
+		( "XJGD"
+			( "val" "0.52" )
+		)
+		( "LE"
+			( "val" "5n" )
+		)
+		( "RLE"
+			( "val" "100" )
+		)
+		( "RER"
+			( "val" "0.1m" )
+		)
+		( "IS"
+			( "val" "1n" )
+		)
+		( "BF"
+			( "val" "1" )
+		)
+		( "XTB"
+			( "val" "0" )
+		)
+		( "XTI"
+			( "val" "0" )
+		)
+		( "EG"
+			( "val" "0.75" )
+		)
+		( "NF"
+			( "val" "1.25" )
+		)
+		( "CJC"
+			( "val" "1.043e-10" )
+		)
+		( "VJC"
+			( "val" "1.709E+00" )
+		)
+		( "MJC"
+			( "val" "5.964E-01" )
+		)
+		( "CJE"
+			( "val" "1.25e-8" )
+		)
+		( "TF"
+			( "val" "0.695u" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IC "7.5" )
+		( VCG "500" )
+		( VCE "500" )
+		( VGEF "20" )
+		( VGER "20" )
+		( PDM "60" )
+		( TJ "150" )
+		( RJC "2.08" )
+	)
+)
+("awbhgtd6n50e1s"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 11:38:21 IST 2001")
+	("device_info"
+		( MODEL_TYPE 613 )
+		( SYMBOL_NAME "NIGBT3" )
+		( PORT_ORDER 
+ 			("C")
+ 			("G")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "3.8685E+00" )
+		)
+		( "KP"
+			( "val" "5.6343E-01" )
+		)
+		( "LAMBDA"
+			( "val" "0.002" )
+		)
+		( "CGSO"
+			( "val" "155p" )
+		)
+		( "RG"
+			( "val" "54.23" )
+		)
+		( "RD"
+			( "val" "1.9737E+01m" )
+		)
+		( "RS"
+			( "val" "2.1602E-01" )
+		)
+		( "CJGD"
+			( "val" "2.173E-10" )
+		)
+		( "VJGD"
+			( "val" "4.774E+00" )
+		)
+		( "MJGD"
+			( "val" "2.278E+00" )
+		)
+		( "XJGD"
+			( "val" "0.52" )
+		)
+		( "LE"
+			( "val" "5n" )
+		)
+		( "RLE"
+			( "val" "100" )
+		)
+		( "RER"
+			( "val" "0.1m" )
+		)
+		( "IS"
+			( "val" "1n" )
+		)
+		( "BF"
+			( "val" "1" )
+		)
+		( "XTB"
+			( "val" "0" )
+		)
+		( "XTI"
+			( "val" "0" )
+		)
+		( "EG"
+			( "val" "0.75" )
+		)
+		( "NF"
+			( "val" "1.25" )
+		)
+		( "CJC"
+			( "val" "1.043e-10" )
+		)
+		( "VJC"
+			( "val" "1.709E+00" )
+		)
+		( "MJC"
+			( "val" "5.964E-01" )
+		)
+		( "CJE"
+			( "val" "1.25e-8" )
+		)
+		( "TF"
+			( "val" "0.695u" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IC "7.5" )
+		( VCG "500" )
+		( VCE "500" )
+		( VGEF "20" )
+		( VGER "20" )
+		( PDM "60" )
+		( TJ "150" )
+		( RJC "2.08" )
+	)
+)
+("awbigt4d10"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 11:38:21 IST 2001")
+	("device_info"
+		( MODEL_TYPE 613 )
+		( SYMBOL_NAME "NIGBT3" )
+		( PORT_ORDER 
+ 			("C")
+ 			("G")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "2.741E+00" )
+		)
+		( "KP"
+			( "val" "121.4m" )
+		)
+		( "CGSO"
+			( "val" "1.05n" )
+		)
+		( "RG"
+			( "val" "0.45" )
+		)
+		( "RD"
+			( "val" "0.236" )
+		)
+		( "RS"
+			( "val" "192.3m" )
+		)
+		( "CJGD"
+			( "val" "4.528E-10" )
+		)
+		( "VJGD"
+			( "val" "1.087E+00" )
+		)
+		( "MJGD"
+			( "val" "1.209E+00" )
+		)
+		( "XJGD"
+			( "val" "0.87" )
+		)
+		( "RLE"
+			( "val" "100" )
+		)
+		( "IS"
+			( "val" "1n" )
+		)
+		( "BF"
+			( "val" "9" )
+		)
+		( "XTB"
+			( "val" "0" )
+		)
+		( "XTI"
+			( "val" "0" )
+		)
+		( "CJC"
+			( "val" "7.541E-10" )
+		)
+		( "VJC"
+			( "val" "1.000E-01" )
+		)
+		( "MJC"
+			( "val" "1.478E-01" )
+		)
+		( "CJE"
+			( "val" "5E-8" )
+		)
+		( "TF"
+			( "val" "1.875E-07" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IC "18" )
+		( VCG "400" )
+		( VCE "400" )
+		( VGEF "25" )
+		( VGER "25" )
+		( PDM "75" )
+		( TJ "150" )
+		( RJC "1.67" )
+		( RCA "78.33" )
+	)
+)
+("awbigt4e10"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 11:38:21 IST 2001")
+	("device_info"
+		( MODEL_TYPE 613 )
+		( SYMBOL_NAME "NIGBT3" )
+		( PORT_ORDER 
+ 			("C")
+ 			("G")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "2.741E+00" )
+		)
+		( "KP"
+			( "val" "121.4m" )
+		)
+		( "CGSO"
+			( "val" "1.05n" )
+		)
+		( "RG"
+			( "val" "0.45" )
+		)
+		( "RD"
+			( "val" "0.236" )
+		)
+		( "RS"
+			( "val" "192.3m" )
+		)
+		( "CJGD"
+			( "val" "4.528E-10" )
+		)
+		( "VJGD"
+			( "val" "1.087E+00" )
+		)
+		( "MJGD"
+			( "val" "1.209E+00" )
+		)
+		( "XJGD"
+			( "val" "0.87" )
+		)
+		( "RLE"
+			( "val" "100" )
+		)
+		( "IS"
+			( "val" "1n" )
+		)
+		( "BF"
+			( "val" "9" )
+		)
+		( "XTB"
+			( "val" "0" )
+		)
+		( "XTI"
+			( "val" "0" )
+		)
+		( "CJC"
+			( "val" "7.541E-10" )
+		)
+		( "VJC"
+			( "val" "1.000E-01" )
+		)
+		( "MJC"
+			( "val" "1.478E-01" )
+		)
+		( "CJE"
+			( "val" "5E-8" )
+		)
+		( "TF"
+			( "val" "1.875E-07" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IC "18" )
+		( VCG "500" )
+		( VCE "500" )
+		( VGEF "25" )
+		( VGER "25" )
+		( PDM "75" )
+		( TJ "150" )
+		( RJC "1.67" )
+		( RCA "78.33" )
+	)
+)
+("awbigt6d10"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 11:38:21 IST 2001")
+	("device_info"
+		( MODEL_TYPE 613 )
+		( SYMBOL_NAME "NIGBT3" )
+		( PORT_ORDER 
+ 			("C")
+ 			("G")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "2.741E+00" )
+		)
+		( "KP"
+			( "val" "121.4m" )
+		)
+		( "CGSO"
+			( "val" "1.05n" )
+		)
+		( "RG"
+			( "val" "0.45" )
+		)
+		( "RD"
+			( "val" "0.236" )
+		)
+		( "RS"
+			( "val" "192.3m" )
+		)
+		( "CJGD"
+			( "val" "4.528E-10" )
+		)
+		( "VJGD"
+			( "val" "1.087E+00" )
+		)
+		( "MJGD"
+			( "val" "1.209E+00" )
+		)
+		( "XJGD"
+			( "val" "0.87" )
+		)
+		( "RLE"
+			( "val" "100" )
+		)
+		( "IS"
+			( "val" "1n" )
+		)
+		( "BF"
+			( "val" "9" )
+		)
+		( "XTB"
+			( "val" "0" )
+		)
+		( "XTI"
+			( "val" "0" )
+		)
+		( "CJC"
+			( "val" "7.541E-10" )
+		)
+		( "VJC"
+			( "val" "1.000E-01" )
+		)
+		( "MJC"
+			( "val" "1.478E-01" )
+		)
+		( "CJE"
+			( "val" "5E-8" )
+		)
+		( "TF"
+			( "val" "1.875E-07" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IC "18" )
+		( VCG "400" )
+		( VCE "400" )
+		( VGEF "25" )
+		( VGER "25" )
+		( PDM "75" )
+		( TJ "150" )
+		( RJC "1.67" )
+		( RCA "28.33" )
+	)
+)
+("awbigt6e10"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 11:38:21 IST 2001")
+	("device_info"
+		( MODEL_TYPE 613 )
+		( SYMBOL_NAME "NIGBT3" )
+		( PORT_ORDER 
+ 			("C")
+ 			("G")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "2.741E+00" )
+		)
+		( "KP"
+			( "val" "121.4m" )
+		)
+		( "CGSO"
+			( "val" "1.05n" )
+		)
+		( "RG"
+			( "val" "0.45" )
+		)
+		( "RD"
+			( "val" "0.236" )
+		)
+		( "RS"
+			( "val" "192.3m" )
+		)
+		( "CJGD"
+			( "val" "4.528E-10" )
+		)
+		( "VJGD"
+			( "val" "1.087E+00" )
+		)
+		( "MJGD"
+			( "val" "1.209E+00" )
+		)
+		( "XJGD"
+			( "val" "0.87" )
+		)
+		( "RLE"
+			( "val" "100" )
+		)
+		( "IS"
+			( "val" "1n" )
+		)
+		( "BF"
+			( "val" "9" )
+		)
+		( "XTB"
+			( "val" "0" )
+		)
+		( "XTI"
+			( "val" "0" )
+		)
+		( "CJC"
+			( "val" "7.541E-10" )
+		)
+		( "VJC"
+			( "val" "1.000E-01" )
+		)
+		( "MJC"
+			( "val" "1.478E-01" )
+		)
+		( "CJE"
+			( "val" "5E-8" )
+		)
+		( "TF"
+			( "val" "1.875E-07" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IC "18" )
+		( VCG "500" )
+		( VCE "500" )
+		( VGEF "25" )
+		( VGER "25" )
+		( PDM "75" )
+		( TJ "150" )
+		( RJC "1.67" )
+		( RCA "28.33" )
+	)
+)
+("awbirgbc30u"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 11:38:21 IST 2001")
+	("device_info"
+		( MODEL_TYPE 613 )
+		( SYMBOL_NAME "NIGBT3" )
+		( PORT_ORDER 
+ 			("C")
+ 			("G")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "4.22704" )
+		)
+		( "KP"
+			( "val" "0.0635277" )
+		)
+		( "LAMBDA"
+			( "val" "1e-06" )
+		)
+		( "CGSO"
+			( "val" "6.30024e-10" )
+		)
+		( "RG"
+			( "val" "0.2432" )
+		)
+		( "RD"
+			( "val" "0.471808" )
+		)
+		( "RS"
+			( "val" "2m" )
+		)
+		( "CJGD"
+			( "val" "6.13328e-10" )
+		)
+		( "VJGD"
+			( "val" "7.99666" )
+		)
+		( "MJGD"
+			( "val" "1.96587" )
+		)
+		( "XJGD"
+			( "val" "0.25" )
+		)
+		( "LE"
+			( "val" "4.5n" )
+		)
+		( "RLE"
+			( "val" "100" )
+		)
+		( "RER"
+			( "val" "0.000421742" )
+		)
+		( "IS"
+			( "val" "3.19466e-16" )
+		)
+		( "BF"
+			( "val" "31.5505" )
+		)
+		( "NF"
+			( "val" "1.13935" )
+		)
+		( "RB"
+			( "val" "2m" )
+		)
+		( "CJC"
+			( "val" "6.83081e-10" )
+		)
+		( "VJC"
+			( "val" "3.8623" )
+		)
+		( "MJC"
+			( "val" "0.85" )
+		)
+		( "CJE"
+			( "val" "6.83081e-09" )
+		)
+		( "VJE"
+			( "val" "50" )
+		)
+		( "MJE"
+			( "val" "0.2" )
+		)
+		( "TF"
+			( "val" "2e-09" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IC "23" )
+		( VCE "600" )
+		( VGEF "20" )
+		( VGER "-20" )
+		( PDM "100" )
+		( TJ "150" )
+		( RJC "1.2" )
+		( RCA "88.8" )
+	)
+)
+("awbbsm25gd100d"
+	(Creator "Device property file created by analog_uprev on Wed Feb  7 12:17:34 IST 2001")
+	("device_info"
+		( MODEL_TYPE 614 )
+		( SYMBOL_NAME "NIGBT4" )
+		( PORT_ORDER 
+ 			("C")
+ 			("G")
+ 			("K")
+ 			("E") )
+	)
+	("model_params"
+	("level_0"
+		( "VTO"
+			( "val" "6.0429" )
+		)
+		( "KP"
+			( "val" "936.597m" )
+		)
+		( "CGSO"
+			( "val" "4.0n" )
+		)
+		( "RG"
+			( "val" "15" )
+		)
+		( "RD"
+			( "val" "0.8104" )
+		)
+		( "RS"
+			( "val" "258.5128m" )
+		)
+		( "CJGD"
+			( "val" "2.083E-9" )
+		)
+		( "VJGD"
+			( "val" "0.1137" )
+		)
+		( "MJGD"
+			( "val" "0.5219" )
+		)
+		( "XJGD"
+			( "val" "0.965" )
+		)
+		( "LE"
+			( "val" "5n" )
+		)
+		( "RLE"
+			( "val" "100" )
+		)
+		( "RER"
+			( "val" "0.1m" )
+		)
+		( "IS"
+			( "val" "1n" )
+		)
+		( "BF"
+			( "val" "9" )
+		)
+		( "NF"
+			( "val" "1.5" )
+		)
+		( "RB"
+			( "val" "0.1" )
+		)
+		( "CJC"
+			( "val" "6.075e-10" )
+		)
+		( "VJC"
+			( "val" "1.6" )
+		)
+		( "MJC"
+			( "val" "0.4" )
+		)
+		( "CJE"
+			( "val" "2e-7" )
+		)
+		( "TF"
+			( "val" "0.96e-8" )
+		)
+	)
+	)
+	("device_max_ops"
+		( IC "25" )
+		( VCG "1000" )
+		( VCE "1000" )
+		( VGEF "20" )
+		( VGER "20" )
+		( PDM "300" )
+		( TJ "150" )
+		( RJC "0.4" )
+		( RCA "0.05" )
+	)
+)
+

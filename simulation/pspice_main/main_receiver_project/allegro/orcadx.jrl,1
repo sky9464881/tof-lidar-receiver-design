@@ -1,0 +1,27 @@
+\t (00:00:13) orcadx 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:13)     Journal start - Wed Apr  2 00:18:05 2025
+\t (00:00:13)         Host=BOOK-QTRCVV9COM User=user Pid=13280 CPUs=12
+\t (00:00:13) CmdLine= C:\Cadence\OrCADX_24.1\tools\bin\unison.exe -layout -orcadx -mpssession user -proj c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\lidarproject\lidarproject.opj C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/lidarproject/allegro/lidarproject.brd
+\t (00:00:13) 
+\d (00:00:13) Design opened: C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/lidarproject/allegro/lidarproject.brd
+\i (00:00:13) trapsize 4102
+\i (00:00:14) trapsize 4795
+\t (00:00:20) Loading consmgr.cxt 
+\t (00:00:20) Loading acns_formula.cxt 
+\i (00:00:20) trapsize 4790
+\i (00:00:20) trapsize 4845
+\t (00:00:22) nayunwoo159@kw.ac.kr user logged in.
+
+\i (00:00:23) trapsize 4427
+\i (00:00:23) updateport VisibilityPane
+\i (00:00:23) updateport PropPane
+\i (00:00:23) ucpedit 
+\i (00:00:23) updateport VisibilityPane
+\i (00:00:24) QtSignal Allegro_Property_Dock_Pane_Accordion_Container PropertySelectionFilterWidget DockedTabWidgetSwitch +
+\i (00:00:24) QtSignal "CP_ALLEGRO_PROPERTIES_DOCK"
+\i (00:00:25) QtSignal MainCanvas CplPrefDialog closed
+\i (00:00:25) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:00:25) QtSignal MainCanvas ImpPrefDialog closed
+\i (00:00:25) QtSignal MainCanvas ImpGrpSel closed
+\i (00:00:25) QtSignal MainCanvas CplGrpSel closed
+\t (00:00:31)     Journal end - Wed Apr  2 00:18:23 2025

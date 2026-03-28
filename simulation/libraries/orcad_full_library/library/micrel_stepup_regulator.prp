@@ -1,0 +1,522 @@
+("MIC2287-15BML"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"AGND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"125")
+        ("RJC"	"1")
+        ("RCA"	"92")
+    )
+)
+("MIC2287-24BML"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"AGND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"125")
+        ("RJC"	"1")
+        ("RCA"	"92")
+    )
+)
+("MIC2287-34BML"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"AGND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"125")
+        ("RJC"	"1")
+        ("RCA"	"92")
+    )
+)
+("MIC2287BD5"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"GND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"125")
+        ("RJC"	"1")
+        ("RCA"	"255")
+    )
+)
+("MIC2287C-15BML"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"AGND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"105")
+        ("RJC"	"1")
+        ("RCA"	"92")
+    )
+)
+("MIC2287C-24BML"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"AGND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"105")
+        ("RJC"	"1")
+        ("RCA"	"92")
+    )
+)
+("MIC2287C-34BML"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"AGND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"105")
+        ("RJC"	"1")
+        ("RCA"	"92")
+    )
+)
+("MIC2287CBD5"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"GND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"105")
+        ("RJC"	"1")
+        ("RCA"	"255")
+    )
+)
+("MIC2288BD5"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"GND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"125")
+        ("RJC"	"1")
+        ("RCA"	"255")
+    )
+)
+("MIC2288BML"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"AGND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"125")
+        ("RJC"	"1")
+        ("RCA"	"92")
+    )
+)
+("MIC2289-15BML"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"GND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"125")
+        ("RJC"	"1")
+        ("RCA"	"92")
+    )
+)
+("MIC2289-24BML"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"GND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"125")
+        ("RJC"	"1")
+        ("RCA"	"92")
+    )
+)
+("MIC2289-34BML"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"GND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"125")
+        ("RJC"	"1")
+        ("RCA"	"92")
+    )
+)
+("MIC2290BML"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"AGND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"125")
+        ("RJC"	"1")
+        ("RCA"	"92")
+    )
+)
+("MIC2291-15BML"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"AGND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"125")
+        ("RJC"	"1")
+        ("RCA"	"92")
+    )
+)
+("MIC2291-34BML"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"AGND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"125")
+        ("RJC"	"1")
+        ("RCA"	"92")
+    )
+)
+("MIC2291BD5"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"GND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"125")
+        ("RJC"	"1")
+        ("RCA"	"255")
+    )
+)
+("MIC2293-15BML"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"GND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"125")
+        ("RJC"	"1")
+        ("RCA"	"92")
+    )
+)
+("MIC2293-34BML"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"GND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"125")
+        ("RJC"	"1")
+        ("RCA"	"92")
+    )
+)
+("MIC2295BD5"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"GND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"125")
+        ("RJC"	"1")
+        ("RCA"	"255")
+    )
+)
+("MIC2295BML"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"AGND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"125")
+        ("RJC"	"1")
+        ("RCA"	"92")
+    )
+)
+("MIC2296BD5"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"GND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"125")
+        ("RJC"	"1")
+        ("RCA"	"255")
+    )
+)
+("MIC2296BML"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"AGND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"12")
+        ("TJ"	"125")
+        ("RJC"	"1")
+        ("RCA"	"92")
+    )
+)
+("MIC2601"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"PGND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"22")
+        ("TJ"	"125")
+        ("RJC"	"90")
+        ("RCA"	"1")
+    )
+)
+("MIC2602"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"PGND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"22")
+        ("TJ"	"125")
+        ("RJC"	"90")
+        ("RCA"	"1")
+    )
+)
+("MIC2605"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"PGND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"22")
+        ("TJ"	"125")
+        ("RJC"	"45")
+        ("RCA"	"45")
+    )
+)
+("MIC2606"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"PGND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"22")
+        ("TJ"	"125")
+        ("RJC"	"45")
+        ("RCA"	"45")
+    )
+)
+("MIC3287-24YML"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"AGND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"6")
+        ("TJ"	"125")
+        ("RJC"	"1")
+        ("RCA"	"89")
+    )
+)
+("MIC3287YD5"
+    ("Creator"	"Device property file created by Property Controller")
+    ("device_info"
+        ("model_type"	"667")
+    )
+    ("device_pre_smoke"
+        ("NODE_IN"	"VIN")
+        ("NODE_GND"	"GND")
+        ("NODE_OUT"	"SW")
+        ("DERATE_TYPE"	"POS_REG")
+    )
+    ("device_max_ops"
+        ("VINMAX"	"6")
+        ("TJ"	"125")
+        ("RJC"	"1")
+        ("RCA"	"206")
+    )
+)

@@ -1,0 +1,34 @@
+("BATTERY"
+	(Creator "Device property file created by analog_uprev on Thu Aug  2 09:57:42 IST 2007")
+	("device_info"
+		( MODEL_TYPE 117 )
+		( SYMBOL_NAME "Battery" )
+		( PORT_ORDER 
+ 			("POS")
+ 			("NEG") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)
+("CURRENT"
+	(Creator "Device property file created by analog_uprev on Thu Aug  2 09:57:42 IST 2007")
+	("device_info"
+		( MODEL_TYPE 115 )
+		( SYMBOL_NAME "CURRENT" )
+		( PORT_ORDER 
+ 			("PIS")
+ 			("NIS") )
+	)
+	("model_params"
+	("symbol"
+			( "VALUE" )
+	)
+	)
+	("device_max_ops"
+	)
+)

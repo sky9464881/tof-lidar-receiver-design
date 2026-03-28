@@ -1,0 +1,636 @@
+\t (00:00:13) orcadx 24.1 S003 (4280230) [3/6/2025] Windows SPB 64-bit Edition
+\t (00:00:13)     Journal start - Wed Apr  2 19:54:23 2025
+\t (00:00:13)         Host=BOOK-QTRCVV9COM User=user Pid=25008 CPUs=12
+\t (00:00:13) CmdLine= C:\Cadence\OrCADX_24.1\tools\bin\unison.exe -layout -orcadx -mpssession user -proj c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\test1231123123\test1231123123.opj C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/test1231123123/allegro/test1231123123.brd
+\t (00:00:13) 
+\d (00:00:13) Design opened: C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/test1231123123/allegro/test1231123123.brd
+\i (00:00:13) trapsize 6836
+\i (00:00:16) trapsize 9005
+\t (00:00:28) Loading consmgr.cxt 
+\t (00:00:28) Loading acns_formula.cxt 
+\i (00:00:28) trapsize 8990
+\i (00:00:28) trapsize 9186
+\t (00:00:32) nayunwoo159@kw.ac.kr user logged in.
+
+\i (00:00:33) trapsize 9659
+\i (00:00:33) updateport VisibilityPane
+\i (00:00:33) updateport PropPane
+\i (00:00:33) ucpedit 
+\i (00:00:33) updateport VisibilityPane
+\i (00:01:02) design sync eco 
+\t (00:01:02) > Requesting Capture to open design
+\t (00:01:02) > Response received OpenDesign is done by remote tool
+\t (00:01:02) Design opened successfully
+\t (00:01:02) > Requesting Capture to generate logical netlist
+\t (00:01:02) > Requesting Capture to open design
+\t (00:01:03) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:01:03) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\test1231123123\allegro
+\t (00:01:03) > Requesting Capture to generate logical netlist
+\t (00:01:03) > Response received OpenDesign is done by remote tool
+\t (00:01:03) Design opened successfully
+\t (00:01:03) > Generating Physical Netlist
+\t (00:01:03) Starting genfeedformat...
+\t (00:01:04) > Generating Physical Netlist successful
+\t (00:01:04) > Generating Differences
+\t (00:01:04) > Generating Differences successful
+\t (00:01:04) > Displaying differences output
+\t (00:01:04) > Displaying differences output successful
+\t (00:01:04) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:01:04) Logical netlist generated successfully at c:\users\user\appdata\roaming\spb_data\cdssetup\workspace\projects\test1231123123\allegro
+\i (00:01:04) updateport ReportsPane
+\i (00:01:04) updateport SearchPane
+\i (00:01:04) updateport PropPane
+\i (00:01:05) QtSignal DesignSyncDialog sync_button clicked
+\t (00:01:05) > Sending response DoneOpenBoard
+\t (00:01:05) Starting Cadence Logic Import...
+\w (00:01:06) WARNING(SPMHGE-795): netrev had warnings.
+\t (00:01:06) Opening existing design...
+\i (00:01:07) trapsize 9659
+\w (00:01:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\w (00:01:08) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:01:08) trapsize 9659
+\t (00:01:08) Placed 68 of 78 symbols.
+\i (00:01:08) QtSignal DesignSyncDialog sch_comboBox EditingFinished "C:/Users/user/AppData/Roaming/SPB_Data/cdssetup/workspace/projects/test1231123123/test1231123123.opj"
+\i (00:01:08) QtSignal MainCanvas DesignSyncDialog closed
+\i (00:01:09) updateport ReportsPane
+\i (00:01:09) updateport SearchPane
+\i (00:01:09) updateport VisibilityPane
+\i (00:01:09) updateport PropPane
+\i (00:01:09) ucpedit 
+\i (00:01:09) updateport VisibilityPane
+\i (00:01:13) setwindow text
+\i (00:01:13) close
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom in 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom in 21346.59 14565.91
+\i (00:01:14) trapsize 4830
+\i (00:01:14) zoom in 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom in 21346.59 14565.91
+\i (00:01:14) trapsize 2415
+\i (00:01:14) zoom in 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom in 21346.60 14565.92
+\i (00:01:14) trapsize 1207
+\i (00:01:14) zoom in 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom in 21346.61 14565.92
+\i (00:01:14) trapsize 604
+\i (00:01:14) zoom out 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom out 21310.39 14541.77
+\i (00:01:14) trapsize 1207
+\i (00:01:14) zoom out 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom out 21310.39 14541.78
+\i (00:01:14) trapsize 2415
+\i (00:01:14) zoom out 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom out 21310.40 14541.78
+\i (00:01:14) trapsize 4830
+\i (00:01:15) zoom out 1 
+\i (00:01:15) setwindow pcb
+\i (00:01:15) zoom out 20692.21 14377.57
+\i (00:01:15) trapsize 9659
+\i (00:01:17) zoom out 1 
+\i (00:01:17) setwindow pcb
+\i (00:01:17) zoom out 20595.61 14377.56
+\i (00:01:17) trapsize 14316
+\i (00:01:18) zoom in 1 
+\i (00:01:18) setwindow pcb
+\i (00:01:18) zoom in 6327.84 19241.21
+\i (00:01:18) trapsize 7158
+\i (00:01:20) zoom in 1 
+\i (00:01:20) setwindow pcb
+\i (00:01:20) zoom in 6628.48 19255.53
+\i (00:01:20) trapsize 3579
+\i (00:01:21) zoom out 1 
+\i (00:01:21) setwindow pcb
+\i (00:01:21) zoom out 7874.01 19148.16
+\i (00:01:21) trapsize 7158
+\i (00:01:21) zoom out 1 
+\i (00:01:21) setwindow pcb
+\i (00:01:21) zoom out 7874.00 19148.15
+\i (00:01:21) trapsize 14316
+\i (00:01:21) zoom out 1 
+\i (00:01:21) setwindow pcb
+\i (00:01:21) zoom out 11911.22 18840.35
+\i (00:01:21) trapsize 14316
+\i (00:01:21) zoom out 1 
+\i (00:01:21) setwindow pcb
+\i (00:01:21) zoom out 11911.22 18840.35
+\i (00:01:21) trapsize 14316
+\i (00:01:21) zoom in 1 
+\i (00:01:21) setwindow pcb
+\i (00:01:21) zoom in 11911.22 18840.35
+\i (00:01:21) trapsize 7158
+\i (00:01:27) roam x -96 
+\i (00:01:27) roam x -96
+\i (00:01:28) roam x -96 
+\i (00:01:28) roam x -96
+\i (00:01:28) roam x -96 
+\i (00:01:28) roam x -96
+\i (00:01:28) roam y 96 
+\i (00:01:28) roam y 96
+\i (00:01:29) roam y 96 
+\i (00:01:29) roam y 96
+\i (00:01:29) zoom in 1 
+\i (00:01:29) setwindow pcb
+\i (00:01:29) zoom in 13070.85 12226.18
+\i (00:01:29) trapsize 3579
+\i (00:01:30) zoom in 1 
+\i (00:01:30) setwindow pcb
+\i (00:01:30) zoom in 13106.65 12748.73
+\i (00:01:30) trapsize 1790
+\i (00:01:31) roam start
+\i (00:01:31) roam x -1
+\i (00:01:31) roam y -1
+\i (00:01:31) roam y -1
+\i (00:01:31) roam y -1
+\i (00:01:31) roam y -2
+\i (00:01:31) roam x -1
+\i (00:01:31) roam y -2
+\i (00:01:31) roam y -1
+\i (00:01:31) roam y -3
+\i (00:01:31) roam y -5
+\i (00:01:31) roam y -4
+\i (00:01:32) roam y -1
+\i (00:01:32) roam end
+\i (00:01:32) zoom in 1 
+\i (00:01:32) setwindow pcb
+\i (00:01:32) zoom in 13428.75 13206.84
+\i (00:01:32) trapsize 895
+\i (00:01:33) roam start
+\i (00:01:33) roam x -1
+\i (00:01:33) roam x -1
+\i (00:01:33) roam y -1
+\i (00:01:33) roam x -3
+\i (00:01:33) roam x -1
+\i (00:01:33) roam x -4
+\i (00:01:33) roam x -6
+\i (00:01:33) roam y -3
+\i (00:01:33) roam x -15
+\i (00:01:33) roam y -3
+\i (00:01:33) roam x -19
+\i (00:01:33) roam y -13
+\i (00:01:33) roam x -24
+\i (00:01:33) roam y -20
+\i (00:01:33) roam x -21
+\i (00:01:33) roam y -10
+\i (00:01:33) roam x -1
+\i (00:01:33) roam y -1
+\i (00:01:33) roam x -1
+\i (00:01:34) roam x -9
+\i (00:01:34) roam y -5
+\i (00:01:34) roam x -10
+\i (00:01:34) roam y -5
+\i (00:01:34) roam y -1
+\i (00:01:34) roam x -5
+\i (00:01:34) roam y -4
+\i (00:01:34) roam end
+\i (00:01:35) zoom in 1 
+\i (00:01:35) setwindow pcb
+\i (00:01:35) zoom in 13425.16 13205.05
+\i (00:01:35) trapsize 447
+\i (00:01:35) roam start
+\i (00:01:35) roam y -1
+\i (00:01:35) roam y -2
+\i (00:01:35) roam y -1
+\i (00:01:36) roam y -1
+\i (00:01:36) roam y -1
+\i (00:01:36) roam y -2
+\i (00:01:36) roam x -3
+\i (00:01:36) roam x -46
+\i (00:01:36) roam y -5
+\i (00:01:36) roam x -116
+\i (00:01:36) roam y -7
+\i (00:01:36) roam x -94
+\i (00:01:36) roam y -3
+\i (00:01:37) roam x -14
+\i (00:01:37) roam end
+\i (00:01:41) zoom out 1 
+\i (00:01:41) setwindow pcb
+\i (00:01:41) zoom out 13082.51 13181.84
+\i (00:01:41) trapsize 895
+\i (00:02:09) roam start
+\i (00:02:09) roam x -4
+\i (00:02:09) roam x -11
+\i (00:02:09) roam y -4
+\i (00:02:09) roam x -15
+\i (00:02:09) roam y -7
+\i (00:02:09) roam x -11
+\i (00:02:09) roam y -22
+\i (00:02:09) roam x -10
+\i (00:02:09) roam y -41
+\i (00:02:09) roam x -3
+\i (00:02:09) roam y -14
+\i (00:02:09) roam x -25
+\i (00:02:09) roam y -100
+\i (00:02:09) roam x -19
+\i (00:02:09) roam y -66
+\i (00:02:09) roam x -18
+\i (00:02:09) roam y -51
+\i (00:02:09) roam x -9
+\i (00:02:09) roam y -29
+\i (00:02:09) roam x -19
+\i (00:02:09) roam y -52
+\i (00:02:09) roam x -2
+\i (00:02:09) roam y -14
+\i (00:02:09) roam x -33
+\i (00:02:09) roam y -84
+\i (00:02:09) roam x -4
+\i (00:02:09) roam y -7
+\i (00:02:09) roam y 1
+\i (00:02:09) roam end
+\i (00:02:10) roam start
+\i (00:02:10) roam x -1
+\i (00:02:10) roam x -7
+\i (00:02:10) roam y -4
+\i (00:02:10) roam x -2
+\i (00:02:10) roam y -1
+\i (00:02:10) roam x -5
+\i (00:02:10) roam y -5
+\i (00:02:10) roam x -8
+\i (00:02:10) roam y -6
+\i (00:02:10) roam x -3
+\i (00:02:10) roam y -9
+\i (00:02:10) roam x -8
+\i (00:02:10) roam y -15
+\i (00:02:10) roam x -5
+\i (00:02:10) roam y -11
+\i (00:02:10) roam x -5
+\i (00:02:10) roam y -13
+\i (00:02:10) roam x -9
+\i (00:02:10) roam y -26
+\i (00:02:10) roam y 2
+\i (00:02:10) roam end
+\i (00:02:12) zoom out 1 
+\i (00:02:12) setwindow pcb
+\i (00:02:12) zoom out 12279.95 14590.28
+\i (00:02:12) trapsize 1790
+\i (00:02:12) roam start
+\i (00:02:12) roam x -1
+\i (00:02:13) roam x -9
+\i (00:02:13) roam y -4
+\i (00:02:13) roam x -4
+\i (00:02:13) roam y -16
+\i (00:02:13) roam x -2
+\i (00:02:13) roam y -65
+\i (00:02:13) roam x -9
+\i (00:02:13) roam y -63
+\i (00:02:13) roam x -5
+\i (00:02:13) roam y -20
+\i (00:02:13) roam x -42
+\i (00:02:13) roam y -201
+\i (00:02:13) roam x -8
+\i (00:02:13) roam y -37
+\i (00:02:13) roam x -1
+\i (00:02:13) roam y -19
+\i (00:02:13) roam y -10
+\i (00:02:13) roam y -5
+\i (00:02:13) roam end
+\i (00:02:13) roam start
+\i (00:02:13) roam x -2
+\i (00:02:13) roam x -6
+\i (00:02:13) roam y -4
+\i (00:02:13) roam x -5
+\i (00:02:13) roam y -4
+\i (00:02:13) roam x -4
+\i (00:02:13) roam y -1
+\i (00:02:13) roam x -24
+\i (00:02:13) roam y -15
+\i (00:02:13) roam x -4
+\i (00:02:13) roam y -1
+\i (00:02:13) roam x -41
+\i (00:02:13) roam y -24
+\i (00:02:13) roam x -21
+\i (00:02:13) roam y -9
+\i (00:02:14) roam x -6
+\i (00:02:14) roam y -2
+\i (00:02:14) roam x -39
+\i (00:02:14) roam end
+\i (00:02:14) roam start
+\i (00:02:14) roam x -2
+\i (00:02:14) roam x -1
+\i (00:02:14) roam y -2
+\i (00:02:14) roam x -2
+\i (00:02:14) roam x -2
+\i (00:02:14) roam y 3
+\i (00:02:14) roam x -10
+\i (00:02:14) roam y 5
+\i (00:02:14) roam x -46
+\i (00:02:14) roam y 21
+\i (00:02:14) roam x -9
+\i (00:02:14) roam y 5
+\i (00:02:14) roam x -35
+\i (00:02:14) roam y 19
+\i (00:02:15) roam x -11
+\i (00:02:15) roam y 5
+\i (00:02:15) roam x -9
+\i (00:02:15) roam y 4
+\i (00:02:15) roam x -5
+\i (00:02:15) roam y 1
+\i (00:02:15) roam x -3
+\i (00:02:15) roam y 1
+\i (00:02:15) roam x -7
+\i (00:02:15) roam y 4
+\i (00:02:15) roam x -1
+\i (00:02:15) roam x -8
+\i (00:02:15) roam y 2
+\i (00:02:15) roam x -2
+\i (00:02:15) roam y 3
+\i (00:02:15) roam x -2
+\i (00:02:15) roam end
+\i (00:02:20) roam start
+\i (00:02:20) roam x -1
+\i (00:02:20) roam x -4
+\i (00:02:20) roam y -1
+\i (00:02:20) roam x -5
+\i (00:02:20) roam y -2
+\i (00:02:20) roam x -8
+\i (00:02:20) roam y -7
+\i (00:02:20) roam x -26
+\i (00:02:20) roam y -30
+\i (00:02:20) roam x -16
+\i (00:02:20) roam y -20
+\i (00:02:20) roam x -88
+\i (00:02:20) roam y -110
+\i (00:02:20) roam x -35
+\i (00:02:20) roam y -44
+\i (00:02:20) roam x -13
+\i (00:02:20) roam y -16
+\i (00:02:20) roam x -4
+\i (00:02:20) roam y -5
+\i (00:02:20) roam end
+\i (00:02:20) roam start
+\i (00:02:20) roam x -1
+\i (00:02:20) roam y -4
+\i (00:02:20) roam x -1
+\i (00:02:20) roam y -1
+\i (00:02:20) roam x -11
+\i (00:02:20) roam y -16
+\i (00:02:21) roam x -7
+\i (00:02:21) roam y -19
+\i (00:02:21) roam x -7
+\i (00:02:21) roam y -38
+\i (00:02:21) roam x -5
+\i (00:02:21) roam y -31
+\i (00:02:21) roam x -3
+\i (00:02:21) roam y -27
+\i (00:02:21) roam y -14
+\i (00:02:21) roam y -3
+\i (00:02:21) roam end
+\i (00:02:21) zoom in 1 
+\i (00:02:21) setwindow pcb
+\i (00:02:21) zoom in 10000.05 16539.11
+\i (00:02:21) trapsize 895
+\i (00:02:22) zoom out 1 
+\i (00:02:22) setwindow pcb
+\i (00:02:22) zoom out 10026.90 16544.48
+\i (00:02:22) trapsize 1790
+\i (00:02:22) zoom out 1 
+\i (00:02:22) setwindow pcb
+\i (00:02:22) zoom out 10026.90 16544.47
+\i (00:02:22) trapsize 3579
+\i (00:02:22) zoom out 1 
+\i (00:02:22) setwindow pcb
+\i (00:02:22) zoom out 10026.89 16544.47
+\i (00:02:22) trapsize 7158
+\i (00:02:22) roam start
+\i (00:02:22) roam x 1
+\i (00:02:22) roam x 15
+\i (00:02:22) roam y 9
+\i (00:02:22) roam x 15
+\i (00:02:22) roam y 10
+\i (00:02:22) roam x 11
+\i (00:02:22) roam y 10
+\i (00:02:23) roam x 19
+\i (00:02:23) roam y 19
+\i (00:02:23) roam x 20
+\i (00:02:23) roam y 28
+\i (00:02:23) roam x 21
+\i (00:02:23) roam y 28
+\i (00:02:23) roam x 20
+\i (00:02:23) roam y 31
+\i (00:02:23) roam x 20
+\i (00:02:23) roam y 26
+\i (00:02:23) roam x 39
+\i (00:02:23) roam y 39
+\i (00:02:23) roam x 46
+\i (00:02:23) roam y 44
+\i (00:02:23) roam x 33
+\i (00:02:23) roam y 31
+\i (00:02:23) roam x 6
+\i (00:02:23) roam y 4
+\i (00:02:23) roam x 24
+\i (00:02:23) roam y 15
+\i (00:02:23) roam y 1
+\i (00:02:23) roam end
+\i (00:02:23) zoom in 1 
+\i (00:02:23) setwindow pcb
+\i (00:02:23) zoom in 11209.80 15017.99
+\i (00:02:23) trapsize 3579
+\i (00:02:25) zoom in 1 
+\i (00:02:25) setwindow pcb
+\i (00:02:25) zoom in 11202.64 15053.78
+\i (00:02:25) trapsize 1790
+\i (00:02:26) zoom out 1 
+\i (00:02:26) setwindow pcb
+\i (00:02:26) zoom out 11202.64 15053.78
+\i (00:02:26) trapsize 3579
+\i (00:02:26) zoom out 1 
+\i (00:02:26) setwindow pcb
+\i (00:02:26) zoom out 11202.64 15053.78
+\i (00:02:26) trapsize 7158
+\i (00:02:31) zoom in 1 
+\i (00:02:31) setwindow pcb
+\i (00:02:31) zoom in 13536.23 12992.22
+\i (00:02:31) trapsize 3579
+\i (00:02:31) zoom in 1 
+\i (00:02:31) setwindow pcb
+\i (00:02:31) zoom in 13550.55 12992.22
+\i (00:02:31) trapsize 1790
+\i (00:02:32) roam start
+\i (00:02:32) roam y -1
+\i (00:02:32) roam y -1
+\i (00:02:32) roam x -19
+\i (00:02:32) roam y -41
+\i (00:02:32) roam x -21
+\i (00:02:32) roam y -34
+\i (00:02:32) roam x -25
+\i (00:02:32) roam y -36
+\i (00:02:32) roam x -26
+\i (00:02:32) roam y -38
+\i (00:02:32) roam x -9
+\i (00:02:32) roam y -11
+\i (00:02:32) roam x -60
+\i (00:02:32) roam y -84
+\i (00:02:32) roam x -18
+\i (00:02:32) roam y -22
+\i (00:02:32) roam x -1
+\i (00:02:32) roam y -2
+\i (00:02:32) roam end
+\i (00:02:33) roam start
+\i (00:02:33) roam y -1
+\i (00:02:33) roam x -1
+\i (00:02:33) roam y -9
+\i (00:02:33) roam x -5
+\i (00:02:33) roam y -31
+\i (00:02:33) roam x -15
+\i (00:02:33) roam y -45
+\i (00:02:33) roam x -9
+\i (00:02:33) roam y -54
+\i (00:02:33) roam x -4
+\i (00:02:33) roam y -35
+\i (00:02:33) roam x -2
+\i (00:02:33) roam y -14
+\i (00:02:33) roam x -1
+\i (00:02:33) roam y -1
+\i (00:02:33) roam y -1
+\i (00:02:33) roam end
+\i (00:02:33) zoom in 1 
+\i (00:02:33) setwindow pcb
+\i (00:02:33) zoom in 13854.76 14584.90
+\i (00:02:33) trapsize 895
+\i (00:02:45) QtSignal Allegro_Property_Dock_Pane_Accordion_Container PropertySelectionFilterWidget DockedTabWidgetSwitch +
+\i (00:02:45) QtSignal "CP_ALLEGRO_PROPERTIES_DOCK"
+\i (00:03:12) QtSignal Allegro_Property_Dock_Pane_Accordion_Container PropertySelectionFilterWidget DockedTabWidgetSwitch +
+\i (00:03:12) QtSignal "CP_ALLEGRO_PROPERTIES_DOCK"
+\i (00:03:14) zoom out 1 
+\i (00:03:14) setwindow pcb
+\i (00:03:14) zoom out 14024.77 14649.32
+\i (00:03:14) trapsize 1790
+\i (00:03:14) zoom out 1 
+\i (00:03:14) setwindow pcb
+\i (00:03:14) zoom out 14024.78 14649.31
+\i (00:03:14) trapsize 3579
+\i (00:03:14) zoom out 1 
+\i (00:03:14) setwindow pcb
+\i (00:03:14) zoom out 14024.77 14649.31
+\i (00:03:14) trapsize 7158
+\i (00:03:15) zoom in 1 
+\i (00:03:15) setwindow pcb
+\i (00:03:15) zoom in 15046.62 14635.00
+\i (00:03:15) trapsize 3579
+\i (00:03:20) QtSignal PropertyStatusWidget unplaced_Components_cnt linkActivated unplacedComponentsLink
+\i (00:03:20) updateport SearchPane
+\i (00:03:21) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:21) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:21) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:21) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:21) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:21) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:21) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:22) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:22) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:22) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:22) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:23) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:23) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:23) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:23) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:23) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:23) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:23) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:23) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:23) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:24) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:26) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:26) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:26) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:26) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:26) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:26) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:27) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:27) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:27) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:27) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:27) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:28) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:28) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:28) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:28) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:28) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:28) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:29) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:29) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:29) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:29) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:29) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:29) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:30) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:30) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:30) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:30) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:30) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:31) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:31) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:31) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:31) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:31) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:31) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:31) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:31) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:32) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:32) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:32) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:32) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:32) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:32) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:32) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:32) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:32) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:33) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:33) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:38) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:39) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:39) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:39) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:39) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:39) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:39) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:39) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:39) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:39) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:39) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:39) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:39) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:39) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:39) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:03:41) save 
+\i (00:03:42) fillin no 
+\i (00:03:44) fillin "menu_cancel"
+\i (00:03:44) ucpedit 
+\i (00:03:44) updateport VisibilityPane
+\i (00:05:12) save 
+\i (00:05:13) fillin no 
+\i (00:05:15) fillin "menu_cancel"
+\i (00:05:15) ucpedit 
+\i (00:05:15) updateport VisibilityPane
+\i (00:05:17) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:05:18) QtSignal MainCanvas CplPrefDialog closed
+\i (00:05:18) QtSignal MainCanvas ImpPrefDialog closed
+\i (00:05:18) QtSignal EditViaWidgetCMPanel DrawOptionsDlg closed
+\i (00:05:18) QtSignal MainCanvas CplGrpSel closed
+\i (00:05:18) QtSignal MainCanvas ImpGrpSel closed
+\t (00:05:25)     Journal end - Wed Apr  2 19:59:34 2025

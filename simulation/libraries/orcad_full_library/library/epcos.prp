@@ -1,0 +1,7265 @@
+("B60K250/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "70000")
+		(VDC "320")
+		(VAC_RMS "250")
+		(PDM "1.6")
+	)
+)
+("B60K460/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "70000")
+		(VDC "615")
+		(VAC_RMS "460")
+		(PDM "1.6")
+	)
+)
+("B32K275/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "25000")
+		(VDC "350")
+		(VAC_RMS "275")
+		(PDM "1.2")
+	)
+)
+("B32K750/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "25000")
+		(VDC "1060")
+		(VAC_RMS "750")
+		(PDM "1.2")
+	)
+)
+("B32K320/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "25000")
+		(VDC "420")
+		(VAC_RMS "320")
+		(PDM "1.2")
+	)
+)
+("B32K420/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "25000")
+		(VDC "560")
+		(VAC_RMS "420")
+		(PDM "1.2")
+	)
+)
+("B60K150/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:57 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "70000")
+		(VDC "200")
+		(VAC_RMS "150")
+		(PDM "1.6")
+	)
+)
+("B60K680/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "70000")
+		(VDC "895")
+		(VAC_RMS "680")
+		(PDM "1.6")
+	)
+)
+("B60K130/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "70000")
+		(VDC "170")
+		(VAC_RMS "130")
+		(PDM "1.6")
+	)
+)
+("B60K230/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "70000")
+		(VDC "300")
+		(VAC_RMS "230")
+		(PDM "1.6")
+	)
+)
+("B60K385/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "70000")
+		(VDC "505")
+		(VAC_RMS "385")
+		(PDM "1.6")
+	)
+)
+("B60K550/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "70000")
+		(VDC "745")
+		(VAC_RMS "550")
+		(PDM "1.6")
+	)
+)
+("B60K275/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "70000")
+		(VDC "350")
+		(VAC_RMS "275")
+		(PDM "1.6")
+	)
+)
+("B60K320/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "70000")
+		(VDC "420")
+		(VAC_RMS "320")
+		(PDM "1.6")
+	)
+)
+("B60K750/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "70000")
+		(VDC "1060")
+		(VAC_RMS "750")
+		(PDM "1.6")
+	)
+)
+("B60K1000/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "70000")
+		(VDC "1465")
+		(VAC_RMS "1100")
+		(PDM "1.6")
+	)
+)
+("B60K420/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "70000")
+		(VDC "560")
+		(VAC_RMS "420")
+		(PDM "1.6")
+	)
+)
+("B60K75/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "70000")
+		(VDC "100")
+		(VAC_RMS "75")
+		(PDM "1.6")
+	)
+)
+("B40K150/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "200")
+		(VAC_RMS "150")
+		(PDM "1.4")
+	)
+)
+("B40K680/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "895")
+		(VAC_RMS "680")
+		(PDM "1.4")
+	)
+)
+("B40K250/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "320")
+		(VAC_RMS "250")
+		(PDM "1.4")
+	)
+)
+("B40K460/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "615")
+		(VAC_RMS "460")
+		(PDM "1.4")
+	)
+)
+("B40K130/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "170")
+		(VAC_RMS "130")
+		(PDM "1.4")
+	)
+)
+("B40K230/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "300")
+		(VAC_RMS "230")
+		(PDM "1.4")
+	)
+)
+("B40K385/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "505")
+		(VAC_RMS "385")
+		(PDM "1.4")
+	)
+)
+("B40K550/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "745")
+		(VAC_RMS "550")
+		(PDM "1.4")
+	)
+)
+("B80K150/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100000")
+		(VDC "200")
+		(VAC_RMS "150")
+		(PDM "2")
+	)
+)
+("B80K680/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100000")
+		(VDC "895")
+		(VAC_RMS "680")
+		(PDM "2")
+	)
+)
+("B40K275/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "350")
+		(VAC_RMS "275")
+		(PDM "1.4")
+	)
+)
+("B40K320/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:58 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "420")
+		(VAC_RMS "320")
+		(PDM "1.4")
+	)
+)
+("B40K750/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "1060")
+		(VAC_RMS "750")
+		(PDM "1.4")
+	)
+)
+("B80K1100/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100000")
+		(VDC "1465")
+		(VAC_RMS "1100")
+		(PDM "2")
+	)
+)
+("B80K250/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100000")
+		(VDC "320")
+		(VAC_RMS "250")
+		(PDM "2.0")
+	)
+)
+("B80K460/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100000")
+		(VDC "615")
+		(VAC_RMS "460")
+		(PDM "2")
+	)
+)
+("B32K150/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "25000")
+		(VDC "200")
+		(VAC_RMS "150")
+		(PDM "1.2")
+	)
+)
+("B40K420/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "560")
+		(VAC_RMS "420")
+		(PDM "1.4")
+	)
+)
+("B40K75/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "100")
+		(VAC_RMS "75")
+		(PDM "1.4")
+	)
+)
+("B80K130/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100000")
+		(VDC "170")
+		(VAC_RMS "130")
+		(PDM "2")
+	)
+)
+("B32K250/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "25000")
+		(VDC "320")
+		(VAC_RMS "250")
+		(PDM "1.2")
+	)
+)
+("B32K460/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "25000")
+		(VDC "615")
+		(VAC_RMS "460")
+		(PDM "1.2")
+	)
+)
+("B32K680/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "25000")
+		(VDC "895")
+		(VAC_RMS "680")
+		(PDM "1.2")
+	)
+)
+("B80K385/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100000")
+		(VDC "505")
+		(VAC_RMS "385")
+		(PDM "2")
+	)
+)
+("B80K550/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100000")
+		(VDC "745")
+		(VAC_RMS "550")
+		(PDM "2")
+	)
+)
+("B32K130/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "25000")
+		(VDC "170")
+		(VAC_RMS "130")
+		(PDM "1.2")
+	)
+)
+("B80K275/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100000")
+		(VDC "350")
+		(VAC_RMS "275")
+		(PDM "2")
+	)
+)
+("B80K320/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100000")
+		(VDC "420")
+		(VAC_RMS "320")
+		(PDM "2")
+	)
+)
+("B80K750/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100000")
+		(VDC "1060")
+		(VAC_RMS "750")
+		(PDM "2")
+	)
+)
+("B32K230/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "25000")
+		(VDC "300")
+		(VAC_RMS "230")
+		(PDM "1.2")
+	)
+)
+("B32K385/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "25000")
+		(VDC "505")
+		(VAC_RMS "385")
+		(PDM "1.2")
+	)
+)
+("B32K550/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "25000")
+		(VDC "745")
+		(VAC_RMS "550")
+		(PDM "1.2")
+	)
+)
+("B80K420/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100000")
+		(VDC "560")
+		(VAC_RMS "420")
+		(PDM "2")
+	)
+)
+("CN1210L8G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "11")
+		(VAC_RMS "8")
+		(PDM "0.01")
+	)
+)
+("CN1210M4G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:34:59 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "5.5")
+		(VAC_RMS "4")
+		(PDM "0.01")
+	)
+)
+("CN1210M6G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:00 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "8")
+		(VAC_RMS "6")
+		(PDM "0.01")
+	)
+)
+("CN2220L8G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:00 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "11")
+		(VAC_RMS "8")
+		(PDM "0.02")
+	)
+)
+("CN2220M4G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:00 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "5.5")
+		(VAC_RMS "4")
+		(PDM "0.02")
+	)
+)
+("CN2220M6G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:00 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "8")
+		(VAC_RMS "6")
+		(PDM "0.02")
+	)
+)
+("S05K11/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:00 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "14")
+		(VAC_RMS "11")
+		(PDM "0.01")
+	)
+)
+("S05K115/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:00 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "150")
+		(VAC_RMS "115")
+		(PDM "0.1")
+	)
+)
+("S05K130/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:00 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "170")
+		(VAC_RMS "130")
+		(PDM "0.1")
+	)
+)
+("S05K14/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:00 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "18")
+		(VAC_RMS "14")
+		(PDM "0.01")
+	)
+)
+("S05K140/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:00 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "180")
+		(VAC_RMS "140")
+		(PDM "0.1")
+	)
+)
+("S05K150/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:00 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "200")
+		(VAC_RMS "150")
+		(PDM "0.1")
+	)
+)
+("S05K17/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:00 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "22")
+		(VAC_RMS "17")
+		(PDM "0.01")
+	)
+)
+("S05K175/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:00 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "225")
+		(VAC_RMS "175")
+		(PDM "0.1")
+	)
+)
+("S05K20/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:00 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "26")
+		(VAC_RMS "20")
+		(PDM "0.01")
+	)
+)
+("S05K230/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:00 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "300")
+		(VAC_RMS "230")
+		(PDM "0.1")
+	)
+)
+("S05K25/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:00 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "31")
+		(VAC_RMS "25")
+		(PDM "0.01")
+	)
+)
+("S05K250/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:00 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "320")
+		(VAC_RMS "250")
+		(PDM "0.1")
+	)
+)
+("S05K275/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:00 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "350")
+		(VAC_RMS "275")
+		(PDM "0.1")
+	)
+)
+("S05K30/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:00 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "38")
+		(VAC_RMS "30")
+		(PDM "0.01")
+	)
+)
+("S05K300/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:00 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "385")
+		(VAC_RMS "300")
+		(PDM "0.1")
+	)
+)
+("S05K35/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:00 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "45")
+		(VAC_RMS "35")
+		(PDM "0.01")
+	)
+)
+("S05K385/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:00 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "505")
+		(VAC_RMS "385")
+		(PDM "0.1")
+	)
+)
+("S05K40/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:00 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "56")
+		(VAC_RMS "40")
+		(PDM "0.01")
+	)
+)
+("S05K420/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "560")
+		(VAC_RMS "420")
+		(PDM "0.1")
+	)
+)
+("S05K50/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "65")
+		(VAC_RMS "50")
+		(PDM "0.1")
+	)
+)
+("S05K60/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "85")
+		(VAC_RMS "60")
+		(PDM "0.1")
+	)
+)
+("S05K75/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "100")
+		(VAC_RMS "75")
+		(PDM "0.1")
+	)
+)
+("S05K95/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "125")
+		(VAC_RMS "95")
+		(PDM "0.1")
+	)
+)
+("S07K11/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "14")
+		(VAC_RMS "11")
+		(PDM "0.02")
+	)
+)
+("S07K115/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "150")
+		(VAC_RMS "115")
+		(PDM "0.25")
+	)
+)
+("S07K130/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "170")
+		(VAC_RMS "130")
+		(PDM "0.25")
+	)
+)
+("S07K14/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "18")
+		(VAC_RMS "14")
+		(PDM "0.02")
+	)
+)
+("S07K140/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "180")
+		(VAC_RMS "140")
+		(PDM "0.25")
+	)
+)
+("S07K150/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "200")
+		(VAC_RMS "150")
+		(PDM "0.25")
+	)
+)
+("S07K17/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "22")
+		(VAC_RMS "17")
+		(PDM "0.02")
+	)
+)
+("S07K175/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "225")
+		(VAC_RMS "175")
+		(PDM "0.25")
+	)
+)
+("S07K20/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "26")
+		(VAC_RMS "20")
+		(PDM "0.02")
+	)
+)
+("S07K230/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "300")
+		(VAC_RMS "230")
+		(PDM "0.25")
+	)
+)
+("S07K25/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "31")
+		(VAC_RMS "25")
+		(PDM "0.02")
+	)
+)
+("S07K250/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "320")
+		(VAC_RMS "250")
+		(PDM "0.25")
+	)
+)
+("S07K275/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "350")
+		(VAC_RMS "275")
+		(PDM "0.25")
+	)
+)
+("S07K30/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "38")
+		(VAC_RMS "30")
+		(PDM "0.02")
+	)
+)
+("S07K300/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "385")
+		(VAC_RMS "300")
+		(PDM "0.25")
+	)
+)
+("S07K35/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "45")
+		(VAC_RMS "35")
+		(PDM "0.02")
+	)
+)
+("S07K385/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "505")
+		(VAC_RMS "385")
+		(PDM "0.25")
+	)
+)
+("S07K40/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "56")
+		(VAC_RMS "40")
+		(PDM "0.02")
+	)
+)
+("S07K420/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:01 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "560")
+		(VAC_RMS "420")
+		(PDM "0.25")
+	)
+)
+("S07K50/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:02 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "65")
+		(VAC_RMS "50")
+		(PDM "0.25")
+	)
+)
+("S07K60/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:02 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "85")
+		(VAC_RMS "60")
+		(PDM "0.25")
+	)
+)
+("S07K75/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:02 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "100")
+		(VAC_RMS "75")
+		(PDM "0.25")
+	)
+)
+("S07K95/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:02 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "125")
+		(VAC_RMS "95")
+		(PDM "0.25")
+	)
+)
+("S10K11/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:02 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "14")
+		(VAC_RMS "11")
+		(PDM "0.05")
+	)
+)
+("S10K115/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:02 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "150")
+		(VAC_RMS "115")
+		(PDM "0.4")
+	)
+)
+("S10K130/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:02 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "170")
+		(VAC_RMS "130")
+		(PDM "0.4")
+	)
+)
+("S10K14/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:02 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "18")
+		(VAC_RMS "14")
+		(PDM "0.05")
+	)
+)
+("S10K140/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:02 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "180")
+		(VAC_RMS "140")
+		(PDM "0.4")
+	)
+)
+("S10K150/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:02 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "200")
+		(VAC_RMS "150")
+		(PDM "0.4")
+	)
+)
+("S10K17/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:02 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "22")
+		(VAC_RMS "17")
+		(PDM "0.05")
+	)
+)
+("S10K175/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:02 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "225")
+		(VAC_RMS "175")
+		(PDM "0.4")
+	)
+)
+("S10K20/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:02 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "26")
+		(VAC_RMS "20")
+		(PDM "0.05")
+	)
+)
+("S10K230/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:02 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "300")
+		(VAC_RMS "230")
+		(PDM "0.4")
+	)
+)
+("S10K25/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:02 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "31")
+		(VAC_RMS "25")
+		(PDM "0.05")
+	)
+)
+("S10K250/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:02 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "320")
+		(VAC_RMS "250")
+		(PDM "0.4")
+	)
+)
+("S10K275/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:02 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "350")
+		(VAC_RMS "275")
+		(PDM "0.4")
+	)
+)
+("S10K30/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:02 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "38")
+		(VAC_RMS "30")
+		(PDM "0.05")
+	)
+)
+("S10K300/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:02 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "385")
+		(VAC_RMS "300")
+		(PDM "0.4")
+	)
+)
+("S10K35/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:02 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "45")
+		(VAC_RMS "35")
+		(PDM "0.05")
+	)
+)
+("S10K385/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:02 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "505")
+		(VAC_RMS "385")
+		(PDM "0.4")
+	)
+)
+("S10K40/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "56")
+		(VAC_RMS "40")
+		(PDM "0.05")
+	)
+)
+("S10K420/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "560")
+		(VAC_RMS "420")
+		(PDM "0.4")
+	)
+)
+("S10K460/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "615")
+		(VAC_RMS "460")
+		(PDM "0.4")
+	)
+)
+("S10K50/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "65")
+		(VAC_RMS "50")
+		(PDM "0.4")
+	)
+)
+("S10K550/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "745")
+		(VAC_RMS "550")
+		(PDM "0.4")
+	)
+)
+("S10K60/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "85")
+		(VAC_RMS "60")
+		(PDM "0.4")
+	)
+)
+("S10K625/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "825")
+		(VAC_RMS "625")
+		(PDM "0.4")
+	)
+)
+("S10K680/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "895")
+		(VAC_RMS "680")
+		(PDM "0.4")
+	)
+)
+("S10K75/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "100")
+		(VAC_RMS "75")
+		(PDM "0.4")
+	)
+)
+("S10K95/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "125")
+		(VAC_RMS "95")
+		(PDM "0.4")
+	)
+)
+("S14K1000/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "1465")
+		(VAC_RMS "1100")
+		(PDM "0.6")
+	)
+)
+("S14K11/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "14")
+		(VAC_RMS "11")
+		(PDM "0.1")
+	)
+)
+("S14K115/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "150")
+		(VAC_RMS "115")
+		(PDM "0.6")
+	)
+)
+("S14K130/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "170")
+		(VAC_RMS "130")
+		(PDM "0.6")
+	)
+)
+("S14K14/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "18")
+		(VAC_RMS "14")
+		(PDM "0.1")
+	)
+)
+("S14K140/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "180")
+		(VAC_RMS "140")
+		(PDM "0.6")
+	)
+)
+("S14K150/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "200")
+		(VAC_RMS "150")
+		(PDM "0.6")
+	)
+)
+("S14K17/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "22")
+		(VAC_RMS "17")
+		(PDM "0.1")
+	)
+)
+("S14K175/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "225")
+		(VAC_RMS "175")
+		(PDM "0.6")
+	)
+)
+("S14K20/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "26")
+		(VAC_RMS "20")
+		(PDM "0.10")
+	)
+)
+("S14K230/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "300")
+		(VAC_RMS "230")
+		(PDM "0.6")
+	)
+)
+("S14K25/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "31")
+		(VAC_RMS "25")
+		(PDM "0.1")
+	)
+)
+("S14K250/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "320")
+		(VAC_RMS "250")
+		(PDM "0.6")
+	)
+)
+("S14K275/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "350")
+		(VAC_RMS "275")
+		(PDM "0.6")
+	)
+)
+("S14K30/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:03 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "38")
+		(VAC_RMS "30")
+		(PDM "0.1")
+	)
+)
+("S14K300/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:04 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "385")
+		(VAC_RMS "300")
+		(PDM "0.6")
+	)
+)
+("S14K320/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:04 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "420")
+		(VAC_RMS "320")
+		(PDM "0.6")
+	)
+)
+("S14K35/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:04 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "45")
+		(VAC_RMS "35")
+		(PDM "0.1")
+	)
+)
+("S14K385/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:04 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "505")
+		(VAC_RMS "385")
+		(PDM "0.6")
+	)
+)
+("S14K40/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:04 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "56")
+		(VAC_RMS "40")
+		(PDM "0.1")
+	)
+)
+("S14K420/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:04 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "560")
+		(VAC_RMS "420")
+		(PDM "0.6")
+	)
+)
+("S14K460/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:04 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "615")
+		(VAC_RMS "460")
+		(PDM "0.6")
+	)
+)
+("S14K50/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:04 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "65")
+		(VAC_RMS "50")
+		(PDM "0.6")
+	)
+)
+("S14K550/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:04 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "745")
+		(VAC_RMS "550")
+		(PDM "0.6")
+	)
+)
+("S14K60/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:04 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "85")
+		(VAC_RMS "60")
+		(PDM "0.6")
+	)
+)
+("S14K625/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:04 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "825")
+		(VAC_RMS "625")
+		(PDM "0.6")
+	)
+)
+("S14K680/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:04 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "895")
+		(VAC_RMS "680")
+		(PDM "0.6")
+	)
+)
+("S14K75/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:04 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "100")
+		(VAC_RMS "75")
+		(PDM "0.6")
+	)
+)
+("S14K95/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:04 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "125")
+		(VAC_RMS "95")
+		(PDM "0.6")
+	)
+)
+("S20K1000/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:04 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "1465")
+		(VAC_RMS "1100")
+		(PDM "1")
+	)
+)
+("S20K11/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:04 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2000")
+		(VDC "14")
+		(VAC_RMS "11")
+		(PDM "0.2")
+	)
+)
+("S20K115/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:04 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "150")
+		(VAC_RMS "115")
+		(PDM "1.0")
+	)
+)
+("S20K130/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:04 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "170")
+		(VAC_RMS "130")
+		(PDM "1.0")
+	)
+)
+("S20K14/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:04 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2000")
+		(VDC "18")
+		(VAC_RMS "14")
+		(PDM "0.2")
+	)
+)
+("S20K140/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:04 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "180")
+		(VAC_RMS "140")
+		(PDM "1.0")
+	)
+)
+("S20K150/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:04 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "200")
+		(VAC_RMS "150")
+		(PDM "1.0")
+	)
+)
+("S20K17/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:04 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2000")
+		(VDC "22")
+		(VAC_RMS "17")
+		(PDM "0.2")
+	)
+)
+("S20K175/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "225")
+		(VAC_RMS "175")
+		(PDM "1.0")
+	)
+)
+("S20K20/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2000")
+		(VDC "26")
+		(VAC_RMS "20")
+		(PDM "0.2")
+	)
+)
+("S20K230/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "300")
+		(VAC_RMS "230")
+		(PDM "1.0")
+	)
+)
+("S20K25/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2000")
+		(VDC "31")
+		(VAC_RMS "25")
+		(PDM "0.2")
+	)
+)
+("S20K250/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "320")
+		(VAC_RMS "250")
+		(PDM "1.0")
+	)
+)
+("S20K275/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "350")
+		(VAC_RMS "275")
+		(PDM "1.0")
+	)
+)
+("S20K30/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2000")
+		(VDC "38")
+		(VAC_RMS "30")
+		(PDM "0.2")
+	)
+)
+("S20K300/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "385")
+		(VAC_RMS "300")
+		(PDM "1.0")
+	)
+)
+("S20K320/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "420")
+		(VAC_RMS "320")
+		(PDM "1.0")
+	)
+)
+("S20K35/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2000")
+		(VDC "45")
+		(VAC_RMS "35")
+		(PDM "0.2")
+	)
+)
+("S20K385/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "505")
+		(VAC_RMS "385")
+		(PDM "1.0")
+	)
+)
+("S20K40/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2000")
+		(VDC "56")
+		(VAC_RMS "40")
+		(PDM "0.2")
+	)
+)
+("S20K420/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "560")
+		(VAC_RMS "420")
+		(PDM "1.0")
+	)
+)
+("S20K460/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "615")
+		(VAC_RMS "460")
+		(PDM "1.0")
+	)
+)
+("S20K50/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "65")
+		(VAC_RMS "50")
+		(PDM "1")
+	)
+)
+("S20K550/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "745")
+		(VAC_RMS "550")
+		(PDM "1.0")
+	)
+)
+("S20K60/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "85")
+		(VAC_RMS "60")
+		(PDM "1")
+	)
+)
+("S20K625/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "825")
+		(VAC_RMS "625")
+		(PDM "1.0")
+	)
+)
+("S20K75/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "100")
+		(VAC_RMS "75")
+		(PDM "1")
+	)
+)
+("S20K95/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "125")
+		(VAC_RMS "95")
+		(PDM "1")
+	)
+)
+("SR1210L8S/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "11")
+		(VAC_RMS "8")
+		(PDM "0.01")
+	)
+)
+("SR1210M4S/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "5.5")
+		(VAC_RMS "4")
+		(PDM "0.01")
+	)
+)
+("SR1210M6S/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "8")
+		(VAC_RMS "6")
+		(PDM "0.01")
+	)
+)
+("SR2220L8S/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "11")
+		(VAC_RMS "8")
+		(PDM "0.02")
+	)
+)
+("SR2220M4S/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:05 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "5.5")
+		(VAC_RMS "4")
+		(PDM "0.02")
+	)
+)
+("SR2220M6S/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:06 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "8")
+		(VAC_RMS "6")
+		(PDM "0.02")
+	)
+)
+("CU3225K115G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:06 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "160")
+		(VAC_RMS "115")
+		(PDM "0.10")
+	)
+)
+("CU3225K11G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:06 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "14")
+		(VAC_RMS "11")
+		(PDM "0.01")
+	)
+)
+("CU3225K130G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:06 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "170")
+		(VAC_RMS "130")
+		(PDM "0.10")
+	)
+)
+("CU3225K140G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:06 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "180")
+		(VAC_RMS "140")
+		(PDM "0.10")
+	)
+)
+("CU3225K14G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:06 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "18")
+		(VAC_RMS "14")
+		(PDM "0.01")
+	)
+)
+("CU3225K150G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:06 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "200")
+		(VAC_RMS "150")
+		(PDM "0.10")
+	)
+)
+("CU3225K175G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:06 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "225")
+		(VAC_RMS "175")
+		(PDM "0.10")
+	)
+)
+("CU3225K17G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:06 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "22")
+		(VAC_RMS "17")
+		(PDM "0.01")
+	)
+)
+("CU3225K20G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:06 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "26")
+		(VAC_RMS "20")
+		(PDM "0.01")
+	)
+)
+("CU3225K230G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:06 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "300")
+		(VAC_RMS "230")
+		(PDM "0.10")
+	)
+)
+("CU3225K250G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:06 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "320")
+		(VAC_RMS "250")
+		(PDM "0.10")
+	)
+)
+("CU3225K25G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:06 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "31")
+		(VAC_RMS "25")
+		(PDM "0.01")
+	)
+)
+("CU3225K275G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:06 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "350")
+		(VAC_RMS "275")
+		(PDM "0.10")
+	)
+)
+("CU3225K300G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:06 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "385")
+		(VAC_RMS "300")
+		(PDM "0.10")
+	)
+)
+("CU3225K30G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:06 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "38")
+		(VAC_RMS "30")
+		(PDM "0.01")
+	)
+)
+("CU3225K35G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:06 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "45")
+		(VAC_RMS "35")
+		(PDM "0.01")
+	)
+)
+("CU3225K40G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:06 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "56")
+		(VAC_RMS "40")
+		(PDM "0.01")
+	)
+)
+("CU3225K50G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:06 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "65")
+		(VAC_RMS "50")
+		(PDM "0.10")
+	)
+)
+("CU3225K60G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:06 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "85")
+		(VAC_RMS "60")
+		(PDM "0.10")
+	)
+)
+("CU3225K75G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:06 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "100")
+		(VAC_RMS "75")
+		(PDM "0.10")
+	)
+)
+("CU3225K95G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "125")
+		(VAC_RMS "95")
+		(PDM "0.10")
+	)
+)
+("CU4032K115G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "150")
+		(VAC_RMS "115")
+		(PDM "0.25")
+	)
+)
+("CU4032K11G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "14")
+		(VAC_RMS "11")
+		(PDM "0.02")
+	)
+)
+("CU4032K130G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "170")
+		(VAC_RMS "130")
+		(PDM "0.25")
+	)
+)
+("CU4032K140G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "180")
+		(VAC_RMS "140")
+		(PDM "0.25")
+	)
+)
+("CU4032K14G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "18")
+		(VAC_RMS "14")
+		(PDM "0.02")
+	)
+)
+("CU4032K150G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "200")
+		(VAC_RMS "150")
+		(PDM "0.25")
+	)
+)
+("CU4032K175G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "225")
+		(VAC_RMS "175")
+		(PDM "0.25")
+	)
+)
+("CU4032K17G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "22")
+		(VAC_RMS "17")
+		(PDM "0.02")
+	)
+)
+("CU4032K20G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "26")
+		(VAC_RMS "20")
+		(PDM "0.02")
+	)
+)
+("CU4032K230G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "300")
+		(VAC_RMS "230")
+		(PDM "0.25")
+	)
+)
+("CU4032K250G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "320")
+		(VAC_RMS "250")
+		(PDM "0.25")
+	)
+)
+("CU4032K25G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "31")
+		(VAC_RMS "25")
+		(PDM "0.02")
+	)
+)
+("CU4032K275G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "350")
+		(VAC_RMS "275")
+		(PDM "0.25")
+	)
+)
+("CU4032K300G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "385")
+		(VAC_RMS "300")
+		(PDM "0.25")
+	)
+)
+("CU4032K30G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "38")
+		(VAC_RMS "30")
+		(PDM "0.02")
+	)
+)
+("CU4032K35G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "45")
+		(VAC_RMS "35")
+		(PDM "0.02")
+	)
+)
+("CU4032K40G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "56")
+		(VAC_RMS "40")
+		(PDM "0.02")
+	)
+)
+("CU4032K50G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "65")
+		(VAC_RMS "50")
+		(PDM "0.25")
+	)
+)
+("CU4032K60G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "85")
+		(VAC_RMS "60")
+		(PDM "0.25")
+	)
+)
+("CU4032K75G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "100")
+		(VAC_RMS "75")
+		(PDM "0.25")
+	)
+)
+("CU4032K95G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1200")
+		(VDC "125")
+		(VAC_RMS "95")
+		(PDM "0.25")
+	)
+)
+("CN1206S14BAUTOG/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "16")
+		(VAC_RMS "14")
+		(PDM "0.008")
+	)
+)
+("CN1210S14BAUTOG/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "16")
+		(VAC_RMS "14")
+		(PDM "0.01")
+	)
+)
+("CN1812S14BAUTOG/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "16")
+		(VAC_RMS "14")
+		(PDM "0.015")
+	)
+)
+("CN2220K30AUTOG/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:07 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "34")
+		(VAC_RMS "30")
+		(PDM "0.03")
+	)
+)
+("CN2220S14BAUTOG/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:08 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "16")
+		(VAC_RMS "14")
+		(PDM "0.03")
+	)
+)
+("SR2K20M105Z/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:08 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "26")
+		(VAC_RMS "20")
+		(PDM "0.03")
+	)
+)
+("SR2K20M155Z/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:08 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "26")
+		(VAC_RMS "20")
+		(PDM "0.03")
+	)
+)
+("SR2K20M474X/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:08 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "26")
+		(VAC_RMS "20")
+		(PDM "0.03")
+	)
+)
+("SR2S14BM105Z/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:08 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "16")
+		(VAC_RMS "14")
+		(PDM "0.03")
+	)
+)
+("SR2S14BM155Z/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:08 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "16")
+		(VAC_RMS "14")
+		(PDM "0.03")
+	)
+)
+("SR2S14BM474X/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:08 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "16")
+		(VAC_RMS "14")
+		(PDM "0.03")
+	)
+)
+("CN0805K11G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:08 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "80")
+		(VDC "14")
+		(VAC_RMS "11")
+		(PDM "0.005")
+	)
+)
+("CN0805K14G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:08 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "80")
+		(VDC "18")
+		(VAC_RMS "14")
+		(PDM "0.005")
+	)
+)
+("CN0805L8G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:08 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "80")
+		(VDC "11")
+		(VAC_RMS "8")
+		(PDM "0.005")
+	)
+)
+("CN0805M4G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:08 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "80")
+		(VDC "5.5")
+		(VAC_RMS "4")
+		(PDM "0.005")
+	)
+)
+("CN0805M6G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:08 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "80")
+		(VDC "8")
+		(VAC_RMS "6")
+		(PDM "0.005")
+	)
+)
+("CN1206K11G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:08 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "14")
+		(VAC_RMS "11")
+		(PDM "0.008")
+	)
+)
+("CN1206K14G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:08 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "18")
+		(VAC_RMS "14")
+		(PDM "0.008")
+	)
+)
+("CN1206K17G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:08 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "22")
+		(VAC_RMS "17")
+		(PDM "0.008")
+	)
+)
+("CN1206L8G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:08 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "11")
+		(VAC_RMS "8")
+		(PDM "0.008")
+	)
+)
+("CN1206M4G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:08 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "5.5")
+		(VAC_RMS "4")
+		(PDM "0.008")
+	)
+)
+("CN1206M6G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:08 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "8")
+		(VAC_RMS "6")
+		(PDM "0.008")
+	)
+)
+("CN1210K11G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:08 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "14")
+		(VAC_RMS "11")
+		(PDM "0.01")
+	)
+)
+("CN1210K14G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:08 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "18")
+		(VAC_RMS "14")
+		(PDM "0.01")
+	)
+)
+("CN1210K17G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:08 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "22")
+		(VAC_RMS "17")
+		(PDM "0.01")
+	)
+)
+("CN1812K11G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:08 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "14")
+		(VAC_RMS "11")
+		(PDM "0.015")
+	)
+)
+("CN1812K14G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "18")
+		(VAC_RMS "14")
+		(PDM "0.015")
+	)
+)
+("CN1812K17G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "22")
+		(VAC_RMS "17")
+		(PDM "0.015")
+	)
+)
+("CN1812L8G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "11")
+		(VAC_RMS "8")
+		(PDM "0.015")
+	)
+)
+("CN1812M4G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "5.5")
+		(VAC_RMS "4")
+		(PDM "0.015")
+	)
+)
+("CN1812M6G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "8")
+		(VAC_RMS "6")
+		(PDM "0.015")
+	)
+)
+("CN2220K11G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "14")
+		(VAC_RMS "11")
+		(PDM "0.02")
+	)
+)
+("CN2220K14G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "18")
+		(VAC_RMS "14")
+		(PDM "0.02")
+	)
+)
+("CN2220K17G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "22")
+		(VAC_RMS "17")
+		(PDM "0.02")
+	)
+)
+("CU3225K14AUTOG2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "16")
+		(VAC_RMS "14")
+		(PDM "0.01")
+	)
+)
+("CU3225K17AUTOG2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "20")
+		(VAC_RMS "17")
+		(PDM "0.01")
+	)
+)
+("CU3225K30AUTOG2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "34")
+		(VAC_RMS "30")
+		(PDM "0.01")
+	)
+)
+("CU4032K14AUTOG2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "16")
+		(VAC_RMS "14")
+		(PDM "0.02")
+	)
+)
+("CU4032K17AUTOG2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "20")
+		(VAC_RMS "17")
+		(PDM "0.02")
+	)
+)
+("CU4032K30AUTOG2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "34")
+		(VAC_RMS "30")
+		(PDM "0.02")
+	)
+)
+("S10K14AUTO/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "16")
+		(VAC_RMS "14")
+		(PDM "0.05")
+	)
+)
+("S10K17AUTO/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "20")
+		(VAC_RMS "17")
+		(PDM "0.05")
+	)
+)
+("S14K14AUTO/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "16")
+		(VAC_RMS "14")
+		(PDM "0.1")
+	)
+)
+("S14K17AUTO/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "20")
+		(VAC_RMS "17")
+		(PDM "0.1")
+	)
+)
+("S14K30AUTO/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "34")
+		(VAC_RMS "30")
+		(PDM "0.1")
+	)
+)
+("S20K14AUTO/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2000")
+		(VDC "16")
+		(VAC_RMS "14")
+		(PDM "0.2")
+	)
+)
+("S20K17AUTO/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2000")
+		(VDC "20")
+		(VAC_RMS "17")
+		(PDM "0.2")
+	)
+)
+("S20K25AUTO/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2000")
+		(VDC "28")
+		(VAC_RMS "25")
+		(PDM "0.2")
+	)
+)
+("S20K30AUTO/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2000")
+		(VDC "34")
+		(VAC_RMS "30")
+		(PDM "0.2")
+	)
+)
+("SR1210S14BAUTO/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:09 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "16")
+		(VAC_RMS "14")
+		(PDM "0.01")
+	)
+)
+("SR2220S14BAUTOS/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:10 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "16")
+		(VAC_RMS "14")
+		(PDM "0.03")
+	)
+)
+("SR1K20M105Z/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:10 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "26")
+		(VAC_RMS "20")
+		(PDM "0.015")
+	)
+)
+("SR1K20M155Z/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:10 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "26")
+		(VAC_RMS "20")
+		(PDM "0.015")
+	)
+)
+("SR1K20M474X/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:10 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "26")
+		(VAC_RMS "20")
+		(PDM "0.015")
+	)
+)
+("SR1S14BM105Z/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:10 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "16")
+		(VAC_RMS "14")
+		(PDM "0.015")
+	)
+)
+("SR1S14BM155Z/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:10 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "16")
+		(VAC_RMS "14")
+		(PDM "0.015")
+	)
+)
+("SR1S14BM474X/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:10 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "16")
+		(VAC_RMS "14")
+		(PDM "0.015")
+	)
+)
+("LS40K130QP/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:10 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "170")
+		(VAC_RMS "130")
+		(PDM "1.4")
+	)
+)
+("LS40K150QP/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:10 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "200")
+		(VAC_RMS "150")
+		(PDM "1.4")
+	)
+)
+("LS40K230QP/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:10 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "300")
+		(VAC_RMS "230")
+		(PDM "1.4")
+	)
+)
+("LS40K250QP/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:10 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "320")
+		(VAC_RMS "250")
+		(PDM "1.4")
+	)
+)
+("LS40K275QP/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:10 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "350")
+		(VAC_RMS "275")
+		(PDM "1.4")
+	)
+)
+("LS40K320QP/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:10 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "420")
+		(VAC_RMS "320")
+		(PDM "1.4")
+	)
+)
+("LS40K385QP/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:10 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "505")
+		(VAC_RMS "385")
+		(PDM "1.4")
+	)
+)
+("LS40K420QP/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:10 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "560")
+		(VAC_RMS "420")
+		(PDM "1.4")
+	)
+)
+("LS40K440QP/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:10 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "585")
+		(VAC_RMS "440")
+		(PDM "1.4")
+	)
+)
+("LS40K460QP/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:10 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "615")
+		(VAC_RMS "460")
+		(PDM "1.4")
+	)
+)
+("LS40K550QP/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:10 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "745")
+		(VAC_RMS "550")
+		(PDM "1.4")
+	)
+)
+("LS40K680QP/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:10 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "895")
+		(VAC_RMS "680")
+		(PDM "1.4")
+	)
+)
+("LS40K750QP/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:10 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "1060")
+		(VAC_RMS "750")
+		(PDM "1.4")
+	)
+)
+("CN1206K20G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:10 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "26")
+		(VAC_RMS "20")
+		(PDM "0.008")
+	)
+)
+("CN1206K25G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:10 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "31")
+		(VAC_RMS "25")
+		(PDM "0.008")
+	)
+)
+("CN1206K30G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "38")
+		(VAC_RMS "30")
+		(PDM "0.008")
+	)
+)
+("CN1206K35G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "45")
+		(VAC_RMS "35")
+		(PDM "0.008")
+	)
+)
+("CN1206K40G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100")
+		(VDC "56")
+		(VAC_RMS "40")
+		(PDM "0.008")
+	)
+)
+("CN1206K50G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "80")
+		(VDC "65")
+		(VAC_RMS "50")
+		(PDM "0.008")
+	)
+)
+("CN1206K60G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "80")
+		(VDC "85")
+		(VAC_RMS "60")
+		(PDM "0.008")
+	)
+)
+("CN1210K20G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "26")
+		(VAC_RMS "20")
+		(PDM "0.01")
+	)
+)
+("CN1210K25G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "31")
+		(VAC_RMS "25")
+		(PDM "0.01")
+	)
+)
+("CN1210K30G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "38")
+		(VAC_RMS "30")
+		(PDM "0.01")
+	)
+)
+("CN1210K35G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "45")
+		(VAC_RMS "35")
+		(PDM "0.01")
+	)
+)
+("CN1210K40G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "56")
+		(VAC_RMS "40")
+		(PDM "0.01")
+	)
+)
+("CN1210K50G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "200")
+		(VDC "65")
+		(VAC_RMS "50")
+		(PDM "0.01")
+	)
+)
+("CN1210K60G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "200")
+		(VDC "85")
+		(VAC_RMS "60")
+		(PDM "0.01")
+	)
+)
+("CN1812K20G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "26")
+		(VAC_RMS "20")
+		(PDM "0.015")
+	)
+)
+("CN1812K25G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "31")
+		(VAC_RMS "25")
+		(PDM "0.015")
+	)
+)
+("CN1812K30G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "38")
+		(VAC_RMS "30")
+		(PDM "0.015")
+	)
+)
+("CN1812K35G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "45")
+		(VAC_RMS "35")
+		(PDM "0.015")
+	)
+)
+("CN1812K40G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "56")
+		(VAC_RMS "40")
+		(PDM "0.015")
+	)
+)
+("CN1812K50G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "65")
+		(VAC_RMS "50")
+		(PDM "0.015")
+	)
+)
+("CN1812K60G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "85")
+		(VAC_RMS "60")
+		(PDM "0.015")
+	)
+)
+("CN1812S60AG/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "400")
+		(VDC "85")
+		(VAC_RMS "60")
+		(PDM "0.015")
+	)
+)
+("CN1812S95AG2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "250")
+		(VDC "125")
+		(VAC_RMS "95")
+		(PDM "0.015")
+	)
+)
+("CN2220K20G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "26")
+		(VAC_RMS "20")
+		(PDM "0.02")
+	)
+)
+("CN2220K25G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:11 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "31")
+		(VAC_RMS "25")
+		(PDM "0.02")
+	)
+)
+("CN2220K30G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:12 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "38")
+		(VAC_RMS "30")
+		(PDM "0.02")
+	)
+)
+("CN2220K35G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:12 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "45")
+		(VAC_RMS "35")
+		(PDM "0.02")
+	)
+)
+("CN2220K40G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:12 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "56")
+		(VAC_RMS "40")
+		(PDM "0.02")
+	)
+)
+("CN2220K50G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:12 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "800")
+		(VDC "65")
+		(VAC_RMS "50")
+		(PDM "0.02")
+	)
+)
+("CN2220K60G/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:12 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "800")
+		(VDC "85")
+		(VAC_RMS "60")
+		(PDM "0.02")
+	)
+)
+("B32K440/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:12 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "25000")
+		(VDC "585")
+		(VAC_RMS "440")
+		(PDM "1.2")
+	)
+)
+("B40K440/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:12 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "40000")
+		(VDC "585")
+		(VAC_RMS "440")
+		(PDM "1.4")
+	)
+)
+("B60K440/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:12 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "70000")
+		(VDC "585")
+		(VAC_RMS "440")
+		(PDM "1.6")
+	)
+)
+("B80K440/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:12 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "100000")
+		(VDC "585")
+		(VAC_RMS "440")
+		(PDM "2.0")
+	)
+)
+("CN2220S14BAUTOE2G2/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:12 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "16")
+		(PDM "0.03")
+	)
+)
+("S10K14AUTOD1/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:12 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "500")
+		(VDC "16")
+		(VAC_RMS "14")
+		(PDM "0.05")
+	)
+)
+("S14K14AUTOD1/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:12 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "1000")
+		(VDC "16")
+		(VAC_RMS "14")
+		(PDM "0.1")
+	)
+)
+("S20K680/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:12 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "895")
+		(VAC_RMS "680")
+		(PDM "1")
+	)
+)
+("S10K510/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:12 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "2500")
+		(VDC "670")
+		(VAC_RMS "510")
+		(PDM "0.4")
+	)
+)
+("S14K510/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:12 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "4500")
+		(VDC "670")
+		(VAC_RMS "510")
+		(PDM "0.6")
+	)
+)
+("S20K510/EPC"
+	(Creator "Device property file created by prp_generator on Tue Jun 11 02:35:12 IST 2002")
+	("device_info"
+		(SYMBOL_NAME "VARISTOR")
+		(MODEL_TYPE "334")
+	)
+	("model_params"
+	)
+	("device_pre_smoke"
+		(TERM_CAT "1")
+		(NODE_AN "2")
+		(NODE_CAT "1")
+		(DERATE_TYPE "DIODE")
+	)
+	("device_max_ops"
+		(ITM "6500")
+		(VDC "670")
+		(VAC_RMS "510")
+		(PDM "1")
+	)
+)

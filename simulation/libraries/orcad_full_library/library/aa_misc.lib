@@ -1,0 +1,152 @@
+*$ model description: "awbne67383"
+*b Device model created by analog_uprev for ne67383 on Mon Feb 12 11:15:23 IST 2001
+.subckt awbne67383 D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ STATE_FACTOR=0
++ VTO=-1
++ BETA=0.032
++ ALPHA=3
++ LAMBDA=0.1789
++ RD=3
++ RS=0.11
++ IS=1e-6
++ MODE=1
+Bne67383_0 D G S model63  ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model63 GASFET cgd=1.0E-18 cgs=1.0E-18
++  vto={VTO}
++  beta={BETA}
++  alpha={ALPHA}
++  lambda={LAMBDA}
++  rd={RD}
++  rs={RS}
++  is={IS}
++ 
+.ends  awbne67383
+*$ end model description: "awbne67383"
+*
+*
+*$ model description: "awbidealpmes"
+*b Device model created by analog_uprev for idealpmes on Mon Feb 12 11:09:13 IST 2001
+.subckt awbidealpmes D G S
++ params:
++ IC_VDS=0
++ IC_VGS=0
++ STATE=1
++ STATE_FACTOR=0
++ VTO=-2
++ MODE=1
+Bidealpmes_0 D G S model65  ic= {UIC(ic_vds)}, {UIC(ic_vgs)} 
+.model model65 GASFET cgd=1.0E-18 cgs=1.0E-18
++  vto={VTO}
++ 
+.ends  awbidealpmes
+*$ end model description: "awbidealpmes"
+*
+*
+*$ model description: "awb2n6027"
+*a Device model created by analog_uprev for 2n6027 on Mon Feb 12 11:24:52 IST 2001
+.subckt awb2n6027   1 3 4
+dd10 7 4 m1m2n6027_d1 1
+.model m1m2n6027_d1 d cjo=10.000000p is=10.000000f
+rr8 4 2 44.000000g tc=0 0
+rr2 4 1 10.300000g tc=0 0
+rr5 10 3 400.000000m tc=0 0
+qq5 2 1 10  m2m2n6027_pnpx 1 off
+.model m2m2n6027_pnpx pnp cjc=950.000000p cje=500.000000p ne=1.8 ise=
++ 37.000000p vaf=30 is=10.000000f bf=40
+qq6 1 2 4  m3m2n6027_npnx 1 off
+.model m3m2n6027_npnx npn xtb=5 cjc=950.000000p cje=500.000000p ne=
++ 1.8 ise=37.000000p vaf=30 is=10.000000f bf=40
+rr7 7 10 20.000000meg tc=12.000000m 0
+rr9 1 10 44.000000g tc=0 0
+.ends
+*$ end model description: "awb2n6027"
+*
+*
+*$ model description: "awbv22za1"
+*b Device model created by analog_uprev for v22za1 on Tue Feb  6 03:38:11 IST 2001
+.subckt awbv22za1   21 26
++ params:
++ I1=1m
++ V1=22
++ I2=5
++ V2=47
++ CN=1600p
++ RON=138m
+xinstv22za1   21 26 model334     params:   i1={I1}
++  v1={V1}
++  i2={I2}
++  v2={V2}
++  cn={CN}
++  ron={RON}
++ 
+.ends  awbv22za1
+*$ end model description: "awbv22za1"
+*
+*
+*$ model description: "awbv22za2"
+*b Device model created by analog_uprev for v22za2 on Tue Feb  6 03:38:11 IST 2001
+.subckt awbv22za2   21 26
++ params:
++ I1=1m
++ V1=22
++ I2=5
++ V2=43
++ CN=4000p
++ RON=70m
+xinstv22za2   21 26 model334     params:   i1={I1}
++  v1={V1}
++  i2={I2}
++  v2={V2}
++  cn={CN}
++  ron={RON}
++ 
+.ends  awbv22za2
+*$ end model description: "awbv22za2"
+*
+*
+*$ model description: "awbv22za3"
+*b Device model created by analog_uprev for v22za3 on Tue Feb  6 03:38:11 IST 2001
+.subckt awbv22za3   21 26
++ params:
++ I1=1m
++ V1=22
++ I2=10
++ V2=43
++ CN=9000p
++ RON=49m
+xinstv22za3   21 26 model334     params:   i1={I1}
++  v1={V1}
++  i2={I2}
++  v2={V2}
++  cn={CN}
++  ron={RON}
++ 
+.ends  awbv22za3
+*$ end model description: "awbv22za3"
+*
+*
+*$ model description: "awbv36za80"
+*b Device model created by analog_uprev for v36za80 on Tue Feb  6 03:38:11 IST 2001
+.subckt awbv36za80   21 26
++ params:
++ I1=10m
++ V1=36
++ I2=20
++ V2=63
++ CN=12n
++ RON=30m
+xinstv36za80   21 26 model334     params:   i1={I1}
++  v1={V1}
++  i2={I2}
++  v2={V2}
++  cn={CN}
++  ron={RON}
++ 
+.ends  awbv36za80
+*$ end model description: "awbv36za80"
+*
+*

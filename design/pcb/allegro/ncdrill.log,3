@@ -1,0 +1,88 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : 80DB_LIDAR_1.brd                              )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Wed Dec 04 13:03:54 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		3.5
+ MACHINE-OFFSET		x:0.00000	y:0.00000   (mm)
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		METRIC
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	YES
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		YES
+ TOOL-SELECT		YES
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		YES
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	YES
+ ENHANCED_EXCELLON	YES
+ SCALE			1.000000
+
+ WARNING(SPMHMF-368): Cannot find NC Drill tool file 'nc_tools.txt'
+ WARNING(SPMHMF-369): ... will auto-generate tool file 'nc_tools_auto.txt'.
+
+
+     Auto-generating tool file 'nc_tools_auto.txt' ...
+
+           Size  Plating  Tool        + Tolerance  - Tolerance
+
+         0.3302  P        T01            0.000000     0.000000
+         0.7501  P        T02            0.000000     0.000000
+         1.3716  P        T03            0.000000     0.000000
+         1.3970  P        T04            0.000000     0.000000
+         1.8001  P        T05            0.000000     0.000000
+         3.8100  P        T06            0.000000     0.000000
+         6.3500  N        T07            0.000000     0.000000
+
+
+Drill files being output to directory 'C:/Users/MSDL3/Desktop/OrCAD File/80dB_LiDAR/allegro/drill1' ...
+
+
+
+     '80DB_LIDAR_1-1-4.drl' created for holes connecting TOP and BOTTOM ; Plating = PLATED
+     -------------------------------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   0.3302    0.0000/  0.0000      PLATED       1966
+     T02    2.   0.7501    0.0000/  0.0000      PLATED         96
+     T03    3.   1.3716    0.0000/  0.0000      PLATED        149
+     T04    4.   1.3970    0.0000/  0.0000      PLATED         24
+     T05    5.   1.8001    0.0000/  0.0000      PLATED         32
+     T06    6.   3.8100    0.0000/  0.0000      PLATED          8
+
+     ---- Total holes:                                       2275
+
+     ---- Total head travel:              58.59 feet (17.86 meters)
+
+
+
+
+     '80DB_LIDAR_1-1-4-np.drl' created for holes connecting TOP and BOTTOM ; Plating = NON_PLATED
+     --------------------------------------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T07    1.   6.3500    0.0000/  0.0000  NON_PLATED         17
+
+     ---- Total holes:                                         17
+
+     ---- Total head travel:              2.91 feet (0.89 meters)
+

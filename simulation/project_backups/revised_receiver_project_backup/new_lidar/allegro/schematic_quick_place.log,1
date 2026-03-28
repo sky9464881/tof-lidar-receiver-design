@@ -1,0 +1,102 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : new_lidar.brd                                 )
+(    Software Version : 24.1S003                                      )
+(    Date/Time        : Tue Apr  1 23:42:19 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Placing page ""
+	ERROR:   Could not find symbol:  C1 / CAP_3216_SMC321612_6.8UF / SMC321612
+	ERROR:   Could not find symbol:  C12 / CAP_3216_SMR1005_0.7PF / SMR1005
+	ERROR:   Could not find symbol:  C128 / CAP_3216_SMC321612_100NF / SMC321612
+	ERROR:   Could not find symbol:  C132 / CAP_3216_SMC1608_100NF / SMC1608
+	ERROR:   Could not find symbol:  C134 / CAP_1608_SMC1608_0.1UF / SMC1608
+	ERROR:   Could not find symbol:  C135 / CAP_1608_SMC1608_0.1UF / SMC1608
+	ERROR:   Could not find symbol:  C136 / CAP_1608_SMC1608_0.1UF / SMC1608
+	ERROR:   Could not find symbol:  C137 / CAP_1608_SMC1608_1NF / SMC1608
+	ERROR:   Could not find symbol:  C2 / CAP_1608_SMC1608_0.47UF / SMC1608
+	ERROR:   Could not find symbol:  C7 / CAP_1608_SMC1608_0.47UF / SMC1608
+	ERROR:   Could not find symbol:  C218 / CAP_2012_SMC1608_1NF / SMC1608
+	ERROR:   Could not find symbol:  C220 / CAP_2012_SMC1608_1NF / SMC1608
+	ERROR:   Could not find symbol:  C219 / CAP_2012_SMC1608_0.1UF / SMC1608
+	ERROR:   Could not find symbol:  C221 / CAP_2012_SMC1608_0.1UF / SMC1608
+	ERROR:   Could not find symbol:  C224 / CAP_2012_SMC1608_0.1UF / SMC1608
+	ERROR:   Could not find symbol:  C243 / CAP_2012_SMC1608_0.1UF / SMC1608
+	ERROR:   Could not find symbol:  C49 / CAP_2012_SMC1608_0.1UF / SMC1608
+	ERROR:   Could not find symbol:  C50 / CAP_2012_SMC1608_0.1UF / SMC1608
+	ERROR:   Could not find symbol:  C222 / CAP_2012_SMC1608_10NF / SMC1608
+	ERROR:   Could not find symbol:  C52 / CAP_2012_SMC1608_10NF / SMC1608
+	ERROR:   Could not find symbol:  C223 / CAP_2012_SMC321612_6.8UF / SMC321612
+	ERROR:   Could not find symbol:  C236 / CAP_2012_SMC321612_6.8UF / SMC321612
+	ERROR:   Could not find symbol:  C249 / CAP_2012_SMC321612_6.8UF / SMC321612
+	ERROR:   Could not find symbol:  C53 / CAP_2012_SMC321612_6.8UF / SMC321612
+	ERROR:   Could not find symbol:  C225 / CAP_1608_SMC1608_10UF / SMC1608
+	ERROR:   Could not find symbol:  C227 / CAP_1608_SMC1608_10UF / SMC1608
+	ERROR:   Could not find symbol:  C226 / CAP_1608_SMC1608_22UF / SMC1608
+	ERROR:   Could not find symbol:  C230 / CAP_3216_SMC321612_0.1UF / SMC321612
+	ERROR:   Could not find symbol:  C232 / CAP_3216_SMC321612_0.1UF / SMC321612
+	ERROR:   Could not find symbol:  C248 / CAP_3216_SMC321612_0.1UF / SMC321612
+	ERROR:   Could not find symbol:  C231 / CAP_3216_SMC321612_1NF / SMC321612
+	ERROR:   Could not find symbol:  C233 / CAP_3216_SMC321612_1NF / SMC321612
+	Placed symbol:  C237 / C_CAP196_1NF / CAP196 at (7957.79 13189.31)
+	Placed symbol:  C238 / C_CAP196_0.1UF / CAP196 at (8187.79 13189.31)
+	Placed symbol:  C239 / C_CAP196_0.1UF / CAP196 at (9752.79 12335.00)
+	Placed symbol:  C241 / C_CAP196_0.1UF / CAP196 at (9032.79 12125.00)
+	Placed symbol:  C240 / C_CAP196_6.8UF / CAP196 at (9982.79 12335.00)
+	Placed symbol:  C242 / C_CAP196_6.8UF / CAP196 at (9262.79 12125.00)
+	Placed symbol:  C244 / C_CAP196_4.7U / CAP196 at (8417.79 13447.54)
+	ERROR:   Could not find symbol:  C245 / CAP_2012_SMC2012_47UF / SMC2012
+	ERROR:   Could not find symbol:  IC9 / OPA855IDSGR_0_SON50P200X200X80-9N_OPA855IDSGR / SON50P200X200X80-9N
+	Placed symbol:  J1 / TSW-110-07-G-D_1_TSW-110-XX-YY-D_TSW-110-07-G-D / TSW-110-XX-YY-D at (10219.92 13447.54)
+	ERROR:   Could not find symbol:  JP1 / 4 HEADER_0_HEADER4_4 HEADER / HEADER4
+	ERROR:   Could not find symbol:  R114 / R_1608_SMR1608_500 / SMR1608
+	ERROR:   Could not find symbol:  R117 / R_1608_SMR1608_360 / SMR1608
+	ERROR:   Could not find symbol:  R122 / R_1608_SMR1608_27 / SMR1608
+	ERROR:   Could not find symbol:  R123 / R_1608_SMR1608_50 / SMR1608
+	ERROR:   Could not find symbol:  R126 / R_1608_SMR1608_100 / SMR1608
+	ERROR:   Could not find symbol:  R62 / R_1608_SMR1608_100 / SMR1608
+	ERROR:   Could not find symbol:  R127 / R_1608_SMR1608_200 / SMR1608
+	ERROR:   Could not find symbol:  R129 / R_1608_SMR1608_200 / SMR1608
+	ERROR:   Could not find symbol:  R60 / R_1608_SMR1608_200 / SMR1608
+	ERROR:   Could not find symbol:  R63 / R_1608_SMR1608_200 / SMR1608
+	ERROR:   Could not find symbol:  R128 / RESISTOR VAR_ST5EW_20K / ST5EW
+	ERROR:   Could not find symbol:  R136 / RESISTOR VAR_0_ST5EW_5K / ST5EW
+	ERROR:   Could not find symbol:  R137 / R_3216_SMR1005_10 / SMR1005
+	ERROR:   Could not find symbol:  R138 / R_3216_SMR1005_10 / SMR1005
+	ERROR:   Could not find symbol:  R145 / R_3216_SMR1005_10 / SMR1005
+	ERROR:   Could not find symbol:  R139 / R_1608_SMR1608_0 / SMR1608
+	ERROR:   Could not find symbol:  R140 / R_1608_SMR1608_0 / SMR1608
+	ERROR:   Could not find symbol:  R141 / R_1608_SMR1608_0 / SMR1608
+	ERROR:   Could not find symbol:  R142 / R_1608_SMR1608_0 / SMR1608
+	Placed symbol:  R144 / R_AXRC05_20 / AXRC05 at (8575.29 12536.50)
+	ERROR:   Could not find symbol:  R61 / RESISTOR VAR_ST5EW_20 K / ST5EW
+	ERROR:   Could not find symbol:  R73 / R_3216_SMR3216_200K / SMR3216
+	ERROR:   Could not find symbol:  R74 / R_3216_SMR1005_500 / SMR1005
+	ERROR:   Could not find symbol:  R77 / R_3216_SMR1608_200 / SMR1608
+	ERROR:   Could not find symbol:  R78 / RESISTOR VAR_0_ST5EW_20 K / ST5EW
+	ERROR:   Could not find symbol:  R80 / R_3216_SMR1608_130 / SMR1608
+	ERROR:   Could not find symbol:  U1 / LM2940_0_LM2940_TO220_LM2940 / LM2940_TO220
+	Placed symbol:  U15 / OPA277_SOIC8_OPA277 / SOIC8 at (11613.15 11650.00)
+	Placed symbol:  U73 / OPA277_SOIC8_OPA277 / SOIC8 at (11353.15 12829.43)
+	ERROR:   Could not find symbol:  U16 / TLV3604_SC70_6PIN_TLV3604 / SC70_6PIN
+	ERROR:   Could not find symbol:  U72 / TLV3604_SC70_6PIN_TLV3604 / SC70_6PIN
+	ERROR:   Could not find symbol:  U3 / LM2990_0_LM2990_TO220AB_LM2990 / LM2990_TO220AB
+	ERROR:   Could not find symbol:  U45 / OPA277_OPA277_OPA277 / OPA277
+	Placed symbol:  U63 / SMA_CON_RFSMAV_SMA_CON / RFSMAV at (11900.65 11912.50)
+	Placed symbol:  U70 / OPA695_SOIC8_OPA695 / SOIC8 at (9507.79 12688.00)
+	ERROR:   Could not find symbol:  U74 / R12_4_R12_150_R12_150B / R12_150
+	Placed symbol:  U75 / MTAPD-06-013_MTAPD06013_MTAPD-06-013 / MTAPD06013 at (7658.46 13047.89)
+
+Placing page "1"
+	Placed symbol:  C228 / C_CAP196_100NF / CAP196 at (12728.97 12373.00)
+	Placed symbol:  C229 / C_CAP196_100NF / CAP196 at (12263.15 11600.00)
+	Placed symbol:  D4 / 1N749A_DO35_1N749A / DO35 at (12898.97 11810.00)
+	Placed symbol:  R133 / R_AXRC05_400K / AXRC05 at (12420.65 12271.50)
+	Placed symbol:  R134 / R_AXRC05_2K / AXRC05 at (12996.47 11810.00)
+
+Placed 19 of 85 symbols.
