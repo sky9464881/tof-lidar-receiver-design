@@ -5,6 +5,7 @@
 <img width="1212" height="438" alt="image" src="https://github.com/user-attachments/assets/ea7ebd1e-37db-4588-ab70-8dd0fc9bc7e8" />
 
 >For more details, please see docs/presentation/캡스톤_설계_최종_보고서.pdf.
+
 >더 자세한 내용을 확인하고 싶으시면 docs/presentation/캡스톤_설계_최종_보고서.pdf를 확인하시면 됩니다.
 
 ## Overview
