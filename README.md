@@ -4,6 +4,8 @@
 
 <img width="1212" height="438" alt="image" src="https://github.com/user-attachments/assets/ea7ebd1e-37db-4588-ab70-8dd0fc9bc7e8" />
 
+>For more details, please see docs/presentation/캡스톤_설계_최종_보고서.pdf.
+>더 자세한 내용을 확인하고 싶으시면 docs/presentation/캡스톤_설계_최종_보고서.pdf를 확인하시면 됩니다.
 
 ## Overview
 This project focuses on the design and validation of a receiver front-end for a Pulsed Time-of-Flight (ToF) LiDAR system.  
@@ -37,10 +39,14 @@ The receiver was designed with the following signal chain:
 
 ## Technical Highlights
 ### 1. Requirement-Driven Design
+
+<img width="619" height="457" alt="image" src="https://github.com/user-attachments/assets/5c96d696-8fab-4ddb-9cee-db1239fdf047" />
+
 The receiver design started from system-level requirements such as rise time, bandwidth, SNR, and dynamic range rather than only schematic-level implementation.
 
 ### 2. High-Speed Analog Front-End Design
-<img width="568" height="497" alt="image" src="https://github.com/user-attachments/assets/60044875-55da-41ad-8a6d-c11272e79e83" /><img width="554" height="550" alt="image" src="https://github.com/user-attachments/assets/4e9c9022-57b2-4a2d-8ae6-060af7fb7ba0" />
+
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/60044875-55da-41ad-8a6d-c11272e79e83" /><img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/4e9c9022-57b2-4a2d-8ae6-060af7fb7ba0" />
 
 
 Special attention was given to:
